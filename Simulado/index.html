@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento de Software</title>
+    <link rel="stylesheet" href="../headermenufooter.css">
+    <link rel="stylesheet" href="../estiloMaterias.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Simulado Geral</h1>
+  </header>
+
+  <main>
+    <button onclick="iniciarSimulado()">Começar Simulado</button>
+
+    <section class="campoQuestoes">
+      <h2>Questões Misturadas</h2>
+      <div id="questoes"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Lulubas</p>
+  </footer>
+
+  
+  <script src="../js/questoes.js"></script>
+  <script>
+    function iniciarSimulado() {
+      const todasAsQuestoes = [];
+
+      // junta todas as questões de todas as matérias
+      for (const materia in questoes) {
+        todasAsQuestoes.push(...questoes[materia]);
+      }
+
+      // embaralhar as questões
+      const questoesMisturadas = todasAsQuestoes.sort(() => Math.random() - 0.5);
+
+      // pegar as 10 primeiras
+      const selecionadas = questoesMisturadas.slice(0, 10);
+
+      // exibir na tela
+      const container = document.getElementById("questoes");
+      container.innerHTML = "";
+
+      selecionadas.forEach((q, index) => {
+        const div = document.createElement("div");
+        div.innerHTML = `
+          <p><strong>(${index + 1})</strong> ${q.pergunta}</p>
+          ${q.opcoes.map((op, i) => `
+            <label>
+              <input type="radio" name="q${index}" value="${i}">
+              ${op}
+            </label><br>`).join("")}
+          <hr>
+        `;
+        container.appendChild(div);
+      });
+    }
+  </script>
+</body>
+</html>

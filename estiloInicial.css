@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+main {
+    padding-top: 130px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover {
+    transform: translateY(4px);
+    filter: brightness(0.95)
+}
+
+div#BoxMaterias {
+    background-color: rgb(241, 240, 240);
+    width: 50%;
+    flex: auto;
+    border-radius: 7px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.03);
+}
+
+div.AreaDeConhecimentos {
+    background-color: #cbe3fd;
+    padding: 12px;
+    margin: 15px;
+    border-radius: 7px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.Materias {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 7px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.03);
+}
+
+div#Tranquila {
+    background-color: lightgreen;
+}
+
+div#BomRevisar {
+    background-color: lightyellow;
+}
+
+div#Importante {
+    background-color: lightcoral;
+}
+
+div > p {
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+footer {
+    background-color: #0033a0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100vw;
+}
+
+.questao {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }

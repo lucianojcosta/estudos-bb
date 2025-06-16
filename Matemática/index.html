@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática</title>
+    <link rel="stylesheet" href="../headermenufooter.css">
+    <link rel="stylesheet" href="../estiloMaterias.css">
+</head>
+<body>
+    <header>
+        <h1>Matemática</h1>
+    </header>
+    <div class="menu-hamburguer" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../Banco de Dados/index.html">Banco de Dados</a></li>
+            <li><a href="../Conhecimentos Bancários/index.html">Conhecimentos Bancários</a></li>
+            <li><a href="../Desenvolvimento de Software/index.html">Desenvolvimento de Software</a></li>
+            <li><a href="../Probabilidade e Estatística/index.html">Probabilidade e Estatística</a></li>
+            <li><a href="../Inglês/index.html">Inglês</a></li>
+            <li><a href="../Português/index.html">Português</a></li>
+            <li><a href="../Matemática/index.html">Matemática</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+
+            <!-- AULA XX-->
+    
+            <h2>Aula XX - Matemática</h2>
+            <p><strong>textoo</strong></p>
+
+        </section>
+        <section class="campoQuestoes">
+            <h2>Questões de Matemática</h1>
+            <div id="questoes"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Lulubas</p>
+    </footer>
+  
+    <script src="../js/questoes.js"></script>
+    <script>
+      // Aqui você escolhe a matéria e o número de questões
+      carregarQuestoes('matematica', 15);
+    </script>
+</body>
+</html>

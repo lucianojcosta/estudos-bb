@@ -1,0 +1,1387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento de Software</title>
+    <link rel="stylesheet" href="../headermenufooter.css">
+    <link rel="stylesheet" href="../estiloMaterias.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Desenvolvimento de Software</h1>
+    </header>
+    <div class="menu-hamburguer" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../Banco de Dados/index.html">Banco de Dados</a></li>
+            <li><a href="../Conhecimentos Bancários/index.html">Conhecimentos Bancários</a></li>
+            <li><a href="../Desenvolvimento de Software/index.html">Desenvolvimento de Software</a></li>
+            <li><a href="../Probabilidade e Estatística/index.html">Probabilidade e Estatística</a></li>
+            <li><a href="../Inglês/index.html">Inglês</a></li>
+            <li><a href="../Português/index.html">Português</a></li>
+            <li><a href="../Matemática/index.html">Matemática</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+
+            <!-- AULA 00-->
+    
+            <h2>Aula 00 - Lógica de Programação</h2>
+            <h3>Programação</h3>
+            <p>Com a programação, podemos criar diversos tipos de aplicativos:</p>
+            <ul>
+                <li>Aplicativos web (sites interativos)</li>
+                <li>Aplicativos de gestão empresarial (ERP)</li>
+                <li>Jogos</li>
+                <li>Entre muitos outros</li>
+            </ul>
+            <p>Um computador, por natureza, é “burro e preguiçoso”: ele não sabe o que fazer, e só irá fazer algo a pedido de um terceiro, nunca pela sua própria vontade. <strong><em>A programação computacional vista justamente dizer ao computador o que fazer.</em></strong></p>
+            <p>Essas orientações ao computador são escritas a partir de algoritmos.</p>
+            <h3>Algoritmo</h3>
+            <p>Um algoritmo é uma sequência finita de instruções bem definidas e não ambíguas que descrevem um processo ou conjunto de operações a serem executadas para resolver um problema específico. Essa instruções são lidas e interpretadas em uma ordem específica, usualmente na ordem em que são escritas no código.</p>
+            <p class="destaqueVermelho">Algoritmos são instruções que visam dar uma solução a um problema</p>
+            <p>Saindo do mundo computacional, imagine que você tem uma decisão a tomar - pense que sua namorada (o) está exigindo veementemente que você a leve ao cinema. Diante desse cenário, você concorda e decide ir ao cinema. O objetivo final é assistir ao filme, então você faz uma sequência de passos:</p>
+            <ol>
+                <li>Veste uma roupa cheirosa e limpa</li>
+                <li>Passa para pegar sua companhia</li>
+                <li>Escolhe uma sessão</li>
+                <li>Compra os ingressos para o filme</li>
+                <li>Assiste ao filme</li>
+            </ol>
+            <p>Então, um algoritmo para a situação narrada acima pode ser:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <thead>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 30px;">Início</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 60px;"><span class="verdecodigo">preparação</span>( ) {</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 90px;">colocar a roupa,</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 90px;">pegar a companhia,</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 90px;">ir ao cinema</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 60px;">}</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 60px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 60px;"><span class="verdecodigo">filme</span>( ) {</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 90px;">escolher sessão,</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 90px;">comprar ingresso,</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 90px;">assistir ao filme</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 0px 60px;">}</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 0px 10px 30px;">Fim</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>E pronto, você cumpriu o seu objetivo - que era assistir ao filme no cinema. Porém, no meio desse caminho podem existir situações que impedem a consecução do objetivo, como o fato do filme não estar mais em exibição, ou estar com uma sessão lotada. Na computação, a programação visa, através dos algoritmos, justamente dar instruções gerais e alternativas, para lidar com os percalços, visando chegar num objetivo aceitável.</p>
+            <h3>Linguagens de Programação</h3>
+            <p>Uma linguagem de programação é um conjunto de regras, símbolos e convenções que permitem que programadores escrevam instruções que um computador pode entender e executar. Essas instruções, chamadas de código-fonte, são escritas em um formato compreensível para humanos, mas devem ser traduzidas para uma forma que o computador possa entender e executar, geralmente na forma de código de máquina.</p>
+            <p>Podemos dividir as linguagens de programação conforme alguns grupos distintos, dependendo doque estamos analisando. Por exemplo, podemos classificar:</p>
+            <ul>
+                <li><strong>Nível de Abstração:</strong>
+                    <ul>
+                        <li style="padding: 5px;"><strong>Linguagens de baixo nível:</strong> São mais próximas da linguagem de máquina e fornecem um controle direto sobre o hardware do computador. Exemplos incluem Assembly.</li>
+                        <li style="padding: 5px;"><strong>Linguagens de alto nível:</strong> São mais abstratas e fornecem construções mais poderosas e expressivas. Exemplos incluem Python, Java, C++.</li>
+                    </ul>
+                </li>
+                <li><strong>Paradigma de Programação:</strong>
+                    <ul>
+                        <li style="padding: 5px;"><strong>Imperativa:</strong> As instruções são executadas sequencialmente, alterando o estado do programa através de atribuições. Exemplos incluem C, Fortran.</li>
+                        <li style="padding: 5px;"><strong>Orientada a Objetos:</strong> Os programas são organizados em torno de objetos que podem conter dados e métodos. Exemplos incluem Java, C++.</li>
+                        <li style="padding: 5px;"><strong>Funcional:</strong> Os programas são construídos com funções puras que evitam efeitos colaterais. Exemplos incluem Haskell, Lisp.</li>
+                        <li style="padding: 5px;"><strong>Lógica:</strong> Os programas são construídos em torno de regras lógicas e inferências.Exemplos incluem Prolog.</li>
+                    </ul>
+                </li>
+                <li><strong>Propósito:</strong>
+                    <ul>
+                        <li style="padding: 5px;"><strong>Geral:</strong> São usadas para uma ampla variedade de aplicações. Exemplos incluem Python, C++.</li>
+                        <li style="padding: 5px;"><strong>Específica de Domínio:</strong> São otimizadas para resolver problemas em um domínio específico. Exemplos incluem SQL para bancos de dados, MATLAB para computação numérica.</li>
+                    </ul>
+                </li>
+                <li><strong>Compilação:</strong>
+                    <ul>
+                        <li style="padding: 5px;"><strong>Compiladas:</strong> São traduzidas integralmente para código de máquina antes da execução. Exemplos incluem C, C++.</li>
+                        <li style="padding: 5px;"><strong>Interpretadas:</strong> São executadas linha por linha por um interpretador. Exemplos incluem Python, JavaScript.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Variáveis e Constantes</h3>
+            <p><strong>Conceitos gerais</strong></p>
+            <p>Quando estamos programando, pode ser necessário armazenar algum tipo de valor, de dado, no conjunto de instruções que estamos passando ao computador.</p>
+            <p>A programação tem um tipo de estrutura específica para lidar com isso: são as variáveis. As variáveis representam locais de armazenamento na memória do computador onde valores podem ser guardados e manipulados durante a execução de um programa. Cada variável possui um nome único que a identifica e um tipo de dado que determina o tipo de informação que pode ser armazenada nela.</p>
+            <p>Uma variável é composta de três partes distintas:</p>
+            <ul>
+                <li>Identificador (ou nome)</li>
+                <li>Tipo de dado</li>
+                <li>Valor</li>
+            </ul>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="3">Variáveis</td>
+                        </tr>
+                        <tr>
+                            <th>Tipo de dado</th>
+                            <th>Identificador</th>
+                            <th>Valor</th>
+                        </tr>
+                        <tr>
+                            <td>int</td>
+                            <td>idade</td>
+                            <td>31</td>
+                        </tr>
+                        <tr>
+                            <td>string</td>
+                            <td>frase</td>
+                            <td>parabéns pela aprovação!</td>
+                        </tr>
+                        <tr>
+                            <td>float</td>
+                            <td>nota</td>
+                            <td>5.5</td>
+                        </tr>
+                        <tr>
+                            <td>boolean</td>
+                            <td>resposta</td>
+                            <td>verdadeiro</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>O <strong>identificador</strong> será responsável por, justamente, <strong>identificar</strong> uma variável de <strong>forma inequívoca</strong>. É, basicamente, <strong>o nome da variável</strong>. Então, por exemplo, podemos criar uma variável “Fome”, que irá comportar o valor sobre o estado de fome atual, ou a variável “Cor_Cabelo”, que irá receber valores para cor de cabelo.</p>
+            <p>O <strong>tipo de dado</strong> refere-se ao formato do valor que será alocado à variável. Cada linguagem específica trabalha com tipos de dados diferentes, mas, de forma geral, podemos definir alguns tipos de dados básicos - e que usaremos hoje:</p>
+            <ul>
+                <li><strong><u>Caracteres</u> - string</strong> > um conjunto de caracteres alfanuméricos. Exemplo: "Você será aprovado, Coruja!"</li>
+                <li><strong><u>Números inteiros</u> - int</strong> > números do tipo inteiro. Exemplo: 4, 9, 13, 293</li>
+                <li><strong><u>Números decimais</u> - double ou float</strong> > números de precisão decimal. Exemplo: 4.91</li>
+                <li><strong><u>Lógico</u> - boolean</strong> > valores lógicos. Exemplo: Verdadeiro, Falso.</li>
+            </ul>
+            <p>Então, uma variável do tipo string comportará um conjunto de caracteres, usualmente formando algum tipo de texto. Especificamente nesse caso, as strings são delimitadas pelo uso de aspas - podendo ser aspas simples <span class="destaqueCinza">´string´</span> ou aspas duplas <span class="destaqueCinza">“string”</span>. Isso é um ponto muito importante, e cobrado muito pelas bancas, veja os seguintes valores:</p>
+            <ul>
+                <li>5</li>
+                <li>“5”</li>
+            </ul>
+            <p>Se formos fazer uma comparação restrita, isso é, verificando tanto o valor quanto o tipo do dado anotado, veremos que os dois valores são diferentes. Portanto, 5 ≠ “5”. Isso, pois a notação 5 indica que estamos trabalhando com um tipo numérico inteiro, e a notação “5” com uma string de caracteres.</p>
+            <p>Outro ponto que é importante destacar sobre os tipos de dado é a <strong>tipagem</strong>. A tipagem diz respeita à forma como as linguagens lidam com as definições de tipos de dado. Cada linguagem de programação pode ter propriedades diferentes quanto <strong>à força da tipagem</strong> e quanto à <strong>dinamicidade da tipagem</strong>. A <strong>força da tipagem</strong> diz respeito à <strong>rigidez ou flexibilidade</strong> de uma linguagem com relação aos <strong>tipos de dados de uma variável</strong>.</p>
+            <p>No aspecto de força, uma linguagem pode ser:</p>
+            <ul>
+                <li><strong>Fortemente tipada:</strong> o escopo do tipo de dado não é flexível, não permitindo, portanto, operações entre tipos de dados distintos - assim, é exigida uma transformação explícita dos dados ao mesmo tipo antes de operações, caso contrário a operação apontará erros. Exemplo de linguagens fortemente tipadas incluem Python e Java.</li>
+                <li><strong>Fracamente tipada:</strong> temos um escopo flexível para cada variável, permitindo operações entre diferentes tipos sem a necessidade de uma transformação de tipo de dado explícita, já que a linguagem irá fazer a conversão implicitamente. Exemplos de linguagem incluem JavaScript e PHP.</li>
+            </ul>
+            <p>Já a <strong>dinamicidade</strong> da tipagem diz respeito sobre a capacidade de uma linguagem determinar o tipo de variável durante a execução de um programa. Uma linguagem pode ser também de dois tipos, quanto à dinamicidade:</p>
+            <ul>
+                <li><strong>Tipagem dinâmica:</strong> o tipo é definido com base no valor que está sendo atribuído, sem necessidade de indicação expressa do tipo de dado. Exemplo: JavaScript e Python.</li>
+                <li><strong>Tipagem estática:</strong> a linguagem é incapaz de definir, por ela mesma, o tipo de dado apenas com base no valor - nesse caso, é necessária uma declaração explícita do tipo de dado junto da variável. Exemplo: Java, C++.</li>
+            </ul>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="4">Propriedades do Tipo</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Força</th>
+                            <th colspan="2">Dinamicidade</th>
+                        </tr>
+                        <tr>
+                            <th>Tipagem fraca</th>
+                            <th>Tipagem forte</th>
+                            <th>Tipagem dinâmica</th>
+                            <th>Tipagem estática</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>E, por fim, temos o <strong>valor</strong> da variável. É nele que declaramos o que a variável comportará, seu conteúdo. Esse valor, por estarmos tratando de uma variável, é, justamente, variável. Ele poderá ser modificado ao longo da execução de um código sem nenhum problema maior. Em contraponto a isso, temos as <strong>constantes</strong>. Valores armazenados em uma constante não podem ser alterados depois de declarados e atribuídos.</p>
+            <p class="destaqueVermelho">Variável > Valor pode ser alterado<br>Constante > Valor não pode ser alterado</p>
+            <h3>Declarando variáveis</h3>
+            <p>Agora que você sabe o que é uma variável, precisamos aprender a declará-la. Já fizemos isso lá em cima, quando dei o exemplo de uma variável idade a vocês. Cada linguagem tem uma forma diferente, veja como funciona em diferentes linguagens:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>let</em></span> melhorCurso <span class="rosacodigo">=</span> <span class="amarelocodigo">"Estratégia"</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">melhorCurso <span class="rosacodigo">=</span> <span class="amarelocodigo">"Estratégia"</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">R</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">melhorCurso <span class="rosacodigo">&#8249;-</span> <span class="amarelocodigo">"Estratégia"</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Java</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> melhorCurso <span class="rosacodigo">=</span> <span class="amarelocodigo">"Estratégia"</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Essas variáveis podem ser usadas em todo o programa? A resposta é: <strong>depende</strong>.</p>
+            <p>Aas variáveis têm uma propriedade chamada de escopo. O escopo define onde poderemos usar nossa variável dentro do programa, do código da aplicação. De forma geral, temos dois tipos de escopo:</p>
+            <ul>
+                <li><strong>Escopo global:</strong> as variáveis podem ser acessadas (usadas) em qualquer ponto do código, seja fora ou dentro um outro bloco de código interno, como funções, métodos, classes etc.</li>
+                <li><strong>Escopo local:</strong> são acessíveis somente no contexto em que foram criadas. Por exemplo, uma variável criada dentro de uma classe, só é utilizada dentro dessa classe.</li>
+            </ul>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="2">Escopo de uma variável</th>
+                        </tr>
+                        <tr>
+                            <th>Global</th>
+                            <th>Local</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Ordem de leitura</h3>
+            <p>Temos três tipos de estruturas num código, que delimitam a ordem de leitura das instruções:</p>
+            <ul>
+                <li><strong>Estrutura sequencial: </strong>é a estrutura geral do código, que exige uma leitura sequencial do código, na ordem em que ele aparece.</li>
+                <li><strong>Estrutura de seleção: </strong>são estabelecidas por sintaxes condicionais, e delimitam que apenas uma das opções deve ser escolhida. Exemplo dessa estrutura são os bloco <span class="destaqueCinza">Se...então</span>.</li>
+                <li><strong>Estrutura de iteração/repetição: </strong>define um bloco de código que deve ser repetido enquanto determinada condição for obedecida. Exemplo dessa estrutura são os blocos <span class="destaqueCinza">Enquanto</span>.</li>
+            </ul>
+            <p>Quando estamos encarando a estrutura sequencial, determinada linha de código não tem conhecimento de nada que está escrito após ela - por isso, <strong>não podemos acessar o valor de variáveis antes de declará-las</strong>.</p>
+            <p>Outro ponto importante na leitura e interpretação de códigos é a <strong>indentação</strong> - esses pequenos espaços deixados antes de começarmos um código, à esquerda dele. Ela permite uma leitura mais limpa do código, garantindo a correta interpretação da hierarquia entre os diversos objetos de um código - inclusive, em alguns formatos de arquivos de marcação, como YAML, e linguagens de programação, como o Python, a indentação é obrigatória e serve como parâmetro de interpretação do arquivo.</p>
+            <p>Lembre-se: <strong>sempre endente seu código</strong>.</p>
+            <h3>Operadores</h3>
+            <p>Os operadores, sejam eles os matemáticos, como soma + e diferença -, ou até mesmo os comparativos, como o “maior ou igual” ≥. Na programação, esses operadores também estão presentes e ocupam um papel de destaque.</p>
+            <p>Temos 3 grupos diferentes de operadores: os operadores matemáticos, os operadores relacionais e os operadores lógicos. Vamos conhecê-los! </p>
+            <h3>Operadores matemáticos</h3>
+            <p>Os operadores matemáticos são operadores que visam trazer operações matemáticas para o contexto da programação. Com ele, podemos criar expressões matemáticas, equações, e outras operações. Vamos a uma tabela-resumo.</p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Operador</th>
+                            <th>Símbolo</th>
+                            <th>Exemplo</th>
+                        </tr>
+                        <tr>
+                            <td>Adição</td>
+                            <td>+</td>
+                            <td>4 + 4 == 8</td>
+                        </tr>
+                        <tr>
+                            <td>Subtração</td>
+                            <td>-</td>
+                            <td>4 - 3 == 1</td>
+                        </tr>
+                        <tr>
+                            <td>Multiplicação</td>
+                            <td>*</td>
+                            <td>4 * 3 == 12</td>
+                        </tr>
+                        <tr>
+                            <td>Divisão</td>
+                            <td>/</td>
+                            <td>6 / 3 == 2</td>
+                        </tr>
+                        <tr>
+                            <td>Divisão inteira</td>
+                            <td>/</td>
+                            <td>6 / 4 == 1</td>
+                        </tr>
+                        <tr>
+                            <td>Exponenciação</td>
+                            <td>^</td>
+                            <td>3^2 == 9</td>
+                        </tr>
+                        <tr>
+                            <td>Módulo (resto)</td>
+                            <td>%</td>
+                            <td>3%2 == 1</td>
+                        </tr>
+                        <tr>
+                            <td>Incremento</td>
+                            <td>++</td>
+                            <td>++4 = 5</td>
+                        </tr>
+                        <tr>
+                            <td>Decremento</td>
+                            <td>--</td>
+                            <td>--4 = 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><strong>Soma de Strings</strong></p>
+            <p>Esse tipo de operação, na computação, recebe um nome especial: concatenação. A concatenação de textos é uma operação que faz, basicamente, a junção de dois blocos de texto. Veja, em código, como ela funciona:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> nome <span class="rosacodigo">=</span> <span class="amarelocodigo">"Felipe";</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> sobrenome <span class="rosacodigo">=</span> <span class="amarelocodigo">"Martins";</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> nomeCompleto <span class="rosacodigo">=</span> nome <span class="rosacodigo">+</span> sobrenome;</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span> (<span style="color: chocolate;"><em>nomeCompleto</em></span>) <span class="comentariocodigo">//função para mostrar o valor no terminal</span></td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">FelipeMartins</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Operadores Relacionais</h3>
+            <p>Os <strong>operadores relacionais</strong> são direcionados a criar relações, comparações entre diferentes elementos. Então, temos operadores como “igual a”, “maior que”, entre outros. É importante ressaltar que <strong>o retorno</strong> de um operador relacional <strong>sempre será um valor booleano</strong>. Ou seja, o valor será verdadeiro, ou falso.</p>
+            <p>Os operadores são:</p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Operador</th>
+                            <th>Símbolo</th>
+                            <th>Exemplo</th>
+                        </tr>
+                        <tr>
+                            <td>Igualdade</td>
+                            <td>==</td>
+                            <td>4 == 4 &#8658; verdadeiro</td>
+                        </tr>
+                        <tr>
+                            <td>Diferença</td>
+                            <td>!= ou <></td>
+                            <td>4 != 4 &#8658; falso</td>
+                        </tr>
+                        <tr>
+                            <td>Maior que</td>
+                            <td>></td>
+                            <td>4 > 3 &#8658; verdadeiro</td>
+                        </tr>
+                        <tr>
+                            <td>Menor que</td>
+                            <td><</td>
+                            <td>4 < 3 &#8658; falso</td>
+                        </tr>
+                        <tr>
+                            <td>Maior ou igual a</td>
+                            <td>>=</td>
+                            <td>4 >= 4 &#8658; verdadeiro</td>
+                        </tr>
+                        <tr>
+                            <td>Menor ou igual a</td>
+                            <td><=</td>
+                            <td>4 <= 4 &#8658; verdadeiro</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Operadores Lógicos</h3>
+            <p>Os operadores lógicos são operadores que introduzem as operações de lógica booleana, aquela que vemos junto de raciocínio lógico matemático, dentro do panorama de programações. Na lógica booleana, temos 2 valores: valores verdadeiros, e valores falsos. Dados esses valores, podemos fazer comparações lógicas entre eles, através de 3 operadores:</p>
+            <ul>
+                <li><strong>E</strong></li>
+                <li><strong>OU</strong></li>
+                <li><strong>NÃO</strong> (ou <strong>NEGAÇÃO</strong>)</li>
+            </ul>
+            <p>Nos operadores relacionais, a saída será um valor booleano a partir da comparação de dois valores quaisquer. Aqui nos operadores lógicos, a saída também será um valor booleano - porém, estamos comparando outros dois valores booleanos.</p>
+            <p><strong>E lógico (conjunção)</strong></p>
+            <p>O comparador <strong>E lógico</strong> é usado para comparar duas expressões booleanas e <strong>resulta em verdadeiro apenas se ambas as expressões forem verdadeiras</strong>. Se uma das expressões for falsa, <strong>o resultado da operação será falso</strong>. Então, podemos ter os seguintes casos, considerando dois valores booleanos distintos:</p>
+            <ul>
+                <li>Verdadeiro <strong>E</strong> Verdadeiro &#8658; Verdadeiro</li>
+                <li>Verdadeiro <strong>E</strong> Falso &#8658; Falso</li>
+                <li>Falso <strong>E</strong> Verdadeiro &#8658; Falso</li>
+                <li>Falso <strong>E</strong> Falso &#8658; Falso</li>
+            </ul>
+            <p><strong>OU lógico (disjunção)</strong></p>
+            <p>Com o comparador <strong>OU lógico</strong>, comparamos duas expressões lógicas e temos como resultado o <strong>valor verdadeiro se algum dos dois valores comparados</strong>, <strong>ou ambos</strong>, <strong>forem verdadeiros</strong>. Ou seja, só retornaremos falso se todos os elementos forem falsos. Então, teremos os seguintes casos:</p>
+            <ul>
+                <li>Verdadeiro <strong>OU</strong> Verdadeiro &#8658; Verdadeiro</li>
+                <li>Verdadeiro <strong>OU</strong> Falso &#8658; Verdadeiro</li>
+                <li>Falso <strong>OU</strong> Verdadeiro &#8658; Verdadeiro</li>
+                <li>Falso <strong>OU</strong> Falso &#8658; Falso</li>
+            </ul>
+            <p><strong>NÃO lógico (negação)</strong></p>
+            <p>O último comparador não é bem uma comparação, já que, diferentemente doas anteriores, ele não compara dois valores, ele age em um único valor. O <strong>NÃO</strong> é responsável por “inverter” o valor de uma variável - ou seja, se ela é verdadeira, a o NÃO irá a transformar em falsa; se for falsa, o NÃO irá a transformar em verdadeira. Então, temos os seguintes casos:</p>
+            <ul>
+                <li><strong>NÃO</strong> Verdadeiro &#8658; Falso</li>
+                <li><strong>NÃO</strong> Falso &#8658; Verdadeiro</li>
+            </ul>
+            <h3>Estruturas Condicionais</h3>
+            <p>Na computação não é diferente, precisamos pensar em diversas situações diferentes para que um programa lide com elas. Para esses casos, surge uma estrutura basilar em toda a programação - as <strong>estruturas condicionais</strong>. Temos duas estruturas principais que você precisa saber e entender: o <strong>Se...então</strong> e o <strong>Escolha...caso</strong>.</p>
+            <p>Essas estruturas são chamadas de <strong>estruturas de seleção</strong>, pois deve-se selecionar um caminho para ser seguido. Vamos entender cada uma das estruturas.</p>
+            <p><strong>Se...então</strong></p>
+            <p>O <strong>Se...então</strong> (ou If...Then, em inglês) é a estrutura básica das condicionais em programação. Nela, analisamos determinada situação, se ela for verificada, ou seja, <strong>se a comparação feita for de valor</strong> <span class="destaqueCinza">Verdadeiro</span>, <strong>executaremos determinado bloco de código</strong>. Veja que aqui iremos usar os operadores lógicos e relacionais.</p>
+            <p>Essa condicional será composta de duas partes:</p>
+            <ul>
+                <li><strong><span class="destaqueCinza">Se (comparação)</span></strong> → é a comparação que será verificada, e só será aceita se o valor em (comparação) for verdadeiro</li>
+                <li><strong><span class="destaqueCinza">Então: -bloco de código-</span></strong> → é o bloco de código executado se for a</li>
+            </ul>
+            <p>Exemplo de código:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> Nota_do_aluno <span class="rosacodigo">=</span> <span class="roxocodigo">6</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> Situação_do_aluno <span class="rosacodigo">=</span> <span class="verdelevecodigo">" "</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Se</span> (Nota_do_aluno <span class="rosacodigo">&#62 =</span> <span class="roxocodigo">7</span>)<span class="amarelocodigo"> Então:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"></span> Situação_do_aluno <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Aprovado"</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Se</span> (Nota_do_aluno <span class="rosacodigo">&#60</span> <span class="roxocodigo">7</span> <span class="rosacodigo">&#38&#38</span> Nota_do_aluno <span class="rosacodigo">&#62 =</span> <span class="roxocodigo">5</span>)<span class="amarelocodigo"> Então:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"></span> Situação_do_aluno <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Recuperação"</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Senão:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"></span> Situação_do_aluno <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Reprovado"</span>;</td>
+                        </tr>
+                                                <tr>
+                            <td class="umtab"><span class="amarelocodigo">Fim Se</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span> (Situação_do_aluno)</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">Recuperação</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><strong>Escolha...caso</strong></p>
+            <p>O Escolha...caso (também chamado de Switch...case) é um formato de condicional para seleções múltiplas, adequado quando temos um conjunto de condições serem verificadas. Cada caso irá analisar uma condição diferente, e, se for verificada a condição desse caso específico, ela será implementada. Terminamos o bloco de Escolha...caso com um senão, que será uma opção residual: se nenhuma outra condição tiver a sua veracidade verificada, ativaremos esse bloco.</p>
+            <p>Exemplo de código:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> Nota_do_aluno <span class="rosacodigo">=</span> <span class="roxocodigo">6</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> Situação_do_aluno <span class="rosacodigo">=</span> <span class="verdelevecodigo">" "</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Escolha</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">Caso</span> (Nota_do_aluno <span class="rosacodigo">&#62 =</span> <span class="roxocodigo">7</span>)<span class="amarelocodigo"> Faça:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="trestab"></span> Situação_do_aluno <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Aprovado"</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">Caso</span> (Nota_do_aluno <span class="rosacodigo">&#60</span> <span class="roxocodigo">7</span> <span class="rosacodigo">&#38&#38</span> Nota_do_aluno <span class="rosacodigo">&#62 =</span> <span class="roxocodigo">5</span>)<span class="amarelocodigo"> Faça:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="trestab"></span> Situação_do_aluno <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Recuperação"</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">Senão:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="trestab"></span> Situação_do_aluno <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Reprovado"</span>;</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Fim Escolha</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span> (Situação_do_aluno)</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="doistab">Recuperação</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Estruturas de Repetição</h3>
+            <p>Imagine que você precise criar um código que irá Escrever, no terminal, os números de 1 a 1.000.000. De uma forma rudimentar, baseada na “força bruta”, você poderia escrever o código da seguinte forma:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(<span class="rosacodigo">1</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(<span class="rosacodigo">2</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(<span class="rosacodigo">3</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="rosacodigo">...</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(<span class="rosacodigo">999999</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(<span class="rosacodigo">1000000</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Já pensou o trabalho que seria escrever cada uma dessas linhas? 1 milhão de linhas para um programa relativamente simples. Para resolver esses problemas, assim como implementar mais dinamicidade nos códigos, entram em voga as <strong>estruturas de repetição</strong> (também chamadas de estruturas de iteração) . Nela, repetiremos determinado bloco de código conforme a condição de verificação. Esse tipo de estrutura pode ser chamada de <strong>loop</strong>, em inglês, e cada repetição do bloco é chamada de <strong>iteração</strong>, ou <strong>laço</strong>.</p>
+            <p>Temos 4 formas de repetição que iremos abordar:</p>
+            <ul>
+                <li><strong>Enquanto</strong></li>
+                <li><strong>Repita...até</strong></li>
+                <li><strong>Faça...enquanto</strong></li>
+                <li><strong>Para</strong></li>
+            </ul>
+            <h4>Enquanto</h4>
+            <p>O <strong><span class="destaqueCinza">Enquanto</span></strong> (ou While) é uma estrutura de repetição que irá repetir determinado bloco de código <strong>enquanto a condição de verificação tiver valor <span class="destaqueCinza">Verdadeiro</span></strong>. Aqui, a verificação é feita antes de iniciarmos a execução, se o valor for verdadeiro, seguimos em frente na execução; caso contrário, a repetição é terminada.</p>
+            <p>Vamos refazer a nossa contagem de 1 a 1.000.000 com a estrutura do <span class="destaqueCinza">Enquanto</span>. Para isso, criaremos uma variável para comportar os números, chamada de <span class="destaqueCinza">contagem</span>, e, a cada laço do <span class="destaqueCinza">Enquanto</span>, iremos fazer um incremento nessa variável, usando o operador ++. Lembrando que esse código será executado enquanto a variável <span class="destaqueCinza">contagem</span> for menor ou igual a 1.000.000. O código ficará da seguinte forma:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>int</em></span> contagem <span class="rosacodigo">=</span> <span class="roxocodigo">1</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Enquanto</span> (contagem <span class="rosacodigo">&#60 =</span> <span class="roxocodigo">1000000</span>)<span class="amarelocodigo"> Faça:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">Escrever</span>(contagem)</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="doistab">contagem<span class="rosacodigo">++</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Fim Enquanto</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h4>Repita...Enquanto</h4>
+            <p>A segunda forma de estrutura de repetição, o <span class="destaqueCinza"><strong>Repita...até</strong></span>, que também pode aparecer como <span class="destaqueCinza"><strong>Faça...até</strong></span>, é uma estrutura muito similar ao enquanto - porém, <strong>a verificação da condição é feita após a execução do bloco de código</strong>. Então, aqui, mesmo que a condição não seja satisfeita, iremos executar o bloco de código ao menos uma vez. Além disso, aqui o bloco de código é <strong>executado enquanto a condição for falsa</strong>. Se a condição for implementada, verdadeira, sairemos do bloco.</p>
+            <p>Vamos pegar o mesmo código que usamos anteriormente, no Enquanto, e aplicá-lo aqui.</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>int</em></span> contagem <span class="rosacodigo">=</span> <span class="roxocodigo">1</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Repita:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">Escrever</span>(contagem)</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="doistab">contagem<span class="rosacodigo">++</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Até</span> (contagem <span class="rosacodigo">></span> <span class="roxocodigo">1000000</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Fim Repita</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Se você respondeu 1.000.001, parabéns! Você entendeu a <strong>ordem de interpretação de um código</strong>. Veja bem, quando tivermos o valor 1.000.000, a verificação <span class="destaqueCinza">contagem ≤ 1.000.000</span> ainda será verdadeira - o que quer dizer que iremos executar mais uma vez o código. Dessa vez, o valor de contagem será levado a 1.000.001, e, na verificação da condição, não teremos mais o valor <span class="destaqueCinza">Verdadeiro</span> e iremos romper o loop.</p>
+            <h4>Faça...Enquanto</h4>
+            <p>O <span><strong>Faça...enquanto</strong></span>, ou <span>Do...while</span>, é uma estrutura de repetição muito semelhante ao Repita...até, mas com algumas diferenças “grandes”. Ele também executará, obrigatoriamente, um bloco de código - e irá executá-lo repetidas vezes, <strong>desde que a condição de verificação seja verdadeira</strong>.</p>
+            <p>Veja que já temos uma primeira diferença - o Faça...enquanto irá executar as instruções enquanto a condição for verdadeira. Uma segunda diferença é o momento da verificação da condição: apesar de executar um bloco independentemente do que ocorra, o Faça...enquanto verifica a condição <strong>antes</strong> de executar o bloco uma vez, enquanto o Repita...até verifica depois. Então, resumindo:</p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Aspecto</th>
+                            <th>Repita...até</th>
+                            <th>Faça...enquanto</th>
+                        </tr>
+                        <tr>
+                            <td class="destaque">Tipo de Estrutura</td>
+                            <td>Repetição (loop)</td>
+                            <td>Repetição (loop)</td>
+                        </tr>
+                        <tr>
+                            <td class="destaque">Executa o bloco ao menos uma vez</td>
+                            <td>Sim</td>
+                            <td>Sim</td>
+                        </tr>
+                        <tr>
+                            <td class="destaque">Verificação de condição</td>
+                            <td>Depois de executar o primeiro bloco</td>
+                            <td>Antes de executar o primeiro bloco</td>
+                        </tr>
+                        <tr>
+                            <td class="destaque">Encerramento do Loop</td>
+                            <td>Quando a condição se tornar VERDADEIRA</td>
+                            <td>Quando a condição se tornar FALSA</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h4>Para</h4>
+            <p>A estrutura de repetição <strong>Para</strong> é uma estrutura destinada a uso quando você já sabe quantas iterações, quantos laços do loop você quer que sejam realizados. No Para, definimos um <strong>valor inicial, um valor final e quanto esse valor será incrementado (ou decrementado) a cada laço</strong> - servindo como forma de controle para quantas iterações teremos.</p>
+            <p>O uso do Para passa a ser interessante quando o valor da variável local declarada é útil para o contexto do loop. Por exemplo, na nossa contagem de 1 a 1.000.000, podemos fazer a execução do nosso programa numa forma bem reduzida. Aqui, utilizarei a variável local i, que iniciará em 0 e irá até 1.000.000, incrementando em 1 unidade a cada laço. Utilizarei essa mesma variável local no comando Escrever(), dentro do bloco de código, para que esse valor seja impresso. Veja como diminuímos o tamanho do código:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Para</span> i <span class="amarelocodigo">de</span> 1 <span class="amarelocodigo">a</span> 1000000 <span class="amarelocodigo">Faça</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">Escrever</span>(contagem)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Fim Para</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Estruturas de Desvio</h3>
+            <p>Pode ser que determinadas linhas de código só precisem ser executadas se determinada condição for (ou não for) satisfeita. Por exemplo, se determinada condição for falsa, pode ser que tenhamos que executar uma série de salvaguardas para proteger a aplicação, como numa tentativa de invasão de hackers. Porém, se a condição for verdadeira, esse determinado bloco não seria executado.</p>
+            <p>Embora muitas estruturas que vimos podem agir implementando esse “salto” de linhas, como, por exemplo, uma estrutura condicional, temos uma estrutura específica para esses casos: é a <strong>estrutura de desvio incondicional</strong> - representada nos algoritmos por <span class="destaqueCinza"><strong>Vá para</strong></span>, ou, em inglês, Go to. Apesar de não termos essa limitação em pseudocódigo, essa estrutura de desvio não é suportada nativamente por diversas linguagens, necessitando de uma adaptação através de funções.</p>
+            <p>Veja um exemplo:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>Inicio</em></span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>int</em></span> nota</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>String</em></span> situaçao</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Se</span> (nota <span class="rosacodigo">> =</span> <span class="roxocodigo">7</span> ) <span class="amarelocodigo">Então</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">Situaçao <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Aprovado"</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">Vá_para</span> <span class="azulcodigo"><em>Fim</em></span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Fim Se</span></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Função Prova_de_Recuperação</span>( ) {</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="comentariocodigo">//bloco de código</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">}</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">Se (nota <span class="rosacodigo"><</span> <span class="roxocodigo">5</span>) <span class="amarelocodigo">Então</span></span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">Situaçao <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Reprovado"</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">Fim Se</span></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>Fim</em></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>No exemplo acima, pularemos toda a parte do código necessário para gerar uma prova de recuperação, caso a nota do aluno seja maior ou igual a 7. Outros casos comuns de uso do Vá para envolvem loops aninhados - onde, se determinada condição no loop interno for satisfeita, usamos um comando de desvio para encerrar o loop total, tanto interno quanto externo.</p>
+            <h3>Estruturas de Dados</h3>
+            <p>As <strong>Estruturas de Dados</strong> são formas de agruparmos diversos valores em uma única variável. Esses assuntos são vistos com mais profundidade em aula específica, mas, como muitas questões de lógica de programação exigem conhecimentos acerca desses assuntos, vou passar um panorama geral para você do que é cada estrutura de dados. Veremos 6 estruturas na aula de hoje:</p>
+            <ul>
+                <li>Vetores</li>
+                <li>Listas</li>
+                <li>Filas</li>
+                <li>Pilhas</li>
+                <li>Matrizes</li>
+                <li>Registros</li>
+            </ul>
+            <h4>Vetores</h4>
+            <p>Os vetores, também referenciados pelo seu nome em inglês, array, são estruturas de dados homogêneas, isso é, recebem somente um tipo de dado, que comportam uma coleção de dados ordenados. Além disso, eles são um tipo de estrutura unidimensional, ou seja, os dados são agrupados em uma única direção, formando uma lista de dados. Para declararmos vetores, vamos usar o seguinte padrão:</p>
+            <div style="text-align: left; padding: 6px;"><img width="800px" src="img/vetores.png" alt=""></div>
+            <p>Então, por exemplo, imagine a seguinte declaração:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>int</em></span> vetorNumeros <span class="rosacodigo">=</span> vetor [<span class="roxocodigo">1</span>, <span class="roxocodigo">2</span>, <span class="roxocodigo">3</span>, <span class="roxocodigo">4</span>, <span class="roxocodigo">5</span>]</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Cada elemento, desses 5 atribuídos ao vetor, é delimitado por uma posição - chamada de índice. Esse índice, ou index em inglês, é útil para acessarmos determinado valor dentro do vetor. Usualmente, começa-se a contagem de posições a partir do 0. Portanto, o primeiro elemento terá a posição 0, e incrementamos a posição de 1 em 1. Veja:</p>
+            <div style="text-align: left; padding: 6px;"><img width="500px" src="img/vetores2.png" alt=""></div>
+            <p>Para acessarmos determinado elemento do vetor, basta delimitarmos a posição desse elemento dentro de um par de colchetes - veja:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>int</em></span> vetorNumeros <span class="rosacodigo">=</span> vetor [<span class="roxocodigo">1</span>, <span class="roxocodigo">2</span>, <span class="roxocodigo">3</span>, <span class="roxocodigo">4</span>, <span class="roxocodigo">5</span>]</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(vetorNumeros[<span class="roxocodigo">2</span>])</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h4>Listas</h4>
+            <p>As <strong>listas</strong> são uma estrutura de dados que comportam uma multiplicidade de valores de forma ordenada, assim como os vetores - mas elas tem algumas diferenças basilares entre si. Enquanto os vetores são estáticos, as <strong>listas são dinâmicas</strong>, isso é, permitem a inserção e remoção de elementos livremente, já que não temos um tamanho fixo.</p>
+            <p>Veja uma comparação:</p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Aspecto</th>
+                            <th>Vetores</th>
+                            <th>Listas</th>
+                        </tr>
+                        <tr>
+                            <th>Tamanho</th>
+                            <td>Fixo</td>
+                            <td>Variável</td>
+                        </tr>
+                        <tr>
+                            <th>Acesso</th>
+                            <td>Diretamente por índice</td>
+                            <td>Acesso sequencial</td>
+                        </tr>
+                        <tr>
+                            <th>Inserção/Remoção</th>
+                            <td>Envolve operações complexas, como cópias e deslocamentos</td>
+                            <td>Inserção e remoção livres</td>
+                        </tr>
+                        <tr>
+                            <th>Flexibilidade</th>
+                            <td>Baixa</td>
+                            <td>Alta</td>
+                        </tr>
+                        <tr>
+                            <th>Memória</th>
+                            <td>Ocupa espaços contíguos</td>
+                            <td>Não há uma delimitação, podendo resultar em fragmentação</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Imagine uma lista enorme, com 1.000 números. A complexidade de escrever os valores manualmente, como fizemos no vetor, passa a ser maior, não é? Para resolver isso, podemos começar com uma lista vazia, e alimentá-la através de operações de atribuição (+=) dentro de um loop. Veja como ficaria.</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tr class="cabecalhoEditorCodigo">
+                        <td class="umtab">Pseudocódigo</td>
+                    </tr>
+                    <tr>
+                        <td class="umtab"><span class="azulcodigo"><em>int</em></span> listaLonga <span class="rosacodigo">=</span> lista []</td>
+                    </tr>
+                    <tr>
+                        <td class="umtab"></td>
+                    </tr>
+                    <tr>
+                        <td class="umtab"><span class="amarelocodigo">Para</span> (i <span class="rosacodigo">=</span> <span class="roxocodigo">1</span>; i <span class="rosacodigo">< =</span> <span class="roxocodigo">1000</span>; i<span class="rosacodigo">++</span>) Faça<span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                        <td class="doistab">listaLonga <span class="rosacodigo">+=</span> i</td>
+                    </tr>
+                    <tr>
+                        <td class="umtab"><span class="amarelocodigo">Fim Para</span></td>
+                    </tr>
+                </table>
+            </div>
+            <h4>Filas</h4>
+            <p>As <strong>filas</strong>, ou <strong>queues</strong>, são estruturas de dados homogêneas e unidimensionais, assim como as listas - mas possuem uma propriedade especial: as inserções e remoções da sua estrutura utilizam a regra <strong>“primeiro a entrar, primeiro a sair”</strong> - ou <strong>FIFO</strong> (“First In, First Out”). Ou seja, sempre que formos inserir um elemento na estrutura, ele será inserido no fim da fila, e quando retirarmos algum dado, o primeiro dado da fila será retirado.</p>
+            <p><img src="img/filas.png" alt="Filas / Queues"></p>
+            <p>
+                <ul>
+                    <li><strong>Enfileirar (enqueue)</strong>: adicionar um elemento ao final da fila</li>
+                    <li><strong>Desenfileirar (dequeue)</strong>: retirar um elemento do começo da fila</li>
+                    <li><strong>Frente (front</strong>): obter o valor do elemento que está na frente da fila</li>
+                </ul>
+            </p>
+            <h4>Pilhas</h4>
+            <p>As <strong>pilhas</strong>, ou <strong>stacks</strong>, assim como as filas, são estruturas de dados homogêneas e unidimensionais. Aqui, novamente, temos uma estrutura diferenciada, utilizando o padrão “Último a Entrar, Primeiro a Sair” - ou LIFO (“Last In, First Out”). Pense num pacote de Pringles - a última batata adicionada ao pacote será aquela no topo do tubo, e essa também será a primeira a ser retirada. A estrutura em pilha funciona da mesma forma.</p>
+            <p><img src="img/pilhas.png" alt="Pilhas / Stacks"></p>
+            <p>As operações relacionadas à pilha são:</p>
+            <ul>
+                <li><strong>Empilhar ou empurrar (push):</strong> adicionar um elemento ao topo da pilha</li>
+                <li><strong>Desempilhar ou puxar (pop):</strong> remove um elemento do topo da pilha</li>
+                <li><strong>Topo (top):</strong> retorna o valor do elemento no topo da pilha</li>
+            </ul>
+            <h4>Matrizes</h4>
+            <p>As <strong>matrizes</strong> são <strong>estruturas de dados homogêneas</strong>, assim como os vetores - mas a principal diferença aqui é que passamos a trabalhar com <strong>duas dimensões</strong>. Assim, passamos a trabalhar com <strong>índices em duas dimensões</strong> - <strong>a dimensão horizontal e vertical</strong>. Pense em uma estrutura similar a uma matriz que você estudou em matemática, no ensino médio.</p>
+            <p>Para declararmos uma matriz é simples, temos um processos similar ao da lista - porém, ao delimitarmos os colchetes, cada linha será delimitada por um outro par de colchetes internos. Veja uma estrutura geral:</p>
+            <p><img src="img/matrizes.png" alt="Matrizes"></p>
+            <p>Assim como nos vetores, podemos acessar os elementos da matriz através de seu índice. Porém, agora temos 2 eixos para verificar a posição, assim sendo necessário dois argumentos ao especificarmos o dado que queremos recuperar. Por exemplo, matriz [0, 0] irá retornar o primeiro elemento, da primeira linha.</p>
+            <p>Veja um exemplo em uma tabela - nela, iremos selecionar o elemento matriz [2, 3], onde 2 representa a linha, e 3 a coluna.</p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Índice</th>
+                            <th>0</th>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                        </tr>
+                        <tr>
+                            <th>0</th>
+                            <td>Brasil</td>
+                            <td>EUA</td>
+                            <td>Canadá</td>
+                            <td>México</td>
+                            <td>Bolívia</td>
+                        </tr>
+                        <tr>
+                            <th>1</th>
+                            <td>Japão</td>
+                            <td>Egito</td>
+                            <td>Gana</td>
+                            <td>China</td>
+                            <td>Bélgica</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Argentina</td>
+                            <td>Itália</td>
+                            <td>Inglaterra</td>
+                            <td style="background-color: rgb(112, 212, 112);">Peru</td>
+                            <td>Austrália</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>Rússia</td>
+                            <td>Nepal</td>
+                            <td>Holanda</td>
+                            <td>Cuba</td>
+                            <td>Líbia</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Em termos de sintaxe, poderíamos montar essa tabela e selecionar o mesmo elemento da seguinte forma:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>int</em></span> matrizPaises <span class="rosacodigo">=</span> matriz [</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">["<span class="amarelocodigo">Brasil</span>", "<span class="amarelocodigo">EUA</span>", "<span class="amarelocodigo">Canadá</span>", "<span class="amarelocodigo">México</span>", "<span class="amarelocodigo">Bolívia</span>"],</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">["<span class="amarelocodigo">Japão</span>", "<span class="amarelocodigo">Egito</span>", "<span class="amarelocodigo">Gana</span>", "<span class="amarelocodigo">China</span>", "<span class="amarelocodigo">Bélgica</span>"],</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">["<span class="amarelocodigo">Argentina</span>", "<span class="amarelocodigo">Itália</span>", "<span class="amarelocodigo">Inglaterra</span>", "<span class="amarelocodigo">Peru</span>", "<span class="amarelocodigo">Austrália</span>"],</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">["<span class="amarelocodigo">Russia</span>", "<span class="amarelocodigo">Nepal</span>", "<span class="amarelocodigo">Holanda</span>", "<span class="amarelocodigo">Cuba</span>", "<span class="amarelocodigo">Líbia</span>"]]</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(matrizPaises[<span class="roxocodigo">2</span>, <span class="roxocodigo">3</span>])</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">Peru</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h4>Registros</h4>
+            <p>O <strong>registro</strong> é uma estrutura de dados <strong>heterogênea</strong>, ou seja, agrupa diferentes tipos de dado numa mesma variável. Ele é usado para representar entidades ou objetos complexos, nos quais cada campo dentro do registro armazena um tipo específico de informação.</p>
+            <p>Em um registro, cada campo possui um nome único que o identifica e um tipo de dado associado que define o tipo de informação que pode ser armazenada nele. Por exemplo, em um registro de Pessoa, poderíamos ter campos como "nome" (String), "idade" (inteiro), "altura" (real), etc.</p>
+            <p>Quando definimos um registro, definimos um "esqueleto" de estrutura, sem passar nenhum valor para a variável. Posteriormente, podemos criar variáveis derivadas desse esqueleto, com toda a sua estrutura implementada. Vamos para um exemplo!</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">registro</span> Pessoa</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">Nome<span class="rosacodigo">:</span> <span class="azulcodigo"><em>String</em></span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">Idade<span class="rosacodigo">:</span> <span class="azulcodigo"><em>Int</em></span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">Altura<span class="rosacodigo">:</span> <span class="azulcodigo"><em>Float</em></span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">fim Registro</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Com isso, criamos uma estrutura de registro. Agora, podemos declarar variáveis conforme essa estrutura, que vai funcionar como um "tipo de dado" para a variável declarada. Assim, podemos passar valores para os diferentes identificadores internos da entidade. Vamos fazer duas atribuições, para que você possa entender melhor.</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>Pessoa</em></span> pessoa1</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">pessoa1.nome <span class="rosacodigo">=</span> <span class="amarelocodigo">"Felipe"</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">pessoa1.idade <span class="rosacodigo">=</span> <span class="roxocodigo">30</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">pessoa1.altura <span class="rosacodigo">=</span> <span class="roxocodigo">1.88</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo"><em>Pessoa</em></span> pessoa2</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">pessoa2.nome <span class="rosacodigo">=</span> <span class="amarelocodigo">"Milena"</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">pessoa2.idade <span class="rosacodigo">=</span> <span class="roxocodigo">24</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">pessoa2.altura <span class="rosacodigo">=</span> <span class="roxocodigo">1.62</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Veja que “navegamos” através das diferentes variáveis dentro do registro através de um ponto - por exemplo, em pessoa1.nome, estou atribuindo um valor para a propriedade nome, da variável pessoa1. Isso permite também que retornemos esse valor através de uma seleção, assim como fizemos com os vetores e as matrizes.</p>
+            <h3>Rotinas</h3>
+            <h4>Funções e Procedimentos</h4>
+            <p>À medida que encontramos problemas cada vez mais complexos, é necessário quebrarmos um programa geral em diversos outros programas menores, "subprogramas", cada qual com uma funcionalidade definida. Essas pequenas partes que formam o programa são chamados de rotinas. As rotinas facilitam a execução e legibilidade do código, além de adicionar a modularidade ao programa - já que definimos determinada funcionalidade, ela pode ser replicada em outros pontos do código, quando for necessário.</p>
+            <p>Existem dois tipos de rotinas na programação: as <strong>funções</strong> e os <strong>procedimentos</strong>. A principal diferença entre ambas está no retorno. <strong>Funções trazem algum retorno ao código, enquanto procedimentos não</strong>. Esse retorno é algum valor que afeta o código, que pode ser usado por outras variáveis - usualmente caracterizado pelo uso da palavra <span class="destaqueCinza">Retorne</span>.</p>
+            <p class="destaqueVermelho">Procedimento > Não retorna um valor</p>
+            <p class="destaqueVermelho">Função >  Retorna um valor</p>
+            <p>Para declararmos uma função, usaremos a seguinte estrutura:</p>
+            <p>
+                <span style="padding: 5px 0px 5px 30px;"><strong>Função</strong> (parâmetros):</span>
+                <span style="padding: 5px 0px 5px 60px;">Bloco de código</span>
+                <span style="padding: 5px 0px 5px 30px;"><strong>Fim Função</strong></span>
+            </p>
+            <p>Para entendermos melhor como implementar essa estrutura, precisamos entender os <strong>parâmetros</strong>.</p>
+            <h4>Parâmetros</h4>
+            <p>os <strong>parâmetros</strong> (também chamados de argumentos) em funções <strong>são variáveis locais</strong> que são especificadas como parte da definição de uma função e que recebem valores quando a função é chamada ou invocada. Eles servem como mecanismo para passar informações para dentro de uma função, permitindo que ela trabalhe com valores específicos.</p>
+            <p>Quando uma função é definida, os parâmetros são listados entre parênteses após o nome da função. Por exemplo, em uma função que calcula a soma de dois números, os parâmetros seriam os dois números que estão sendo somados. Quando a função é chamada, os valores passados como argumentos para os parâmetros são atribuídos às variáveis de parâmetro dentro da função, permitindo que ela os utilize em suas operações internas.</p>
+            <p>Você pode não ter percebido, mas quando lhe expliquei a função exponencial, usamos os parâmetros. Vamos relembrar:</p>
+            <p>
+                <span style="padding: 5px 0px 5px 30px;">Função exp(a, b)</span>
+                <span style="padding: 5px 0px 5px 60px;">retorne a^b</span>
+                <span style="padding: 5px 0px 5px 30px;"><strong>Fim Função</strong></span>
+            </p>
+            <p>Aqui, temos os parâmetros a e b. Como é uma função de exponenciação, o parâmetro a será nossa base, e o parâmetro b o expoente. Assim, toda vez que chamarmos uma função, passaremos os parâmetros que queremos calcular. Por exemplo podemos achar 3² passando a função exp(3,2), ou 3³ passando a função exp(3,3).</p>
+            <p>Veja mais um exemplo de uma função simples.</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Função soma</span> (a, b)</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">retorne a <span class="rosacodigo">+</span> b</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Fim Função</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(<span class="verdecodigo">soma</span>(<span class="roxocodigo">3</span>, <span class="roxocodigo">4</span>))</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(<span class="verdecodigo">soma</span>(<span class="roxocodigo">2</span>, <span class="roxocodigo">2</span>))</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(<span class="verdecodigo">soma</span>(<span class="roxocodigo">3</span>, <span class="roxocodigo">9</span>))</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">7</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">4</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">12</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Na sintaxe acima, temos dois parâmetros: <strong>a</strong> e <strong>b</strong>. Ao chamarmos a função, passamos os valores substituindo os parâmetros - esses valores podem ser declarações diretas de números, como fizemos ou referências a outras variáveis. A função irá somar ambos os números e retornar o resultado.</p>
+            <p>Podemos também fazer funções mais avançadas, com blocos de códigos extensos - incluindo outras funções locais, declaração de variáveis locais, entre outros. Vamos fazer um exemplo, uma função que irá identificar se determinado valor é par ou não.</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Função par</span>(i)</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">Se</span> (i<span class="rosacodigo">%</span><span class="roxocodigo">2</span> <span class="rosacodigo">==</span> <span class="roxocodigo">0</span>) <span class="amarelocodigo">Então</span></td>
+                        </tr>
+                        <tr>
+                            <td class="trestab">Retorne <span class="verdelevecodigo">"É par"</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">Senão</span></td>
+                        </tr>
+                        <tr>
+                            <td class="trestab">Retorne <span class="verdelevecodigo">"É impar"</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Fim Função</span></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span> (<span class="verdecodigo">par</span>(<span class="roxocodigo">2</span>))</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span> (<span class="verdecodigo">par</span>(<span class="roxocodigo">0</span>))</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span> (<span class="verdecodigo">par</span>(<span class="roxocodigo">3</span>))</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span> (<span class="verdecodigo">par</span>(<span class="roxocodigo">9</span>))</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">É par</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">É par</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">É impar</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">É impar</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>A função apresentada irá passar o parâmetro apresentado para um bloco condicional. Se o resto da divisão do parâmetro por 2 for 0, teremos um número par - e retornaremos “É par”. Caso contrário, executaremos o bloco Senão e teremos um retorno “É ímpar”.</p>
+            <p>Essa passagem de parâmetros que vimos até agora é conhecida como <strong>passagem de valor</strong>. Podemos ter uma outra forma de passagem de parâmetros chamada de <strong>referência</strong>. Aqui, ao invés de passar uma cópia do valor de uma variável para uma função, é <strong>passada uma referência (ou endereço de memória) para a variável original</strong>. Isso significa<strong> que a função pode modificar o valor da variável original diretamente</strong>, já que ela tem acesso direto à sua localização na memória.</p>
+            <p class="destaqueVermelho">Parâmetro por <u>valor</u> > passa um <u>cópia do valor original</u></p>
+            <p class="destaqueVermelho">Parâmetro por <u>referência</u> > passa uma <u>referência ao local</u> de armazenamento</p>
+            <p>Temos alguns tipos especiais de funções. As princiáis, e que você precisa saber, são:</p>
+            <ul>
+                <li>Funções recursivas</li>
+                <li>Funções anônimas</li>
+                <li>Funções de ordem superior</li>
+                <li>Funções nominadas</li>
+                <li>Funções puras</li>
+            </ul>
+            <h3>Tipos de Funções</h3>
+            <h4>Funções recursivas</h4>
+            <p>Pode ser que uma função chame a si mesma durante o a sua execução. Esses casos são chamados de funções recursivas. Esses casos são úteis para cálculos matemáticos complexos, como Fibonacci, navegações de estruturas de dados mais avançadas, algoritmos mais avançados, entre outros.</p>
+            <p>Para estruturarmos uma função recursiva, não basta simplesmente chamar a própria função dentro do seu corpo - afinal, se fizermos isso, teremos um loop infinito que “quebrará” o código. Devemos seguir uma estrutura composta de:</p>
+            <ul>
+                <li>Um<strong> caso base</strong>, literal, que determina quando a função recursiva deve parar de chamar a si mesma e começar a retornar valores. Ela é a parte essencial para que não entremos em um loop infinito.</li>
+                <li> Uma <strong>chamada recursiva</strong>, que irá chamar a função principal com um argumento diferente a cada laço. Cada chamada recursiva normalmente reduz o problema em direção ao caso base, garantindo que, eventualmente, o caso base seja alcançado e a recursão pare.</li>
+            </ul>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="2">Função Recursiva</th>
+                        </tr>
+                        <tr>
+                            <th style="width: 50%;">Caso base</th>
+                            <th style="width: 50%;">Chamada recursiva</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Vou trazer um exemplo para você entender melhor o funcionamento, vamos lá.</p>
+            <p><img src="img/funcaorecursiva.png" alt="função recursiva"></p>
+            <h4>Funções puras</h4>
+            <p>Uma função é chamada de <strong>função pura</strong> se, e somente se, dada uma mesma entrada, sempre <strong>retornará uma mesma saída</strong>, sem <strong>efeitos colaterais observáveis</strong>. Isso quer dizer que o resultado da função depende apenas de seus argumentos, e não de estados externos, como variáveis globais ou estados do sistema.</p>
+            <p>Portanto, uma função pura tem 3 características principais:</p>
+            <ul>
+                <li><strong>Determinismo:</strong> Dadas as mesmas entradas, uma função pura sempre produzirá o mesmo resultado.</li>
+                <li><strong>Ausência de efeitos colaterais:</strong> Funções puras não modificam variáveis globais, arquivos, bancos de dados, etc. Seu único efeito é retornar um valor.</li>
+                <li><strong>Transparência referencial:</strong> Pode-se substituir a chamada de uma função pura pelo seu resultado, sem alterar o comportamento do programa.</li>
+            </ul>
+            <h4>Funções nominadas</h4>
+            <p>As <strong>funções nominadas</strong>, sem surpresa, são funções com nomes específicos e podem ser chamadas por esse nome, em qualquer parte do programa. Ela é declarada com um nome específico, de forma a permitir sua reutilização ao longo do programa. Até agora, todas as funções que trabalhamos são funções nominadas.</p>
+            <p>Existem algumas funções nominadas “especiais”, que já foram pré-concebidas e têm seu nome restrito ao uso por outras funções. Elas trazem funcionalidades pré-programadas, como o print() em Python, que faz uma impressão do código no terminal de comando, ou o length() em JavaScript, que registra o comprimento de um objeto.</p>
+            <h4>Funções anônimas</h4>
+            <p>Funções anônimas são chamadas assim pois não possuem nome - são um contraponto às funções nominadas. Elas só podem ser utilizadas localmente, já que não possuem uma referência para serem chamadas externamente. O exemplo mais comum de funções anônimas são as funções lambda, em Python.</p>
+            <p>Veja um exemplo em pseudocódigo:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">int</span> Quadrado <span class="rosacodigo">=</span> <span class="verdecodigo">Função</span>(x) retornar x <span class="rosacodigo">*</span> x</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">int</span> Resultado <span class="rosacodigo">=</span> <span class="verdecodigo">Quadrado</span>(<span class="roxocodigo">5</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Veja que estamos chamando a variável Quadrado, que especifica uma função local, e não a própria função - até porque ela não tem nome, não temos como chamá-la.</p>
+            <h4>Funções de ordem superior</h4>
+            <p>Uma função de ordem superior é uma função que recebe outra função como argumento e/ou retorna uma função como resultado. Em outras palavras, uma função de ordem superior trata funções como cidadãos de primeira classe, permitindo que elas sejam passadas e retornadas como qualquer outro tipo de dado. Veja um exemplo:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Função operacaoMatematica</span>(x, y, operacao)</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">retornar <span class="verdecodigo">operacao</span>(x, y)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">fim Função</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>A princípio, a função parece uma função simples, apenas com três parâmetros - mas, no corpo dela, dentro do bloco de código, estamos chamando outra função, a função operacao(). Essa função pode ser definida externamente, e passada como parâmetro. Veja como podemos desenvolver esse caso.</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Pseudocódigo</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Função aplicarOperacaoMatematica</span>(x, y, operacao)</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">retornar <span class="verdecodigo">operacao</span>(x, y)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">fim Função</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Função soma</span>(a, b)</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">retornar a <span class="rosacodigo">+</span> b</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">fim Função</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Função multiplicacao</span>(a, b)</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">retornar a <span class="rosacodigo">*</span> b</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">fim Função</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span>Int</span> resultado1 <span class="rosacodigo">=</span> <span class="verdecodigo">operacaoMatematica</span>(<span class="roxocodigo">5</span>, <span class="roxocodigo">3</span>, soma)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span>Int</span> resultado2 <span class="rosacodigo">=</span> <span class="verdecodigo">operacaoMatematica</span>(<span class="roxocodigo">5</span>, <span class="roxocodigo">3</span>, multiplicacao)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(resultado1)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">Escrever</span>(resultado2)</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">8</td>
+                        </tr>
+                        <tr style="background-color: black;">
+                            <td class="umtab">15</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        
+        <section class="campoQuestoes">
+            <h2>Questões de Desenvolvimento de Software</h1>
+            <div id="questoes"></div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 - Lulubas</p>
+    </footer>
+  
+    <script src="../js/questoes.js"></script>
+    <script>
+      // Aqui você escolhe a matéria e o número de questões
+      carregarQuestoes('desenvolvimentoDeSoftware', 15);
+    </script>
+</body>
+</html>

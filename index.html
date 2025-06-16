@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos BB</title>
+    <link rel="stylesheet" href="headermenufooter.css">
+    <link rel="stylesheet" href="estiloInicial.css">
+</head>
+<body>
+    <header>
+        <h1>Estudos Banco do Brasil</h1>
+    </header>
+    <div class="menu-hamburguer" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../Banco de Dados/index.html">Banco de Dados</a></li>
+            <li><a href="../Conhecimentos Bancários/index.html">Conhecimentos Bancários</a></li>
+            <li><a href="../Desenvolvimento de Software/index.html">Desenvolvimento de Software</a></li>
+            <li><a href="../Probabilidade e Estatística/index.html">Probabilidade e Estatística</a></li>
+            <li><a href="../Inglês/index.html">Inglês</a></li>
+            <li><a href="../Português/index.html">Português</a></li>
+            <li><a href="../Matemática/index.html">Matemática</a></li>
+        </ul>
+  </nav>
+    <main>
+        <h2>Banco de anotações em forma de site de estudos para o Banco do Brasil!</h2>
+        <p>Escolha uma matéria no menu acima ou nos cards abaixo para acessar as anotações.</p>
+        <div id="BoxMaterias">
+            <div class="AreaDeConhecimentos">
+                <p>Conhecimentos Básicos</p>
+                <a href="Português/index.html"><div id="Tranquila" class="Materias">Português</div></a>
+                <a href="Inglês/index.html"><div id="Tranquila" class="Materias">Inglês</div></a>
+                <a href="Matemática/index.html"><div id="BomRevisar" class="Materias">Matemática</div></a>
+                <a href="Probabilidade e Estatística/index.html"><div id="BomRevisar" class="Materias">Probabilidade e Estatística</div></a>
+            </div>
+            <div class="AreaDeConhecimentos">
+                <p>Conhecimentos Específicos</p>
+                <a href="Banco de Dados/index.html"><div id="Importante" class="Materias">Banco de Dados</div></a>
+                <a href="Desenvolvimento de Software/index.html"><div id="Importante" class="Materias">Desenvolvimento de Software</div></a>
+                <a href="Conhecimentos Bancários/index.html"><div id="BomRevisar" class="Materias">Conhecimentos Bancários</div></a>
+            </div>
+            <div class="AreaDeConhecimentos">
+                <p>Redação</p>
+                <a href="">
+                    <div id="BomRevisar" class="Materias">Redação</div>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Lulubas</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("ativo");
+        }
+    </script>
+</body>
+</html>

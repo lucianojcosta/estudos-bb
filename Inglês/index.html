@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inglês</title>
+    <link rel="stylesheet" href="../headermenufooter.css">
+    <link rel="stylesheet" href="../estiloMaterias.css">
+</head>
+<body>
+    <header>
+        <h1>Inglês</h1>
+    </header>
+    <div class="menu-hamburguer" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../Banco de Dados/index.html">Banco de Dados</a></li>
+            <li><a href="../Conhecimentos Bancários/index.html">Conhecimentos Bancários</a></li>
+            <li><a href="../Desenvolvimento de Software/index.html">Desenvolvimento de Software</a></li>
+            <li><a href="../Probabilidade e Estatística/index.html">Probabilidade e Estatística</a></li>
+            <li><a href="../Inglês/index.html">Inglês</a></li>
+            <li><a href="../Português/index.html">Português</a></li>
+            <li><a href="../Matemática/index.html">Matemática</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Dicionário de Inglês</h2>
+            <div style="overflow: auto;">
+                <table style="width: 700px; min-width: 500px; background-color: rgb(253, 255, 255); border-radius: 7px; padding: 6px; text-align: left;">
+                    <thead>
+                        <tr style="background-color: blue;">
+                            <th colspan="2" style="color: white; padding: 7px; text-align: center;">Dicionário de Língua Inglesa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background-color: #f5f4f4; padding: 10px;"></tr>
+                            <td>indeed</td>
+                            <td>na verdade</td>
+                        </tr>
+                        <tr style="background-color: #ffffff; padding: 10px;"></tr>
+                            <td>unfortunalety</td>
+                            <td>infelizmente</td>
+                        </tr>
+                        <tr style="background-color: #f5f4f4; padding: 10px;"></tr>
+                            <td>preamble</td>
+                            <td>preâmbulo</td>
+                        </tr>
+                        <tr style="background-color: #ffffff; padding: 10px;"></tr>
+                            <td>thorns</td>
+                            <td>espinhos</td>
+                        </tr>
+                        <tr style="background-color: #f5f4f4; padding: 10px;"></tr>
+                            <td>grudge</td>
+                            <td>rancor</td>
+                        </tr>
+                        <tr style="background-color: #ffffff; padding: 10px;"></tr>
+                            <td>threw</td>
+                            <td>jogou</td>
+                        </tr>
+                        <tr style="background-color: #f5f4f4; padding: 10px;"></tr>
+                            <td>weak</td>
+                            <td>fraco</td>
+                        </tr>
+                        <tr style="background-color: #ffffff; padding: 10px;"></tr>
+                            <td>naive</td>
+                            <td>ingênuo</td>
+                        </tr>
+                        <tr style="background-color: #f4f4f4; padding: 10px;"></tr>
+                            <td>hammer</td>
+                            <td>martelo</td>
+                        </tr>
+                        <tr style="background-color: #ffffff; padding: 10px;"></tr>
+                            <td>grown-ups</td>
+                            <td>adultos</td>
+                        </tr>
+                        <tr style="background-color: #f5f4f4; padding: 10px;"></tr>
+                            <td>ashamed</td>
+                            <td>envergonhado</td>
+                        </tr>
+                        <tr style="background-color: #ffffff; padding: 10px;"></tr>
+                        <td>blushed</td>
+                        <td>corado</td>
+                    </tr>
+                    <tr style="background-color: #f5f4f4; padding: 10px;"></tr>
+                        <td>bolt</td>
+                        <td>parafuso</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+
+        <section class="campoQuestoes">
+            <h2>Questões de Inglês</h1>
+            <div id="questoes"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Lulubas</p>
+    </footer>
+  
+    <script src="../js/questoes.js"></script>
+    <script>
+      // Aqui você escolhe a matéria e o número de questões
+      carregarQuestoes('ingles', 2);
+    </script>
+</body>
+</html>

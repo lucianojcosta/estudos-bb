@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados</title>
+    <link rel="stylesheet" href="../headermenufooter.css">
+    <link rel="stylesheet" href="../estiloMaterias.css">
+</head>
+<body>
+    <header>
+        <h1>Banco de Dados</h1>
+    </header>
+    <div class="menu-hamburguer" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../Banco de Dados/index.html">Banco de Dados</a></li>
+            <li><a href="../Conhecimentos Bancários/index.html">Conhecimentos Bancários</a></li>
+            <li><a href="../Desenvolvimento de Software/index.html">Desenvolvimento de Software</a></li>
+            <li><a href="../Probabilidade e Estatística/index.html">Probabilidade e Estatística</a></li>
+            <li><a href="../Inglês/index.html">Inglês</a></li>
+            <li><a href="../Português/index.html">Português</a></li>
+            <li><a href="../Matemática/index.html">Matemática</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+
+            <!-- AULA 00-->
+
+            <h2>Aula 00 - Conceitos Básicos de Banco de Dados</h2>
+            <p><strong>Banco de Dados: </strong>Coleção de dados relacionados.<br><span class="icone-estilizado">&#10149;</span>Pode ter qualquer tamanho e pode ser implementado de forma manual ou automatizada.</p>
+            <p><strong>SGBD: </strong>Sistema Gerenciador de Banco de Dados<br><span class="icone-estilizado">&#10149;</span>Conjunto de Programas que permite criar e manter um banco de dados.</p>
+            <ol>
+                <li><strong>Definição: </strong>processo que envolve especificar os tipos, estruturas e restrições dos dados a serem armazenados;</li>
+                <li><strong>Construção: </strong>processo que envolve armazenar os dados em algum meio controlado pelo SGBD;</li>
+                <li><strong>Manipulação: </strong>processo que inclue funções como consulta - para recuperar dados específicos; atualização para refletir mudanças no minimundo; e geração de relatórios;</li>
+                <li><strong>Compartilhamento: </strong>processo que permite que diversos usuários e programas acesse um banco de dados simultâneamente;</li>
+                <li><strong>Proteção: </strong>processo que inclue a proteção do sistema contra defeitos (ou falhas) de hardware ou software, e proteção de segurança contra acesso não autorizado;</li>
+                <li><strong>Manutenção: </strong>processo que permite a evolução à medida que os requisitos mudam com o tempo, uma vez que um banco de dados pode ter um ciclo de muitos anos.</li>
+            </ol>
+            <p><strong>Aplicações: </strong> São sistemas, programas ou softwares que enviam consultas ou solicitações a um SGBD, que por sua vez, acessa um <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span>. Uma aplicação recebe entradas que serão entregues ao SGBD e este manipulará o Banco de Dados que executará o comando solicitado.</p>
+            <p><strong>SBD: </strong>A união do BD com SGBD é chamada de Sistema de Banco de Dados (SBD)<br>SBD = SGBD + BD + [Aplicações]</p>
+            <h3>Tipos de Bancos de Dados</h3>
+            <p>Os tipos de <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span> mais comuns atualmente são:</p>
+            <p><strong>Banco de dados não-relacional - </strong>são também conhecidos como bancos de dados de arquivo. Neles todos os dados são armazenados <u>em uma única tabela</u>, armazenada em um único arquivo.</p>
+            <p><strong>Banco de dados relacional - </strong>são formados por várias tabelas que se relacionam entre si.</p>
+            <p><strong>Banco de dados orientados a objetos - </strong>utilizam para o armazenamento dos dados os conceitos de orientação a objetos.</p>
+            <h3>Características Básicas do Banco de Dados Relacional</h3>
+            <p><strong>a)</strong> Natureza de autodescrição de um <span class="tooltip">SBD<span class="tooltip-text">Sistema de Banco de Dados</span></span>
+                <br><span class="icone-estilizado">&#10149;</span>São os metadados das tabelas.</p>
+            <p><strong>b)</strong> Isolamento entre programas e dados, e abstração de dados
+                <br><span class="icone-estilizado">&#10149;</span>Os dados ficam bem separados das aplicações.</p>
+            <p><strong>c)</strong> Suporte a múltiplas visões de dados
+                <br><span class="icone-estilizado">&#10149;</span>Várias aplicações podem consultar o <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span> simultâneamente.</p>
+            <p><strong>d)</strong> Compartilhamento de dados e processamento de transação
+                <br><span class="icone-estilizado">&#10149;</span>Garantir que vários usuários interajam simultâneamente com o <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span>.</p>
+            <h3>Transação</h3>
+            <p>Cada atividade realizada em um <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span> é um transação.</p>
+            <p>Elas apresentam as seguintes características básicas:</p>
+            <p><span style="color:#004080"><strong>ACID - </strong></span><span style="color:#004080"><strong>A</strong></span>tomicidade, <span style="color:#004080"><strong>C</strong></span>onsistência, <span style="color:#004080"><strong>I</strong></span>solamento e <span style="color:#004080"><strong>D</strong></span>urabilidade</p>
+            <p><strong><u>Atomicidade: </u></strong>Uma transação é uma unidade de processamento atômica que deve ser executida <u>integralmente até o fim</u> ou <u>não deve ser executada</u>.</p>
+            <p><strong><u>Consistência: </u></strong>A execução de uma transação deve levar o banco de dados <u>de um estado consistente</u> a um <u>outro estado consistente</u>.</p>
+            <p><strong><u>Isolamento: </u></strong>Cada transação deve <u>parecer executar isoladamente das demais</u>, embora diversas transações possam estar executando concorrentemente.</p>
+            <p><strong><u>Durabilidade: </u></strong>Os efeitos de uma transação em caso de sucesso devem <u>persistir</u> no banco de dados mesmo em casos de <u>quedas de energia</u>, travamento ou erros.</p>
+            <h3>Personagens</h3>
+            <p><strong>Administrador de Banco de Dados (DBA): </strong>é o profissional com a <u>visão mais técnica</u>, mais preocupado com o funcionamento e perfomance do <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span> do que com o significado dos dados. Entre as suas responsabilidades estão: <u>instalação do SGBD</u>, análise de performance, autorização de acessos, <u>gerência dos backups</u>, <u>solicitação de aquisição de hardware e software</u> necessários conforme a demanda.</p>
+            <p><strong>Administrador de Dados (AD): </strong>é o profissional com a visão <u>mais gerencial</u>, mais <u>preocupado com os dados em si.</u>
+                <br>Responsabilidades: definir os <u>dados a serem persistidos, </u>desenvolver o projeto e a modelagem do <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span>, manutenir os dados e gerenciar a atualização dos mesmos.</p>
+            <h3>Arquitetura ANSI/SPARC - Três Esquemas</h3>
+            <p>Na informática existe uma grande preocupação com padrões, era necessário padronizar a representação dos dados e o <u>nível de abstração necessário</u> em cada visão de acordo com o usuário alvo.</p>
+            <p>Em 1975, um instituto americano sugeriu a Arquitetura ANSI/SPARC para padrões de organização de SGBD e ela é dividida em três níveis independentes:</p>
+            <ol>
+                <li>Externo</li>
+                <li>Conceitual</li>
+                <li>Interno</li>
+            </ol>
+            <p>OBS: maior abstração = menos detalhes / menor abstração = mais detalhes</p>
+            <p><strong>Dois conceitos básicos necessários:</strong></p>
+            <p>Esquema <span class="icone-estilizado">&#8680;</span> descrição da estrutura dos dados e do banco de dados.
+                <br>Ex: tabelas, campos, visões e índices</p>
+            <p>Instância <span class="icone-estilizado">&#8680;</span> é o dado em si. A visão dos dados no banco de dados em um determinado instante.</p>
+            <div class="bloco-arquitetura">
+                <img src="img/BD - Arquitetura ANSI.SPARC.png" alt="imagem com a arquitetura ANSI/SPARC">
+                
+                <div class="texto-arquitetura">
+                  <p><strong>a) Nível Externo <span class="icone-estilizado">&#8680;</span></strong> Também chamado de Nível de Visualização ou Nível Lógico do Usuário.</p>
+                  <p>Três pontos importantes:</p>
+                  <ul>
+                    <li>Esse nível se comunica diretamente com o usuário, ou seja, faz interface direta com os usuários;</li>
+                    <li>Exibe apenas a parte do <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span> relevante para um usuário e oculta as demais;</li>
+                    <li>Apresenta uma visão externa <u>individual</u> e <u>independente</u> para cada usuário final.</li>
+                  </ul>
+              
+                  <p><strong>b) Nível Conceitual <span class="icone-estilizado">&#8680;</span></strong> Também chamado de Nível Lógico.</p>
+                  <ul>
+                    <li>Ele descreve todo o banco de dados e define quais dados estão armazenados e quais são as relações entre esses.</li>
+                    <li>Ele oculta os detalhes das estruturas de armazenamento físico e se concentra na <u>descrição das entidades</u>.</li>
+                  </ul>
+              
+                  <p><strong>c) Nível Interno <span class="icone-estilizado">&#8680;</span></strong> Também chamado de Nível de Armazenamento ou Físico. Mais longe dos usuários.</p>
+                  <ul>
+                    <li>Modo como os dados estão fisicamente armazenados no banco de dados, com o hardware do computador e com o desempenho final da estrutura física.</li>
+                    <li>Descreve os detalhes completos do armazenamento de dados e dos caminhos de acesso para o banco de dados.</li>
+                  </ul>
+                </div>
+              </div>
+            <p><strong>ANSI/SPARC</strong></p>
+            <p>A maioria dos SGBD não separa os três níveis de maneira completa ou explícita, mas dá suporte a eles.</p>
+            <p>Os mapeamentos são importantes para ajudar a garantir a independência dos dados, que é a capacidade de que uma alteração em uma definição dos esquemas de determinado nível, não afetem o esquema de nível superior.</p>
+            <p><strong>Independência lógica dos dados <span class="icone-estilizado">&#8680;</span></strong> Trata da capacidade de alterar o esquema conceitual sem modificar os esquemas externos ou programas/aplicações.</strong></p>
+            <p><strong>Independência física dos dados <span class="icone-estilizado">&#8680;</span></strong> Trata da capacidade de alterar o esquema interno sem alterar o esquema conceitual e consequentemente os externos.</p>
+            <h3>Projetos de Banco de Dados</h3>
+            <p><img width="95%" src="img/BD - Projetos de BD.png" alt="imagem com os projetos de bancos de dados"></p>
+        </section>
+        <section>
+
+            <!-- AULA 01-->
+
+            <h2>Aula 01 - Banco de Dados Relacionais</h2>
+            <h3>Modelo Conceitual</h3>
+            <p>A modelagem do <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span> é um passo EXTREMAMENTE importante, pois um processo mal feito pode gerar danos que se propagam por várias partes do projeto.</p>
+            <p>Tudo começa com um processo chamado <u>Coleta de Requisitos</u> e, com base nisso, é criado o modelo conceitual que será detalhado para gerar o modelo lógico e que, por sua vez, será detalhado para gerar o modelo físico.</p>
+            <p>Nesse contexto, o Modelo Conceitual pode ser implementado pelo Modelo Entidade-Relacionamento - MER (mas existem outras implementações do Modelo Conceitual de dados, tais como Notação IDEF1X, Notação de Barker e Notação Pé-de-Galinha) e o Modelo Lógico pode ser implementado pelo Modelo Relacional.</p>
+            <p>O MER é representado pelo Diagrama Entidade-Relacionamento.</p>
+            <h3>Modelo Entidade-Relacionamento</h3>
+            <p><strong><u>Entidade</u></strong>: Um objeto que existe e que pode ser distinguido de outros objetos.
+            <br><span class="icone-estilizado">&#10149;</span>Ela é representada por um retângulo.
+            <br><span class="icone-estilizado">&#10149;</span>Uma ocorrência específica de uma entidade é uma instância.
+            <br><span class="icone-estilizado">&#10149;</span>Tipos: Entidade Forte, Entidade Fraca e Entidade Associativa
+            </p>
+            <p><strong>Entidade Forte (independente): </strong>Representado por um <u>retângulo</u>, são aquelas cuja <u>existência independe de outras entidades</u>. Possui atributos que o identificam univocamente.</p>
+            <p><img width="30%" src="img/BD - MER - Entidade Forte.png" alt="Exemplo de Entidade Forte"></p>
+            <p><strong>Entidade Fraca (dependente): </strong> Representado por um <u>duplo retângulo</u>, são aqueles cuja existência depende de outra entidade e que não podem ser identificados unicamente apenas por seus atributos.</p>
+            <p><img width="60%" src="img/BD - MER - Entidade Fraca.png" alt="Exemplo de Entidade Fraca"></p>
+            <p><strong>Entidade Associativa: </strong>É a redefinição de um relacionamento, passando a ser considerado uma entidade.</p>
+            <p><img width="40%" src="img/BD - MER - Entidade Associativa.png" alt="Exemplo de Entidade Associativa"></p>
+            <p><strong>Relacionamento: </strong> É uma associação ou interação entre entidades; a ligação lógica que demonstra o comportamento, a dependência e a associação de dados entre elas ou uma restrição de negócio.</p>
+            <p><img width="40%" src="img/BD - MER - Relacionamento.png" alt="Exemplo de Relacionamento"></p>
+            <p><strong>Relacionamentos fortes: </strong>Acontecem entre entidades fortes.</p>
+            <p><img width="40%" src="img/BD - MER - Relacionamentos Fortes.png" alt="Exemplo de Relacionamento"></p>
+            <p><strong>Relacionamentos fracos: </strong>Acontecem entre entidade forte e fraca.</p>
+            <p><img width="20%"src="img/BD - MER - Relacionamentos Fracos.png" alt="Exemplo de Relacionamento"></p>
+            <h3>Os relacionamentos podem se classificar:</h3>
+            <p><strong>a) Quanto ao grau: </strong>Indica a quantidade de entidades que participam de um relacionamento e pode ser binário, ternário, quaternário, entre outros.</p>
+            <p><img width="40%" src="img/BD - MER - Relacionamentos Fortes.png" alt="Exemplo de Relacionamento"></p>
+            <p><strong>b) Quanto à cardinalidade: </strong>Indica a quantidade de ocorrências (instâncias) de cada entidade no relacionamento. Podem ser 1:1, 1:N, N:1 e M:N.</p>
+            <ul style="text-align: left;">
+                <li>1:1 (um-para-um)</li>
+                <img width="50%" src="img/BD - MER - 1para1.png" alt="Exemplo de 1 para 1">
+                <li>1:N (um-para-muitos)</li>
+                <img width="50%" src="img/BD - MER - 1-para-muitos.png" alt="Exemplo de 1 para muitos">
+                <li>N:M (muitos-para-muitos)</li>
+                <img width="50%" src="img/BD - MER - muitos-para-muitos.png" alt="Exemplo de muitos para muitos">
+            </ul>
+            <h3>Restrições de Participação</h3>
+            <p><strong>Restrição de participação total: </strong>Tota entidade A deve possuir uma ou mais entidade associada a ela. Cardinalidade mínima é 1 (1:1 ou 1:N)</p>
+            <p><strong>Restrição de participação parcial: </strong>Nem toda entidade A deve possuir uma entidade associada a ela. Cardinalidade mínima é 0 (0:1 ou 0:N)</p>
+            <h3>Entidade Associativa</h3>
+            <p><img width="50%" src="img/BD - MER - Entidade Associativa.png" alt="Entidade Associativa"></p>
+            <p>Geralmente ocorre em N:M</p>
+            <p><strong>Atributos: </strong>Indicam as <u>propriedades</u> e características de uma entidade.</p>
+            <p><img width="50%" src="img/BD - MER - atributos.png" alt="Atributos"></p></p>
+            <p><strong>Os atributos podem ser:</strong></p>
+            <p><strong>Monovalorado </strong>quando possui apenas um valor ou <strong>multivalorado</strong> quando possui mais de um valor.</p>
+            <p><strong>Simples </strong>quando é atômico e <strong>composto</strong> quando pode ser subdividido em outros atributos.</p>
+            <p><strong>Derivado </strong>(idade) ou <strong>Armazenado </strong>(data de nascimento)</p>
+            <p><strong>Identificador: </strong>atributo que identifica a entidade como única. São representados por um círculo preenchido ou sublinhado.</p>
+            <h3>Quadro de resumo das notações:</h3>
+            <p><img width="65%" src="img/BD - MER - resumo das notações.png" alt="quadro de Resumo das notações"></p>
+            </section>
+            <section>
+
+            <!-- AULA 02-->
+
+            <h2>Aula 02 - Modelo Lógico</h2>
+            <p>Modelo menos abstrato que o Conceitual e mais próximo da modelagem física.</p>
+            <p><strong><u>Modelo Relacional</u></strong> (é um modelo lógico)
+                <br><span class="icone-estilizado">&#10149;</span>O modelo de dados trata da representação conceitual dos dados fisicamente armazenados e é capaz de representar dados por meio de uma linguagem matemática, utilizando teoria de conjuntos e lógica de predicado de primeira ordem.</p>
+            <p>Introduziu técnicas de consultas simplificadas e uma maior facilidade de interação com o <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span>.</p>
+            <h3>1. Tabelas</h3>
+            <p><span class="icone-estilizado">&#10149;</span>Os elementos são dispostos em tabelas, formadas por linhas e colunas, onde as tabelas devem representar <u>elementos do mundo real</u>, as colunas indicam <u><span class="tooltip">qualidades desses elementos<span class="tooltip-text">atributos</span></span></u> e as linhas agrupam valores que representam um fato do mundo real.</p>
+            <div style="overflow: auto;">
+                <table style="width: 600px; min-width: 360px; max-width: 1200px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                    <thead>
+                        <tr style="background-color: #0065a0;">
+                            <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background-color: #fff;">
+                            <td style="border: #161616 1px solid; padding: 7px;">COD</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">Data Nascimento</td>
+                        </tr>
+                        <tr style="background-color: #e0e4f8;">
+                            <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">01/01/1982</td>
+                        </tr>
+                        <tr style="background-color: #fff;">
+                            <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">02/02/1980</td>
+                        </tr>
+                        <tr style="background-color: #e0e4f8;">
+                            <td style="border: #161616 1px solid; padding: 7px;">03</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">Pedro</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">03/03/1974</td>
+                        </tr>
+                        <tr style="background-color: white;">
+                            <td style="border: #161616 1px solid; padding: 7px; font-size: 0.9em; text-align: left;" colspan="3"> Colunas (campos) / Linha (registro ou tupla)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Na terminologia formal, a tabela é chamada de relação, as linhas são chamadas de tuplas, as colunas são chamadas de atributos e o tipo de dado a ser armazenado é chamado de domínio.</p>
+            <p><img width="75%" src="img/BD - Modelo Lógico - Tabela Modelo Relacional.png" alt="Modelo Lógico - Tabela Modelo Relacional"></p>
+            <p>a) <strong><u>A ordenação das tuplas na relação</u></strong>: uma relação é definida como um conjunto de tuplas, ou seja, um conjunto de elementos não duplicados que não possuem ordem entre si, <u>podendo ser ordenadas de acordo com a necessidade do usuário</u>.</p>
+            <p>b) <strong><u>Ordem dos valores nas tuplas é uma definição alternativa de uma relação</u></strong>: a ordenação dos atributos/colunas pode ser relevante dependendo do nível de abstração.</p>
+            <p>c) <strong><u>Valores e Null nas tuplas</u></strong>: Cada valor em uma tupla é um valor <u>atômico</u>, ou seja, ele não é divisível em componentes dentro da estrutura básica do modelo relacional, não sendo permitidos atributos compostos ou multivalorados. Quando um campo não for preenchido por inexistência do valor ou por desconhecimento, assumirá o valor <u>NULL</u>.</p>
+            <p>d) <strong><u>Interpretação de uma relação</u></strong>: O esquema de relação pode ser interpretado como uma declaração ou um tipo de afirmação (ou asserção), onde cada tupla na relação pode então ser interpretada como um fato ou uma instância em particular da afirmação. Algumas relações podem representar fatos sobre entidades e outras sobre relacionamentos.</p>
+            <h3>2. Álgebra Relacional</h3>
+            <p><span class="icone-estilizado">&#10149;</span>A álgebra relacional foi adotada por Codd como a base das <u><span class="tooltip">linguagens de consulta de banco de dados<span class="tooltip-text">SQL</span></span></u>, sendo uma linguagem de consulta formal, ou seja, uma coleção de operações de <u>alto nível</u> sobre relações ou conjuntos cujo resultado seja uma nova relação ou conjunto.</p>
+            <p>As operações são: Seleção, Projeção, Produto Cartesiano, União, Diferença, Junção e Intersecção. Sendo as cinco primeiras primitivas (não podem ser obtidas a partir de outras) e as duas últimas derivadas.</p>
+            <p>a) <strong><u>Seleção</u></strong>: Trata-se de uma operação <u><span class="tooltip">unária<span class="tooltip-text">uma relação (tabela)</span></span></u> que filtra as linhas de uma tabela que satisfazem um conjunto de condições ou predicados.</p>
+            <p> Seleção (σ) = Puxa as tuplas inteiras</p>
+            <div style="overflow-x: auto;">
+                <div style="width: 40%; max-width: 1200px; padding: 20px; border: 1px solid #ffffff; background-color: #f2f2f6; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); font-family: sans-serif; display: flex; justify-content: space-around; align-items: flex-start; justify-content: center;">
+                  <div style="flex: 1; margin-right: 20px;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                    <thead>
+                        <tr style="background-color: #0065a0;">
+                            <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="4">Aluno</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background-color: #fff;">
+                            <td style="border: #161616 1px solid; padding: 7px;">COD</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">CPF</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">Sexo</td>
+                        </tr>
+                        <tr style="background-color: #ee6666;">
+                            <td style="border: #ee6666 1px solid; padding: 7px;">01</td>
+                            <td style="border: #ee6666 1px solid; padding: 7px;">Maria</td>
+                            <td style="border: #ee6666 1px solid; padding: 7px;">111111-1</td>
+                            <td style="border: #ee6666 1px solid; padding: 7px;">F</td>
+                        </tr>
+                        <tr style="background-color: #fff;">
+                            <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">222222-2</td>
+                            <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                        </tr>
+                        <tr style="background-color: #ee6666;">
+                            <td style="border: #ee6666 1px solid; padding: 7px;">03</td>
+                            <td style="border: #ee6666 1px solid; padding: 7px;">Pedro</td>
+                            <td style="border: #ee6666 1px solid; padding: 7px;">333333-3</td>
+                            <td style="border: #ee6666 1px solid; padding: 7px;">F</td>
+                        </tr>
+                        <tr style="background-color: white;">
+                            <td style="color: #ee1212; border: #161616 1px solid; padding: 7px; text-align: center;" colspan="4"><strong> σ Sexo = "F" (Aluno)</strong></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+            <p>b) <strong><u>Projeção</u></strong>: Trata-se de uma relação unária que seleciona as colunas especificadas de todas as linhas da relação, <u>excluindo as linhas duplicadas</u> do resultado (chamadas de duplicatas). Em contraste com a operação de Seleção - que seleciona as linhas que satizfazem uma condição -, a operação de Projeção projeta as colunas especificadas na lista de atributos.</p>
+            <p>Projeção (π) = Exclui as linhas duplicadas</p>
+            <div style="overflow-x: auto;">
+                <div style="width: 85%; max-width: 1200px; padding: 20px; border: 1px solid #ffffff; background-color: #f2f2f6; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); font-family: sans-serif; display: flex; justify-content: space-around; align-items: flex-start; justify-content: center;">
+                  <div style="flex: 1; margin-right: 20px;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">COD</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Sexo</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                            </tr>  
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">03</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">04</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                  </div>
+                  <div style="flex: 1;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Projeção (π)</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">(π) COD</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">(π) Nome</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">(π) Sexo</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                            </tr>  
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">03</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">04</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p style="text-align: center; color: #ee6666; background-color: #e2ee86; padding: 10px; margin: 15px; border-radius: 10px;">João não foi excluido porque as linhas não são <strong><u><i>exatamente</i></u></strong> iguais. O COD é diferente.</p>
+                </div>
+            </div>
+        </div>
+        <p>c) <strong><u>Produto Cartesiano</u></strong>: Também chamado de Produto Cruzado ou Junção Cruzada, trata-se de uma operação <u>binária</u> que produz um resultado que combina as linhas de uma tabela com as linhas de outra tabela. Notem que o resultado contempla todas as combinações das duas tabelas. Além disso, a quantidade de colunas é igual à <u>soma das colunas</u> das tabelas e a quantidade de linhas é igual ao <u>produto da quantidade</u> de linhas de cada tabela.</p>
+        <div style="width: 85%; max-width: 1200px; padding: 20px; border: 1px solid #ffffff; background-color: #f2f2f6; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); font-family: sans-serif;">
+            <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                <div style="flex: 1;">
+                  <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                      <thead>
+                          <tr style="background-color: #0065a0;">
+                              <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno</td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">COD</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                <div style="flex: 1;">
+                  <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                      <thead>
+                          <tr style="background-color: #0065a0;">
+                              <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="2">Turma.Aluno</td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">CODT</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">NomeT</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">PF</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">RF</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+            </div>
+            <div style="margin-top: 30px; text-align: center;">
+                <div style="display: inline-block;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="4">Aluno x Turma</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">CODA</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">CODT</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">NomeT</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">PF</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">RF</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">PF</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">RF</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <p>d) <strong><u>Junção</u></strong>: É uma operação <u>binária</u> que produz um resultado que combina as linhas de uma tabela com as linhas de outra tabela, onde as <u>colunas duplicadas são removidas.</u></p>
+        <p>Junção (⋈)</p>
+        <div style="width: 85%; max-width: 1200px; padding: 20px; border: 1px solid #ffffff; background-color: #f2f2f6; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); font-family: sans-serif;">
+            <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                <div style="flex: 1;">
+                  <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                      <thead>
+                          <tr style="background-color: #0065a0;">
+                              <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno</td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">CODA</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">Sexo</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">03</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+                <div style="flex: 1;">
+                  <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                      <thead>
+                          <tr style="background-color: #0065a0;">
+                              <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="2">Turma.Aluno</td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">CODA</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">PF</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">RF</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                          </tr>
+                          <tr style="background-color: #fff;">
+                              <td style="border: #161616 1px solid; padding: 7px;">PF</td>
+                              <td style="border: #161616 1px solid; padding: 7px;">03</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                </div>
+            </div>
+            <div style="margin-top: 30px; text-align: center;">
+                <div style="display: inline-block;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="4">Aluno ⋈ CODA = CODA Turma.Aluno</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">CODA</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Sexo</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">NomeT</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">01</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">PF</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">02</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">RF</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">03</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">PF</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+            <p>e) <strong><u>União</u></strong>: É uma operação binária que produz como resultadao uma nova tabela que contém todas as linhas da primeira tabela seguidas de todas as linhas da segunda tabela.</p>
+            <p>A tabela resultante possui a mesma quantidade de colunas que as tabelas originais, e tem um número de linhas que é o máximo - igual à soma das linhas de ambas as tabelas - Essa operação só pode ser realizada se as tabelas possuírem a mesma estrutura: mesma quantidade de colunas e as colunas devem possuir o mesmo domínio.</p>
+            <p>União (U)</p>
+            <div style="width: 85%; max-width: 1200px; padding: 20px; border: 1px solid #ffffff; background-color: #f2f2f6; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); font-family: sans-serif;">
+                <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                    <div style="flex: 1;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Aluno</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Sexo</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Max</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div style="flex: 1;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="2">Professor</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Professor</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Sexo</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Adriana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Manu</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Bruno</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Hebert</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+                <div style="margin-top: 30px; text-align: center;">
+                    <div style="display: inline-block;">
+                        <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                            <thead>
+                                <tr style="background-color: #0065a0;">
+                                    <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="4">Aluno U Professor</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">Sexo</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Max</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Adriana</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Manu</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">F</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Bruno</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Hebert</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">M</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <p>f) <strong><u>Interseção</u></strong>: É uma operação binária que produz como resultado uma tabela que contém, sem repetições, todos os elementos que são comuns às duas tabelas fornecidas como operando. É importante ressaltar que a mesma restrição que valia para a operação União também vale para a operação Intersecção.</p>
+            <p>Interseção (∩)</p>
+            <div style="width: 85%; max-width: 1200px; padding: 20px; border: 1px solid #ffffff; background-color: #f2f2f6; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); font-family: sans-serif;">
+                <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                    <div style="flex: 1;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">CPF</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Data Nascimento</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Juliana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">111111-1</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">10/10/1974</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Ana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">222222-2</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">05/05/1970</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Max</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">333333-3</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">03/03/1990</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <div style="flex: 1;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Professor</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">CPF</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Data Nascimento</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Juliana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">111111-1</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">10/10/1974</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Renato</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">444444-4</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">05/05/1986</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Diego</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">666666-6</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">04/04/1970</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+                <div style="margin-top: 30px; text-align: center;">
+                    <div style="display: inline-block;">
+                        <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                            <thead>
+                                <tr style="background-color: #0065a0;">
+                                    <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno ∩ Professor</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">CPF</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">Data Nascimento</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Juliana</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">111111-1</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">10/10/1974</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <p>g) <strong><u>Diferença</u></strong>: É uma operação binária que produz como resultado uma tabela que <u>contém todas as linhas que existem na primeira tabela</u> e não existem na segunda tabela.</p>
+            <p>Diferença (-) = TabelaA - TabelaB</p>
+            <div style="width: 85%; max-width: 1200px; padding: 20px; border: 1px solid #ffffff; background-color: #f2f2f6; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); font-family: sans-serif;">
+                <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+                    <div style="flex: 1;">
+                    <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                        <thead>
+                            <tr style="background-color: #0065a0;">
+                                <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">CPF</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">Data Nascimento</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">666666-6</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">01/01/1982</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">55554-4</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">02/02/1970</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Juliana</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">111111-1</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">10/10/1974</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Antonio</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">222222-2</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">10/10/1974</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="flex: 1;">
+                        <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                            <thead>
+                                <tr style="background-color: #0065a0;">
+                                    <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Professor</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">CPF</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">Data Nascimento</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Renato</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">555555-4</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">05/05/1986</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Juliana</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">111111-1</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">10/10/1974</td>
+                                </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Max</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">123456-5</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">10/10/1974</td>
+                            </tr>
+                            <tr style="background-color: #fff;">
+                                <td style="border: #161616 1px solid; padding: 7px;">Antonio</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">457856-9</td>
+                                <td style="border: #161616 1px solid; padding: 7px;">05/05/1980</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+                <div style="margin-top: 30px; text-align: center;">
+                    <div style="display: inline-block;">
+                        <table style="width: 400px; max-width: 500px; border-collapse: collapse; font-family: sans-serif; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);">
+                            <thead>
+                                <tr style="background-color: #0065a0;">
+                                    <td style="color: white; padding: 10px; font-weight: 700; border: #161616 1px solid;" colspan="3">Aluno - Professor</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Nome</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">CPF</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">Data Nascimento</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Maria</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">666666-6</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">01/01/1982</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">João</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">55554-4</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">02/02/1970</td>
+                                </tr>
+                                <tr style="background-color: #fff;">
+                                    <td style="border: #161616 1px solid; padding: 7px;">Antonio</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">222222-2</td>
+                                    <td style="border: #161616 1px solid; padding: 7px;">10/10/1974</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p style="text-align: center; color: #ee6666; background-color: #e2ee86; padding: 10px; margin: 15px; border-radius: 10px;">Tupla da Juliana era a única que se repitia na TabelaB.</p>
+                    </div>
+                </div>
+            </div>
+            <p><strong>Tabela com Resumo das operações no Modelo Relacional</strong></p>
+            <p><img width="600px" src="img/BD - Modelo Lógico - Resumo das operações no Modelo Relacional.png" alt="Tabela com Resumo das operações no Modelo Relacional"></p>
+            <p># Vale lembrar que uma operação é dita <u><span class="tooltip">comutativa<span class="tooltip-text">ordem dos fatores não altera o resultado</span></span></u> quando a sua ordem é indiferente. Das operações vistas, apenas a <u>projeção e diferença não são</u> comutativas.</p>
+            <h3>3. View</h3>
+            <p><span class="icone-estilizado">&#10149;</span>Uma visão é um objeto que não armazena dados, ela é um conjuntgo de dados agrupados e criados como resultado de uma consulta a estrutura física (tabelas). Elas não fazem parte do esquema físico, é uma espécie de "tabela virtual" computada ou coletada dinamicamente dos dados no banco de dados todas as vezes que o acesso àquela visão for solicitado.</p>
+            <p>Sendo assim, alterações feitas em dados das tabelas, serão automaticamente refletidos nas visões.</p>
+            <p>Suas principais vantagens são:</p>
+            <ul>
+                <li>Aumentar a segurança pois propicia uma visão limitada e controlada dos dados.</li>
+                <li>Aumenta a performance porque utiliza uma consulta previamente otimizada e evita a busca dessa função de dados dinamicamente no <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span>.</li>
+                <li>Pode restringir o acesso aos usuários.</li>
+                <li>Simplifica a interação entre usuário final e o banco de dados.</li>
+            </ul>
+            <p>OBS: temos ainda a <u>View Materializada</u> que é armazenada de forma <u>não volátil</u>. Tem um melhor desempenho visto que o seu resultado já fica armazenado no banco de dados.</p>
+            <h3>4. Indices</h3>
+            <p><span class="icone-estilizado">&#10149;</span>São referências associativas as chaves e são utilizados para otimizar buscas, pois permite a localização mais rápida de um registro em uma tabela, para isso, cria ponteiros para os dados armazenados em colunas específicas.</p>
+            <p>Seria a <u>mesma ideia de usar o índice de um livro</u> para facilitar o acesso a uma parte de um livro.</p>
+            <h3>5. Chave</h3>
+            <p><span class="icone-estilizado">&#10149;</span>As chaves são muito importantes no bancos relacionais.</p>
+            <p>Principais tipos:</p>
+            <p>a) <strong><u>Superchave</u></strong>: é um conjunto de uma ou mais colunas que, tomadas <u>coletivamente</u>, permitem identificar de maneira unívoca uma linha de uma tabela. Toda tabela possui <u>pelo menos uma superchave padrão</u>, que é o conjunto de <u>todas as colunas de uma tabela</u>.</p>
+            <p>b) <strong><u>Chave primária - Primary Key (PK)</u></strong>: conjunto de atributos mínimo que identifica de forma <u>unívoca qualquer linha de uma tabela</u>. Também chamada de superchave mínima.</p>
+            <p>c) <strong><u>Chave composta</u></strong>: é uma superchave mínima que possui mais um atributo.</p>
+            <p>d) <strong><u>Chave candidata</u></strong>: campo que também pode ser escolhido como chave primária.</p>
+            <p>e) <strong><u>Chave secundária</u></strong>: é a chave candidata que não foi escolhida como primária.</p>
+            <p>f) <strong><u>Chave estrangeira - Foreing Key (FK)</u></strong>: chave de uma tabela que se relaciona com a chave de outra tabela ou até mesmo da própria tabela (auto relacionamento). <u>Deve</u> satisfazer duas regras: as colunas que a compõem devem ter o mesmo domínio que as colunas da chave candidata da tabela referenciada; o valor da chave estrangeira em uma relação deve ocorrer também na tabela referenciada ou ser nula.</p>
+            <p><img width="90%" src="img/Chaves.png" alt="Resumo das chaves de um BD"></p>
+            <h3>Relacionamentos</h3>
+            <p><span class="icone-estilizado">&#10149;</span>é a relação entre as tabelas.</p>
+            <p>Podem ser: </p>
+            <ul>
+                <li>(1:1) um-para-um
+                    <br>Quando uma linha de uma tabela se relaciona com uma linha de outra tabela.</li>
+                <li>(1:N) um-para-muitos
+                    <br>Qunado uma linha de uma tabela está associada a várias linhas de outra tabela.</li>
+                <li>(N:M) muitos-para-muitos
+                    <br>Quando várias linhas de uma tabela se associam a várias linhas de outra tabela.</li>
+            </ul>
+            <p><strong>Regras de Codd</strong></p>
+            <p><span class="icone-estilizado">&#10149;</span>Edgar F. Codd formulou as bases para a ideia de banco de dados, com a criação do modelo de banco de dados relacional.</p>
+            <p>Existem 13 regras de Codd, numeradas de 0 a 12. Elas definem o que é necessário para que um Banco de Dados seja relacional.</p>
+            </section>
+            <section>
+
+            <!-- AULA 03-->
+        
+            <h2>Aula 03 - Normalização (Modelo Relacional de Dados)</h2>
+            <p>A normalização é o processo que busca <u>reavaliar a modelagem de um banco de dados</u> buscando eliminar, ou pelo menos minimizar, a redundância e alcançar a melhoria de performance. Esse procedimento é feito a partir da identificação de uma anomalia em uma tabela, decompondo-a em tabelas mais bem estruturadas.</p>
+            <p>Anomalias são problemas que ocorrem em <u>Banco de Dados mal projetados</u>. Um bom projeto de banco de dados garante ao usuário a possibilidade de modificar o conteúdo do banco de dados sem causar efeitos colaterais inesperados que são as anomalias.</p>
+            <p>Existem três tipos de anomalias</p>
+            <ol>
+                <li>anomalia de inserção
+                    <br>Não deve ser possível adicionar um dado em uma tabela a não ser que outro dado esteja disponível. Por exemplo: não deve ser permitido cadastrar um novo livro na Tabela Livros sem que o autor desse livro esteja cadastrado na Tabela Autores.</li>
+                <li>anomalia de exclusão
+                    <br>Ao excluir um registro do bacno de dados, dados referenciados em outra tabela devem ser excluídos. Por exemplo: se excluirmos um autor na Tabela de Autores, os livros desse autor também devem ser excluídos, em cascata, na Tabela de Livros.</li>
+                <li>anomalia de modificação
+                    <br>Ao alterar um dado em uma tabela, dados em outras tabelas precisam ser alterados. Por exemplo: se o código que identifica um autor for modificado, esse código deve ser.</li>
+            </ol>
+            <p>Edgar F. Codd criou o processo de normalização, que é utilizado para se certificar que determinada tabela satisfaça um conjunto de regras chamada Formas Normais (FN). Cada forma normal representa uma condição mais forte que a sua precedente.</p>
+            <p>Na maioria dos casos, a terceira forma normal (3FN) é o mínimo necessário para considerar que um banco de dados está normalizado.</p>
+            <p><strong><u>Primeira Forma Normal (1FN)</u></strong></p>
+            <p><span class="icone-estilizado">&#10149;</span>Uma tabela está na 1FN se, <u>e somente se</u>, todos os valores dos <u>atributos forem atômicos</u> (indivisíveis), isto é, não deve existir atributos multivalorados ou compostos.</p>
+            <p>Nós já vimos que atributo <u>multivalorado (Ex: celular)</u> é aquele que pode assumir mais de um valor e atributo <u>composto (Ex: endereço)</u> é aquele que pode ser dubdividido em outros atributos.</p>
+            <p>Para normalizar o banco, podemos converter os atributos não atômicos em outras tabelas ou em outros campos na mesma tabela evitando repetições e campos com múltiplos valores.</p>
+            <p><strong><u>Segunda Forma Normal (2FN)</u></strong></p>
+            <p><span class="icone-estilizado">&#10149;</span>Uma tabela está na 2FN se, <u>e somente se</u>, estiver na 1FN e cada <u>atributo não-chave</u> for dependente da chave primária (ou candidata) <u>inteira</u>, isto é, não devem existir pendências parciais.</p>
+            <p><strong><u>Terceira Forma Normal (3FN)</u></strong></p>
+            <p><span class="icone-estilizado">&#10149;</span>Uma tabela está na 3FN se, <u>e somente se</u>, estiver na 2FN e cada atributo não-chave <u>não possuir dependência transitiva para cada chave candidata.</u></p>
+            <p>A partir da 3FN não costuma cobrar em concurso.</p>
+            <p><img width="700px" src="img/BD - Formas Normais.png" alt="Resumo das formas normais"></p>
+        </section>
+        <section>
+
+            <!-- AULA 04-->
+
+            <h2>Aula 04 - SQL</h2>
+            <p>SQL é a linguagem padrão para manipulação de dados e estruturas em <u>bancos de dados relacionais</u>.</p>
+            <p>Através de seus comandos podemos inserir, excluir, alterar dados, tabelas e estruturas em geral em um <span class="tooltip">BD<span class="tooltip-text">Banco de Dados</span></span>.</p>
+            <p>É uma linguagem <u>declarativa</u> (diferentemente da procedural) e que já possui alguns comandos procedurais e algumas extensões tais como: PL/SQL ou Transact.SQL, que são conhecidas como dialetos SQL.</p>
+            <p>Tipos de dados pré-definidos pela linguagem SQL e reconhecidos pelo padrão ANSI/SQL.</p>
+            <p>Os principais são:</p>
+            <p>a) <strong><u>Textual ou literal</u></strong>: são cadeias de caracteres.</p>
+            <p><span class="icone-estilizado">&#10149;</span>Podem ter um tamanho fixo (CHAR(n), em que n é o número fixo de caracteres) ou tamanho variável (Ex: VARCHAR(n), em que n é o número máximo de caracteres).</p>
+            <p>O padrão ANSI/SQL trouxe ainda um tipo de texto chamado CLOB (Character Large Object) capaz de armazenar textos gigantescos, sendo que o tamanho máximo depende da especificidade de cada SGBD.</p>
+            <p>Textos inseridos diretamente no banco de dados devem ser colocados entre aspas simples (apóstrofos).</p>
+            <p>O SQL é Case Sensitive (diferencia maiúsculas de minúsculas).</p>
+        </section>
+        <section>
+
+            <!-- AULA 05 -->
+
+            <h2>Aula 05 - Data Warehouse</h2>
+            
+        </section>
+        
+
+        <section class="campoQuestoes">
+            <h2>Questões de Banco de Dados</h1>
+            <div id="questoes"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Lulubas</p>
+    </footer>
+  
+    <script src="../js/questoes.js"></script>
+    <script>
+      // matéria e o número de questões
+      carregarQuestoes('bancoDeDados', 15);
+    </script>
+</body>
+</html>
