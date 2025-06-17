@@ -374,4 +374,9 @@ div.tabelaExplica > table > tbody > tr > td.destaque {
     img {
         width: 100%;
     }
+    p.destaqueVermelho {
+    max-width: 100%; 
+    min-width: 200px; 
+    text-align: center;
+    }
 }
