@@ -1145,6 +1145,156 @@
         "e) não constitui violação do dever de sigilo."],
         "correta": "e) não constitui violação do dever de sigilo.",
         "explicacao": "Apesar de ser uma questão para delegado, observe que é simples: a troca de informações entre instituições financeiras, para fins cadastrais, inclusive por intermédio de centrais de risco, observadas as normas baixadas pelo Conselho Monetário Nacional e pelo Banco Central do Brasil, não constitui violação do dever de sigilo. "
+      },
+      {
+        "pergunta": "(EBSERH/Analista de Tecnologia da Informação) A Lei Geral de Proteção de Dados considera como dados pessoas sensíveis os dados sobre",
+        "alternativas": ["a) contas bancárias", 
+        "b) viagens realizadas", 
+        "c) formação acadêmica", 
+        "d) origem racial ou étnica", 
+        "e) numeração de documentos"],
+        "correta": "d) origem racial ou étnica",
+        "explicacao": "Vamos à lista de dados sensíveis da LGPD:<br>▶ origem racial ou étnica (letra “d”)<br>▶ convicção religiosa<br>▶ opinião política<br>▶ filiação a sindicato ou a organização de caráter religioso, filosófico ou político<br>▶ referente à saúde ou à vida sexual<br>▶ dado genético ou biométrico"
+      },
+      {
+        "pergunta": "(EURJ/Técnico em TI) A Lei Geral de Proteção de Dados estabelece os requisitos que devem ser observados para o tratamento de dados pessoais, considerados como quaisquer informações relacionadas à pessoa natural identificada ou identificável. Nesse sentido, são considerados dados pessoas sensíveis aqueles relativos a(à):",
+        "alternativas": ["a) experiência profissional", 
+        "b) formação acadêmica", 
+        "c) número de filhos", 
+        "d) opinião política", 
+        "e) numeração de documentos"],
+        "correta": "d) opinião política",
+        "explicacao": "Vamos à lista de dados sensíveis, no Art. 5º, da LGPD:<br>▶ origem racial ou étnica<br>▶ convicção religiosa<br>▶ opinião política (letra “d”)<br>▶ filiação a sindicato ou a organização de caráter religioso, filosófico ou político<br>▶ referente à saúde ou à vida sexual<br>▶ dado genético ou biométrico"
+      },
+      {
+        "pergunta": "(TJ-PA/Analista Judiciário - Análise de Sistemas) De acordo com a Lei nº 13.709/2018 (Lei Geral de Proteção de Dados), as atividades de tratamento de dados pessoais devem observar a boa-fé e o princípio",
+        "alternativas": ["a) de dado pessoal, segundo o qual a informação é relacionada à pessoa natural identificada ou identificável.)", 
+        "b) de banco de dados, como um conjunto estruturado de dados pessoais estabelecido em um ou em vários locais, em suporte eletrônico ou físico.", 
+        "c) da anonimização, com a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo.", 
+        "d) da prevenção, com a adoção de medidas para prevenir a ocorrência de danos em virtude de tratamento de dados pessoais.", 
+        "e) da eliminação, que é a exclusão de dado ou de conjunto ded dados armazenados em banco de dados, independentemente do procedimento empregado."],
+        "correta": "d) da prevenção, com a adoção de medidas para prevenir a ocorrência de danos em virtude de tratamento de dados pessoais.",
+        "explicacao": "Vejamos cada uma das alternativas.<br>a) de dado pessoal, segundo o qual a informação é relacionada à pessoa natural identificada ou identificável.<br>Errado. Não há um princípio “de dado pessoal”.<br>b) de banco de dados, como um conjunto estruturado de dados pessoais estabelecido em um ou em vários locais, em suporte eletrônico ou físico.<br>Errado. Também não há tal princípio na LGPD.<br>c) da anonimização, com a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo.<br>Errado. Embora o conceito de anonimização esteja correto, não se trata de um princípio.<br>d) da prevenção, com a adoção de medidas para prevenir a ocorrência de danos em virtude do tratamento de dados pessoais.<br>Certo! É o princípio VIII.<br>e) da eliminação, que é a exclusão de dado ou de conjunto de dados armazenados em banco de dados, independentemente do procedimento empregado.<br>Errado. Novamente um conceito corretamente definido (eliminação), mas que não é um princípio."
+      },
+      {
+        "pergunta": "(2020/VUNESP/PREF ILHABELA/Analista - Gestão Pública) Para a Lei Geral de Proteção de Dados, o dado anonimizado indica o",
+        "alternativas": ["a) dado relativo ao controlador que possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento.", 
+        "b) dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento.", 
+        "c) dado relativo ao operador que possa ser identificado, considerando a utilização de meios eletrônicos razoáveis e disponíveis na ocasião de seu tratamento.", 
+        "d) conjunto estruturado de dados pessoais, estabelecido em um ou em vários locais, em suporte eletrônico ou físico.", 
+        "e) dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural."],
+        "correta": "b) dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento.",
+        "explicacao": "O dado anonimizado é o dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento, ou seja, letra “b” é nosso gabarito.<br>A letra “a” e “c” estão incorretas, em consequência. Quanto às demais alternativas:<br>d) conjunto estruturado de dados pessoais, estabelecido em um ou em vários locais, em suporte eletrônico ou físico.<br>Errado. Esse é o conceito de “banco de dados”.<br>e) dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural.<br>Errado. Esse é o conceito de “dado pessoal sensível”."
+      },
+      {
+        "pergunta": "(BRB/Escriturário) Considere que, em um órgão público, foi detectada a necessidade da atribuição de responsáveis para manterem registro das operações de tratamento de dados pessoais. De acordo com a Lei nº 13.709/2028, quem devem ser esses responsáveis?",
+        "alternativas": ["a) Os agentes de tratamento de dados e o conselho diretor.", 
+        "b) O controlador e o operador.", 
+        "c) O presidente da República e o controlador.", 
+        "d) A autoridade nacional e o operador.", 
+        "e) O governante e a autoridade nacional."],
+        "correta": "b) O controlador e o operador.",
+        "explicacao": "Os responsáveis pelos dados são os agentes de tratamento, sendo o controlador responsável pelas decisões, e o operador responsável pelo tratamento, em nome do controlador."
+      },
+      {
+        "pergunta": "(2020/INSTITUTO AOCP/MJSP/Analista - Big Data/Governança de Dados) Para fins da Lei n° 13.709/2018, de Proteção de Dados, considera-se",
+        "alternativas": ["a) dado anonimizado a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo.", 
+        "b) operador a pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais.", 
+        "c) dado pessoal sensível o dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural.", 
+        "d) controlador a pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador.", 
+        "e) anonimização o dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento."],
+        "correta": "c) dado pessoal sensível o dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural.",
+        "explicacao": "Vamos tornar as outras alternativas certas:<br>a) anonimizado anonimização a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo.<br>b) controlador a pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais.<br>d) operador a pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador.<br>e) dado anonimizado o dado relativo a titular que não possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento."
+      },
+      {
+        "pergunta": "(PREF ILHABELA/Analista - Gestão Pública) A Lei Geral de Proteção de Dados aplica-se a qualquer operação de tratamento realizada por pessoa natural ou por pessoa jurídica de direito público ou privado, independentemente do meio, do país de sua sede ou do país onde estejam localizados os dados, desde que",
+        "alternativas": ["a) o tratamento de dados pessoais tenha sido realizado por pessoa natural para fins exclusivamente particulares e não econômicos.", 
+        "b) o tratamento de dados pessoais tenha sido realizado por pessoa natural para fins exclusivamente jornalísticos.", 
+        "c) o tratamento de dados pessoais tenha sido realizado por pessoa natural para fins exclusivamente artísticos.", 
+        "d) os dados pessoais objeto do tratamento tenham sido coletados no território nacional.", 
+        "e) o tratamento de dados pessoais tenha sido realizado por pessoa natural para atividade de investigação e repressão de infrações penais."],
+        "correta": "d) os dados pessoais objeto do tratamento tenham sido coletados no território nacional.",
+        "explicacao": "XXX"
+      },
+      {
+        "pergunta": "(PREF ILHABELA/Analista - Gestão Pública) Segundo a Lei Geral de Proteção de Dados, as atividades de tratamento de dados pessoais deverão observar a boa-fé e o princípio da qualidade dos dados que apregoa",
+        "alternativas": ["a) realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades.", 
+        "b) compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento.", 
+        "c) garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais.", 
+        "d) garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial.", 
+        "e) garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento."],
+        "correta": "e) garantia, aos titulares, de exatidão, clareza, relevância e atualização dos dados, de acordo com a necessidade e para o cumprimento da finalidade de seu tratamento.",
+        "explicacao": "Mas vejamos se as demais falam de algum outro princípio:<br>a) realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades.<br>▲Princípio da Finalidade.<br>b) compatibilidade do tratamento com as finalidades informadas ao titular, de acordo com o contexto do tratamento.<br>▲Princípio da Adequação.<br>c) garantia, aos titulares, de consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como sobre a integralidade de seus dados pessoais.<br>▲Princípio do Livre Acesso.<br>d) garantia, aos titulares, de informações claras, precisas e facilmente acessíveis sobre a realização do tratamento e os respectivos agentes de tratamento, observados os segredos comercial e industrial.<br>▲Princípio da Qualidade dos Dados.<br>Gabarito: “e”"
+      },
+      {
+        "pergunta": "(APEX/Analista - Tecnologia de Informação e Comunicação) No seu processo de cadastramento de usuários, um site na Web obteve dados pessoais sensíveis de um usuário. Nessa situação hipotética, de acordo com a Lei nº 13.709/2018, o tratamento dos referidos dados pelo site poderá ser feito sem o consentimento do titular se",
+        "alternativas": ["a) for indispensável para a proteção da vida.", 
+        "b) houver demanda para a realização de estudos por órgão de pesquisa reconhecido pelo governo federal, sendo desnecessária, nesse caso, a anonimização dos dados.", 
+        "c) for necessário para promover exclusivamente ações de marketing.", 
+        "d) houver necessidade de disponibilizar os dados para uma empresa parceira.", 
+        "e) o tratamento de dados pessoais tenha sido realizado por pessoa natural para atividade de investigação e repressão de infrações penais."],
+        "correta": "a) for indispensável para a proteção da vida.",
+        "explicacao": "A única hipótese que permite o tratamento sem consentimento, entre as alternativas, é aquela trazida pela letra “a”: proteção da vida (ou incolumidade física)."
+      },
+      {
+        "pergunta": "(2020/INSTITUTO AOCP/MJSP/ Cientista de Dados - Big Data) Considerando o que dispõe a Lei n° 13.709/2018, de Proteção de Dados, o titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados, que deverão ser disponibilizadas de forma clara, adequada e ostensiva acerca, dentre outras características, de",
+        "alternativas": ["a) sigilo quanto a informações de contato do controlador.", 
+        "b) informações acerca do uso compartilhado de dados pelo controlador e a finalidade.", 
+        "c) não divulgação das responsabilidades dos agentes que realizarão o tratamento.", 
+        "d) não identificação do controlador.", 
+        "e) sigilo quanto à finalidade específica do tratamento."],
+        "correta": "b) informações acerca do uso compartilhado de dados pelo controlador e a finalidade.",
+        "explicacao": "Vamos analisar as alternativas.<br>a) sigilo quanto a informações de contato do controlador.<br>Errado. O titular tem direito facilitado às informações de contato do controlador.<br>b) informações acerca do uso compartilhado de dados pelo controlador e a finalidade.<br>Certo. Isso deve constar expressamente no consentimento, e é direito do titular.<br>c) não divulgação das responsabilidades dos agentes que realizarão o tratamento.<br>Errado. Também é direito do titular livre acesso às informações sobre responsabilidades dos agentes que realizarão o<br>d) não identificação do controlador.<br>Errado. A identificação do controlar também é direito do titular.<br>e) sigilo quanto à finalidade específica do tratamento.<br>Errado. Mais um direito do titular."
+      },
+      {
+        "pergunta": "(2020/VUNESP/PREF ILHABELA/ Analista - Gestão Pública) Em conformidade com a Lei de Proteção de Dados, na hipótese em que o consentimento é requerido, esse será considerado nulo caso",
+        "alternativas": ["a) houver mudanças da finalidade para o tratamento de dados pessoais não compatíveis com o consentimento original.", 
+        "b) o titular, nas situações em que o seu consentimento é exigido, revogá-lo quando discorde da alteração.", 
+        "c) as informações fornecidas ao titular tenham conteúdo enganoso ou abusivo ou não tenham sido apresentadas previamente com transparência, de forma clara e inequívoca.", 
+        "d) as informações sensíveis contiverem identificação do controlador.", 
+        "e) as informações sensíveis contiverem informações de contato do controlador"],
+        "correta": "c) as informações fornecidas ao titular tenham conteúdo enganoso ou abusivo ou não tenham sido apresentadas previamente com transparência, de forma clara e inequívoca.",
+        "explicacao": "Note que as letras “a” e “b” trazem hipóteses de revogação do consentimento, e não de nulidade.<bR>Quando a “d” e “e”, são direito do titular, o que já as torna erradas. Ainda misturados com o conceito de “informação sensível”, ficam mais erradas ainda."
+      },
+      {
+        "pergunta": "(2021/FGV/TCE-AM/Auditor Técnico de Controle Externo) A Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD) dispõe sobre o tratamento de dados pessoais, inclusive nos meios digitais, por pessoa natural ou por pessoa jurídica de direito público ou privado, com o objetivo de proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural.<br>De acordo com tal lei, o tratamento de dados pessoais sensíveis somente poderá ocorrer sem o fornecimento de consentimento do titular, nas hipóteses em que for indispensável para, por exemplo:",
+        "alternativas": ["a) cumprimento de obrigação contratual referente a negócio jurídico, desde que o valor global seja superior a cem salários mínimos;", 
+        "b) realização de estudos científicos por órgão de pesquisa, vedada a anonimização dos dados pessoais sensíveis para a lisura do resultado empírico;", 
+        "c) comunicação ou uso compartilhado entre controladores com o objetivo de obter vantagem econômica, que não poderá ser objeto de vedação por parte da autoridade competente;", 
+        "d) tratamento compartilhado de dados necessários à execução, pela administração pública, de políticas públicas previstas em leis ou regulamentos;", 
+        "e) proteção da vida ou da incolumidade física do titular, e não de terceiro, por estar relacionado a direito fundamental próprio, cuja tutela deve ser a mais ampla possível."],
+        "correta": "d) tratamento compartilhado de dados necessários à execução, pela administração pública, de políticas públicas previstas em leis ou regulamentos;",
+        "explicacao": "a) cumprimento de obrigação contratual referente a negócio jurídico, desde que o valor global seja superior a cem salários mínimos;<br>Errado. Não existe exigência de valor global superior a cem salários-mínimos.<br>b) realização de estudos científicos por órgão de pesquisa, vedada a anonimização dos dados pessoais sensíveis para a lisura do resultado empírico.<br>Errado. Nesse caso, a anonimização é necessária, sempre que possível.<br>c) comunicação ou uso compartilhado entre controladores com o objetivo de obter vantagem econômica, que não poderá ser objeto de vedação por parte da autoridade competente;<br>Errado. Conforme Art. 11: “§ 3º A comunicação ou o uso compartilhado de dados pessoais sensíveis entre controladores com objetivo de obter vantagem econômica poderá ser objeto de vedação ou de regulamentação por parte da autoridade nacional, ouvidos os órgãos setoriais do Poder Público, no âmbito de suas competências.”<br>d) tratamento compartilhado de dados necessários à execução, pela administração pública, de políticas públicas previstas em leis ou regulamentos;<br>Certo! Esse é um dos casos nos quais o tratamento pode ocorrer sem consentimento.<br>e) proteção da vida ou da incolumidade física do titular, e não de terceiro, por estar relacionado a direito fundamental próprio, cuja tutela deve ser a mais ampla possível.<br>Errado. A proteção à vida ou à incolumidade física de terceiros também é prevista."
+      },
+      {
+        "pergunta": "(2019/IADES/CRN 3/Auxiliar Administrativo) A Lei nº 13.709/2018 (Lei Geral de Proteção de Dados) incide quanto ao cadastro de usuários e clientes, alterando a maneira como as organizações devem tratar dados pessoais, com vistas a proteger os direitos fundamentais de liberdade e de privacidade e a respeitar o livre desenvolvimento da personalidade, a dignidade e o exercício da cidadania. Considerando o disposto na referida lei, assinale a alternativa correta.",
+        "alternativas": ["a) Essa lei aplica-se exclusivamente a dados coletados por meio digital.", 
+        "b)  Para os fins dessa lei, considera-se dado pessoal qualquer informação relacionada a pessoa física ou jurídica identificada ou identificável.", 
+        "c) O tratamento de dados pessoais, bem como o compartilhamento desses dados, somente é permitido mediante consentimento do titular, salvo casos de exceção previstos na lei.", 
+        "d) Dados pessoais de crianças podem ser coletados sem consentimento prévio e armazenados para fins de contato com os pais ou o responsável legal.", 
+        "e) O consentimento do tratamento dos dados deve ser fornecido pelo titular antecipadamente à coleta dos dados e presume concordância com o compartilhamento dos respectivos dados pessoais com entidades parceiras por tempo indeterminado."],
+        "correta": "c) O tratamento de dados pessoais, bem como o compartilhamento desses dados, somente é permitido mediante consentimento do titular, salvo casos de exceção previstos na lei.",
+        "explicacao": "Vamos analisar as alternativas.<br>a) Essa lei aplica-se exclusivamente a dados coletados por meio digital.<br>Errado. Aplica-se também a dados coletados pessoalmente, como no exemplo do balcão da loja.<br>b) Para os fins dessa lei, considera-se dado pessoal qualquer informação relacionada a pessoa física ou jurídica identificada ou identificável<br>Errado. Dado pessoal é apenas referente a pessoa natural identificada ou identificável, não incluindo pessoas jurídicas nesse conceito.<br>c) O tratamento de dados pessoais, bem como o compartilhamento desses dados, somente é permitido mediante consentimento do titular, salvo casos de exceção previstos na lei.<br>Certo. A regra é ter o consentimento, mas a lei admite exceções.<br>d) Dados pessoais de crianças podem ser coletados sem consentimento prévio e armazenados para fins de contato com os pais ou o responsável legal.<br>Errado. Não podem ser armazenados.<br>e) O consentimento do tratamento dos dados deve ser fornecido pelo titular antecipadamente à coleta dos dados e presume concordância com o compartilhamento dos respectivos dados pessoais com entidades parceiras por tempo indeterminado.<br>Errado. Para compartilhamento não é presumido: deve constar especificamente essa finalidade."
+      },
+      {
+        "pergunta": "(2020/INSTITUTO AOCP/MJSP/ Cientista de Dados - Big Data) Considerando o que dispõe a Lei n° 13.709/2018, de Proteção de Dados, assinale a alternativa correta.",
+        "alternativas": ["a) O término do tratamento de dados pessoais ocorrerá, dentre outras hipóteses, quando se verificar que os dados deixaram de ser necessários ou pertinentes ao alcance da finalidade específica almejada.", 
+        "b) O titular dos dados pessoais não tem direito de obter do controlador, em relação aos dados do titular por ele tratados, a confirmação da existência de tratamento.", 
+        "c) A portabilidade dos dados pessoais a outro fornecedor de serviço ou produto, prevista na Lei n° 13.709/2018, inclui dados que já tenham sido anonimizados pelo controlador.", 
+        "d) O titular dos dados pessoais não tem direito de obter do controlador, em relação aos dados do titular por ele tratados, informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa.", 
+        "e) Ao titular dos dados pessoais não é dado o direito de peticionar em relação aos seus dados, perante a autoridade nacional, contra o controlador."],
+        "correta": "a) O término do tratamento de dados pessoais ocorrerá, dentre outras hipóteses, quando se verificar que os dados deixaram de ser necessários ou pertinentes ao alcance da finalidade específica almejada.",
+        "explicacao": "De fato, o que consta na letra “a” é uma das hipóteses de término do tratamento de dados, sendo as outras o fim do período, a comunicação do titular (revogação do consentimento) e a determinação da autoridade. Vejamos os erros nas demais.<br>b) O titular dos dados pessoais não tem direito de obter do controlador, em relação aos dados do titular por ele tratados, a confirmação da existência de tratamento.<br>Errado. Pelo contrário, o titular tem direito a obter essa informação. Para complementar, ainda é definido que:<br>c) A portabilidade dos dados pessoais a outro fornecedor de serviço ou produto, prevista na Lei n° 13.709/2018, inclui dados que já tenham sido anonimizados pelo controlador.<br>Errado. A portabilidade não inclui os dados anonimizados.<br>d) O titular dos dados pessoais não tem direito de obter do controlador, em relação aos dados do titular por ele tratados, informação sobre a possibilidade de não fornecer consentimento e sobre as consequências da negativa.<br>Errado.<br>e) Ao titular dos dados pessoais não é dado o direito de peticionar em relação aos seus dados, perante a autoridade nacional, contra o controlador.<br>Errado."
+      },
+      {
+        "pergunta": "(2020/INSTITUTO AOCP/MJSP/Cientista de Dados - Big Data) Segundo a Lei nº 13.709/2018, de Proteção de Dados, a transferência internacional de dados pessoais é permitida nas seguintes situações, EXCETO",
+        "alternativas": ["a) para países ou organismos internacionais que proporcionem grau de proteção de dados pessoais adequado ao previsto na Lei específica.", 
+        "b) quando a autoridade nacional autorizar a transferência.", 
+        "c) quando a transferência for necessária para a proteção da vida ou da incolumidade física do titular ou de terceiro.", 
+        "d) quando o titular tiver fornecido o seu consentimento específico e em destaque para a transferência, com informação prévia sobre o caráter internacional da operação, distinguindo claramente esta de outras finalidades.", 
+        "e) quando a transferência for necessária para a cooperação jurídica internacional entre órgãos públicos de inteligência, de investigação e de persecução, de acordo com os instrumentos de direito internos."],
+        "correta": "a) O término do tratamento de dados pessoais ocorrerá, dentre outras hipóteses, quando se verificar que os dados deixaram de ser necessários ou pertinentes ao alcance da finalidade específica almejada.",
+        "explicacao": "Essa é difícil e bem sutil, e apenas a alternativa “e” está errada.<br>Veja só:<br>Art. 33. A transferência internacional de dados pessoais somente é permitida nos seguintes casos:<br>(...)<br>internacional entre órgãos públicos de inteligência, de investigação e de persecução, de acordo com os instrumentos de direito internacional;<br>Portanto, não são instrumentos de direito “interno”, como consta na alternativa."
       }
     ],
 
