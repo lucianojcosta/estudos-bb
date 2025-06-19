@@ -6,6 +6,14 @@
     <title>Probabilidade e Estatística</title>
     <link rel="stylesheet" href="../headermenufooter.css">
     <link rel="stylesheet" href="../estiloMaterias.css">
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    displayAlign: "left"
+  });
+    </script>
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
 </head>
 <body>
     <header>
@@ -26,11 +34,13 @@
             <li><a href="../Inglês/index.html">Inglês</a></li>
             <li><a href="../Português/index.html">Português</a></li>
             <li><a href="../Matemática/index.html">Matemática</a></li>
+            <li><a href="../Simulado/index.html">Simulado</a></li>
+            <li><a href="../Redação/index.html">Redação</a></li>
         </ul>
     </nav>
     <main>
         <section>
-
+            <p class="destaqueVermelho">Procurar mais questões no google dos assuntos das aulas 00 e 01</p>
             <!-- Aula 00 -->
 
             <h2>Aula 00 - Introdução e Apresentação de Dados</h2>
@@ -73,17 +83,600 @@
 
             <h2>Aula 01 - Médias</h2>
             <h3>Medidas de Posição</h3>
-            <p>Indicam um ponto central onde, geralmente, está localizada a maioria das observações. São elas:</p>
-            <ul>
-                <li>Média</li>
-                <li>Moda</li>
-                <li>Mediana</li>
-            </ul>
+            <p>As medidas de posição indicam a tendência de concentração dos elementos de uma série, apontando o valor que melhor representa o conjunto de dados.</p>
+            <p>As medidas de posição podem ser divididas em:</p>
+            <ol>
+                <li style="padding: 6px;"><strong>medidas de tendência central:</strong> representam o ponto central ou o valor típico de um conjunto de dados, indicando onde está localizada a maioria dos valores de uma distribuição. As medidas mais utilizadas são:
+                    <ul>
+                        <li style="padding: 6px;"><strong>média aritmética:</strong> é o valor resultante da divisão entre a soma de todos os valores de uma série de observações e o número de observações;</li>
+                        <li style="padding: 6px;"><strong>mediana:</strong> valor que ocupa a posição central de uma série de observações, quando organizadas em ordem crescente ou decrescente; e</li>
+                        <li style="padding: 6px;"><strong>moda:</strong> valor mais frequente em uma série de observações.</li>
+                    </ul>
+                </li>
+                <li style="padding: 6px;"><strong>medidas separatrizes:</strong> dividem (ou separam) uma série em duas ou mais partes, cada uma contendo a mesma quantidade de elementos. As medidas mais utilizadas são:
+                    <ul>
+                        <li style="padding: 6px;"><strong>mediana:</strong> divide uma série em duas partes iguais. Reparem que, além de ser uma medida separatriz, a mediana também é uma medida de tendência central;</li>
+                        <li style="padding: 6px;"><strong>quartis:</strong> dividem uma série em quatro partes iguais;</li>
+                        <li style="padding: 6px;"><strong>decis:</strong> dividem uma série em dez partes iguais; e</li>
+                        <li style="padding: 6px;"><strong>percentis:</strong> dividem uma série em cem partes iguais.</li>
+                    </ul>
+                </li>
+            </ol>
+            <p><img src="img/medidas_de_posicao.png" alt="imagem medidas de posição"></p>
             <h3>Notação de Somatório</h3>
-            <p>Σ = Sigma = somatório</p>
-            <p><img width="500px" src="img/Notação de Somatório.png" alt=""></p>
+            <p>O somatório ou notação sigma é usado para expressar de uma forma simples e concisa a soma dos valores de uma variável. Então, em vez de usarmos vários elementos para determinarmos o somatório, utilizamos apenas o símbolo do somatório com a seguinte notação:</p>
+            <p><img src="img/Notação de Somatório.png" alt="imagem notação de somatório"></p>
+            <p>Essa notação envolve um símbolo de somatório, 𝛴, que é a letra grega maiúscula Sigma (S). Esse símbolo está nos instruindo a somar determinados elementos de uma sequência.</p>
+            
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \sum_{i=1}^{n} x_k = x_{k+1} + x_{k+2} + x_{k+3} + \dots + x_n $$
+            </div>
+
+            <p>Exemplos:</p>
+            <div style="border: 2px solid black; width: 65px; padding: 10px; flex: auto; ">
+                $$ x_1 = 2 $$
+                $$ x_2 = 4 $$
+                $$ x_3 = 6 $$
+                $$ x_4 = 8 $$
+                $$ x_5 = 10 $$
+            </div>
+            <div>
+                <div style="text-align: left; font-size: 1.2em;">
+                $$ a) \sum_{i=1}^{3} x_i = x_{1} + x_{2} + x_{3} = 12 $$
+                </div>
+                <div style="text-align: left; font-size: 1.2em;">
+                $$ b) \sum_{i=1}^{5} x_i = x_{1} + x_{2} + x_{3} + x_{4} + x_{5} = 30 $$
+                </div>
+                <div style="text-align: left; font-size: 1.2em;">
+                $$ b) \sum_{i=1}^{2} x_{i^{2}} = x_{1^{2}} + x_{2^{2}} = 20 $$
+                </div>
+            </div>
+            <h3>Média Aritmética Simples</h3>
+            <p>É a média tradicional, aquela em que somamos os elementos e dividimos pela quantidade de elementos.</p>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x} = média $$
+            </div>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x} = \frac{x_1 + x_2 + \dots + x_n}{n} $$
+            </div>
+            
+            <p>Exemplo: média simples entre 3, 7 e 14.</p>
+        
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x} = \frac{soma}{quantidade} = \frac{3 + 7 + 14}{3} = 8 $$
+            </div>
+
+            <h3>Média Ponderada</h3>
+            <p>É a média que trabalha com pesos, com importância maior para alguns valores.</p>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ M = \frac{V_1 . P_1 + V_2 . P_2 + V_3 . P_3\dots}{ P_1 + P_2 + P_3} $$
+            </div>
+
+            <p>Exemplo:</p>
+            <table style="width: 300px;">
+                <tr>
+                    <td style="padding: 1px; border: 2px solid black;">Valor</td>
+                    <td style="padding: 1px; border: 2px solid black;">6</td>
+                    <td style="padding: 1px; border: 2px solid black;">5</td>
+                    <td style="padding: 1px; border: 2px solid black;">4</td>
+                </tr>
+                <tr>
+                    <td style="padding: 1px; border: 2px solid black;">Peso</td>
+                    <td style="padding: 1px; border: 2px solid black;">4</td>
+                    <td style="padding: 1px; border: 2px solid black;">3</td>
+                    <td style="padding: 1px; border: 2px solid black;">3</td>
+                </tr>
+            </table>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ M = \frac{6 . 4 + 5 . 3 + 4 . 3}{ 4 + 3 + 3} $$
+            $$ M = \frac{24 + 15 + 12}{10} = \frac{51}{10} = 5,1 $$
+            </div>
+
+            <h3>Média para Dados Agrupados por Valor</h3>
+            <p>O raciocínio é exatamente o mesmo adotado para a média ponderada, sendo que, agora, o <strong>peso é representado pela frequência</strong> (𝑓𝑖). Desse modo, multiplicamos cada valor por sua respectiva frequência, somamos tudo e dividimos pela soma das frequências.</p>
+            <p>A tabela a seguir apresenta os tempos de resolução de uma questão de estatística por um grupo de 10 alunos. Calcule o tempo médio de resolução para essa amostra.</p>
+            <div class="tabelaExplica" style="max-width: 400px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Tempo de Resolução (𝑿𝒊)</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Primeiro, devemos multiplicar cada valor por sua respectiva frequência (𝑋𝑖 × 𝑓𝑖), somar cada parcela e, então, dividir pela soma das frequências</p>
+            <div class="tabelaExplica" style="max-width: 500px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Tempo de Resolução (𝑿𝒊)</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                            <th>𝑿𝒊 x 𝒇𝒊</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1 x 1 = 1</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>3 x 2 = 6</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>5 x 2 = 10</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>6 x 2 = 12</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>1</td>
+                            <td>7 x 1 = 7</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>9 x 2 = 18</td>
+                        </tr>
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td><b>10</b></td>
+                            <td><b>54</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Agora, basta dividirmos um valor pelo outro, obtendo:</p>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x} = \frac{54}{10} = 5,4 $$
+            </div>
+
+            <h3>Média para Dados Agrupados por Classe</h3>
+
+            <p>A diferença em relação ao cálculo anterior consiste na substituição dos intervalos pelos seus respectivos <strong>pontos médios</strong>.</p>
+            <p>A tabela a seguir também apresenta os tempos de resolução de uma questão de estatística por um grupo de 10 alunos, mas agora está organizada em intervalos de classes. Calcule o tempo médio de resolução para essa amostra.</p>
+            <div class="tabelaExplica" style="max-width: 400px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Tempo médio (𝑿𝒊)</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                        </tr>
+                        <tr>
+                            <td>0 ≤ 𝒙 < 2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2 ≤ 𝒙 < 4</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>4 ≤ 𝒙 < 6</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6 ≤ 𝒙 < 8</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>8 ≤ 𝒙 < 10</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>O primeiro passo é o cálculo dos pontos médios de cada intervalo. Para isso, vamos incluir uma nova coluna:</p>
+            <div class="tabelaExplica" style="max-width: 400px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Tempo médio (𝑿𝒊)</th>
+                            <th>Ponto médio (PM𝒊)</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                        </tr>
+                        <tr>
+                            <td>0 ≤ 𝒙 < 2</td>
+                            <td>(0 + 2)⁄2 = 1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>2 ≤ 𝒙 < 4</td>
+                            <td>(2 + 4)⁄2 = 3</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>4 ≤ 𝒙 < 6</td>
+                            <td>(4 + 6)⁄2 = 5</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>6 ≤ 𝒙 < 8</td>
+                            <td>(6 + 8)⁄2 = 7</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>8 ≤ 𝒙 < 10</td>
+                            <td>(8 + 10)⁄2 = 9</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Em seguida, vamos calcular os valores das multiplicações 𝑃𝑀𝑖 × 𝑓𝑖. Após isso, somaremos todos os valores da coluna 𝑃𝑀𝑖 × 𝒇𝒊</p>
+            <div class="tabelaExplica" style="max-width: 700px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Tempo médio (𝑿𝒊)</th>
+                            <th>Ponto médio (PM𝒊)</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                            <th>PM𝒊 x 𝒇𝒊</th>
+                        </tr>
+                        <tr>
+                            <td>0 ≤ 𝒙 < 2</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1 x 1 = 1</td>
+                        </tr>
+                        <tr>
+                            <td>2 ≤ 𝒙 < 4</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>3 x 2 = 6</td>
+                        </tr>
+                        <tr>
+                            <td>4 ≤ 𝒙 < 6</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>5 x 2 = 10</td>
+                        </tr>
+                        <tr>
+                            <td>6 ≤ 𝒙 < 8</td>
+                            <td>7</td>
+                            <td>3</td>
+                            <td>7 x 3 = 21</td>
+                        </tr>
+                        <tr>
+                            <td>8 ≤ 𝒙 < 10</td>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>9 x 2 = 18</td>
+                        </tr>
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td><b></b></td>
+                            <td><b>10</b></td>
+                            <td><b>56</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Agora, basta dividirmos um valor pelo outro, obtendo:</p>
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x} = \frac{56}{10} = 5,6 $$
+            </div>
+
+            <h3>Média Geométrica</h3>
+
+            <p>Essa medida é definida, para o conjunto de números positivos, como a raiz <strong>𝒏-ésima do produto de 𝒏 elementos</strong> de um conjunto de dados. A propriedade principal dessa média é preservar o produto dos elementos de um conjunto de dados.</p>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x}_g = \sqrt[n]{x_1 \times x_2 \times \dots \times x_n} $$
+            </div>
+
+            <p>Exemplo 1: Calcule a média geométrica entre 2 e 32.</p>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x}_g = \sqrt[2]{2 . 32} $$
+            $$ \bar{x}_g = \sqrt[2]{64} $$
+            $$ \bar{x}_g = 8 $$
+            </div>
+
+            <p>Exemplo 2: Calcule a média geométrica entre 1, 2 e 32.</p>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x}_g = \sqrt[3]{1 . 2 . 32} $$
+            $$ \bar{x}_g = \sqrt[3]{64} $$
+            $$ \bar{x}_g = 4 $$
+            </div>
+
+            <h3>Média Harmônica</h3>
+            <p>A média é calculada pela divisão de n (número de elementos) pela soma dos inversos dos elementos.</p>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x}_h = \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + \dots + \frac{1}{x_n}} $$
+            </div>
+
+            <p>Exemplo: Calcule a média harmônica entre 2 e 3.</p>
+
+            <div style="text-align: left; font-size: 1.2em;">
+            $$ \bar{x}_h = \frac{2}{\frac{1}{2} + \frac{1}{3}} $$
+            $$ \bar{x}_h = \frac{2}{\frac{5}{6}} $$
+            $$ \bar{x}_h = 2.\frac{6}{5} $$
+            $$ \bar{x}_h = \frac{12}{5} = 2,4 $$
+            </div>
         </section>
         
+        <section>
+
+            <!-- Aula 02 -->
+
+            <h2>Aula 02 - Mediana</h2>
+
+            <h3>Mediana para dados não agrupados</h3>
+            <p>A mediana é o elemento que ocupa a POSIÇÃO CENTRAL de uma série de observações ORDENADA segundo suas grandezas (isto é, dados brutos organizados em rol crescente ou decrescente).</p>
+            <p>Quando uma série possui um <span class="destaqueCinza"><strong>NÚMERO ÍMPAR</strong></span> de elementos, a MEDIANA SEMPRE COINCIDE com o <span class="destaqueCinza"><strong>ELEMENTO CENTRAL</strong></span> do conjunto de dados. Quando uma série possui um <span class="destaqueCinza"><strong>NÚMERO PAR</strong></span> de elementos, POR CONVENÇÃO, a MEDIANA é a <span class="destaqueCinza"><strong>MÉDIA ARITMÉTICA dos dois termos centrais</strong></span>. </p>
+            <h4>Número ímpar de elementos</h4>
+            <p><img src="img/mediana_impar.png" alt="imagem mediana impar"></p>
+            <h4>Número par de elementos</h4>
+            <p><img src="img/mediana_par.png" alt="imagem mediana par"></p>
+            
+            <h3>Mediana para dados agrupados sem intervalos de classe</h3>
+            <p>O raciocínio adotado no cálculo da mediana para dados agrupados por valor (sem intervalos de classe) é similar ao empregado no caso dos dados não-agrupados. Basicamente, teremos que encontrar um valor que dividirá a distribuição de frequências em duas partes contendo o mesmo número de elementos.</p>
+            <p>Considere a tabela a seguir que apresenta o nível e satisfação dos clientes de determinada empresa. Os clientes puderam atribuir notas de 0 a 5 quanto ao nível de satisfação, resultando na seguinte distribuição de frequências:</p>
+            <div class="tabelaExplica" style="max-width: 400px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Nível de Satisfação (𝑿𝒊)</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>O total de clientes entrevistados foi de:<br>3 + 5 + 8 + 10 + 13 + 10 = 49.</p>
+            <p>Como o número de entrevistados é ímpar, 𝑛 = 49, a mediana será o termo que ocupa a posição de ordem:
+
+            <div style="text-align: left; font-size: 1.1em;">
+            $$ {\frac{n + 1}{2} = \frac{49 + 1}{2} = \frac{50}{2} = 25} $$
+            </div>
+
+            <p>A mediana será o elemento que ocupa a vigésima quinta posição. Para chegarmos a esse elemento, precisamos percorrer cada um dos níveis de satisfação.Para calcularmos a frequência acumulada, devemos repetir a primeira frequência e somar as frequências subsequentes, exibindo os resultados a cada linha.</p>
+            <div class="tabelaExplica" style="max-width: 600px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Nível de Satisfação (𝑿𝒊)</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                            <th>Frequência Acumulada (𝒇𝒂𝒄)</th>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>3 + 5 = 8</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>8</td>
+                            <td>8 + 8 = 16</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>10</td>
+                            <td>16 + 10 = 26</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>13</td>
+                            <td>26 + 13 = 39</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>10</td>
+                            <td>39 + 10 = 49</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>A coluna de frequências acumuladas torna possível calcularmos a mediana de forma praticamente imediata. Se 𝒏 for ímpar, basta identificarmos o valor da variável correspondente à primeira frequência acumulada imediatamente igual ou superior à posição de ordem 𝒏+𝟏/𝟐 ; e, se 𝒏 for par, basta identificarmos os dois valores correspondentes às frequências acumuladas imediatamente iguais ou superiores às posições de ordens 𝒏/𝟐  e 𝒏/𝟐 + 𝟏, respectivamente, e tirarmos a média aritmética desses dois valores.</p>
+            <p>A mediana será o valor da variável correspondente à primeira frequência acumulada maior ou igual a essa posição, portanto, 𝑀𝑑 = 3. Vejamos:</p>
+            <div class="tabelaExplica" style="max-width: 600px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Nível de Satisfação (𝑿𝒊)</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                            <th>Frequência Acumulada (𝒇𝒂𝒄)</th>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>3</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>8</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightblue;">3</td>
+                            <td style="background-color: lightblue;">10</td>
+                            <td style="background-color: lightblue;">26 (>25)</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>13</td>
+                            <td>39</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>10</td>
+                            <td>49</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Mediana para dados agrupados em classes</h3>
+            <p>O raciocínio adotado no cálculo da mediana para dados agrupados em classes é muito similar ao empregado no tópico anterior. Agora, contudo, não nos importaremos com o número de elementos da série. Adotaremos um único procedimento de cálculo, independentemente de termos um número par ou ímpar de elementos.</p>
+            <p>Seja a distribuição de frequências descrita a seguir, que resume as idades de um grupo de 50 alunos:</p>
+            <div class="tabelaExplica" style="max-width: 400px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Idades</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                        </tr>
+                        <tr>
+                            <td>23 ⊢ 26</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>26 ⊢ 29</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>29 ⊢ 32</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>32 ⊢ 35</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>35 ⊢ 38</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>38 ⊢ 41</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>41 ⊢ 44</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>TOTAL</strong></td>
+                            <td><strong>50</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>A etapa inicial do cálculo da mediana consiste na construção da coluna de frequências acumuladas:</p>
+            <div class="tabelaExplica" style="max-width: 600px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Idades</th>
+                            <th>Frequência (𝒇𝒊)</th>
+                            <th>Frequência Acumulada (𝒇𝒂𝒄)</th>
+                        </tr>
+                        <tr>
+                            <td>23 ⊢ 26</td>
+                            <td>3</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>26 ⊢ 29</td>
+                            <td>4</td>
+                            <td>7</td>
+                        </tr>
+                        <tr>
+                            <td>29 ⊢ 32</td>
+                            <td>10</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: lightblue;">32 ⊢ 35</td>
+                            <td style="background-color: lightblue;">13</td>
+                            <td style="background-color: lightblue;">30</td>
+                        </tr>
+                        <tr>
+                            <td>35 ⊢ 38</td>
+                            <td>10</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>38 ⊢ 41</td>
+                            <td>6</td>
+                            <td>46</td>
+                        </tr>
+                        <tr>
+                            <td>41 ⊢ 44</td>
+                            <td>4</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td><strong>TOTAL</strong></td>
+                            <td><strong>50</strong></td>
+                            <td><strong>50</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Para calcular a mediana de dados que estão agrupados por intervalo de classes, precisamos identificar a classe em que se encontra a mediana, a chamada classe mediana, que corresponde à frequência acumulada imediatamente igual ou superior à metade da frequência total, ou seja, metade da soma das frequências simples. Em nosso exemplo, temos: 50 / 2 = 25</p>
+            <p>Agora, devemos comparar o valor encontrado com os valores presentes na coluna de frequências acumuladas, percorrendo-os de cima para baixo. A classe mediana será a primeira classe em que a frequência acumulada for igual ou superior a 25. Observando a tabela, percebemos que a quarta classe tem frequência acumulada 30, portanto, é maior que 25. Logo, encontramos a classe mediana. Ela se encontra na quarta classe, isto é, no intervalo entre 32 e 35.</p>
+
+        </section>
 
         <section class="campoQuestoes">
                 <h2>Questões de Probabilidade e Estatística</h2>

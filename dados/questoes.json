@@ -29,6 +29,55 @@
         "e) frequências de uma variável X em intervalos de valores."],
         "correta": "e) frequências de uma variável X em intervalos de valores.",
         "explicacao": "Não tinha comentários."
+      },
+      {
+        "pergunta": "(CESGRANRIO/CEF/2021) Recentemente, a Organização Mundial da Saúde (OMS) mudou suas diretrizes sobre atividades físicas, passando a recomendar que adultos façam atividade física moderada de 150 a 300 minutos por semana. Seguindo as recomendações da OMS, um motorista decidiu exercitar-se mais e, durante os sete dias da última semana, exercitou- se, ao todo, 285 minutos. Quantos minutos diários, em média, o motorista dedicou a atividades físicas na última semana? ",
+        "alternativas": ["a) Mais de 46 min", 
+        "b) Entre 44 e 46 min", 
+        "c) Entre 42 e 44 min", 
+        "d) Entre 40 e 42 min", 
+        "e) Menos de 40 min"],
+        "correta": "d) Entre 40 e 42 min",
+        "explicacao": "A média aritmética é definida pelo quociente entre a soma dos valores de um determinado conjunto e a quantidade de valores nele existentes. Assim, para calcularmos o valor médio de minutos que o motorista dedicou à prática de atividade física por dia, basta dividirmos o total de minutos alcançados na semana pela quantidade de dias. Assim:<br>𝑋̅ = 285 / 7 = 40,71<br>Logo, foram 40,71 minutos de atividade física praticada por dia.<br>Portanto, a resposta correta está contida na alternativa D, de 40 a 42 minutos."
+      },
+      {
+        "pergunta": "(CESGRANRIO/BB/2023) Considere que, em uma agência bancária, o tempo médio que um cliente aguardou para começar a ser atendido, na primeira semana de um determinado mês de 2022, foi de 8min 30s e, na semana seguinte, esse tempo médio passou para 5min 30s. Considere, ainda, que na primeira semana foram atendidos 2.700 clientes, e na segunda semana, 1.350 clientes.<br>O tempo médio de espera para um cliente começar a ser atendido no caixa, considerando essas duas semanas, foi de, aproximadamente,",
+        "alternativas": ["a) 5min 50s", 
+        "b) 6min 30s", 
+        "c) 6min 50s", 
+        "d) 7min 30s", 
+        "e) 7min 50s"],
+        "correta": "d) 7min 30s",
+        "explicacao": "A questão trata de média ponderada, isto é, da média de um conjunto de valores com pesos variados.<br>Para resolvermos a questão, primeiro precisamos calcular o total de clientes atendidos nas duas semanas, para, então, determinarmos o peso de cada semana.<br>Foram atendidos 2.700 clientes na primeira semana e 1.350 na segunda semana. Somando, temos:<br>Clientes = 2700 + 1350<br>Cliente𝑠 = 4050<br>Para determinarmos os pesos das semanas, basta dividirmos as quantidades de clientes de cada semana pelo total:<br>a) primeira semana:<br>P1 = 2700 / 4050 = 0,666<br>b) segunda semana:<br>P2 = 1350 / 4050 = 0,333Agora, basta multiplicarmos o tempo médio de cada semana pelo seu respectivo peso. Para facilitar o cálculo do tempo, vamos considerar o valor de 0,5 minutos para 30 segundos. Aplicando a fórmula, temos:<br>𝑥̅= (8,5 × 0,666) + (5,5 × 0,333) / 0,666 + 0,333<br>𝑥̅= 5,661 + 1,8315 / 0,999<br>𝑥̅= 7,4925 / 0,999<br>𝑥̅= 7,5<br>Portanto, o tempo médio das duas semanas é de 7,5 minutos, ou seja, 7min e 30segundos."
+      },
+      {
+        "pergunta": "(CESGRANRIO/BASA/2022) A Tabela abaixo representa as frequências referentes aos resultados de alcatrão (mg) encontrados em cigarros sem filtro, a partir de uma amostra de 30 cigarros selecionados de várias marcas.<br><img src='../dados/imgs/questao_probabilidade_1.png' alt='imagem da questão'><br>Se a média de alcatrão na amostra foi de 20,4 mg, qual o valor de x-y?",
+        "alternativas": ["a) 180", 
+        "b) 90",
+        "c) 120",
+        "d) 720"],
+        "correta": "d) 720",
+        "explicacao": "Vamos reescrever a tabela multiplicando os pontos médios de cada classe por suas respectivas frequências:<br><img src='../dados/imgs/questao_probabilidade_2.png' alt='imagem da questão'><br>Conforme informado no enunciado, a média é igual a 20,4 e o total das frequências (amostra) é igual a 30.<br>Assim, temos que:<br>𝑋̅ = 144 + 20𝑥 + 24𝑦 / 30<br>20,4 = 144 + 20𝑥 + 24𝑦 / 30<br>144 + 20𝑥 + 24𝑦 = 20,4 × 30<br>144 + 20𝑥 + 24𝑦 = 612<br>20𝑥 + 24𝑦 = 612 − 144<br>20𝑥 + 24𝑦 = 468<br>Para simplificar, podemos dividir tudo por 4:<br>5𝑥 + 6𝑦 = 117<br>Sabemos que o total da amostra é 30, então, temos:<br>2 + 4 + 𝑥 + 𝑦 + 2 = 30<br>𝑥 + 𝑦 = 30 − 8<br>𝑥 + 𝑦 = 22<br>𝑥 = 22 − 𝑦<br>Substituindo x na equação anterior, temos:<br>5𝑥 + 6𝑦 = 117<br>5 × (22 − 𝑦) + 6𝑦 = 117<br>110 − 5𝑦 + 6𝑦 = 117<br>𝑦 = 117 − 110 = 7<br>Já podemos encontrar o valor de x:<br>𝑥 = 22 − 𝑦<br>𝑥 = 22 − 7 = 15<br>A diferença entre x e y é:<br>𝑥 − 𝑦 = 15 − 7<br>𝑥 − 𝑦 = 8<br>Gabarito: B."
+      },
+      {
+        "pergunta": "(CESGRANRIO/CEF/2021) Seis candidatos, aprovados para a penúltima etapa de um processo seletivo, foram submetidos a um teste de conhecimentos gerais com 10 itens do tipo “verdadeiro falso”. Os dois primeiros candidatos acertaram 8 itens cada, o terceiro acertou 9, o quarto acertou 7, e os dois últimos, 5 cada. Pelas regras do concurso, passariam, para a etapa final da seleção, os candidatos cujo número de acertos fosse maior ou igual à mediana do número de acertos dos seis participantes.<br>Quantos candidatos passaram para a etapa final?",
+        "alternativas": ["a) 2", 
+        "b) 3",
+        "c) 4",
+        "d) 5",
+        "e) 6"],
+        "correta": "b) 3",
+        "explicacao": "Primeiro vamos encontrar o valor da mediana das notas obtidas pelos candidatos. Para isso, temos que ordenar os valores das notas:<br><img src='../dados/imgs/questao_probabilidade_3.png' alt='imagem da questão'><br>Logo, vão para a etapa final os candidatos com notas maiores ou iguais a 7,5. Dessa forma, passaram apenas 3 candidatos: os dois primeiros com nota 8, e o terceiro com nota 9."
+      },
+      {
+        "pergunta": "(CESGRANRIO/BB/2018) A Tabela a seguir mostra a distribuição de pontos obtidos por um cliente em um programa de fidelidade oferecido por uma empresa.<br><img src='../dados/imgs/questao_probabilidade_4.png' alt='imagem da questão'><br>A mediana da pontuação desse cliente é o valor mínimo para que ele pertença à classe de clientes “especiais”. Qual a redução máxima que o valor da maior pontuação desse cliente pode sofrer sem que ele perca a classificação de cliente “especial”, se todas as demais pontuações forem mantidas?",
+        "alternativas": ["a) cinco unidades", 
+        "b) quatro unidades",
+        "c) uma unidade",
+        "d) duas unidades",
+        "e) três unidades"],
+        "correta": "a) cinco unidades",
+        "explicacao": "A mediana é o valor que separa a metade superior da metade inferior de uma amostra ou conjunto de valores. Quando o conjunto apresenta um número ímpar de elementos, a mediana é representada pelo termo central. Quando o conjunto possui um número par de elementos, a mediana é definida como a média aritmética dos termos centrais.<br>A distribuição de pontos obtidos por um cliente em um programa de fidelidade pode ser representada da seguinte maneira:<br>{0, 2, 2, 3, 3, 3, 3, 4, 6, 8, 8, 8, 8, 8, 9}<br>Como a mediana é o termo central, a mediana do conjunto de pontos é igual a 4. Ou seja, para que um cliente pertença à classe de clientes especiais, esse cliente deve obter no mínimo 4 pontos.<br>A questão quer saber qual a redução máxima que o valor da maior pontuação (9) pode sofrer sem que ele perca a classificação de cliente especial. Se esse valor sofrer uma redução de 1 unidade, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 6, 8, 8, 8, 8, 8, 8}<br>Se a redução for de 2 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 6, 7, 8, 8, 8, 8, 8}<br>Se a redução for de 3 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 6, 6, 8, 8, 8, 8, 8}<br>Se a redução for de 4 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 5, 6, 8, 8, 8, 8, 8}<br>Se a redução for de 5 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 4, 6, 8, 8, 8, 8, 8}<br>Se a redução for de 6 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 3, 4, 6, 8, 8, 8, 8, 8}<br>Logo, a maior redução que o cliente poderá sofrer é de 5 unidades."
       }
     ],
 
@@ -2468,7 +2517,7 @@
         "explicacao": "Na execução de um código, dada determinada situação, pode ser interessante (ou obrigatório) que linhas de código sejam puladas para a correta execução de um programa - como, por exemplo, se determinado bloco Se for executado, podemos pular instruções que introduziriam alternativas à execução desse bloco. A instrução que realiza esse “salto” é a goto (vá para)."
       },
       {
-        "pergunta": "(CEBRASPE/POLC AL/2023) Julgue o próximo item, no que se refere a estruturas de controle de fluxo.<br>// codigo 1<br>i = 1<br>fim = 7<br>enquanto i < fim faça<br>escreva(i)<br>i = i + 1<br>fim enquanto<br>depois = i<br>// codigo 2<br>fim = 6<br>i = 0<br>enquanto i < fim faça<br> i = i + 1<br> escreva(i)<br>fim enquanto<br>depois = i<br>Considerando a estrutura precedente, é correto afirmar que o código 1 e o código 2 apresentamo mesmo resultado.",
+        "pergunta": "(CEBRASPE/POLC AL/2023) Julgue o próximo item, no que se refere a estruturas de controle de fluxo.<br><img src='../dados/imgs/questao_desenvolvimento_17.png' alt='imagem da questão'><br>Considerando a estrutura precedente, é correto afirmar que o código 1 e o código 2 apresentam o mesmo resultado.",
         "alternativas": ["Certo",
         "Errado"],
         "correta": "Certo",
@@ -2720,6 +2769,358 @@
         "d) A execução do programa permanece no loop se o teste da condição de controle retoma valor FALSO."],
         "correta": "a) A condição de teste da estrutura é inserida no INÍCIO da estrutura de controle.",
         "explicacao": "Vamos analisar cada alternativa.<br>a) Errado. A condição no bloco REPITA...ATÉ é implementada no fim da estrutura de controle, não no início.<br>b) Certo. Vide letra A.<br>c) Certo. A saída do ENQUANTO é feita quando o valor for VERDADEIRO.<br>d) Certo. Se o valor da condição for FALSO, permaneceremos no loop até que esse valor seja VERDADEIRO."
+      },
+      {
+        "pergunta": "(VUNESP/ALESP/2022) É fornecido a seguir um algoritmo expresso na forma de uma pseudolinguagem (português estruturado).<br>No trecho de código abaixo, o valor final da variável op é 4.<br><img src='../dados/imgs/questao_desenvolvimento_18.png' alt='imagem da questão'><br>Considerando os valores lidos para as variáveis x e y como sendo 8 e 9, respectivamente, então o valor impresso para a variável z no final do algoritmo é:",
+        "alternativas": ["a) 42", 
+        "b) 36",
+        "c) 32",
+        "d) 48",
+        "e) 40"],
+        "correta": "b) 36",
+        "explicacao": "Vamos executar o código com x = 8 e y = 9. Como x + y = 17 é menor que 19, caímos no bloco<br>Se. Então, nosso primeiro laço será da seguinte forma:<br>LAÇO 1 - j = 1<br>• z = z - 3<br>• z = 19 - 3<br>• z = 16<br>LAÇO 2 - j = 2<br>Agora, vamos para o bloco Senão, já que z < x + y.<br>• z = z + 5<br>• z = 16 + 5<br>• z = 21<br>LAÇO 3 - j = 3<br>No último bloco, voltamos ao bloco Se, já que 21 > 17.<br>• z = z - 3<br>• z = 21 - 3<br>• z = 18<br>Chegamos ao valor de z, que é 18. Por fim, temos uma nova atribuição ao valor de z:<br>• z = z + z<br>• z = 18 + 18<br>• z = 36<br>Sendo assim, a resposta imprimida pelo comando é 36."
+      },
+      {
+        "pergunta": "(IFTO/IFTO/2022) Qual das definições abaixo melhor descreve o que é um algoritmo?",
+        "alternativas": ["a) Uma linguagem de programação usada para desenvolvimento de aplicativos web.", 
+        "b) Um protocolo usado na camada de rede para estabelecer uma comunicação entre dois dispositivos.",
+        "c) Tecnologia usada para enviar e receber dados do servidor sem precisar recarregar a página inteira.",
+        "d) Mecanismo para adicionar estilo a um documento web.",
+        "e) Uma sequência de passos que devem serem executados para alcançar um determinado objetivo."],
+        "correta": "e) Uma sequência de passos que devem serem executados para alcançar um determinado objetivo.",
+        "explicacao": "a) Errado. A alternativa descreve uma linguagem web, como o HTML e JavaScript.<br>b) Errado. Os protocolos são padrões para troca de informações entre diferentes computadores numa rede.<br>c) Errado. A alternativa descreve o funcionamento de APIs assíncronas.<br>d) Errado. Esses mecanismos são expressos em um arquivo chamado CSS.<br>e) Certo. A alternativa traz corretamente a definição de algoritmos."
+      },
+      {
+        "pergunta": "(SELECON/AMAZUL/2022) Na operação de soma dos números binários 10001010 + 01011111, o resultado será igual a:",
+        "alternativas": ["a) 00101011", 
+        "b) 10010110",
+        "c) 00110101",
+        "d) 11101001"],
+        "correta": "d) 11101001",
+        "explicacao": "Precisamos converter os números binários para a base decimal, de forma que seja possível fazer a soma. Temos:<br>• 10001010 = 2¹ + 2³ + 2⁷ = 138<br>• 01011111 = 2⁰ + 2¹ + 2² + 2³ + 2⁴ + 2⁶ = 95<br>Então, 95 + 138 = 233, que é expresso como 11101001 em base binária."
+      },
+      {
+        "pergunta": "(FGV/SEMSA Manaus/2022) Considere a função fat especificada abaixo em pseudocódigo, que recebe um número inteiro positivo e calcula o fatorial do mesmo de forma recursiva, devolvendo um número inteiro.<br><img src='../dados/imgs/questao_desenvolvimento_19.png' alt='imagem da questão'><br>Para que a função fat funcione corretamente, o trecho “. . . “ deve ser substituído por",
+        "alternativas": ["a) return fat(n + 1)", 
+        "b) return fat(n)",
+        "c) return fat(n-1)",
+        "d) return n * fat(n)",
+        "e) return n * fat(n-1)"],
+        "correta": "e) return n * fat(n-1)",
+        "explicacao": "A questão traz um programa com um bloco de código faltante. O objetivo é que seja calculado o fatorial do algoritmo de forma recursiva - isso nos indica que devemos chamar a própria função fat dentro do código. Como não queremos uma recursão infinita, devemos ajeitar o parâmetro da função chamada para que ela chegue a obedecer a condição do bloco base (no else) - que será cumprida quando o valor de n ≤ 1. Portanto, a cada iteração devemos fazer fat(n-1). Assim, se n for igual a 4, por exemplo, iremos reduzi-lo uma unidade a cada laço, até chegarmos a n = 1.<br>Além disso, o fatorial é composto pela multiplicação de um número pelos seus predecessores - então, por exemplo, o fatorial de 3 (3!) será igual a 3 x 2 x 1. Sendo assim, precisamos passar o parâmetro atual para o cálculo - ficando, portanto, com n * fat(n-1) na recursão.<br>Vamos rodar n = 3, para ver se a recursão funciona:<br>• LAÇO 1 - 3 * fat(2)<br>• LAÇO 2 - 2 * fat(1)<br>• LAÇO 3 - fat(1) = 1<br>Subimos preenchendo os valores.<br>• LAÇO 2 - 2*1 = 2<br>• LAÇO 1 - 3*2 = 6<br>Assim, podemos afirmar que o algoritmo age de forma correta.."
+      },
+      {
+        "pergunta": "(QUADRIX/CRF GO/2022) Acerca de programação, julgue o item. <br>Durante a execução de um programa, uma variável pode armazenar vários valores a cada instante, ou seja, ela pode armazenar até dez registros ao mesmo tempo.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "“A cada instante” é uma constatação um pouco forte - mas, de fato, podemos frequentemente mudar o valor de uma variável, afinal, ela é variável. É o que acontece numa recursão, por exemplo. Porém, a variável irá armazenar apenas o valor atual, não múltiplos valores ao mesmo tempo - a não ser que seja uma variável de estrutura de dados. Mesmo assim, não teremos os limites de dez registros ao mesmo tempo. Portanto, podemos concluir que a afirmativa está incorreta."
+      },
+      {
+        "pergunta": "(DIRENS/EEAR/2022) Relacione as colunas quanto às Estruturas de Controle do PHP. Em seguida, assinale a alternativa com a sequência correta. <br>1 – Executa um conjunto de instruções; baseado em um contador. <br>2 – Avalia a condição e, se for verdadeira, continua executando. <br>3 – Realiza uma avaliação, desvio condicional. <br>( ) IF <br>( ) FOR <br>( ) WHILE",
+        "alternativas": ["a) 2 - 1 - 3", 
+        "b) 1 - 2 - 3",
+        "c) 3 - 2 - 1",
+        "d) 3 - 1 - 2",
+        "e) 2 - 3 - 1"],
+        "correta": "a) 2 - 1 - 3",
+        "explicacao": "“Vamos identificar cada item.<br>1 – Executa um conjunto de instruções; baseado em um contador.<br>Trata-se do FOR (ou PARA, em português).<br>2 – Avalia a condição e, se for verdadeira, continua executando.<br>Descreve a estrutura do WHILE (ENQUANTO).<br>3 – Realiza uma avaliação, desvio condicional.<br>Traz a definição da condicional IF (SE...ENTÃO)"
+      },
+      {
+        "pergunta": "(IDECAN/UNILAB/2022) Observe o algoritmo a seguir:<br><img src='../dados/imgs/questao_desenvolvimento_20.png' alt='imagem da questão'><br>Na linha 5, qual a função da variável p?",
+        "alternativas": ["a) Recebe o número digitado pelo usuário.", 
+        "b) Recebe a posição no vetor vet do número encontrado.",
+        "c) Recebe o valor do número encontrado na posição i do vetor vet.",
+        "d) Recebe a soma dos números do vetor vet."],
+        "correta": "b) Recebe a posição no vetor vet do número encontrado.",
+        "explicacao": "Na linha 5, temos o valor de i sendo atribuído à variável p. O i é a posição do vetor que estamos navegando - portanto, podemos afirmar que i recebe a posição no vetor vet do respectivo valor de i."
+      },
+      {
+        "pergunta": "(FUNDATEC/SBC/2022) Sobre os testes de condições em linguagem de programação, é correto afirmar que:",
+        "alternativas": ["a) Um teste de condição pode ser realizado através da instrução while.", 
+        "b) A componente else do if é obrigatório.",
+        "c) if-else a condição é avaliada e, caso seja verdadeira, é executada a instrução associada ao else.",
+        "d) if-else permite a existência de instruções que não são executadas em um programa.",
+        "e) if-else não pode ser executado de forma encadeada."],
+        "correta": "d) if-else permite a existência de instruções que não são executadas em um programa.",
+        "explicacao": "Vamos avaliar cada item.<br>a) Errado. O WHILE é uma instrução de repetição, não de condição.<br>b) Errado. O ELSE (equivalente ao Senão) é opcional.<br>c) Errado. Se a condição for verdadeira, executamos o bloco do IF.<br>d) Certo. O IF-ELSE é uma instrução de seleção, ou seja, de inúmeros blocos, somente um será executado.<br>e) Errado. Podemos ter IF-ELSE encadeados.<br>Portanto, a alternativa correta é a letra D."
+      },
+      {
+        "pergunta": "(CEBRASPE/BANRISUL/2022) Julgue o próximo item, a respeito de lógica de programação.<br>Os laços usados em estruturas de repetição e teste podem ser feitos por meio de comandos como enquanto e repita.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Os laços são as repetições, feitas na estrutura de repetição. Comandos como Enquanto, Repita...até, Faça...até e Para são formas de implementarmos essas estruturas."
+      },
+      {
+        "pergunta": "(CEBRASPE/BANRISUL/2022) Julgue o próximo item, a respeito de lógica de programação.<br>As estruturas se e senão são estruturas de repetição utilizadas nas situações em que, caso determinada condição seja alcançada, um comando é realizado, caso contrário, outro comando é executado",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Se e Senão são estruturas de seleção, condicionais, e não estruturas de repetição. De resto, a explicação está correta - se a condição for verdadeira, executaremos um bloco, caso contrário, executaremos o outro bloco."
+      },
+      {
+        "pergunta": "(IBFC/AFEAM/2022) Dada a forma geral a seguir, existente em várias linguagens de programação, assinale a alternativa que apresenta corretamente a que tipo de estrutura se refere.<br><img src='../dados/imgs/questao_desenvolvimento_21.png' alt='imagem da questão'><br>Na linha 5, qual a função da variável p?",
+        "alternativas": ["a) Controle múltiplo", 
+        "b) Repetição múltipla",
+        "c) Desvio múltiplo",
+        "d) Seleção múltipla"],
+        "correta": "d) Seleção múltipla",
+        "explicacao": "O SWITCH...CASE é uma forma em inglês de implementarmos a estrutura condicional ESCOLHA...CASO. Essa é uma estrutura de seleção múltipla, que permite a escolha de nenhum, um ou múltiplos casos, onde cada um comportará um bloco de código distinto."
+      },
+      {
+        "pergunta": "(IBFC/DPE MT/2022) Assinale a alternativas que esteja tecnicamente correta quanto ao pseudocódigo, em inglês, que representa uma estrutura de repetição.",
+        "alternativas": ["a) Switch", 
+        "b) Return",
+        "c) While",
+        "d) Function"],
+        "correta": "c) While",
+        "explicacao": "Das estruturas apresentadas, a única que apresenta uma estrutura de repetição é o WHILE. A estrutura SWITCH é uma estrutura de seleção múltipla, RETURN é um comando para atribuir retorno a uma função, e FUNCTION é função, em inglês."
+      },
+      {
+        "pergunta": "(QUADRIX/SEE DF/2022) Acerca dos aspectos das linguagens de programação e das estruturas de dados e da programação orientada a objetos (POO), julgue o item a seguir.<br>Na lógica de programação, o operador lógico “e” possui a função de disjunção, enquanto o operador “não” possui a função de negação.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Cuidado! O “e” lógico, em programação, tem valor de conjunção, isso é, só será verdadeiro se todos os seus elementos também forem. Já o “não”, de fato, é uma negação lógica."
+      },
+      {
+        "pergunta": "(FCM/IF AM/2022) Sobre listas, pilhas e filas, associe corretamente as colunas<br>ESTRUTURAS DE DADOS<br>1 - Listas Lineares<br>2 - Pilha<br>3 - Fila<br>DESCRIÇÕES<br>( ) São utilizadas quando se deseja processar itens de acordo com a ordem “primeiro-que-chega, primeiro- atendido”.<br>( ) Também são chamadas listas LIFO.<br>( ) Existe uma ordem linear, que é a “ordem de chegada”.<br>( ) Adequadas quando não é possível prever a demanda por memória, permitindo a manipulação de quantidades imprevisíveis de dados, de formato também imprevisível.<br>( ) Os itens são colocados um sobre o outro. O item inserido mais recentemente está no topo e o inserido menos recentemente no fundo.<br>A sequência que apresenta a associação correta é",
+        "alternativas": ["a) 2, 3, 1, 2, 3", 
+        "b) 3, 2, 2, 1, 2",
+        "c) 2, 2, 3, 1, 2",
+        "d) 3, 2, 2, 1, 3",
+        "e) 3, 2, 3, 1, 2"],
+        "correta": "e) 3, 2, 3, 1, 2",
+        "explicacao": "Vamos analisar cada descrição, e encontrar o item associado.<br>( ) São utilizadas quando se deseja processar itens de acordo com a ordem “primeiro-que-chega, primeiro- atendido”.<br>A descrição se refere ao modelo FIFO, usado nas filas. (3)<br>( ) Também são chamadas listas LIFO.<br>LIFO, ou Last In First Out, caracterizam as pilhas. (2)<br>( ) Existe uma ordem linear, que é a “ordem de chegada”.<br>A ordem linear é presente nas filas, já que o primeiro elemento “a chegar” toma a frente da fila. (3)<br>( ) Adequadas quando não é possível prever a demanda por memória, permitindo a manipulação de quantidades imprevisíveis de dados, de formato também imprevisível.<br>A questão descreve as listas - inclusive, essa é uma das principais características que diferem as listas dos vetores.<br>( ) Os itens são colocados um sobre o outro. O item inserido mais recentemente está no topo e o inserido menos recentemente no fundo.<br>O item descreve a estrutura das pilhas (2). Portanto, ficamos com 3-2-3-1-2."
+      },
+      {
+        "pergunta": "(IDECAN/SEFAZ RR/2022) Quando criamos um programa de computador, utilizamos a seguinte sequência de operações na grande maioria das vezes: entrada de dados, processamento e saída. Selecione a estrutura de seleção que nunca testa uma ou mais variáveis de acordo com uma condição.",
+        "alternativas": ["a) if", 
+        "b) else if / elif",
+        "c) else",
+        "d) while",
+        "e) for"],
+        "correta": "c) else",
+        "explicacao": "Quando estamos rodando uma condicional, temos o bloco do SE..ENTÃO, que irá analisar uma condição e executar determinar bloco de código se essa condição for verdadeira. Em seguida, podemos ter o bloco SENÃO (else), que, em casos de seleção binária, nunca irá fazer uma avaliação do valor da condição - somente será executada como um “caso residual”."
+      },
+      {
+        "pergunta": "(IDECAN/SEFAZ RR/2022) Carlos trabalha como desenvolvedor de software e recebe a demanda de criar um trecho de código usando um loop de repetição que somente pode ser usado quando se sabe a quantidade de vezes que o loop vai acontecer. Selecione o loop de repetição que Carlos deve utilizar.",
+        "alternativas": ["a) if", 
+        "b) for",
+        "c) while",
+        "d) switch",
+        "e) do - while"],
+        "correta": "b) for",
+        "explicacao": "O loop escolhido quando se sabe a quantidade de repetições que teremos é o loop Para - o FOR. Nele, teremos um contador, onde definiremos o valor inicial, final e a forma de incremento (ou decremento), com isso conseguimos definir a quantidade de repetições que teremos."
+      },
+      {
+        "pergunta": "(VUNESP/PC RR/2022) Analise o procedimento a seguir, expresso na forma de uma pseudolinguagem (português estruturado).<br><img src='../dados/imgs/questao_desenvolvimento_22.png' alt='imagem da questão'><br>Assumindo que o valor lido para a variável a1 tenha sido 3, então o resultado impresso ao final do procedimento para a variável a1 é igual a:",
+        "alternativas": ["a) 3", 
+        "b) 7",
+        "c) 9",
+        "d) 11",
+        "e) 14"],
+        "correta": "d) 11",
+        "explicacao": "Temos um loop para de 4 repetições (de i = 1, até i = 4). Nele, verificaremos um condição - vamos ver o que acontece se rodarmos esse programa com a1 = 3.LAÇO 1 - i = 1:<br>Temos os seguintes valores:<br>• a1 + a2 = 3 + 1 = 4<br>• a3 = 5<br>Então, como a3 > (a1 + a2), executaremos o bloco SE.<br>• a2 = a2 + 1<br>• a2 = 1 + 1<br>• a2 = 2<br>LAÇO 2 - i = 2<br>Agora, temos a seguinte análise:<br>• a1 + a2 = 3 + 2 = 5<br>• a3 = 5<br>Agora, passamos a executar o bloco Senão, já que a soma é igual ou maior que a3. Então, teremos:<br>• a3 = a3 + 2<br>• a3 = 5 + 2<br>• a3 = 7<br>LAÇO 3 - i = 3<br>A situação agora é essa:<br>• a1 + a2 = 5<br>• a3 = 7<br>Voltamos ao bloco Então, já que a3 > (a1 + a2). Vamos executá-lo.<br>• a2 = a2 + 1<br>• a2 = 2 + 1<br>• a2 = 3<br>LAÇO 4 - i = 4<br>No último laço, temos o seguinte:• a1 + a2 = 3 + 3 = 6<br>• a3 = 7<br>Continuamos no bloco Senão, já que a soma de (a1 + a2) não superou ou igual a3. Portanto:<br>• a2 = a2 + 1<br>• a2 = 3 + 1<br>• a2 = 4<br>Por fim, iremos imprimir a soma de a2 e a3 com seus valores finais - 4 e 7. A saída será 4 + 7 = 11."
+      },
+      {
+        "pergunta": "(VUNESP/PC RR/2022) Considere o trecho de um procedimento a seguir, expresso na forma de uma pseudolinguagem (português estruturado).<br><img src='../dados/imgs/questao_desenvolvimento_23.png' alt='imagem da questão'><br>Ao final da execução desse trecho de código, o valor presente na variável a será igual a:",
+        "alternativas": ["a) 12", 
+        "b) 27",
+        "c) 54",
+        "d) 81",
+        "e) 162"],
+        "correta": "e) 162",
+        "explicacao": "Vou lhe ensinar um jeito rápido de resolver essa questão. O total de laços executado será igual à multiplicação de laços ocorridos em cada bloco Para. Em todos os blocos teremos 3 execuções - portanto, 3 * 3 * 3 * 3 = 34 = 81. A cada execução do laço mais interno, teremos o incremento de 2 unidades ao valor da variável a - que parte de 0. Portanto, teremos 0, 2, 4, 6, 8... até completarmos os 81 laços. A saída final será, portanto, 81 * 2 = 162."
+      },
+      {
+        "pergunta": "(SS CENTEC/CENTEC/2022) Sendo que A=3, B=7, C=4 e D=B, marque a alternativa CORRETA de acordo com as afirmações abaixo.<br>I. (B + A) <= C<br>II. (A > C) AND (C <= D)<br>III. (A+B) > 10 OR (A+B) = (C+D)<br>IV. (A>=C) AND (D >= C)",
+        "alternativas": ["a) Apenas II, III e IV", 
+        "b) Apenas III e IV",
+        "c) Apenas IV",
+        "d) Todas afirmativas são verdadeiras",
+        "e) Nenhuma alternativa é verdadeira"],
+        "correta": "e) Nenhuma alternativa é verdadeira",
+        "explicacao": "Vamos analisar cada item - e assinalar aqueles com retorno verdadeiro.<br>I. (B + A) <= C<br>Falso. B + A = 10; C = 4. Portanto, temos 10 ≤ 4 - que é falso.<br>II. (A > C) AND (C <= D)<br>Falso. Temos duas operações. (A > C), ou (3 > 4) tem valor FALSO, e (C <= D), ou (4 ≤ 8) tem valor VERDADEIRO. Como estamos operando com o E lógico (AND), ambos os lados precisariam ser verdadeiros para termos o retorno verdadeiro.<br>III. (A+B) > 10 OR (A+B) = (C+D)<br>Falso. ((A + B) > 10), ou (10 > 10) é FALSO, e ((A + B) = (C + D)), ou (10 = 7) também é FALSO. Como ambos os lados do operador OR (ou lógico) são falsos, a afirmação é falsa.<br>IV. (A>=C) AND (D >= C)<br>Falso. Temos (A >= C), ou (3 ≥ 4), que é FALSO, e ( D >= C), ou (7 ≥ 4), que é VERDADEIRO. Porém, na disjunção (AND, ou E lógico), precisamos de ambos os lados verdadeiros para termos um retorno verdadeiro - sendo assim, a afirmação é falsa.<br>Pela análise, concluímos que nenhuma alternativa é verdadeira."
+      },
+      {
+        "pergunta": "(QUADRIX/PRODAM/2022) A respeito das estruturas de repetição, assinale a alternativa que apresenta a estrutura que se consiste em um laço de repetição determinado, ou seja, utilizado quando é conhecida antecipadamente — antes de iniciado o laço — a quantidade de vezes em que os comandos devem ser executados.",
+        "alternativas": ["a) DO WHILE", 
+        "b) WHILE",
+        "c) FOR",
+        "d) IF",
+        "e) CASE"],
+        "correta": "c) FOR",
+        "explicacao": "A estrutura que analisa a quantidade de vezes que determinada estrutura de repetição irá ser repetida antes da execução do código, baseado em um contador, é o PARA, ou FOR, em inglês."
+      },
+      {
+        "pergunta": "(CEBRASPE/CAU BR/2024) Julgue o item a seguir, relativo a algoritmos de linguagem de programação. <br>Os dados de um algoritmo devem ser definidos por tipos para que seus conteúdos possam ser submetidos a operações corretas, inerentes a cada tipo de dado.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A definição do tipo de dado de uma variável é essencial, já que cria restrições a o que pode ou não ser alocado nessa variável. Essa definição pode ser explícita ou implícita, a depender da  tipagem da linguagem. Nesse sentido, correta a afirmativa."
+      },
+      {
+        "pergunta": "(IGEDUC/CM V Santo Antão/2024) Julgue o item a seguir.<br>Na programação, os operadores lógicos são utilizados principalmente para operações matemáticas complexas, como cálculos de derivadas e integrais. <br>Esses operadores, incluindo adição, subtração, multiplicação e divisão, são fundamentais na construção de algoritmos para aplicações matemáticas avançadas.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Muito cuidado! Operadores lógicos são os operadores E, OU e NÃO, responsáveis por fazer comparações lógicas. Operadores matemáticos, como a soma e subtração, são responsáveis por inserir aplicações matemáticas. A afirmativa define operadores matemáticas, e não lógicos, e, por esse motivo, está incorreta."
+      },
+      {
+        "pergunta": "(IGEDUC/CM V Santo Antão/2024) Julgue o item a seguir. <br>Na programação, o uso de variáveis e constantes é fundamental para o armazenamento e manipulação de dados. Variáveis podem ter seus valores alterados, enquanto constantes mantêm valores fixos durante a execução do programa. Dentre os tipos de dados comuns em programação estão inteiros (int), decimais (float, double), caracteres (char), strings e valores booleanos (boolean).",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Dentro da programação, temos dois locais para alocação de valores na memória - as variáveis, que podem ter os valores alterados durante a execução dos códigos, e as constantes, que devem ter seus valores inalterados. E, de fato, os tipos de dado repassados pela questão estão corretos."
+      },
+      {
+        "pergunta": "(CEBRASPE/INPI/2024) Acerca de estrutura de dados e algoritmos, julgue o item a seguir.<br>A passagem de um vetor por valor é mais eficiente que a passagem por parâmetro, considerando aspectos de tempo de processamento e espaço em memória, estando ambas as situações sob as mesmas condições de recursos.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Passar um vetor por valor implica em criar uma cópia do vetor original, o que pode ser muito ineficiente em termos de tempo de processamento e espaço de memória, especialmente se o vetor for grande. Isso ocorre porque cada elemento do vetor precisa ser copiado individualmente, o que pode levar a um aumento significativo no uso da memória e no tempo de processamento <br>Por outro lado, passar um vetor por referência (ou seja, como um parâmetro) é geralmente mais eficiente, pois apenas a referência ao vetor original é passada. Isso significa que não é necessário criar uma cópia do vetor, economizando assim tempo de processamento e espaço de memória <br>Portanto, em geral, a passagem de um vetor por referência é preferível à passagem por valor, especialmente quando se trabalha com vetores grandes. No entanto, é importante notar que passar um vetor por referência significa que qualquer alteração feita ao vetor dentro da função afetará o vetor original. Se isso não for desejado, então uma cópia do vetor deve ser feita de qualquer maneira."
+      },
+      {
+        "pergunta": "(CESGRANRIO/UNEMAT/2024) Em linguagens de programação, o escopo sintático refere- se.",
+        "alternativas": ["a) à área do código onde uma variável pode ser referenciada.", 
+        "b) à hierarquia de operadores utilizados para realizar operações em expressões",
+        "c) às regras que determinam a forma correta das estruturas de controle de fluxo.",
+        "d) ao conjunto de palavras-chave reservadas da linguagem.",
+        "e) ao número máximo de parâmetros permitido em uma função, exclusivamente."],
+        "correta": "a) à área do código onde uma variável pode ser referenciada.",
+        "explicacao": "O escopo sintático em linguagens de programação engloba a área onde variáveis podem ser referenciadas. Isso significa que o escopo sintático determina as partes do código onde uma variável é acessível. As principais limitações de escopo são o escopo global e local.<br>Por exemplo, se uma variável é definida dentro de uma função, seu escopo é geralmente limitado a essa função. Isso significa que a variável pode ser referenciada (ou seja, lida ou modificada) apenas dentro dessa função. Se tentarmos referenciar a variável fora da função, o programa provavelmente gerará um erro, pois a variável está fora do seu escopo sintático."
+      },
+      {
+        "pergunta": "(CEBRASPE/POLC AL/2023) Julgue o item a seguir, acerca de funções e procedimentos.<br>As funções executam um ou mais comandos e sempre retornam um resultado para quem fez uma chamada à função.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! As funções executam um ou mais blocos de código, com comandos, quase como “subprogramas”. E, além disso, para ser caracterizado como uma função (e não um procedimento), sua execução deve sempre retornar algum resultado."
+      },
+      {
+        "pergunta": "(FUNDATEC/IFC/2023) A _________ ocorre quando se armazena um valor em uma variável; quando deseja-se um desvio no fluxo de nosso código baseado em uma condição booleana, usase o comando _________; para realizar uma repetição de instrução, pode-se usar a instrução _________; a fim de não repetir códigos, tem a possibilidade de fazer uso de _________; por fim, para interromper um laço de repetição de forma abrupta, usa-se __________.<br>Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": ["a) composição – if – do-while – funções – break", 
+        "b) atribuição – test – repetir – funções – parar",
+        "c) atribuição – if – do-while – funções – break",
+        "d) persistência – test – for – métodos – stop",
+        "e) persistência – if – for – métodos – stop"],
+        "correta": "c) atribuição – if – do-while – funções – break",
+        "explicacao": "Vamos preencher as lacunas:<br>• Quando armazenamos um valor em uma variável, estamos fazendo uma ATRIBUIÇÃO.<br>• O comando de desvio no fluxo, que fará uma seleção, é o IF.<br>• A estrutura de repetição pode ser o Para, Enquanto, ou outros - porém, nas alternativas, a única que traz uma estrutura correta é o FAÇA...ENQUANTO, ou DO-WHILE.<br>• Para interromper um laço usamos uma ferramenta chamada de QUEBRA, ou BREAK - que trará uma interrupção forçada do laço, mesmo que determinada condição ainda seja verdadeira.<br>Portanto, ficamos com os preenchimentos ATRIBUIÇÃO, IF, DO-WHILE, BREAK."
+      },
+      {
+        "pergunta": "(FUNCERN/CM Natal/2023) As variáveis de programação são fundamentais para o dia a dia do programador. Elas orientam o programa a executar operações. Uma variável em um programa é definida como",
+        "alternativas": ["a) um valor fixo.", 
+        "b) um local na memória para armazenar dados.",
+        "c) uma palavra-chave reservada.",
+        "d) um comando executável."],
+        "correta": "b) um local na memória para armazenar dados.",
+        "explicacao": "Por definição, uma variável é um local na memória do programa onde armazenamos determinados dados, valores, para que possam ser reutilizadas ao longo do programa."
+      },
+      {
+        "pergunta": "(VUNESP/EPC/S2023) Considere que, ao se chamar uma função: a) foram passados os valores de variáveis para ela; b) o valor de cada variável na função chamadora é copiado nas variáveis fictícias correspondentes da função chamada; c) as alterações feitas nas variáveis fictícias na função chamada não têm efeito nos valores das variáveis reais na função chamadora.<br>Esse método é conhecido como chamada",
+        "alternativas": ["a) cruzada.", 
+        "b) exclusiva.",
+        "c) reversa.",
+        "d) por valor.",
+        "e) por referência."],
+        "correta": "d) por valor.",
+        "explicacao": "Temos duas formas de atribuição - atribuições por valor, e por referência. Isso já nos permite eliminar as três primeiras alternativas. Quando passamos um valor de uma variável por valor, estamos fazendo uma cópia desse valor original, desassociando a referência com o destino. Dessa forma, podemos alterar a variável de origem do valor sem termos impactos na nova variável. E é exatamente essa abordagem a trazida pela questão.<br>Se tivéssemos uma variável por referência, teríamos apenas um ponteiro referenciando o dado original, e qualquer alteração nesse dado original traria alterações para a variável que o referencia."
+      },
+      {
+        "pergunta": "(VUNESP/TJ RS/2023) Considere o seguinte programa, na forma de uma pseudolinguagem (português estruturado).<br><img src='../dados/imgs/questao_desenvolvimento_24.png' alt='imagem da questão'><br>Ao final da execução desse programa, o conteúdo da variável S será:",
+        "alternativas": ["a) 8", 
+        "b) 9",
+        "c) 10",
+        "d) 11",
+        "e) 12"],
+        "correta": "b) 2",
+        "explicacao": "Questão padrão da Vunesp. Teremos um laço Para com 5 iterações - vamos resolvê-las.<br>LAÇO 1 - cont = 1:<br>• (p + q) > 2*p  8 > 10 → FALSO. Então, executamos o bloco Senão.<br>• q = q + 2<br>• q = 3 + 2<br>• q = 5<br>LAÇO 2 - cont = 2:<br>• (p + q) > 2*p  10 > 10 → FALSO. Então, executamos o bloco Senão.<br>• q = q + 2<br>• q = 5 + 2<br>• q = 7<br>LAÇO 3 - cont = 3:<br>• (p + q) > 2*p  12 > 10 → VERDADEIRO. Executaremos o bloco Se.<br>• p = p - 1<br>• p = 5 - 1<br>• p = 4<br>LAÇO 4 - cont = 4:<br>• (p + q) > 2*p  11 > 8 → VERDADEIRO. Executaremos o bloco Se.<br>• p = p - 1<br>• p = 4 - 1<br>• p = 3<br>LAÇO 5 - cont = 5:<br>• (p + q) > 2*p  10 > 6 → VERDADEIRO. Executaremos o bloco Se.<br>• p = p - 1<br>• p = 3 - 1 = 2<br>Agora, basta somarmos o valor de p e q para encontrarmos o valor da variável S.<br>• S = p + q<br>• S = 2 + 7<br>• S = 9"
+      },
+      {
+        "pergunta": "(VUNESP/DPE SP/2023) Os parâmetros que são passados para uma função de um programa são denominados parâmetros reais, enquanto que os parâmetros recebidos por uma função são denominados parâmetros formais. Neste contexto, em uma chamada de função por valor, os valores dos parâmetros reais",
+        "alternativas": ["a) são copiados para os parâmetros formais da função, e as alterações nestes efetuadas dentro da função refletem-se em alterações nos parâmetros reais.", 
+        "b) são copiados para os parâmetros formais da função, e as alterações nestes efetuadas dentro da função não implicam em alterações nos parâmetros reais.",
+        "c) não são copiados para os parâmetros formais da função, e as alterações efetuadas nestes dentro da função, refletem-se em alterações nos parâmetros reais.",
+        "d) não são copiados para os parâmetros formais da função, e as alterações efetuadas nestes dentro da função, não implicam em alterações nos parâmetros reais.",
+        "e) não são copiados para os parâmetros formais da função, e esta não pode realizar alterações em seus parâmetros formais."],
+        "correta": "b) são copiados para os parâmetros formais da função, e as alterações nestes efetuadas dentro da função não implicam em alterações nos parâmetros reais.",
+        "explicacao": "Nas chamada de função por valor, os parâmetros são copiados para a função, e, graças a isso, eventuais alterações não impactam os valores originais, ou parâmetros reais. Nesse sentido, a alternativa que traz a explicação correta é a letra B."
+      },
+      {
+        "pergunta": "(CENTEC/SEDUC CE/2023) Uma variável é um espaço na memória do computador destinado a um dado que é alterado durante a execução do algoritmo. Para funcionar corretamente, as variáveis precisam ser definidas por nomes e tipos. Analise o código abaixo e assinale a resposta CORRETA, respectivamente do tipo primitivo da variável e o resultado, linha 09.<br><img src='../dados/imgs/questao_desenvolvimento_25.png' alt='imagem da questão'>",
+        "alternativas": ["a) Real e 18.0", 
+        "b) Cadeia e 22.0",
+        "c) Real e 40.0",
+        "d) Inteiro e 20.0",
+        "e) Real e 22.0"],
+        "correta": "a) Real e 18.0",
+        "explicacao": "Na linha 9, estamos escrevendo o resultado da função passada logo acima, na linha 8. Vamos resolvê-la:<br>• resultado = (5.0 * 4.0) * 2.0<br>• resultado = 9.0 * 2.0<br>• resultado = 18.0<br>Então, o resultado será 18.0 e o número do tipo real - detalhe que, apesar do resultar ser um número inteiro (18), a presença de uma casa decimal nos traz o tipo real."
+      },
+      {
+        "pergunta": "(IBFC/TRF 5/2024) Estruturas de dados são constantemente utilizadas em algoritmos para resolução de problemas, desde os mais simples aos mais complexos, desta forma, estrutura de dados utiliza o princípio “Último a entrar, primeiro a sair”(LIFO):",
+        "alternativas": ["a) Fila", 
+        "b) Lista Encadeada",
+        "c) Pilha",
+        "d) Árvore",
+        "e) Lista"],
+        "correta": "c) Pilha",
+        "explicacao": "A estrutura de dados que traz a abordagem LIFO, ou seja, que numa eventual remoção, o elemento do topo, aquele adicionado mais recentemente, será retirado, é a pilha."
+      },
+      {
+        "pergunta": "(CEBRASPE/INPI/2024) Acerca de estrutura de dados e algoritmos, julgue o item a seguir.<br>Pilhas são tipos de estruturas de dados que permitem a remoção direta de qualquer elemento de sua estrutura.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As pilhas são caracterizadas pela abordagem LIFO - ou seja, as remoções só podem ser feitas no elemento que está no topo da pilha, elemento adicionado mais recentemente. Não é possível retirar outros elementos. Portanto, a afirmativa está incorreta."
+      },
+      {
+        "pergunta": "(CEBRASPE/SEPLAN RR/2023) Julgue o item a seguir acerca dos conceitos de estrutura de dados.<br>Sempre que houver uma remoção na estrutura de dados denominada fila, o elemento removido será aquele que está na estrutura há mais tempo.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Na estrutura em fila, o elemento retirado será aquele que está alocado na frente da fila, que é composta justamente do elemento mais antigo que foi adicionado ao conjunto de dados - assim como uma fila indiana. Portanto, correta a afirmativa."
+      },
+      {
+        "pergunta": "(VUNESP/TCM SP/2023) Considere uma estrutura de dados do tipo pilha, inicialmente vazia, que possui as operações típicas de inserção e remoção de elementos, denominadas PUSH e POP.<br>Nessa estrutura, foram executadas as seguintes operações, nesta ordem.<br><img src='../dados/imgs/questao_desenvolvimento_25.png' alt='imagem da questão'><br>Após a realização de todas essas operações, o número de elementos na pilha e o valor armazenado no topo da pilha serão, respectivamente,",
+        "alternativas": ["a) 0 e 0.", 
+        "b) 1 e 1.",
+        "c) 1 e 5.",
+        "d) 2 e 1.",
+        "e) 2 e 5."],
+        "correta": "e) 2 e 5.",
+        "explicacao": "Como estamos numa estrutura de PILHA, as operações PUSH, um “Empilhar”, em português, irão alocar determinado número no topo da pilha. Já as operações de POP irão desempilhar o dado do topo, isso, é, removê-lo do conjunto. Analisando as ações, temos:<br>PUSH 1, PUSH 2  [1, 2]<br>POP  [1]<br>PUSH 3  [1, 3]<br>POP  [1]<br>PUSH 4  [1, 4]<br>POP  [1]<br>PUSH 5  [1, 5]<br>Portanto, a pilha será composta dos elementos [1, 5] - mas cuidado, essa não é a nossa resposta. Queremos o número de elementos (2) e o valor armazenado no topo (5) - portanto, a resposta será 2 e 5."
+      },
+      {
+        "pergunta": "(VUNESP/Pref. Marília/2023) Considere uma estrutura de dados com a propriedade de que, sempre que houver a remoção de um elemento nela armazenado, o elemento a ser removido é aquele que se encontra armazenado na estrutura há menos tempo.<br>Essa é a definição aderente a uma estrutura de dados denominada",
+        "alternativas": ["a) fila.", 
+        "b) pilha.",
+        "c) lista simples.",
+        "d) lista encadeada.",
+        "e) lista duplamente encadeada."],
+        "correta": "b) pilha.",
+        "explicacao": "Quando, numa remoção, removemos o elemento mais recente do conjunto, estamos usando a abordagem LIFO - característica das pilhas."
+      },
+      {
+        "pergunta": "(CESGRANRIO/BB/2023) A Figura a seguir exibe o conteúdo de três pilhas: P1, P2 e P3.<br>Nessa estrutura, foram executadas as seguintes operações, nesta ordem.<br><img src='../dados/imgs/questao_desenvolvimento_26.png' alt='imagem da questão'><br>Admita que um método Java, chamado exibePilha, receba essas três pilhas como parâmetros e execute os seguintes passos:<br>1. Cria duas pilhas auxiliares, A1 e A2, inicialmente vazias;<br>2. Remove um elemento de P1 e o insere em A1. Em seguida, remove um elemento de P2 e o insere em A1. Repete esses dois procedimentos até que P1 e P2 fiquem, ambas, vazias;<br>3. Remove um elemento de P3 e o insere em A1. Repete esse procedimento até que P3 fique vazia;<br>4. Remove um elemento de A1 e o insere em A2. Repete esse procedimento até que A1 fique vazia;<br>5. Remove um elemento de A2 e o exibe no console. Repete esse procedimento 4 vezes.<br>O que será exibido no console, quando o método exibePilha for executado, tendo P1, P2 e P3 sido passadas como parâmetros?",
+        "alternativas": ["a) 10 15 25 28", 
+        "b) 10 25 30 40",
+        "c) 15 10 28 25",
+        "d) 20 35 34 40",
+        "e) 40 34 30 60"],
+        "correta": "a) 10 15 25 28",
+        "explicacao": "Vamos analisar os passos, para construir as pilhas A1 e A2.<br>1. Cria duas pilhas auxiliares, A1 e A2, inicialmente vazias;<br>Essa ação apenas cria as duas pilhas.<br>2. Remove um elemento de P1 e o insere em A1. Em seguida, remove um elemento de P2 e o insere em A1. Repete esses dois procedimentos até que P1 e P2 fiquem, ambas, vazias;<br>Vamos fazer, de forma intercalada:<br>• Tirar o topo de P1 e inserir em A1<br>• Tirar o topo de P2 e inserir em A1<br>Portanto, A1 ficará com os valores [10, 15, 25, 28, 30, 60, 40, 34]<br>3. Remove um elemento de P3 e o insere em A1. Repete esse procedimento até que P3 fique vazia;<br>Esvaziando a P3 para A1, teremos A1 = [10, 15, 25, 28, 30, 60, 40, 34, 35, 20]<br>4. Remove um elemento de A1 e o insere em A2. Repete esse procedimento até que A1 fique vazia;<br>Esse procedimento faz com que A2 seja o inverso de A1. Então teremos A2 = [20, 35, 34, 40, 60, 30, 28, 25, 15, 10]<br>5. Remove um elemento de A2 e o exibe no console. Repete esse procedimento 4 vezes.<br>Vamos remover os 4 elementos do topo da pilha (numa representação horizontal, são os 4 últimos elementos). A2 = [20, 35, 34, 40, 60, 30, 28, 25, 15, 10]<br>A saída será, portanto, [10, 15, 25, 28]."
+      },
+      {
+        "pergunta": "(SUGEP UFRPE/UFRPE/2022) A estrutura de dados “vetor” (array) é um arranjo unidimensional que pode acomodar múltiplos dados. Sobre essas estruturas de dados, assinale a alternativa incorreta.",
+        "alternativas": ["a) Os dados de um vetor são mapeados numa área contígua da memória.", 
+        "b) Os dados de um vetor são do mesmo tipo.",
+        "c) Cada um dos dados de um vetor pode ser acessado informando-se o identificador do vetor e o inteiro que indica a ordem do dado na sequência.",
+        "d) Os dados de um vetor são armazenados na memória ordenadamente, em modo crescente.",
+        "e) Pode-se atribuir um dado a um elemento de qualquer posição do vetor, independentemente do que foi atribuído aos demais elementos."],
+        "correta": "d) Os dados de um vetor são armazenados na memória ordenadamente, em modo crescente.",
+        "explicacao": "Vamos analisar cada item.<br>a) Correto. No armazenamento em memória, os vetores (ou arrays) são armazenados de forma contígua, ou seja, contínua, um ao lado do outro.<br>b) Correto. Os vetores são estruturas homogêneas, portanto só aceita um mesmo tipo de dado.<br>c) Correto. A forma de acessar elementos num vetor é feita através de um índice - sua posição relativa no conjunto de dados.<br>d) Errado. Eles são armazenados de forma ordenada, o que quer dizer que as posições são crescentes, mas não seus valores.<br>e) Correto. Como trabalhamos com índices, podemos acessar qualquer posição, diferentemente de estruturas como filas e pilhas."
       }
     ],
 

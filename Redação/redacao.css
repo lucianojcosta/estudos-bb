@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+#temaSorteado {
+            margin: 15px 0;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #c0392b;
+            text-align: center;
+            min-height: 40px;
+}
+
+.botao-tema {
+    background-color: #0050d4;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto 0;
+    transition: background-color 0.3s ease;
+}
+
+.botao-tema:hover {
+    background-color: #0033a0;
+}
+
+#mensagemTema {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+textarea {
+    width: 100%;
+    min-height: 300px;
+    padding: 15px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+#contador {
+    text-align: right;
+    font-size: 0.9em;
+    margin-top: 8px;
+    color: #555;
+}
+
+.links-correcao {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.links-correcao ul {
+    padding-left: 20px;
+}
+
+.links-correcao a {
+    color: #0033a0;
+    text-decoration: none;
+}
+
+.links-correcao a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    background-color: #f0f0f0;
+    padding: 15px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.5;
+}

@@ -3,64 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desenvolvimento de Software</title>
+    <title>Matemática</title>
     <link rel="stylesheet" href="../headermenufooter.css">
     <link rel="stylesheet" href="../estiloMaterias.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Simulado Geral</h1>
-  </header>
+    <header>
+        <h1>Simulado</h1>
+    </header>
+    <div class="menu-hamburguer" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../Banco de Dados/index.html">Banco de Dados</a></li>
+            <li><a href="../Conhecimentos Bancários/index.html">Conhecimentos Bancários</a></li>
+            <li><a href="../Desenvolvimento de Software/index.html">Desenvolvimento de Software</a></li>
+            <li><a href="../Probabilidade e Estatística/index.html">Probabilidade e Estatística</a></li>
+            <li><a href="../Inglês/index.html">Inglês</a></li>
+            <li><a href="../Português/index.html">Português</a></li>
+            <li><a href="../Matemática/index.html">Matemática</a></li>
+            <li><a href="../Simulado/index.html">Simulado</a></li>
+            <li><a href="../Redação/index.html">Redação</a></li>
+        </ul>
+    </nav>
+    <main>
 
-  <main>
-    <button onclick="iniciarSimulado()">Começar Simulado</button>
+        <section class="campoQuestoes">
+            <h4>O simulado está configurado para gerar 5 questões de cada matéria.</h4>
+            <div id="questoes"></div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 - Lulubas</p>
+    </footer>
+   
+    <script src="../js/questoes.js"></script>
+    
+    
 
-    <section class="campoQuestoes">
-      <h2>Questões Misturadas</h2>
-      <div id="questoes"></div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 - Lulubas</p>
-  </footer>
-
-  
-  <script src="../js/questoes.js"></script>
-  <script>
-    function iniciarSimulado() {
-      const todasAsQuestoes = [];
-
-      // junta todas as questões de todas as matérias
-      for (const materia in questoes) {
-        todasAsQuestoes.push(...questoes[materia]);
-      }
-
-      // embaralhar as questões
-      const questoesMisturadas = todasAsQuestoes.sort(() => Math.random() - 0.5);
-
-      // pegar as 10 primeiras
-      const selecionadas = questoesMisturadas.slice(0, 10);
-
-      // exibir na tela
-      const container = document.getElementById("questoes");
-      container.innerHTML = "";
-
-      selecionadas.forEach((q, index) => {
-        const div = document.createElement("div");
-        div.innerHTML = `
-          <p><strong>(${index + 1})</strong> ${q.pergunta}</p>
-          ${q.opcoes.map((op, i) => `
-            <label>
-              <input type="radio" name="q${index}" value="${i}">
-              ${op}
-            </label><br>`).join("")}
-          <hr>
-        `;
-        container.appendChild(div);
-      });
+    <script>
+  function embaralhar(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
     }
-  </script>
+    return array;
+  }
+
+  function carregarQuestoesSimulado(materia, quantidade) {
+    fetch('../dados/questoes.json')
+      .then(res => res.json())
+      .then(dados => {
+        const todas = dados[materia];
+        if (!todas) {
+          console.error(`Matéria "${materia}" não encontrada.`);
+          return;
+        }
+
+        const sorteadas = embaralhar(todas).slice(0, quantidade);
+        const container = document.getElementById("questoes");
+
+        // Título da matéria
+        const titulo = document.createElement("h3");
+        const nomeFormatado = materia
+        .replace(/([A-Z])/g, ' $1')
+        .replace(/^./, str => str.toUpperCase());
+        titulo.textContent = `Questões de ${nomeFormatado}`;
+        container.appendChild(titulo);
+
+        sorteadas.forEach((q, i) => {
+          const div = document.createElement("div");
+          div.classList.add("questao");
+
+          const alternativasHTML = q.alternativas.map(alt => `
+            <button class="alternativa" data-correta="${q.correta}" data-escolha="${alt}" data-explicacao="${q.explicacao}">
+              ${alt}
+            </button>
+          `).join('');
+
+          div.innerHTML = `
+            <p><strong>Questão:</strong> ${q.pergunta}</p>
+            <div class="alternativas">${alternativasHTML}</div>
+            <p class="feedback"></p>
+          `;
+
+          container.appendChild(div);
+        });
+
+        document.querySelectorAll('.alternativa').forEach(btn => {
+          btn.addEventListener('click', function () {
+            const correta = this.dataset.correta;
+            const escolha = this.dataset.escolha;
+            const explicacao = this.dataset.explicacao;
+            const feedback = this.parentElement.nextElementSibling;
+
+            if (escolha === correta) {
+              feedback.innerHTML = `<span style="color:green;">✅ Resposta correta!</span><br>Explicação: ${explicacao}`;
+            } else {
+              feedback.innerHTML = `<span style="color:red;">❌ Resposta errada.</span><br>Resposta certa: <strong>${correta}</strong><br>Explicação: ${explicacao}`;
+            }
+
+            this.parentElement.querySelectorAll('button').forEach(b => b.disabled = true);
+          });
+        });
+      });
+  }
+
+  const materias = ['conhecimentosBancarios', 'bancoDeDados', 'desenvolvimentoDeSoftware', 'probabilidadeEEstatistica', 'portugues', 'ingles', 'matematica', ];
+  const totalQuestoesPorMateria = 5;
+
+  materias.forEach(materia => {
+    carregarQuestoesSimulado(materia, totalQuestoesPorMateria);
+  });
+
+  function toggleMenu() {
+  document.getElementById("menu").classList.toggle("ativo");
+}
+</script>
 </body>
 </html>

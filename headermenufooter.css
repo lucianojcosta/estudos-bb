@@ -1,17 +1,26 @@
 @charset "UTF-8";
 
+html, body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: #0033a0;
     color: white;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header > h1 {
+  word-wrap: break-word;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 .menu-hamburguer {

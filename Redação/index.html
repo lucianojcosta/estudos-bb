@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redação</title>
+    <link rel="stylesheet" href="../headermenufooter.css">
+    <link rel="stylesheet" href="../estiloMaterias.css">
+    <link rel="stylesheet" href="redacao.css">
+</head>
+<body>
+    <header>
+        <h1>Redação</h1>
+    </header>
+    <div class="menu-hamburguer" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="../Banco de Dados/index.html">Banco de Dados</a></li>
+            <li><a href="../Conhecimentos Bancários/index.html">Conhecimentos Bancários</a></li>
+            <li><a href="../Desenvolvimento de Software/index.html">Desenvolvimento de Software</a></li>
+            <li><a href="../Probabilidade e Estatística/index.html">Probabilidade e Estatística</a></li>
+            <li><a href="../Inglês/index.html">Inglês</a></li>
+            <li><a href="../Português/index.html">Português</a></li>
+            <li><a href="../Matemática/index.html">Matemática</a></li>
+            <li><a href="../Simulado/index.html">Simulado</a></li>
+            <li><a href="../Redação/index.html">Redação</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Aula 01 - Redação</h2>
+        </section>
+
+        <section id="modelos">
+            <h2>Modelos-base para Redação</h2>
+            <p>Aprenda a organizar suas ideias, construir bons argumentos e apresentar uma redação clara e coerente.</p>
+            <ul>
+            <li>Introdução: contextualize o tema e apresente sua tese.</li>
+            <li>Desenvolvimento: use argumentos e exemplos bem estruturados.</li>
+            <li>Conclusão: reafirme seu ponto de vista e proponha uma solução ou reflexão.</li>
+            </ul>
+            <p>Abaixo um modelo simples para seguir:</p>
+            <pre>
+        Introdução
+            - Apresentação do tema
+            - Tese (posição sobre o tema)
+
+        Desenvolvimento
+            - Argumento 1 com exemplo
+            - Argumento 2 com exemplo
+
+        Conclusão
+            - Retomada da tese
+            - Proposta de intervenção ou reflexão final
+            </pre>
+        </section>
+
+        <section id="geradorTema">
+            <div id="mensagemTema">Clique abaixo para gerar um tema aleatório para sua redação:</div>
+            <button class="botao-tema" id="btnGerarTema">Gerar tema aleatório</button>
+            <div id="temaSorteado"></div>
+        </section>
+
+        <section id="escrita">
+            <textarea id="textoRedacao" placeholder="Escreva aqui sua redação..."></textarea>
+            <div id="contador">0 palavras | 0 caracteres</div>
+
+            <div class="links-correcao">
+            <h3>Sites gratuitos para correção de redação:</h3>
+            <ul>
+                <li><a href="https://languagetool.org/pt/" target="_blank">LanguageTool (gramática e estilo)</a></li>
+                <li><a href="https://www.pluguinhas.com.br/simulador/" target="_blank">Pluguinhas (simulador ENEM)</a></li>
+                <li><a href="https://escreveronline.com.br/" target="_blank">Escrever Online (avaliação de textos)</a></li>
+                <li><a href="https://www.corretorautomaticoderedacao.com.br/" target="_blank">Corretor Automático de Redação</a></li>
+            </ul>
+            </div>
+        </section>
+
+        <script>
+            const temasRedacao = [
+            "Os desafios da inclusão digital no Brasil",
+            "A importância da preservação ambiental nas cidades",
+            "Como a tecnologia influencia as relações humanas",
+            "O papel da educação na redução das desigualdades sociais",
+            "A valorização da cultura local em um mundo globalizado",
+            "O impacto das redes sociais na formação da opinião pública",
+            "A importância do voto consciente nas eleições",
+            "Desafios e soluções para o trânsito nas grandes cidades",
+            "O combate ao desperdício de alimentos como responsabilidade social",
+            "O papel do esporte na formação do cidadão"
+            ];
+
+            const btnGerarTema = document.getElementById("btnGerarTema");
+            const temaSorteado = document.getElementById("temaSorteado");
+
+            btnGerarTema.addEventListener("click", () => {
+            const indice = Math.floor(Math.random() * temasRedacao.length);
+            temaSorteado.textContent = temasRedacao[indice];
+            });
+
+            // Contador de palavras e caracteres
+            const textarea = document.getElementById("textoRedacao");
+            const contador = document.getElementById("contador");
+
+            textarea.addEventListener("input", () => {
+            const texto = textarea.value.trim();
+            const palavras = texto.length > 0 ? texto.split(/\s+/).length : 0;
+            const caracteres = texto.length;
+            contador.textContent = `${palavras} palavra${palavras !== 1 ? 's' : ''} | ${caracteres} caractere${caracteres !== 1 ? 's' : ''}`;
+            });
+
+        </script>
+        <script src="../js/questoes.js"></script>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Lulubas</p>
+    </footer>
+  
+</body>
+</html>

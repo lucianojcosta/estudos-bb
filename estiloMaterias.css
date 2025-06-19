@@ -150,6 +150,14 @@ button:hover {
     color: #0033a0;
 }
 
+
+math {
+    font-family: serif;
+    font-size: 1.5em;
+}
+
+
+
 /* Destaques */
 
 span.destaqueCinza {
@@ -374,6 +382,7 @@ div.tabelaExplica > table > tbody > tr > td.destaque {
     img {
         width: 100%;
     }
+
     p.destaqueVermelho {
     max-width: 100%; 
     min-width: 200px; 
