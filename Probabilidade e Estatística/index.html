@@ -40,7 +40,7 @@
     </nav>
     <main>
         <section>
-            <p class="destaqueVermelho">Procurar mais questões no google dos assuntos das aulas 00 e 01</p>
+            
             <!-- Aula 00 -->
 
             <h2>Aula 00 - Introdução e Apresentação de Dados</h2>
@@ -675,7 +675,52 @@
             </div>
             <p>Para calcular a mediana de dados que estão agrupados por intervalo de classes, precisamos identificar a classe em que se encontra a mediana, a chamada classe mediana, que corresponde à frequência acumulada imediatamente igual ou superior à metade da frequência total, ou seja, metade da soma das frequências simples. Em nosso exemplo, temos: 50 / 2 = 25</p>
             <p>Agora, devemos comparar o valor encontrado com os valores presentes na coluna de frequências acumuladas, percorrendo-os de cima para baixo. A classe mediana será a primeira classe em que a frequência acumulada for igual ou superior a 25. Observando a tabela, percebemos que a quarta classe tem frequência acumulada 30, portanto, é maior que 25. Logo, encontramos a classe mediana. Ela se encontra na quarta classe, isto é, no intervalo entre 32 e 35.</p>
+        </section>
 
+        <section>
+
+            <!-- Aula 03 -->
+
+            <h2>Aula 03 - Moda</h2>
+            <p>A moda é o valor com maior frequência (que mais se repete).</p>
+            <h3>Moda</h3>
+            <h4>Amodal</h4>
+            <p>Quando todos os elementos apresentam a mesma frequência, isto é, quando todos aparecem o mesmo número de vezes. Exemplo:<br></p>
+            <p style="font-size: 1.1em; padding: 3px;"><span class="destaqueCinza">2, 2,</span><span> </span><span class="destaqueCinza">3, 3,</span><span> </span><span class="destaqueCinza">4, 4,</span><span> </span><span class="destaqueCinza">5, 5,</span><span> </span><span class="destaqueCinza">6, 6,</span><span> </span><span class="destaqueCinza">9, 9</span><span> </span> = amodal</p>
+            <h4>Unimodal</h4>
+            <p>Possui elemento com maior frequência<br>Exemplo:</p>
+            <p style="font-size: 1.1em; padding: 3px;"><span class="destaqueCinza">4, 4, 4,</span> 8, 8, 9, 9 = 4 <br> </p>
+            <h4>Bimodal</h4>
+            <p>quando as frequências de três ou mais elementos são iguais e maiores que as frequências dos demais elementos. Exemplo:<br></p>
+            <p style="font-size: 1.1em; padding: 3px;"><span class="destaqueCinza">2, 2, 2, 2,</span> 3, 3, 4, 5, 5, 5, <span class="destaqueCinza">6, 6, 6, 6,</span> 9, 9 = 2, 6</p>
+            <h4>Plurimodal ou Multimodal</h4>
+            <p>Auando as frequências de três ou mais elementos são iguais e maiores que as frequências dos demais elementos. Exemplo:<br></p>
+            <p style="font-size: 1.1em; padding: 3px;"><span class="destaqueCinza">2, 2, 2, 2, 2,</span> 3, 4, <span class="destaqueCinza">5, 5, 5, 5, 5,</span> <span class="destaqueCinza">6, 6, 6, 6, 6,</span> 9, 9 = 2, 5, 6</p>
+            <h3>Moda para dados agrupados sem intervalos de classe</h3>
+            <div class="tabelaExplica" style="max-width: 400px;">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Idade</th>
+                            <th>Frequência Absoluta</th>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Moda = 30 - Possui a maior frequência.</p>
+            
         </section>
 
         <section class="campoQuestoes">
