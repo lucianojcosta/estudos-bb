@@ -78,6 +78,752 @@
         "e) três unidades"],
         "correta": "a) cinco unidades",
         "explicacao": "A mediana é o valor que separa a metade superior da metade inferior de uma amostra ou conjunto de valores. Quando o conjunto apresenta um número ímpar de elementos, a mediana é representada pelo termo central. Quando o conjunto possui um número par de elementos, a mediana é definida como a média aritmética dos termos centrais.<br>A distribuição de pontos obtidos por um cliente em um programa de fidelidade pode ser representada da seguinte maneira:<br>{0, 2, 2, 3, 3, 3, 3, 4, 6, 8, 8, 8, 8, 8, 9}<br>Como a mediana é o termo central, a mediana do conjunto de pontos é igual a 4. Ou seja, para que um cliente pertença à classe de clientes especiais, esse cliente deve obter no mínimo 4 pontos.<br>A questão quer saber qual a redução máxima que o valor da maior pontuação (9) pode sofrer sem que ele perca a classificação de cliente especial. Se esse valor sofrer uma redução de 1 unidade, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 6, 8, 8, 8, 8, 8, 8}<br>Se a redução for de 2 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 6, 7, 8, 8, 8, 8, 8}<br>Se a redução for de 3 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 6, 6, 8, 8, 8, 8, 8}<br>Se a redução for de 4 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 5, 6, 8, 8, 8, 8, 8}<br>Se a redução for de 5 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 4, 4, 6, 8, 8, 8, 8, 8}<br>Se a redução for de 6 unidades, ficaremos com o seguinte conjunto:<br>{0, 2, 2, 3, 3, 3, 3, 3, 4, 6, 8, 8, 8, 8, 8}<br>Logo, a maior redução que o cliente poderá sofrer é de 5 unidades."
+      },
+      {
+        "pergunta": "(CESGRANRIO/PETROBRAS/2018) Para não comprometer o sigilo das informações, um periódico técnico-científico divulgou os dados básicos que utilizou em um modelo estatístico, na seguintedistribuição de frequência por classes:<br><img src='../dados/imgs/questao_probabilidade_5.png' alt='imagem da questão'><br>A melhor estimativa para a mediana da distribuição de X é:",
+        "alternativas": ["a) 0,75", 
+        "b) 0",
+        "c) 0,25",
+        "d) 0,50",
+        "e) 1"],
+        "correta": "a) cinco unidades",
+        "explicacao": "Sendo assim, reescrever a tabela apresentada no enunciado, acrescentando uma coluna para as frequências acumuladas:<br><img src='../dados/imgs/questao_probabilidade_6.png' alt='imagem da questão'><br>Agora, podemos aplicar a fórmula anterior:<br><img src='../dados/imgs/questao_probabilidade_7.png' alt='imagem da questão'><br>Sendo assim, a mediana dessa distribuição é igual a 0,25."
+      },
+      {
+        "pergunta": "(CESGRANRIO/TRANSPETRO/2018) Foi realizado um experimento com uma perfuradora hidráulica com o objetivo de conhecer sua capacidade de perfuração em estruturas rochosas. Para isso foi observada a profundidade, em polegadas, de perfuração em 10 locais, cujos dados estão apresentados na Tabela a seguir.<br><img src='../dados/imgs/questao_probabilidade_8.png' alt='imagem da questão'><br>A média e a mediana são, respectivamente:",
+        "alternativas": ["a) 10,0 e 10,6", 
+        "b) 10,5 e 10,65",
+        "c) 10,5 e 10,6",
+        "d) 10,6 e 10,6",
+        "e) 10,6 e 10,65"],
+        "correta": "b) 10,5 e 10,65",
+        "explicacao": "Para encontrarmos a média, basta somarmos todos os valores de profundidade e dividirmos pela quantidade de locais, no caso, 10:<br>𝑥̅= 10,4 + 10,7 + 9,4 + 10,9 + 10,8 + 11,0 + 10,5 + 10,6 + 10,9 + 9,8 / 10<br>𝑥̅= 105 / 10 = 10,5<br>Agora, para a mediana, precisamos organizar os valores e identificar os termos centrais:<br>9,4 9,8 10,4 10,5 𝟏𝟎,𝟔 𝟏𝟎,𝟕 10,8 10,9 10,9 11,0<br>Os termos centrais são 10,6 e 10,7. Logo, a mediana será a média aritmética entre esses dois valores:<br>𝑀𝑑 = 10,6 + 10,7 / 2 = 10,65"
+      },
+      {
+        "pergunta": "(CESGRANRIO/TRANSPETRO/2018) Os dados divulgados pela Agência Nacional de Telecomunicações mostram que o Brasil registrou 236,2 milhões de linhas móveis em operação, em janeiro de 2018. Isso representa uma diminuição de 258,7 mil linhas em operação (-0,11%), em relação a dezembro de 2017. As Tabelas abaixo apresentam a evolução dos acessos em operação nas modalidades de cobrança pré-paga e pós-paga nos últimos 7 meses.<br><img src='../dados/imgs/questao_probabilidade_9.png' alt='imagem da questão'><br>Analisando as Tabelas e considerando os 7 meses, conclui-se que",
+        "alternativas": ["a) a mediana do número de linhas na cobrança pré-paga é 155,0 milhões.", 
+        "b) a média e a mediana do número de linhas na cobrança pós-paga são, respectivamente, 85,8 milhões e 87,0 milhões.",
+        "c) a redução ocorrida foi de 2,3% no número de linhas, em janeiro de 2018, em comparação a dezembro de 2017 na cobrança pré-paga.",
+        "d) o aumento ocorrido foi de 30% no número de linhas pós-pagas, no mês de outubro de 2017, em comparação a setembro de 2017.",
+        "e) ao longo dos 7 meses, há um aumento no número de linhas pré-paga e pós-paga."],
+        "correta": "a) a mediana do número de linhas na cobrança pré-paga é 155,0 milhões.",
+        "explicacao": "Analisando cada alternativa, temos:<br>a) a mediana do número de linhas na cobrança pré-paga é 155,0 milhões.<br>Correta. Os dados já estão ordenados em ordem descendente. Podemos perceber que 155 ocupa a posição central do número de linhas na cobrança pré-paga, sendo, portanto, o valor que representa a nossa mediana.<br>b) a média e a mediana do número de linhas na cobrança pós-paga são, respectivamente, 85,8 milhões e 87,0 milhões.<br>Incorreta. Os dados também já estão ordenados, dessa vez em ordem ascendente. Podemos perceber que 85,8 ocupa a posição central do número de linhas na cobrança pós-paga, sendo, portanto, o valor que representa a nossa mediana.<br>Para calcular a média, basta somarmos todos os valores e dividirmos por sete:<br>𝑥 = 82,8 + 83,6 + 84,7 + 85,8 + 87,0 + 87,9 + 88,8 / 7<br>𝑥 = 600,6 / 7<br>𝑥 = 85,8<br>Portanto, a média também é igual a 85,8 milhões.<br>c) a redução ocorrida foi de 2,3% no número de linhas, em janeiro de 2018, em comparação a dezembro de 2017 na cobrança pré-paga.<br>Incorreta. A redução ocorrida foi de 2,3% no número de linhas, em dezembro de 2017, em comparação a novembro de 2017 na cobrança pré-paga.<br>d) o aumento ocorrido foi de 30% no número de linhas pós-pagas, no mês de outubro de 2017, em comparação a setembro de 2017.<br>Incorreta. O aumento ocorrido foi de 1,30% no número de linhas pós-pagas, no mês de outubro de 2017, em comparação a setembro de 2017.<br>e) ao longo dos 7 meses, há um aumento no número de linhas pré-paga e pós-paga.<br>Incorreta. Ao longo dos 7 meses, há um aumento no número de linhas pós-paga, e redução no número de linhas pré-paga."
+      },
+      {
+        "pergunta": "(CESGRANRIO/CAIXA/2024) A Carteira de Finanças Sustentáveis da Caixa Econômica Federal contém iniciativas por meio das quais a instituição visa contribuir para uma sociedade mais justa e sustentável. Na apresentação de resultados do terceiro trimestre de 2023, a Caixa Econômica Federal divulgou que o valor total dessa carteira era de R$ 720,7 bilhões, conforme descrito a seguir.<br><img src='../dados/imgs/questao_probabilidade_10.png' alt='imagem da questão'><br>A mediana dos valores da carteira dos produtos, em bilhões de reais, é, aproximadamente,",
+        "alternativas": ["a) 120", 
+        "b) 62",
+        "c) 52",
+        "d) 42",
+        "e) 31"],
+        "correta": "d) 42",
+        "explicacao": "Para calcular a mediana dos valores da carteira dos produtos, primeiro precisamos ordenar os valores em ordem crescente.<br>8,4 − 9,5 − 31,9 − 51,7 − 95,4 − 523,8<br>Como há um número par de valores (6), a mediana será a média dos dois valores centrais. Os dois valores centrais são 31,9 bilhões e 51,7 bilhões.<br>𝑀𝑒𝑑𝑖𝑎𝑛𝑎 = 31,9 + 51,7 / 2<br>𝑀𝑒𝑑𝑖𝑎𝑛𝑎 = 83,6 / 2<br>𝑀𝑒𝑑𝑖𝑎𝑛𝑎 = 41,8<br>Portanto, a mediana dos valores da carteira dos produtos, em bilhões de reais, é aproximadamente, 42. "
+      },
+      {
+        "pergunta": "(FGV/TJ-AP/2024) Segundo o ditado, “se alguém está com a cabeça no gelo e os pés no forno, não se pode dizer que está bem”. Para que a conclusão seja que a pessoa está bem, deve-se aferir a temperatura da pessoa na cabeça (gelo), nos pés (forno) e também nas axilas (fora do gelo e do forno), pelo seguinte estimador:",
+        "alternativas": ["a) média aritmética;", 
+        "b) média geométrica;",
+        "c) média harmônica;",
+        "d) mediana;",
+        "e) moda."],
+        "correta": "d) 42",
+        "explicacao": "A expressão é uma metáfora que ilustra a falácia da média. A média, por si só, pode fornecer uma visão incompleta da realidade, especialmente quando se trata de conjuntos de dados com distribuições assimétricas.<br>A cabeça no gelo (temperatura muito baixa) e os pés no forno (temperatura muito alta) representam valores extremos que distorcem a média, levando a uma visão falsa da situação.<br>A mediana pode ser uma alternativa mais adequada à média quando se trata de conjuntos de dados com distribuições assimétricas. A mediana é o valor que divide o conjunto de dados em dois grupos com o mesmo número de elementos.<br>A mediana é menos sensível à presença de valores extremos. Ela não é influenciada por valores muito altos ou muito baixos, o que a torna mais robusta que a média em distribuições assimétricas."
+      },
+      {
+        "pergunta": "(CESPE/TC-DF/2023)<br><img src='../dados/imgs/questao_probabilidade_11.png' alt='imagem da questão'><br>Considerando que, em um levantamento estatístico realizado por amostragem aleatória simples, tenha sido produzida a tabela de frequências apresentada anteriormente, na qual X denota uma variável de interesse, julgue os seguintes itens.<br>A mediana da variável X é igual a 10.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O primeiro valor a superar a frequência relativa acumulada de 50% é exatamente o 10, sendo este, portanto, o valor que representa a mediana da distribuição. Vejamos:<br><img src='../dados/imgs/questao_probabilidade_12.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(FCC/COPERGÁS/2023) Dentre as chamadas “medidas estatísticas”, destaca-se:",
+        "alternativas": ["a) A média aritmética ponderada, medida de dispersão que reflete diferentes números de ocorrências para cada fenômeno estudado.", 
+        "b) A variância, medida de dispersão calculada como a raiz quadrada do desvio padrão.",
+        "c) O desvio padrão, medida de posição calculada como a média aritmética do quadrado dos desvios.",
+        "d) A mediana, medida de posição representada pelo valor que ocupa a posição central de um conjunto de dados, colocados em ordem, ou seja, em um rol.",
+        "e) A moda, medida de posição que apresenta o valor dos resultados de uma pesquisa que apresenta a menor frequência."],
+        "correta": "d) A mediana, medida de posição representada pelo valor que ocupa a posição central de um conjunto de dados, colocados em ordem, ou seja, em um rol.",
+        "explicacao": "Vamos analisar cada alternativa:<br>Alternativa A: Incorreta. A média aritmética ponderada, <s>medida de dispersão</s> que reflete diferentes números de ocorrências para cada fenômeno estudado.<br>Alternativa B: Incorreta. A variância, medida de dispersão calculada como a <s>raiz quadrada</s> do desvio padrão. É o contrário, o desvio padrão é a raiz quadrada da variância.<br>Alternativa C: Incorreta. O desvio padrão, <s>medida de posição</s> calculada como a média aritmética do quadrado dos desvios. O desvio padrão é uma medida de dispersão. Também faltou citar a raiz quadrada da média aritmética dos quadrados dos desvios.<br>Alternativa D: Correta. A mediana, medida de posição representada pelo valor que ocupa a posição central de um conjunto de dados, colocados em ordem, ou seja, em um rol. É exatamente isso.<br>Alternativa E: Incorreta. A moda, medida de posição que apresenta o valor dos resultados de uma pesquisa que apresenta a <s>menor frequência</s>. A moda é representada pelo elemento de maior frequência."
+      },
+      {
+        "pergunta": ". (FGV/RFB/2023) Uma pequena amostra de 11 salários (medidos em quantidades de salários mínimos) de trabalhadores de terceiro setor mostrou os seguintes resultados:<br>2,0  2,3  2,7  3,4  3,9  2,8  2,3  1,8  1,5  3,3  1,5<br>A diferença, em quantidade de salários mínimos, entre os valores da média e da mediana desses dados é igual a",
+        "alternativas": ["a) 0,0.", 
+        "b) 0,1.",
+        "c) 0,2.",
+        "d) 0,3.",
+        "e) 0,4."],
+        "correta": "c) 0,2.",
+        "explicacao": "A mediana é o termo central da amostra. Ela separa uma série de valores em duas partes de tamanhos iguais, cada uma contendo o mesmo número de elementos. Para calcularmos a mediana, primeiramente, vamos precisar ordenar os dados. Assim, reescrevendo os dados em ordem crescente, temos:<br>1,5 1,5 1,8 2,0 2,3   2,3   2,7 2,8 3,3 3,4 3,9<br>Portanto, a mediana é igual a 2,3.<br>Agora, vamos calcular a média. A média é definida pelo quociente entre a soma dos valores de um determinado conjunto e a quantidade de valores nele existentes.<br>𝑥̅ = 𝑠𝑜𝑚𝑎 / 𝑛<br>𝑥̅= 2,0 + 2,3 + 2,7 + 3,4 + 3,9 + 2,8 + 2,3 + 1,8 + 1,5 + 3,3 + 1,5 / 11<br>𝑥̅= 27,5 / 11<br>𝑥̅= 2,5<br>Fazendo a diferença entre a média e a mediana, temos:<br>𝑥̅− 𝑀𝑑 = 2,5 − 2,3 = 0,2"
+      },
+      {
+        "pergunta": "(FGV/TCE ES/2023) A seguinte amostra de acidentes de trânsito em um mês foi observada:<br>9, 15, 15, 11, 13, 16, 15, 13, 16, 18, 9.<br>Nesse caso, é correto afirmar, a respeito das principais medidas de tendência central desse conjunto, que:",
+        "alternativas": ["a) a média é igual a 15;", 
+        "b) o valor da média é menor do que o da mediana;",
+        "c) o valor da mediana é duas unidades maior do que o da média;",
+        "d) se uma nova medida, igual a 20, for incorporada à amostra, a diferença entre média e mediana deve aumentar;",
+        "e) se uma nova medida, igual a 20, for incorporada à amostra, os valores da média e da mediana  permanecerão iguais."],
+        "correta": "b) o valor da média é menor do que o da mediana;",
+        "explicacao": "Vamos analisar cada uma das alternativas.<br>Letra A - a média é igual a 15. Calculando a média temos:<br>𝑥̅ = 𝑠𝑜𝑚𝑎 / 𝑛<br>𝑥̅ = 9 + 15 + 15 + 11 + 13 + 16 + 15 + 13 + 16 + 18 + 9 / 11<br>𝑥̅ = 150 / 11<br>≅ 13,63<br>Portanto, a alternativa A está errada.<br>Letra B - o valor da média é menor do que o da mediana. Já calculamos a média na alternativa anterior, então, vamos ao cálculo da mediana. Sabemos que a mediana é o termo central da amostra. Por conta disso, precisamos ordenar os dados da amostra:<br>9, 9, 11, 13, 13,   15,   15, 15, 16, 16, 18<br>Dessa forma, percebemos que o valor da média é menor que a mediana. Portanto, a alternativa está correta.<br>Letra C - o valor da mediana é duas unidades maior do que o da média. Já verificamos que a mediana é igual a 15 e a média é aproximadamente igual a 13,63. Portanto, a alternativa C está errada.<br>Letra D - se uma nova medida, igual a 20, for incorporada à amostra, a diferença entre média e mediana deve aumentar. Vamos calcular:<br>9, 9, 11, 13, 13,    15, 15,   15, 16, 16, 18, 20<br>Nesse caso, a mediana será determinada pela média aritmética dos dois termos centrais:<br>𝑀𝑑 = 15 + 15 / 2<br>𝑀𝑑 = = 15<br>calculando a nova média, temos:<br>𝑥̅= 150 + 20 / 12<br>≅ 14,16<br>Logo, a diferença entre a média e a mediana deve ser menor. Portanto, a alternativa está errada.<br>Letra E - se uma nova medida, igual a 20, for incorporada à amostra, os valores da média e da mediana permanecerão iguais. Conforme calculado na alternativa anterior, o valor da média será alterado. Portanto, a alternativa está errada."
+      },
+      {
+        "pergunta": "(CESPE/FUB/2022) Uma universidade está fazendo um estudo para verificar a distribuição dos tempos que os alunos do curso de mestrado levam até a defesa da dissertação. Os dados a seguir mostram a função de probabilidade desses tempos, em meses.<br><img src='../dados/imgs/questao_probabilidade_13.png' alt='imagem da questão'><br>Considerando essas informações, julgue o item subsequente.<br>Os dados referentes ao tempo de defesa têm mediana igual a 24 meses.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A mediana é o termo central da amostra. Ela divide o conjunto de dados em duas partes, separando os valores inferiores à mediana dos valores superiores à mediana. Observando a tabela, podemos perceber que os dados dos meses já estão ordenados. Assim, precisamos avaliar a quantidade de vezes que cada mês se repete para encontrarmos a mediana. <br>Para facilitar o entendimento, vamos reescrever a tabela acrescentado a informação de frequência acumulada:<br><img src='../dados/imgs/questao_probabilidade_14.png' alt='imagem da questão'><br>A mediana será o valor correspondente à 50% das frequências acumuladas. Inicialmente, precisamos identificar a posição em que está a mediana. Para isso calcularemos a posição da mediana:<br><img src='../dados/imgs/questao_probabilidade_15.png' alt='imagem da questão'><br>Assim, a mediana será o valor correspondente à frequência acumulada de 0,5. Percebam que o valor 24 possui frequência acumulada de 0,7. Ou seja, exatamente nesse valor superamos a mediana. Portanto, a frequência acumulada anterior não alcança 50% das observações, parando em 39%. Portanto, a mediana do tempo de defesa é igual a 24 meses. "
+      },
+      {
+        "pergunta": "(CESPE/MP TCE-SC/2022)<br><img src='../dados/imgs/questao_probabilidade_16.png' alt='imagem da questão'><br>Considerando a figura anterior, na qual é representada a distribuição de uma variável quantitativa discreta X, julgue o item a seguir.<br>A mediana de X é igual a 2.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A mediana é o termo central da amostra, ou seja, em um conjunto de dados ordenados a mediana corresponde à 50% da amostra. No gráfico, os valores de X já estão ordenadas. Somando as frequências, temos:<br>0,1 + 0,5 + 0,2 + 0,1 + 0,1 = 1<br>Como a mediana é representada pelo termo central, então ela ocupará a posição 0,5 da amostra.<br>Observando o gráfico, verificamos que a frequência do 1º termo é 0,1; e a frequência do 2º termo é 0,5. Logo, a posição da mediana já será alcançada no segundo termo.<br>Portanto, a mediana é igual a 1."
+      },
+      {
+        "pergunta": "(CESPE/PETROBRAS/2022)<br><img src='../dados/imgs/questao_probabilidade_17.png' alt='imagem da questão'><br>Considerando que a tabela acima mostra a distribuição de frequências de uma variável obtida com base em uma amostra aleatória simples de tamanho igual a n, julgue o item que se segue. <br>A mediana de x é igual a 1,5.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A mediana é o termo central da amostra, ou seja, em um conjunto de dados ordenados, a mediana denota a posição que corresponde a 50% da amostra. Observando a tabela, percebemos que o valor 2 possui uma frequência relativa de 0,50, o que corresponde a 50% dos dados. Logo, podemos concluir que a mediana dos dados apresentados na tabela é 2."
+      },
+      {
+        "pergunta": "(CESPE/PETROBRAS/2022) A figura seguinte mostra o histograma como uma estimativa da função de densidade de uma distribuição X, juntamente com o diagrama boxplot correspondente a esse conjunto de dados.<br><img src='../dados/imgs/questao_probabilidade_18.png' alt='imagem da questão'><br>Considerando a figura e as informações apresentadas no quadro, julgue o item que se segue.<br>A diferença entre a média amostral e a mediana amostral é superior a 0.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Observando os dados do histograma, podemos concluir que se trata de uma distribuição assimétrica à direita. Nesse caso, o valor da média é maior que o da mediana que, por sua vez, é maior que o da moda. <br>Conforme a tabela apresentada na questão, a média vale 10. Como a média vale 10, a mediana deverá assumir um valor positivo e inferior a 10. Logo, a diferença entre a média e a mediana será maior que 0."
+      },
+      {
+        "pergunta": "(CESPE/TELEBRAS/2022)<br><img src='../dados/imgs/questao_probabilidade_19.png' alt='imagem da questão'><br>Considerando que o histograma apresentado descreve a distribuição de uma variável quantitativa X por meio de frequências absolutas, julgue o item que se segue. <br>A mediana de X se encontra na classe modal.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A classe modal é a que apresenta a maior frequência, isto é, a terceira classe, representada pelo intervalo que varia de 10 a 15. Agora, vamos encontrar a posição da mediana. Transcrevendo os dados para uma tabela e acrescentando as frequências acumuladas, temos:<br><img src='../dados/imgs/questao_probabilidade_20.png' alt='imagem da questão'><br>A classe mediana corresponde à classe com frequência acumulada imediatamente igual ou superior à metade da frequência total:<br><img src='../dados/imgs/questao_probabilidade_21.png' alt='imagem da questão'><br>Assim, concluímos que a classe mediana está na posição 550, que corresponde à terceira classe (de 10 a 15).<br>Logo, a mediana se encontra na classe modal."
+      },
+      {
+        "pergunta": "(CESPE/TELEBRAS/2022) Julgue o item que se segue, a respeito de contagem, probabilidade e estatística.<br>Considerando o gráfico a seguir, que fornece a evolução do número, em milhões, de aparelhos celulares ativos no Brasil entre o 1.º trimestre de 2020 e o 3.º trimestre de 2021, infere-se que o valor absoluto entre o número médio de aparelhos ativos e a mediana da amostra, no período em tela, é inferior a 2 milhões.<br><img src='../dados/imgs/questao_probabilidade_22.png' alt='imagem da questão'>",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O enunciado pede a diferença entre a média de aparelhos ativos e a mediana no período apresentado no gráfico, que mostra o número de celulares ativos no brasil para 7 trimestres diferentes. <br>Vamos iniciar calculando a média dos aparelhos. A média aritmética é determinada pelo quociente entre a soma de todos os elementos e a quantidade deles:<br><img src='../dados/imgs/questao_probabilidade_23.png' alt='imagem da questão'><br>A mediana, por sua vez, é o termo central da amostra. Ela divide o conjunto de dados ordenados em duas partes, separando os valores inferiores à mediana dos valores superiores à mediana. Assim, ordenando as sete observações, temos:<br>225; 226; 228;   234   ; 241; 245; 249<br>Logo, a mediana é 234.<br>Calculando a diferença entre a média e a mediana, temos:<br>235,42 − 234 = 1,42 𝑚𝑖𝑙ℎõ𝑒𝑠<br>1,42 < 2<br>Portanto, a assertiva está correta."
+      },
+      {
+        "pergunta": "(CESGRANRIO/ELETRONUCLEAR/2022) A Tabela a seguir indica a frequência de acidentes de trabalhadores de uma empresa do setor sucroalcooleiro, em faixas etárias, durante um período de 7 anos.<br><img src='../dados/imgs/questao_probabilidade_24.png' alt='imagem da questão'><br>Observando-se os dados presentes na Tabela e usando-se o método de interpolação linear, qual a idade mediana dos trabalhadores acidentados?",
+        "alternativas": ["a) 30,79",
+        "b) 30,98",
+        "c) 31,84",
+        "d) 32,70",
+        "e) 33,25"],
+        "correta": "b) 30,98",
+        "explicacao": "Podemos estimar a mediana de uma distribuição de dados agrupados usando a fórmula:<br><img src='../dados/imgs/questao_probabilidade_25.png' alt='imagem da questão'><br>em que 𝑙𝑖𝑛𝑓 é o limite inferior da classe mediana, ∑𝒇𝒊𝒏𝒊=𝟏/2 corresponde à posição na qual a mediana está localizada, 𝑓𝑎𝑐𝑎𝑛𝑡 é a frequência acumulada da classe anterior a que contém a mediana, 𝑓𝑖 é a frequência da classe que contém a mediana e ℎ é a amplitude do intervalo no qual a mediana está contida.<br>Sendo assim, reescrever a tabela apresentada no enunciado, acrescentando uma coluna para as frequências acumuladas:<br><img src='../dados/imgs/questao_probabilidade_26.png' alt='imagem da questão'><br>Agora, podemos aplicar a fórmula anterior:<br><img src='../dados/imgs/questao_probabilidade_27.png' alt='imagem da questão'><br>Sendo assim, a mediana dessa distribuição é igual a 30,98, não havendo nenhuma alternativa correta dentre as indicadas pela banca organizadora do concurso."
+      },
+      {
+        "pergunta": "(FCC/TRT 5ª Região/2022) Uma pesquisa de opinião realizada em sete cidades obteve os números de manifestações favoráveis a um produto dados pela tabela a seguir<br><img src='../dados/imgs/questao_probabilidade_28.png' alt='imagem da questão'><br>A diferença entre a média e a mediana desse conjunto de dados é:",
+        "alternativas": ["a) 0",
+        "b) 3",
+        "c) 8",
+        "d) 10",
+        "e) 15"],
+        "correta": "a) 0",
+        "explicacao": "A média será a soma dos números de manifestações favoráveis a um produto dividida pelo número de cidades:<br>𝑥̅ = 65 + 42 + 87 + 91 + 34 + 53 + 62 / 7<br>𝑥̅ = 434 / 7<br>𝑥̅ = 62<br>Como o número de cidades é ímpar, a mediana coincidirá com o termo central do conjunto. Sendo assim, vamos organizar os valores para identificarmos o termo central:34, 42, 53,   62   , 65, 87, 91<br>Portanto, a diferença entre a média e a mediana desse conjunto de dados é:<br>𝑀𝑑 − 𝑥̅ = 62 − 62 = 0"
+      },
+      {
+        "pergunta": "(FCC/TRT 23ª Região/2022) A tabela de frequências absolutas abaixo refere-se à distribuição dos salários (S) dos empregados que não possuem nível superior em uma empresa, sendo que não foram fornecidas as frequências da 2a e 3a classes dos empregados homens, denotadas na tabela por x e y, respectivamente.<br><img src='../dados/imgs/questao_probabilidade_29.png' alt='imagem da questão'><br>Foram calculadas separadamente, pelo método da interpolação linear, as medianas dos empregados homens e das mulheres, sendo que o valor da mediana referente ao dos homens superou em R$ 425,00 o valor referente ao das mulheres. O valor médio dos salários dos homens, calculado como se todos os valores de uma classe coincidam com o ponto médio da respectiva classe, é igual a",
+        "alternativas": ["a) R$ 3.925,00",
+        "b) R$ 3.525,00",
+        "c) R$ 3.875,00",
+        "d) R$ 3.375,00",
+        "e) R$ 3.625,00"],
+        "correta": "d) R$ 3.375,00",
+        "explicacao": "Vamos iniciar calculando a mediana das mulheres. A classe mediana está localizada no intervalo de 2.500 a 3.500:<br><img src='../dados/imgs/questao_probabilidade_30.png' alt='imagem da questão'><br>Aplicando a fórmula da mediana, temos:<br><img src='../dados/imgs/questao_probabilidade_31.png' alt='imagem da questão'><br>Em que:<br>Aplicando a fórmula da mediana, temos:<br><img src='../dados/imgs/questao_probabilidade_32.png' alt='imagem da questão'><br>Assim, temos que:<br>Aplicando a fórmula da mediana, temos:<br><img src='../dados/imgs/questao_probabilidade_33.png' alt='imagem da questão'><br>Como a mediana dos homens superou a mediana das mulheres em 425, podemos estabelecer que:<br><img src='../dados/imgs/questao_probabilidade_34.png' alt='imagem da questão'><br>Agora, vamos calcular o valor de 𝑥 a partir da mediana dos homens. Como o valor da mediana é igual a 𝑅$ 3.300, a classe mediana está no intervalo de 2.500 a 3.500:<br><img src='../dados/imgs/questao_probabilidade_35.png' alt='imagem da questão'><br>Em que:<br><img src='../dados/imgs/questao_probabilidade_36.png' alt='imagem da questão'><br>Aplicando esses valores na fórmula da mediana, obtemos:<br><img src='../dados/imgs/questao_probabilidade_37.png' alt='imagem da questão'><br>Somando as frequências dos homens, temos:<br>20 + 25 + 𝑦 + 15 = 80 <br>𝑦 + 60 = 80<br>Logo,<br>𝑦 = 20<br>Por fim, vamos calcular a média dos homens:<br><img src='../dados/imgs/questao_probabilidade_38.png' alt='imagem da questão'><br>Portanto, a média salarial dos homens é:<br><img src='../dados/imgs/questao_probabilidade_39.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(FCC/TRT 4ª Região/2022) A tabela a seguir fornece as frequências relativas acumuladas correspondentes aos salários dos funcionários de uma empresa que não possuem nível superior.<br><img src='../dados/imgs/questao_probabilidade_40.png' alt='imagem da questão'><br>Observação: Não foram fornecidas as respectivas frequências da 3ª e 4ª classes, mas sabe-se que utilizando o método da interpolação linear o valor da mediana destes salários apresentou valor igual a 4,125 salários mínimos. M é um parâmetro real.<br>O valor médio destes salários, em salários mínimos, calculado como se todos os valores de uma classe coincidam com o ponto médio da respectiva classe, é igual a",
+        "alternativas": ["a) 4,5",
+        "b) 3,3",
+        "c) 3,7",
+        "d) 4,1",
+        "e) 3,0"],
+        "correta": "d) R$ 3.375,00",
+        "explicacao": "De acordo com o enunciado, a mediana apresentou valor igual a 4,125 salários-mínimos. Significa dizer que a mediana está localizada na terceira classe, no intervalo de 3,5 a 4,5.<br>Assim, podemos utilizar a fórmula da interpolação (fórmula da mediana) para calcular o valor de M. Vejamos:<br><img src='../dados/imgs/questao_probabilidade_41.png' alt='imagem da questão'><br>Sabendo disso, vamos reconstruir a tabela:<br><img src='../dados/imgs/questao_probabilidade_42.png' alt='imagem da questão'><br>Agora, vamos calcular a média:<br><img src='../dados/imgs/questao_probabilidade_43.png' alt='imagem da questão'><br>Nossa média será: <br><img src='../dados/imgs/questao_probabilidade_44.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(FCC/PGE AM/2022) A tabela abaixo apresenta o consumo de energia da família Silva entre os meses de junho de 2020 e dezembro de 2021.<br>Nossa média será: <br><img src='../dados/imgs/questao_probabilidade_45.png' alt='imagem da questão'><br>De acordo com os dados constantes da tabela, é correto afirmar:",
+        "alternativas": ["a) Considerando os meses de dezembro, janeiro e fevereiro como verão, nota-se que os três menores consumos ocorrem no verão.",
+        "b) O consumo médio de 2021 está acima de 700 kWh.",
+        "c) O consumo mediano dos valores apresentados na tabela, isto é, de jun/20 até dez/21 é 568 kWh.",
+        "d) O maior consumo ocorreu em jun/21.",
+        "e) O menor consumo ocorreu em jun/20."],
+        "correta": "c) O consumo mediano dos valores apresentados na tabela, isto é, de jun/20 até dez/21 é 568 kWh.",
+        "explicacao": "Vamos analisar cada alternativa:<br>Alternativa A: Incorreta. Os três menores consumos acontecem em junho, julho e agosto de 2020.<br>Alternativa B: Incorreta. Nem precisamos fazer a conta para sabermos que a alternativa está errada. Se não há nenhum valor acima de 700kWh no ano de 2021, não há como o consumo médio ser superior a esse valor.<br>Alternativa C: Correta. Há 19 meses no período em análise. Assim, o valor mediano é o que ocupará a décima posição na lista ordenada de consumos. Ordenando os valores, temos: 529, 537, 538, 538, 540, 559, 560, 563, 565, 568. Portanto, 568kWh é o nosso valor mediano.<br>Alternativa D: Incorreta. O maior consumo aconteceu em setembro de 2020.<br>Alternativa E: Incorreta. O menor consumo aconteceu em maio de 2021."
+      },
+      {
+        "pergunta": "(FCC/PGE AM/2022) O gráfico a seguir apresenta o número de inscritos em um determinado vestibular nos últimos 10 anos: <br><img src='../dados/imgs/questao_probabilidade_46.png' alt='imagem da questão'><br>A partir das informações contidas no gráfico, é correto afirmar:",
+        "alternativas": ["a) O número de inscritos está crescendo nos últimos 10 anos.",
+        "b) A queda no número de inscritos ocorre devido à diminuição de matrículas no ensino médio.",
+        "c) A média aritmética do número de inscritos nos últimos 10 anos foi de 170.545.",
+        "d) A mediana do número de inscritos está abaixo de 140.000.",
+        "e) Se excluirmos o número de inscritos em 2022, a nova média aritmética do número de inscritos diminuiria em relação à média aritmética dos últimos 10 anos."],
+        "correta": "d) A mediana do número de inscritos está abaixo de 140.000.",
+        "explicacao": "Vamos analisar cada alternativa:<br>Alternativa A: Incorreta. O que se verifica é uma tendência de queda. Há dez anos, o número de inscritos era de 159mil. Agora, está próximo de 110mil.<br>Alternativa B: Incorreta. Não se pode afirmar que a queda no número de inscritos ocorre devido à diminuição de matrículas no ensino médio.<br>Alternativa C: Incorreta. A média aritmética proposta na alternativa C é 170.545. Olhando para os números no gráfico, apenas um valor (172.045) está acima de 170.545, enquanto todos os outros valores estão significativamente abaixo desse número. Isso indica que a média real não pode ser tão alta quanto 170.545. Portanto, a alternativa C pode ser eliminada sem precisar calcular a média.<br>Alternativa D: Correta. Os termos centrais da série histórica são 136.741 e 137.581. Calculando a média aritmética desses dois valores, vamos verificar que a mediana é inferior a 140.000.<br>Alternativa E: Incorreta. Se excluirmos o ano de 2022, que é o menor registrado na série histórica, a média vai aumentar e não diminuir."
+      },
+      {
+        "pergunta": "(FCC/PGE AM/2022) José observou que a média aritmética das idades de seus 6 primos, em anos, era 25, a mediana era 24,5 e a moda era 24 anos. Ao se incluir no grupo, a média passou a ser 26. A idade de José e a nova mediana são, respectivamente,",
+        "alternativas": ["a) 30 e 24",
+        "b) 26 e 25",
+        "c) 32 e 25",
+        "d) 30 e 26",
+        "e) 32 e 24,5"],
+        "correta": "c) 32 e 25",
+        "explicacao": "Primeiro, vamos descobrir a soma das idades dos primos de José. Como a média é 25 e como são 6 primos, temos que:<br><img src='../dados/imgs/questao_probabilidade_47.png' alt='imagem da questão'><br>Após descobrirmos a idade de José, precisamos identificar a nova mediana do conjunto de idades. Para que a mediana inicial fosse 24,5, os termos centrais do conjunto deveriam ser 24 e 25.<br>x, 24,   24, 25   , y, z<br>Como será incluída uma idade superior às registradas nos termos centrais, a mediana se deslocará para o valor 25, que passará a ser o novo termo central do conjunto com 7 elementos:<br>x, 24, 24   25   32 , y, z"
+      },
+      {
+        "pergunta": "(FCC/PGE AM/2022) Considere a tabela a seguir.<br><img src='../dados/imgs/questao_probabilidade_48.png' alt='imagem da questão'><br>A partir das informações da tabela é correto afirmar que",
+        "alternativas": ["a) o volume de vendas mediano vem crescendo ao longo dos anos.",
+        "b) o mês de novembro caracteriza-se por ter o maior volume de vendas em cada ano.",
+        "c) a média aritmética do volume de vendas anual é sempre menor do que a mediana.",
+        "d) o menor volume de vendas ocorre sempre em janeiro de cada ano.",
+        "e) o maior volume de vendas ocorreu em dez/21."],
+        "correta": "a) o volume de vendas mediano vem crescendo ao longo dos anos.",
+        "explicacao": "Alternativa A: Correta. Ordenando os volumes de vendas para os três anos, temos que o valor mediano vem crescendo ao longo dos anos:<br><img src='../dados/imgs/questao_probabilidade_49.png' alt='imagem da questão'><br>Alternativa B: Incorreta. O mês de dezembro caracteriza-se por ter o maior volume de vendas em cada ano.<br>Alternativa C: Incorreta. A média aritmética do volume de vendas anual é sempre maior do que a mediana. Para 2019, a média é 98,12 e a mediana é 95,1; para 2020, a média é 98,93 e a mediana é 97,85; e para 2021, a média é 101,17 e a mediana é 99,8.<br>Alternativa D: Incorreta. Em 2020, o menor volume de vendas foi registrado em abril.<br>Alternativa E: Incorreta. O maior volume de vendas ocorreu em dez/2020."
+      },
+      {
+        "pergunta": "(FGV/CBM-AM/2022) A soma de 11 números inteiros estritamente positivos, não necessariamente distintos, é 2022.<br>O maior valor que a mediana desses 11 números pode ter é",
+        "alternativas": ["a) 335.",
+        "b) 336.",
+        "c) 337.",
+        "d) 338.",
+        "e) 339."],
+        "correta": "b) 336.",
+        "explicacao": "A mediana é o termo central da amostra. Ela divide o conjunto de dados em duas partes, separando os valores inferiores à mediana dos valores superiores à mediana. Então, se a mediana é o termo central da amostra, em um conjunto com 11 termos, ela será o 6º termo do conjunto de dados ordenados. <br>Então, se a soma desses 11 números é igual a 2022, para encontramos o valor da maior mediana basta considerarmos que os cinco primeiros números são iguais a 1, menor valor inteiro e positivo inferior à mediana. Vamos esquematizar para melhor compreensão: <br><img src='../dados/imgs/questao_probabilidade_50.png' alt='imagem da questão'><br>Como não conhecemos o valor da mediana, e como também não sabemos quais são os valores dos demais números, vamos considerar que todos possuem o mesmo valor, igual a 𝑥. Agora, basta resolvermos a equação:<br>5 + 𝑥 + 𝑥 + 𝑥 + 𝑥 + 𝑥 + 𝑥 = 2022<br>6𝑥 = 2022 − 5<br>𝑥 = 2017 / 6<br>Vejam que essa divisão não é exata, portanto, restará uma unidade. Logo, temos que:<br>𝑥 = 336<br>Agora, podemos atribuir a sobra da divisão ao último termo da amostra, assim:<br><img src='../dados/imgs/questao_probabilidade_51.png' alt='imagem da questão'><br>Logo, o maior valor da mediana é 336."
+      },
+      {
+        "pergunta": "(FGV/SEFAZ ES/2022) As notas de nove candidatos num certo exame foram:<br>54, 48, 46, 51, 38, 50, 44, 58, 32.<br>A mediana dessas notas é igual a",
+        "alternativas": ["a) 44.",
+        "b) 46.",
+        "c) 48.",
+        "d) 50.",
+        "e) 51."],
+        "correta": "c) 48.",
+        "explicacao": "A mediana divide uma série ordenada em duas partes iguais. Como temos 9 termos na amostra, a mediana é determinada pelo termo central, isto é, o quinto termo da amostra. É importante observar que, para encontrarmos a mediana, os dados devem estar ordenados.<br>Portanto, a mediana é 48."
+      },
+      {
+        "pergunta": "(FGV/TCE-TO/2022) A seguinte amostra de idades foi observada: 30, 24, 26, 25, 24, 28, 26, 29, 30.<br>A mediana dessas idades é igual a:",
+        "alternativas": ["a) 25,5",
+        "b) 26,0",
+        "c) 26,5",
+        "d) 28,0",
+        "e) 28,5"],
+        "correta": "b) 26,0",
+        "explicacao": "Para determinarmos a mediana de um conjunto, precisamos inicialmente ordenar os dados. Como o conjunto possui um número ímpar de elementos, a mediana coincidirá com o termo central da amostra. No caso apresentado, temos um total de 9 elementos. Portanto, a mediana coincidirá com o quinto elemento da série ordenada.<br>Assim, a mediana da amostra é o elemento de valor igual a 26."
+      },
+      {
+        "pergunta": "(FGV/TRT-MA/2022) Uma variável aleatória discreta X tem função de probabilidade dada por:<br><img src='../dados/imgs/questao_probabilidade_52.png' alt='imagem da questão'><br>A média e a mediana de X são respectivamente iguais a",
+        "alternativas": ["a) 8,1 e 10",
+        "b) 8,1 e 3,0",
+        "c) 8,5 e 6,5",
+        "d) 8,1 e 6,5",
+        "e) 8,5 e 10"],
+        "correta": "a) 8,1 e 10",
+        "explicacao": "Para calcularmos a média, precisamos multiplicar todos os valores de X por suas respectivas probabilidades. <br>Assim, teremos: <br><img src='../dados/imgs/questao_probabilidade_53.png' alt='imagem da questão'> <br>Agora, para determinarmos a mediana de uma distribuição, precisamos verificar em que momento as frequências acumuladas atingem 50% da amostra. Vejam que a soma das probabilidades dos dois primeiros valores de X já alcança 30%. Somando a probabilidade referente ao próximo valor, X=10, atingimos o valor de 60%, ultrapassando o limite em questão. Então, podemos considerar que a mediana de X é igual a 10."
+      },
+      {
+        "pergunta": "(FGV/TRT-PB/2022) Avalie se as seguintes afirmativas acerca da mediana de uma variável aleatória X estão corretas:<br>I. Se m é a mediana de X então P[X ≤ m] ≥ 0,5 e P[ X ≥ m] ≥ 0,5.<br>II. A mediana é uma medida mais resistente a valores extremos do que a média.<br>III. Se a distribuição de probabilidades de X tem assimetria negativa, então o valor da mediana de X é menor do que o da média de X.<br>Está correto o que se afirma em",
+        "alternativas": ["a) I, apenas.",
+        "b) I e II, apenas.",
+        "c) I e III, apenas.",
+        "d) II e III, apenas.",
+        "e) I, II e III."],
+        "correta": "b) I e II, apenas.",
+        "explicacao": "Vamos analisar cada item:<br>Item I: Se m é a mediana de X então P[X ≤ m] ≥ 0,5 e P[ X ≥ m] ≥ 0,5.<br>Correto. Como sabemos, a mediana divide um conjunto em duas partes com o mesmo número de elementos.<br>Assim, como temos a mesma quantidade de elementos antes e depois da mediana, a probabilidade de X ser maior que a mediana é de, no mínimo, 50%.<br>Item II: A mediana é uma medida mais resistente a valores extremos do que a média.<br>Correto. A mediana é representada pelo elemento que ocupa a posição central em um conjunto ordenado de valores. Ela não se preocupa com os valores propriamente ditos, mas somente com a posição, por isso não sofre influência de valores extremos. A média, por outro lado, sofre muita influência de valores extremos, pois o cálculo da média requer que eles sejam considerados.<br>Item III: Se a distribuição de probabilidades de X tem assimetria negativa, então o valor da mediana de X é menor do que o da média de X.<br>Incorreto. A assimetria é negativa quando a curva de frequência tem uma “cauda” mais longa à esquerda do ponto que corresponde à frequência máxima:<br><img src='../dados/imgs/questao_probabilidade_53.png' alt='imagem da questão'><br>Nesse caso, o valor da média será menor que o da mediana, 𝒙̅ < 𝑴𝒅."
+      },
+      {
+        "pergunta": "(VUNESP/EsFECx/2022) Sobre a variância e o desvio padrão, é correto afirmar que",
+        "alternativas": ["a) são medidas que apresentam a mesma unidade dos valores de um conjunto de dados numéricos.",
+        "b) são medidas que medem a dispersão dos dados em torno da média do conjunto de dados.",
+        "c) são medidas de posição/locação de um conjunto de dados numéricos.",
+        "d) não apresentam relação entre si.",
+        "e) o desvio padrão é o valor absoluto da variância."],
+        "correta": "b) I e II, apenas.",
+        "explicacao": "A questão aborda os conceitos de variância e desvio padrão. A variância é determinada pela média dos quadrados dos desvios em relação à média aritmética. Por meio dessa medida de dispersão, podemos avaliar o quão dispersos estão os dados em relação à média aritmética. Nesse sentido, quanto maior a variância, maior a dispersão dos dados.<br>O desvio padrão é definido como sendo a raiz quadrada da média aritmética dos quadrados dos desvios e, dessa forma, é determinado pela raiz quadrada da variância. É uma das medidas de variabilidade mais utilizadas porque é capaz de apontar de forma mais precisa a dispersão dos valores em relação à média aritmética.<br>Analisando as alternativas, temos:<br>Alternativa A: Incorreta. A variância é expressa em termos do quadrado da unidade em relação à variável em questão, enquanto o desvio-padrão é expresso nas mesmas unidades dos dados originais.<br>Alternativa B: Correta. Tanto a variância quanto o desvio padrão são medidas de variabilidade ou dispersão dos dados, conforme os conceitos apresentados.<br>Alternativa C: Incorreta. Como vimos anteriormente, a variância e o desvio padrão são medidas de dispersão e não de posição. As medidas de posição mais comuns são a média, mediana e moda.<br>Alternativa D: Incorreta. Conforme vimos, essas duas medidas têm sim relação entre si, além de serem medidas que avaliam a dispersão dos dados em torno da média, sendo o desvio-padrão determinado pela raiz quadrada da variância.<br>Alternativa E: Incorreta. Na verdade, o desvio-padrão é determinado pela raiz quadrada da variância, e não valor absoluto."
+      },
+      {
+        "pergunta": "(CESGRANRIO/CEF/2021) Seis candidatos, aprovados para a penúltima etapa de um processo seletivo, foram submetidos a um teste de conhecimentos gerais com 10 itens do tipo “verdadeiro/falso”. Os dois primeiros candidatos acertaram 8 itens cada, o terceiro acertou 9, o quarto acertou 7, e os dois últimos, 5 cada. Pelas regras do concurso, passariam, para a etapa final da seleção, os candidatos cujo número de acertos fosse maior ou igual à mediana do número de acertos dos seis participantes.<br>Quantos candidatos passaram para a etapa final?",
+        "alternativas": ["a) 2",
+        "b) 3",
+        "c) 4",
+        "d) 5",
+        "e) 6"],
+        "correta": "b) 3",
+        "explicacao": "Primeiro vamos encontrar o valor da mediana das notas obtidas pelos candidatos. Para isso, temos que ordenar os valores das notas:<br>5, 5,⏟⏟⏟⏟7, 8⏟⏟⏟⏟, 8, 9<br>Como o número de termos é par, a mediana será dada pela média dos dois termos centrais:<br>𝑀𝑑 = 7 + 8 / 2<br>𝑀𝑑 = 15 / 2<br>𝑀𝑑 = 7,5<br>Logo, vão para a etapa final os candidatos com notas maiores ou iguais a 7,5.<br>Dessa forma, passaram apenas 3 candidatos: os dois primeiros com nota 8, e o terceiro com nota 9."
+      },
+      {
+        "pergunta": "(CESPE/CBM AL/2021) Em determinado dia, em uma região atendida por uma unidade do corpo de bombeiros, ocorreram 16 acidentes, que resultaram em 48 vítimas, socorridas pelos bombeiros nos próprios locais de acidente. Entre essas vítimas, 4 vieram a óbito no momento do atendimento, e as demais sobreviveram.<br>Com base nessa situação hipotética, julgue o item a seguir.<br>Suponha que as idades das vítimas que vieram a óbito sejam 12, 50, 30 e 20 anos de idade. Nesse caso, a mediana das idades é maior que 26 anos.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A mediana divide uma série ordenada em duas partes de tamanhos iguais. Como o número de termos da amostra em questão é par, a mediana será dada pela média aritmética dos dois termos centrais:<br>12 –    20 – 30    – 50<br>𝑀𝑑 = 30 + 20 / 2<br>𝑀𝑑 = 50 / 2<br>𝑀𝑑 = 25"
+      },
+      {
+        "pergunta": "(FUNDATEC/Pref. Porto Alegre/2020) Se a mediana de um determinado processo for igual a 7, isso quer dizer que:",
+        "alternativas": ["a) O 7º valor da amostra representará a mediana.",
+        "b) O 7º valor da amostra ordenada representará a mediana.",
+        "c) A posição mediana é 7.",
+        "d) 50% dos valores da amostra são iguais a 7.",
+        "e) 50% dos valores da amostra são menores ou iguais a 7."],
+        "correta": "e) 50% dos valores da amostra são menores ou iguais a 7.",
+        "explicacao": "A mediana é o termo central da amostra, ou seja, em um conjunto de dados ordenados, a mediana denota a posição que corresponde a 50% da amostra. Portanto, se a mediana de um determinado processo é igual a 7, significa dizer que 50% dos valores da amostra são menores ou iguais a 7."
+      },
+      {
+        "pergunta": "(VUNESP/EsFCEx/2020) A tabela de frequências relativas acumuladas a seguir refere-se à distribuição dos salários dos empregados de uma empresa, sendo que não foi fornecida a correspondente frequência relativa acumulada do terceiro intervalo de classe (denotado por X na tabela).<br><img src='../dados/imgs/questao_probabilidade_55.png' alt='imagem da questão'><br>Dado que o valor da mediana dessa distribuição obtida pelo método da interpolação linear apresentou um valor igual a R$ 6.600,00, obtém-se que X é igual a",
+        "alternativas": ["a) 65",
+        "b) 50",
+        "c) 60",
+        "d) 55",
+        "e) 70"],
+        "correta": "d) 55",
+        "explicacao": "O enunciado diz que a mediana da distribuição apresentada foi obtida pelo método da interpolação linear, portanto, temos que empregar a fórmula a seguir:<br><img src='../dados/imgs/questao_probabilidade_56.png' alt='imagem da questão'><br>Em que:<br>𝑙𝑖𝑛𝑓 é o limite inferior da classe mediana;<br>𝑓𝑎𝑐𝑎𝑛𝑡 é a frequência acumulada da classe anterior à classe mediana;<br>𝑓𝑖 é a frequência simples da classe mediana; e<br>ℎ é a amplitude do intervalo da classe mediana.<br>Além disso, a questão informou o valor da mediana dessa distribuição é de R$ 6.600,00. Essa informação nos permite afirmar que a classe mediana corresponde à terceira classe (5000 ⊢ 7000). Assim, temos os seguintes dados:<br><img src='../dados/imgs/questao_probabilidade_57.png' alt='imagem da questão'><br>Logo, a frequência reativa da classe mediana vale 25%.<br>Agora, devemos observar que 𝑋 é uma frequência acumulada, portanto, precisamos somar 𝑓𝑖 com a frequência acumulada anterior. Então, o valor de 𝑋 será:<br>𝑋 = 25% + 30% = 55%"
+      },
+      {
+        "pergunta": "(CESPE/UNCISAL/2019) A SELIC é uma taxa referencial de juros estabelecida pelo Banco Central do Brasil como parâmetro para as taxas de juros cobradas pelos bancos comerciais no Brasil. A tabela seguinte mostra a evolução da SELIC, em porcentagem, no mês de janeiro dos anos de 2003 a 2012.<br><img src='../dados/imgs/questao_probabilidade_58.png' alt='imagem da questão'><br>O valor da mediana dos valores da SELIC mostrados no gráfico é igual a",
+        "alternativas": ["a) 11,25",
+        "b) 12,125",
+        "c) 12,875",
+        "d) 13,00",
+        "e) 14,44"],
+        "correta": "c) 12,875",
+        "explicacao": "A mediana é o termo central de uma amostra ou população. Se temos 10 anos representados no gráfico, então a mediana poderá ser encontrada pela média dos termos que ocupam as posições 5 e 6, pois nesse caso não há apenas um termo central.<br>Vamos ordenar os valores de cada ano em ordem crescente, em seguida acharemos os termos centrais.<br>8,75 10,5 11,25 11,25    12,75 13    16,25 17,25 18,25 25,15<br>Fazendo a média aritmética dos termos centrais, temos:<br>𝑀𝑑 = 12,75 + 13 / 2<br>𝑀𝑑 = = 12,875"
+      },
+      {
+        "pergunta": "(FCC/BANRISUL/2019) Os números de processos com uma determinada característica autuados em um órgão público, de janeiro a agosto de 2018, podem ser visualizados pelo gráfico abaixo.<br><img src='../dados/imgs/questao_probabilidade_59.png' alt='imagem da questão'><br>A respectiva média aritmética (número de processos por mês) está para a mediana assim como",
+        "alternativas": ["a) 1 está para 16.",
+        "b) 2 está para 3.",
+        "c) 1 está para 8.",
+        "d) 5 está para 6.",
+        "e) 4 está para 3."],
+        "correta": "d) 5 está para 6.",
+        "explicacao": "Para calcular a média aritmética, devemos somar os valores e dividir pelo número de meses:<br>𝑥̅ = 5 + 15 + 10 + 15 + 20 + 15 + 15 + 5 / 8<br>𝑥̅ = 100 / 8<br>𝑥̅ = 12,5<br>Agora, calcularemos a mediana. Para isso, organizaremos os números em ordem crescente (isto é, em rol):<br>5, 5, 10,    15, 15    , 15, 15, 20<br>A mediana é a média dos termos centrais.<br>𝑀𝑑 = 15 + 15 / 2<br>𝑀𝑑 = 15<br>Queremos calcular a razão entre a média e a mediana.<br>𝑥̅ / 𝑀𝑑 = 12,5 / 15<br>Para retirar a casa decimal do numerador, vamos multiplicar numerador e denominador por 10.<br>𝑥̅ / 𝑀𝑑 = 125 / 150<br>Agora, podemos simplificar por 25.<br>𝑥̅ / 𝑀𝑑 = 5 / 6"
+      },
+      {
+        "pergunta": "(VUNESP/MP-SP/2019) Considere o seguinte conjunto de dados numéricos para estatística.<br><img src='../dados/imgs/questao_probabilidade_60.png' alt='imagem da questão'><br>Então, a soma da moda com a mediana e a média é igual a:",
+        "alternativas": ["a) 22",
+        "b) 24",
+        "c) 26",
+        "d) 28",
+        "e) 30"],
+        "correta": "c) 26",
+        "explicacao": "A moda é o termo que mais aparece. Logo:<br>𝑀𝑜 = 8<br>Para calcular a média, devemos somar todos os números e dividir pela quantidade de termos.<br>𝑥̅ = 8 + 30 + 5 + 6 + 4 + 8 + 12 + 6 + 13 + 8 / 10<br>𝑥̅ = 100 / 10 <br>𝑥̅ = 10<br>Para calcular a mediana, precisamos dispor os números em ordem crescente (rol).<br>4, 5, 6, 6, 8, 8, 8, 12, 13, 30<br>O número de termos é par (n = 10). Assim, temos duas posições centrais. A primeira posição central é a de posição 𝑛/2 = 10/2 = 5. A outra posição central é a próxima (6º termo).<br>4, 5, 6, 6,    8, 8,    8, 12, 13, 30<br>Por convenção, a mediana será a média dos dois termos centrais.<br>𝑀𝑑 = 𝑥₅ + 𝑥₆ / 2<br>𝑀𝑑 = 8 + 8 / 2<br>𝑀𝑑 = 16 / 2<br>𝑀𝑑 = 8<br>A soma da moda com a mediana e a média é igual a:<br>𝑀𝑜 + 𝑀𝑑 + 𝑥̅ = 8 + 8 + 10 = 26"
+      },
+      {
+        "pergunta": "(VUNESP/PM-SP/2019) Na tabela, são apresentadas informações sobre o número de armas apreendidas pela Polícia Militar do Estado de São Paulo, no segundo semestre de 2018.<br><img src='../dados/imgs/questao_probabilidade_61.png' alt='imagem da questão'><br>Se uma pesquisa utilizar a média aritmética simples do número de armas apreendidas, mensalmente, no segundo semestre, pela Polícia Militar do Estado de São Paulo, e outra pesquisa utilizar a mediana do número de armas apreendidas no segundo semestre, a diferença entre a mediana e a média será de:",
+        "alternativas": ["a) 30 armas",
+        "b) 21 armas",
+        "c) 12 armas",
+        "d) 10 armas",
+        "e) 08 armas"],
+        "correta": "c) 12 armas",
+        "explicacao": "A questão pede a diferença entre a mediana e a média de um conjunto de dados. Iniciaremos pelo cálculo da média do número de armas apreendidas. Para isso, basta somarmos todas as ocorrências no segundo semestre e dividirmos por seis:<br>𝑥̅ = 688 + 702 + 680 + 638 + 695 + 629 / 6<br>𝑥̅ = 4032 / 6<br>𝑥̅ = 672<br>Agora, vamos calcular a mediana. Vimos que a mediana é o termo central de uma amostra ou população. Como temos um número par de meses, por convenção, a mediana deve ser encontrada pela média dos termos centrais, que ocupam as posições 3 e 4. Organizando os dados da amostra em ordem crescente, temos:<br>629, 638,   680, 688,   695, 702<br>Encontrando a média dos termos nas posições 3 e 4:<br>𝑀𝑑 = 680 + 688 / 2<br>𝑀𝑑 = 684<br>Então, a diferença entre a mediana e a média é:<br>𝑀𝑑 − 𝑥̅= ?<br>684 − 672 = 12"
+      },
+      {
+        "pergunta": "(VUNESP/Pref. Cerquilho/2019) A tabela apresenta informações sobre o número de funcionários em um escritório e os salários que são pagos a eles. Utilize as informações para responder a questão seguinte.<br><img src='../dados/imgs/questao_probabilidade_62.png' alt='imagem da questão'><br>A mediana dos salários dos funcionários desse escritório é igual a:",
+        "alternativas": ["a) R$ 2.100,00",
+        "b) R$ 1.800,00",
+        "c) R$ 1.700,00",
+        "d) R$ 1.500,00",
+        "e) R$ 1.200,00"],
+        "correta": "d) R$ 1.500,00",
+        "explicacao": "A mediana é o termo central de uma amostra ou população. Como temos um número par de funcionários, por convenção, a mediana deve ser encontrada pela média dos termos centrais, que ocupam as posições 5 e 6. Organizando os dados da amostra em ordem crescente, temos:<br>1200, 1200, 1200, 1200,    1500, 1500,    1800, 1800, 1800, 2100<br>Encontrando a média dos termos nas posições 5 e 6:<br>𝑀𝑑 = 1500 + 1500 / 2<br>𝑀𝑑 = 1500<br>𝑀𝑑 = 𝑅$ 1.500,00"
+      },
+      {
+        "pergunta": "(VUNESP/TJ-SP/2019) Durante um período, decidiu-se analisar o comportamento do número de processos especiais autuados por dia em uma repartição pública. A tabela a seguir apresenta os resultados obtidos, sendo k a quantidade de dias em que não foram autuados processos.<br><img src='../dados/imgs/questao_probabilidade_63.png' alt='imagem da questão'><br>Com relação a esta tabela, foram obtidos os respectivos valores da moda (Mo), mediana (Md) e média aritmética (Me), em número de processos por dia. Verifica-se então que (Mo + Md + Me) é igual a",
+        "alternativas": ["a) 6,30",
+        "b) 7,85",
+        "c) 6,80",
+        "d) 6,85",
+        "e) 7,35"],
+        "correta": "b) 7,85",
+        "explicacao": "A soma de todas as frequências é igual a 10𝑘.<br>𝑘 + 14 + 18 + 24 + 14 + 2 = 10𝑘<br>𝑘 + 72 = 10𝑘<br>9𝑘 = 72 → 𝑘 = 8<br>Assim, temos a seguinte tabela.<br><img src='../dados/imgs questao_probabilidade_64.png' alt='imagem da questão'><br>A moda é o termo que mais aparece, ou seja, é o termo que possui a maior frequência. Portanto,<br>𝑀𝑜 = 3<br>Vamos agora calcular a média aritmética. Para tanto, vamos multiplicar cada valor pela respectiva frequência.<br><img src='../dados/imgs/questao_probabilidade_65.png' alt='imagem da questão'><br><br>Para calcular a média, basta dividir 188 pelo total de observações (80).<br>𝑥̅ = 𝛴 𝑥𝑖 × 𝑓𝑖 / 𝑛<br>𝑥̅ = 188 / 80<br>𝑥̅ = 2,35<br>Agora, vamos calcular a mediana. Como 𝒏 é par, 𝑛 = 80, há duas posições centrais. A primeira posição central é a de posição 𝑛/2 = 80/2 = 40. A outra posição central é a próxima (41º termo). Por convenção, a mediana será a média dos dois termos centrais. 𝑀𝑑 = 𝑥₄₀ + 𝑥₄₁ / 2<br>Vamos construir a coluna da frequência acumulada.<br><img src='../dados/imgs/questao_probabilidade_66.png' alt='imagem da questão'><br><br>Observe que a frequência acumulada da terceira linha é igual a 40. Isso quer dizer que já foram escritos 40 números até a terceira linha. Portanto, 𝑥₄₀ = 2. Na próxima linha da tabela, vamos escrever mais 24 números. Isso quer dizer que 𝑥₄₁ = 3. Logo,<br>𝑀𝑑 = 𝑥₄₀ + 𝑥₄₁ / 2<br>𝑀𝑑 = 2 + 3 / 2<br>𝑀𝑑 = 5 / 2<br>𝑀𝑑 = 2,5<br>A questão pede o valor de 𝑀𝑜 + 𝑀𝑑 + 𝑀𝑒.<br>𝑀𝑜 + 𝑀𝑑 + 𝑀𝑒 = 3 + 2, 5 + 2, 35 = 7,85"
+      },
+      {
+        "pergunta": "(FCC/ISS-São Luís/2018) Um levantamento foi realizado com 40 instituições financeiras, localizadas em uma região, com relação às taxas mensais de juros aplicadas para financiamento de veículos. Verificou-se que cinco instituições aplicam a taxa de 0,80% ao mês, duas aplicam a taxa de 1,20% ao mês, oito aplicam a taxa de 1,25% ao mês, x aplicam a taxa de 1,12% ao mês e y aplicam a taxa de 0,96% ao mês. Se a média aritmética destas taxas foi igual a 1,05%, então a soma da mediana e a moda correspondentes foi de",
+        "alternativas": ["a) 2,00%",
+        "b) 2,24%",
+        "c) 2,08%",
+        "d) 2,16%",
+        "e) 1,92%"],
+        "correta": "a) 2,00%",
+        "explicacao": "Vamos organizar os dados em uma tabela:<br><img src='../dados/imgs/questao_probabilidade_68.png' alt='imagem da questão'><br>A média aritmética dessas taxas foi de 1,05%. Para calcular a média, devemos multiplicar cada taxa pela sua respectiva frequência e somar todos os resultados. Em seguida, devemos dividir pelo total de observações, que é 40.<br><img src='../dados/imgs/questao_probabilidade_69.png' alt='imagem da questão'><br>A média é 1,05%. Como desprezamos o símbolo % na tabela, vamos igualar a média a 1,05:<br><img src='../dados/imgs/questao_probabilidade_70.png' alt='imagem da questão'><br>A soma das frequências é 40:5 + 𝑦 + 𝑥 + 2 + 8 = 40<br>𝑦 + 𝑥 = 25<br>𝑦 = 25 − 𝑥Vamos substituir 𝑦 por 25 − 𝑥 na Eq. 1.<br>0,96𝑦 + 1,12𝑥 = 25,6<br>0,96 × (25 − 𝑥) + 1,12𝑥 = 25,6<br>24 − 0,96𝑥 + 1,12𝑥 = 25,6<br>0,16𝑥 = 1,6<br>𝑥 = 10<br>Como 𝑦 + 𝑥 = 25, então:<br>𝑦 + 10 = 25<br>𝑦 = 15<br>Vamos reescrever a tabela.<br><img src='../dados/imgs/questao_probabilidade_71.png' alt='imagem da questão'><br>A moda é o termo de maior frequência. Como a maior frequência é 15, então a moda é 0,96%.<br>𝑀𝑜 = 0,96%<br>Como são 40 termos, então a mediana será a média dos dois termos centrais (20º e 21º). Como há 5 termos na primeira linha e 15 termos na segunda linha, concluímos que o vigésimo termo é 0,96%. O 21º termo estará na próxima linha: 1,12%.<br>Portanto,<br>𝑀𝑑 = 0,96% + 1,12% / 2<br>𝑀𝑑 = 1,04%<br>A soma da mediana e da moda é:<br>𝑀𝑑 + 𝑀𝑜 = 0,96% + 1,04%<br>𝑀𝑑 + 𝑀𝑜 = 2%"
+      },
+      {
+        "pergunta": "(FCC/SEDU-ES/2018) As notas dos dez alunos de uma sala foram: 1, 2, 4, 6, 6, 7, 8, 8, 8, 10. A diferença entre a moda e a mediana dessas notas é",
+        "alternativas": ["a) 1,5.",
+        "b) 2,5.",
+        "c) 0,5.",
+        "d) 2,0.",
+        "e) 1,0."],
+        "correta": "a) 2,00%",
+        "explicacao": "A moda é o termo que aparece mais vezes em um conjunto de dados. O termo mais frequente no conjunto apresentado é o número 8, logo:<br>𝑀𝑜 = 8<br>Como são 10 alunos, a mediana vai ser a média entre os dois termos centrais (5º e 6º termos).<br>𝑀𝑑 = 6 + 7 / 2<br>𝑀𝑑 = 6,5<br>A diferença entre a moda e a mediana é:<br>𝑀𝑜 − 𝑀𝑑 = 8 − 6,5<br>𝑀𝑜 − 𝑀𝑑 = 1,5"
+      },
+      {
+        "pergunta": "(FCC/SEFAZ-MA/2016) Os registros da temperatura máxima diária dos primeiros 6 dias de uma semana foram: 25 °C; 26 °C, 28,5 °C; 26,8 °C; 25 °C; 25,6 °C. Incluindo também o registro da temperatura máxima diária do 7º dia dessa semana, o conjunto dos sete dados numéricos será unimodal com moda igual a 25°C, e terá mediana igual a 26 °C. De acordo com os dados, é correto afirmar que, necessariamente, a temperatura máxima diária do 7º dia foi",
+        "alternativas": ["a) Inferior a 25 °C.",
+        "b) Superior a 26,8 °C.",
+        "c) Igual a 26 °C.",
+        "d) Inferior a 25,6 °C.",
+        "e) Superior a 26 °C."],
+        "correta": "e) Superior a 26 °C.",
+        "explicacao": "Para resolvermos a questão, vamos primeiro organizar os valores das temperaturas em ordem crescente.<br>Assim:<br>25 25 25,6 26 26,8 28,5<br>O enunciado afirmou que a mediana vale 26. Como a mediana corresponde ao termo central das observações, a temperatura do 7° dia dividirá as observações em duas partes, a primeira contendo 3 valores menores que a mediana, e a segunda contendo 3 valores maiores que a mediana. Assim:<br>25 25 25,6    26,    𝑿𝟕 26,8 28,5<br>ou<br>25 25 25,6    26,    26,8 𝑿𝟕 28,5<br>ou<br>25 25 25,6    26,    26,8 28,5 𝑿𝟕<br>Sabendo que o conjunto também é unimodal, isto é, que possui uma única moda,<br>𝑋7 não poderá ser igual a nenhum outro valor existente no conjunto.<br>Logo, 𝑋7 deverá assumir valores maiores que 26 necessariamente."
+      },
+      {
+        "pergunta": "(CESPE/TELEBRAS/2015) Considerando que os possíveis valores de um indicador X, elaborado para monitorar a qualidade de um serviço de cabeamento residencial para a comunicação de dados, sejam elementos do conjunto {0, 1, 2, 3, 4, 5} e que uma amostra aleatória de 5 residências tenha apontado os seguintes indicadores: 4, 4, 5, 4 e 3, julgue o próximo item. <br>A mediana e a moda dos indicadores registrados na amostra foram iguais a 4.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A mediana é o termo central de uma amostra ou população. Os dados devem estar dispostos em ordem crescente. Então, temos:<br>3, 4,    4,    4, 5<br>Portanto, o valor mediano é o termo central 𝑀𝑑 = 4.<br>A moda é o termo que possui maior frequência, ou seja, é o termo que aparece mais vezes. Portanto, a moda também é igual a 4."
+      },
+      {
+        "pergunta": "Após a extração de uma amostra, as observações obtidas são tabuldadas, gerando a seguinte distribuição de frequências:<br><img src='../dados/imgs/questao_probabilidade_72.png' alt='imagem da questão'><br>Considerando que E(X) = Média de X, Mo(X) = Moda de X e Me(X) = Mediana de X, é correto afirmar que:",
+        "alternativas": ["a) E(X) = 7 e Mo(X) = 10",
+        "b) Me(X) = 5 e E(X) = 6,3",
+        "c) Mo(X) = 9 e Me(X) = 9",
+        "d) Me(X) = 9 e E(X) = 6,3",
+        "e) Mo(X) = 9 e E(X) = 7"],
+        "correta": "e) Mo(X) = 9 e E(X) = 7",
+        "explicacao": "A Moda é igual 9, a Mediana é 5 e a Média é 7."
+      },
+      {
+        "pergunta": "(CESPE/IPHAN/2018) Define-se estatística descritiva como a etapa inicial da análise utilizada para descrever e resumir dados. Em relação às medidas descritivas, julgue o item a seguir. <br>A moda é o valor que apresenta a maior frequência da variável entre os valores observados. ",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A moda pode ser definida como o valor (ou os valores) que mais se repete(m) em uma amostra ou conjunto. Ou seja, que aparece(m) com maior frequência. Uma amostra pode apresentar mais de uma moda, sendo classificada como plurimodal; ou apenas uma moda, recebendo a denominação de unimodal; ou ainda amodal, quando todos os valores das variáveis em estudo apresentarem uma mesma frequência."
+      },
+      {
+        "pergunta": "(FCC/Pref. Macapá/2018) A medida de tendência central que representa o valor com maior frequência na distribuição normal de uma amostra probabilística é a",
+        "alternativas": ["a) média amostral.",
+        "b) variância.",
+        "c) amplitude total.",
+        "d) mediana.",
+        "e) moda amostral."],
+        "correta": "e) moda amostral.",
+        "explicacao": "Vamos analisar cada uma das alternativas:<br>• Alternativa A: Errada. A média é determinada pela soma dos valores de um determinado conjunto de medidas, dividindo-se o resultado dessa soma pela quantidade dos valores que foram somados;<br>• Alternativa B: Errada. A variância é uma medida de dispersão que mostra o quão distantes os valores estão da média. É definida como a média dos quadrados dos desvios de uma amostra com relação a sua própria média;<br>• Alternativa C: Errada. A amplitude total é a diferença entre o maior e o menor valor observado em uma amostra;<br>• Alternativa D: Errada. A mediana é o valor que divide uma amostra ou uma distribuição de probabilidade em duas partes iguais. Em termos mais simples, a mediana é o valor situado no meio de um conjunto de dados. Se houver um número par de observações, a mediana será definida como a média dos dois valores do meio;<br> Alternativa E: Correta. De fato, a moda é o valor que aparece com maior frequência no conjunto de dados.<br>Gabarito: E. "
+      },
+      {
+        "pergunta": "(CESPE/PF/2018)<br><img src='../dados/imgs/questao_probabilidade_73.png' alt='imagem da questão'><br>Tendo em vista que, diariamente, a Polícia Federal apreende uma quantidade X, em kg, de drogas em determinado aeroporto do Brasil, e considerando os dados hipotéticos da tabela precedente, que apresenta os valores observados da variável X em uma amostra aleatória de 5 dias de apreensões no citado aeroporto, julgue o item.<br>A moda da distribuição dos valores X registrados na amostra foi igual a 22 kg.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A moda é o valor que mais se repete na amostra, isto é, o valor de maior frequência. A tabela mostra que nos dias 2 e 4 foram apreendidos 22kg de drogas. Logo, de acordo com a tabela, o valor 22 tem a maior frequência da distribuição de valores X (2), representando a moda da amostra."
+      },
+      {
+        "pergunta": "(CESPE/ANATEL/2004)<br><img src='../dados/imgs/questao_probabilidade_74.png' alt='imagem da questão'><br>A tabela acima mostra os números mensais de reclamações (N) feitas por usuários de telefonia fixa, registradas em uma central de atendimento, entre os meses de fevereiro a novembro de 2003. Considerando esses dados, julgue o item que se segue.<br>A moda dos números mensais de reclamações registradas é igual a 100.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Como vimos, a moda é representada pelo valor que mais se repete em uma amostra, isto é, pelo valor de maior frequência. O valor que aparece mais vezes na tabela é 50, nos meses de junho, agosto e setembro. Portanto, a moda do conjunto é igual a 50."
+      },
+      {
+        "pergunta": "(CESPE/Pref. São Cristóvão/2018) A tabela seguinte mostra a distribuição das idades dos 30 alunos da turma A do quinto ano de uma escola de ensino fundamental.<br><img src='../dados/imgs/questao_probabilidade_75.png' alt='imagem da questão'><br>A partir dessa tabela, julgue o item.<br>A moda dessa distribuição é igual a 11 anos.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A moda de uma tabela de frequências é representada pelo valor com maior número de ocorrências. A tabela mostra que a maior parte dos alunos (22) possui 10 anos de idade. Portanto, esse é o valor da moda da distribuição."
+      },
+      {
+        "pergunta": "(CESPE/IFF/2018) A distribuição das notas dos 20 alunos de uma sala de aula na prova de matemática está mostrada na tabela a seguir.<br><img src='../dados/imgs/questao_probabilidade_75.png' alt='imagem da questão'><br>Nessa situação, a moda dessas notas é igual a",
+        "alternativas": ["a) 6,0",
+        "b) 6,5",
+        "c) 7,0",
+        "d) 7,5",
+        "e) 8,0"],
+        "correta": "e) 8,0",
+        "explicacao": "A moda é representada pelo elemento de maior frequência em uma distribuição agrupada por valor. A tabela mostra que a maior parte dos alunos alcançou a nota 8,0 na prova de matemática. Logo, esse será o valor da moda da distribuição."
+      },
+      {
+        "pergunta": "(CESPE/TCE-PA/2016)<br><img src='../dados/imgs/questao_probabilidade_77.png' alt='imagem da questão'><br>A tabela precedente apresenta a distribuição de frequências relativas da variável X, que representa o número diário de denúncias registradas na ouvidoria de determinada instituição pública. A partir das informações dessa tabela, julgue o item seguinte.<br>A moda da variável X é igual a 2.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A moda é indicada pelo(s) elemento(s) que mais se repete(m) em uma distribuição, isto é, os valores de maiores frequências. A tabela mostra que os valores 0 e 4 têm frequência relativa 0,3. Portanto, temos um conjunto bimodal (duas modas), representadas pelos valores 0 e 4. "
+      },
+      {
+        "pergunta": "(CESGRANRIO/BB/2021) Designado para relatar a qualidade das atividades desenvolvidas em um determinado banco, um funcionário recebeu a seguinte Tabela, com a quantidade de notas relativas à avaliação dos correntistas sobre o atendimento no caixa, sendo 1 a pior nota, e 5, a melhor nota.<br><img src='../dados/imgs/questao_probabilidade_78.png' alt='imagem da questão'><br>",
+        "alternativas": ["a) 2",
+        "b) 3",
+        "c) 3,33",
+        "d) 4",
+        "e) 5"],
+        "correta": "d) 4",
+        "explicacao": "A moda é o valor mais frequente de um conjunto de observações, ou seja, o valor de maior ocorrência dentre os valores observados. Analisando a tabela, percebemos que a nota que mais se repete é a de valor igual a 4, com 15.000 avaliações. Portanto, esse é o valor da nossa moda."
+      },
+      {
+        "pergunta": "(VUNESP/FITO/2020) O gráfico apresenta as notas de um aluno, nas disciplinas de matemática e química, nos três quadrimestres de 2019.<br><img src='../dados/imgs/questao_probabilidade_79.png' alt='imagem da questão'><br>A média das notas de matemática desse aluno corresponde, da média das notas de química, a",
+        "alternativas": ["a) 120%",
+        "b) 125%",
+        "c) 130%",
+        "d) 135%",
+        "e) 140%"],
+        "correta": "b) 125%",
+        "explicacao": "A média aritmética é definida pelo quociente entre a soma dos valores de um determinado conjunto e a quantidade de valores nele existentes. Pelos valores dados no enunciado, a média das notas de matemática é:<br>𝑥̅𝑚𝑎𝑡 = 5 + 6 + 4 / 3<br>𝑥̅𝑚𝑎𝑡 = 15 / 3<br>𝑥̅𝑚𝑎𝑡 = 5<br>Já a média das notas de química é:<br>𝑥̅𝑞𝑢í𝑚 = 4,5 + 3,5 + 4 / 3<br>𝑥̅𝑞𝑢í𝑚 = 12 / 3<br>𝑥̅𝑞𝑢í𝑚 = 4<br>Com isso, em termos percentuais, a média das notas de matemática desse aluno corresponde, da média das notas de química, a:<br>5 / 4 = 1,25 = 125%"
+      },
+      {
+        "pergunta": "(CESPE/UNCISAL/2019) A crise mundial tem contribuído para o aumento da entrada de estrangeiros no Brasil. A maior parte vem de países vizinhos, a exemplo do Paraguai. A tabela a seguir apresenta, de acordo com dados do Ministério da Justiça, a quantidade de paraguaios que vieram para o Brasil nos anos de 2009, 2011 e 2012.<br><img src='../dados/imgs/questao_probabilidade_80.png' alt='imagem da questão'><br>Se a média anual de imigrantes paraguaios para o Brasil, no período de 2009 a 2012, foi de 17600, então, quantos paraguaios imigraram para o Brasil em 2010?",
+        "alternativas": ["a) 13100",
+        "b) 14325",
+        "c) 15000",
+        "d) 15840",
+        "e) 17600"],
+        "correta": "a) 13100",
+        "explicacao": "A questão informa que a média anual de imigrantes paraguaios no Brasil, no período de 2009 a 2012, foi de 17.600. Como sabemos, a média é dada pela soma dos dados dividida pelo número de observações. Então, se considerarmos que o número de imigrantes em 2010 foi 𝑥, teremos:<br><img src='../dados/imgs/questao_probabilidade_81.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESPE/PM AL/2018) Acerca de análise de dados, julgue o próximo item. <br>O gráfico a seguir mostra a distribuição de frequência de delitos ocorridos em determinado bairro nos seis primeiros meses de 2018.<br><img src='../dados/imgs/questao_probabilidade_81.png' alt='imagem da questão'><br>Nesse caso, a média dos delitos ocorridos no semestre considerado foi superior à média dos delitos ocorridos no segundo trimestre.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Precisamos calcular duas médias: do segundo trimestre e do semestre inteiro.<br>Conforme o gráfico, para o segundo trimestre, temos:<br>𝑎𝑏𝑟𝑖𝑙 = 30 𝑑𝑒𝑙𝑖𝑡𝑜𝑠<br>𝑚𝑎𝑖𝑜 = 24 𝑑𝑒𝑙𝑖𝑡𝑜𝑠<br>𝑗𝑢𝑛ℎ𝑜 = 18 𝑑𝑒𝑙𝑖𝑡𝑜𝑠<br>A média é dada pela soma de todos os valores dividida pelo número de meses. Logo:<br>𝑥̅ = 30 + 24 + 18 / 3<br>𝑥̅ = 72 / 3<br>𝑥̅ = 2420<br>Para o semestre, temos:<br>𝑗𝑎𝑛𝑒𝑖𝑟𝑜 = 27 𝑑𝑒𝑙𝑖𝑡𝑜𝑠<br>𝑓𝑒𝑣𝑒𝑟𝑒𝑖𝑟𝑜 = 30 𝑑𝑒𝑙𝑖𝑡𝑜𝑠<br>𝑚𝑎𝑟ç𝑜 = 21 𝑑𝑒𝑙𝑖𝑡𝑜𝑠<br>𝑠𝑒𝑔𝑢𝑛𝑑𝑜 𝑡𝑟𝑖𝑚𝑒𝑠𝑡𝑟𝑒 = 72 𝑑𝑒𝑙𝑖𝑡𝑜𝑠<br>Logo:<br>𝑥̅ = 27 + 30 + 21 + 72 / 6<br>𝑥̅ = 150 / 6<br>𝑥̅ = 25<br>Então, podemos concluir que o número de delitos no semestre foi maior que no segundo trimestre.'>"
+      },
+      {
+        "pergunta": "(VUNESP/AVAREPREV/2020) Uma loja trabalha com produtos que são classificados em apenas três tipos. Na tabela, constam os preços de venda de cada tipo do produto:<br><img src='../dados/imgs/questao_probabilidade_83.png' alt='imagem da questão'><br>No último dia útil de funcionamento, foram vendidos produtos dos três tipos, sendo que, do total de unidades vendidas, 𝟏/𝟒 foi de produtos do tipo A, 𝟐/𝟓 foi de produtos do tipo B, e o restante, de produtos do tipo C. Naquele dia, o preço médio unitário de venda dos produtos vendidos foi de",
+        "alternativas": ["a) R$ 11,95",
+        "b) R$ 12,30",
+        "c) R$ 12,55",
+        "d) R$ 13,30",
+        "e) R$ 13,95"],
+        "correta": "c) R$ 12,55",
+        "explicacao": "Segundo o enunciado, temos que:<br>• total de produtos do tipo A vendidos: 1 / 4 = 25%;<br>• total de produtos do tipo B vendidos: 2 / 5 = 40%;<br>• total de produtos do tipo C vendidos: 100% − 25% − 40% = 35%.<br>Portanto, o preço médio unitário de venda será definido como uma média ponderada, em que os pesos serão as porcentagens acima. Nesse sentido, devemos lembrar que a média ponderada é o somatório dos produtos de cada valor por seu respectivo peso, dividido pela soma dos pesos.<br>Logo,<br><img src='../dados/imgs/questao_probabilidade_84.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESPE/Pref. São Cristóvão/2019) A tabela seguinte mostra a distribuição das idades dos 30 alunos da turma A do quinto ano de uma escola de ensino fundamental.<br><img src='../dados/imgs/questao_probabilidade_85.png' alt='imagem da questão'><br>A partir dessa tabela, julgue o item. <br>Se, em outra turma B, as frequências das idades fossem respectivamente iguais ao dobro das frequências da turma A, então a média aritmética das idades da turma B seria igual ao dobro da média da turma A.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A média das idades da turma A é uma média ponderada, em que os pesos são representados pelas quantidades de alunos. Assim, a média resulta da divisão entre o somatório dos produtos de idades e quantidades de estudantes e o total de estudantes:<br><img src='../dados/imgs/questao_probabilidade_86.png' alt='imagem da questão'><br>Na turma B, teremos que duplicar as frequências. Dessa forma, a média da turma B será dada por:<br><img src='../dados/imgs/questao_probabilidade_87.png' alt='imagem da questão'><br>Com isso, percebemos que a média não mudará o seu valor."
+      },
+      {
+        "pergunta": "(CESPE/IFF/2018) No registro das quantidades de filhos de 200 casais, verificaram-se os valores mostrados na tabela seguinte.<br><img src='../dados/imgs/questao_probabilidade_88.png' alt='imagem da questão'><br>Nesse caso, a quantidade média de filhos para esse grupo de casais é igual a",
+        "alternativas": ["a) 0",
+        "b) 1",
+        "c) 2",
+        "d) 2,5",
+        "e) 3"],
+        "correta": "c) 2",
+        "explicacao": "A quantidade média de filhos é uma média ponderada, em que os pesos são representados pelas quantidades de casais. Portanto, a média é resultado da divisão entre o somatório dos produtos de quantidades de filhos e quantidades de casais, dividido pelo total de casais:<br><img src='../dados/imgs/questao_probabilidade_89.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(VUNESP/Pref. Cananéia/2020) Na tabela, identificam-se informações sobre as notas tiradas por 30 alunos, em uma prova cujas notas variaram de 0,0 a 5,0<br><img src='../dados/imgs/questao_probabilidade_90.png' alt='imagem da questão'><br>Sabendo que o número de alunos que tirou nota 4,0 foi o dobro do número de alunos que tirou nota 5,0, a média aritmética simples das notas dessa prova foi maior que",
+        "alternativas": ["a) 3,0 e menor ou igual a 3,1.",
+        "b) 3,1 e menor ou igual a 3,2.",
+        "c) 3,2 e menor ou igual a 3,3.",
+        "d) 3,3 e menor ou igual a 3,4.",
+        "e) 3,4 e menor ou igual a 3,5."],
+        "correta": "c) 3,2 e menor ou igual a 3,3.",
+        "explicacao": "Seja 𝑥 a quantidade de alunos que tirou nota 5,0 e 2𝑥 a quantidade de alunos tirou nota igual a 4,0. Sabemos que o total de alunos é igual a 30. Portanto, temos:<br><img src='../dados/imgs/questao_probabilidade_91.png' alt='imagem da questão'><br>Agora, com base nos valores apresentados na tabela, temos que a média das notas é dado por<br><img src='../dados/imgs/questao_probabilidade_92.png' alt='imagem da questão'><br>"
+      },
+      {
+        "pergunta": "(VUNESP/IPSM-SJC/2018) A tabela mostra grupos de funcionários de uma empresa e os respectivos salários individuais dos componentes de cada grupo.<br><img src='../dados/imgs/questao_probabilidade_93.png' alt='imagem da questão'><br>A diferença de salário de cada funcionário do grupo A e a média aritmética ponderada de todos os salários é de aproximadamente",
+        "alternativas": ["a) 15%",
+        "b) 18%",
+        "c) 22%",
+        "d) 25%",
+        "e) 27%"],
+        "correta": "d) 25%",
+        "explicacao": "Primeiro, vamos calcular a média aritmética de todos os salários:<br><img src='../dados/imgs/questao_probabilidade_94.png' alt='imagem da questão'><br>A média é dada pela divisão entre os dois totais:<br>𝑥̅ = 31.800 / 30<br>𝑥̅ = 3.180 / 3<br>𝑥̅ = 1.060<br>No grupo A, cada funcionário tem salário de R$ 800,00. Portanto, a diferença para a média é:<br>1.060 − 800 = 260<br>Para determinar a diferença percentual, basta dividirmos esse valor pela média:<br>260 / 1.060 ≅ 24,52%"
+      },
+      {
+        "pergunta": "(CESPE/FUB/2016) Em um almoxarifado há, em estoque, 100 caixas na forma de paralelepípedos retângulos. Na tabela a seguir são mostrados alguns valores da frequência absoluta, da frequência relativa e da porcentagem da variável, volume interno da caixa, em litros (L).<br><img src='../dados/imgs/questao_probabilidade_95.png' alt='imagem da questão'><br>Considerando essas informações, julgue o seguinte item.<br>A média aritmética dos volumes dessas caixas é igual a 40 L.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Nessa questão, teremos que calcular a frequência relativa e completar a tabela apresentada. Assim, temos que a frequência relativa é dada pela divisão entre a frequência absoluta e o total de elementos. Iniciaremos completando a tabela pelas linhas que já possuem informações de frequência e porcentagem.<br>Na primeira linha (Vol. = 10 litros), temos que a frequência absoluta é igual a 10. Como a frequência absoluta total é 100, podemos usar regra de três simples para encontrar a porcentagem (%) e a frequência relativa:<br>𝑓𝑎𝑏𝑠 – %<br>10 – 𝑥<br>100 − 100<br>Assim, temos que:<br>𝑥 = 100 x 10 / 100<br>𝑥 = 10%<br>Logo, a porcentagem é 10% e a frequência relativa é 0,1.<br>Na terceira linha (Vol = 45 litros), temos que a frequência relativa é igual a 0,2. Como a frequência relativa total é 1, podemos usar regra de três simples para encontrar a frequência absoluta:<br>𝑓𝑎𝑏𝑠 – 𝑓𝑟𝑒𝑙<br>𝑦 – 0,2<br>100 − 1,0<br>Dessa forma, descobrimos que:<br>𝑦 = 100 × 0,2 / 1,0<br>𝑦 = 20<br>Portanto, a frequência absoluta é 20.<br>O mesmo raciocínio deve ser seguido para a quarta linha da tabela, restando, portanto, apenas a segunda linha. Essa linha será descoberta pelo confronto com a linha totalizadora. Assim, após descobrirmos os valores de todas as células, teremos a seguinte tabela:<br><img src='../dados/imgs/questao_probabilidade_96.png' alt='imagem da questão'><br>Calculando a média:<br><img src='../dados/imgs/questao_probabilidade_97.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESPE/PRF/2012)<br><img src='../dados/imgs/questao_probabilidade_98.png' alt='imagem da questão'><br>A tabela acima mostra a distribuição da quantidade Q de pessoas transportadas, incluindo o condutor, por veículo de passeio circulando em determinado município, obtida como resultado de uma pesquisa feita nesse município para se avaliar o sistema de transporte local. Nessa tabela, P representa a porcentagem dos veículos de passeio circulando no município que transportam Q pessoas, para Q = 1, ..., 5. Com base nessas informações, julgue o seguinte item.<br>Em média, cada veículo de passeio que circula no referido município transporta duas pessoas. Portanto, se, em determinado momento, houver 10 mil veículos circulando nesse município, a quantidade esperada de pessoas que estão sendo transportadas por todos esses veículos, incluindo-se os condutores, será igual a 20 mil.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Inicialmente, precisamos verificar se a média realmente vale 2. Para isso, basta multiplicarmos a quantidade de pessoas por suas respectivas frequências. Assim, temos:<br>1 × 0,5 = 0,5<br>2 × 0,2 = 0,4<br>3 × 0,15 = 0,45<br>4 × 0,1 = 0,4<br>5 × 0,05 = 0,25<br>Somando todos os resultados:<br><img src='../dados/imgs/questao_probabilidade_99.png' alt='imagem da questão'><br>Portanto, a média realmente vale 2.<br>Assim, basta multiplicarmos a média por 10.000:<br>2 × 10.000 = 20.000 pessoas"
+      },
+      {
+        "pergunta": "(CSEP/IFPI/2019) Na tabela abaixo, estão relacionadas as durações das chamadas telefônicas feitas em um dia, em uma empresa.<br><img src='../dados/imgs/questao_probabilidade_100.png' alt='imagem da questão'><br>Assim, a duração média das chamadas telefônicas é mais próxima de",
+        "alternativas": ["a) 6 min e 14 seg.",
+        "b) 7 min e 14 seg.",
+        "c) 7 min e 23 seg.",
+        "d) 7 min e 32 seg.",
+        "d) 8 min e 23 seg."],
+        "correta": "d) 7 min e 32 seg.",
+        "explicacao": "Para dados agrupados em classes, a média aritmética é calculada a partir da média dos pontos centrais de cada classe. Vejamos:<br><img src='../dados/imgs/questao_probabilidade_101.png' alt='imagem da questão'><br>A média é dada pela divisão entre os dois totais:<br>𝑥̅ = 1700 / 235 ≅ 7,23 𝑚𝑖𝑛<br>Transformando 0,23 minutos em segundos:<br>0,23 × 60𝑠𝑒𝑔 = 13,8𝑠𝑒𝑔<br>Portanto, a média em segundos é:<br>𝑥̅ = 7𝑚𝑖𝑛14𝑠𝑒𝑔"
+      },
+      {
+        "pergunta": "(CESPE/DEPEN/2015)<br><img src='../dados/imgs/questao_probabilidade_102.png' alt='imagem da questão'><br>A tabela precedente apresenta a distribuição percentual de presos no Brasil por faixa etária em 2010, segundo levantamento feito por Monteiro et al. (2011), indicando que a população prisional brasileira nesse ano era predominantemente jovem. Com base nos dados dessa tabela, julgue os itens a seguir.<br>A maior parte da população prisional brasileira em 2010 era formada por pessoas com idades inferiores a 30 anos. Porém, a média da distribuição das idades dos presos no Brasil nesse ano foi superior a 30 anos.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A tabela nos permite concluir que a primeira parte do item está correta, pois há 30% + 25% = 55% de pessoas com idades inferiores a 30 anos. Agora, para terminarmos de analisar o item, teremos que calcular a média.<br>Como os dados estão agrupados em classe, devemos calcular o ponto médio de cada uma das classes:<br><img src='../dados/imgs/questao_probabilidade_103.png' alt='imagem da questão'><br>Portanto, a média é:<br><img src='../dados/imgs/questao_probabilidade_104.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESPE/STF/2013)<br><img src='../dados/imgs/questao_probabilidade_105.png' alt='imagem da questão'><br>Com referência à figura acima, que mostra a distribuição da renda mensal — x, em quantidades de salários mínimos (sm) — das pessoas que residem em determinada região, julgue o item subsequente.<br>Considerando a forma de cálculo para dados agrupados, a distribuição da renda mensal x possui média igual a 9,75 sm.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A questão requer o cálculo da média de dados agrupados. Para achar a média precisamos, inicialmente, determinar o ponto médio de cada classe. Teremos:<br>• de 5 a 10 ponto médio = 7,5;<br>• de 10 a 15 ponto médio = 12,5;<br>• de 15 a 20 ponto médio = 17,5.<br>Agora, a média da amostra é dada pela média ponderada dos pontos médios multiplicados por suas respectivas frequências.<br><img src='../dados/imgs/questao_probabilidade_106.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(VUNESP/Pref. de Sertãozinho/2018) O gráfico a seguir mostra as notas das duas provas obtidas por um aluno em matemática e as duas notas obtidas em língua portuguesa, nesse bimestre.<br><img src='../dados/imgs/questao_probabilidade_107.png' alt='imagem da questão'><br>Seus professores afirmaram que, nesse bimestre, a média de matemática e de língua portuguesa será a raiz quadrada do produto de Mat1 x Mat2e a raiz quadrada do produto de LP1 e LP2. Dessa forma, a média de matemática desse aluno será maior que sua média de língua portuguesa em",
+        "alternativas": ["a) 0,5 ponto.",
+        "b) 1,0 ponto.",
+        "c) 1,5 ponto.",
+        "d) 2,0 ponto.",
+        "e) 2,5 ponto."],
+        "correta": "d) 2,0 ponto.",
+        "explicacao": "Do gráfico, extraímos que:<img src='../dados/imgs/questao_probabilidade_108.png' alt='imagem da questão'><br>Como a média de matemática será calculada pela raiz quadrada do produto de 𝑀𝑎𝑡1 × 𝑀𝑎𝑡2, então a média desse aluno em matemática será de:<br><img src='../dados/imgs/questao_probabilidade_109.png' alt='imagem da questão'><br>A média de língua portuguesa, por sua vez, será dada pela raiz quadrada de 𝐿𝑃1 × 𝐿𝑃2. Assim, a média desse aluno em português será de:<br><img src='../dados/imgs/questao_probabilidade_110.png' alt='imagem da questão'><br>Portanto, a média de matemática desse aluno será maior que sua média de língua portuguesa em:<br>6,0 − 4,0 = 2,0 𝑝𝑜𝑛𝑡𝑜𝑠"
+      },
+      {
+        "pergunta": "(FCC/SEFAZ-GO/2018) Os matemáticos definem diferentes tipos de médias entre dois números positivos e, para cada aplicação, escolhem qual o tipo mais adequado a ser utilizado. A média harmônica H entre os números positivos a e b, por exemplo, é definida como o inverso da média aritmética dos inversos desses números, ou seja,<br><img src='../dados/imgs/questao_probabilidade_111.png' alt='imagem da questão'><br>A média aritmética dos números 5 e 20 supera a média harmônica desses mesmos números em",
+        "alternativas": ["a) 4,75 unidades.",
+        "b) 5 unidades.",
+        "c) 4 unidades.",
+        "d) 4,25 unidades.",
+        "e) 4,5 unidades."],
+        "correta": "d) 2,0 ponto.",
+        "explicacao": "A média aritmética é dada por:<br>5 + 20 / 2 = 12,5<br>A média harmônica é o inverso da média aritmética dos inversos. O primeiro passo é calcularmos a soma dos inversos:<br><img src='../dados/imgs/questao_probabilidade_112.png' alt='imagem da questão'><br>Assim, podemos calcular a média aritmética dos inversos. Para isso, basta dividirmos a soma dos termos por 2:<br><img src='../dados/imgs/questao_probabilidade_113.png' alt='imagem da questão'><br>Portanto, a média aritmética supera a média harmônica em 12,5 − 8 = 4,5 unidades.<br>Também, podemos calcular a média harmônica de dois números de forma mais rápida. Para tanto, basta desenvolvermos a própria fórmula que foi dada na questão:<br><img src='../dados/imgs/questao_probabilidade_114.png' alt='imagem da questão'><br>Assim, a média harmônica de dois números é o quociente do dobro do produto dos números pela soma dos números. Voltando ao enunciado, queremos calcular a média harmônica dos números 5 e 20, logo:<br><img src='../dados/imgs/questao_probabilidade_115.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(FCC/ARTESP/2017) Considere as seguintes informações<br>I. (A) = média harmônica dos números 4, 6 e 12.<br>II. (B) = média geométrica dos números 4, 6 e 12.<br>A média aritmética entre (A) e (B) é igual a",
+        "alternativas": ["a) 6,81.",
+        "b) 5,68.",
+        "c) 6,30.",
+        "d) 5,41.",
+        "e) 6,93."],
+        "correta": "c) 6,30.",
+        "explicacao": "A média geométrica é:<br><img src='../dados/imgs/questao_probabilidade_116.png' alt='imagem da questão'><br>Agora, a nossa dificuldade será encontrar a raiz cúbica de 36. Sabemos que 3³ = 27 e que 4³ = 64. Portanto, o número que procuramos está entre 3 e 4. E deve ser ligeiramente maior que 3. Vamos aproximar uma só casa, testando valores:<br>3,1³ = 29,791<br>3,2³ = 32,768<br>3,3³ = 35,937<br>Portanto, já chegamos bem próximo do valor que queríamos (36). Assim, vamos considerar a raiz cúbica de 36 aproximadamente igual a 3,3.<br><img src='../dados/imgs/questao_probabilidade_117.png' alt='imagem da questão'><br>A média harmônica é<br><img src='../dados/imgs/questao_probabilidade_118.png' alt='imagem da questão'><br>Vamos calcular, em primeiro lugar, a soma dos inversos:<br><img src='../dados/imgs/questao_probabilidade_119.png' alt='imagem da questão'><br><br>Agora, vamos calcular o valor médio da soma dos inversos:<br><img src='../dados/imgs/questao_probabilidade_120.png' alt='imagem da questão'><br>Finalmente, vamos encontrar o inverso da média da média aritmética dos inversos:<br><img src='../dados/imgs/questao_probabilidade_121.png' alt='imagem da questão'><br>Agora, vamos descobrir o valor da média aritmética entre 𝐺 e 𝐻:<br><img src='../dados/imgs/questao_probabilidade_122.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(VUNESP/Câmara Municipal de São Carlos/2013) Trata-se da estatística que tem as atribuições de obtenção, organização, redução e representação de dados estatísticos, bem como a obtenção de algumas informações que auxiliam na descrição de um fenômeno observado. Esta estatística é denominada",
+        "alternativas": ["a) Coletora.",
+        "b) Celetista.",
+        "c) Populacional.",
+        "d) Amostral.",
+        "e) Descritiva."],
+        "correta": "e) Descritiva.",
+        "explicacao": "A Estatística está dividida em três grandes ramos, a saber:  <br>a) Estatística Descritiva (ou Dedutiva) - responsável pela coleta (ou obtenção), organização, redução e representação de dados estatísticos; <br>b) Estatística Probabilística - responsável por estabelecer o modelo matemático probabilístico adotado para explicar os fenômenos aleatórios investigados pela Estatística; e <br>c) Estatística Inferencial (ou Indutiva) - responsável pela análise e interpretação dos dados. <br>Portanto, a alternativa correta é a letra E. "
+      },
+      {
+        "pergunta": "(VUNESP/Pref. Valinhos/2019) O grupo completo de unidades elementares de pessoas, objetos ou coisas é denominado, para a estatística, de",
+        "alternativas": ["a) Amostra.",
+        "b) Unidades.",
+        "c) Censo.",
+        "d) População.",
+        "e) Variáveis."],
+        "correta": "d) População.",
+        "explicacao": "Para resolvermos a questão vamos conceituar cada uma das alternativas:<br>• Letra A: amostra é um subconjunto de uma população. Os dados coletados e/ou selecionados de uma população estatística por um procedimento definido, denotado de amostragem. <br>• Letra B: unidades são elementos da amostra (unidades amostrais) ou da população (unidade populacional). <br>• Letra C: censo consiste na análise de todos os elementos da população. <br>• Letra D: população é o grupo completo de unidades elementares de pessoas, objetos ou coisas, ou seja, constitui todo o universo de informações de que se necessita. <br>• Letra E: variável é a característica de relevância que é medida em cada componente da amostra ou população. As variáveis podem ter valores numéricos (variáveis quantitativas) ou não numéricos (variáveis qualitativas). "
+      },
+      {
+        "pergunta": "(CESPE/DEPEN/2015) O diretor de um sistema penitenciário, com o propósito de estimar o percentual de detentos que possuem filhos, entregou a um analista um cadastro com os nomes de 500 detentos da instituição para que esse profissional realizasse entrevistas com os indivíduos selecionados. <br>A partir dessa situação hipotética e dos múltiplos aspectos a ela relacionados, julgue o item, referente a técnicas de amostragem. <br>A diferença entre um censo e uma amostra consiste no fato de esta última exigir a realização de um número maior de entrevistas. ",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Um censo é a análise de todos os elementos de determinada população. Trabalhamos com uma amostra quando obtemos informações de apenas uma parte dessa população. Portanto, o censo requer a realização de um número maior de entrevistas."
+      },
+      {
+        "pergunta": "(VUNESP/CM São Joaquim Barra/2018) A Estatística descritiva faz uso de variáveis, que são classificadas como quantitativas ou qualitativas. Assinale a alternativa correta em relação a essas variáveis.",
+        "alternativas": ["a) Quantitativas referem-se às variáveis ordinal ou discreta; as qualitativas referem-se às variáveis nominal ou contínua.",
+        "b) Quantitativas referem-se às variáveis ordinal ou contínua; as qualitativas referem-se às variáveis nominal ou discreta.",
+        "c) Quantitativas referem-se às variáveis nominal ou contínua; as qualitativas referem-se às variáveis discreta ou ordinal.",
+        "d) Quantitativas referem-se às variáveis contínua ou discreta; as qualitativas referem-se às variáveis nominal ou ordinal.",
+        "e) Quantitativas referem-se às variáveis nominal ou ordinal; as qualitativas referem-se às variáveis contínua ou discreta."],
+        "correta": "d) Quantitativas referem-se às variáveis contínua ou discreta; as qualitativas referem-se às variáveis nominal ou ordinal.",
+        "explicacao": "As variáveis podem ser classificadas em: <br>a) variáveis quantitativas: são as características que podem ser medidas em uma escala quantitativa, isto é, numérica. Elas podem ser contínuas ou discretas. <br>b) variáveis qualitativas (ou categóricas): são as características que não possuem valores quantitativos. Nesse caso, são definidas por várias categorias, ou seja, representam uma classificação dos indivíduos. Elas podem ser nominais ou ordinais. "
+      },
+      {
+        "pergunta": "Um indicador de desempenho X permite avaliar a qualidade dos processos de governança de instituições públicas. A figura mostra, esquematicamente, a sua distribuição, obtida mediante estudo amostral feito por determinada agência de pesquisa. A tabela apresenta estatísticas descritivas referentes a essa distribuição. <br>Com base nessas informações, julgue o item a seguir. <br>X representa uma variável qualitativa ordinal.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As variáveis podem ser classificadas em: <br>a) variáveis quantitativas: são as características que podem ser representadas numericamente, isto é, podem ser medidas em uma escala quantitativa, podendo ser contínuas ou discretas. <br>b) variáveis qualitativas (ou categóricas): são as características que não podem ser expressas numericamente, ou seja, não possuem valores quantitativos. Elas são definidas por categorias que classificam os indivíduos, podendo ser nominais ou ordinais. <br>Analisando as informações dadas na questão, percebemos que X pode adotar valores que vão de 0 (mínimo) a 3,10 (máximo). Logo, como X assume valores numéricos, dizemos que ela é uma variável quantitativa. "
+      },
+      {
+        "pergunta": "(CESPE/TELEBRAS/2015)<br><img src='../dados/imgs/questao_probabilidade_123.png' alt='imagem da questão'><br>Uma empresa coletou e armazenou em um banco de dados diversas informações sobre seus clientes, entre as quais estavam o valor da última fatura vencida e o pagamento ou não dessa fatura. Analisando essas informações, a empresa concluiu que 15% de seus clientes estavam inadimplentes. A empresa recolheu ainda dados como a unidade da Federação (UF) e o CEP da localidade em que estão os clientes. Do conjunto de todos os clientes, uma amostra aleatória simples constituída por 2.175 indivíduos prestou também informações sobre sua renda domiciliar mensal, o que gerou o histograma apresentado. <br>Com base nessas informações e no histograma, julgue o item a seguir. O CEP da localidade dos clientes e o valor da última fatura vencida são variáveis quantitativas. ",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O CEP, embora possua uma representação numérica, não exprime quantidades e, portanto, não é uma variável quantitativa. Esse código número apenas qualifica as ruas de um determinado endereço, podendo ser classificada como uma variável qualitativa.<br>O valor da última fatura vencida, por sua vez, é sim uma variável quantitativa."
+      },
+      {
+        "pergunta": "(CESPE/TELEBRAS/2015) Roberto comprou, por R$ 2.800,00, rodas de liga leve para seu carro, e, ao estacionar no shopping, ficou indeciso sobre onde deixar o carro, pois, caso o coloque no estacionamento público, correrá o risco de lhe roubarem as rodas, ao passo que, caso o coloque no estacionamento privado, terá de pagar R$ 70,00, com a garantia de que eventuais prejuízos serão ressarcidos pela empresa administradora. <br>Considerando que p seja a probabilidade de as rodas serem roubadas no estacionamento público, que X seja a variável aleatória que representa o prejuízo, em reais, ao deixar o carro no estacionamento público, e que Y seja a variável aleatória que representa o valor, em reais, desembolsado por Roberto ao deixar o carro no estacionamento pago, julgue o item subsequente. <br>A variável aleatória Y é contínua. ",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As variáveis quantitativas podem ser classificadas em: <br>a) variáveis contínuas: características mensuráveis que assumem valores em uma escala contínua, nesse caso, valores fracionários fazem sentido; <br>b) variáveis discretas: características mensuráveis que podem assumir apenas um número finito ou infinito contável de valores e, assim, somente fazem sentido valores inteiros. <br>No problema em questão, a variável aleatória Y pode assumir o valor R$ 70,00, se Roberto deixar o carro no estacionamento pago; ou o valor R$ 0,00, se Roberto não deixar o carro no estacionamento pago. Portanto, Y é uma variável aleatória discreta."
+      },
+      {
+        "pergunta": "(VUNESP/IPSM-SJC/2018) Considere as informações a seguir para construir uma distribuição de frequência sem intervalo de classe e responder a questão. <br>Um dado foi lançado 50 vezes e foram registrados os seguintes resultados:<br><img src='../dados/imgs/questao_probabilidade_124.png' alt='imagem da questão'><br>A frequência simples relativa do primeiro elemento é",
+        "alternativas": ["a) 10%.",
+        "b) 20%.",
+        "c) 50.",
+        "d) 7.",
+        "e) 20."],
+        "correta": "b) 20%.",
+        "explicacao": "A frequência absoluta é o número de vezes em que uma determinada variável assume um valor, enquanto a frequência relativa é o quociente entre a frequência absoluta da classe correspondente e a soma das frequências (total observado).<br>Para os dados apresentados, temos que:<br><img src='../dados/imgs/questao_probabilidade_125.png' alt='imagem da questão'><br>Portanto, a frequência simples absoluta do primeiro elemento é igual a 20%."
+      },
+      {
+        "pergunta": "(CESPE/Polícia Federal/2018)<br><img src='../dados/imgs/questao_probabilidade_126.png' alt='imagem da questão'><br>Tendo em vista que, diariamente, a Polícia Federal apreende uma quantidade X, em kg, de drogas em determinado aeroporto do Brasil, e considerando os dados hipotéticos da tabela precedente, que apresenta os valores observados da variável X em uma amostra aleatória de 5 dias de apreensões no citado aeroporto, julgue o item. <br>A tabela em questão descreve a distribuição de frequências da quantidade de drogas apreendidas nos cinco dias que constituem a amostra.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A tabela apenas registra as quantidades de drogas apreendidas por dia. Para que ela configurasse uma distribuição de frequências da quantidade de drogas apreendidas nos cinco dias, era necessário que cada valor estivesse associado a uma frequência, o que não ocorreu. Uma distribuição de frequência dos dados acima seria assim:<br><img src='../dados/imgs/questao_probabilidade_127.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESPE/BACEN/2013)<br><img src='../dados/imgs/questao_probabilidade_128.png' alt='imagem da questão'><br>Os dados mostrados acima representam uma amostra, em minutos, do tempo utilizado na armazenagem de formulários no almoxarifado central de certa instituição por diversos funcionários. <br>Com base nesses dados, julgue o próximo item.<br>A distribuição de frequência acumulada para tempo de armazenagem observado na amostra inferior a 8 minutos é igual a 13, o que corresponde a uma frequência relativa superior a 0,60.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Não precisamos construir a distribuição de frequências para responder à questão. Sabemos que o total de observações é 20, pois é esse o número de termos. <br>Vamos destacar as observações que são inferiores a 8:<br> 2  4  8  4  8  1  2  32  12  1  5  7  5  5  3  4  24  19  4  14 <br>São 13 números inferiores a 8. Portanto, a frequência acumulada para um tempo menor do que 8 é 13. <br>Para calcular a frequência relativa, basta dividir a frequência absoluta pelo total de observações: <br>13/20 =0,65 <br>Logo, a frequência relativa acumulada é maior do que 0,60"
+      },
+      {
+        "pergunta": "(FCC/SEDU-ES/2018) Depois da aplicação de uma prova para todos os alunos do 7ºA, a professora Marli fez um histograma com a distribuição das notas,conforme indicado abaixo.<br><img src='../dados/imgs/questao_probabilidade_129.png' alt='imagem da questão'><br>Se a média de notas da sala foi igual a seis, a porcentagem dos alunos que tiraram nota maior ou igual a média da sala nessa prova foi de",
+        "alternativas": ["a) 54%",
+        "b) 50%",
+        "c) 56%",
+        "d) 60%",
+        "e) 52%"],
+        "correta": "b) 50%",
+        "explicacao": "Vamos, incialmente,calcular o total de alunos: <br>2 + 6 + 14 + 16 + 6 = 44 Reparem na notação intervalar adotada para as colunas, vamos relembrar o significado dela:<br><img src='../dados/imgs/questao_probabilidade_130.png' alt='imagem da questão'><br>Agora, com base nas  informações do gráfico, percebemos que existem 22 pessoas com média maior ou igual a 6, representadas pelas duas últimas colunas do gráfico.<br>Assim: 16 + 6 = 22 <br>Logo,a porcentagem será de:<br>22 / 44 = 0,5 = 50%"
+      },
+      {
+        "pergunta": "(FCC/TRT 14ª Região/2018) De um histograma e uma tabela de frequências absolutas, elaborados para analisar a distribuição dos salários dos empregados em uma empresa,obtém-se a informação que 24 empregados ganham salários com valores pertencentes ao intervalo [2.000; 4.000],em reais,que apresenta uma densidade de frequência de 0,75×10-⁴(𝑅$)−¹.<br>Densidade de frequência de um intervalo é o resultado da divisão da respectiva frequência relativa pela amplitude deste intervalo. Em um intervalo do histograma que está sendo analisado, com uma amplitudede R$3.000, 00 e uma densidade de frequência de 1×10-⁴(𝑅$)−¹,tem-se que o correspondente número de empregados é igual a ",
+        "alternativas": ["a) 40",
+        "b) 36",
+        "c) 30",
+        "d) 48",
+        "e) 42"],
+        "correta": "d) 48",
+        "explicacao": ""
+      },
+      {
+        "pergunta": "(CESPE/FUNPRESP/2016)<br><img src='../dados/imgs/questao_probabilidade_131.png' alt='imagem da questão'><br>O gráfico ilustra cinco possibilidades de fundos de investimento com suas respectivas rentabilidades. Considerando que as probabilidades de investimento para os fundos A, B, C e D sejam, respectivamente, P(A) = 0,182; P(B) = 0,454; P(C)= 0,091; e P(D)= 0,182, julgue o item subsequente. <br>O gráfico apresentado é um histograma.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O gráfico não é um histograma por dois motivos: primeiro porque há uma separação entre as colunas, o que não ocorre em um histograma, e sim em um gráfico de colunas; segundo porque um histograma representa dados que estão agrupados em intervalos de classe, e não em categorias, como é o caso."
+      },
+      {
+        "pergunta": "(VUNESP/Pref. Campinas/2019) Uma empresa atua em três segmentos de mercado, A, B e C. O gráfico de setores mostra a distribuição percentual, por segmento, da receita total obtida por essa empresa em 2018.<br><img src='../dados/imgs/questao_probabilidade_132.png' alt='imagem da questão'><br>Sabendo-se que a receita obtida no segmento A superou a receita obtida no segmento B em R$ 64 milhões, é correto afirmar que a receita obtida no segmento C foi igual a",
+        "alternativas": ["a) R$ 98 milhões.",
+        "b) R$ 96 milhões.",
+        "c) R$ 94 milhões.",
+        "d) R$ 88 milhões.",
+        "d) R$ 86 milhões."],
+        "correta": "b) R$ 96 milhões.",
+        "explicacao": "Consideremos T o total de receitas obtidas pela empresa em 2018. Pelas informações apresentadas no gráfico de pizza, temos: <br>𝐴 = 0,48×𝑇 <br>𝐵 = 0,4×𝑇 <br>𝐶 = 0,12×𝑇 <br>Sabendo que a receita obtida no segmento A superou a receita obtida no segmento B em R$ 64 milhões, então: <br>𝐴 = 𝐵 + 64 <br>0,48×𝑇 = 0,4×𝑇 + 64 <br>0,8×𝑇 = 64 <br>𝑇 = 800 𝑚𝑖𝑙ℎõ𝑒𝑠 <br>𝐶 = 0,12×𝑇 <br>𝐶 = 12×800 <br>𝐶 = 96 𝑚𝑖𝑙ℎõ𝑒𝑠"
+      },
+      {
+        "pergunta": "(CESPE/CBM-AL/2017) Na tabela a seguir, A, B, C, D e E são as quantidades de resmas de papel A4 consumidas, em quatro meses, pelas seções administrativas I, II, III, IV e V, respectivamente. Apesar de não mostrar explicitamente essas quantidades, a tabela apresenta as frequências absolutas e (ou) relativas de algumas dessas quantidades.<br><img src='../dados/imgs/questao_probabilidade_133.png' alt='imagem da questão'><br>Considerando que cada uma dessas resmas, juntamente com a embalagem, tem forma de um paralelepípedo retângulo reto que mede 5 cm × 21 cm × 30 cm, julgue o item seguinte. <br>O gráfico de barras verticais a seguir apresenta as frequências absolutas de resmas consumidas pelas cinco seções.<br><img src='../dados/imgs/questao_probabilidade_134.png' alt='imagem da questão'>",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Podemos usar uma regra de três simples para completar a tabela. Primeiro, vamos encontrar o valor que representa 100%: <br>38 − 0,19 <br>𝑄 − 1,00 <br>𝑄 = 38×1,00 / 0,19 = 200<br>Encontrando o valor de 20%:<br>200 − 1,00 <br>𝐶 − 0,20 <br>𝐶 = 200×0,2 / 1,00 = 40 <br>Agora, basta sabermos a frequência absoluta na seção II. Como foram consumidas 200 resmas, então o número de resmas consumidas pela seção II foi: <br>200 − 38 − 40 − 36 − 44 = 42 <br>Dessa forma, nas seções I, II, III, IV e V foram consumidas, respectivamente 38, 42, 40, 36 e 44 resmas de papel A4, conforme mostra o gráfico."
       }
     ],
 
@@ -1344,6 +2090,176 @@
         "e) quando a transferência for necessária para a cooperação jurídica internacional entre órgãos públicos de inteligência, de investigação e de persecução, de acordo com os instrumentos de direito internos."],
         "correta": "a) O término do tratamento de dados pessoais ocorrerá, dentre outras hipóteses, quando se verificar que os dados deixaram de ser necessários ou pertinentes ao alcance da finalidade específica almejada.",
         "explicacao": "Essa é difícil e bem sutil, e apenas a alternativa “e” está errada.<br>Veja só:<br>Art. 33. A transferência internacional de dados pessoais somente é permitida nos seguintes casos:<br>(...)<br>internacional entre órgãos públicos de inteligência, de investigação e de persecução, de acordo com os instrumentos de direito internacional;<br>Portanto, não são instrumentos de direito “interno”, como consta na alternativa."
+      },
+      {
+        "pergunta": "(2019/CESGRANRIO/UNIRIO/Economista) Segundo a teoria Keynesiana do comportamento de macroeconomia, a política fiscal expansiva é um instrumento básico para estimular uma economia em recessão. <br>Uma política fiscal expansiva consistiria, por exemplo, em aumentar o(a) ",
+        "alternativas": ["a) gasto do setor público", 
+        "b) imposto de renda", 
+        "c) superávit orçamentário do setor público", 
+        "d) receita fiscal do governo", 
+        "e) taxa cobrada pelos serviços públicos prestados pelo governo"],
+        "correta": "a) gasto do setor público",
+        "explicacao": "Apesar do enunciado enfeitar um pouco, você só precisa marcar a alternativa que traz exemplo de política fiscal expansiva (expansionista): o aumento do gasto público, na letra “a”. <br>Aproveitando para analisar as demais alternativas: <br>b) imposto de renda <br>A elevação de impostos é política fiscal contracionista. <br>c) superávit orçamentário do setor público <br>Para aumentar um superávit, ou governo deve elevar a arrecadação (impostos) ou reduzir seus gastos. Ambos são exemplos de política fiscal contracionista. <br>d) receita fiscal do governo <br>O governo aumenta sua receita fiscal elevando tributos. Mais uma contracionista. <br>e) taxa cobrada pelos serviços públicos prestados pelo governo <br>Taxa é um tipo de tributo (como os impostos e contribuições). Então, já sabe: política fiscal contracionista. "
+      },
+      {
+        "pergunta": "(2011/CESGRANRIO/BNDES/Administração) Um aumento dos gastos em bens e serviços por parte do governo, financiado pela emissão de títulos públicos e causando um aumento das taxas de juros na economia, é uma política",
+        "alternativas": ["a) de redução da demanda agregada", 
+        "b) monetária expansiva", 
+        "c) orçamentária contracionista", 
+        "d) macroeconômica fiscal expansiva", 
+        "e) financeira sem efeitos reais na economia"],
+        "correta": "a) gasto do setor público",
+        "explicacao": "Não importa como ele se dê, o aumento de gastos públicos sempre será uma política fiscal expansiva, tornando “d” o gabarito. <br>a) de redução da demanda agregada <br>Pelo contrário. Políticas expansionistas são de elevação da demanda agregada. <br>b) monetária expansiva <br>Errado. Elevação dos gastos não é política monetária. <br>c) orçamentária contracionista <br>Também pelo contrário: até podemos chamar de orçamentária, mas do tipo expansionista. <br>e) financeira sem efeitos reais na economia <br>Errado. O efeito é elevação da demanda agregada. "
+      },
+      {
+        "pergunta": "(2018/CESGRANRIO/LIQUIGÁS/Profissional - Economia) Considere que o governo tem um déficit orçamentário em certo país. Ele resolve aumentar seu gasto, financiando o dispêndio adicional pela venda de títulos da dívida pública no mercado financeiro. <br>Tal ação",
+        "alternativas": ["a) é uma política fiscal expansiva da demanda agregada.", 
+        "b) acarreta uma diminuição da taxa de juros no mercado financeiro.", 
+        "c) diminui o déficit orçamentário do governo.", 
+        "d) diminui a futura arrecadação fiscal do governo.", 
+        "e) causa uma redução das importações."],
+        "correta": "a) é uma política fiscal expansiva da demanda agregada.",
+        "explicacao": "A questão tenta te confundir mencionando a “venda de títulos”, mas o que realmente importa é que o governo está aumentando seus gastos, e isso é política fiscal expansionista (expansiva), tornando “a” nossa resposta. <br>E note como a banca repete esse tipo de questão! <br>Como caiu num concurso para economista, as letras “b”, “d” e “e” exigiriam conhecimentos que não desenvolveremos aqui, mas não é necessário para acertar a questão. <br>Em “c”, o próprio enunciado aponta o erro: se apenas o dispêndio adicional será financiado pelos títulos, o déficit será mantido."
+      },
+      {
+        "pergunta": "(2010/CESGRANRIO/EPE/Analista de Gestão Corporativa - Finanças e Orçamento)<br>Acerca das necessidades de financiamento do setor público, analise as afirmativas a seguir.<br>I - Na apuração do resultado nominal, devem ser acrescentados ao resultado primário os valores pagos e recebidos de juros nominais junto ao sistema financeiro, ao setor privado não financeiro e ao resto do mundo.<br>II - A necessidade de financiamento do setor público, no conceito primário, exclui das necessidades de financiamentos nominais o pagamento de juros nominais que incide sobre a dívida fiscal líquida.<br>III - A principal diferença entre o resultado primário e o resultado operacional do governo consiste no fato de que, no primeiro, são computados os juros sobre a dívida pública e no segundo, não.<br>Está correto o que se afirma em",
+        "alternativas": ["a) I, apenas.", 
+        "b) II, apenas.", 
+        "c) I e II, apenas.", 
+        "d) II e III, apenas.", 
+        "e) I,II e III."],
+        "correta": "c) I e II, apenas.",
+        "explicacao": "Vamos analisar cada uma das alternativas, sempre com atenção à estratégia para este tipo de questão:<br>I - Na apuração do resultado nominal, devem ser acrescentados ao resultado primário os valores pagos e recebidos de juros nominais junto ao sistema financeiro, ao setor privado não financeiro e ao resto do mundo. <br>Isso está correto: partindo-se do resultado primário, soma-se os juros (e quando falar apenas “juros”, entenda como “juros nominais”) para chegar ao resultado nominal. Observe que isso elimina duas alternativas: “b” e “d”.<br>II - A necessidade de financiamento do setor público, no conceito primário, exclui das necessidades de financiamentos nominais o pagamento de juros nominais que incide sobre a dívida fiscal líquida. <br>Correto também. Na verdade, é a mesma coisa, mas em sentido inverso: partindo do resultado nominal, retira-se os juros para chegar ao resultado primário. Está eliminada a letra “a”,<br>III - A principal diferença entre o resultado primário e o resultado operacional do governo consiste no fato de que, no primeiro, são computados os juros sobre a dívida pública e no segundo, não. <br>Errado! O resultado primário não computa os juros. Temos nosso gabarito."
+      },
+      {
+        "pergunta": "(2016/VUNESP/GRU/Economista) Quando os gastos do governo são superiores à sua arrecadação, ocorre o fenômeno",
+        "alternativas": ["a) da Deflação.", 
+        "b) do Déficit Público.", 
+        "c) da Curva de Phillips.", 
+        "d) do Custo de oportunidade.", 
+        "e) do Custo explícito."],
+        "correta": "b) do Déficit Público.",
+        "explicacao": "Quando os gastos são superiores à arrecadação, temos o resultado negativo, também conhecido como déficit público. Por isso, “b” é nosso gabarito."
+      },
+      {
+        "pergunta": "(2014/VUNESP/TJ PA/Analista Judiciário - Economia) O déficit primário se verifica quando",
+        "alternativas": ["a) as receitas do governo são iguais às despesas, não incluindo pagamento dos juros da dívida.", 
+        "b) as receitas do governo são inferiores às despesas, incluindo o pagamento dos juros totais da dívida.", 
+        "c) as receitas do governo são inferiores às despesas, incluindo o pagamento dos juros da dívida descontados da inflação.", 
+        "d) as receitas do governo são inferiores às despesas, não incluindo o pagamento de juros da dívida.", 
+        "e) as receitas do governo são superiores às despesas, não incluindo o pagamento de juros da dívida."],
+        "correta": "d) as receitas do governo são inferiores às despesas, não incluindo o pagamento de juros da dívida.",
+        "explicacao": "O déficit primário (DP) é definido assim: DP = Despesas não financeiras – Receitas não financeiras <br>Receitas e despesas financeiras não incluem pagamento dos juros da dívida e, portanto, o DP ocorre quando as despesas são superiores às receitas, ou seja, quando as receitas são inferiores às despesas, sem incluir pagamentos de juros da dívida."
+      },
+      {
+        "pergunta": "(2019/VUNESP/MPE SP/Analista Técnico Científico - Economista)<br>Leia o texto para responder à questão.<br>Num determinado ano, um governo arrecada $ 800 e tem gastos (sem contar juros) de $ 700.<br>O total da dívida é $ 2 000, a taxa de juros básica 10% ao ano e a taxa de inflação 5% naquele ano.<br>O resultado nominal desse governo foi:",
+        "alternativas": ["a) superavitário em $ 100.", 
+        "b) equilibrado.", 
+        "c) deficitário de $ 100.", 
+        "d) deficitário de $ 200.", 
+        "e) deficitário de $ 300."],
+        "correta": "c) deficitário de $ 100.",
+        "explicacao": "O resultado nominal não faz distinção entre receitas e despesas financeiras ou não-financeiras, ou seja, ele é o resultado mais abrangente, que considera todo tipo de despesa, e não expurga a inflação.<br>Portanto, subtraímos os gastos das receitas, e depois tiramos as despesas com juros, que foram de 10% de $2000, ou seja: $200.<br>RN = 800 – 700 – 200<br>RN = -100<br>E a inflação? Note que os juros de 10% são nominais, ou seja, já incluem a inflação. Só precisaríamos tirar a inflação se a banca quisesse o resultado operacional, o que não foi o caso."
+      },
+      {
+        "pergunta": "(2019/VUNESP/CAMPINAS/Economista) Ocorre um déficit primário do setor público quando",
+        "alternativas": ["a) o total das receitas do Governo for inferior ao total de suas despesas, independentemente da natureza das mesmas.", 
+        "b) o Governo consegue reduzir de forma permanente sua dívida pública interna para com o setor privado.", 
+        "c) as receitas financeiras do Governo são inferiores às suas despesas financeiras.", 
+        "d) o Governo não necessita emitir papel-moeda para financiar os seus gastos.", 
+        "e) as despesas não financeiras do Governo são maiores que suas receitas não financeiras."],
+        "correta": "e) as despesas não financeiras do Governo são maiores que suas receitas não financeiras.",
+        "explicacao": "A alternativa “e” conceitua corretamente o déficit primário: o excesso de despesas não financeiras sobre as receitas não financeiras, e por isso é nosso gabarito.<br>A alternativa “a” traz o conceito de resultado nominal, e não pode ser nosso gabarito.<br>O fato de o governo conseguir reduzir sua dívida indica um resultado superavitário... não tem como “b” ser nossa resposta.<br>Em “c”, estamos falando do resultado financeiro, que entra no cômputo do resultado operacional, logo após ser apurado o resultado primário<br>A alternativa “d” fala de uma forma que o governo tem de financiar seus gastos, e se o governo não tem essa necessidade, é sinal de resultado positivo (superávit)."
+      },
+      {
+        "pergunta": "(2011/CESGRANRIO/BNDES/Profissional Básico - Economia)<br>Uma economia cresce sem inflação. A razão Dívida Pública ÷ Produto Interno Bruto (D ÷ PIB) aumentará continuamente se não houver um valor mínimo de Superavit Primário (S) do setor público, expresso em relação ao Produto Interno Bruto (S ÷ PIB).<br>Não ocorrendo alteração nas demais variáveis relevantes, esse valor mínimo de S ÷ PIB será menor se o(a)",
+        "alternativas": ["a) grau de abertura para o exterior da economia for menor.", 
+        "b) valor inicial da relação D ÷ PIB for maior.", 
+        "c) consumo privado em relação ao PIB for menor.", 
+        "d) taxa de juros da economia for menor.", 
+        "e) taxa de crescimento do PIB real da economia for menor."],
+        "correta": "d) taxa de juros da economia for menor.",
+        "explicacao": "Lembre-se que o que determina o nível da dívida é principalmente a geração de resultados: déficit ou superávit.<br>Para reduzir a relação “dívida/PIB”, precisamos reduzir a dívida (melhorando o resultado fiscal) ou elevar o PIB. E um valor mínimo de superávit primário é suficiente para diminuir a dívida caso cubra, também, os juros da dívida. Caso contrário, a dívida aumenta.<br>Sendo assim, vamos avaliar as alternativas, tendo em mente que “a” e “c” estão erradas e fora do escopo da aula, enquanto as alternativas “b”, “d” e “e” são assunto nosso (ou melhor, do edital):<br>b) valor inicial da relação D ÷ PIB for maior.<br>Errado. Quanto maior a relação inicial, maior a necessidade de gerar superávits.<br>d) taxa de juros da economia for menor.<br>Aqui está! Se os juros forem menores, haverá menos despesas com juros da dívida e, consequentemente, redução da dívida.<br>e) taxa de crescimento do PIB real da economia for menor<br>Pelo contrário! Se o PIB tiver menor taxa de crescimento, a tendência é relação “dívida / PIB” tende a se elevar."
+      },
+      {
+        "pergunta": "(2009/CESGRANRIO/BANCO CENTRAL DO BRASIL/Analista) Um título de renda fixa, emitido pelo governo federal há três meses, pode ser revendido pelo seu dono no",
+        "alternativas": ["a) mercado primário do título.", 
+        "b) mercado secundário de títulos.", 
+        "c) mercado de derivativos.", 
+        "d) mercado de ações preferenciais.", 
+        "e) dia seguinte ao seu vencimento."],
+        "correta": "b) mercado secundário de títulos.",
+        "explicacao": "Depois que o título é emitido no mercado primário, as negociações ocorrem no mercado secundário de títulos públicos."
+      },
+      {
+        "pergunta": "(2002/VUNESP/BNDES/Profissional Básico - Economia) Os termos 'acima da linha' e 'abaixo da linha', aplicados em relação ao déficit público no Brasil, correspondem a",
+        "alternativas": ["a) duas definições distintas de déficit público, que se diferenciam, respectivamente, pela inclusão ou não dos pagamentos de juros pelo governo.", 
+        "b) dois conceitos distintos de déficits, que se diferenciam, respectivamente, pela inclusão ou não da correção monetária paga pelo governo.", 
+        "c) conceitos distintos de déficit, calculados a partir da mesma fonte de informações.", 
+        "d) duas formas de medir o déficit, respectivamente, a partir de sua geração e de seu financiamento.", 
+        "d) duas formas de medir o déficit, respectivamente, a partir de sua geração e de seu financiamento."],
+        "correta": "d) duas formas de medir o déficit, respectivamente, a partir de sua geração e de seu financiamento.",
+        "explicacao": "Temos duas formas de mensuração do déficit público:<br>Acima da linha: ocorre quando se mede o déficit com base na execução orçamentária das entidades que o geram, isto é, diretamente das receitas e das despesas. No caso do governo, verificamos quais foram os gastos com, por exemplo, educação, saúde, custeio etc. (enfim, todos os gastos das entidades) e quais foram as receitas, para, então, verificarmos o déficit ou superávit público.<br>Abaixo da linha: por este método, mede-se o tamanho do déficit pelo lado do financiamento. Em vez de se preocupar com as receitas e gastos, simplesmente, faz-se a seguinte pergunta: quanto eu tenho que pagar (quanto eu tenho que financiar)?<br>A resposta será o próprio déficit público – no conceito nominal.<br>Portanto, está correta a letra “d”, e necessariamente incorretas todas as demais, que falam que são conceitos ou definições distintas."
+      },
+      {
+        "pergunta": "(2015/FCC/TCE-CE/Analista de Controle Externo) As Necessidades de Financiamento do Setor Público − NFSP NÃO",
+        "alternativas": ["a) dependem, dentre outros fatores, do déficit fiscal do governo.", 
+        "b) podem ser financiadas por emissão de títulos públicos.", 
+        "c) denotam a variação da dívida líquida do setor público somada ao saldo líquido dos ajustes patrimoniais do setor público.", 
+        "d) duas formas de medir o déficit, respectivamente, a partir de sua geração e de seu financiamento.", 
+        "e) dependem da diferença entre o serviço de juros da dívida pública e o superávit primário."],
+        "correta": "d) duas formas de medir o déficit, respectivamente, a partir de sua geração e de seu financiamento.",
+        "explicacao": "As NFSP são, tal como os déficits ou superávits, variáveis do tipo <strong>fluxo</strong>. Portanto, medem a variação do endividamento em determinado período. A dívida pública, por outro lado, é uma variável do tipo <strong>estoque</strong>, que aumenta ou diminui conforme o governo registra déficits ou superávits, respectivamente.<br>Basta pensarmos nos Déficits/Superávits e nas NFSP como a água que cai de uma torneira, e na dívida pública como a água que acumula embaixo."
+      },
+      {
+        "pergunta": "(2009/CESGRANRIO/BANCO CENTRAL DO BRASIL/Analista) Um poupador compra um título federal que promete um pagamento fixo de R$ 100,00, no prazo de um mês. No dia seguinte à compra, as taxas de juros na economia diminuem substancialmente.<br>Nesse caso, o(s)",
+        "alternativas": ["a) poupador terá um grande prejuízo.", 
+        "b) título pagará menos que R$ 100,00 no vencimento.", 
+        "c) preço do título no mercado aumentará.", 
+        "d) preços das ações na bolsa diminuirão, devido aos juros mais baixos.", 
+        "e) preços dos imóveis diminuirão, devido aos juros mais baixos."],
+        "correta": "c) preço do título no mercado aumentará.",
+        "explicacao": "Para você compreender como variações nos juros têm impacto nos títulos prefixados, vamos construir uma situação hipotética.<br>Imagine que hoje você comprou um título por R$1.000. Esse título paga juros prefixados de 50% ao ano, pois a taxa básica de juros (Selic) está bastante elevada.<br>Portanto, dentro de um ano você receberá R$1.500, haja o que houver, pois os juros são prefixados.<br>No dia seguinte à compra, o Banco Central anuncia um grande corte nos juros básicos, derrubando a remuneração dos títulos (mas não do seu título, que é prefixado)! Agora, os títulos do mercado pagam apenas 10% de juros.<br>Com 10% de juros ao ano, um título que paga R$1 500, dentro de um ano, agora custa R$1.363.<br>Me responda: só se passou um dia, mas você venderia seu título por R$1.001? De jeito nenhum, né? Afinal, quem quiser receber R$1.500 dentro de um ano precisa pagar R$1.363! A propósito, isso é o que vale seu título no mercado secundário, depois da queda nos juros: R$1.363 <br>Resumindo; quando os juros caem, quem tinha títulos prefixados terá seus títulos valorizados.<br>É por isso que títulos pós-fixados com base nos juros (como o Tesouro Selic) têm menor “risco de juros” do que os títulos prefixados."
+      },
+      {
+        "pergunta": "(2021/PROF. CELSO NATALE) Pagamentos intermediários realizados para o investidor de títulos públicos são os(as).",
+        "alternativas": ["a) Índices.", 
+        "b) Dealers.", 
+        "c) Riscos.", 
+        "d) Rendas.", 
+        "e) Cupons."],
+        "correta": "e) Cupons.",
+        "explicacao": "O enunciado descreve os cupons, que são justamente pagamentos intermediários (normalmente semestrais) realizados antes do vencimento de um título. <br>Claro que esses pagamentos representam rendas (letra “d”) para o dono do título, mas a letra “e” é mais específica."
+      },
+      {
+        "pergunta": "(2021/PROF. CELSO NATALE) Os títulos públicos prefixados possuem diferenças em relação aos pós-fixados. Assinale a alternativa que contém uma característica EXCLUSIVA dos prefixados.",
+        "alternativas": ["a) O rendimento é vinculado a um índice.", 
+        "b) Possuem mercado secundário.", 
+        "c) Têm como exemplo o Tesouro IPCA.", 
+        "d) A rentabilidade nominal é conhecida desde o início.", 
+        "e) Possuem liquidez."],
+        "correta": "d) A rentabilidade nominal é conhecida desde o início.",
+        "explicacao": "Vamos avaliar as alternativas, sempre buscando a característica que é exclusiva dos prefixados, ou seja, que os pós-fixados não possuem, mas os prefixados sim. <br>a) O rendimento é vinculado a um índice.<br>Errado. Essa é uma característica dos pós-fixados.<br>b) Possuem mercado secundário.<br>Errado. Ambos possuem mercado secundário.<br>c) Têm como exemplo o Tesouro IPCA.<br>Errado. O Tesouro IPCA é um exemplo de pós-fixado.<br>d) A rentabilidade nominal é conhecida desde o início.<br>Certo! Nos títulos prefixados, sabe-se a rentabilidade nominal desde o início.<br>e) Possuem liquidez.<br>Errado. Ambos possuem boa liquidez"
+      },
+      {
+        "pergunta": "(2021/PROF. CELSO NATALE) O Tesouro Direto é um Programa do Tesouro Nacional desenvolvido em parceria com a B3 para venda de títulos públicos federais para pessoas físicas, de forma 100% online. <br>O título que garante rentabilidade superior a um índice de inflação é o",
+        "alternativas": ["a) Tesouro IPCA.", 
+        "b) Tesouro IGPM.", 
+        "c) Tesouro Selic.", 
+        "d) Tesouro Prefixado.", 
+        "e) Tesouro Inflação."],
+        "correta": "a) Tesouro IPCA.",
+        "explicacao": "O Tesouro IPCA é um título que paga IPCA (um índice de inflação)e algum juros adicional.<br>Portanto, a letra “a” é nosso gabarito.<br>Note que o IGPM (letra “b”) também é um índice de inflação, mas não existe tal título.<br>E a Selic não é um índice de inflação, o que torna a letra “c” incorreta.<br>“Tesouro Inflação” também não existe."
+      },
+      {
+        "pergunta": "(2021/PROF. CELSO NATALE) Um investidor possui papeis de Tesouro IPCA e precisa obter liquidez para realizar a comprar um imóvel. Para vender seus papeis, ele poderá recorrer ao (à)",
+        "alternativas": ["a) Mercado Primário de Títulos Públicos.", 
+        "b) Mercado Secundário de Títulos Públicos.", 
+        "c) Mercado Inflacionário.", 
+        "d) Bolsa de Valores.",
+        "e) Mercado Cambial."],
+        "correta": "b) Mercado Secundário de Títulos Públicos.",
+        "explicacao": "O Tesouro IPCA é um título que paga IPCA (um índice de inflação)e algum juros adicional.<br>Portanto, a letra “a” é nosso gabarito.<br>Note que o IGPM (letra “b”) também é um índice de inflação, mas não existe tal título.<br>E a Selic não é um índice de inflação, o que torna a letra “c” incorreta.<br>“Tesouro Inflação” também não existe."
       }
     ],
 
