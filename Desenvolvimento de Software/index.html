@@ -1369,6 +1369,44 @@
             </div>
         </section>
 
+        <section>
+
+            <!-- AULA 01 -->
+
+            <h2>Aula 01 - Métodos de Ordenação e Estruturas de Dados</h2>
+
+            <h3>Métodos de Ordenação</h3>
+            <p><strong>Métodos de Ordenação</strong> são algoritmos que têm o objetivo principal de posicionar os elementos de uma estrutura de dados em uma <strong>determinada ordem</strong>. Pois isso possibilita o acesso mais rápido e eficiente aos dados. Existem dezenas de métodos, todavia nessa aula veremos apenas os mais importantes: BubbleSort, QuickSort, InsertionSort, SelectionSort, MergeSort, ShellSort e HeapSort.</p>
+            <p><strong>Estabilidade:</strong> Um método estável é aquele em que os itens com chaves iguais mantêm-se com a posição inalterada durante o processo de ordenação, i.e., preserva-se a ordem relativa dos itens com chaves duplicadas ou iguais. <strong>Métodos Estáveis:</strong> Bubble, Insertion e Merge; <strong>Métodos Instáveis:</strong> Selection, Quick, Heap e Shell. Vejamos um exemplo:</p>
+            <p><img src="img/metodo.ordenacao.estaveis.instaveis.png" alt="Método de Ordenacao - Estaveis e Instaveis"></p>
+            <p>Na imagem acima, foi colocado um sinal de aspas simples e duplas apenas para diferenciá-los, mas trata-se do mesmo número. Um algoritmo estável ordena todo o restante e não perde tempo trocando as posições de elementos que possuam chaves idênticas. Já um algoritmo instável ordena todos os elementos, inclusive aqueles que possuem chaves idênticas (sob algum outro critério).</p>
+
+            <p><strong>BubbleSort (Troca)</strong></p>
+            <p>Nesse método, os elementos da lista são movidos para as posições adequadas de forma contínua.</p>
+            <p>Em cada iteração do método, percorremos a lista a partir de seu início comparando cada elemento com seu sucessor, trocando-se de posição se houver necessidade.</p>
+            <p><img src="img/bubble sort.png" alt="bubble sort"></p>
+            <p><img src="img/bubble sort2.png" alt="bubble sort"></p>
+            <p> É possível mostrar que, se a lista tiver n elementos, após no máximo (n-1) iterações, a lista estará em ordem (crescente ou decrescente). Observem abaixo o código para a Ordenação em Bolha:</p>
+            <p><img src="img/bubble sort3.png" alt="bubble sort"></p>
+
+            <p><strong>SelectionSort (Seleção)</strong></p>
+            <p>Esse algoritmo consiste em selecionar o menor1 elemento de um vetor e trocá-lo (swap) pelo item que estiver na primeira posição, i.e., inseri-lo no início do vetor.</p>
+            <p>Em cada iteração do método, percorremos a lista a partir de seu início buscando o menor número, comparado todos os números, ele passa o menor número para a primeira posição.</p>
+            <p><img src="img/selection.sort.png" alt="selection sort"><img src="img/selection.sort2.png" alt="selection sort"></p>
+            <p>Assim, a parte esquerda aumenta, visto que passa a incluir o pivô, e a parte direita diminui. Note que o pivô é maior que todos os demais elementos da parte esquerda, portanto a parte esquerda continua ordenada. Ademais, o pivô era o menor elemento da direita, logo todos os elementos da esquerda continuam sendo menores ou iguais aos elementos da direita. Inicialmente, a parte esquerda é vazia.</p>
+            <p><img src="img/selection.sort3.png" alt="selection sort"></p>
+
+            <p><strong>Insertion Sort</strong></p>
+            <p>Esse algoritmo, também conhecido como Inserção Direta, é bastante simples e apresenta um desempenho significativamente melhor que o BubbleSort, em termos absolutos. Além disso, ele é extremamente eficiente para listas que já estejam substancialmente ordenadas e listas com pequeno número de elementos.</p>
+            <p><img src="img/insertion.sort.png" alt="selection sort"></p>
+            <p><img src="img/insertion.sort2.png" alt="selection sort"></p>
+            <p><img src="img/insertion.sort3.png" alt="selection sort"></p>
+            <p>É fácil perceber que se a lista possui n elementos, após (n-1) inserções, ela estará ordenada. Para inserir o pivô, percorremos a parte esquerda, da direita para a esquerda, deslocando os elementos estritamente maiores que o pivô uma posição para direita.</p>
+            <p><img src="img/insertion.sort4.png" alt="selection sort"></p>
+
+
+        </section>
+
         
         <section class="campoQuestoes">
             <h2>Questões de Desenvolvimento de Software</h1>

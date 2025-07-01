@@ -33,12 +33,166 @@
     <main>
         <section>
 
-            <!-- AULA XX-->
+            <h1>Matemática Financeira</h1>
+
+            <!-- AULA 00-->
     
-            <h2>Aula XX - Matemática</h2>
-            <p><strong>textoo</strong></p>
+            <h2>Aula 00 - Juros Simples</h2>
+            <h3>Elementos de uma Operação de Juros</h3>
+            <ul>
+                <li>Capital (C)</li>
+                <li>Juros (J)</li>
+                <li>Tava de Juros (i)</li>
+                <li>Tempo (t)</li>
+                <li>Montante (M)</li>
+            </ul>
+            <p><strong>Capital (C): </strong>é o <strong>valor inicial</strong> que será aplicado (no caso de um investimento, por exemplo) ou que será tomado emprestado (em um financiamento). Isto é, o Capital é o <strong>valor inicial ("data zero") de uma operação financeira.</strong></p>
+            <p><u>Outras notações</u> que expressam o Capital Inicial são: Valor Atual, Principal, Valor Presente, Montante Inicial, etc.</p>
+            <p><strong>Juros (J): </strong>É a <strong>remuneração obtida pelo uso do Capital</strong> em um intervalo de tempo.</p>
+            <p>Em termos matemáticos, <strong>Juro</strong> é definido pela <strong>diferença do Montante da operação menos o Capital inicial.</strong></p>
+            <p><strong>Taxa de Juros (i): </strong>é um coeficiente que define o <strong>valor do Capital por unidade de tempo</strong>. Por exemplo, a Taxa de Juros pode ser diária, mensal, semestral, anual, etc.</p>
+            <p>Exemplos: 𝑖 = 5% 𝑎𝑜 𝑚ê𝑠 ; 𝑖 = 7% 𝑎𝑜 𝑎𝑛𝑜 ; 𝑖 = 13% 𝑎𝑜 𝑠𝑒𝑚𝑒𝑠𝑡𝑟𝑒 ; 𝑒𝑡c</p>
+            <p>Obs: Nas fórmulas de Matemática Financeira, a Taxa de Juros é sempre utilizada na forma unitária. Então, por exemplo, uma taxa de 7,5% ao mês é expressa em 0,075.</p>
+            <p><strong>Tempo (t): </strong>é o <strong>número de períodos</strong> em que se desdobra a operação. É o período que o Capital ficará aplicado em um investimento, por exemplo.</p>
+            <p><strong>Montante (M): </strong>É o <strong>valor final</strong> resultante de uma operação financeira. Em termos matemáticos, é o <strong>Capital Inicial somado aos Juros.</strong></p>
+            <p><u>Outras notações</u> que expressam o Montante são: Valor Futuro, Valor Final, Montante Final, etc.</p>
+            <h3>Regimes de Capitalização</h3>
+            <p>Regime de Capitalização é um modelo de aplicação financeira em que se analisa o <strong>crescimento do Capital de acordo com o tempo</strong>.</p>
+            <p>Pode ser <u>dividido em dois</u>: Regime de Capitalização Simples e Regime de Capitalização Composta.</p>
+            <p><strong>Regime de Capitalização Simples</strong></p>
+            <p>No Regime de <strong>Capitalização Simples</strong>, os <strong>Juros de cada período são os mesmos</strong>, pois esses são SEMPRE calculados aplicando uma porcentagem (taxa de juros) sobre o Capital Inicial.</p>
+            <p>Exemplo de um Capital de R$ 1.000,00 aplicados por 5 meses em um investimento com rendimento de 10% ao mês <u>no Regime de Juros Simples</u></p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Período</th>
+                            <th>Juros</th>
+                            <th>Montante = C + J</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>J = 0,1 x 1.000 = 100</td>
+                            <td>1.000 + 100 = 1.100</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>J = 0,1 x 1.000 = 100</td>
+                            <td>1.100 + 100 = 1.200</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>J = 0,1 x 1.000 = 100</td>
+                            <td>1.200 + 100 = 1.300</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>J = 0,1 x 1.000 = 100</td>
+                            <td>1.300 + 100 = 1.400</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>J = 0,1 x 1.000 = 100</td>
+                            <td>1.400 + 100 = 1.500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Em Juros Simples, a <u>sequência formada pelos valores dos Montante</u>s em cada período é caracterizada por uma <strong>PROGRESSÃO ARITMÉTICA CRESCENTE</strong> onde a <strong>razão é sempre igual ao valor dos Juros</strong>.</p>
+            <p><strong>Regime de Capitalização Composta</strong></p>
+            <p>No cálculo dos <strong>Juros Compostos</strong>, os <strong>rendimentos em cada período são incorporados ao Capital</strong>, de forma que os Juros, ao final do período seguinte, <strong>incidem NÃO SÓ sobre o Capital Inicial, MAS TAMBÉM sobre os Juros anteriores</strong> que foram incorporados ao Capital (e assim Capitalizados).</p>
+            <p>Exemplo de um Capital de R$ 1.000,00 aplicados por 5 meses em um investimento com rendimento de 10% ao mês <u>no Regime de Juros Compostos</u></p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Período</th>
+                            <th>Juros</th>
+                            <th>Montante = C + J</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>J = 0,1 x 1.000 = 100</td>
+                            <td>1.000 + 100 = 1.100</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>J = 0,1 x 1.100 = 110</td>
+                            <td>1.100 + 110 = 1.210</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>J = 0,1 x 1.210 = 121</td>
+                            <td>1.210 + 121 = 1.331</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>J = 0,1 x 1.331 = 133,10</td>
+                            <td>1.331 + 133,10 = 1.464,10</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>J = 0,1 x 1.464,10 = 146,41</td>
+                            <td>1.464,10 + 146,41 = 1.610,51</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Note que, para calcular os Juros do período, foi necessário <strong>incorporar os Juros do período anterior</strong> ao Capital, isto é, foi necessário <strong>CAPITALIZAR</strong> os Juros.</p>
+            <p>Em Juros Compostos, a <u>sequência formada pelos valores dos Montantes</u> em cada período é caracterizada por uma <strong>PROGRESSÃO GEOMÉTRICA CRESCENTE</strong> onde a <strong>razão é sempre igual a</strong> <strong><i><u>q = 1 + i</u></i></strong></p>
+
+            <h3>Capitalização Simples - Aspectos Matemáticos</h3>
+            <p><strong>Cálculo dos Juros Simples</strong></p>
+            <p>Os Juros Simples são SEMPRE calculados aplicando a Taxa de Juros sobre o Capital Inicial. Sua fórmula é dada pela seguinte equação:</p>
+            <p style="border: 2px solid black; border-radius: 7px; padding: 8px; max-width: 120px; text-align: center; background-color: aliceblue; font-size: 1.21em;">𝑱 = 𝑪 × 𝒊 × 𝒕</p>
+            <p>Onde, J = Juros Simples ; C = Capital ; i = Taxa de Juros e t = tempo</p>
+            <p><strong>Cálculo do Montante Simples</strong></p>
+            <p>O Montante em regime de Juros Simples é calculado por:</p>
+            <p style="border: 2px solid black; border-radius: 7px; padding: 9px; max-width: 170px; text-align: center; background-color: aliceblue; font-size: 1.21em;">𝑴 = 𝑪 × (𝟏 + 𝒊 × 𝒕)</p>
+            <p>Onde, M = Montante Simples; C = Capital; i = Taxa de Juros e t = tempo</p>
+
+            <h3>Taxas Proporcionais</h3>
+            <p><strong>Taxas Proporcionais</strong> são taxas de Juros que apresentam <strong>unidades diferentes de tempo</strong> que, quando aplicadas sobre o mesmo Capital, produzirão igual Montante em <u>Regime de Juros Simples</u>.</p>
+            <p>Sendo assim, para <u>calcular a taxa proporcional</u> basta fazermos uma simples divisão/multiplicação ou uma regra de três.</p>
+            <p>Exemplo 1: Uma taxa bimestral de 8% terá sua Taxa de Juros mensal igual a:</p>
+            <p>Como em 1 bimestre há 2 meses, a taxa mensal será a metade da taxa bimestral.</p>
+            <p>Imensal = Ibimestral / 2</p>
+            <p>Imensal = 8% / 2</p>
+            <p>Imensal = 4%</p>
+            <p>Exemplo 2: Uma taxa semestral de 5% terá sua taxa proporcional anual igual a:</p>
+            <p>Sabemos que em 1 ano há 2 semestres. Logo, a taxa anual será o dobro da taxa semestral.</p>
+            <p>Ianual = Isemestral x 2</p>
+            <p>Ianual = 5% x 2</p>
+            <p>Ianual = 10%</p>
+            <p>Exemplo 3: Uma taxa bimestral de 5% terá sua taxa proporcional semestral igual a:</p>
+            <p>Em 1 semestre há 3 bimestres. Sendo assim, a taxa semestral será 3 vezes a taxa bimestral.</p>
+            <p>Isemestral = Ibimestral x 3</p>
+            <p>Isemestral = 5% x 3</p>
+            <p>Isemestral = 15%</p>
+
 
         </section>
+
+        <section>
+
+            <!-- Aula 01 -->
+            <h2>Aula 01 - Juros Compostos</h2>
+            <h3>Capitalização Composta - Aspectos Matemáticos</h3>
+            <p><strong>Cálculo do Montante Composto</strong></p>
+            <p>Em Regime de Juros Compostos, o Montante é calculado pela seguinte equação:</p>
+            <p style="border: 2px solid black; border-radius: 7px; padding: 9px; max-width: 170px; text-align: center; background-color: aliceblue; font-size: 1.21em;">𝑴 = 𝑪 × (𝟏 + 𝒊)ᵗ</p>
+            <p>Onde, M = Montante; C = Capital; i = Taxa de Juros e t = tempo</p>
+            <p><strong>Cálculo dos Juros Compostos</strong></p>
+            <p>Estudamos que, em termos matemáticos, Juro é definido pela <strong>diferença do Montante da operação menos o Capital inicial</strong>.</p>
+            <p>Então, se uma questão pedir para você calcular os Juros Compostos de uma operação, <strong>primeiro</strong> você calcula o Montante desta operação e, <strong>posteriormente</strong>, subtrai o Capital deste Montante, pois, como vimos, <u>o Montante menos o Capital será igual ao Juros</u>.</p>
+
+            <h3>Taxa Nominal e Taxa Efetiva</h3>
+            <p>Algumas questões irão trabalhar com essas duas taxas. Não podemos confundi-las na hora da prova. Iremos entender o que cada uma significa e como fazer a conversão entre elas.</p>
+            <p><strong>Taxa Efetiva</strong></p>
+            <p></p>
+
+        </section>
+
         <section class="campoQuestoes">
             <h2>Questões de Matemática</h1>
             <div id="questoes"></div>
