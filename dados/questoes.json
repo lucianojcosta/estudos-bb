@@ -531,7 +531,7 @@
         "explicacao": "A moda de uma tabela de frequências é representada pelo valor com maior número de ocorrências. A tabela mostra que a maior parte dos alunos (22) possui 10 anos de idade. Portanto, esse é o valor da moda da distribuição."
       },
       {
-        "pergunta": "(CESPE/IFF/2018) A distribuição das notas dos 20 alunos de uma sala de aula na prova de matemática está mostrada na tabela a seguir.<br><img src='../dados/imgs/questao_probabilidade_75.png' alt='imagem da questão'><br>Nessa situação, a moda dessas notas é igual a",
+        "pergunta": "(CESPE/IFF/2018) A distribuição das notas dos 20 alunos de uma sala de aula na prova de matemática está mostrada na tabela a seguir.<br><img src='../dados/imgs/questao_probabilidade_76.png' alt='imagem da questão'><br>Nessa situação, a moda dessas notas é igual a",
         "alternativas": ["a) 6,0",
         "b) 6,5",
         "c) 7,0",
@@ -4073,24 +4073,263 @@
 
     "matematica": [
       {
-        "pergunta": "Colocar aqui a pergunta de Matemática",
-        "alternativas": ["a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "Colocar aqui o comentário da questão."
+        "pergunta": "(GASBRASILIANO - 2017) A diferença entre o Montante e o Capital investido chama-se?",
+        "alternativas": ["a) Juros", 
+        "b) Capital Inicial", 
+        "c) Valor Futuro ", 
+        "d) Valor Presente"],
+        "correta": "a) Juros",
+        "explicacao": "Observe que a questão aborda de maneira bem direta o conceito de Juros. Em termos matemáticos, Juro é definido pela diferença do Montante da operação menos o Capital inicial."
       },
       {
-        "pergunta": "Colocar aqui a pergunta de Matemática",
-        "alternativas": ["a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "Colocar aqui o comentário da questão."
+        "pergunta": "(Pref. Novo Hamburgo - 2020) O Banco Central do Brasil define empréstimo como sendo um contrato entre o cliente e a instituição financeira pelo qual ele recebe uma quantia que deverá ser devolvida ao banco em prazo determinado, acrescida dos Juros acertados. Os recursos obtidos no empréstimo não têm destinação específica. Sendo assim, suponha um empréstimo de R$ 2.500,00 a ser resgatado por R$ 3.000,00 no final de um mês, nesse caso, os Juros resultantes dessa operação serão de:",
+        "alternativas": ["a) 𝑅$ 5.500,00", 
+        "b) 𝑅$ 1.500,00", 
+        "c) 𝑅$ 500,00", 
+        "d) 𝑅$ 2.500,00",
+        "e) 𝑅$ 5.000,00"],
+        "correta": "c) 𝑅$ 500,00",
+        "explicacao": "Em termos matemáticos, Juro é definido pela diferença do Montante da operação menos o Capital inicial.<br>𝐽𝑢𝑟𝑜𝑠 = 𝑀𝑜𝑛𝑡𝑎𝑛𝑡𝑒 − 𝐶𝑎𝑝𝑖𝑡𝑎l<br>J = 3000 − 2500 = 500"
+      },
+      {
+        "pergunta": "(FUNSPREV - 2016) A respeito de finanças nos regimes de Juros simples e compostos e da precificação de títulos, julgue o item a seguir.<br>Para uma operação com prazo de um ano, com Taxa de Juros anual e mesmo Capital investido, os sistemas de Juros simples e de Juros compostos produzem o mesmo Montante.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A unidade de tempo do exercício é 'ano' e a taxa de juros para ambos é anual. Composto só seria maior caso o tempo fosse superior a um ano."
+      },
+      {
+        "pergunta": "(Pref. Novo Hamburgo - 2020) Pode-se definir Juros como a remuneração cobrada de quem efetuou um empréstimo e que deve ser paga ao proprietário do Capital emprestado. As taxas de Juros devem remunerar com base: no risco agregado no investimento (quanto mais arriscado o investimento, deve-se exigir taxas de Juros proporcionalmente maiores); nas expectativas inflacionárias; na compensação pela não aplicação do dinheiro em outro investimento e os custos administrativos envolvidos na operação. Os Juros podem ser calculados pelo sistema de Capitalização simples ou composta, sendo essa última a mais utilizada na prática. Assim, no sistema de Capitalização composta, ",
+        "alternativas": ["a) o juro é calculado somente sobre o Capital inicial.", 
+        "b) o juro é calculado da mesma maneira que na Capitalização simples.", 
+        "c) o juro de cada período não é incorporado ao Capital inicial.", 
+        "d) a Taxa de Juros não incide sobre os Juros do período anterior.",
+        "e) o juro de cada intervalo de tempo é incorporado ao Capital inicial e passa a render Juros também."],
+        "correta": "e) o juro de cada intervalo de tempo é incorporado ao Capital inicial e passa a render Juros também.",
+        "explicacao": "Vamos analisar as assertivas isoladamente:<br>a) o juro é calculado somente sobre o Capital inicial.<br>ERRADO. Perceba que essa é uma característica do Regime de Juros Simples. No regime de Juros Compostos, os Juros são calculados em cima do Capital inicial acrescido dos Juros dos períodos anteriores.<br>b) o juro é calculado da mesma maneira que na Capitalização simples.<br>ERRADO. Acabamos de ver que são duas maneiras distintas de cálculo. Enquanto que nos Juros Simples, o juro é calculado somente sobre o Capital inicial, no regime de Juros Compostos, o juro é calculado agregando os Juros dos períodos anteriores ao Capital.<br>c) o juro de cada período não é incorporado ao Capital inicial.<br>ERRADO. No regime de Juros Compostos, o Juro é (sim) incorporado ao Capital.<br>d) a Taxa de Juros não incide sobre os Juros do período anterior.<br>ERRADO. Na Capitalização Composta, a Taxa de Juros incide sobre o Capital Inicial mais os Juros dos períodos anteriores.<br>e) o juro de cada intervalo de tempo é incorporado ao Capital inicial e passa a render Juros também.<br>CERTO. Definição precisa do que ocorre no sistema de Capitalização composta. No cálculo dos Juros Compostos, os rendimentos em cada período são incorporados ao Capital, de forma que os Juros, ao final do período seguinte, incidem NÃO SÓ sobre o Capital Inicial, MAS TAMBÉM sobre os Juros anteriores que foram incorporados ao Capital (e assim Capitalizados)."
+      },
+      {
+        "pergunta": "(UEPA - 2020) Um comerciante, precisando de dinheiro para fechar um negócio que julgava ser vantajoso, tomou o dinheiro emprestado no banco em que possui conta corrente. O contrato assinado previa que o pagamento deveria ser feito dez meses após o empréstimo ter sido concedido, com Taxa de Juros de 10% ao mês, no regime de Juros simples. O contrato estabelecia pagamento de Juros no valor de R$ 20.000,00. O comerciante fez um empréstimo, em reais, no valor de",
+        "alternativas": ["a) R$ 20.000", 
+        "b) R$ 22.000", 
+        "c) R$ 23.000", 
+        "d) R$ 24.000"],
+        "correta": "a) R$ 20.000",
+        "explicacao": "O enunciado nos informa que houve pagamento de Juros no valor de R$ 20.000 sobre um Capital emprestado por 10 meses a Taxa de Juros de 10% ao mês.<br>No Regime de Capitalização Simples, os Juros são calculados pela seguinte fórmula: <br>𝐽 = 𝐶 × 𝑖 × t<br>Onde,<br>𝐽 = 𝐽𝑢𝑟𝑜𝑠 𝑆𝑖𝑚𝑝𝑙𝑒𝑠 = 20.000<br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 = ?<br>𝑖 = 𝑇𝑎𝑥𝑎 𝑑𝑒 𝐽𝑢𝑟𝑜𝑠 = 10% 𝑎𝑜 𝑚ê𝑠 = 0,1<br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 = 10 𝑚𝑒𝑠𝑒𝑠<br>A Taxa de Juros e o Tempo já estão na mesma unidade de grandeza.<br>Nesse caso, vamos substituir os valores na equação e calcular o valor do Capital que foi tomado emprestado.<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>𝐽 = 20.000 × 0,1 × 10 → 𝑱 = 20.000"
+      },
+      {
+        "pergunta": "(Pref. Novo Hamburgo - 2020 Adaptada) João tinha uma dívida contratual com valor nominal de R$ 2.000,00. Essa dívida foi paga com atraso de 1 semestre, sendo que a Taxa de Juros simples era de 10% ao mês, caso João atrasasse o pagamento. Assim, o valor total da dívida paga por João foi de",
+        "alternativas": ["a) R$ 4.000,00", 
+        "b) R$ 3.200,00",
+        "c) R$ 3.100,00",
+        "d) R$ 3.400,00",
+        "e) R$ 3.600,00"],
+        "correta": "b) R$ 3.200,00",
+        "explicacao": "O enunciado nos informa que João tinha uma dívida (Capital) de R$ 2.000,00 que foi paga com atraso de 1 semestre a uma Taxa de Juros Simples de 10% ao mês. A banca nos questiona o valor do Montante (dívida final) paga por João.<br>No Regime de Juros Simples o Montante é calculado pela seguinte fórmula:<br>𝑀 = 𝐶 × (1 + 𝑖 × 𝑡)<br>𝑀 = 2.000 × (1 + 0,1 × 6)<br>𝑀 = 2.000 × 1,6 = 3.200"
+      },
+      {
+        "pergunta": "(SEDU ES - 2018) A taxa de juro simples bimestral proporcional à 4,8% ao ano é igual a",
+        "alternativas": ["a) 3,6%", 
+        "b) 1,2%",
+        "c) 0,4%",
+        "d) 0,8%",
+        "e) 2,4%"],
+        "correta": "d) 0,8%",
+        "explicacao": "Sabemos que em 1 ano há 6 bimestres. Então, a taxa de juro simples 𝑖 bimestral proporcional à 4,8% ao ano será:<br>Ibimestral = Ianual / 6<br>Ibimestral = 4,8% / 6<br><br>Ibimestral = 0,8%"
+      },
+      {
+        "pergunta": "(STM - 2018) Julgue o item seguinte, relativo à matemática financeira.<br>No regime de Juros simples, a taxa de 21% ao mês é equivalente à taxa de 252% ao ano.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Sabemos que em 1 ano há 12 meses. Então, a Taxa de Juros Simples anual 𝑖 proporcional à 21% ao mês será:<br>Ianual = Imensal x 12<br>Ianual = 21% x 12<br><br>Ianual = 252%"
+      },
+      {
+        "pergunta": "(CM Pontal PR - 2014) Em relação a uma aplicação financeira Capitalizada a Juros simples de 10% ao ano, analise as afirmações:<br>I. O Montante cresce exponencialmente.<br>II. Para dobrar o Capital investido demorará 10 anos.<br>III. A taxa equivalente de Juros e a taxa proporcional são iguais<br>Podemos concluir que: ",
+        "alternativas": ["a) Apenas I e II estão corretas.", 
+        "b) Apenas I e III estão corretas.",
+        "c) Apenas II e III estão corretas.",
+        "d) Todas estão corretas.",
+        "e) Apenas a II está correta."],
+        "correta": "c) Apenas II e III estão corretas.",
+        "explicacao": "I. O Montante cresce exponencialmente.<br>ERRADO. Em Juros Simples, a sequência formada pelos valores dos Montantes em cada período é caracterizada sempre por uma PROGRESSÃO ARITMÉTICA CRESCENTE onde a razão é igual ao valor dos Juros. "
+      },
+      {
+        "pergunta": "(CESGRANRIO / EPE - 2007) Aplicações financeiras podem ser feitas em períodos fracionários e inteiros em relação à taxa apresentada, tanto em regimes de capitalização simples quanto compostos. A partir de um mesmo capital inicial, é possível afirmar que o montante final obtido pelo regime composto em relação ao montante obtido pelo regime simples:",
+        "alternativas": ["a) é sempre maior.", 
+        "b) é sempre menor.",
+        "c) nunca é igual.",
+        "d) nunca é menor.",
+        "e) pode ser menor."],
+        "correta": "e) pode ser menor.",
+        "explicacao": "Para o tempo menor que 1 unidade de tempo (1 mês no caso), o Regime de Juros Simples irá proporcionar um Montante maior que o Regime de Juros Compostos.<br>Quando a unidade de tempo é menor que 1, o Montante Simples é MAIOR que o Montante Composto e, consequentemente, o Juro Simples é MAIOR que o Juro Composto.<br>Quando a unidade de tempo é maior que 1, o Montante Composto é MAIOR que o Montante Simples e, consequentemente, o Juro Composto é MAIOR que o Juro Simples.<br>Logo, o montante final obtido pelo regime composto em relação ao montante obtido pelo regime simples PODE SER MENOR."
+      },
+      {
+        "pergunta": "(CESGRANRIO / Caixa - 2008) O gráfico a seguir representa as evoluções no tempo do Montante a Juros Simples e do Montante a Juros Compostos, ambos à mesma Taxa de Juros. M é dado em unidades monetárias e t, na mesma unidade de tempo a que se refere a Taxa de Juros utilizada.<img src='../dados/imgs/questao_matematica_1.png' alt='imagem da questão'><br>Analisando-se o gráfico, conclui-se que para o credor é mais vantajoso emprestar a Juros",
+        "alternativas": ["a) compostos, sempre.", 
+        "b) compostos, se o período do empréstimo for menor do que a unidade de tempo.",
+        "c) simples, sempre.",
+        "d) simples, se o período do empréstimo for maior do que a unidade de tempo.",
+        "e) simples, se o período do empréstimo for menor do que a unidade de tempo."],
+        "correta": "e) simples, se o período do empréstimo for menor do que a unidade de tempo.",
+        "explicacao": "Aprendemos na teoria que: dado 2 Capitais de mesmo valor inicial submetidos a uma mesma Taxa de Juros, 3 hipóteses de cenários serão possíveis em função do tempo de aplicação:<br>1. 𝑡 < 1: Para o tempo menor que 1 unidade de tempo, o Regime de Juros Simples irá proporcionar um Montante (e logicamente um Juros) maior que o Regime de Juros Compostos.<br>2. 𝑡 = 1: Para o tempo igual a 1 unidade: Há indiferença nas aplicações.<br>3. 𝑡 > 1: Para o tempo maior que 1 unidade de tempo, o Regime de Juros Compostos irá proporcionar um Montante (e logicamente um Juros) maior que o Regime de Juros Simples.<br>Então, analisando-se o gráfico, conclui-se que para o credor é mais vantajoso emprestar a Juros Simples se o período do empréstimo for menor do que a unidade de tempo, uma vez que o retorno (Juros) será maior."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2023) O capital de um cliente do segmento ultra-especial ficou aplicado durante 50 dias a uma taxa de juros simples de 1,5% ao mês. Ao final desse prazo, o cliente resgatou tudo e pagou R$ 4.500,00, referentes a 22,5% de imposto de renda sobre os juros proporcionados pelo investimento.<br>Considerando-se o mês com 30 dias, o valor aplicado nessa operação, em R$, foi",
+        "alternativas": ["a) R$ 450.000,00", 
+        "b) R$ 700.000,00",
+        "c) R$ 750.000,00",
+        "d) R$ 800.000,00",
+        "e) R$ 950.000,00"],
+        "correta": "d) R$ 800.000,00",
+        "explicacao": "A banca nos informa que o cliente pagou R$ 4.500,00, referentes a 22,5% de imposto de renda sobre os juros.<br>Ou seja, 22,5% dos Juros é igual a 4.500. Logo, os Juros são iguais a:<br>22,5 / 100 × 𝐽 = 4.500<br>𝐽 = 450.000 / 22,5<br>→ 𝑱 = 𝟐𝟎. 𝟎𝟎𝟎<br>Para calcular o Capital aplicado iremos aplicar a fórmula dos Juros em regime simples.<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>20.000 = 𝐶 × 1,5 / 100 × 50 / 30<br>Observe que ele nos fornece o tempo em DIAS e a taxa MENSAL. Sabemos que, obrigatoriamente, a unidade de grandeza da taxa de juros e a unidade de grandeza do tempo devem coincidir.<br>Vamos transformar o tempo de dias para meses. 50 dias equivalem a 50/30 do mês.<br>20.000 = 𝐶 × 1,5 / 100 × 50 / 30<br>𝐶 = 20.000 × 100 × 3 / 1,5 × 5<br>𝐶 = 800.000"
+      },
+      {
+        "pergunta": "(CESGRANRIO / Banrisul - 2023) Um banco contrata uma empresa de manutenção para um serviço no sistema de ar-condicionado. O valor do serviço ficou em 100 mil reais e poderá ser pago à vista, com um desconto de 20%, ou a prazo, em duas parcelas, sendo 50 mil reais de entrada (na assinatura do contrato) e 54 mil reais para um mês após a assinatura do contrato. A taxa mensal de juro cobrada pela prestadora do serviço ao banco, comparando-se o valor à vista de R$ 80.000,00 com o parcelado em 2 vezes, nas condições apresentadas, é igual a",
+        "alternativas": ["a) 24%", 
+        "b) 40%",
+        "c) 60%",
+        "d) 80%",
+        "e) 124%"],
+        "correta": "d) 80%",
+        "explicacao": "A compra à vista tem 20% de desconto. Ou seja, o valor à vista é igual a R$ 80.000,00. Se o comprador deu R$ 50.000 de entrada e o valor total é de R$ 80.000, é porque ficou faltando a este pagar um Capital de R$ 30.000, certo? <br>Então, ao invés de pagar um Capital de R$ 30.000 no período zero, foi pago um Montante de R$ 54.000 um mês após. Ou seja, R$ 24.000 de juros em 1 mês.<br>Vamos aplicar a fórmula dos Juros Simples e calcular a taxa mensal aplicada sobre esta operação.<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>24.000 = 30.000 × 𝑖 × 1<br>24 = 30 × 𝑖<br>𝑖 = 24 / 30<br>Podemos multiplicar toda a fração por 100 e já encontrar a taxa na forma percentual.<br>𝑖 = 24 / 30 × 100<br>𝑖 = 2.400 / 30<br>→ 𝒊 = 80% ao mês"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BANRISUL - 2023) Devido a uma queda nas vendas de uma loja em um determinado mês, o setor de pagamentos de uma empresa vai precisar quitar duas duplicatas vencidas, em uma mesma data, sendo uma no valor de face de R$ 30.000,00, com atraso de 10 dias, e outra no valor de face de R$ 15.000,00, com atraso de 20 dias. Nesse caso, para pagamentos com até 30 dias após o vencimento, são cobrados juros simples à taxa de 4,5% ao mês, mais uma multa de 2% sobre o valor de face. Considerando-se um mês com 30 dias, o valor total pago, em reais, pelas duas duplicatas, será igual a,",
+        "alternativas": ["a) R$ 45.675,00", 
+        "b) R$ 45.825,00",
+        "c) R$ 45.900,00",
+        "d) R$ 46.500,00",
+        "e) R$ 46.800,00"],
+        "correta": "e) R$ 46.800,00",
+        "explicacao": "Observe que, apesar do enunciado chamar de 'duplicata', essa é uma questão de juros simples. Pois a empresa pagou as duplicatas com atraso, isto é, vencidas, e não as descontou. <br>Vamos calcular separademente o valor pago por cada duplicata e, ao final, somamos para ter o valor total pago.<br>Duplicata de R$ 30.000,00<br>Perceba que são cobrados adicionalmente, sobre o valor do principal, dois encargos: a multa e os juros. Iremos calcular separadamente:<br>➥ Multa de 2% sobre o principal.<br>𝑚𝑢𝑙𝑡𝑎 = 2 / 100 × 30.000 → 𝒎𝒖𝒍𝒕𝒂 = 𝟔𝟎𝟎<br>➥ Juros Simples de 4,5% ao mês por 10 dias. Vamos aplicar diretamente a fórmula dos Juros em regime Simples:<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>𝐽 = 30.000 × 4,5 / 100 × 1 / 3<br>→ 𝑱 = 450<br>Fique atento à passagem acima. A CESGRANRIO vai sempre tentar confundir o cadidato nessa 'pegadinha'. Lembre-se de que a Taxa de Juros e o tempo de aplicação devem estar, OBRIGATORIAMENTE, na mesma unidade de grandeza. 10 dias equivalem a 1/3 do mês.<br>Logo, o valor pago por essa primeira duplicata será:<br>𝑀𝐼 = 𝐶 + 𝐽 + 𝑚𝑢𝑙𝑡𝑎<br>𝑀𝐼 = 30.000 + 450 + 600 → 𝑴𝑰 = 𝟑𝟏. 𝟎𝟓𝟎<br>Iremos repetir a sistemática para a segunda duplicata.<br>Duplicata de R$ 15.000,00<br>➥ Multa de 2% sobre o principal.<br>𝑚𝑢𝑙𝑡𝑎 = 2 / 100 × 15.000 → 𝒎𝒖𝒍𝒕𝒂 = 𝟑𝟎𝟎<br>➥ Juros Simples de 4,5% ao mês por 20 dias (2/3 do mês). Vamos aplicar diretamente a fórmula dos Juros em regime Simples:<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>𝐽 = 15.000 × 4,5 / 100 × 2 / 3<br>→ 𝑱 = 𝟒𝟓𝟎<br>Logo, o valor pago pela segunda duplicata será:<br>𝑀𝐼𝐼 = 𝐶 + 𝐽 + 𝑚𝑢𝑙𝑡𝑎<br>𝑀𝐼𝐼 = 15.000 + 450 + 300 → 𝑴𝑰 = 𝟏𝟓. 𝟕𝟓𝟎<br>Sendo assim, o valor TOTAL pago será igual a:<br>𝑀𝑇 = 𝑀𝐼 + 𝑀𝐼𝐼<br>𝑀𝑇 = 31.050 + 15.750 → 𝑴𝑻 = 𝟒𝟔. 𝟖𝟎0"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Devido às oscilações de receita em seu negócio durante a pandemia, um cliente vai precisar pagar um boleto, cujo principal (até a data de vencimento) é de 𝑹$ 𝟐𝟓.𝟎𝟎𝟎, 𝟎𝟎, com 𝟏𝟐 dias de atraso. Nesse caso, são cobrados adicionalmente, sobre o valor do principal, dois encargos: 𝟐% de multa, mais juros simples de 𝟎, 𝟐% ao dia. Por causa dos juros altos, o cliente procurou seu gerente, que não conseguiu uma solução menos custosa.<br>Com isso, nas condições dadas, o cliente deverá pagar nessa operação um valor total de",
+        "alternativas": ["a) R$ 25.600,00", 
+        "b) R$ 25.800,00",
+        "c) R$ 26.100,00",
+        "d) R$ 26.300,00",
+        "e) R$ 26.500,00"],
+        "correta": "c) R$ 26.100,00",
+        "explicacao": "Perceba que são cobrados adicionalmente, sobre o valor do principal, dois encargos: a multa e os juros. Vamos calcular separadamente:<br>Multa<br>Multa de 2% sobre o principal.<br>𝑚𝑢𝑙𝑡𝑎 = 2 / 100 × 25.000 → 𝒎𝒖𝒍𝒕𝒂 = 𝟓𝟎𝟎<br>Juros Simples<br>Juros Simples de 0,2% ao dia por 12 dias. Vamos aplicar diretamente a fórmula dos Juros em regime Simples:<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>𝐽 = 25.000 × 0,2 / 100 × 12 → 𝑱 = 𝟔𝟎𝟎<br>Sendo assim, nas condições dadas, o cliente deverá pagar nessa operação um valor total de:<br>𝑝𝑎𝑔𝑎𝑟 = 𝑝𝑟𝑖𝑛𝑐𝑖𝑝𝑎𝑙 + 𝑚𝑢𝑙𝑡𝑎 + 𝑗𝑢𝑟𝑜𝑠<br>𝑝𝑎𝑔𝑎𝑟 = 25.000 + 500 + 600 → 𝒑𝒂𝒈𝒂𝒓 = 26.100"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) No boleto bancário da sua prestação, uma pessoa leu que é cobrada uma multa de 𝟏, 𝟐% por dia de atraso sobre o valor da prestação, condicionada a atrasos não maiores que 30 dias. Em certo mês, essa pessoa pagou uma prestação com atraso, tendo de desembolsar 𝑹$ 𝟐𝟑𝟑, 𝟐𝟎 em vez dos 𝑹$ 𝟐𝟐𝟎, 𝟎𝟎 normalmente pagos nos meses em que não houve atraso no pagamento.<br>Por quantos dias ela atrasou a prestação nesse mês?",
+        "alternativas": ["a) 5", 
+        "b) 10",
+        "c) 15",
+        "d) 20",
+        "e) 25"],
+        "correta": "a) 5",
+        "explicacao": "A pessoa deveria pagar um Capital de 𝑅$ 220,00 e pagou um Montante 𝑅$ 233,20. Logo, ela pagou de Juros:<br>𝐽 = 𝑀 − 𝐶<br>𝐽 = 233,20 − 220 → 𝑱 = 𝟏𝟑, 𝟐<br>Vamos aplicar a fórmula dos Juros em regime Simples e calcular por quanto tempo (em dias) ela atrasou o<br>pagamento:<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>13,2 = 220 × 1,2 / 100 × 𝑡<br>𝑡 = 13,2 × 10 / 22 × 1,2<br>→ 𝒕 = 𝟓<br>Logo, ela atrasou a prestação nesse mês por 5 dias."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Um banco fez um empréstimo de 𝑹$ 𝟏𝟎.𝟎𝟎𝟎,𝟎𝟎 a um cliente, pelo prazo de um mês, cobrando o valor de 𝑹$ 𝟏𝟎𝟎,𝟎𝟎 a título de juros.<br>Qual foi a taxa de juros que o banco cobrou do cliente?",
+        "alternativas": ["a) 0,01 ao mês", 
+        "b) 10% ao ano",
+        "c) 1% ao ano",
+        "d) 0,1 ao mês",
+        "e) 0,05 ao mês"],
+        "correta": "a) 0,01 ao mês",
+        "explicacao": "Iremos aplicar diretamente a fórmula dos Juros em regime Simples e calcular a taxa de juros 𝑖 cobrada pelo banco em cima do Capital de 𝑅$ 10.000,00 que gerou um Juros de de 𝑅$ 100,00 em 1 mês:<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>100 = 10.000 × 𝑖 × 1<br>𝑖 = 1 / 100<br>→ 𝒊 = 𝟎,𝟎𝟏 𝒐𝒖 𝟏% 𝒂𝒐 𝒎ê𝒔<br>Observe que temos duas possibilidades de representar a taxa:<br>➢ Forma unitária: 0,01<br>➢ Forma Percentual: 1%<br>Ambas são iguais. Apenas muda a forma de representação. A taxa unitária nada mais é que a taxa percentual dividida por 100."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Uma pessoa está planejando comprar uma geladeira no valor de 𝑹$ 𝟏.𝟑𝟎𝟎, 𝟎𝟎, no futuro.<br>Sabendo-se que ela pretende gastar exatamente esse valor e que dispõe de um capital de 𝑅$1.000,00, que será aplicado no dia de hoje a uma taxa de juros simples de 1,5% ao mês, qual será o prazo dessa aplicação, em meses, para que ela consiga comprar a geladeira à vista, o mais rápido possível?",
+        "alternativas": ["a) 2", 
+        "b) 16",
+        "c) 20",
+        "d) 50",
+        "e) 200"],
+        "correta": "c) 20",
+        "explicacao": "A pessoa dispõe um Capital de 𝑅$ 1.000,00 e pretende aplicá-lo para obter um valor futuro, isto é, um Montante de 𝑅$ 1.300,00 a uma taxa de juros simples de 1,5% ao mês.<br>Ou seja, a pessoa deseja obter um Juros, que é dado pela diferença do Montante menos o Capital, de 𝑅$ 300,00.<br>𝐽 = 𝑀 − 𝐶<br>𝐽 = 1.300 − 1.000 → 𝑱 = 𝟑𝟎𝟎<br>Vamos aplicar diretamente a fórmula dos Juros em regime de Juros Simples e calcular o tempo necessário para que ela consiga tal valor:<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>300 = 1.000 × 1,5 / 100 × 𝑡<br>𝑡 = 300 / 10 × 1,5<br>𝑡 = 30 / 1,5<br>→ 𝒕 = 𝟐𝟎 meses"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Qual é a taxa de juros simples utilizada por uma aplicação para tornar um capital inicial de 𝑹$ 𝟏.𝟎𝟎𝟎,𝟎𝟎 em um montante de 𝑹$ 𝟏.𝟐𝟒𝟎,𝟎𝟎, em um período de um ano?",
+        "alternativas": ["a) 0,02 ao mês", 
+        "b) 0,02% ao mês",
+        "c) 0,02 ao ano",
+        "d) 0,02% ao ano",
+        "e) 0,24% ao ano"],
+        "correta": "a) 0,02 ao mês",
+        "explicacao": "Temos um Montante de 𝑅$ 1.240,00 e um Capital de 𝑅$ 1.000,00. Logo, os Juros, que são dados pela diferença do Montante menos o Capital será de 𝑅$ 240,00, certo?<br>Vamos aplicar diretamente a fórmula dos Juros em regime de Juros Simples e calcular o tempo necessário para que ela consiga tal valor:<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>Em que:<br>𝐽 = 𝐽𝑢𝑟𝑜𝑠 𝑆𝑖𝑚𝑝𝑙𝑒𝑠 = 240<br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 = 1.000<br>𝑖 = 𝑡𝑎𝑥𝑎 𝑑𝑒 𝑗𝑢𝑟𝑜𝑠 = ?<br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 = 1 𝑎𝑛𝑜<br>Substituindo os valores e calculando a taxa de juros:<br>𝐽 = 𝐶 × 𝑖 × 𝑡<br>240 = 1.000 × 𝑖 × 1<br>𝑖 = 240 / 1.000 → 𝒊 = 𝟎, 𝟐𝟒 𝒐𝒖 𝟐𝟒% 𝒂𝒐 𝒂𝒏𝒐<br>Observe que NÃO temos gabarito com a taxa ANUAL. Cuidado para não marcar a alternativa E. A taxa é 0,24 ou 24% ao ano. E não 0,24%.<br>Então, vamos calcular a taxa mensal de juros. Em Regime de Juros Simples as taxas são proporcionais.<br>Sabemos que em 1 ano há 12 meses. Então, a taxa de juro simples mensal será um doze avos da taxa anual:<br>𝑖𝑚𝑒𝑛𝑠𝑎𝑙 = 𝑖𝑎𝑛𝑢𝑎𝑙 / 12<br>𝑖𝑚𝑒𝑛𝑠𝑎𝑙 = 0,24 / 12<br>→ 𝒊𝒎𝒆𝒏𝒔𝒂𝒍 = 𝟎,𝟎𝟐 𝒐𝒖 𝟐% 𝒂𝒐 𝒎ê𝒔<br>Perceba que agora sim temos gabarito. Alternativa A. Cuidado novamente para não assinalar a alternativa B. A taxa é 0,02 ou 2% ao mês. E não 0,02%. "
+      },
+      {
+        "pergunta": "(CESGRANRIO / CEF - 2021) Um cliente pagou, via internet banking, quatro duplicatas vencidas com exatamente 12 dias de atraso, cujos valores de face são de R$4.200,00; R$3.800,00; R$2.600,00 e R$7.400,00. Nesse caso, para pagamentos até 30 dias após o vencimento, são cobrados juros simples à taxa de 6% ao mês, mais uma multa de 2% sobre o valor de face de cada duplicata.<br>Considerando-se o mês comercial (30 dias), o valor total pago, em reais, por essas quatro duplicatas vencidas foi de",
+        "alternativas": ["a) 18.432,00", 
+        "b) R$ 18.792,00",
+        "c) R$ 18.872,00",
+        "d) R$ 18.912,00",
+        "e) R$ 18.982,00"],
+        "correta": "b) R$ 18.792,00",
+        "explicacao": "Todas as duplicatas foram pagas com 12 dias de atraso e todas são submetidas a uma taxa de juros simples de 6% ao mês.<br>Sendo assim, vamos trabalhar com o valor total dessas duplicatas ao invés de trabalhar com uma a uma.<br>𝐶 = 4.200 + 3.800 + 2.600 + 7.400 → 𝑪 = 𝟏𝟖. 𝟎𝟎𝟎<br>Observe que, apesar do enunciado chamar de 'duplicata', essa é uma questão de juros simples. Pois o cliente pagou com atraso e não as descontou.<br>Ele deveria pagar um Capital de R$ 18.000,00 e com a incidência de juros de 6% ao mês com 12 dias de atraso pagará um Montante que será calculado pela fórmula do Montante em Juros Simples:<br>𝑀 = 𝐶 × (1 + 𝑖 × 𝑡)<br>Observe que ele nos fornece o tempo em DIAS e a taxa MENSAL. Sabemos que, obrigatoriamente, a unidade de grandeza da taxa de juros e a unidade de grandeza do tempo devem coincidir.<br>Vamos transformar o tempo de dias para meses. 12 dias equivalem a 12/30 do mês.<br>𝑀 = 𝐶 × (1 + 𝑖 × 𝑡)<br>𝑀 = 18.000 × (1 + 0,06 × 12 / 30)<br>𝑀 = 18.000 × (1 + 0,024)<br>𝑀 = 18.000 × 1,024 → 𝑴 = 𝟏𝟖. 𝟒𝟑𝟐<br>Observe também que há uma multa de 2% sobre o valor de face, isto é, sobre o valor dos R$ 18.000,00.<br>𝑚𝑢𝑙𝑡𝑎 = 2 / 100 × 18.000 → 𝒎𝒖𝒍𝒕𝒂 = 𝟑𝟔𝟎<br>Logo, o valor total pago, em reais, por essas quatro duplicatas vencidas foi de:<br>𝑡𝑜𝑡𝑎𝑙 = 18.432 + 360 → 𝒕𝒐𝒕𝒂𝒍 = 𝟏𝟖.𝟕𝟗𝟐"
+      },
+      {
+        "pergunta": "(CESGRANRIO / Liquigás - 2018) Uma empresa toma um empréstimo de R$ 200.000,00, por 20 dias, a uma determinada taxa de juro, no regime de simples. Considere que, ao final desse período, os juros pagos são de R$ 8.800,00.<br>Assim, a taxa mensal de juro simples cobrada nesse empréstimo, considerando o mês com 30 dias, foi igual a",
+        "alternativas": ["a) 4,0%", 
+        "b) 4,4%",
+        "c) 6,0%",
+        "d) 6,6%",
+        "e) 8,8%"],
+        "correta": "d) 6,6%",
+        "explicacao": "Estudamos que no Regime de Juros Simples, os Juros são calculados pela seguinte fórmula:<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>Onde,<br>𝐽𝑆 = 𝐽𝑢𝑟𝑜𝑠 𝑆𝑖𝑚𝑝𝑙𝑒𝑠 = 8.800<br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 = 200.000<br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 𝑑𝑒 𝑎𝑝𝑙𝑖𝑐𝑎çã𝑜 = 20 𝑑𝑖𝑎𝑠<br>𝑖 = 𝑡𝑎𝑥𝑎 𝑑𝑒 𝑗𝑢𝑟𝑜𝑠 = ?<br>Observe que a banca nos fornece o tempo de aplicação em DIAS e nos questiona a taxa MENSAL.<br>A CESGRANRIO vai sempre tentar confundir o cadidato nessa 'pegadinha'. Lembre-se de que a Taxa de Juros e o tempo de aplicação devem estar, OBRIGATORIAMENTE, na mesma unidade de grandeza.<br>Vamos substituir os valores na fórmula e calcular a taxa de juros.<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>8.800 = 200.000 × 𝑖 × 20<br>𝑖 = 88 / 40.000<br>→ 𝒊 = 𝟎, 𝟎𝟎𝟐𝟐 𝒐𝒖 𝟎, 𝟐𝟐% 𝒂𝒐 𝒅𝒊𝒂<br>Perceba que, como entramos na fórmula com o tempo em dias, a respota da taxa também será em dia. Precisamos agora, transformar a taxa diária para taxa mensal.<br>Em regime de Juros Simples, as taxas são proporcionais. Logo, como 1 mês tem 30 dias:<br>𝑖𝑚𝑒𝑛𝑠𝑎𝑙 = 𝑖𝑑𝑖á𝑟𝑖𝑎 × 30<br>𝑖𝑚𝑒𝑛𝑠𝑎𝑙 = 0,22% × 30 → 𝒊𝒎𝒆𝒏𝒔𝒂𝒍 = 𝟔, 𝟔% 𝒂𝒐 𝒎ê𝒔<br>Obs: Você poderia também, converter o tempo do enunciado para a unidade 'mês' e a resposta da taxa, necessariamente, já sairia na unidade mensal.<br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 𝑑𝑒 𝑎𝑝𝑙𝑖𝑐𝑎çã𝑜 = 20 𝑑𝑖𝑎𝑠 = 2⁄3 𝑚ê𝑠<br>E calculando a taxa mensal:<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>8.800 = 200.000 × 𝑖 × 2 / 3<br>𝑖 = 3 × 88 / 4.000<br>→ 𝒊 = 𝟎, 𝟎𝟔𝟔 𝒐𝒖 𝟔, 𝟔% 𝒂𝒐 𝒎ê𝒔"
+      },
+      {
+        "pergunta": "(CESGRANRIO / Liquigás - 2018) Aldo aplicou R$ 7.000,00 por um tempo numa caderneta de poupança e recebeu um total de R$ 1.750,00 de juros. No mesmo dia em que Aldo fez a aplicação, Baldo aplicou, na mesma poupança, uma certa quantia que rendeu R$ 1.375,00 de juros no mesmo período de tempo da aplicação de Aldo.<br>Quanto, em reais, Baldo aplicou na poupança?",
+        "alternativas": ["a) 5.500", 
+        "b) 5.000",
+        "c) 6.500",
+        "d) 6.000",
+        "e) 4.500"],
+        "correta": "a) 5.500",
+        "explicacao": "Vamos utilizar as informações iniciais de Aldo e calcular algo interessante.<br>'Aldo aplicou R$ 7.000,00 por um tempo numa caderneta de poupança e recebeu um total de R$ 1.750,00 de juros.'<br>No regime de Juros Simples, os Juros são calculados pela seguinte aplicação:<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>Vamos substituir os valores:<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>1.750 = 7.000 × 𝑖 × 𝑡<br>𝑖 × 𝑡 = 1.750 / 7.000<br>→ 𝒊 × 𝒕 = 𝟎, 𝟐𝟓<br>Observe que não sabemos o valor da taxa 𝒊 nem do tempo de aplicação 𝒕. Mas, sabemos que a multiplicação de 𝒊 por 𝒕 será igual a 𝟎, 𝟐𝟓.<br>Segure esta informação.<br>Vamos trabalhar com as informações de Baldo agora.<br>'No mesmo dia em que Aldo fez a aplicação, Baldo aplicou, na mesma poupança, uma certa quantia que rendeu R$ 1.375,00 de juros no mesmo período de tempo da aplicação de Aldo.'<br>Iremos aplicar a fórmula dos Juros Simples para Baldo.<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>1.375 = 𝐶 × 𝑖 × 𝑡<br>Observe que o tempo de aplicação e a taxa de juros são as mesmas de Aldo. Então, nesta equação, onde temos<br>𝑖 × 𝑡 substituiremos por 0,25.<br>Conseguiu 'pegar' esta passagem?<br>Perceba que nesta equação também temos a multiplicação de 𝑖 por 𝑡. E, como se trata do mesmo tempo e da mesma poupança (mesma taxa), a multiplicação 𝒊 × 𝒕 será a mesma nas duas fórmulas (tanto de Aldo quanto de Baldo).<br>Substituindo 𝑖 × 𝑡 por 0,25 e calculando o Capital aplicado por Baldo teremos:<br>1.375 = 𝐶 × 𝑖 × 𝑡<br>1.375 = 𝐶 × 0,25<br>𝐶 = 1.375 / 0,25<br>Lembrando que, dividir por 0,25 é a mesma coisa que multiplicar por 4. Boa hora de voltar às aulas de matemática básica e revisar a parte de frações.<br>𝐶 = 1.375 × 4 → 𝑪 = 𝟓. 𝟓𝟎𝟎"
+      },
+      {
+        "pergunta": "(CESGRANRIO / Liquigás - 2018) Um comprador tem duas opções de pagamento: pagar à vista, com desconto de 20% sobre o preço de tabela ou a prazo, um mês após a data da compra, com um acréscimo de 10% sobre o preço de tabela.<br>O valor mais próximo da taxa de juro mensal cobrada nessa operação, comparando-se o valor a ser pago, por um mesmo produto, em cada uma das opções apresentadas, é igual a",
+        "alternativas": ["a) 10%", 
+        "b) 22%",
+        "c) 30%",
+        "d) 33%",
+        "e) 38%"],
+        "correta": "e) 38%",
+        "explicacao": "Neste problema, para facilitar as contas, podemos arbitrar um valor de R$ 100,00 para o preço 'normal' do produto.<br>Se o cliente comprar à vista, terá um desconto de 20% e assim, pagará um valor de R$ 80,00.<br>Se o cliente comprar a prazo, com pagamento em um mês, terá um acréscimo de 10% e assim pagará R$ 110,00.<br>Então, ao invés de pagar um Capital de R$ 80,00 no período zero, foi pago um Montante de R$ 110,00 um mês após. Ou seja, 30 reais de juros em 1 mês.<br>Vamos utilizar a fórmula dos Juros Simples e calcular a taxa de juros desta operação.<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>Onde,<br>𝐽𝑆 = 𝐽𝑢𝑟𝑜𝑠 𝑆𝑖𝑚𝑝𝑙𝑒𝑠 = 30<br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 𝑖𝑛𝑖𝑐𝑖𝑎𝑙 = 80<br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 𝑑𝑒 𝑎𝑝𝑙𝑖𝑐𝑎çã𝑜 = 1 𝑚ê𝑠<br>𝑖 = 𝑡𝑎𝑥𝑎 𝑑𝑒 𝑗𝑢𝑟𝑜𝑠 = ?<br>Substituindo os valores e calculando a taxa teremos:<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>30 = 80 × 𝑖 × 1<br>3 = 8 × 𝑖<br>𝑖 = 3 / 8<br>Para calcular esta divisão diretamente na forma perentual, podemos multiplicar por 100 e, conforme falamos, o resultado já sairá na forma percentual.<br>𝑖 = 3 / 8 × 100<br>𝑖 = 300 / 8<br>→ 𝒊 = 𝟑𝟕, 𝟓% 𝒂𝒐 𝒎ê𝒔<br>Perceba (mais uma vez) que, quando multiplicamos por 100, o resultado já sai na forma percentual.<br>A banca nos pede o valor mais próximo. Então, 𝑖 = 38%<br>Observe que a banca não informa o regime de Juros, se simples ou composto. Porém, aprendemos na teoria que, para o período igual a 1 unidade de tempo (1 mês no nosso caso), os Juros Simples e os Juros Compostos serão iguais.<br>Ou seja, você pode escolher qualquer regime para trabalhar. Logicamente, escolheremos o regime Simples.<br>Mas tenha em mente que o resultado será o mesmo para 1 unidade de tempo."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BASA - 2022) Um banco oferece um financiamento utilizando uma taxa de juros simples de 𝟔% a.a.<br>Qual a taxa trimestral equivalente à taxa oferecida pelo banco?",
+        "alternativas": ["a) 0,0147 𝑎.𝑡.", 
+        "b) 0,15 𝑎.𝑡.",
+        "c) 0,50% 𝑎.𝑡.",
+        "d) 1,47% 𝑎.𝑡.",
+        "e) 1,50% 𝑎.𝑡."],
+        "correta": "e) 1,50% 𝑎.𝑡.",
+        "explicacao": "Taxas Proporcionais estão associadas a Regime de Juros Simples e comportam-se de maneira Linear em função do tempo.<br>Em regime de Capitalização Simples, a Taxa Equivalente é igual a Taxa Proporcional.<br>Então, vamos calcular a taxa trimestral que é proporcional a taxa anual de 6%. Em 1 ano há 4 trimestres. Logo, a taxa anual será 4 vezes a taxa trimestral.<br>𝑖𝑎𝑛𝑢𝑎𝑙 = 4 × 𝑖𝑡𝑟𝑖𝑚𝑒𝑠𝑡𝑟𝑎𝑙<br>6% = 4 × 𝑖𝑡𝑟𝑖𝑚𝑒𝑠𝑡𝑟𝑎𝑙<br>𝑖𝑡𝑟𝑖𝑚𝑒𝑠𝑡𝑟𝑎𝑙 = 6% / 4<br>→ 𝒊𝒕𝒓𝒊𝒎𝒆𝒔𝒕𝒓𝒂𝒍 = 𝟏,𝟓% 𝒂. 𝒕."
+      },
+      {
+        "pergunta": "(CESGRANRIO / TRANSPETRO - 2012) Um capital de R$ 1.500,00 resultou em um montante de R$ 1.530,00 após dois meses.<br>Sendo a remuneração calculada com juros simples, qual é a taxa anual utilizada?",
+        "alternativas": ["a) 1%", 
+        "b) 1,96%",
+        "c) 2%",
+        "d) 11,76%",
+        "e) 12%"],
+        "correta": "e) 12%",
+        "explicacao": "Um capital inicial, no valor de R$ 1.500,00, resultou em um montante de R$ 1.530,00 após dois meses, ou seja, R$ 30,00 de Juros.<br>Em regime de Juros Simples, os Juros são iguais a:<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>Onde,<br>𝐽𝑆 = 𝐽𝑢𝑟𝑜𝑠 𝑆𝑖𝑚𝑝𝑙𝑒𝑠 = 30<br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 𝑎𝑝𝑙𝑖𝑐𝑎𝑑𝑜 = 1.500<br>𝑖 = 𝑡𝑎𝑥𝑎 𝑑𝑒 𝑗𝑢𝑟𝑜𝑠 = ?<br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 = 2 𝑚𝑒𝑠𝑒𝑠<br>Substituindo os valores e calculando a taxa mensal teremos:<br>𝐽𝑆 = 𝐶 × 𝑖 × 𝑡<br>30 = 1.500 × 𝑖 × 2<br>𝑖 = 3 / 300<br>𝑖 = 1 / 100<br>→ 𝒊 = 𝟏% 𝒂𝒐 𝒎ê𝒔<br>Observe que a banca nos questiona a taxa ANUAL.<br>Em regime de juros simples as taxas são proporcionais. Então, a taxa simples anual será igual a:<br>𝑖𝑎𝑛𝑢𝑎𝑙 = 𝑖𝑚𝑒𝑛𝑠𝑎𝑙 × 12<br>𝑖𝑎𝑛𝑢𝑎𝑙 = 1% × 12 → 𝒊𝒂𝒏𝒖𝒂𝒍 = 𝟏𝟐% 𝒂𝒐 𝒂𝒏𝒐"
+      },
+      {
+        "pergunta": "(Inédita - 2022) Após passar para Auditor, um ex-concurseiro contraiu um consignado de R$ 100.000,00 a uma taxa de juros compostos de 3% ao mês sobre o saldo devedor. O pagamento será feito em duas parcelas. A primeira, no valor de R$ 46.000,00, será paga ao final do segundo mês e a segunda, ao final do quinto mês.<br>Sendo assim, o valor da segunda parcela será igual a: ",
+        "alternativas": ["a) R$ 71.661,96", 
+        "b) R$ 69.661,96",
+        "c) R$ 67.661,96",
+        "d) R$ 65.661,96",
+        "e) R$ 64.661,96"],
+        "correta": "d) R$ 65.661,96",
+        "explicacao": "Resolvemos esta mesma questão na aula anterior. Agora, iremos resolvê-la com a taxa de juros em regime de Juros Compostos.<br>Um ex-concurseiro contraiu um consignado de R$ 100.000,00.<br>Vamos calcular o Saldo Devedor deste empréstimo ao final do segundo mês, já que haverá o pagamento de uma parcela.<br>Iremos aplicar diretamente a fórmula do Montante em regime de Juros Compostos e calcular o Saldo Devedor ao final do segundo mês.<br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ<br>𝑀 = 100.000 × (1 + 0,03)²<br>𝑀 = 100.000 × 1,03²<br>𝑀 = 100.000 × 1,0609 → 𝑴 = 𝟏𝟎𝟔. 𝟎𝟗𝟎<br>Ao final do segundo mês, há um pagamento de R$ 46.000,00.<br>Sendo assim, o Saldo Devedor ao final do segundo mês será de 60.090 (106.090 − 46.000).<br>Os juros continuarão incidindo sobre este Saldo Devedor por mais três meses, uma vez que o pagamento da segundo parcela acontece ao final do quinto mês.<br>Vamos então aplicar novamente a fórmula do Montante em regime de Juros Compostos e calcular o Saldo Devedor ao final do quinto mês.<br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ<br>𝑀 = 60.090 × (1 + 0,03)³<br>Observe que o Capital desta fórmula é o valor de R$ 60.090,00, afinal é em cima desse valor que os Juros incidirão. E o tempo é igual a 3 meses, pois já estamos no mês 2 e queremoso valor do Saldo Devedor no mês 5. Continuando:<br>𝑀 = 60.090 × (1,03)³<br>𝑀 = 60.090 × 1,0927 → 𝑴 = 𝟔𝟓.𝟔𝟔𝟏,𝟗𝟔<br>Logo, para quitar este financiamento, o pagamento da segunda parcela, ao final do quinto mês, deverá ser de R$ 65.661,96."
+      },
+      {
+        "pergunta": "(CRO AC- 2019) Quanto a noções básicas de matemática financeira, finanças, orçamento e tributos, julgue o item.<br>Se determinado investidor tem R$ 25.000,00 de capital e quer comprar uma televisão que custa R$ 3.000,00, colocando seu capital a juros compostos de 6% ao mês por 2 meses, ao final do período, ele poderá comprar a televisão usando apenas os juros recebidos na aplicação",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Vamos calcular o Montante resultante da aplicação de um Capital de R$ 25.000,00 submetido a uma Taxa de>br>Juros compostos de 6% ao mês por 2 meses. Em regime de Juros Compostos, o Montante é calculado pela seguinte equação:>br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ>br>Onde,>br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 = 25.000>br>𝑖 = 𝑇𝑎𝑥𝑎 𝑑𝑒 𝐽𝑢𝑟𝑜𝑠 = 6% 𝑎𝑜 𝑚ê𝑠 = 0,06>br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 = 2 𝑚𝑒𝑠𝑒𝑠>br>Iremos substituir os valores e calcular o Montante.>br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ>br>𝑀 = 25.000 × (1 + 0,06)²>br>𝑀 = 25.000 × 1,06²>br>𝑀 = 25.000 × 1,1236 → 𝑴 = 𝟐𝟖.𝟎𝟗𝟎>br>De posse do Montante e do Capital, calculamos os Juros.>br>Sabemos que os Juros são calculados pela diferença do Montante resultante menos o Capital aplicado.>br>𝐽 = 𝑀 − 𝐶>br>𝐽 = 28.090 − 25.000 → 𝑱 = 𝟑.𝟎𝟗𝟎>br>Ou seja, como a televisão custa R$ 3.000,00 e os Juros da aplicação são iguais a R$ 3.090,00, ele poderá (sim) comprar a televisão usando apenas os juros recebidos na aplicação."
       }
     ]
   }
