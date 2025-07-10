@@ -1022,6 +1022,236 @@
             <p>Data Warehouse é histórico (variável com o tempo):</p>
             <p>Dados históricos são mantidos em um Data Warehouse. Por exemplo: pode-se recuperar dados de três, seis, doze meses ou até mesmo dados mais antigos de um Data Warehouse. Isso contrasta com os bancos de dados transacionais, em que geralmente apenas os dados mais recentes são mantidos. Por exemplo: um banco de dados transacional pode conter o endereço mais recente de um cliente, enquanto um DW pode conter todos os endereços associados a um cliente.</p>
 
+            <h3>Tipos de Data Warehouse</h3>
+            <p>Existem basicamente três tipos de Data Warehouse: <strong>Enterprise Data Warehouse (EDW)</strong>, <strong>Operational Data Store (ODS)</strong> e <strong>Data Mart (DM)</strong>.</p>
+            <p><img src="img/edw.ods.dm.png" alt=" Enterprise Data Warehouse (EDW), Operational Data Store (ODS) e Data Mart (DM)"></p>
+
+            <p><strong>Enterprise Data Warehouse (EDW):</strong></p>
+            <p>Traduzido como Armazém de Dados Corporativos/Abrangentes/Empresariais, é um repositório central tático/estratégico que contém todas as informações de negócio de uma organização de forma acessível para toda empresa com a finalidade de suportar as análises de decisões. Grosso modo, é possível afirmar que um EDW é um DW de larga escala – grande e abrangente – que é utilizado pela organização como um todo e que integra informações de diversas fontes de dados.</p>
+
+            <p><strong>Operational Data Store (ODS):</strong></p>
+            <p>Traduzido como Armazenamento de Dados Operacionais, trata-se de um repositório intermediário de dados utilizado para relatórios operacionais e como uma fonte de dados para o Enterprise Data Warehouse (EDW). É um elemento complementar a um EDW em um cenário de suporte a decisões, e é usado para relatórios, controles e tomada de decisões operacionais – em oposição ao EDW, que é utilizado para suporte de decisões táticas e estratégicas.</p>
+            
+            <p><strong>Data Mart (DM):</strong></p>
+            <p>Traduzido como Mercado de Dados, trata-se de um subconjunto de dados de um Data Warehouse. Geralmente são dados referentes a um assunto em especial (Ex: Vendas, Estoque, Controladoria, entre outros) ou diferentes níveis de sumarização (Ex: Vendas Anual, Vendas Semestral, Vendas Mensal, entre outros), que focalizam uma ou mais áreas específicas. Seus dados são obtidos do DW – indexados para suportar intensas pesquisas.</p>
+            <p>O Data Mart é considerado um pequeno Data Warehouse – ou um subconjunto/segmentação de um Data Warehouse – que contém dados de uma organização em geral restritos a uma unidade de negócio ou a um processo de negócio específico com a finalidade de dar suporte ao processo decisório da alta direção por meio da criação de uma visão personalizada dos dados.</p>
+            <p>Data Marts geralmente lidam com um único assunto, sendo frequentemente construídos e gerenciados por um único departamento comercial. Eles normalmente obtêm dados de apenas um pequeno número de fontes e – como consequência – são geralmente menos complexos, mais econômicos, mais fáceis de construir e mais fáceis de manter do que Data Warehouses.</p>
+            <p>Os Data Marts são utilizados por uma única unidade de negócios para armazenar suas informações. Digamos que o departamento de vendas de uma empresa tenha que armazenar seus dados de negócios – eles poderão utilizar um Data Mart para armazenar seus dados. Quando as informações precisam ser visualizadas pelos superiores, elas são carregadas em um Data Warehouse e são, então, transformadas em insights usando software de Business Intelligence.</p>
+
+
+        </section>
+
+
+        <section>
+
+            <!-- Aula 08 -->
+
+            <h2>Aula 08 - Big Data e NoSQL</h2>
+
+            <h3>Big Data</h3>
+            <p>Big Data é a captura, gerenciamento e a análise de um grande volume de dados estruturados ou não estruturados que não podem ser consultados e pesquisados através de bancos de dados relacionais. <strong>Frequentemente são dados obtidos de arquivos não estruturados como vídeo digital, imagens, dados de sensores, arquivos de logs e de qualquer tipo de dados não contidos em registros típicos com campos que podem ser pesquisados</strong>.</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Tipos de Dados</th>
+                            <th>Descrição</th>
+                        </tr>
+                        <tr>
+                            <th>Dados Estruturados</th>
+                            <td>São dados que podem ser armazenados, acessados e processados em formato fixo e padronizado de acordo com alguma regra específica. Esta organização é geralmente feita por colunas e linhas (semelhante a planilhas do Excel), mas pode variar de acordo com a fonte de dados. Exemplo: Planilhas Eletrônicas, Bancos de Dados Relacionais, etc.</td>
+                        </tr>
+                        <tr>
+                            <th>Dados Semi-Estruturados</th>
+                            <td>São dados estruturados que não estão de acordo com a estrutura formal dos modelos de dados como em tabelas, mas que possuem marcadores para separar elementos semânticos e impor hierarquias de registros e campos dentro dos dados Exemplo: Dados de E-mail, Arquivos XML, Arquivos JSON e Banco de Dados NoSQL.</td>
+                        </tr>
+                        <tr>
+                            <th>Dados Não-Estruturados</th>
+                            <td>São dados que apresentam formato ou estrutura desconhecidos, em que não se sabe extrair de forma simples os valores desses dados em forma bruta. Exemplo: Documentos, Imagens, Vídeos, Arquivos de Texto, Posts em Redes Sociais.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Esses dados podem ser armazenados em um Data Warehouse ou em um Data Lake (Lago de Dados). O Data Lake é um grande repositório capaz de armazenar dados estruturados, semi-estruturados e não-estruturados, assim como um método para organizar grandes volumes de dados de diversos formatos e de diversas fontes diferentes.</p>
+            <p><strong>Diferenças entre <u>Data Warehouse</u> e <u>Data Lake</u></strong></p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Data Warehouse</th>
+                            <th>Data Lake</th>
+                        </tr>
+                        <tr>
+                            <td>Dados geralmente são tratados (limpos, combinados, organizados, etc) antes de serem armazenados.</td>
+                            <td>Dados geralmente são armazenados da maneira que foram capturados – brutos, sem nenhum tratamento.</td>
+                        </tr>
+                        <tr>
+                            <td>Podem armazenar todos os tipos de dados, mas o foco é nos dados estruturados.</td>
+                            <td>Armazenam dados estruturados, semi-estruturados e não-estruturados.</td>
+                        </tr>
+                        <tr>
+                            <td>Ideal para usuários operacionais visto que as ferramentas analíticas são mais fáceis de usar.</td>
+                            <td>Ideal para cientistas de dados visto que as ferramentas analíticas são mais difíceis de usar.</td>
+                        </tr>
+                        <tr>
+                            <td>Armazenamento de dados custam geralmente mais caro e consome mais tempo.</td>
+                            <td>Armazenamento de dados custam geralmente mais barato e consome menos tempo.</td>
+                        </tr>
+                        <tr>
+                            <td>Um esquema é definido antes dos dados serem armazenados.</td>
+                            <td>Um esquema é definido após os dados serem armazenados (esquema dinâmico).</td>
+                        </tr>
+                        <tr>
+                            <td>Armazenam um grande volume de dados.</td>
+                            <td>Armazenam um gigantesco volume de dados.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Em relação à infraestrutura para suporta um Big Data, se referindo ao conjunto de hardware, software e outras tecnologias capazes de suportar serviços de TI (Ex: Servidor, Firewall, Rede, etc).</p>
+            <p>Hoje em dia, você pode utilizar serviços fornecidos pela computação em nuvem ou ter uma infraestrutura própria. Para o primeiro caso, existem inúmeras possibilidades de negócio para quem confia na combinação de Computação em Nuvem e Big Data! De forma geral, as empresas utilizam o Big Data para se tornarem mais competitivas. Além disso, espera-se com esse uso algo essencial para o sucesso: errar menos. E, quando inevitável, aprender com o erro.</p>
+            <p>Ter um sistema de computação em nuvem é condição para se trabalhar bem com um grande volume de dados, uma vez que isso envolve coleta, armazenamento e compartilhamento de um número gigantesco de informações. Além disso, a constante necessidade de conhecer o resultado das ações de um negócio, muitas vezes, imediatamente, torna essa relação entre Cloud Computing e Big Data extremamente harmoniosa.</p>
+
+            <h3>Premissas (OS 5 V's)</h3>
+
+            <p class="destaqueVermelho">Volume, Velocidade, Variedade, Veracidade e Valor</p>
+
+            <p><strong>Volume</strong></p>
+            <p>Em outras palavras, nós podemos dizer que o volume de dados atualmente já é grande, mas a tendência é que continue a crescer ainda mais nas próximas décadas. Dessa forma, é preciso buscar ferramentas e formas de tratar esses dados de maneira que possam se converter – de fato – em informação que seja útil para o crescimento e desenvolvimentos das organizações e, não apenas, um grande volume de dados.</p>
+
+            <p><strong>Velocidade</strong></p>
+            <p>Refere-se à velocidade com que os dados são criados. São mensagens de redes sociais se viralizando em segundos, transações de cartão de crédito sendo verificadas a cada instante ou os milissegundos necessários para calcular o valor de compra e venda de ações. O Big Data serve para analisar os dados no instante em que são criados, em tempo real, sem ter de armazená-los.</p>
+            <p>Não apenas o volume de dados é gigantesco, mas a velocidade em que esses dados são produzidos (e se tornam desatualizados é vertiginosa).para que possuam valor real e aplicabilidade no mercado, é preciso utilizar os dados antes que se tornem desatualizados. O objetivo, portanto, é alcançar formas de trabalhar o processamento dessas informações em tempo real.</p>
+
+            <p><strong>Variedade</strong></p>
+            <p>No passado, a maior parte dos dados utilizados por organizações era estruturado e podia ser facilmente armazenado em tabelas de bancos de dados relacionais. No entanto, a maioria dos dados do mundo não se comporta dessa forma. Com o Big Data, mensagens, fotos, mídia social, email, vídeos e sons – que são dados não-estruturados – podem ser administrados juntamente com dados tradicionais. Isso significa que não seguem um único padrão e nem fornecem todos o mesmo tipo de informações, tornando a tarefa de compilar esses dados em um banco de dados tradicional inviável.</p>
+
+            <p><strong>Veracidade</strong></p>
+            <p>Um dos pontos mais importantes de qualquer informação é que ela seja verdadeira. Com o Big Data, não é possível controlar cada hashtag do Twitter ou notícia falsa na internet, mas com análises e estatísticas de grandes volumes de dados é possível compensar as informações incorretas. Dentre a massa de dados que circula, é preciso estabelecer quais os dados que são verídicos e que ainda correspondem ao momento atual.</p>
+            <p>Dados desatualizados podem ser considerados inverídicos, mas não porque tenham sido gerados com segundas intenções, mas porque não correspondem mais à realidade e podem guiar uma empresa a decisões equivocadas.</p>
+
+            <p><strong>Valor</strong></p>
+            <p>Tudo bem ter acesso a uma quantidade massiva de informação a cada segundo, mas isso não adianta nada se não puder gerar valor algum para um órgão ou uma empresa.O quinto desafio posto pelo Big Data pelas empresas é o de definir a abordagem que será feita dessa massa de dados que está circulando.</p>
+            <p> Afinal, para que um dado se converta em informação útil e utilizável é preciso o olho do analisador, é preciso colocar uma pergunta a esse dado que permita orientar a análise de dados para o objetivo de uma empresa.</p>
+
+            <h3>Big Data Analytics</h3>
+            <p>Big Data Analytics: o estudo e interpretação de grandes quantidades de dados armazenados com a finalidade de extrair padrões de comportamento. Em outras palavras, utiliza-se uma combinação de sistemas de softwares matemáticos de alta tecnologia que juntos são capazes de tratar dados estruturados e não-estruturados, analisá-los e extrair um significado de alto valor para organizações.</p>
+
+            <p><strong>Diferença entre <u>Business Intelligence</u> e <u>Big Data Analytics</u></strong></p>
+            <p>O <strong>Business Intelligence</strong> ajuda a encontrar as respostas para as <strong>perguntas de negócios que já conhecemos</strong>, enquanto o <strong>Big Data Analytics</strong> nos ajuda a encontrar as <strong>perguntas e respostas que nem sequer sabíamos que existiam</strong> – tudo isso por meio de padrões, correlações desconhecidas, tendências de mercado e preferências de consumidores.</p>
+
+            <p>O Big Data Analytics funciona por meio da <strong>Análise Preditiva</strong> (aula 05)</p>
+            <p>A <strong>Análise Preditiva</strong> é capaz de identificar o relacionamento existente entre os componentes de um conjunto de dados, utilizando algoritmos sofisticados, com o intuito de identificar padrões de comportamento ao examinar automaticamente grandes quantidades de dados. Dessa forma, permite-se que estatísticas e dados armazenados sejam agrupados, fornecendo previsões e indicando padrões e tendências comportamentais.</p>
+
+            <h3>Perfis Profissionais</h3>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Perfil Profissional</th>
+                            <th>Responsabilidades</th>
+                            <th>Principais Ferramentas</th>
+                        </tr>
+                        <tr>
+                            <th>Cientista de Dados</th>
+                            <td>Desenvolver modelos preditivos, machine learning e análises estatísticas.</td>
+                            <td>Python, R, TensorFlow, Scikit-Learn, SQL</td>
+                        </tr>
+                        <tr>
+                            <th>Engenheiro de Dados</th>
+                            <td>Construir e manter pipelines de dados, gerenciar armazenamento e ETL.</td>
+                            <td>Hadoop, Apache Spark, AWS Redshift, BigQuery</td>
+                        </tr>
+                        <tr>
+                            <th>Arquiteto de Soluções</th>
+                            <td>Definir infraestrutura, padrões e frameworks para projetos de Big Data.</td>
+                            <td>AWS, Azure, Google Cloud, Kubernetes</td>
+                        </tr>
+                        <tr>
+                            <th>Analista de Dados</th>
+                            <td>Criar relatórios e dashboards para análise de tendências e insights.</td>
+                            <td>Power BI, Tableau, SQL, Excel</td>
+                        </tr>
+                        <tr>
+                            <th>Minerador de Dados</th>
+                            <td>Identificar padrões ocultos nos dados usando técnicas estatísticas e de machine learning.</td>
+                            <td>RapidMiner, WEKA, Python (Scikit-Learn)</td>
+                        </tr>
+                        <tr>
+                            <th>Administrador de Banco de Dados</th>
+                            <td>Gerenciar bancos de dados, otimizar consultas e garantir segurança e disponibilidade.</td>
+                            <td>MySQL, PostgreSQL, MongoDB, Cassandra</td>
+                        </tr>
+                        <tr>
+                            <th>Analista de Negócios</th>
+                            <td>Traduzir dados em estratégias empresariais e apoiar a tomada de decisões.</td>
+                            <td>Power BI, Tableau, SQL, Excel</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>NoSQL (Not Only SQL)</h3>
+
+            <p><strong>SQL</strong></p>
+            <p>O SQL é uma linguagem de consulta estruturada utilizada para manipular bancos de dados relacionais (tabelas). Por meio dela, um usuário pode executar comandos para inserir, pesquisar, atualizar ou deletar registros em um banco de dados relacionais, criar ou excluir tabelas, conceder ou revogar permissões para acessar o banco de dados, entre outros recursos.</p>
+
+            <p><strong>NoSQL</strong></p>
+            <p>Em um contexto de Big Data, já sabemos que grande parte dos dados armazenados e processados dentro desse conceito são nãoestruturados e/ou semi-estruturados, logo não se adequam bem a bases de dados relacionais. Foi então que surgiu o NoSQL (Not Only SQL)! Observe que a sigla significa Não Apenas SQL – logo ela suporta outras linguagens de recuperação de dados e não apenas SQL.</p>
+            <p>Bancos de Dados NoSQL são cada vez mais utilizados em aplicações web de tempo real (online) com a finalidade de atender aos requisitos de gerenciamento de grandes volumes de dados que necessitam de alta disponibilidade e escalabilidade.</p>
+            <p>A proposta dos bancos de dados não-relacionais não é substituir os bancos de dados relacionais, mas serem utilizados nos casos em que é necessária uma maior flexibilidade na estrutura do banco de dados.</p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Critério</th>
+                            <th>NoSQL</th>
+                            <th>SQL</th>
+                        </tr>
+                        <tr>
+                            <th>Modelo</th>
+                            <td>Não-Relacional</td>
+                            <td>Relacional</td>
+                        </tr>
+                        <tr>
+                            <th>Armazenamento</th>
+                            <td>Variados (Grafos, Documentos, etc)</td>
+                            <td>Tabelas</td>
+                        </tr>
+                        <tr>
+                            <th>Flexibilidade</th>
+                            <td>Alta flexibilidade (Esquema indefinido)</td>
+                            <td>Baixa flexibilidade (Esquema definido)</td>
+                        </tr>
+                        <tr>
+                            <th>Adequação</th>
+                            <td>Mais adequado a dados não-estruturados</td>
+                            <td>Mais adequado a dados estruturados</td>
+                        </tr>
+                        <tr>
+                            <th>Escalabilidade</th>
+                            <td>Em geral, escalabilidade horizontal</td>
+                            <td>Em geral, escalabilidade vertical</td>
+                        </tr>
+                        <tr>
+                            <th>SGBD</th>
+                            <td>MongoDB, Cassandra, HBase, Neo4J, etc</td>
+                            <td>Oracle, MySQL, DB2, SQL Server, etc</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p><strong>Pontos importantes</strong></p>
+            <ol>
+                <li>NoSQL é um termo que funciona como um guarda-chuva para bancos de dados não-relacionais. Esse é um termo genérico para absolutamente todas as variedades de bancos de dados que não sejam relacionais, abarcando bancos de dados com algumas características completamente díspares entre si.</li>
+                <li>Apesar do nome sugerir o contrário, bancos de dados não-relacionais podem – sim – armazenar relacionamentos entre dados, no entanto eles o farão de maneira diferente de bancos de dados relacionais. Lembrando que bancos de dados relacionais, em geral, utilizam chaves (primárias e estrangeiras) para armazenar o relacionamento entre dados, já os bancos de dados não-relacionais utilizam cada um o seu modelo/forma de armazená-los.</li>
+                <li>Bancos de dados relacionais e não-relacionais possuem uma grande diferença em relação ao esquema de dados. Bancos de dados tradicionais possuem esquemas extremamente inflexíveis, fazendo com que problema simples se tornem extremamente complexas. Os bancos de dados não-relacionais são diferentes: eles se caracterizam pela ausência parcial ou total de esquemas que definem uma estrutura de dados – também chamado de esquema flexível ou ausência de esquema.</li>
+            </ol>
+
+            <p>Bancos de dados não-relacionais utilizam modelos diferentes de armazenamento de dados, os quais podem ser divididos em quatro categorias principais: Chave-Valor, Orientado a Documentos, Orientado a Grafos e Orientado a Colunas (Colunar). Alguns bancos de dados podem implementar mais de um desses modelos.</p>
+
 
         </section>
         

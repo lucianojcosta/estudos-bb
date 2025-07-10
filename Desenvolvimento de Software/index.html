@@ -1392,17 +1392,53 @@
             <p><strong>SelectionSort (Seleção)</strong></p>
             <p>Esse algoritmo consiste em selecionar o menor1 elemento de um vetor e trocá-lo (swap) pelo item que estiver na primeira posição, i.e., inseri-lo no início do vetor.</p>
             <p>Em cada iteração do método, percorremos a lista a partir de seu início buscando o menor número, comparado todos os números, ele passa o menor número para a primeira posição.</p>
-            <p><img src="img/selection.sort.png" alt="selection sort"><img src="img/selection.sort2.png" alt="selection sort"></p>
+            <p><img src="img/selection.sort.png" alt="selection sort"></p>
             <p>Assim, a parte esquerda aumenta, visto que passa a incluir o pivô, e a parte direita diminui. Note que o pivô é maior que todos os demais elementos da parte esquerda, portanto a parte esquerda continua ordenada. Ademais, o pivô era o menor elemento da direita, logo todos os elementos da esquerda continuam sendo menores ou iguais aos elementos da direita. Inicialmente, a parte esquerda é vazia.</p>
             <p><img src="img/selection.sort3.png" alt="selection sort"></p>
 
             <p><strong>Insertion Sort</strong></p>
             <p>Esse algoritmo, também conhecido como Inserção Direta, é bastante simples e apresenta um desempenho significativamente melhor que o BubbleSort, em termos absolutos. Além disso, ele é extremamente eficiente para listas que já estejam substancialmente ordenadas e listas com pequeno número de elementos.</p>
-            <p><img src="img/insertion.sort.png" alt="selection sort"></p>
-            <p><img src="img/insertion.sort2.png" alt="selection sort"></p>
-            <p><img src="img/insertion.sort3.png" alt="selection sort"></p>
+            <p><img src="img/insertion.sort.png" alt="insertion sort"></p>
+            <p><img src="img/insertion.sort2.png" alt="insertion sort"></p>
+            <p><img src="img/insertion.sort3.png" alt="insertion sort"></p>
             <p>É fácil perceber que se a lista possui n elementos, após (n-1) inserções, ela estará ordenada. Para inserir o pivô, percorremos a parte esquerda, da direita para a esquerda, deslocando os elementos estritamente maiores que o pivô uma posição para direita.</p>
-            <p><img src="img/insertion.sort4.png" alt="selection sort"></p>
+            <p><img src="img/insertion.sort4.png" alt="insertion sort"></p>
+
+            <p><strong>ShellSort (Inserção)</strong></p>
+            <p>Nesse método, as comparações e as trocas são feitas conforme determinada distância (gap) entre dois elementos, de modo que, se gap = 6, há comparação entre o 1º e 7º elementos ou entre o 2º e 8º elementos e assim sucessivamente, repetindo até que as últimas comparações e trocas tenham sido efetuadas e o gap tenha chegado a 1.</p>
+            <p><img src="img/shell.sort.png" alt="Shell Sort"></p>
+            <p><img src="img/shell.sort2.png" alt="Shell Sort"></p>
+            <p><img src="img/shell.sort3.png" alt="Shell Sort"></p>
+
+            <p><strong>QuickSort (Troca)</strong></p>
+            <p>Neste método, a lista é dividida em parte esquerda e parte direita, sendo que os elementos da parte esquerda são todos menores que os elementos da parte direita. Essa fase do processo é chamada de partição. Em seguida, as duas partes são ordenadas recursivamente (usando o próprio QuickSort).</p>
+            <p>Uma estratégia para fazer a partição é escolher um valor como pivô e então colocar na parte esquerda os elementos menores ou iguais ao pivô e na parte direita os elementos maiores que o pivô – galera, a escolha do pivô é crítica! Em geral, utiliza-se como pivô o primeiro elemento da lista, a despeito de existirem maneiras de escolher um “melhor” pivô.</p>
+            <p><img src="img/quick.sort.png" alt="Quick Sort"></p>
+            <p>Esse algoritmo é um dos métodos mais rápidos de ordenação, apesar de às vezes partições desequilibradas poderem conduzir a uma ordenação lenta. A eficácia do método depende da escolha do pivô mais adequado ao conjunto de dados que se deseja ordenar. Alguns, por exemplo, utilizam a mediana de três elementos para otimizar o algoritmo.</p>
+            <p><img src="img/quick.sort2.png" alt="Quick Sort"></p>
+
+            <p><strong>MergeSort (Intercalação)</strong></p>
+            <p>Essa técnica consiste basicamente em decompor a instância a ser resolvida em instâncias menores do mesmo tipo de problema, resolver tais instâncias (em geral, recursivamente) e por fim utilizar as soluções parciais para obter uma solução da instância original.</p>
+            <p>Naturalmente, nem todo problema pode ser resolvido através de divisão e conquista. Para que seja viável aplicar essa técnica a um problema, ele deve possuir duas propriedades estruturais. O problema deve ser decomponível, i.e., deve ser possível decompor qualquer instância não trivial do problema em instâncias menores do mesmo tipo de problema.</p>
+            <p>Além disso, deve ser sempre possível utilizar as soluções obtidas com a resolução das instâncias menores para chegar a uma solução da instância original. No MergeSort, divide-se a lista em duas metades. Essas metades são ordenadas recursivamente (usando o próprio MergeSort) e depois são intercaladas. Abaixo segue uma possível solução:</p>
+            <p><img src="img/merge.sort.png" alt="Merge Sort"></p>
+            <p><img src="img/merge.sort2.png" alt="Merge Sort"></p>
+            <p><img src="img/merge.sort3.png" alt="Merge Sort"></p>
+            <p><img src="img/merge.sort4.png" alt="Merge Sort"></p>
+            <p><img src="img/merge.sort5.png" alt="Merge Sort"></p>
+
+            <p><strong>Heap Sort</strong></p>
+            <p>Esse algoritmo utiliza uma estrutura de dados chamada heap, para ordenar os elementos à medida que os insere na estrutura.</p>
+            <p>Essa estrutura pode ser representada como uma árvore ou como um vetor. Entenderam? Inicialmente, insere-se os elementos da lista em um heap.</p>
+            <p>Em seguida, fazemos sucessivas remoções do menor elemento do heap, colocando os elementos removidos do heap de volta na lista – a lista estará então em ordem crescente.</p>
+            <p>O heapsort é um algoritmo de ordenação em que a sua estrutura auxiliar de armazenamento fora do arranjo de entrada é constante durante toda a sua execução.</p>
+            <p><img src="img/heap.sort.png" alt="Heap Sort"></p>
+            <p><img src="img/heap.sort2.png" alt="Heap Sort"></p>
+            <p><img src="img/heap.sort3.png" alt="Heap Sort"></p>
+            <p><img src="img/heap.sort4.png" alt="Heap Sort"></p>
+
+            <p><strong>Resumo das Complexidades</strong></p>
+            <p><img src="img/resumocomplexidades.png" alt="Heap Sort"></p>
 
 
         </section>
