@@ -578,7 +578,7 @@
         "explicacao": "A questão informa que a média anual de imigrantes paraguaios no Brasil, no período de 2009 a 2012, foi de 17.600. Como sabemos, a média é dada pela soma dos dados dividida pelo número de observações. Então, se considerarmos que o número de imigrantes em 2010 foi 𝑥, teremos:<br><img src='../dados/imgs/questao_probabilidade_81.png' alt='imagem da questão'>"
       },
       {
-        "pergunta": "(CESPE/PM AL/2018) Acerca de análise de dados, julgue o próximo item. <br>O gráfico a seguir mostra a distribuição de frequência de delitos ocorridos em determinado bairro nos seis primeiros meses de 2018.<br><img src='../dados/imgs/questao_probabilidade_81.png' alt='imagem da questão'><br>Nesse caso, a média dos delitos ocorridos no semestre considerado foi superior à média dos delitos ocorridos no segundo trimestre.",
+        "pergunta": "(CESPE/PM AL/2018) Acerca de análise de dados, julgue o próximo item. <br>O gráfico a seguir mostra a distribuição de frequência de delitos ocorridos em determinado bairro nos seis primeiros meses de 2018.<br><img src='../dados/imgs/questao_probabilidade_82.png' alt='imagem da questão'><br>Nesse caso, a média dos delitos ocorridos no semestre considerado foi superior à média dos delitos ocorridos no segundo trimestre.",
         "alternativas": ["Certo",
         "Errado"],
         "correta": "Certo",
@@ -2088,7 +2088,7 @@
         "c) quando a transferência for necessária para a proteção da vida ou da incolumidade física do titular ou de terceiro.", 
         "d) quando o titular tiver fornecido o seu consentimento específico e em destaque para a transferência, com informação prévia sobre o caráter internacional da operação, distinguindo claramente esta de outras finalidades.", 
         "e) quando a transferência for necessária para a cooperação jurídica internacional entre órgãos públicos de inteligência, de investigação e de persecução, de acordo com os instrumentos de direito internos."],
-        "correta": "a) O término do tratamento de dados pessoais ocorrerá, dentre outras hipóteses, quando se verificar que os dados deixaram de ser necessários ou pertinentes ao alcance da finalidade específica almejada.",
+        "correta": "e) quando a transferência for necessária para a cooperação jurídica internacional entre órgãos públicos de inteligência, de investigação e de persecução, de acordo com os instrumentos de direito internos.",
         "explicacao": "Essa é difícil e bem sutil, e apenas a alternativa “e” está errada.<br>Veja só:<br>Art. 33. A transferência internacional de dados pessoais somente é permitida nos seguintes casos:<br>(...)<br>internacional entre órgãos públicos de inteligência, de investigação e de persecução, de acordo com os instrumentos de direito internacional;<br>Portanto, não são instrumentos de direito “interno”, como consta na alternativa."
       },
       {
@@ -3135,6 +3135,310 @@
         "e) DFD e DER"],
         "correta": "b) 5FN e Boyce/Codd",
         "explicacao": "(a) Errado, nenhuma é uma forma normal; (b) Correto, ambas são formas normais; (c) Errado, nenhuma é uma forma normal; (d) Errado, nenhuma é uma forma normal; (e) Errado, nenhuma é uma forma normal."
+      },
+      {
+        "pergunta": "(FUNCAB / MDA – 2014) Em um modelo entidade-relacionamento, são utilizados símbolos específicos para seus componentes. Em conformidade com a notação utilizada, um exemplo de entidade e mostrado na seguinte alternativa:",
+        "alternativas": ["a) <img src='../dados/imgs/questao_bancodedados_1a.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_bancodedados_1b.png' alt='imagem da questão'>",
+        "c) <img src='../dados/imgs/questao_bancodedados_1c.png' alt='imagem da questão'>",
+        "d) <img src='../dados/imgs/questao_bancodedados_1d.png' alt='imagem da questão'>", 
+        "e) <img src='../dados/imgs/questao_bancodedados_1e.png' alt='imagem da questão'>"],
+        "correta": "a) <img src='../dados/imgs/questao_bancodedados_1a.png' alt='imagem da questão'>",
+        "explicacao": "(a) Correto, o retângulo representa uma entidade; (b) Errado, o cilindro representa um banco de dados; (c) Errado, o losango representa um relacionamento; (d) Errado, não existe esse símbolo no Diagrama Entidade-Relacionamento; (e) Errado, não existe esse símbolo no Diagrama EntidadeRelacionamento;"
+      },
+      {
+        "pergunta": "(CESPE / MEC – 2015) Considerando a figura apresentada, que ilustra um modelo entidaderelacionamento, julgue o item a seguir.<br><img src='../dados/imgs/questao_bancodedados_2.png' alt='imagem da questão'><br>O atributo Data está representado corretamente nesse modelo, que habilita o uso de atributo em relacionamentos.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O atributo Data está corretamente representado como atributo do relacionamento e, não, de uma das entidades. Por que? Porque a data é um atributo da inscrição e, não, do Participante nem do ENEM. Professor, não poderia ser um atributo da entidade Participante? Não, porque a data não é uma característica de um participante. Professor, não poderia ser um atributo da entidade ENEM? Não, porque – no contexto – não se trata da data do ENEM.<br>Logo, esse atributo deve pertencer ao relacionamento, tendo em vista que a inscrição guarda a data em que um Participante fará o ENEM."
+      },
+      {
+        "pergunta": "(CESPE / MEC – 2015) Considerando a figura apresentada, que ilustra um modelo entidaderelacionamento, julgue o item a seguir.<br><img src='../dados/imgs/questao_bancodedados_3.png' alt='imagem da questão'><br>De acordo com o modelo apresentado, um PARTICIPANTE pode inscrever-se em mais de um ENEM.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Para responder essa questão, basta analisar a cardinalidade. Notem que temos (0,n) de ambos os lados do relacionamento, logo isso indica que um participante pode inscrever em nenhum ou em várias provas do ENEM; e o ENEM pode ter inscrições de nenhum ou de vários participantes. Logo, é realmente possível que um participante se inscreva em mais de um ENEM."
+      },
+      {
+        "pergunta": "(VUNESP / Câmara Municipal De São José Dos Campos/SP – 2014) Considere o seguinte diagrama entidade-relacionamento:<br><img src='../dados/imgs/questao_bancodedados_4.png' alt='imagem da questão'>",
+        "alternativas": ["a) Depósito é uma entidade fraca.", 
+        "b) o relacionamento é do tipo muitos para muitos.",
+        "c) Peça é uma entidade fraca.",
+        "d) Peça não tem chave primária.",
+        "e) um Depósito pode conter várias Peças."],
+        "correta": "Certo",
+        "explicacao": "Para responder essa questão, basta analisar a cardinalidade. Notem que temos (0,n) de ambos os lados do relacionamento, logo isso indica que um participante pode inscrever em nenhum ou em várias provas do ENEM; e o ENEM pode ter inscrições de nenhum ou de vários participantes. Logo, é realmente possível que um participante se inscreva em mais de um ENEM."
+      },
+      {
+        "pergunta": "(FUNDEP / IFN-MG – 2014) Para a modelagem conceitual apresentada abaixo, podemos dizer que Skill:<br><img src='../dados/imgs/questao_bancodedados_5.png' alt='imagem da questão'>",
+        "alternativas": ["a) é um atributo composto da entidade Surgeon.", 
+        "b) além de ser um atributo de Surgeon, também é uma chave primária.",
+        "c) é um atributo multivalorado da entidade Surgeon.",
+        "d) é uma entidade fraca relacionada com Surgeon."],
+        "correta": "c) é um atributo multivalorado da entidade Surgeon.",
+        "explicacao": "(a) Errado. Skill é um atributo multivalorado (dupla elipse) da Entidade Surgeon; (b) Errado. Para Skill ser chave primária, deveria vir com nome sublinhado – sendo rigoroso, a chave primária passa existir apenas no modelo lógico; (c) Correto. Skill é um atributo multivalorado (dupla elipse) da Entidade Surgeon; (d) Errado. Skill é um atributo e, não, uma entidade)."
+      },
+      {
+        "pergunta": "(CESPE / SECONT-ES - 2022) Kappa, uma arquitetura de software usada para processar dados, fornece acesso a métodos de processamento em lote e processamento de fluxo com uma abordagem em quatro camadas.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A arquitetura Kappa é uma arquitetura de processamento de dados projetada para lidar com grandes volumes de dados em tempo real – ela não suporta processamento em lote (batch). Além disso, temos duas camadas: Camada de Real-Time (Velocidade) e Camada de Serviço.<br><img src='../dados/imgs/questao_bancodedados_5.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESPE / SEFAZ-SE – 2022) Com relação a noções de big data, julgue os itens que se seguem.<br>I Como qualquer tecnologia, soluções de big data também apresentam algumas restrições. Por exemplo, elas não podem ser utilizadas na área da saúde para determinar a causa de uma doença, porque esse é um procedimento complexo que somente pode ser executado por pessoas devidamente capacitadas — nesse caso, os médicos.<br>II Big data é qualquer tipo de fonte de dados que possui, no mínimo, as seguintes três características: volume de dados extremamente grande; velocidade de dados extremamente alta; e variedade de dados extremamente ampla.<br>III Para que as organizações obtenham os conhecimentos corretos, a tecnologia big data não permite que elas executem as operações de armazenar e administrar as grandes quantidades de dados de si próprias.<br>IV Big data é uma combinação de tecnologias de gestão de dados que evoluíram ao longo dos anos, razão por que não é considerado um mercado único.<br>Estão certos apenas os itens:",
+        "alternativas": ["a) I e III.", 
+        "b) I e IV",
+        "c) II e IV",
+        "d) II e V",
+        "e) III e V"],
+        "correta": "c) II e IV",
+        "explicacao": "(I) Errado. Que viagem! Big Data não só pode como já é muito utilizado na área de saúde; (II) Correto. Há versões que consideram tanto 3V’s quanto 5V’s; (III) Errado. Não há restrições para que organizações executem operações de armazenamento e administração; (IV) Correto. Atualmente é considerado um grande conjunto de tecnologias que envolve diversas áreas de conhecimento."
+      },
+      {
+        "pergunta": "(CESPE / PETROBRAS – 2022) Em sistemas NoSQL baseados em armazenamento de chavevalor, a chave é multidimensional e composta pela combinação do nome de tabela com a chave linha-coluna e com o rótulo de data e hora.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "No modelo chave-valor, a chave é bidimensional e composta pela combinação de um identificador alfanumérico único (chave) e um valor associado em uma tabela (valor). Em outras palavras, esse modelo armazena dados por meio de uma estrutura de mapeamento ou dicionário, em que todo dado armazenado possui uma chave identificadora e seu valor em si – para cada chave de entrada, é retornado um valor de saída"
+      },
+      {
+        "pergunta": "(CESPE / TCE-RJ - 2021) Os fatores críticos de sucesso da análise de Big Data incluem uma sólida infraestrutura de dados, além de ferramentas analíticas e pessoal habilitado para lidar com elas.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Questão com interpretação bem ampla e genérica. É claro que é necessário ter infraestrutura de dados, ferramentas e pessoas para que a análise de Big Data tenha sucesso! Uma infraestrutura de dados fornece o armazenamento, o poder de processamento e a tecnologia necessários para coletar, armazenar, gerenciar, analisar e visualizar dados. Sem uma forte infraestrutura de dados, seria difícil adquirir, gerenciar e analisar grandes quantidades de dados. As ferramentas analíticas são usadas para coletar, armazenar e processar dados para gerar insights e responder a perguntas, tais como Apache Hadoop, Apache Spark, Tableau e Microsoft Azure. Por fim, requer pessoas que tenham habilidades e conhecimentos para entender e analisar grandes quantidades de dados. Pessoas com experiência em ciência de dados, estatística, programação e inteligência de negócios são necessárias para entender os dados e usá-los para fundamentar decisões."
+      },
+      {
+        "pergunta": "(CESPE / SEFAZ-AL - 2021) Sistemas NoSQL com fundamento em documentos possuem um modelo de dados simples embasado no acesso rápido pela palavra; os resultados estão relacionados à informação e podem ser encontrados percorrendo-se os textos usando-se expressões regulares.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Em um modelo de banco de dados orientado a documentos, as pesquisas funcionam comparando os valores nos documentos com os critérios de consulta. Os documentos no banco de dados podem ser pesquisados usando uma variedade de critérios, incluindo conteúdo, rótulos e propriedades. Quando uma pesquisa é realizada, o banco de dados pesquisa todos os documentos, extraindo os documentos que correspondem aos critérios da consulta. Os resultados da pesquisa são retornados ao usuário na forma de uma lista de documentos que correspondem à consulta. Logo, não há nenhuma relação com expressões regulares, que são basicamente padrões de pesquisa usados para procurar e manipular texto."
+      },
+      {
+        "pergunta": "(CESPE / ISS-Aracaju – 2021) Big data ajudou a sedimentar o cargo de cientista de dados. Entre as funções desse cargo inclui-se:",
+        "alternativas": ["a) a modelagem estruturada.", 
+        "b) a análise retrospectiva.", 
+        "c) a modelagem não estruturada.", 
+        "d) a modelagem relacional.",
+        "e) o processamento comparativo."],
+        "correta": "Questão bizarra! Todos os itens podem ser executados por um cientista de dados. Ele não pode fazer uma modelagem relacional? Claro que pode! De toda forma, essa questão foi retirada do livro do Taurion (2013), em que ele diferencia Analista de BI e Cientista de Dados.<br>Em primeiro lugar, o autor não é uma unanimidade; em segundo lugar, o autor não disse que essas eram atividades exclusivas de cada papel. Logo, não se trata de atividades taxativas!",
+        "explicacao": "Colocar aqui o comentário da questão."
+      },
+      {
+        "pergunta": "(CESPE / SERPRO – 2021) MapReduce divide o conjunto de dados de entrada em blocos independentes que são processados pelas tarefas de mapa de uma maneira completamente paralela. Essa estrutura classifica as saídas dos mapas, as quais são, então, inseridas nas tarefas de redução.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! O MapReduce é um modelo de programação que permite reduzir problemas grandes em problemas menores, mapeando cada subproblema para máquinas diferentes (ou processadores diferentes de uma mesma máquina) e, em seguida, reduzindo cada resposta intermediária à única resposta final que você está procurando."
+      },
+      {
+        "pergunta": "(CESPE / SERPRO – 2021) No que se refere aos três Vs do Big Data, o termo volume refere-se a dados que, atualmente, não são estruturados nem armazenados em tabelas relacionais, o que torna sua análise mais complexa.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, referem-se à quantidade de dados de quaisquer tipos (estruturados, semiestruturados ou não estruturados) armazenados em fontes de estruturas diversas."
+      },
+      {
+        "pergunta": "(CESPE / SERPRO – 2021) Big data caracteriza-se, principalmente, por volume, variedade e velocidade, o que se justifica devido ao fato de os dados serem provenientes de sistemas estruturados, que são maioria, e de sistemas não estruturados, os quais, embora ainda sejam minoria, vêm, ao longo dos anos, crescendo consideravelmente.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pelo contrário, os dados provenientes de sistemas não estruturados são maioria e os dados provenientes de sistemas estruturados são minoria."
+      },
+      {
+        "pergunta": "(CESPE / SERPRO – 2021) MapReduce divide o conjunto de dados de entrada em blocos independentes que são processados pelas tarefas de mapa de uma maneira completamente paralela. Essa estrutura classifica as saídas dos mapas, as quais são, então, inseridas nas tarefas de redução.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! O MapReduce é um modelo de programação que permite reduzir problemas grandes em problemas menores, mapeando cada subproblema para máquinas diferentes (ou processadores diferentes de uma mesma máquina) e, em seguida, reduzindo cada resposta intermediária à única resposta final que você está procurando. O processo de decomposição dos dados é chamado de Mapeamento/Mapa (Map); e o processo de consolidação do resultado dos mapeamentos é chamado de Redução (Reduce). De fato, as saídas dos mapas são inseridas como entradas na etapa de redução, sendo essa responsável por consolidar os resultados de cada mapa, gerando um resultado agregado."
+      },
+      {
+        "pergunta": "(CESPE / SERPRO – 2021) Uma das principais características de big data é que seu custo de armazenamento de dados é relativamente baixo se comparado a um data warehouse.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pode parecer contraintuitivo, mas o Data Warehouse possui um custo de armazenamento realmente maior em relação ao Big Data – esse é mais otimizado para armazenar gigantescos volumes de dados do que aquele."
+      },
+      {
+        "pergunta": "(CESPE / SERPRO – 2021) O Hadoop consiste em um único produto, ou seja, um software monolítico, que possibilita análise de logs e outros dados da Web.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, ele é mais do que um software – ele é uma plataforma, um framework, um ecossistema de computação distribuída orientada a clusters e voltado para armazenamento e processamento de grandes volumes de dados, com alta escalabilidade, grande confiabilidade e tolerância a falhas."
+      },
+      {
+        "pergunta": "(CESPE / SERPRO – 2021) Apesar de ser uma tecnologia de código aberto disponibilizada pela ASF (Apache Software Foundation), o Hadoop também é oferecido por distribuidores comerciais, de maneira que fornecedores oferecem distribuições específicas que incluem não só ferramentas administrativas adicionais, mas também suporte técnico.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Isso é bastante comum no mundo da tecnologia da informação. A Apache Software Foundation (ASF) é uma organização sem fins lucrativos criada para suportar projetos de código aberto. O Hadoop é oferecido por ela, mas também pode ser distribuída por outros fornecedores comerciais que incluem também ferramentas administrativas – além de suporte técnico."
+      },
+      {
+        "pergunta": "(CESPE / TCE-RJ – 2021) Em Big Data, a premissa volume refere-se à capacidade de processar, em um ambiente computacional, diferentes tipos e formatos de dados, como fotos, vídeos e geolocalização.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, essa é a premissa de variedade e, não, volume."
+      },
+      {
+        "pergunta": "(CESPE / TCE-RJ – 2021) Volume, variedade e visualização são as três características, conhecidas como 3 Vs, utilizadas para definir Big Data.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Visualização não é uma característica do Big Data!"
+      },
+      {
+        "pergunta": "(FCC / SEFAZ-SC - 2018) Como não existe um modelo de armazenamento de dados único adequado para atender a todos os cenários e necessidades das aplicações de Big Data, em complemento ao modelo relacional, foram criados quatro novos tipos de armazenamento NoSQL (Not only SQL). Dentre esses, aqueles que modelam os dados usando o formato de linhas e colunas são APENAS os tipos de bancos de dados orientados a colunas,",
+        "alternativas": ["a) chave-valor e grafos.", 
+        "b) chave-valor e documentos.", 
+        "c) documentos e grafos.", 
+        "d) chave-valor.",
+        "e) grafos."],
+        "correta": "b) chave-valor e documentos.",
+        "explicacao": "Todos os modelos podem usar o formato de linhas e colunas, exceto o modelo orientado a grafos – que usa uma estrutura composta de nós, arestas e propriedades para representar e armazenar dados."
+      },
+      {
+        "pergunta": "(FCC / SEFAZ-SC – 2018) No âmbito da ciência de dados na definição de Big Data, utilizam-se características ou atributos que alguns pesquisadores adotam como sendo os cinco Vs. Porém, a base necessária para o reconhecimento de Big Data é formada por três propriedades: ",
+        "alternativas": ["a) valor, velocidade e volume.", 
+        "b) valor, veracidade e volume.", 
+        "c) variedade, velocidade e volume.", 
+        "d) variedade, valor e volume.",
+        "e) velocidade, veracidade e volume."],
+        "correta": "c) variedade, velocidade e volume.",
+        "explicacao": "As três propriedades principais são variedade, velocidade e volume."
+      },
+      {
+        "pergunta": "(FCC / SEFAZ-SC – 2018) As soluções em Big Data Analytics, usadas, por exemplo, pela Fazenda Pública principalmente para evitar sonegações de tributos, trabalham com algoritmos complexos, agregando dados de origens diversas, relacionando-os e gerando conclusões fundamentais para a tomada de decisões. Na execução dessas análises pelos auditores, considere:<br>I. Dados estruturados.<br>II. Dados semiestruturados.<br>III. Dados não estruturados.<br>IV. Dados brutos, não processados.<br>V. Esquemas de dados gerados no momento da gravação.<br>Sobre um repositório de armazenamento, que contenha uma grande quantidade de dados a ser examinada, deverão ser utilizados APENAS os que constam de:",
+        "alternativas": ["a) I, III e IV.", 
+        "b) I, II, III e V.", 
+        "c) III, IV e V.", 
+        "d) I, II, III e IV.",
+        "e) I, II, IV e V."],
+        "correta": "d) I, II, III e IV.",
+        "explicacao": "Devem ser utilizados apenas Dados Estruturados, Dados Semiestruturados, Dados NãoEstruturados e Dados Brutos. Os Dados Brutos designam os dados/valores recolhidos e armazenados tal qual foram adquiridos, sem terem sofrido o menor tratamento. Apresentam-se como um conjunto de números, caracteres, imagens ou outros dispositivos de saídas para converter quantidades físicas em símbolos, num sentido muito extenso. No entanto, esquemas de dados gerados no momento da gravação são dados temporários e, normalmente, não são úteis como fonte de dados para Big Data Analytics."
+      },
+      {
+        "pergunta": "(FCC / TCE-RS – 2018) Um sistema de Big Data costuma ser caracterizado pelos chamados 3 Vs, ou seja, volume, variedade e velocidade. Por variedade entende-se que:",
+        "alternativas": ["a) há um grande número de tipos de dados suportados pelo sistema.", 
+        "b) há um grande número de usuários distintos acessando o sistema.", 
+        "c) os tempos de acesso ao sistema apresentam grande variação.", 
+        "d) há um grande número de tipos de máquinas acessando o sistema.",
+        "e) os tamanhos das tabelas que compõem o sistema são muito variáveis."],
+        "correta": "a) há um grande número de tipos de dados suportados pelo sistema.",
+        "explicacao": "(a) Correto. A Variedade é a propriedade de os dados serem gerados em inúmeros formatos diferentes – estruturados e não-estruturados; (b) Errado. Não há limitação de usuários distintos acessando o sistema na definição; (c) Errado. Tempos de acesso não entram na definição de variedade dos 3V’s; (d) Errado. Quantidade de tipos de máquinas acessando o sistema não entram na definição de variedade dos 3V’s; (e) Errado. Tamanhos das tabelas que compõem o sistema não entram na definição de variedade dos 3V’s.<br>Lembrando que o Big Data foi inicialmente conceituado com base apenas em três premissas básicas: Volume, Velocidade e Variedade (3 V’s). "
+      },
+      {
+        "pergunta": "(FCC / Câmara Legislativa do Distrito Federal – 2018) A proposta de uma solução de Big Data, oferecendo uma abordagem consistente no tratamento do constante crescimento e da complexidade dos dados, deve considerar os 5 V’s do Big Data que envolvem APENAS os conceitos de:",
+        "alternativas": ["a) volume, versionamento, variedade, velocidade e visibilidade.", 
+        "b) velocidade, visibilidade, volume, veracidade e vencimento do dado.", 
+        "c) volume, velocidade, variedade, veracidade e valor.", 
+        "d) variedade, vencimento do dado, veracidade, valor e volume.",
+        "e) vulnerabilidade, velocidade, visibilidade, valor e veracidade."],
+        "correta": "c) volume, velocidade, variedade, veracidade e valor.",
+        "explicacao": "(a) Errado, não envolve versionamento e visibilidade; (b) Errado, não envolve visibilidade e vencimento do dado; (c) Correto; (d) Errado, não envolve vencimento do dado; (e) Errado, não envolve vulnerabilidade e visibilidade."
+      },
+      {
+        "pergunta": "(FGV / IBGE - 2017) Observe a figura a seguir que ilustra relações entre colegas e seus interesses.<br><img src='../dados/imgs/questao_bancodedados_7.png' alt='imagem da questão'><br>O tipo de Banco de Dados NoSQL, não relacional, que armazena tais informações, utilizando estruturas de vértices e arestas, com propriedades associadas, é o:",
+        "alternativas": ["a) Colunar", 
+        "b) Documento",
+        "c) Grafo",
+        "d) Chave-valor", 
+        "e) Tabular"],
+        "correta": "c) Grafo",
+        "explicacao": "Estrutura de vértices e arestas com propriedades associadas? Trata-se do modelo orientado a grafos. Dentre os modelos classificados como NoSQL, o orientado a grafo é o que mais se distancia dos demais. Enquanto as outras abordagens têm seu foco no armazenamento dos dados, esse modelo tem como destaque principal os relacionamentos que ocorrem entre as entidades de sua base. Os bancos de dados que seguem essa abordagem possuem três tipos de informações: os nós, arestas e propriedades."
+      },
+      {
+        "pergunta": "(FGV / IBGE - 2017) Bancos de Dados NoSQL podem armazenar dados em diversos formatos não relacionais, como documentos compostos por pares de campo-e-valor (field-and-value), conforme a estrutura exemplificada a seguir. <br><img src='../dados/imgs/questao_bancodedados_8.png' alt='imagem da questão'><br>O Banco de Dados NoSQL utilizado para armazenar documentos compostos por pares campoe-valor, no formato BSON (JSON-like), é o:",
+        "alternativas": ["a) OpenLink Virtuoso", 
+        "b) Neo4j",
+        "c) Apache HBase",
+        "d) MongoDB", 
+        "e) Titan"],
+        "correta": "d) MongoDB",
+        "explicacao": "BSON (Binary JSON) é uma serialização codificada em binário de documentos do tipo JSON. É usado principalmente como um formato de armazenamento de dados e transferência de rede no MongoDB, mas também pode ser usado em outros locais. BSON estende o modelo JSON para fornecer tipos de dados adicionais e para ser eficiente para codificação e decodificação em diferentes idiomas.<br>(a) Errado, trata-se de um SGBD híbrido (relacional, objeto-relacional, etc); (b) Errado, trata-se de um SGBD orientado a grafos; (c) Errado, trata-se de um SGBD orientado a coluna; (d) Correto, tratase de um SGBD orientado a documentos; (e) Errado, trata-se de um SGBD orientado a grafos."
+      },
+      {
+        "pergunta": "(FGV / IBGE - 2016) Considere as seguintes características de um projeto de banco de dados.<br>I. O modelo de dados é conhecido a priori e é estável;<br>II. A integridade dos dados deve ser rigorosamente mantida;<br>III. Velocidade e escalabilidade são preponderantes.<br>Dessas características, o emprego de bancos de dados NoSQL é favorecido somente por:",
+        "alternativas": ["a) I", 
+        "b) I e II",
+        "c) II",
+        "d) II e III", 
+        "e) III"],
+        "correta": "e) III",
+        "explicacao": "(I) Errado, bancos de dados NoSQL permitem a inserção de dados a qualquer momento sem a necessidade de definir previamente um esquema ou por meio de um esquema flexível; (II) Errado, normalmente não impõem regras de integridade de dados, o que pode levar a erros e inconsistência de dados – o que geralmente não ocorre com bancos de dados relacionais; (III) Correto, A velocidade é importante no processamento de grandes conjuntos de dados, pois significa a diferença entre explorar os dados interativamente e esperar minutos ou horas e a escalabilidade também é importante para acomodar cargas de trabalho em larga escala, permitindo que os usuários aumentem ou diminuam a capacidade de armazenamento de acordo com as necessidades de negócios."
+      },
+      {
+        "pergunta": "(FGV / TJ-SC – 2015) Os termos Business Intelligence (BI) e Big Data confundem-se em certos aspectos. Uma conhecida abordagem para identificação dos pontos críticos de cada paradigma é conhecida como 3V, e destaca:",
+        "alternativas": ["a) variedade, visualização, volume", 
+        "b) velocidade, virtualização, volume",
+        "c) variedade, velocidade, volume",
+        "d) virtualização, visualização, volume", 
+        "e) variedade, visualização, virtualização"],
+        "correta": "c) variedade, velocidade, volume",
+        "explicacao": "O Big Data pode ser rapidamente identificado através das premissas: Variedade, Velocidade e Volume."
+      },
+      {
+        "pergunta": "(FGV / TJ-BA - 2015) Analise as afirmativas a respeito da classe de gerenciadores de bancos de dados, surgida em anos recentes, conhecida como NoSQL.<br>I. Mesmo sem suportar tabelas relacionais, baseiam-se em esquemas de dados previamente definidos;<br>II. Suas estruturas não permitem o uso de linguagens do tipo do SQL para recuperação de dados;<br>III. Garantem operações com as propriedades conhecidas pela sigla ACID;<br>IV. Privilegiam a rapidez de acesso e a disponibilidade dos dados em detrimento das regras de consistência das transações.<br>O número de afirmativas corretas é:",
+        "alternativas": ["a) uma", 
+        "b) duas",
+        "c) três",
+        "d) quatro", 
+        "e) cinco"],
+        "correta": "a) uma",
+        "explicacao": "(I) Errado, eles permitem a inserção de dados a qualquer momento sem a necessidade de definir previamente um esquema ou por meio de um esquema flexível;<br>(II) Errado, a sigla significa Not Only SQL (Não Apenas SQL). Logo, ele suporta outras linguagens de recuperação de dados e não apenas SQL;<br>(III) Errado, eles não garantem as propriedades ACID e, sim, as propriedades BASE (Basicamente Disponível, Estado Suave e Eventualmente Consistente);<br>(IV) Correto, eles realmente privilegiam a maior disponibilidade e rapidez nas consultas dado que precisam tratar de volumes gigantescos de dados com alta disponibilidade escalabilidade."
+      },
+      {
+        "pergunta": "(SELECON / EMGEPRON – 2021) Trata-se de uma infinidade de informações não estruturadas que, quando usadas com inteligência, se tornam uma arma poderosa para empresas tomarem decisões cada vez melhores. As soluções tecnológicas que trabalham com esse conceito permitem analisar um enorme volume de dados de forma rápida e ainda oferecem total controle ao gestor das informações. E as fontes de dados são as mais diversas possíveis: de textos e fotos em rede sociais, passando por imagens e vídeos, até jogadas específicas no esporte e até tratamentos na medicina.<br>O conceito definido no texto é:",
+        "alternativas": ["a) Governança de TI.", 
+        "b) QoS.",
+        "c) Big Data.",
+        "d) Data Center.", 
+        "e) ITIL."],
+        "correta": "c) Big Data.",
+        "explicacao": "Infinidade de informações não estruturadas? Arma poderosa para empresas tomarem decisões? Permitem analisar um enorme volume de dados de forma rápida? Oferecem total controle ao gestor das informações? As fontes de dados são as mais diversas possíveis? Todas essas são características de Big Data!"
+      },
+      {
+        "pergunta": "(COMPERVE / TJ/RN – 2020) Embora Big Data tenha diferentes definições, há um consenso sobre o modelo dos 3 V’s que correspondem a 3 características. Duas dessas características são:",
+        "alternativas": ["a) Volume e Velocity.", 
+        "b) Variety e Value.",
+        "c) Viable e Vast.",
+        "d) Valid e Verbose.", 
+        "e) Variety e Verbose."],
+        "correta": "a) Volume e Velocity.",
+        "explicacao": "Na verdade, atualmente já existe um consenso sobre os 5V’s. No entanto, o Big Data foi inicialmente conceituado com base apenas em três premissas: Volume, Velocidade e Variedade (Volume, Velocity e Variety)."
+      },
+      {
+        "pergunta": "(CCV-UFC / UFC – 2019) Sobre os banco de dados NoSQL, assinale a afirmativa correta:",
+        "alternativas": ["a) Bancos de dados NoSQL não podem ser indexados.", 
+        "b) Bancos de dados NoSQL são considerados banco de dados relacionais.",
+        "c) Nos bancos de dados NoSQL devem ser definidos um esquema de dados fixo antes de qualquer operação.",
+        "d) São exemplos de bancos de dados NoSQL: MongoDB, Firebird, DynamoDB, SQLite, Microsoft Access e Azure Table Storage.", 
+        "e) Os bancos de dados NoSQL usam diversos modelos para acessar e gerenciar dados, como documento, gráfico, chave-valor, em memória e, pesquisa."],
+        "correta": "e) Os bancos de dados NoSQL usam diversos modelos para acessar e gerenciar dados, como documento, gráfico, chave-valor, em memória e, pesquisa.",
+        "explicacao": "(a) Errado, podem – sim – ser indexados; (b) Errado, são considerados não-relacionais; (c) Errado, não é necessário definir um esquema fixo prévio; (d) Errado, FireBird, SQLite e Microsoft Access são exemplos de bancos de dados relacionais; (e) Correto, eles realmente usam modelos para acessar e gerenciar dados como documento, gráfico, chave-valor, em memória e pesquisa. Algumas ressalvas: (1) o termo mais correto é grafo; (2) em memória e pesquisa não são modelos consagrados."
+      },
+      {
+        "pergunta": "(IADES / APEX BRASIL – 2018) Assinale a alternativa que apresenta o conceito de Big Data.",
+        "alternativas": ["a) Conjuntos de dados de grande volume que se utilizam de ferramentas especiais de processamento, pesquisa e análise, e que podem ser aproveitados no tempo necessário, com precisão e grande velocidade.", 
+        "b) São bancos de dados de fácil acesso e rápida velocidade, operados como computadores pessoais.",
+        "c) Manuseio de informações necessárias às empresas e aos negócios do mundo moderno, que podem ser armazenadas em computadores pessoais, utilizando-se a técnica de nuvem de dados.",
+        "d) São apenas grandes volumes de dados que precisam ainda ser mais bem aproveitados pelo mundo corporativo.", 
+        "e) Refere-se a um grande número de computadores pessoais (PC) interligados entre si em uma grande rede de informação."],
+        "correta": "a) Conjuntos de dados de grande volume que se utilizam de ferramentas especiais de processamento, pesquisa e análise, e que podem ser aproveitados no tempo necessário, com precisão e grande velocidade.",
+        "explicacao": "(a) Correto. Trata-se de um enorme conjunto de dados que utiliza softwares especiais para o processamento e transformação de dados em informações com precisão em uma velocidade absurdamente alta; (b) Errado. Não são de fácil acesso e rápida velocidade, muito menos operados como computadores pessoais; (c) Errado. Não há nada que faça sentido nesse item; (d) Errado. Atualmente eles são muito bem aproveitados pelo mundo corporativo; (e) Errado. Essa é a definição de uma rede de computadores."
+      },
+      {
+        "pergunta": "(CESGRANRIO / PETROBRAS – 2018) A principal definição de Big Data parte de três características, conhecidas como 3 V do Big Data, a saber: velocidade, variedade e volume. O termo velocidade refere-se, principalmente, à:",
+        "alternativas": ["a) necessidade das aplicações de gerar respostas rapidamente, a partir de grandes massas de dados.", 
+        "b) existência de um alto fluxo de dados na entrada.",
+        "c) necessidade de gerar aplicações rapidamente, em função da demanda do negócio.",
+        "d) importância da facilidade de manipular cubos de visualização de dados, rapidamente.", 
+        "e) rapidez com que os dados se tornam inválidos com o tempo."],
+        "correta": "b) existência de um alto fluxo de dados na entrada.",
+        "explicacao": "O termo velocidade refere-se à velocidade com que os dados são criados. Em outras palavras, tratase da existência de um alto fluxo de dados na entrada. São mensagens de redes sociais se viralizando em segundos, transações de cartão de crédito sendo verificadas a cada instante ou os milissegundos necessários para calcular o valor de compra e venda de ações."
       }
     ],
 
@@ -3144,24 +3448,234 @@
 
     "ingles": [
       {
-        "pergunta": "Colocar aqui a pergunta de inglês ",
-        "alternativas": ["a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "Colocar aqui o comentário da questão."
+        "pergunta": "The word “actually” in English means:",
+        "alternativas": ["a) atualmente", 
+        "b) de fato",
+        "c) com precisão",
+        "d) realmente agora",
+        "e) hoje em dia"],
+        "correta": "b) de fato",
+        "explicacao": "“Actually” é um falso cognato. Parece “atualmente”, mas significa “de fato” ou “na verdade”. “Atualmente” em inglês é “currently” ou “nowadays”."
       },
       {
-        "pergunta": "Colocar aqui a pergunta de inglês ",
-        "alternativas": ["a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "Colocar aqui o comentário da questão."
+        "pergunta": "The word “pretend” in English means:",
+        "alternativas": ["a) pretender", 
+        "b) fingir", 
+        "c) planejar", 
+        "d) desejar",
+        "e) fazer de conta"],
+        "correta": "b) fingir",
+        "explicacao": "“Pretend” é um falso cognato — não significa “pretender” (que em inglês é “intend”), mas sim “fingir”."
+      },
+      {
+        "pergunta": "Choose the correct translation for the word “library”:",
+        "alternativas": ["a) livraria", 
+        "b) livraria virtual", 
+        "c) biblioteca", 
+        "d) livraria escolar",
+        "e) sebos"],
+        "correta": "c) biblioteca",
+        "explicacao": "“Library” significa “biblioteca”, e não “livraria”. Livraria em inglês é “bookstore”."
+      },
+      {
+        "pergunta": "The English word “sensible” means:",
+        "alternativas": ["a) sensível", 
+        "b) sensato", 
+        "c) sentimental", 
+        "d) racional",
+        "e) compreensivo"],
+        "correta": "b) sensato",
+        "explicacao": "“Sensible” parece “sensível”, mas significa “sensato, racional”. “Sensível” em inglês é “sensitive”."
+      },
+      {
+        "pergunta": "Which option best defines the word “parents”?",
+        "alternativas": ["a) parentes", 
+        "b) padrastos", 
+        "c) pais", 
+        "d) genitores e avós",
+        "e) membros da família"],
+        "correta": "c) pais",
+        "explicacao": "“Parents” significa “pais” (pai e mãe). “Parentes” em inglês é “relatives”."
+      },
+      {
+        "pergunta": "The correct meaning of “eventually” is:",
+        "alternativas": ["a) eventualmente", 
+        "b) finalmente", 
+        "c) talvez", 
+        "d) casualmente",
+        "e) possivelmente"],
+        "correta": "b) finalmente",
+        "explicacao": "“Eventually” é um falso cognato — significa “finalmente”, e não “eventualmente”. “Eventualmente” pode ser traduzido como “occasionally” ou “possibly”, dependendo do contexto."
+      },
+      {
+        "pergunta": "“Push the door to enter” — What does “push” mean?",
+        "alternativas": ["a) empurrar", 
+        "b) puxar", 
+        "c) bater", 
+        "d) arrastar",
+        "e) empilhar"],
+        "correta": "a) empurrar",
+        "explicacao": "“Push” significa empurrar. Um erro comum é confundir com “pull” (puxar)."
+      },
+      {
+        "pergunta": "The word “sympathetic” in English means:",
+        "alternativas": ["a) simpático", 
+        "b) sensível", 
+        "c) compreensivo", 
+        "d) educado",
+        "e) agradável"],
+        "correta": "c) compreensivo",
+        "explicacao": "“Sympathetic” não significa “simpático” (que seria “nice” ou “friendly”), mas sim “compreensivo, solidário”."
+      },
+      {
+        "pergunta": "Choose the correct meaning for “college”:",
+        "alternativas": ["a) colégio", 
+        "b) escola pública", 
+        "c) ensino médio", 
+        "d) universidade",
+        "e) ensino fundamental"],
+        "correta": "d) universidade",
+        "explicacao": "“College” se refere ao ensino superior, geralmente uma faculdade ou universidade. “Colégio” em inglês é “high school” ou “school”, dependendo do contexto."
+      },
+      {
+        "pergunta": "The English verb “assist” means:",
+        "alternativas": ["a) assistir", 
+        "b) observar", 
+        "c) ajudar", 
+        "d) apoiar emocionalmente",
+        "e) participar"],
+        "correta": "c) ajudar",
+        "explicacao": "“Assist” é um falso cognato — não significa “assistir” (que seria “watch”), mas sim “ajudar, dar assistência”."
+      },
+      {
+        "pergunta": "“Can you assist me with this form?”<br>O verbo “assist” na frase significa:",
+        "alternativas": ["a) assistir", 
+        "b) ajudar", 
+        "c) preencher", 
+        "d) ensinar",
+        "e) supervisionar"],
+        "correta": "b) ajudar",
+        "explicacao": "“Assist” aqui significa ajudar. Não se refere a “assistir” no sentido de ver algo (que seria watch)."
+      },
+      {
+        "pergunta": "“She was wearing a very elegant costume at the Halloween party.”<br>O que a palavra “costume” significa nessa frase?",
+        "alternativas": ["a) traje típico", 
+        "b) fantasia", 
+        "c) hábito", 
+        "d) roupa formal",
+        "e) pijama"],
+        "correta": "b) fantasia",
+        "explicacao": "Embora “costume” pareça “costume” em português (hábito), aqui significa fantasia (de festa). Para “hábito”, o inglês usa habit ou custom."
+      },
+      {
+        "pergunta": "“He gave me a copy of his resume during the interview.”<br>O que significa “resume” nessa frase?",
+        "alternativas": ["a) resumo", 
+        "b) recomeço", 
+        "c) currículo", 
+        "d) histórico acadêmico",
+        "e) carta de apresentação"],
+        "correta": "c) currículo",
+        "explicacao": "“Resume” nesse contexto é um falso cognato: significa currículo, e não “resumo”. Para “resumo” usa-se summary."
+      },
+      {
+        "pergunta": "“He was reading a novel by a Brazilian author.”<br>A palavra “novel” na frase quer dizer:",
+        "alternativas": ["a) notícia", 
+        "b) romance", 
+        "c) livro científico", 
+        "d) artigo de jornal",
+        "e) conto"],
+        "correta": "b) romance",
+        "explicacao": "“Novel” é um romance literário. Não confunda com “novela” da TV, que seria soap opera."
+      },
+      {
+        "pergunta": "“She didn’t recognize that the story was just a legend.”<br>Na frase acima, a palavra “legend” significa:",
+        "alternativas": ["a) título", 
+        "b) personagem histórico", 
+        "c) lenda", 
+        "d) líder religioso",
+        "e) herói real"],
+        "correta": "c) lenda",
+        "explicacao": "“Legend” é lenda, ou seja, uma história fictícia. Um erro comum é pensar que significa “legenda”, que em inglês é subtitle."
+      },
+      {
+        "pergunta": "“She works for a big college in New York.”<br>O que significa “college” nesse contexto?",
+        "alternativas": ["a) colégio", 
+        "b) faculdade", 
+        "c) cursinho", 
+        "d) escola técnica",
+        "e) escola primária"],
+        "correta": "b) faculdade",
+        "explicacao": "“College” refere-se ao ensino superior, como faculdade. Colégio em inglês é school ou high school."
+      },
+      {
+        "pergunta": "“The company is hiring new interns.”<br>O que significa “interns” nesse caso?",
+        "alternativas": ["a) internos de medicina", 
+        "b) estagiários", 
+        "c) secretários", 
+        "d) novatos",
+        "e) consultores"],
+        "correta": "b) estagiários",
+        "explicacao": "“College” refere-se ao ensino superior, como faculdade. Colégio em inglês é school ou high school."
+      },
+      {
+        "pergunta": "“The results were based on data collected over a year.”<br>O substantivo “data” quer dizer:",
+        "alternativas": ["a) datas", 
+        "b) fatos", 
+        "c) eventos", 
+        "d) dados",
+        "e) registros"],
+        "correta": "d) dados",
+        "explicacao": "“Data” é um verdadeiro cognato de “dados” (informações). Muitos confundem com “datas”, que seriam dates."
+      },
+      {
+        "pergunta": "In the excerpt of Text I: “other estimates find that immigration raises the wages of all US workers, regardless of education” (lines 23-25), <strong>regardless</strong> of, is substituted, without change in meaning, by",
+        "alternativas": ["a) as a result of", 
+        "b) because of", 
+        "c) except for", 
+        "d) despite",
+        "e) due to"],
+        "correta": "d) despite",
+        "explicacao": "No trecho de Texto I: 'outras estimativas acham que a imigração aumenta o salário de todos os trabalhadores norte-americanos, independentemente da educação' (linhas 23-25),independentemente de, é substituído, sem mudança de sentido, por"
+      },
+      {
+        "pergunta": "In 'Furthermore, those who had two or more of these statements were seven times more likely to get the job' (lines 87-89), Furthermore can be substituted, without change in meaning, by",
+        "alternativas": ["a) Instead", 
+        "b) However", 
+        "c) Besides", 
+        "d) Therefore",
+        "e) On the other hand"],
+        "correta": "c) Besides",
+        "explicacao": "Em “Além disso, aqueles que tiveram duas ou mais dessas declarações, tinham sete vezes mais chances de conseguir o emprego” (linhas 87-89), Além disso pode ser substituído, sem mudança no significado por,<br>instead = ao invés de<br>however = entretanto<br>besides = além disso<br>therefore = logo, portanto, por este motivo.<br>On the other hand = por outro lado."
+      },
+      {
+        "pergunta": "The personal pronoun <strong>they</strong>, used twice in the sentence “But they also show how they see their industry in the years to come”, refers to the following fragment at the same paragraph:",
+        "alternativas": ["a) the study", 
+        "b) the results", 
+        "c) banking leaders", 
+        "d) Covid-19 crisis",
+        "e) unprecedented times"],
+        "correta": "c) Besides",
+        "explicacao": "Em “Além disso, aqueles que tiveram duas ou mais dessas declarações, tinham sete vezes mais chances de conseguir o emprego” (linhas 87-89), Além disso pode ser substituído, sem mudança no significado por,<br>instead = ao invés de<br>however = entretanto<br>besides = além disso<br>therefore = logo, portanto, por este motivo.<br>On the other hand = por outro lado."
+      },
+      {
+        "pergunta": "In the sentence of the last paragraph “In short, banks are best-placed to succeed if they commit to end-to-end digital transformation”, the phrase <strong>In short</strong> conveys an idea of",
+        "alternativas": ["a) cause", 
+        "b) addition", 
+        "c) emphasis", 
+        "d) conclusion",
+        "e) time sequence"],
+        "correta": "d) conclusion",
+        "explicacao": "“Na frase do último parágrafo Em suma, os bancos estão melhor posicionados para ter sucesso se eles se comprometerem a ter uma constante transformação digital., a frase Em suma transmite uma ideia de” <br>cause - causa<br>addition – adição<br>emphasis – ênfase<br>conclusion – conclusão<br>time sequence – sequência de tempo"
+      },
+      {
+        "pergunta": "The sentence in which the <strong>boldfaced item expresses an advice is",
+        "alternativas": ["a) “The employer absolutely <strong>must</strong> find people”", 
+        "b) “Programmers <strong>have to</strong> know how to program.”", 
+        "c) “Data analysts <strong>need</strong> to know how to crunch numbers”", 
+        "d) “they <strong>can</strong> shift their focus to their candidates’ mindsets”",
+        "e) “They <strong>should</strong> be articulating their skills”"],
+        "correta": "d) conclusion",
+        "explicacao": "A frase na qual o item em <strong>negrito</strong> expressa um conselho é<br>a) “O empregador absolutamente <strong>precisa</strong> encontrar pessoas”<br>b) “Os programadores <strong>tem que</strong> saber como programar”<br>c) “Os analistas de dados <strong>precisam</strong> saber como processar os números”<br>d) “Eles <strong>podem</strong> mudar o foco deles para a mentalidade dos candidatos”<br>e) “Eles <strong>poderiam</strong> está articulando suas habilidades”"
       }
     ],
 
@@ -3729,7 +4243,7 @@
         "pergunta": "(QUADRIX/CRF GO/2022) Acerca de programação, julgue o item. <br>Durante a execução de um programa, uma variável pode armazenar vários valores a cada instante, ou seja, ela pode armazenar até dez registros ao mesmo tempo.",
         "alternativas": ["Certo", 
         "Errado"],
-        "correta": "Certo",
+        "correta": "Errado",
         "explicacao": "“A cada instante” é uma constatação um pouco forte - mas, de fato, podemos frequentemente mudar o valor de uma variável, afinal, ela é variável. É o que acontece numa recursão, por exemplo. Porém, a variável irá armazenar apenas o valor atual, não múltiplos valores ao mesmo tempo - a não ser que seja uma variável de estrutura de dados. Mesmo assim, não teremos os limites de dez registros ao mesmo tempo. Portanto, podemos concluir que a afirmativa está incorreta."
       },
       {
@@ -4037,6 +4551,30 @@
         "e) Pode-se atribuir um dado a um elemento de qualquer posição do vetor, independentemente do que foi atribuído aos demais elementos."],
         "correta": "d) Os dados de um vetor são armazenados na memória ordenadamente, em modo crescente.",
         "explicacao": "Vamos analisar cada item.<br>a) Correto. No armazenamento em memória, os vetores (ou arrays) são armazenados de forma contígua, ou seja, contínua, um ao lado do outro.<br>b) Correto. Os vetores são estruturas homogêneas, portanto só aceita um mesmo tipo de dado.<br>c) Correto. A forma de acessar elementos num vetor é feita através de um índice - sua posição relativa no conjunto de dados.<br>d) Errado. Eles são armazenados de forma ordenada, o que quer dizer que as posições são crescentes, mas não seus valores.<br>e) Correto. Como trabalhamos com índices, podemos acessar qualquer posição, diferentemente de estruturas como filas e pilhas."
+      },
+      {
+        "pergunta": "(Instituto Cidades - 2012 - TCM-GO - Auditor de Controle Externo - Informática) São exemplos de algoritmos de ordenação, exceto:",
+        "alternativas": ["a) Bubble Sort",
+        "b) Select Sort",
+        "c) Shell Sort",
+        "d) Busca Sequencial",
+        "e) Quick Sort"],
+        "correta": "d) Busca Sequencial",
+        "explicacao": "Conforme vimos em aula, a Busca Sequencial não é um algoritmo de ordenação! Na verdade, ele é um método de pesquisa sobre estruturas de dados."
+      },
+      {
+        "pergunta": "(FUMARC - 2012 - TJ-MG - Técnico Judiciário - Analista de Sistemas – I) Quicksort divide um conjunto de itens em conjuntos menores, que são ordenados de forma independe, e depois os resultados são combinados para produzir a solução de ordenação do conjunto maior.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Conforme vimos em aula, está perfeito! Sendo um algoritmo do tipo Dividir Para Conquistar, ele reparte o conjunto de dados em conjuntos menores, que são ordenados independentemente e depois combinados em uma solução maior."
+      },
+      {
+        "pergunta": "(CESPE - 2012 - MPE-PI - Analista Ministerial - Informática - Cargo 6) O heapsort é um algoritmo de ordenação em que a quantidade de elementos armazenada fora do arranjo de entrada é constante durante toda a sua execução.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Conforme vimos em aula, está perfeito! Sendo um algoritmo do tipo Dividir Para Conquistar, ele reparte o conjunto de dados em conjuntos menores, que são ordenados independentemente e depois combinados em uma solução maior."
       }
     ],
 
