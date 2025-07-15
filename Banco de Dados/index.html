@@ -1037,6 +1037,50 @@
             <p>O Data Mart é considerado um pequeno Data Warehouse – ou um subconjunto/segmentação de um Data Warehouse – que contém dados de uma organização em geral restritos a uma unidade de negócio ou a um processo de negócio específico com a finalidade de dar suporte ao processo decisório da alta direção por meio da criação de uma visão personalizada dos dados.</p>
             <p>Data Marts geralmente lidam com um único assunto, sendo frequentemente construídos e gerenciados por um único departamento comercial. Eles normalmente obtêm dados de apenas um pequeno número de fontes e – como consequência – são geralmente menos complexos, mais econômicos, mais fáceis de construir e mais fáceis de manter do que Data Warehouses.</p>
             <p>Os Data Marts são utilizados por uma única unidade de negócios para armazenar suas informações. Digamos que o departamento de vendas de uma empresa tenha que armazenar seus dados de negócios – eles poderão utilizar um Data Mart para armazenar seus dados. Quando as informações precisam ser visualizadas pelos superiores, elas são carregadas em um Data Warehouse e são, então, transformadas em insights usando software de Business Intelligence.</p>
+            <p>Para fazer consulta dentro dos Data Marts é possível usar o OLAP e o Data Mining.</p>
+            <p>OLAP: Ferramentas de Processamento Analítico Online que permitem análise multidimensional dos dados, oferecendo capacidades de slicing, dicing e drill-down para explorar insights.</p>
+            <p>Data Mining: Processo de descoberta de padrões significativos em grandes conjuntos de dados, usando métodos estatísticos e algoritmos para encontrar insights ocultos.</p>
+
+            <p><strong>Funcionamento do processo de um Data Warehouse.</strong></p>
+            <p><img src="img/ProcessoDW.png" alt="Processo de um Data Warehouse">
+            </p>
+
+            <p><strong>DW Kimball</strong> (Bottom to Up)</p>
+            <p><img src="img/dw.kimball.png" alt="DW Kimball"></p>
+
+            <p><strong>DW Inmon</strong> (Top to Down)</p>
+            <p><img src="img/dw.inmon.png" alt="DW Inmon"></p>
+            
+            <h3>ETL (Extract, Transform and Load)</h3>
+
+            <p>O processo de extrair dados de sistemas de origem e trazê-los para o Data Warehouse é comumente chamado de <strong>ETL (Extract, Transform e Load)</strong>. É importante entender que o <u>ETL se refere a um processo mais amplo e, não, a três etapas bem definidas</u>.</p>
+            <p>Ele <strong>é o processo mais crítico e demorado na construção de um Data Warehouse</strong>, uma vez que consiste na extração dos dados de fontes homogêneas ou heterogêneas; na transformação elimpeza destes dados; e na carga dos dados no DW.</p>
+
+            <p><strong>Extract (Extração)</strong></p>
+            <p>Se estes dados não forem corretamente trabalhados no processo de extração, as informações geradas através deles farão com que decisões sejam tomadas erroneamente, podendo afetar diretamente os negócios da organização. A maior parte do esforço exigido no desenvolvimento de um DW é consumido neste momento – cerca de uns 80%. Sendo a maior parte do Processo de ETL sendo a Extração - cerca de 60% do processo de ETL.</p>
+
+            <p><strong>Stage Area</strong></p>
+            <p>No momento da criação de um DW, é comum realizar uma carga de dados inicial, mas com o decorrer do tempo a extração deve estar preparada apenas para fazer cargas incrementais.</p>
+            <p>A carga incremental é muito mais eficiente visto que carrega apenas os dados que foram inseridos desde a carga inicial. Os <u>dados que foram extraídos, mas ainda não foram transformados e carregados no Data Warehouse vão para um local chamado <strong>Stage Area</strong>!</u></p>
+            <p>os dados devem estar padronizados, consistentes e uniformizados antes de serem carregados no Data Warehouse! Para tal, eles precisam ser limpos, entre outras atividades. Isso tudo ocorre na Stage Area, portanto ela é basicamente uma localização temporária de onde os dados de diversas fontes de origem são copiados - parecido quando a gente usam Ctrl+C e fica na Área de Transferência até ser colado.</p>
+
+            <p><strong>Transform (Transformação)</strong></p>
+            <p>A transformação dos dados é a fase subsequente à extração. Esta fase não só transforma os dados, mas também realiza a limpeza dos mesmos. A correção de erros de digitação, a descoberta de violações de integridade, a substituição de caracteres desconhecidos, a padronização de abreviações podem ser exemplos dessa limpeza.</p>
+
+            <p><strong>Load (Carga)</strong></p>
+            <p>Já a fase de carga consiste no carregamento dos dados para seu destino final. Esse processo pode variar muito, uma vez que alguns Data Warehouses podem adicionar as informações existentes mensalmente (com dados cumulativos e atualizados) ao passo que outros podem adicionar dados a cada hora, dia ou semana.</p>
+
+            <p><strong>ELT</strong> (pouco cobrado em prova)</p>
+            <p>ELT é uma inversão da ordem das etapas que vimos anteriormente: em vez de fazermos (1) Extração, depois (2) Transformação e só depois a (3) Carga, nós fazemos a (1) Extração, depois a (2) Carga e só depois a (3) Transformação dos dados. Primeiramente, é importante destacar que os processos de ETL e ELT – apesar de diferentes – solucionam o mesmo problema.</p>
+            <p>O ELT é mais utilizado quando se tem um volume massivo de dados. O ELT leva menos tempo no carregamento e na transformação de dados e, por isso, é mais econômico.</p>
+
+            <p><strong>Esquema Final</strong></p>
+            <p><img src="img/BD-DW-ESQUEMAFINAL.png" alt="Esquema final do Data Warehouse"></p>
+
+
+
+
+
 
 
         </section>
@@ -1267,7 +1311,6 @@
   
     <script src="../js/questoes.js"></script>
     <script>
-      // matéria e o número de questões
       carregarQuestoes('bancoDeDados', 15);
     </script>
 </body>

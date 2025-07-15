@@ -1377,27 +1377,29 @@
 
             <h3>Métodos de Ordenação</h3>
             <p><strong>Métodos de Ordenação</strong> são algoritmos que têm o objetivo principal de posicionar os elementos de uma estrutura de dados em uma <strong>determinada ordem</strong>. Pois isso possibilita o acesso mais rápido e eficiente aos dados. Existem dezenas de métodos, todavia nessa aula veremos apenas os mais importantes: BubbleSort, QuickSort, InsertionSort, SelectionSort, MergeSort, ShellSort e HeapSort.</p>
-            <p><strong>Estabilidade:</strong> Um método estável é aquele em que os itens com chaves iguais mantêm-se com a posição inalterada durante o processo de ordenação, i.e., preserva-se a ordem relativa dos itens com chaves duplicadas ou iguais. <strong>Métodos Estáveis:</strong> Bubble, Insertion e Merge; <strong>Métodos Instáveis:</strong> Selection, Quick, Heap e Shell. Vejamos um exemplo:</p>
+            <p><strong>Estabilidade:</strong> Um método estável é aquele em que os itens com chaves iguais mantêm-se com a posição inalterada durante o processo de ordenação, ou seja, preserva-se a ordem relativa dos itens com chaves duplicadas ou iguais. <strong>Métodos Estáveis:</strong> Bubble, Insertion e Merge; <strong>Métodos Instáveis:</strong> Selection, Quick, Heap e Shell. Vejamos um exemplo:</p>
             <p><img src="img/metodo.ordenacao.estaveis.instaveis.png" alt="Método de Ordenacao - Estaveis e Instaveis"></p>
             <p>Na imagem acima, foi colocado um sinal de aspas simples e duplas apenas para diferenciá-los, mas trata-se do mesmo número. Um algoritmo estável ordena todo o restante e não perde tempo trocando as posições de elementos que possuam chaves idênticas. Já um algoritmo instável ordena todos os elementos, inclusive aqueles que possuem chaves idênticas (sob algum outro critério).</p>
 
             <p><strong>BubbleSort (Troca)</strong></p>
             <p>Nesse método, os elementos da lista são movidos para as posições adequadas de forma contínua.</p>
             <p>Em cada iteração do método, percorremos a lista a partir de seu início comparando cada elemento com seu sucessor, trocando-se de posição se houver necessidade.</p>
+            <p>Algoritmo usa o conceito de bolhas subindo até o topo.</p>
             <p><img src="img/bubble sort.png" alt="bubble sort"></p>
             <p><img src="img/bubble sort2.png" alt="bubble sort"></p>
             <p> É possível mostrar que, se a lista tiver n elementos, após no máximo (n-1) iterações, a lista estará em ordem (crescente ou decrescente). Observem abaixo o código para a Ordenação em Bolha:</p>
             <p><img src="img/bubble sort3.png" alt="bubble sort"></p>
 
             <p><strong>SelectionSort (Seleção)</strong></p>
-            <p>Esse algoritmo consiste em selecionar o menor1 elemento de um vetor e trocá-lo (swap) pelo item que estiver na primeira posição, i.e., inseri-lo no início do vetor.</p>
-            <p>Em cada iteração do método, percorremos a lista a partir de seu início buscando o menor número, comparado todos os números, ele passa o menor número para a primeira posição.</p>
+            <p>Esse algoritmo consiste em selecionar o menor elemento de um vetor e trocá-lo (swap) pelo item que estiver na primeira posição, ou seja, inseri-lo no início do vetor.</p>
+            <p>Em cada iteração do método, percorremos a lista a partir de seu início buscando o menor número, comparado todos os números, ele passa o menor número para a primeira posição. Essas duas operações são repetidas com os itens restantes até o último elemento. </p>
+            <p>Algoritmo escolhe o menor elemento a cada passada.</p>
             <p><img src="img/selection.sort.png" alt="selection sort"></p>
-            <p>Assim, a parte esquerda aumenta, visto que passa a incluir o pivô, e a parte direita diminui. Note que o pivô é maior que todos os demais elementos da parte esquerda, portanto a parte esquerda continua ordenada. Ademais, o pivô era o menor elemento da direita, logo todos os elementos da esquerda continuam sendo menores ou iguais aos elementos da direita. Inicialmente, a parte esquerda é vazia.</p>
             <p><img src="img/selection.sort3.png" alt="selection sort"></p>
 
             <p><strong>Insertion Sort</strong></p>
             <p>Esse algoritmo, também conhecido como Inserção Direta, é bastante simples e apresenta um desempenho significativamente melhor que o BubbleSort, em termos absolutos. Além disso, ele é extremamente eficiente para listas que já estejam substancialmente ordenadas e listas com pequeno número de elementos.</p>
+            <p>Algoritmo se comporta como cartas sendo organizadas na mão.</p>
             <p><img src="img/insertion.sort.png" alt="insertion sort"></p>
             <p><img src="img/insertion.sort2.png" alt="insertion sort"></p>
             <p><img src="img/insertion.sort3.png" alt="insertion sort"></p>
@@ -1406,6 +1408,7 @@
 
             <p><strong>ShellSort (Inserção)</strong></p>
             <p>Nesse método, as comparações e as trocas são feitas conforme determinada distância (gap) entre dois elementos, de modo que, se gap = 6, há comparação entre o 1º e 7º elementos ou entre o 2º e 8º elementos e assim sucessivamente, repetindo até que as últimas comparações e trocas tenham sido efetuadas e o gap tenha chegado a 1.</p>
+            <p>Algoritmo é uma melhoria do Insertion Sort com saltos.</p>
             <p><img src="img/shell.sort.png" alt="Shell Sort"></p>
             <p><img src="img/shell.sort2.png" alt="Shell Sort"></p>
             <p><img src="img/shell.sort3.png" alt="Shell Sort"></p>
@@ -1413,14 +1416,16 @@
             <p><strong>QuickSort (Troca)</strong></p>
             <p>Neste método, a lista é dividida em parte esquerda e parte direita, sendo que os elementos da parte esquerda são todos menores que os elementos da parte direita. Essa fase do processo é chamada de partição. Em seguida, as duas partes são ordenadas recursivamente (usando o próprio QuickSort).</p>
             <p>Uma estratégia para fazer a partição é escolher um valor como pivô e então colocar na parte esquerda os elementos menores ou iguais ao pivô e na parte direita os elementos maiores que o pivô – galera, a escolha do pivô é crítica! Em geral, utiliza-se como pivô o primeiro elemento da lista, a despeito de existirem maneiras de escolher um “melhor” pivô.</p>
+            <p>Algoritmo é o mais rápido na prática e usa pivôs.</p>
             <p><img src="img/quick.sort.png" alt="Quick Sort"></p>
             <p>Esse algoritmo é um dos métodos mais rápidos de ordenação, apesar de às vezes partições desequilibradas poderem conduzir a uma ordenação lenta. A eficácia do método depende da escolha do pivô mais adequado ao conjunto de dados que se deseja ordenar. Alguns, por exemplo, utilizam a mediana de três elementos para otimizar o algoritmo.</p>
             <p><img src="img/quick.sort2.png" alt="Quick Sort"></p>
 
             <p><strong>MergeSort (Intercalação)</strong></p>
             <p>Essa técnica consiste basicamente em decompor a instância a ser resolvida em instâncias menores do mesmo tipo de problema, resolver tais instâncias (em geral, recursivamente) e por fim utilizar as soluções parciais para obter uma solução da instância original.</p>
-            <p>Naturalmente, nem todo problema pode ser resolvido através de divisão e conquista. Para que seja viável aplicar essa técnica a um problema, ele deve possuir duas propriedades estruturais. O problema deve ser decomponível, i.e., deve ser possível decompor qualquer instância não trivial do problema em instâncias menores do mesmo tipo de problema.</p>
+            <p>Naturalmente, nem todo problema pode ser resolvido através de divisão e conquista. Para que seja viável aplicar essa técnica a um problema, ele deve possuir duas propriedades estruturais. O problema deve ser decomponível, ou seja, deve ser possível decompor qualquer instância não trivial do problema em instâncias menores do mesmo tipo de problema.</p>
             <p>Além disso, deve ser sempre possível utilizar as soluções obtidas com a resolução das instâncias menores para chegar a uma solução da instância original. No MergeSort, divide-se a lista em duas metades. Essas metades são ordenadas recursivamente (usando o próprio MergeSort) e depois são intercaladas. Abaixo segue uma possível solução:</p>
+            <p>Algoritmo é o mais eficiente e usa divisão recursiva</p>
             <p><img src="img/merge.sort.png" alt="Merge Sort"></p>
             <p><img src="img/merge.sort2.png" alt="Merge Sort"></p>
             <p><img src="img/merge.sort3.png" alt="Merge Sort"></p>
@@ -1437,9 +1442,149 @@
             <p><img src="img/heap.sort3.png" alt="Heap Sort"></p>
             <p><img src="img/heap.sort4.png" alt="Heap Sort"></p>
 
-            <p><strong>Resumo das Complexidades</strong></p>
-            <p><img src="img/resumocomplexidades.png" alt="Heap Sort"></p>
+            <p></p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="7">Quadro-Resumo Comparativo</th>
+                        </tr>
+                        <tr>
+                            <th>Algoritmo</th>
+                            <th>Melhor Caso</th>
+                            <th>Médio Caso</th>
+                            <th>Pior Caso</th>
+                            <th>Estável</th>
+                            <th>In-place</th>
+                            <th>Palavra-chave</th>
+                        </tr>
+                        <tr>
+                            <td>Bubble Sort</td>
+                            <td>O(n)</td>
+                            <td>O(n²)</td>
+                            <td>O(n²)</td>
+                            <td>Sim</td>
+                            <td>Sim</td>
+                            <td>Bolhas subindo</td>
+                        </tr>
+                        <tr>
+                            <td>Insertion Sort</td>
+                            <td>O(n)</td>
+                            <td>O(n²)</td>
+                            <td>O(n²)</td>
+                            <td>Sim</td>
+                            <td>Sim</td>
+                            <td>Cartas na mão</td>
+                        </tr>
+                        <tr>
+                            <td>Selection Sort</td>
+                            <td>O(n²)</td>
+                            <td>O(n²)</td>
+                            <td>O(n²)</td>
+                            <td>Não</td>
+                            <td>Sim</td>
+                            <td>Seleção do menor</td>
+                        </tr>
+                        <tr>
+                            <td>Merge Sort</td>
+                            <td>O(n log n)</td>
+                            <td>O(n log n)</td>
+                            <td>O(n log n)</td>
+                            <td>Sim</td>
+                            <td>Não</td>
+                            <td>Divide e conquista</td>
+                        </tr>
+                        <tr>
+                            <td>Quick Sort</td>
+                            <td>O(n log n)</td>
+                            <td>O(n log n)</td>
+                            <td>O(n²)</td>
+                            <td>Não</td>
+                            <td>Sim</td>
+                            <td>Pivô esperto</td>
+                        </tr>
+                        <tr>
+                            <td>Heap Sort</td>
+                            <td>O(n log n)</td>
+                            <td>O(n log n)</td>
+                            <td>O(n log n)</td>
+                            <td>Não</td>
+                            <td>Sim</td>
+                            <td>Árvore de prioridades</td>
+                        </tr>
+                        <tr>
+                            <td>Shell Sort</td>
+                            <td>O(n log n)</td>
+                            <td>Depende</td>
+                            <td>O(n²)</td>
+                            <td>Não</td>
+                            <td>Sim</td>
+                            <td>Gap e Redução</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
+            <h3>Complexidade de Algoritmos</h3>
+            <p>A complexidade de um algoritmo pode ser avaliada pela quantidade de <strong>operações executadas</strong>, independentemente do computador, linguagem ou compilador usado. Essa medição mostra a <strong>qualidade intrínseca do algoritmo</strong>, e para isso usamos simplificações matemáticas.</p>
+            <p><strong>Tipos de Casos:</strong></p>
+            <ul>
+                <li><strong>Melhor caso:</strong> dados já ordenados (ex: cartas 4, 5, 6, 7, 8) → menos trabalho.</li>
+                <li><strong>Pior caso:</strong> dados em ordem inversa (ex: 8, 7, 6, 5, 4) → mais trabalho.</li>
+                <li><strong>Caso médio:</strong> dados em ordem aleatória.</li>
+            </ul>
+            <p><strong>Notação Big-O (ou Notação Assintótica):</strong></p>
+            <p>É uma forma de representar o comportamento do algoritmo à medida que o tamanho da entrada (N) aumenta. Ela expressa quantas operações primitivas serão feitas em função desse tamanho.</p>
+            <ul>
+                <li>Exemplo: somar dois números de n dígitos exige n adições → complexidade O(n).</li>
+                <li>Se o algoritmo for O(n²), isso indica que o número de operações cresce proporcionalmente ao quadrado da entrada.</li>
+            </ul>
+            <p>A Notação Big-O nos ajuda a responder perguntas como:</p>
+            <p><em>“Se ordenar 10 mil dados leva 1 segundo, quanto tempo levará para ordenar 1 milhão?”</em></p>
+            <p>Sobre o tempo de execução: quanto MAIOR a complexidade, mais LENTO é o algoritmo.</p>
+            <p>Ordem do mais rápido para o mais lento:</p>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Notação</th>
+                            <th>Crescimento</th>
+                            <th>Interpretação Simples</th>
+                            <th>Tempo relativo</th>
+                        </tr>
+                        <tr>
+                            <td>O(1)</td>
+                            <td>Constante</td>
+                            <td>Sempre mesmo tempo</td>
+                            <td>🟢 Super rápido</td>
+                        </tr>
+                        <tr>
+                            <td>O(log n)</td>
+                            <td>Logarítmico</td>
+                            <td>Cresce bem devagar</td>
+                            <td>🟢 Muito rápido</td>
+                        </tr>
+                        <tr>
+                            <td>O(n)</td>
+                            <td>Linear</td>
+                            <td>Proporcional ao tamanho da entrada</td>
+                            <td>🟡 Razoável</td>
+                        </tr>
+                        <tr>
+                            <td>O(n log n)</td>
+                            <td>Linear-log</td>
+                            <td>Um pouco mais que linear</td>
+                            <td>🟡 Boa escolha</td>
+                        </tr>
+                        <tr>
+                            <td>O(n²)</td>
+                            <td>Quadrática</td>
+                            <td>Cresce MUITO com entradas maiores</td>
+                            <td>🔴 Lento</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
         </section>
 
@@ -1456,7 +1601,6 @@
   
     <script src="../js/questoes.js"></script>
     <script>
-      // Aqui você escolhe a matéria e o número de questões
       carregarQuestoes('desenvolvimentoDeSoftware', 15);
     </script>
 </body>
