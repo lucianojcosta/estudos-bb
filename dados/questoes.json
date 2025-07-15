@@ -3439,8 +3439,406 @@
         "e) rapidez com que os dados se tornam inválidos com o tempo."],
         "correta": "b) existência de um alto fluxo de dados na entrada.",
         "explicacao": "O termo velocidade refere-se à velocidade com que os dados são criados. Em outras palavras, tratase da existência de um alto fluxo de dados na entrada. São mensagens de redes sociais se viralizando em segundos, transações de cartão de crédito sendo verificadas a cada instante ou os milissegundos necessários para calcular o valor de compra e venda de ações."
+      },
+      {
+        "pergunta": "(SANASA/2019)<br><img src='../dados/imgs/questao_bancodedados_9.png' alt='imagem da questão'><br>As ferramentas de Exploração identificadas como Ferramenta 1 e Ferramenta 2 na imagem, dentro do contexto a que se aplicam, são, dentro outras,",
+        "alternativas": ["a) Staging Area e Data Mining.", 
+        "b) OLAP e Data Mining.",
+        "c) Snowflake e Staging Area.",
+        "d) OLAP e Near Line Storage.", 
+        "e) Near Line Storage e Star Schema."],
+        "correta": "b) OLAP e Data Mining.",
+        "explicacao": "OLAP e Data Mining são as ferramentas de exploração."
+      },
+      {
+        "pergunta": "(SANASA/2019)<br><img src='../dados/imgs/questao_bancodedados_9.png' alt='imagem da questão'><br>O Processo, representado na imagem por um retângulo vertical, é um método de alimentação do Data Warehouse a partir de diversos dados da organização. Trata-se de",
+        "alternativas": ["a) ODS.", 
+        "b) ERP.",
+        "c) ETL.",
+        "d) CRM.", 
+        "e) EIS."],
+        "correta": "c) ETL.",
+        "explicacao": "ETL é o processo representado na imagem."
+      },
+      {
+        "pergunta": "(SANASA/2019)<br><img src='../dados/imgs/questao_bancodedados_9.png' alt='imagem da questão'><br>O sistema de suporte a decisão representado em cada um dos cilindros do conjunto denominado Específicos, na imagem, é um",
+        "alternativas": ["a) Catálogo de Metadados.", 
+        "b) Schema.",
+        "c) Drill.",
+        "d) OLTP.", 
+        "e) Data Mart."],
+        "correta": "e) Data Mart.",
+        "explicacao": "Data Mart são os cilindros representados na imagem."
+      },
+      {
+        "pergunta": "(FGV/ALERJ/2017)<br><img src='../dados/imgs/questao_bancodedados_10.png' alt='imagem da questão'><br>Para carregar esses dados no Data Warehouse com a descrição dos turnos no lugar de seu código, Daniel deve desenvolver um programa para ler os dados do arquivo, realizar transformações e carregar o resultado no banco de dados.<br>A ferramenta a ser utilizada por Daniel é:",
+        "alternativas": ["a) ETL.", 
+        "b) OLAP.",
+        "c) Data Mining.",
+        "d) OBDC.", 
+        "e) XSLT."],
+        "correta": "a) ETL.",
+        "explicacao": "ETL é o processo que realiza transformações e carrega. Extract, Transform and Load"
+      },
+      {
+        "pergunta": "(FGV/AL-BA/2014) Aplicações OLAP destinam-se à análise e à manipulação de dados DataWarehouse sob múltiplas perspectivas.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "OLAP destina-se à análise e à manipulação de dados DataWarehouse sob múltiplas perspectivas."
+      },
+      {
+        "pergunta": "(FGV/AL-BA/2014) ETL são ferramentas que realizam a extração de dados de diversos sistemas, a transformação desses dados conforme regras de negócios e a carga dos mesmos em um DataWarehouse",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Alternativa Correta. ETL é o processo que realiza a extração, transformações e carregamentos em um DW. ETL = Extract, Transform and Load"
+      },
+      {
+        "pergunta": "(Cespe/BANESE/2021) Um data warehousing transforma dados operacionais em informação voltada à tomada de decisão estratégica. As consultas realizadas são executadas e processadas nos provedores de informação originais.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As consultas são realizadas após o processo de ETL."
+      },
+      {
+        "pergunta": "(Cespe/BANESE/2021) ETL é um tipo de data integration com capacidades analíticas sofisticadas que permite que os dados sejam analisados a partir de visões multidimensionais complexas e elaboradas. Além disso, esse sistema possibilita alterar e analisar grandes quantidades de dados em várias perspectivas diferentes.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "ETL é o processo de Extração, Transformação e Carregamento. As consultas são feitas por meio do OLAP e Data Mining."
+      },
+      {
+        "pergunta": "(Cespe/STM/2018) O ambiente ETL permite a visualização dos dados para análise de maneira multidimensional.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "ETL é o processo de Extração, Transformação e Carregamento. As consultas são feitas por meio do OLAP e Data Mining."
+      },
+      {
+        "pergunta": "(Cespe/BANESE/2021) A modelagem multidimensional é a técnica de modelagem de banco de dados para o auxílio às consultas do Data Warehousing nas mais diferentes perspectivas. A visão multidimensional permite o uso mais intuitivo para o processamento analítico online.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Enquanto as ferramentas OLTP são ferramentas mais operacionais, as ferramentas OLAP são ferramentas mais analíticas."
+      },
+      {
+        "pergunta": "(Casa da Moeda/2009) Uma empresa deseja criar uma base de dados para apoio à tomada de decisão. As informações corporativas encontram-se em 4 bancos de dados distintos e possuem representações diferentes para atributos de uma pessoa física. Por exemplo, em determinado banco de dados, uma pessoa fisica do sexo masculino é representada por um atributo com valor M, enquanto que em outro banco de dados, com valor 1.<br>Em que etapa de um procedimento de ETL para essa base de dados deve ocorrer uma padronização desse tipo de valor?",
+        "alternativas": ["a) Extração.", 
+        "b) Deleção.",
+        "c) Transformação.",
+        "d) Paralelismo.", 
+        "e) Carga."],
+        "correta": "c) Transformação.",
+        "explicacao": "A integração e padronização desses dados é feita na Extração."
+      },
+      {
+        "pergunta": "(Cespe/SEFAZ-CE/2021) Comparado ao ETL, o ELT apresenta vantagens como tempos menores de carregamento e de transformação de dados, e, consequentemente, menor custa de manutenção.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Correto."
+      },
+      {
+        "pergunta": "(Cespe/MPE-AP/2021) Tecnologias que recuperam dados de muitas fontes, limpando-os e carregando-os em Data Warehouse, e que fazem parte de qualquer projeto centrado em dados denominam-se",
+        "alternativas": ["a) Depósitos de Dados Operacionais (ODS).", 
+        "b) ETL (Extract, Transform and Load).",
+        "c) BPM (Business Performance Management).",
+        "d) OLTP (Online Transaction Processing).", 
+        "e) KPI (Key Performance Indicators)."],
+        "correta": "b) ETL (Extract, Transform and Load).",
+        "explicacao": "ETL é o processo de Extração, Transformação e Carregamento."
+      },
+      {
+        "pergunta": "(MJSP/2020) Um Data Warehouse (DW), via de regra, possui grande quantidade de dados advindos tanto de fontes homogêneas quanto heterogêneas. Dentro desse cenário. em relação às ferramentas de ETL, assinale a alternativa correta.",
+        "alternativas": ["a) Possuem a função de efetuar toda a limpeza dos dados heterogêneos e definir as regras de negócios para que os filtros sejam aplicados.", 
+        "b) As ferramentas de ETL modernas são capazes de fazer a extração e a carga dos dados de forma simultânea no DW.",
+        "c) Possuem a função de fazer a extração e possível limpeza e reformatação dos dados, para que estes possam ser carregados no DW.",
+        "d) Possuem a função de estabelecer regras de filtragem multidimensional dos dados, gerando visões específicas de acordo com as regras de negócio.", 
+        "e) Possuem a função de gerar metadados que poderão alimentar ferramentas de Data Mining, OLAP e Big Data."],
+        "correta": "c) Possuem a função de fazer a extração e possível limpeza e reformatação dos dados, para que estes possam ser carregados no DW.",
+        "explicacao": "ETL é o processo de Extração, Transformação e Carregamento. Pode ser que não precise de limpeza, mas consegue fazer a limpeza."
+      },
+      {
+        "pergunta": "(Cespe/2011) Todos os dados de um sítio web acessados por meio de protocolo http podem ser extraídos, independentemente do perfil de acesso do usuário.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Para extrair dados de sites web, os dados podem ser negados por meio de captcha ou por não ter acesso do usuário para isso."
+      },
+      {
+        "pergunta": "(TCE-PA/2012) Sobre ETL (Extract, Transform and Load), é correto afirmar que",
+        "alternativas": ["a) a extração e carga são opcionais no processo, porém a transformação é obrigatória.", 
+        "b) é o processo para tratamento dos dados de uma ou mais bases de dados de origem, para uma ou mais bases de dados de destino.",
+        "c) concentra a menor parte do esforço exigido no desenvolvimento de um Data Warehouse.",
+        "d) não necessariamente os dados necessitam ficar homogênmeos para serem carregados no Data Warehouse, pois uma das funções deste último é resolver os conflitos que não foram resolvidos pela ETL.", 
+        "e) na fase de transformação dos dados não devem ser corrigidos erros de digitação ou descoberta de violações de integridade, por exemplo, para os dados serem mantidos como os originais."],
+        "correta": "b) é o processo para tratamento dos dados de uma ou mais bases de dados de origem, para uma ou mais bases de dados de destino.",
+        "explicacao": "ETL é o processo de Extração, Transformação e Carregamento."
+      },
+      {
+        "pergunta": "(Cespe/MPOG/2013) Em ELT, frequentemente, é necessário limpar, ajustar e consolidar os dados antes de realizar sua carga. Nesse estágio de transformação, aplicam-se regras ou funções aos dados extraídos para ajustar os dados a serem carregados. A limpeza trata ded vários tipos de erros, como, por exemplo, valores ilegais, ou que não obedeçam às regras de integridade da base, e erros de ortografia.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Descreve exatamente o que é ETL."
+      },
+      {
+        "pergunta": "(Cespe/Anatel/2013) As ferramentas de business inteligence, encarregadas de extrair e carregar dados na base de dados de BI, são denominadas ferramentas de ETL.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Questão dada em videoaula, professor não explicou muito."
+      },
+      {
+        "pergunta": "(Cespe/ANTT/2013) Ferramentas ETL são utilizadas na extração, transformação e remoção de dados.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não é remoção, é carregamento."
+      },
+      {
+        "pergunta": "(FCC/Pref. PI/2016) O processo ETL é uma etapa importante no projeto de um Data Warehouse. No processo ETL,",
+        "alternativas": ["a) somente é possível realizar a carga periódica de dados no Data Warehouse uma vez a cada semana.", 
+        "b) a fase de transformação de dados envolve apenas alterações nos tipos vindos do ambiente operacional.",
+        "c) a fase de extração envolve a leitura de dados do Data Warehouse e sua carga posterior nos bancos de dados operacionais.",
+        "d) na fase de transferência de dados são desprezados os puramentos literais.", 
+        "e) um intervalo possível para a carga periódica de dados no Data Warehouse é de 24 horas."],
+        "correta": "e) um intervalo possível para a carga periódica de dados no Data Warehouse é de 24 horas.",
+        "explicacao": "A alternativa menos errada é a letra E. É <strong>póssível</strong> sim que a carga dure 24 horas."
+      },
+      {
+        "pergunta": "(FCC/AL-MS/2016)<br><img src='../dados/imgs/questao_bancodedados_11.png' alt='imagem da questão'><br>No processo de ETL mostrado na figura, I e II correspondem, respectivamente, a",
+        "alternativas": ["a) OLTP e Data Warehouse.", 
+        "b) OLTP e Staging Area.",
+        "c) Data Mart e Staging Area.",
+        "d) Staging Area e OLTP.", 
+        "e) Staging Area e Data Warehouse."],
+        "correta": "e) Staging Area e Data Warehouse.",
+        "explicacao": "Os processos da imagem correspondem a Staging Area e Data Warehouse."
+      },
+      {
+        "pergunta": "(FEPESE/2017) ETL é o método mais comum para transferir dados de uma fonte de dados OLTP para um Data Warehouse. Contudo, pode-se também empregar o processo de extração, carga e transformação no formato ELT. Para tanto, faz-se necessário o uso de:",
+        "alternativas": ["a) Staging tables ou tabelas intermediárias no banco de dados de destino (Data Warehouse).", 
+        "b) Tecnologias distintas de banco de dados de origem (OLTP) e de destino (Data Warehouse).",
+        "c) Metodologia Kimbell e esquemas estrela normalizados para a modelagem do Data Warehouse.",
+        "d) Extração Full de todos os dados tanto das tabelas de dimensões quanto de fatos.", 
+        "e) Técnicas de Data Mining sobre Data Marts relacionais."],
+        "correta": "a) Staging tables ou tabelas intermediárias no banco de dados de destino (Data Warehouse).",
+        "explicacao": "A mais correto é a alternativa A. Como se trata de um ELT (oposto ao ETL)."
+      },
+      {
+        "pergunta": "(FCC/DPE-RS/2017) O processo de ETL é composto por algumas fases, identificadas como entregar, limpar, extrair e preparar. A ordem correta para a execução dessas fases é",
+        "alternativas": ["a) limpar, preparar, extrair e entregar.", 
+        "b) preparar, limpar, entregar e extrair.",
+        "c) entregar, preparar, limpar e extrair.",
+        "d) entregar, extrair, limpar e preparar.", 
+        "e) extrair, limpar, preparar e entregar."],
+        "correta": "e) extrair, limpar, preparar e entregar.",
+        "explicacao": "ETL é o processo de Extração, Transformação e Carregamento."
+      },
+      {
+        "pergunta": "(Cespe/2018) Uma ferramenta de ETL deve ser capaz de extrair dados de fontes heterogêneas, copiá-los para uma área de transição, onde possam ser convertidos conforme o padrão estabelecidade, e, ainda, realizar limpeza e correção nesses dados, de acordo com regras preestabelecidas.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "ETL é o processo de Extração, Transformação e Carregamento."
+      },
+      {
+        "pergunta": "(Cespe/2018) Em processos ligados a ETL, os dados são identificados e extraídos de diferentes forntes, incluindo sistemas de banco de dados e aplicações.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "ETL é o processo de Extração, Transformação e Carregamento."
+      },
+      {
+        "pergunta": "(Cesgranrio/2018) No processo de extração, transformação e carga (ETL), uma característica da data staging área é a de",
+        "alternativas": ["a) aderir ao barramento de serviços da organização, de forma fisicamente descentralizada.", 
+        "b) apresentar serviços de consulta e apresentação para usuários finais dos servidores OLTP.",
+        "c) armazenas os dados selecionais provenientes das diversas fontes para serem usados pelo processo.",
+        "d) criar uma estrutura normalizada em enterprise data warehouses para suportar aplicações OLAP.", 
+        "e) suportar o processo de engenharia reversa interpretável pelo administrador de banco de dados."],
+        "correta": "c) armazenas os dados selecionais provenientes das diversas fontes para serem usados pelo processo.",
+        "explicacao": "Ela tem um snap shot do último dado das fontes originais."
+      },
+      {
+        "pergunta": "(CESPE / SEFAZ-RS - 2019) A respeito do BI (business intelligence), assinale a opção correta:",
+        "alternativas": ["a) O BI consiste na transformação metódica e consciente das informações exclusivamente prestadas pelos tomadores de decisão em novas formas de conhecimento, para evolução dos negócios e dos resultados organizacionais.", 
+        "b) ETL é o processo de análise de dados previsto pela arquitetura de BI.",
+        "c) As técnicas do BI objetivam definir regras para a formatação adequada dos dados, com vista a sua transformação em depósitos estruturados de informações, sem considerar a sua origem.",
+        "d) O repositório de dados analíticos de BI é representado pelas diversas bases de dados relacionais e por repositórios de dados que utilizem modelagens relacionais.", 
+        "e) A camada de apresentação de uma arquitetura de BI é aquela em que as informações são organizadas e centralizadas."],
+        "correta": "c) As técnicas do BI objetivam definir regras para a formatação adequada dos dados, com vista a sua transformação em depósitos estruturados de informações, sem considerar a sua origem.",
+        "explicacao": "(a) Errado. Via de regra, informações são geradas por prestadores de serviços operacionais e transformadas em informações úteis para os tomadores de decisão – está invertido; <br>(b) Errado. ETL é o processo de extração, transformação e carga de dados previsto pela Arquitetura de Business Intelligence para posterior análise de dados; <br>(c) Correto. A Arquitetura BI/DW realmente define regras para transformação de dados de diversas fontes que serão carregados em depósitos de dados (Data Warehouse); <br>(d) Errado. É representado por uma única base de dados centralizada que utiliza uma modelagem multidimensional e, não, relacional; <br>(e) Errado. As informações são organizadas e centralizadas na Camada de Data Warehouse e são acessadas pelos usuários finais por meio de aplicações (Camada de Apresentação/Visualização). <br>Observação: no item correto, quando a questão fala em “sem considerar a origem dos dados”, ela quis dizer que é independente da origem dos dados. A redação não é muito boa, mas ela quis dizer que – uma vez que os dados são provenientes de diversas fontes diferentes e são transformados no ETL – a origem dos dados é desconsiderada"
+      },
+      {
+        "pergunta": "(IADES / APEX BRASIL - 2018) No jargão empresarial moderno, business intelligence é o (a):",
+        "alternativas": ["a) mesmo que data warehouse, já que ambos têm a finalidade de armazenar dados e criar relatórios gerenciais.", 
+        "b) inteligência artificial dos computadores modernos.",
+        "c) inteligência da empresa que tem por base os sistemas modernos de informatização.",
+        "d) processo de recolhimento e tratamento de informações que apoiarão a gestão de um negócio.", 
+        "e) conjunto de relatórios preparados pelos executivos de uma empresa."],
+        "correta": "d) processo de recolhimento e tratamento de informações que apoiarão a gestão de um negócio.",
+        "explicacao": "(a) Errado. DW é uma coleção de dados orientados por assunto, integrados, variáveis com o tempo e não-voláteis – já o BI é um processo que auxilia na tomada de decisões; <br>(b) Errado. Inteligência artificial se refere à capacidade de simular a inteligência humana e Business Intelligence se refere à capacidade de auxiliar na tomada de decisões; <br>(c) Errado. Não se trata de inteligência da empresa, mas de processos que ajudam na tomada de decisões empresariais estratégicas; <br>(d) Correto. Pode ser definido como um processo de recolhimento e tratamento de informações que auxiliarão a gestão de um negócio; <br>(e) Errado. Esse item não faz o menor sentido. Na verdade, pode-se gerar relatórios para os executivos de uma empresa, mas isso não é a definição de Business Intelligence."
+      },
+      {
+        "pergunta": "(CESPE / CGM JOÃO PESSOA - 2018) Business intelligence pode ser definido como um processo inteligente de coleta, organização, análise, compartilhamento e monitoração de dados que, depois de processados, geram informações para o suporte e para a tomada de decisões no ambiente de negócios.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Business Intelligence (Inteligência de Negócio) é um termo criado pelo Gartner Group utilizado para representar um conjunto de processos, técnicas, metodologias, habilidades, ferramentas e capacidades utilizadas para acessar, coletar, organizar, tratar, analisar, cruzar, processar, compartilhar e monitorar dados de diversas fontes com o intuito de gerar informações e relatórios analíticos que suportem a gestão corporativa, a definição de estratégias e a tomada de decisão em ambientes de negócio."
+      },
+      {
+        "pergunta": "(VUNESP / MPE-SP - 2016) Observe o esquema a seguir, que representa a estrutura geral e os componentes de uma solução de Business Intelligence – BI (Inteligência Empresarial ou Inteligência de Negócios).<br><img src='../dados/imgs/questao_bancodedados_12.png' alt='imagem da questão'><br>Sobre esse esquema, é correto afirmar que:",
+        "alternativas": ["a) a camada “origem de dados” é o ambiente operacional onde se encontram os aplicativos de gestão, com alto grau de interação sistêmica entre eles (os aplicativos), e é onde os consumidores e fornecedores interagem diretamente com os sistemas administrativos.",
+        "b) na camada ETL (do inglês Extract Transform Load – Extração, Transformação e Carga), os dados extraídos dos aplicativos de gestão são inseridos diretamente no banco de dados.",
+        "c) no centro dessa arquitetura, está o data warehouse (banco de dados), que além de conter dados granulares integrados, é considerado o “coração” de informações da fábrica.",
+        "d) na última camada, à direita, está a plataforma de BI, representando um conjunto de ferramentas que apenas disponibiliza dados para consulta e processamento pelo usuário, com alta disponibilidade e grande número de acessos.",
+        "e) a estrutura geral e os componentes que compõem uma solução de BI não necessariamente demandam que cada um de seus componentes e o fluxo de informações corporativas sejam delineados de forma lógica. Basta apenas as informações estarem organizadas no data warehouse (banco de dados)."],
+        "correta": "c) no centro dessa arquitetura, está o data warehouse (banco de dados), que além de conter dados granulares integrados, é considerado o “coração” de informações da fábrica.",
+        "explicacao": "(a) Errado. Na origem dos dados estão os aplicativos operacionais/transacional e, não, de gestão. Esses dados servem de insumo para popular o Data Warehouse após o Processo de ETL; <br>(b) Errado. Os dados extraídos dos aplicativos operacionais/transacionais passam por uma Stage Area, são limpos, transformados e só então são carregados no banco de dados dimensional; <br>(c) Correto. Apesar de não saber o que o examinador quis dizer com “informações da fábrica”, o DW realmente é o centro da arquitetura e contém dados granulares; <br>(d) Errado. As informações de BI não apenas disponibilizam dados para consultas e processamento pelo usuário – elas possuem diversas outras funcionalidades; <br>(e) Errado. Por conta do Processo de ETL, os componentes devem necessariamente ser delineados de forma lógica para que os dados sejam armazenados de forma organizada no DW."
+      },
+      {
+        "pergunta": "(CESPE / FUB - 2015) Em um ambiente de Business Intelligence, o usuário pode deparar com diferentes requisitos de infraestrutura para atender às necessidades de cada uma das instâncias dos sistemas analíticos.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Um usuário que desejar utilizar os conceitos de BI precisará de uma infraestrutura arquitetural específica capaz de extrair, limpar, formatar, transformar e carregar dados estruturados ou não estruturados de diversas fontes em depósitos de informações que possam ser acessados por sistemas analíticos. Logo, ele acabará se deparando com diferentes requisitos de infraestrutura para atender suas necessidades (Ex: Ferramentas de ETL, Data Warehouses; Ferramentas de Análises de Dados, etc)."
+      },
+      {
+        "pergunta": "(FCC / INFRAERO - 2011) É uma característica de um sistema de Business Intelligence:",
+        "alternativas": ["a) Capacidade de cruzar informações de diferentes bancos de dados, gerando relatórios analíticos diversos.",
+        "b) Utilização de comandos SQL para a geração de tabelas dinâmicas inteligentes ligadas às regras de negócio.",
+        "c) Utilização de Sistemas Baseados em Conhecimento, onde é possível utilizar técnicas de Inteligência Artificial na geração de relatórios.",
+        "d) Análise automática de requisitos funcionais e não funcionais, permitindo a geração de relatórios gerenciais.",
+        "e) Análise de informações com o intuito de fornecer subsídio para a criação de sistemas inteligentes."],
+        "correta": "a) Capacidade de cruzar informações de diferentes bancos de dados, gerando relatórios analíticos diversos.",
+        "explicacao": "(a) Correto, ele realmente permite cruzar informações de fontes diversas para gerar relatórios; (b) Errado, BI é um processo ou metodologia e não cabe utilizar comandos SQL; (c) Errado, essa não é uma característica de Business Intelligence; (d) Errado, essa não é uma característica de Business Intelligence; (e) Errado, essa não é uma característica de Business Intelligence;"
+      },
+      {
+        "pergunta": "(FCC / MPE-CE - 2013) Em relação ao entendimento do significado do termo Business Intelligence (BI) e da solução que provê, a definição que NÃO é coerente com o termo Business Intelligence é a que:",
+        "alternativas": ["a) consiste em uma metodologia que fornece objetivos de negócios ligados a objetivos de TI, provendo métricas e modelos de maturidade para medir a sua eficácia e identificando as responsabilidades relacionadas dos donos dos processos de negócios e de TI.",
+        "b) se refere à aplicação de técnicas analíticas para informações sobre condições de negócio no sentido de melhorá-las, de uma maneira automatizada, mas com a interpretação e respostas humanas, de forma a melhorar a tomada de decisões.",
+        "c) reúne recursos que provêm a habilidade para que a pessoa certa receba a informação adequada e no momento correto para tomar a melhor decisão.",
+        "d) consiste em um sistema de negócios que inclui uma estrutura de busca efetiva e acessível, acurada, em tempo real, com informações e relatórios que permitam aos líderes das áreas de negócio se manterem informados para tomar decisões.",
+        "e) é uma solução fácil de dizer, mas difícil de fazer corretamente pois envolve mudanças na forma como a organização conduz uma busca efetiva, bem como, a necessidade de se possuir uma base de dados de qualidade para que se possa tomar ações com o objetivo de otimizar a performance corporativa."],
+        "correta": "a) consiste em uma metodologia que fornece objetivos de negócios ligados a objetivos de TI, provendo métricas e modelos de maturidade para medir a sua eficácia e identificando as responsabilidades relacionadas dos donos dos processos de negócios e de TI.",
+        "explicacao": "Metodologia que fornece objetivos de negócios (?) ligados a objetivos de TI (?), provendo métricas e modelos de maturidade (?) para medir a sua eficácia e identificando as responsabilidades relacionadas dos donos dos processos de negócios e de TI (?). Galera, tudo isso trata de um assunto que não tem absolutamente nada a ver com Business Intelligence – isso é a definição de COBIT (que é um framework de boas práticas em governança de TI)."
+      },
+      {
+        "pergunta": "(IBFC / INEP - 2012) A Inteligência Empresarial, ou Business Intelligence, é um termo que foi criado por:",
+        "alternativas": ["a) EEE",
+        "b) Gartner Group",
+        "c) Ernst & Young",
+        "d) PricewaterhouseCoopers",
+        "e) ABNT"],
+        "correta": "b) Gartner Group",
+        "explicacao": "O termo Business Intelligence foi criado pelo Gartner Group. "
+      },
+      {
+        "pergunta": " (AOCP / TCE PA - 2012) Segundo o Gartner Group, é correto afirmar que um BI (Business Intelligence) é:",
+        "alternativas": ["a) uma política de informação que especifica regras para compartilhar, disseminar, adquirir, padronizar, classificar e inventariar informações.",
+        "b) um banco de dados que armazena os dados históricos de interesse de toda a empresa para a tomada de decisão, é também conhecido como Data Warehouse.",
+        "c) a descrição de habilidades das organizações para acessar dados e explorar informações, analisando e desenvolvendo percepções e entendimentos a seu respeito.",
+        "d) uma tecnologia de software que visa fornecer informações empresariais por meio de uma base de dados.",
+        "e) um conjunto de indicadores de desempenho, conhecidos como KPI, com a finalidade de medir qualquer etapa de um processo ou resultado."],
+        "correta": "c) a descrição de habilidades das organizações para acessar dados e explorar informações, analisando e desenvolvendo percepções e entendimentos a seu respeito.",
+        "explicacao": "O Gartner Group define BI como as habilidades das corporações de acessar dados e explorar as informações (normalmente contidas em um Data Warehouse ou Data Mart), analisando-as e desenvolvendo percepções e entendimentos a seu respeito – o que as permite incrementar e tornar a tomada de decisões mais pautada em informações. BI não é uma política de informação, nem um banco de dados, muito menos uma tecnologia de software ou um conjunto de indicadores de desempenho."
+      },
+      {
+        "pergunta": "(CESPE / CORREIOS - 2011) Inteligência empresarial, ou business inteligence, é um termo utilizado para descrever as habilidades das corporações para coletar dados e explorar informações, analisá-las e desenvolver entendimentos para tomada de melhores decisões.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Definição retirada ipsis litteris do próprio Gartner Group – que foi quem cunhou esse termo."
+      },
+      {
+        "pergunta": "(ESAF / MPOG - 2010) BI - Business Inteligence:",
+        "alternativas": ["a) é uma técnica de otimização da árvore de decisão.",
+        "b) é um método de formação avançada de gestores.",
+        "c) compreende ferramentas de análise de dados para otimizar os processos produtivos de uma empresa.",
+        "d) são técnicas, métodos e ferramentas para mineração de dados na área de negócios de uma empresa.",
+        "e) são técnicas, métodos e ferramentas de análise de dados para subsidiar processos de decisão de uma empresa."],
+        "correta": "e) são técnicas, métodos e ferramentas de análise de dados para subsidiar processos de decisão de uma empresa.",
+        "explicacao": "BI é um conjunto de técnicas, métodos e ferramentas de análise de dados para subsidias processos de decisão de uma empresa – nenhum dos outros itens faz qualquer sentido."
+      },
+      {
+        "pergunta": "(CETAP / DETRAN RR - 2010) Sobre Sistemas de Apoio à Decisão, leia os enunciados seguintes e marque a alternativa CORRETA: <br>I - O termo Business Inteligence (BI) nada mais é que uma série de conceitos e metodologias para auxiliar na tomada de decisões estratégicas nas empresas através principalmente de geração de relatórios gerenciais analíticos; <br>II - Um Data Warehouse é um banco de dados multidimensional grande, de escopo organizacional (ou seja, abrange toda a empresa) e reúne dados de todos os departamentos de forma a permitir a busca rápida de informações para auxiliar a tomada de decisões estratégicas; <br>III - Um Data Mart é um banco de dados multidimensional de escopo departamental, ou seja, abrange apenas um determinado departamento; <br>IV - Data Mining (Mineração de dados) é o termo usado para definir uma série de procedimentos, técnicas e ferramentas para recuperar e analisar dados de um Data Warehouse ou Data Mart; <br>V - Nos Sistemas de Apoio à Decisão é comum desnormalizar os dados para atingir uma melhor performance nos Data Mart e Data Warehouse.",
+        "alternativas": ["a) Somente o enunciado III está correto.",
+        "b) Os enunciados I, II e III estão corretos.",
+        "c) Os enunciados I, II e V estão corretos.",
+        "d) Somente o enunciado V está correto.",
+        "e) Todos os enunciados estão corretos."],
+        "correta": "e) Todos os enunciados estão corretos.",
+        "explicacao": "(I) Correto. São conceitos e metodologias, auxiliam na tomada de decisões estratégicas, ajudam a geração de relatórios gerenciais analíticos; <br>(II) Correto. DW é realmente um banco de dados multidimensional, possui escopo organizacional e permite a busca rápida de informações para auxiliar a tomada de decisões estratégicas; <br>(III) Correto. DM também é um banco de dados multidimensional, mas realmente possui um escopo departamental; <br>(IV) Correto. Essa definição está tão genérica que eu acredito que ela poderia ser tanto para Mineração de Dados quanto para OLAP; <br>(V) Correto. Desnormalizar é manter dados redundantes no banco de dados. Sistemas de Apoio à Decisão realmente desnormalizam dados para melhorar o desempenho de DW ou DM."
+      },
+      {
+        "pergunta": "(CESPE / INMETRO - 2009) Entre as operações típicas realizadas em uma organização que adota a abordagem de business intelligence, destaca-se o uso de mineração de dados e a construção de datawarehouses, ambas empregando bancos de dados relacionais com elevado grau de normalização.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Opa! Ambas empregam – em geral – bancos de dados multidimensionais com baixo grau de normalização (alta redundância de dados)."
+      },
+      {
+        "pergunta": "(CESPE / ANTAQ - 2009) Aplicações de business intelligence (BI) oferecem visões históricas e atuais de operações de negócios empregando unicamente dados operacionais.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, emprega dados gerenciais consolidados a partir de dados operacionais. Logo, de forma genérica, emprega tanto dados operacionais quanto dados gerenciais."
+      },
+      {
+        "pergunta": "(CESGRANRIO / PETROBRÁS / 2010) Data Warehouse tem por característica ser:",
+        "alternativas": ["a) orientado a assuntos.",
+        "b) temporário.",
+        "c) descentralizado.",
+        "d) focalizado em aspectos operacionais.",
+        "e) normalizado."],
+        "correta": "a) orientado a assuntos.",
+        "explicacao": "(a) Correto; (b) Errado, ele é não-volátil; (c) Errado, ele é centralizado; (d) Errado, ele é focado em aspectos táticos e estratégicos; (e) Errado, ele é desnormalizado. <br>De acordo com Bill Inmon, um Data Warehouse é uma coleção de dados orientados por assunto, integrados, variáveis com o tempo e não-voláteis, para dar suporte ao processo de tomada de decisão."
+      },
+      {
+        "pergunta": "(CESPE / ANATEL – 2014) Em um Data Warehouse (armazém de dados) que apresente a característica de ser não volátil, os dados não são atualizados após a inserção inicial.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Nos sistemas transacionais, os dados sofrem diversas alterações como, por exemplo, a inclusão, alteração e exclusão de dados. No ambiente do Data Warehouse, os dados – antes de serem carregados – são transformados e limpos. Após essa etapa, esses dados sofrem somente operações de consulta, sem que possam ser atualizados, sendo essa característica conhecida como não-volatilidade."
+      },
+      {
+        "pergunta": "(FGV / INEA/RJ – 2013) Data warehouses são definidos como:",
+        "alternativas": ["a) um conjunto de dados integrado, orientados por assunto, variante no tempo e não volátil.",
+        "b) um conjunto de dados integrado, orientados por departamentos, variante no tempo e não volátil.",
+        "c) um conjunto de regras, orientadas por departamentos, invariante no tempo e não volátil.",
+        "d) um conjunto de dados integrado, orientados por assunto, variante no tempo e volátil.",
+        "e) um conjunto de regras, orientadas a objeto, invariante no tempo e não volátil."],
+        "correta": "a) um conjunto de dados integrado, orientados por assunto, variante no tempo e não volátil.",
+        "explicacao": "De acordo com Bill Inmon, um Data Warehouse é uma coleção de dados orientados por assunto, integrados, variáveis com o tempo e não-voláteis, para dar suporte ao processo de tomada de decisão."
+      },
+      {
+        "pergunta": "(CESPE / SECONT/ES - 2018) Data Warehouse é uma coleção de dados orientados ao assunto, que tem como características visão conceitual multidimensional, operações interdimensionais irrestritas, dimensões e níveis de agregação ilimitados, sendo que os dados são não voláteis e variantes no tempo.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Data Warehouse é uma coleção de dados orientados por assunto? Sim, de acordo com Bill Inmon. Ele tem como característica visão conceitual multidimensional? Sim, Data Warehouse utiliza uma modelagem multidimensional e, não, modelo entidade-relacionamento. Realiza operações interdimensionais irrestritas? Sim, há infinitas possibilidades. Dimensões e níveis de agregação são ilimitados? Sim, você possui diversos níveis de granularidade. Por fim, os dados são não-voláteis e variantes no tempo, de acordo com Bill Inmon."
+      },
+      {
+        "pergunta": "(CESPE / TJ/SE - 2018) Os dados armazenados em um DataWarehouse devem estar integrados, temporalmente identificados, orientados ao assunto e devem ser protegidos, de modo a se evitar o acesso do usuário.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "De acordo com Bill Inmon, um Data Warehouse é uma coleção de dados orientados por assunto, integrados, variáveis com o tempo e não-voláteis, para dar suporte ao processo de tomada de decisão. No entanto, os dados devem estar protegidos para evitar o acesso do usuário não autorizado, mas devem estar acessíveis aos usuários autorizados."
+      },
+      {
+        "pergunta": "(FGV / IBGE – 2017) Pedro foi contratado para desenvolver uma solução de integração de dados a partir de diversas fontes heterogêneas com o objetivo de apoiar a análise de informações. A solução deve ter as seguintes características: Não-volátil, Histórico, Orientado a Assunto e Variante no Tempo. Para isso, Pedro deve desenvolver um:",
+        "alternativas": ["a) Sistema de Informação Transacional;",
+        "b) Data Warehouse;",
+        "c) Otimizador de Consultas;",
+        "d) Sistema Gerenciador de Banco de Dados;",
+        "e) Banco de Dados Distribuído."],
+        "correta": "b) Data Warehouse;",
+        "explicacao": "Acho que já ficou claro como é importante a definição de Bill Inmon: Data Warehouse é uma coleção de dados orientados por assunto, integrados, variáveis com o tempo e não-voláteis, para dar suporte ao processo de tomada de decisão."
       }
     ],
+    
 
 
 
@@ -4290,7 +4688,7 @@
         "explicacao": "Se e Senão são estruturas de seleção, condicionais, e não estruturas de repetição. De resto, a explicação está correta - se a condição for verdadeira, executaremos um bloco, caso contrário, executaremos o outro bloco."
       },
       {
-        "pergunta": "(IBFC/AFEAM/2022) Dada a forma geral a seguir, existente em várias linguagens de programação, assinale a alternativa que apresenta corretamente a que tipo de estrutura se refere.<br><img src='../dados/imgs/questao_desenvolvimento_21.png' alt='imagem da questão'><br>Na linha 5, qual a função da variável p?",
+        "pergunta": "(IBFC/AFEAM/2022) Dada a forma geral a seguir, existente em várias linguagens de programação, assinale a alternativa que apresenta corretamente a que tipo de estrutura se refere.<br><img src='../dados/imgs/questao_desenvolvimento_21.png' alt='imagem da questão'>",
         "alternativas": ["a) Controle múltiplo", 
         "b) Repetição múltipla",
         "c) Desvio múltiplo",
@@ -4575,11 +4973,403 @@
         "Errado"],
         "correta": "Certo",
         "explicacao": "Conforme vimos em aula, está perfeito! Sendo um algoritmo do tipo Dividir Para Conquistar, ele reparte o conjunto de dados em conjuntos menores, que são ordenados independentemente e depois combinados em uma solução maior."
+      },
+      {
+        "pergunta": "O algoritmo de ordenação que utiliza o conceito de “pivô” é:",
+        "alternativas": ["a) Merge Sort",
+        "b) Heap Sort",
+        "c) Quick Sort",
+        "d) Shell Sort"],
+        "correta": "c) Quick Sort",
+        "explicacao": "O algoritmo que utiliza um pivô é o Quick Sort"
+      },
+      {
+        "pergunta": "Um algoritmo de ordenação que divide o problema em duas partes e resolve recursivamente é o:",
+        "alternativas": ["a) Insertion Sort",
+        "b) Selection Sort",
+        "c) Merge Sort",
+        "d) Bubble Sort"],
+        "correta": "c) Merge Sort",
+        "explicacao": "O algoritmo que resolve recursivamente é o Merge Sort"
+      },
+      {
+        "pergunta": "O algoritmo que sempre tem complexidade O(n²), mesmo no melhor caso, é:",
+        "alternativas": ["a) Merge Sort",
+        "b) Insertion Sort",
+        "c) Selection Sort",
+        "d) Quick Sort"],
+        "correta": "c) Selection Sort",
+        "explicacao": "O algoritmo que sempre tem complexidade O(n²) é o Selection Sort"
+      },
+      {
+        "pergunta": "(CEBRASPE/SEPLAN-RR/2023) Julgue o item seguinte a respeito dos conceitos de algoritmo de ordenação<br>O algoritmo Merge Sort ordena os elementos de um vetor percorrendo este diversas vezes e, a cada passagem, deslocando até o topo o maior elemento da sequência.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O algoritmo que percorre diversas vezes e leva ao topo é o Selection Sort"
+      },
+      {
+        "pergunta": "(CEBRASPE/BNB/2022) No que se refere aos conceitos de ordenamento, julgue o seguinte item.<br>A complexidade de tempo do algoritmo Bubble Sort é do O(n x logn), logo, no caso desse algoritmo, o tempo de execução aumenta exponencialmente com o acréscimo do valor de n",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O Bubble Sort tem complexidade O(n) e O(n²)."
+      },
+      {
+        "pergunta": "(CEBRASPE/POLITEC-RO/2022)<br><img src='../dados/imgs/questao_desenvolvimento_28.png' alt='imagem da questão'><br>O método de ordenação utilizado no algoritmo precedente denomina-se",
+        "alternativas": ["a) Shell Sort",
+        "b) Inserção",
+        "c) Bolha",
+        "c) Quick Sort",
+        "e) Seleção"],
+        "correta": "c) Bolha",
+        "explicacao": "O algoritmo compara os elementos que são adjacentes (Bubble Sorte - bolha)."
+      },
+      {
+        "pergunta": "(CEBRASPE/PETROBRAS/2022) Julgue o item subsequente, a respeito de algoritmos para ordenação e pesquisa e de programação recursiva.<br>A ordenação por seleção, ou Selection Sort, requer apenas uma quantidade constante O(1) de espaço de memória adicional.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O Selection Sort tem complexidade O(n²) para todos os casos."
+      },
+      {
+        "pergunta": "(CEBRASPE/DPE-RO/2022) O algoritmo de ordenação que requer uma quantidade constante de O(1) espaço de memória adicional é o algoritmo de",
+        "alternativas": ["a) ordenação por seleção.",
+        "b) ordenação por mistura.",
+        "c) ordenação por inserção.",
+        "c) ordenação por flutuação.",
+        "e) ordenação Heap Sort."],
+        "correta": "c) ordenação por inserção.",
+        "explicacao": "O algoritmo Insertion Sort tem complexidade O(1) no melhor caso."
+      },
+      {
+        "pergunta": "(CEBRASPE/DPE-RO/2022) Na classificação de algoritmos por meio de seu método de design, aquele que reduz a complexidade exponencial para a complexidade polinomial para muitos problemas e mantém uma tabela para subproblemas já resolvidos é denominado",
+        "alternativas": ["a) programação dinâmica.",
+        "b) método ganancioso (greedy method).",
+        "c) dividir e conquistar.",
+        "c) programação linear.",
+        "e) redução (transformar e conquistar)."],
+        "correta": "a) programação dinâmica.",
+        "explicacao": "Programação dinâmica é um meto de desenvolvimento que busca encontra a solução de vários subproblemas para, daí então, encontrar a solução do problema geral."
+      },
+      {
+        "pergunta": "(CEBRASPE/SEED-PR/2021) Assinale a opção que apresenta a técnica que tem a maior complexidade de tempo de execução.",
+        "alternativas": ["a) Quick Sort.",
+        "b) Insertion Sort.",
+        "c) Bubble Sort.",
+        "c) Selection Sort.",
+        "e) Heap Sort."],
+        "correta": "c) Selection Sort.",
+        "explicacao": "O Selection Sort tem complexidade O(n²) para todos os casos."
+      },
+      {
+        "pergunta": "(CESPE/BNB/2018) Situação hipotética: Para ordenar os números do vetor (0, 4, 2, 1, 3, 5, 7, 8, 9, 6), foram realizados os passos mostrados na figura a seguir, com seus respectivos resultados a cada passagem, tendo site o número 5 do vetor inicialmente como pivô.<br><img src='../dados/imgs/questao_desenvolvimento_29.png' alt='imagem da questão'><br>Assertiva: Nessa foi utilizado o método de ordenação do tipo Quick Sort.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O algoritmo realmente foi o Quick Sort, que utiliza pivôs."
+      },
+      {
+        "pergunta": "(CESPE/BNB/2018) Situação hipotética: Para ordenar os números do vetor (30, 50, 10, 20, 40), foram utilizados os passos i a vi, apresentados a seguir, com os respectivos resultados a cada passagem.<br><img src='../dados/imgs/questao_desenvolvimento_30.png' alt='imagem da questão'><br>Assertiva: Nessa situação, os passos utilizados constituem um algoritmo do tipo Bubble Sort, ou bolha.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O algoritmo utilizado foi o Bubble Sort, que compara os elementos adjacentes."
+      },
+      {
+        "pergunta": "(CESPE/ABIN/2018) O método de ordenação conhecido como Quick Sort utiliza o maior elemento, o qual é sempre colocado ao final do vetor, para garantir que a ordenação seja realizada em ordem decrescente.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O algoritmo que corresponde ao texto é o Selection Sort."
+      },
+      {
+        "pergunta": "(CESPE/TCE-PA/2017) O algoritmo de ordenamento por inserção tem o menor número de trocas quando o vetor está ordenado de forma inversa à ordem do procedimento.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Quando o vetor está ordenado de forma inversa é quando tem o maior número de trocas. (Insertion Sort - igual arrumar cartas na mão)"
+      },
+      {
+        "pergunta": "(CEBRASPE/TRT/2017) Assinale a opção que apresenta o algoritmo de ordenação com o pior desempenho, considerando-se um vetor de 100 elementos, com valores inteiros ordenados de ordem inversa ao do algoritmo de ordenação.",
+        "alternativas": ["a) Shell Sort.",
+        "b) Quick Sort.",
+        "c) Heap Sort.",
+        "c) Radix Sort.",
+        "e) Bubble Sort."],
+        "correta": "e) Bubble Sort.",
+        "explicacao": "O Bubble Sort tem complexidade O(n²) no pior dos casos."
+      },
+      {
+        "pergunta": "(CEBRASPE/FUB/2015) O método de ordenação conhecido como Bubble Sort apresenta pouca adaptabilidade, visto que nele a quantidade de operações permanece praticamente constante mesmo após o ordenamento das chaves.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Verdade, ele continua percorrendo todo o vetor mesmo após fazer o ordenamento."
+      },
+      {
+        "pergunta": "(CEBRASPE/FUB/2015) Em cada passo do método de ordenação conhecidom como Quick Sort, cada elemento do vetor é comparado com o seu sucessor. Nessa comparação, os dois elementos comparados serão trocados de posição caso estejam fora de ordem.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O algoritmo que corresponde ao texto é o Bubble Sort."
+      },
+      {
+        "pergunta": "(CEBRASPE/Anatel/2014) Por característica, o algoritmo Quick Sort apresenta melhor desempenho que o Merge Sort.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O algoritmo Quick Sort tem complexidade O(n²) no pior dos casos."
+      },
+      {
+        "pergunta": "(CEBRASPE/TJ-SE/2014) O método da bolha é um exemplo de classificação por seleção efetivada pela seleção contínua do menor valor de uma chave contido em determinado vetor.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O algoritmo que corresponde ao texto é o Selection Sort."
+      },
+      {
+        "pergunta": "(CEBRASPE/SEG/2014) O método Quick Sort é semelhante ao Bubble Sort, pois opera comparando cada elemento de um vetor com seu sucesso e, caso este esteja fora de ordem, o Quick Sort auxilia a troca da posição. Dessa forma, em ambos os métodos, é grande o número de comparações e trocas para execução de vetores extensos.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Os algoritmos funcionam de forma diferente."
+      },
+      {
+        "pergunta": "(CEBRASPE/TJ-ES/2014) O processo de ordenação de vetores que busca o menor elemento do vetor e o insere na primeira posição do vetor e que, posteriormente, busca o segundo menor valor do vetor e o coloca na segunda posição do vetor, e assim sucessivamente até que todo o vetor esteja ordenado, denomina-se",
+        "alternativas": ["a) ordenação por seleção.",
+        "b) ordenação Merge Sort.",
+        "c) busca linear.",
+        "c) busca binária.",
+        "e) ordenação por inserção."],
+        "correta": "a) ordenação por seleção.",
+        "explicacao": "O Bubble Sort tem complexidade O(n²) no pior dos casos."
+      },
+      {
+        "pergunta": "(CEBRASPE/TJ-ES/2014) Entre os algoritmos de ordenação e pesquisa Bubble Sort, Quick Sort e Heap Sort, o Quick Sort é considerado o mais eficiente, pois se caracteriza como um algoritmo de dividir-para-conquistas, utilizando operações de particionamento.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O Heap Sort é mais eficiente do que o Quick Sort, pois em todos os casos possui complexidade O(n log n)."
+      },
+      {
+        "pergunta": "(CESPE - 2010 - ABIN - Oficial Técnico de Inteligência - Área de Suporte a Rede de Dados) A eficácia do método de ordenação rápida (quicksort) depende da escolha do pivô mais adequado ao conjunto de dados que se deseja ordenar. A situação ótima ocorre quando o pivô escolhido é igual ao valor máximo ou ao valor mínimo do conjunto de dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Alguns autores consideram a divisão em três subconjuntos, sendo o terceiro contendo valores iguais ao pivô. O Melhor Caso ocorre quando o conjunto é dividido em subconjuntos de mesmo tamanho; o Pior Caso ocorre quando o pivô corresponde a um dos extremos (menor ou maior valor). Alguns o consideram um algoritmo frágil e não-estável, com baixa tolerância a erros."
+      },
+      {
+        "pergunta": "(CESPE - 2010 - Banco da Amazônia - Técnico Científico - Tecnologia da Informação - Administração de Dados) A classificação interna por inserção é um método que realiza a ordenação de um vetor por meio da inserção de cada elemento em sua posição correta dentro de um subvetor classificado.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Conforme vimos em aula, trata-se do InsertionSort!"
+      },
+      {
+        "pergunta": "(FCC - 2009 - TRT - 15ª Região - Analista Judiciário - Tecnologia da Informação) São algoritmos de classificação por trocas apenas os métodos:",
+        "alternativas": ["a) SelectionSort e InsertionSort.",
+        "b) MergeSort e BubbleSort.",
+        "c) QuickSort e SelectionSort.",
+        "d) BubbleSort e QuickSort.",
+        "e) InsertionSort e MergeSort."],
+        "correta": "d) BubbleSort e QuickSort.",
+        "explicacao": "Conforme vimos em aula, BubbleSort e QuickSort são métodos de troca; InsertionSort é um método de Inserção; SelectionSort e HeapSort são métodos de Seleção; e MergeSort é um método de Intercalação."
+      },
+      {
+        "pergunta": "(CESGRANRIO - 2011 - PETROBRÁS – Analista de Sistemas – I) O tempo de pior caso do algoritmo QuickSort é de ordem menor que o tempo médio do algoritmo Bubblesort.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Conforme vimos em aula, está incorreto! São iguais: O(n²).<br><img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>"
+      },
+      {
+        "pergunta": "(CESGRANRIO - 2011 - PETROBRÁS – Analista de Sistemas – II) O tempo médio do QuickSort é O(nlog2n), pois ele usa como estrutura básica uma árvore de prioridades.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Conforme vimos em aula, de fato, ele tem tempo médio O(n log n), mas ele usa como estrutura básica uma lista ou um vetor!<br><img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>"
+      },
+      {
+        "pergunta": "(CESGRANRIO - 2011 - PETROBRÁS – Analista de Sistemas – III) O tempo médio do QuickSort é de ordem igual ao tempo médio do MergeSort.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Conforme vimos em aula, ambos têm tempo O(n log n)<br><img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>"
+      },
+      {
+        "pergunta": "(CESGRANRIO - 2012 - CMB – Analista de Sistemas – III) Em uma reunião de análise de desempenho de um sistema WEB, um programador apontou corretamente que a complexidade de tempo do algoritmo bubblesort, no pior caso, é:",
+        "alternativas": ["a) O(1)", 
+        "b) O(log n)", 
+        "c) O(n)", 
+        "d) O(n log n)",
+        "e) O(n²)"],
+        "correta": "e) O(n²)",
+        "explicacao": "Conforme vimos em aula, trata-se de O(n²)!<br><img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESPE - 2010 – INMETRO – Analista de Sistemas) Se f é uma função de complexidade para um algoritmo F, então O(f) é considerada a complexidade assintótica ou o comportamento assintótico do algoritmo F. Assinale a opção que apresenta somente algoritmos que possuem complexidade assintótica quando f(n) = O(n log n).",
+        "alternativas": ["a) HeapSort e BubbleSort", 
+        "b) QuickSort e InsertionSort", 
+        "c) MergeSort e BubbleSort", 
+        "d) InsertionSort",
+        "e) HeapSort, QuickSort e MergeSort"],
+        "correta": "e) HeapSort, QuickSort e MergeSort",
+        "explicacao": "Conforme vimos em aula, trata-se da última opção. Vejam que ele não utilizou, nessa questão, o Pior Caso.<br><img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(FGV - 2013 – MPE/MS – Analista de Sistemas) Assinale a alternativa que indica o algoritmo de ordenação capaz de funcionar em tempo O(n) para alguns conjuntos de entrada.",
+        "alternativas": ["a) Selectionsort (seleção)", 
+        "b) Insertionsort (inserção)", 
+        "c) MergeSort", 
+        "d) Quicksort",
+        "e) HeapSort"],
+        "correta": "b) Insertionsort (inserção)",
+        "explicacao": "Conforme vimos em aula, trata-se da segunda opção.<br><img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESGRANRIO - 2010 – BACEN – Analista de Sistemas) Uma fábrica de software foi contratada para desenvolver um produto de análise de riscos. Em determinada funcionalidade desse software, é necessário realizar a ordenação de um conjunto formado por muitos números inteiros. Que algoritmo de ordenação oferece melhor complexidade de tempo (Big O notation) no pior caso?",
+        "alternativas": ["a) Merge Sort", 
+        "b) Insertion sort", 
+        "c) Bubble Sort", 
+        "d) Quick sort",
+        "e) Selection Sort"],
+        "correta": "a) Merge Sort",
+        "explicacao": "Conforme vimos em aula, trata-se da primeira opção!<br><img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESPE - 2011 – FUB – Analista de Sistemas) Os métodos de ordenação podem ser classificados como estáveis ou não estáveis. O método é estável se preserva a ordem relativa de dois valores idênticos. Alguns métodos eficientes como shellsort ou quicksort não são estáveis, enquanto alguns métodos pouco eficientes, como o método da bolha, são estáveis.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Métodos Estáveis: BubbleSort, InsertionSort e MergeSort; Métodos Instáveis: SelectionSort, QuickSort, HeapSort e ShellSort. Portanto, item perfeito!"
+      },
+      {
+        "pergunta": "(CESPE - 2012 – BASA – Analista de Sistemas) O método de classificação Shellsort iguala-se ao método Quicksort em termos de complexidade temporal, porém é mais eficiente para quantidades pequenas a moderadas de dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>Não, a complexidade temporal é completamente diferente! A complexidade que nós estudamos em aula se trata do comportamento do algoritmo em termos de custo - ela fornece uma resposta digamos que 'genérica'. Por que? Porque são ignorados constantes, parâmetros, etc - perceba que nós dizemos, por exemplo, que o algoritmo x tem complexidade O(n²). O que isso significa? Significa apenas que esse algoritmo tem um custo polinomial, mas nós sabemos que funções polinomiais têm o formato ax² + bx + c. Onde está o a, bx, c? Nós ignoramos e ficamos apenas com o parâmetro mais importante. Além disso tudo, ainda temos que considerar que existe o pior caso, melhor caso e caso médio. <br>Para saber a complexidade temporal de um algoritmo de ordenação, nós temos que nos focar em diversos parâmetros. Além das constantes e parâmetros da função que representa a complexidade, nós temos que levar em consideração aspectos práticos (Por exemplo: o hardware em que será rodado o programa). Resumindo nosso papo: não há correlação direta entre complexidade de custo e complexidade temporal, logo eu não posso usar a função de um para calcular o outro."
+      },
+      {
+        "pergunta": "(CESPE - 2012 – BASA – Analista de Sistemas) O método de classificação Quicksort é estável e executado em tempo linearmente dependente da quantidade de dados que estão sendo classificados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>Conforme vimos em aula, QuickSort é instável e não possui complexidade temporal linear!"
+      },
+      {
+        "pergunta": "(CESPE - 2012 – BASA – Analista de Sistemas) No método de ordenamento denominado shellsort, as comparações e as trocas são feitas conforme determinada distância entre dois elementos, de modo que, uma distância igual a 6 seria a comparação entre o primeiro elemento e o sétimo, ou entre o segundo elemento e o oitavo, e assim sucessivamente, repetindo-se esse processo até que as últimas comparações e trocas tenham sido efetuadas e a distância tenha diminuído até chegar a 1.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "É o algoritmo mais eficiente dentre os de ordem quadrática. Nesse método, as comparações e as trocas são feitas conforme determinada distância (gap) entre dois elementos, de modo que, se gap = 6, há comparação entre o 1º e 7º elementos ou entre o 2º e 8º elementos e assim sucessivamente, repetindo até que as últimas comparações e trocas tenham sido efetuadas e o gap tenha chegado a 1. <br>Conforme vimos em aula, a questão descreveu perfeitamente o mecanismo de ordenação do Shellsort."
+      },
+      {
+        "pergunta": "(FGV - 2008 – PETROBRÁS – Analista de Sistemas) Sobre o algoritmo de ordenação heapsort, assinale a afirmação correta.",
+        "alternativas": ["a) Utiliza ordenação por árvore de decisão, ao invés de ordenação por comparação.", 
+        "b) A estrutura de dados que utiliza, chamada heap, pode ser interpretada como uma árvore binária.", 
+        "c) Seu desempenho de pior caso é pior do que o do algoritmo quicksort.", 
+        "d) Seu desempenho de pior caso é o mesmo da ordenação por inserção",
+        "e) Seu desempenho de pior caso é menor do que o da ordenação por intercalação."],
+        "correta": "b) A estrutura de dados que utiliza, chamada heap, pode ser interpretada como uma árvore binária.",
+        "explicacao": "(a) Utiliza ordenação por seleção; (b) Perfeito; (c) Não, é melhor que o QuickSort; (d) Não, é melhor que o InsertionSort; (e) Não, é idêntico ao MergeSort.>"
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2009 – BASA – Analista de Sistemas) Com relação aos algoritmos quicksort e mergsort, o tempo de execução para o:",
+        "alternativas": ["a) pior caso do quicksort é (n lg n).", 
+        "b) pior caso do mergesort é (n2).", 
+        "c) pior caso do mergesort é (n lg n).", 
+        "d) caso médio do mergesort é O(lg n).",
+        "e) caso médio do quicksort é O(n2)."],
+        "correta": "c) pior caso do mergesort é (n lg n).",
+        "explicacao": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'>>"
+      },
+      {
+        "pergunta": "(CESPE – 2009 – UNIPAMPA – Analista de Sistemas) O algoritmo quicksort, que divide uma instrução em quatro blocos diferentes de busca, é um exemplo de estrutura de ordenação de dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Conforme vimos em aula, são dois blocos diferentes de busca."
+      },
+      {
+        "pergunta": "(CESPE - 2013 – CPRM – Analista de Sistemas) No algoritmo de ordenação denominado quicksort, escolhe-se um ponto de referência, denominado pivô, e separam-se os elementos em dois grupos: à esquerda, ficam os elementos menores que o pivô, e à direita ficam os maiores. Repete-se esse processo para os grupos de elementos formados (esquerda e direita) até que todos os elementos estejam ordenados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Esse algoritmo divide um conjunto de itens em conjuntos menores, que são ordenados de forma independente, e depois os resultados são combinados para produzir a solução de ordenação do conjunto maior. Trata-se, portanto, de um algoritmo do tipo Divisão-e-Conquista, i.e., repartindo os dados em subgrupos, dependendo de um elemento chamado pivô. Neste método, a lista é dividida em parte esquerda e parte direita, sendo que os elementos da parte esquerda são todos menores que os elementos da parte direita. Essa fase do processo é chamada de partição. Em seguida, as duas partes são ordenadas recursivamente (usando o próprio QuickSort). A lista está, portanto, ordenada corretamente!"
+      },
+      {
+        "pergunta": "(CESPE - 2013 – MPU – Analista de Sistemas) Entre os algoritmos de ordenação e pesquisa bubble sort, quicksort e heapsort, o quicksort é considerado o mais eficiente, pois se caracteriza como um algoritmo de dividir-para-conquistar, utilizando operações de particionamento.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Conforme vimos em aula, o HeapSort é o mais eficiente no pior caso!"
+      },
+      {
+        "pergunta": "(CESPE - 2013 – TRT/9 – Analista de Sistemas) No método Quicksort, o pivô é responsável pelo número e partições em que o vetor é dividido. Como o pivô não pode ser um elemento que esteja repetido no vetor, o Quicksort não funciona quando há elementos repetidos.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O pivô não é responsável pelo número de partições em que o vetor é dividido. Ademais, ele pode sim ser um elemento que esteja repetido no vetor!"
+      },
+      {
+        "pergunta": "(FCC - 2011 - TRT - 14ª Região (RO e AC) - Analista Judiciário - Tecnologia da Informação) NÃO se trata de um método de ordenação (algoritmo):",
+        "alternativas": ["a) inserção direta.", 
+        "b) seleção direta.", 
+        "c) inserção por meio de incrementos decrescentes", 
+        "d) direta em cadeias",
+        "e) particionamento."],
+        "correta": "d) direta em cadeias",
+        "explicacao": "(a) Trata-se do InsertionSort; (b) Trata-se do SelectionSort; (c) Trata-se do ShellSort; (d) Trata-se de um método de busca; (e) Trata-se do QuickSort. Portanto, é a quarta opção!"
+      },
+      {
+        "pergunta": "(VUNESP – 2012 – TJ/SP - Analista Judiciário - Tecnologia da Informação) Considerando o conceito de Complexidade de Algoritmos, representado por O(função), assinale a alternativa que apresenta, de forma crescente, as complexidades de algoritmos.",
+        "alternativas": ["a) O(2n); O(n3); O(n2); O(log2 n); O(n.log2 n).", 
+        "b) O(n2); O(n3); O(2n); O(log2 n); O(n.log2 n).", 
+        "c) O(n3); O(n2); O(2n); O(n.log2 n); O(log2 n).", 
+        "d) O(log2 n); O(n.log2 n); O(n2); O(n3); O(2n).",
+        "e) O(n.log2 n); O(log2 n); O(2n); O(n3); O(n2)."],
+        "correta": "d) O(log2 n); O(n.log2 n); O(n2); O(n3); O(2n).",
+        "explicacao": "<br><img src='../dados/imgs/questao_desenvolvimento_32.png' alt='imagem da questão'><br>Conforme vimos em aula, basta consultar a tabelinha!"
+      },
+      {
+        "pergunta": "(FCC - 2010 - TRT - 8ª Região (PA e AP) - Analista Judiciário - Tecnologia da Informação) Numa competição de programação, ganhava mais pontos o time que apresentasse o algoritmo mais eficiente para resolver o pior caso de um determinado problema. A complexidade assintótica (notação Big O) dos algoritmos elaborados está ilustrada na tabela abaixo.<br><img src='../dados/imgs/questao_desenvolvimento_33.png' alt='imagem da questão'><br>O time que obteve a medalha de prata (2º algoritmo mais eficiente) é o:",
+        "alternativas": ["a) Branco.", 
+        "b) Amarelo.", 
+        "c) Azul.", 
+        "d) Verde.",
+        "e) Vermelho."],
+        "correta": "b) Amarelo",
+        "explicacao": "<br><img src='../dados/imgs/questao_desenvolvimento_32.png' alt='imagem da questão'><br>Conforme vimos em aula, basta consultar a tabelinha! O primeiro é o time Azul (O(1)) e o segundo é o time Amarelo (O(n log n))."
       }
+
+
     ],
 
 
-
+    "apenas para pegar imagem": [
+      {
+        "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>",
+        "alternativas": ["a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "Colocar aqui o comentário da questão."
+      },
+      {
+        "pergunta": "Colocar aqui a pergunta de Português",
+        "alternativas": ["a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "Colocar aqui o comentário da questão."
+      }
+    ],
 
 
     "portugues": [
