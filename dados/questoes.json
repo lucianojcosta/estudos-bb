@@ -3218,16 +3218,6 @@
         "explicacao": "Em um modelo de banco de dados orientado a documentos, as pesquisas funcionam comparando os valores nos documentos com os critérios de consulta. Os documentos no banco de dados podem ser pesquisados usando uma variedade de critérios, incluindo conteúdo, rótulos e propriedades. Quando uma pesquisa é realizada, o banco de dados pesquisa todos os documentos, extraindo os documentos que correspondem aos critérios da consulta. Os resultados da pesquisa são retornados ao usuário na forma de uma lista de documentos que correspondem à consulta. Logo, não há nenhuma relação com expressões regulares, que são basicamente padrões de pesquisa usados para procurar e manipular texto."
       },
       {
-        "pergunta": "(CESPE / ISS-Aracaju – 2021) Big data ajudou a sedimentar o cargo de cientista de dados. Entre as funções desse cargo inclui-se:",
-        "alternativas": ["a) a modelagem estruturada.", 
-        "b) a análise retrospectiva.", 
-        "c) a modelagem não estruturada.", 
-        "d) a modelagem relacional.",
-        "e) o processamento comparativo."],
-        "correta": "Questão bizarra! Todos os itens podem ser executados por um cientista de dados. Ele não pode fazer uma modelagem relacional? Claro que pode! De toda forma, essa questão foi retirada do livro do Taurion (2013), em que ele diferencia Analista de BI e Cientista de Dados.<br>Em primeiro lugar, o autor não é uma unanimidade; em segundo lugar, o autor não disse que essas eram atividades exclusivas de cada papel. Logo, não se trata de atividades taxativas!",
-        "explicacao": "Colocar aqui o comentário da questão."
-      },
-      {
         "pergunta": "(CESPE / SERPRO – 2021) MapReduce divide o conjunto de dados de entrada em blocos independentes que são processados pelas tarefas de mapa de uma maneira completamente paralela. Essa estrutura classifica as saídas dos mapas, as quais são, então, inseridas nas tarefas de redução.",
         "alternativas": ["Certo", 
         "Errado"],
@@ -4042,16 +4032,6 @@
         "c) Besides", 
         "d) Therefore",
         "e) On the other hand"],
-        "correta": "c) Besides",
-        "explicacao": "Em “Além disso, aqueles que tiveram duas ou mais dessas declarações, tinham sete vezes mais chances de conseguir o emprego” (linhas 87-89), Além disso pode ser substituído, sem mudança no significado por,<br>instead = ao invés de<br>however = entretanto<br>besides = além disso<br>therefore = logo, portanto, por este motivo.<br>On the other hand = por outro lado."
-      },
-      {
-        "pergunta": "The personal pronoun <strong>they</strong>, used twice in the sentence “But they also show how they see their industry in the years to come”, refers to the following fragment at the same paragraph:",
-        "alternativas": ["a) the study", 
-        "b) the results", 
-        "c) banking leaders", 
-        "d) Covid-19 crisis",
-        "e) unprecedented times"],
         "correta": "c) Besides",
         "explicacao": "Em “Além disso, aqueles que tiveram duas ou mais dessas declarações, tinham sete vezes mais chances de conseguir o emprego” (linhas 87-89), Além disso pode ser substituído, sem mudança no significado por,<br>instead = ao invés de<br>however = entretanto<br>besides = além disso<br>therefore = logo, portanto, por este motivo.<br>On the other hand = por outro lado."
       },
@@ -5342,13 +5322,120 @@
         "e) Vermelho."],
         "correta": "b) Amarelo",
         "explicacao": "<br><img src='../dados/imgs/questao_desenvolvimento_32.png' alt='imagem da questão'><br>Conforme vimos em aula, basta consultar a tabelinha! O primeiro é o time Azul (O(1)) e o segundo é o time Amarelo (O(n log n))."
+      },
+      {
+        "pergunta": "(UFRPE – 2022 – UFRPE) Sobre algoritmos e estrutura de dados, assinale a afirmativa correta.",
+        "alternativas": ["a) Listas encadeadas ou ligadas são estruturas de dados estáticas, o que significa que o número de nós não pode ser modificado durante a execução do programa.", 
+        "b) Pilhas são estruturas de dados do tipo FIFO (first-in first-out), em que o primeiro elemento a ser inserido será o primeiro a ser retirado.", 
+        "c) Árvores são estruturas de dados do tipo FIFO (first-in first-out), em que o primeiro elemento a ser inserido será o primeiro a ser retirado.", 
+        "d) Filas podem ser implementadas em listas encadeadas ou em vetores.",
+        "e) Pilhas só podem ser implementadas em listas encadeadas."],
+        "correta": "d) Filas podem ser implementadas em listas encadeadas ou em vetores.",
+        "explicacao": "Para começar, as listas encadeadas são estruturas de dados dinâmicas, não estáticas, permitindo que o número de nós seja modificado durante a execução do programa, contrariando a primeira afirmação. Portanto, a afirmação sobre listas encadeadas serem estáticas é incorreta. Além disso, a caracterização das pilhas como estruturas do tipo FIFO (first-in first-out) também está equivocada, pois na realidade elas operam segundo o princípio LIFO, em que o último elemento inserido é o primeiro a ser retirado. Quanto às árvores, a afirmação de que operam sob o princípio FIFO é igualmente falsa, pois as árvores são estruturas hierárquicas e não sequenciais, não se enquadrando nessa descrição de operação. Já a afirmação de que pilhas só podem ser implementadas em listas encadeadas também não é verdadeira, visto que pilhas podem ser implementadas tanto em listas encadeadas quanto em vetores, oferecendo flexibilidade na escolha da implementação. <br>A única afirmação correta é a que menciona que filas podem ser implementadas em listas encadeadas ou em vetores. Esta é uma descrição acurada das possibilidades de implementação de filas, uma vez que ambas as estruturas permitem o funcionamento adequado do modelo FIFO, no qual o primeiro elemento inserido é o primeiro a ser retirado. Assim, nosso gabarito é a alternativa D."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2019 – MPC-PA) Assinale a opção que apresenta a denominação da estrutura de dados constituída por um conjunto de elementos individualizados, em que cada um dos elementos — com exceção dos elementos inicial e final — referencia sempre outros dois, um que o antecede e outro que o sucede.",
+        "alternativas": ["a) lista circular", 
+        "b) grafo", 
+        "c) lista duplamente encadeada", 
+        "d) árvore",
+        "e) pilha"],
+        "correta": "c) lista duplamente encadeada",
+        "explicacao": "Vamos analisar item a item: <br>a) lista circular <br>Uma lista em que cada elemento referencia o outro, porém com uma diferença: o último elemento referencia o primeiro também. A questão deixa claro que quer uma estrutrua de dados em que os elementos inicial e final não estejam ligados. Falso.<br>b) Grafo <br>Estrutura de dados com um conjunto de vértices ligados entre si por arestas. Falso. <br>c) lista duplamente encadeada <br>Uma lista em que cada elemento referencia o outro em ambas as direções: um elemento referencia o anterior e o próximo, exceto os elementos inicial e final. É isso aí. Verdadeiro. <br>d) Árvore <br>Estrutura de dados em que um nó possui 1 ou mais filhos, mas cada filho possui somente um pai. Falso. <br>e) pilha <br>Estrutura de dados usando a regra LIFO, last-in first-out, ou seja, o último a entrar é o primeiro a sair. Falso."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2017 – TRT-7) Considere uma estrutura de dados em que cada elemento armazenado apresenta ligações de apontamento com seu sucessor e com o seu predecessor, o que possibilita que ela seja percorrida em qualquer sentido. Trata-se de",
+        "alternativas": ["a) uma fila.", 
+        "b) um grafo.", 
+        "c) uma lista duplamente encadeada.", 
+        "d) uma árvore"],
+        "correta": "c) uma lista duplamente encadeada.",
+        "explicacao": "Vamos analisar item a item: <br>a) uma fila. <br>Estrutura de dados que segue a lógica FIFO (first-in, first-out), ou “primeiro a entrar é o primeiro a sair”. Os elementos são inseridos no fim da fila e removidos no início. Falso. <br>b)um grafo. <br>Grafo é uma estrutura de dados com um conjunto de vértices e arestas que os ligam. Falso. <br>c) uma lista duplamente encadeada. <br>É uma estrutura de dados que armazena uma sequência de elementos que possuem ligações de apontamento, ou ponteiros, entre si, em ambas as direções. Isso permite percorrer a lista em qualquer sentido. Verdadeiro. <br>d) uma pilha. <br>Estrutura de dados que segue a lógica LIFO, ou last-in first-out, que significa “o último a entrar é o primeiro a sair”. Falso. (Gabarito: Letra C)."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2017 – TRF-1) Acerca de estrutura de dados, julgue o próximo item. A fila é uma lista de elementos em que os itens são sempre inseridos em uma das extremidades e excluídos da outra.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Fila é uma estrutura de dados que segue a lógica FIFO (first-in first-out) armazena elementos de forma sequencial, permitindo a inserção de novos elementos no final da estrutura e a remoção de elementos do início. Então, está certo."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2020 – Ministério da Economia) A respeito de dados, informação, conhecimento e inteligência, julgue o próximo item. <br>Embora com características particulares, dados não estruturados podem ser classificados em sua totalidade, assim como os dados estruturados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Dados não estruturados não possuem uma estrutura pré-definida e, portanto, é computacionalmente muito difícil que sejam classificados ou processados por meio de métodos automatizados. Já os dados estruturados possuem uma estrutura pré-definida, tornando mais fácil de serem classificados ou processados por métodos automatizados. Ou seja, os dois não são a mesma coisa para serem classificados em sua totalidade."
+      },
+      {
+        "pergunta": "(FGV – 2015 – DPE/MT – Analista de Sistemas) No desenvolvimento de sistemas, a escolha de estruturas de dados em memória é especialmente relevante. Dentre outras classificações, é possível agrupar essas estruturas em lineares e não lineares, conforme a quantidade de sucessores e antecessores que os elementos da estrutura possam ter. Assinale a opção que apresenta, respectivamente, estruturas de dados lineares e não lineares.",
+        "alternativas": ["a) Tabela de dispersão e fila. ", 
+        "b) Estrutura de seleção e pilha.", 
+        "c) Pilha e estrutura de seleção.", 
+        "d) Pilha e árvore binária de busca.",
+        "e) Fila e pilha."],
+        "correta": "d) Pilha e árvore binária de busca.",
+        "explicacao": "Além dessa classificação, existe outra também importante: Estruturas Lineares e Estruturas Não-Lineares. As Estruturas Lineares são aquelas em que cada elemento pode ter um único predecessor (exceto o primeiro elemento) e um único sucessor (exceto o último elemento). Como exemplo, podemos citar Listas, Pilhas, Filas, Arranjos, entre outros. <br>Já as Estruturas Não-Lineares são aquelas em que cada elemento pode ter mais de um predecessor e/ou mais de um sucessor. Como exemplo, podemos citar Árvores, Grafos e Tabelas de Dispersão. Essa é uma classificação muito importante e muito simples de entender. Pessoal, vocês perceberão que esse assunto é cobrado de maneira superficial na maioria das questões, mas algumas são nível doutorado! <br>Conforme vimos em aula, trata-se de pilha e árvore respectivamente."
+      },
+      {
+        "pergunta": "(CESPE – 2010 – DETRAN/ES – Analista de Sistemas) Um tipo abstrato de dados apresenta uma parte destinada à implementação e outra à especificação. Na primeira, são descritas, em forma sintática e semântica, as operações que podem ser realizadas; na segunda, os objetos e as operações são representados por meio de representação, operação e inicialização.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A Especificação Sintática define o nome do tipo, suas operações e o tipo dos argumentos das operações, definindo a assinatura do TAD. A Especificação Semântica descreve propriedades e efeitos das operações de forma independente de uma implementação específica. E a Especificação de Restrições estabelece as condições que devem ser satisfeitas antes e depois da aplicação das operações. <br>Conforme vimos em aula, temos duas partes: Especificação e Implementação. Sendo que a especificação se divide em Especificação Sintática e Semântica e Implementação se divide em Representação e Algoritmos. Logo, a questão está invertida: na segunda, são descritas, em forma sintática e semântica, as operações que podem ser realizadas; na primeira, os objetos e as operações são representados por meio de representação, operação e inicialização."
+      },
+      {
+        "pergunta": "(CESPE – 2010 – TRT/RN – Analista de Sistemas) O tipo abstrato de dados consiste em um modelo matemático (v,o), em que v é um conjunto de valores e o é um conjunto de operações que podem ser realizadas sobre valores.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Tipos Abstratos de Dados (TAD). Podemos defini-lo como um modelo matemático (v,o), em que v é um conjunto de valores e o é um conjunto de operações que podem ser realizadas sobre valores. Eu sei, essa definição é horrível de entender! Para compreender esse conceito, basta lembrar de abstração, i.e., apresentar interfaces e esconder detalhes."
+      },
+      {
+        "pergunta": "(CESPE – 2010 – BASA – Analista de Sistemas) A escolha de estruturas internas de dados utilizados por um programa pode ser organizada a partir de TADs que definem classes de objetos com características distintas.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Em outras palavras, o nível semântico trata do comportamento de um tipo abstrato de dados; e o nível sintático trata da apresentação de um tipo abstrato de dados. Podemos dizer, então, que o TAD encapsula uma estrutura de dados com características semelhantes – podendo ser formado por outros TADs –, e esconde a efetiva implementação dessa estrutura de quem a manipula."
+      },
+      {
+        "pergunta": "(CESPE – 2010 – BASA – Analista de Sistemas) A descrição dos parâmetros das operações e os efeitos da ativação das operações representam, respectivamente, os níveis sintático e semântico em que ocorre a especificação dos TDAs.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A Especificação Sintática define o nome do tipo, suas operações e o tipo dos argumentos das operações, definindo a assinatura do TAD. A Especificação Semântica descreve propriedades e efeitos das operações de forma independente de uma implementação específica. E a Especificação de Restrições estabelece as condições que devem ser satisfeitas antes e depois da aplicação das operações."
+      },
+      {
+        "pergunta": "(FCC – 2010 – TRE/AM – Analista de Sistemas) Em relação aos tipos abstratos de dados - TAD, é correto afirmar:",
+        "alternativas": ["a) O TAD não encapsula a estrutura de dados para permitir que os usuários possam ter acesso a todas as operações sobre esses dados.", 
+        "b) Na transferência de dados de uma pilha para outra, não é necessário saber como a pilha é efetivamente implementada.", 
+        "c) Alterações na implementação de um TAD implicam em alterações em seu uso.", 
+        "d) Um programador pode alterar os dados armazenados, mesmo que não tenha conhecimento de sua implementação.",
+        "e) TAD é um tipo de dados que esconde a sua implementação de quem o manipula."],
+        "correta": "e) TAD é um tipo de dados que esconde a sua implementação de quem o manipula.",
+        "explicacao": "Em outras palavras, o nível semântico trata do comportamento de um tipo abstrato de dados; e o nível sintático trata da apresentação de um tipo abstrato de dados. Podemos dizer, então, que o TAD encapsula uma estrutura de dados com características semelhantes – podendo ser formado por outros TADs –, e esconde a efetiva implementação dessa estrutura de quem a manipula. <br>(a) Errado, ele encapsula a estrutura de dados; (b) Correto, não é necessário saber a implementação, porém a FCC marcou o gabarito como errado; (c) Errado, a implementação pode mudar livremente; (d) Errado, sem conhecimento da implementação, ele não poderá alterar dados armazenados; (e) Correto, esse item também está correto (Lembrem-se: Na FCC, muitas vezes tempos que marcar a mais correta ou a menos errada – infelizmente!)."
+      },
+      {
+        "pergunta": "(FCC – 2009 – TRE/PI – Analista de Sistemas) Em relação a tipos abstratos de dados, é correto afirmar que:",
+        "alternativas": ["a) o TAD não encapsula a estrutura de dados para permitir que os usuários possam ter acesso a todas as operações disponibilizadas sobre esses dados.", 
+        "b) algumas pilhas admitem serem declaradas como tipos abstratos de dados.", 
+        "c) filas não permitem declaração como tipos abstratos de dados.", 
+        "d) os tipos abstratos de dados podem ser formados pela união de tipos de dados primitivos, mas não por outros tipos abstratos de dados.",
+        "e) são tipos de dados que escondem a sua implementação de quem o manipula; de maneira geral as operações sobre estes dados são executadas sem que se saiba como isso é feito."],
+        "correta": "e) são tipos de dados que escondem a sua implementação de quem o manipula; de maneira geral as operações sobre estes dados são executadas sem que se saiba como isso é feito.",
+        "explicacao": "Em outras palavras, o nível semântico trata do comportamento de um tipo abstrato de dados; e o nível sintático trata da apresentação de um tipo abstrato de dados. Podemos dizer, então, que o TAD encapsula uma estrutura de dados com características semelhantes – podendo ser formado por outros TADs –, e esconde a efetiva implementação dessa estrutura de quem a manipula. <br>(a) Errado. Pelo contrário, ele encapsula a estrutura de dados de modo que o usuário não tem acesso a implementação das operações; (b) Correto. Todas elas admitem, porém a FCC marcou o gabarito como errado; (c) Errado. Elas permitem a declaração como tipos abstratos de dados; (d) Errado. Um TAD pode ser formado por outros TADs; (e) Correto. Escondem a implementação de quem os manipula."
       }
 
 
     ],
 
-
-    "apenas para pegar imagem": [
+    ">>>>>>> apenas para pegar imagem <<<<<<<": [
+      {
+        "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "XXX"
+      },
       {
         "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>",
         "alternativas": ["a) letra A", 
@@ -5357,17 +5444,7 @@
         "d) letra D",
         "e) letra E"],
         "correta": "a) letra A",
-        "explicacao": "Colocar aqui o comentário da questão."
-      },
-      {
-        "pergunta": "Colocar aqui a pergunta de Português",
-        "alternativas": ["a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "Colocar aqui o comentário da questão."
+        "explicacao": "XXXX"
       }
     ],
 
