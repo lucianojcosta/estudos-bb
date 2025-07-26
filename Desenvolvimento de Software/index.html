@@ -1385,8 +1385,8 @@
             <p>Nesse método, os elementos da lista são movidos para as posições adequadas de forma contínua.</p>
             <p>Em cada iteração do método, percorremos a lista a partir de seu início comparando cada elemento com seu sucessor, trocando-se de posição se houver necessidade.</p>
             <p>Algoritmo usa o conceito de bolhas subindo até o topo.</p>
-            <p><img src="img/bubble sort.png" alt="bubble sort"></p>
-            <p><img src="img/bubble sort2.png" alt="bubble sort"></p>
+            <p>Exemplo de execução:</p>
+            <p><img src="img/Bubble-sort.gif" alt="Selection Sort Example" style="max-height: 90vh; border: 3px solid black; padding: 10px; box-sizing: border-box;"></p>
             <p> É possível mostrar que, se a lista tiver n elementos, após no máximo (n-1) iterações, a lista estará em ordem (crescente ou decrescente). Observem abaixo o código para a Ordenação em Bolha:</p>
             <p><img src="img/bubble sort3.png" alt="bubble sort"></p>
 
@@ -1394,15 +1394,15 @@
             <p>Esse algoritmo consiste em selecionar o menor elemento de um vetor e trocá-lo (swap) pelo item que estiver na primeira posição, ou seja, inseri-lo no início do vetor.</p>
             <p>Em cada iteração do método, percorremos a lista a partir de seu início buscando o menor número, comparado todos os números, ele passa o menor número para a primeira posição. Essas duas operações são repetidas com os itens restantes até o último elemento. </p>
             <p>Algoritmo escolhe o menor elemento a cada passada.</p>
-            <p><img src="img/selection.sort.png" alt="selection sort"></p>
+            <p>Exemplo de execução:</p>
+            <p><img src="img/Selection-Sort-Animation.gif" alt="Selection Sort Example" style="max-height: 90vh; width: auto; border: 3px solid black; padding: 10px; box-sizing: border-box;"></p>
             <p><img src="img/selection.sort3.png" alt="selection sort"></p>
 
             <p><strong>Insertion Sort</strong></p>
             <p>Esse algoritmo, também conhecido como Inserção Direta, é bastante simples e apresenta um desempenho significativamente melhor que o BubbleSort, em termos absolutos. Além disso, ele é extremamente eficiente para listas que já estejam substancialmente ordenadas e listas com pequeno número de elementos.</p>
             <p>Algoritmo se comporta como cartas sendo organizadas na mão.</p>
-            <p><img src="img/insertion.sort.png" alt="insertion sort"></p>
-            <p><img src="img/insertion.sort2.png" alt="insertion sort"></p>
-            <p><img src="img/insertion.sort3.png" alt="insertion sort"></p>
+            <p>Exemplo de execução:</p>
+            <p><img style="border: 3px solid black;" src="img/Insertion-sort-example-300px.gif" alt="Inserction Sort Example"></p>
             <p>É fácil perceber que se a lista possui n elementos, após (n-1) inserções, ela estará ordenada. Para inserir o pivô, percorremos a parte esquerda, da direita para a esquerda, deslocando os elementos estritamente maiores que o pivô uma posição para direita.</p>
             <p><img src="img/insertion.sort4.png" alt="insertion sort"></p>
 
@@ -1417,7 +1417,8 @@
             <p>Neste método, a lista é dividida em parte esquerda e parte direita, sendo que os elementos da parte esquerda são todos menores que os elementos da parte direita. Essa fase do processo é chamada de partição. Em seguida, as duas partes são ordenadas recursivamente (usando o próprio QuickSort).</p>
             <p>Uma estratégia para fazer a partição é escolher um valor como pivô e então colocar na parte esquerda os elementos menores ou iguais ao pivô e na parte direita os elementos maiores que o pivô – galera, a escolha do pivô é crítica! Em geral, utiliza-se como pivô o primeiro elemento da lista, a despeito de existirem maneiras de escolher um “melhor” pivô.</p>
             <p>Algoritmo é o mais rápido na prática e usa pivôs.</p>
-            <p><img src="img/quick.sort.png" alt="Quick Sort"></p>
+            <p>Exemplo de execução:</p>
+            <p><img style="border: 3px solid black;" src="img/Merge-sort-example-300px.gif" alt="Merge Sort Example"></p>
             <p>Esse algoritmo é um dos métodos mais rápidos de ordenação, apesar de às vezes partições desequilibradas poderem conduzir a uma ordenação lenta. A eficácia do método depende da escolha do pivô mais adequado ao conjunto de dados que se deseja ordenar. Alguns, por exemplo, utilizam a mediana de três elementos para otimizar o algoritmo.</p>
             <p><img src="img/quick.sort2.png" alt="Quick Sort"></p>
 
@@ -1426,10 +1427,8 @@
             <p>Naturalmente, nem todo problema pode ser resolvido através de divisão e conquista. Para que seja viável aplicar essa técnica a um problema, ele deve possuir duas propriedades estruturais. O problema deve ser decomponível, ou seja, deve ser possível decompor qualquer instância não trivial do problema em instâncias menores do mesmo tipo de problema.</p>
             <p>Além disso, deve ser sempre possível utilizar as soluções obtidas com a resolução das instâncias menores para chegar a uma solução da instância original. No MergeSort, divide-se a lista em duas metades. Essas metades são ordenadas recursivamente (usando o próprio MergeSort) e depois são intercaladas. Abaixo segue uma possível solução:</p>
             <p>Algoritmo é o mais eficiente e usa divisão recursiva</p>
-            <p><img src="img/merge.sort.png" alt="Merge Sort"></p>
-            <p><img src="img/merge.sort2.png" alt="Merge Sort"></p>
-            <p><img src="img/merge.sort3.png" alt="Merge Sort"></p>
-            <p><img src="img/merge.sort4.png" alt="Merge Sort"></p>
+            <p>Exemplo de execução:</p>
+            <p><img style="border: 3px solid black;" src="img/Merge-sort-example-300px.gif" alt="Heap Sort Example"></p>
             <p><img src="img/merge.sort5.png" alt="Merge Sort"></p>
 
             <p><strong>Heap Sort</strong></p>
@@ -1437,10 +1436,10 @@
             <p>Essa estrutura pode ser representada como uma árvore ou como um vetor. Entenderam? Inicialmente, insere-se os elementos da lista em um heap.</p>
             <p>Em seguida, fazemos sucessivas remoções do menor elemento do heap, colocando os elementos removidos do heap de volta na lista – a lista estará então em ordem crescente.</p>
             <p>O heapsort é um algoritmo de ordenação em que a sua estrutura auxiliar de armazenamento fora do arranjo de entrada é constante durante toda a sua execução.</p>
-            <p><img src="img/heap.sort.png" alt="Heap Sort"></p>
-            <p><img src="img/heap.sort2.png" alt="Heap Sort"></p>
-            <p><img src="img/heap.sort3.png" alt="Heap Sort"></p>
+            <p>Exemplo de execução:</p>
+            <p><img style="border: 3px solid black;" src="img/Heapsort-example.gif" alt="Heap Sort Example"></p>
             <p><img src="img/heap.sort4.png" alt="Heap Sort"></p>
+            
 
             <p></p>
             <div class="tabelaExplica">
@@ -1585,6 +1584,134 @@
                     </tbody>
                 </table>
             </div>
+
+            <h3>Estrutura de Dados</h3>
+
+            <p>As estruturas de dados, na maioria dos casos, baseiam-se nos tipos de armazenamento vistos dia a dia, ou seja, nada mais são do que a transformação de uma forma de armazenamento já conhecida e utilizada no mundo real adaptada para o mundo computacional. Por isso, cada tipo de estrutura de dados possui <strong>vantagens e desvantagens</strong> e cada uma tem sua <strong>área de atuação otimizada</strong>.</p>
+            <p>Conceito importante: <strong>Dados Homogêneos e Heterogêneos</strong></p>
+            <ul>
+                <li style="padding: 7px;">Dados Homogêneos:  um tipo básico de dados (Ex: Inteiros)</li>
+                <li style="padding: 7px;">Dados Heterogêneos: possuem mais de um tipo básico de dados (Ex: Inteiros + Caracteres)</li>
+            </ul>
+            <p>Os tipos básicos de dados também são chamados de tipos primitivos.</p>
+            <p>Classificação importante: <strong>Estruturas Lineares e Estruturas Não-Lineares</strong></p>
+            <ul>
+                <li style="padding: 7px;">Estruturas Lineares: são aquelas em que cada elemento pode ter um único predecessor (exceto o primeiro elemento) e um único sucessor (exceto o último elemento).</li>
+                <ul>
+                    <li style="padding: 7px;">Ex: Listas, Pilhas, Filas, Arranjos, entre outros.</li>
+                </ul>
+                <li style="padding: 7px;">Estruturas Não-Lineares: são aquelas em que cada elemento pode ter mais de um predecessor e/ou mais de um sucessor.</li>
+                <ul>
+                    <li style="padding: 7px;">Ex: Árvores, Grafos e Tabelas de Dispersão.</li>
+                </ul>
+            </ul>
+            
+            <p><strong>TAD - Tipo Abstrato de Dados</strong></p>
+            <p>Os Tipos Abstratos de Dados são simplesmente um modelo para um certo tipo de estrutura de dados. Quando falamos em pilha, estamos falando de um tipo abstrato de dados que tem duas operações com comportamentos bem definidos e conhecidos: push (para inserir elementos na pilha); e pop (para retirar elementos da pilha).</p>
+            <p>Um tipo abstrato de dados contém um modelo que contém valores e operações associadas, de forma que essas operações sejam precisamente independentes de uma implementação particular. Em geral, um TAD é especificado por meio de uma especificação algébrica que, em geral, contém três partes: <strong>Especificação Sintática</strong>, <strong>Semântica</strong> e de <strong>Restrições</strong>.</p>
+            <ol>
+                <li style="padding: 7px;"><strong>Especificação Sintática</strong>: define o nome do tipo, suas operações e o tipo dos argumentos das operações, definindo a assinatura do TAD. A Especificação Semântica descreve propriedades e efeitos das operações de forma independente de uma implementação específica.</li>
+                <li style="padding: 7px;"><strong>Semântica</strong>: o nível semântico trata do comportamento de um tipo abstrato de dados; e o nível sintático trata da apresentação de um tipo abstrato de dados. Podemos dizer, então, que o TAD encapsula uma estrutura de dados com características semelhantes – podendo ser formado por outros TADs –, e esconde a efetiva implementação dessa estrutura de quem a manipula.</li>
+                <li style="padding: 7px;"><strong>Restrições</strong>: estabelece as condições que devem ser satisfeitas antes e depois da aplicação das operações.</li>
+            </ol>
+
+            <p><strong>Lista Encadeada</strong></p>
+            <p>Trata-se de uma estrutura de dados dinâmica formada por uma sequência encadeada de elementos chamados nós, que contêm dois campos: <strong>campo de informação</strong> e campo de endereço. O primeiro armazena o real elemento da lista e o segundo contém o endereço do próximo nó da lista.</p>
+            <p>O campo do próximo endereço do último nó na lista contém um valor especial, conhecido como <strong>NULL</strong>, que não é um endereço válido. Esse ponteiro nulo é usado para indicar o final de uma lista. Uma lista é chamada Lista Vazia ou Lista Nula caso não tenha nós ou tenha apenas um nó sentinela. O valor do ponteiro externo para esta lista é o ponteiro nulo. Uma lista pode ser inicializada com uma lista vazia.</p>
+            <p><img src="img/lista.encadeada.linear.png" alt="Lista Encadeada Linear"></p>
+            <p>Suponha que seja feita uma mudança na estrutura de uma lista linear, de modo que o campo próximo no último nó contenha um ponteiro de volta para o primeiro nó, em vez de um ponteiro nulo. Esse tipo de lista é chamado Lista Circular, ou seja, a partir de qualquer ponto, é possível atingir qualquer outro ponto da lista.</p>
+            <p><img src="img/lista.encadeada.circular.png" alt="Lista Encadeada Circular"></p>
+            <p>Observe que uma Lista Circular não tem um primeiro ou último nó natural. Precisamos, portanto, estabelecer um primeiro e um último nó por convenção. Uma convenção útil é permitir que o ponteiro externo para a lista circular aponte para o último nó, e que o nó seguinte se torne o primeiro nó. Assim podemos incluir ou remover um elemento convenientemente a partir do início ou do final de uma lista.</p>
+            <p><img src="img/lista.duplamente.encadeada.png" alt="Lista Duplamente Encadeada"></p>
+            <p>Embora uma lista circularmente ligada tenha vantagens sobre uma lista linear, ela ainda apresenta várias deficiências. Não se pode atravessar uma lista desse tipo no sentido contrário nem um nó pode ser eliminado de uma lista circularmente ligada sem se ter um ponteiro para o nó antecessor. Nos casos em que tais recursos são necessários, a estrutura de dados adequada é uma <strong>lista duplamente ligada</strong>.</p>
+            <p>Cada nó numa lista desse tipo contém <strong>dois ponteiros</strong>, um para seu <strong>predecessor</strong> e outro para seu <strong>sucessor</strong>. Na realidade, no contexto de listas duplamente ligadas, os termos predecessor e sucessor não fazem sentido porque a lista é totalmente simétrica. As listas duplamente ligadas podem ser lineares ou circulares e podem conter ou não um nó de cabeçalho.</p>
+            <p>Podemos considerar os nós numa lista duplamente ligada como consistindo em três campos: um campo info que contém as informações armazenadas no nó, e os campos left e right, que contêm ponteiros para os nós em ambos os lados. Dado um ponteiro para um elemento, pode-se acessar os elementos adjacentes e, dado um ponteiro para o último elemento, pode-se percorrer a lista em <strong>ordem inversa</strong>.</p>
+            <p>Existem <strong>cinco</strong> operações básicas sobre uma lista encadeada:</p>
+            <ol>
+                <li><strong>Criação</strong>, em que se cria a lista na memória; </li>
+                <li><strong>Busca</strong>, em que se pesquisa nós na lista;</li>
+                <li><strong>Inclusão</strong>, em que se insere novos nós na lista em uma determinada posição;</li>
+                <li><strong>Remoção</strong>, em que se elimina um elemento da lista;</li>
+                <li><strong>Destruição</strong>, em que se destrói a lista junto com todos os seus nós.</li>
+            </ol>
+
+            <p><strong>Pilhas</strong></p>
+            <p>A Pilha é um <strong>conjunto ordenado</strong> de itens no qual novos itens podem ser inseridos e eliminados em uma extremidade chamada <strong>topo</strong>. Novos itens podem ser colocados no topo da pilha (tornando-se o novo primeiro elemento) ou os itens que estiverem no topo da pilha poderão ser removidos.</p>
+            <p>Também conhecida como <strong>Lista LIFO</strong> (Last In First Out), basta lembrar de uma pilha de pratos esperando para serem lavados, ou seja, o último a entrar é o primeiro a sair. A ordem em que os pratos são retirados da pilha é o oposto da ordem em que eles são colocados sobre a pilha e, como consequência, apenas o prato do topo da pilha está acessível.</p>
+            <p><img src="img/pilhas.png" alt="Pilhas"></p>
+            <p>As Pilhas oferecem três operações básicas:</p>
+            <ol>
+                <li>push, que insere um novo elemento no topo da pilha;</li>
+                <li>pop, que remove um elemento do topo da pilha;</li>
+                <li>top (também conhecida como check), que acessa e consulta o elemento do topo da pilha.</li>
+            </ol>
+
+            <p><strong>Filas</strong></p>
+            <p>Uma fila é um conjunto <strong>ordenado</strong> de itens a partir do qual podem-se <strong>eliminar</strong> itens numa extremidade (chamada início da fila) e no qual podem-se <strong>inserir</strong> itens na outra extremidade (chamada final da fila). Também conhecida como Lista FIFO (First In First Out), basta lembrar de uma fila de pessoas esperando para serem atendidas em um banco, ou seja, o primeiro a entrar é o primeiro a sair.</p>
+            <p>Quando um elemento é colocado na fila, ele ocupa seu lugar no fim da fila, como um aluno recém-chegado que ocupa o final da fileira. O elemento retirado da fila é sempre aquele que está no início da fila, como o aluno que se encontra no começo da fileira e que esperou mais tempo. As Filas possuem <strong>início</strong> (ou cabeça) e <strong>fim</strong> (ou cauda). As operações básicas são <strong>Enqueue</strong> (Enfileirar) e <strong>Dequeue</strong> (Desenfileirar).</p>
+            <p><img src="img/filas.png" alt="Filas"></p>
+
+            <p><strong>Árvore</strong></p>
+            <p>Uma árvore é uma estrutura de <strong>dados hierárquica</strong> (não-linear) composta por um <strong>conjunto finito</strong> de elementos com um único elemento raiz, com zero ou mais sub-árvores ligadas a esse elemento raiz. Como mostra a imagem abaixo, há uma única raiz, em amarelo. Há também nós folhas, em vermelho e seus pais, em verde. Observem ainda os conceitos de Altura, Grau e Nível de uma árvore.</p>
+            <p><img src="img/arvore.conceitos.png" alt="Conceitos Básicos de Árvore"></p>
+            <p>O Grau informa a quantidade de filhos de um determinado nó! A Raiz tem Nível 0 (excepcionalmente, alguns autores consideram que tem Nível 1) e o nível de qualquer outro nó na árvore é um nível a mais que o nível de seu pai. Por fim, a Altura é a distância entre a raiz e seu descendente mais afastado.</p>
+
+            <p><strong>Como percorrer uma árvore</strong></p>
+            <p>Em uma Árvore de Busca Binária, podemos fazer três percursos: <strong>pré-ordem</strong>, <strong>in-ordem</strong> e <strong>pós-ordem</strong> (esses prefixos são em relação a raiz). É interessante notar que, quando se faz um percurso em ordem em uma árvore binária de busca, os valores dos nós aparecem em ordem crescente. A operação "Percorre" tem como objetivo percorrer a árvore numa dada ordem, enumerando os seus nós.</p>
+            <p>Quando um nó é enumerado, diz-se que ele foi <strong>"visitado"</strong>. Vamos ver agora esses três percursos:</p>
+            <ul>
+                <li><strong>Pré-Ordem</strong> (ou Profundidade): visita a raiz; percorre a subárvore esquerda em pré-ordem; percorre a subárvore direita em pré-ordem.</li>
+                <li><strong>In-Ordem</strong> (ou Simétrica): percorre a subárvore esquerda em in-ordem; visita a raiz; percorre a subárvore direita em in-ordem.</li>
+                <li><strong>Pós-Ordem:</strong> percorre a subárvore esquerda em pós-ordem; percorre a subárvore direita em pós-ordem; visita a raiz.</li>
+            </ul>
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>pré-ordem</th>
+                            <td><span style="color: red;">raiz</span></td>
+                            <td><span style="color: blue;">esquerda</span></td>
+                            <td><span style="color: green;">direita</span></td>
+                        </tr>
+                        <tr>
+                            <th>ordem</th>
+                            <td><span style="color: blue;">esquerda</span></td>
+                            <td><span style="color: red;">raiz</span></td>
+                            <td><span style="color: green;">direita</span></td>
+                        </tr>
+                        <tr>
+                            <th>pós-ordem</th>
+                            <td><span style="color: blue;">esquerda</span></td>
+                            <td><span style="color: green;">direita</span></td>
+                            <td><span style="color: red;">raiz</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><strong>Percorrendo pelas bolinhas</strong></p>
+            <ul>
+                <li>Pré-ordem: coloca a bolinha à esquerda</li>
+                <li>Ordem: coloca a bolinha em baixo</li>
+                <li>Pós-ordem: coloca a bolinha à direita</li>
+            </ul>
+            <p><img src="img/arvore.percorrer.bolinha.png" alt="Percorrer Árvore Bolinhas"></p>
+
+            <h3>Pesquisa de Dados</h3>
+            <p>Uma das tarefas de maior importância na computação é a pesquisa de informações contidas em coleções de dados. Em geral, desejamos que essa tarefa seja executada sem que haja a necessidade de inspecionar toda a coleção de dados.</p>
+
+            <p><strong>Busca Sequencial</strong></p>
+            <p>Imaginem que eu estou à procura de um valor X em um vetor L[ ]! Para tal, posso inspecionar as posições sequenciais de L[ ] a partir da primeira posição: se eu encontrar X, minha busca tem êxito; se eu alcanço a última posição e não encontro X, concluímos que esse valor não ocorre no vetor L[ ]. Essa busca em que eu inspeciono uma estrutura posição por posição é chamada de <strong>Sequencial ou Linear</strong>.</p>
+            <p>Considerando que o vetor L[ ] contém N elementos, ordenados ou não, é fácil verificar que a busca sequencial requer tempo linearmente proporcional ao tamanho do vetor, i.e., da ordem O(n). Por conta disso, é comum dizer que a busca sequencial é uma Busca Linear. Entenderam? Quanto maior o vetor, maior o tempo em média para buscar um elemento! Quanto mais ao final, mais demorado.</p>
+            <p>A <strong>Busca Sequencial</strong> é muito lenta para grandes quantidades de dados, mas aceitável para listas pequenas e que mudam constantemente. Observa-se que no Melhor Caso, X está na primeira posição, logo necessita apenas de uma comparação; no Pior Caso, X está na última posição, logo necessita de N comparações; e no Caso Médio, X é encontrado após (n+1)/2 comparações.</p>
+
+            <p><strong>Busca Binária</strong></p>
+            <p>A Busca Binária é um algoritmo de busca em vetores que segue o paradigma de divisão-e-conquista. Partese do pressuposto de que o vetor está ordenado e realiza sucessivas divisões do espaço de busca, comparando o elemento chave com o elemento do meio do vetor.</p>
+            <p>Quando o Vetor L[ ] estiver em ordem crescente, podemos determinar se X ocorre em L[ ] de forma mais rápida da seguinte forma: inspeciona-se a posição central do vetor! Se essa posição já contiver X, a busca para! Por que, professor? Porque nós já encontramos X! Se X for menor que esse elemento central, passamos a procurar X, recursivamente, no intervalo de L[ ] que se encontra à esquerda da posição central.</p>
+            <p>Se X for maior do que o elemento central, continuamos a procurar X, recursivamente, no intervalo de L que está à direita da posição central. Se o intervalo se tornar vazio, a busca para, tendo sido malsucedida. Esse procedimento é conhecido como Busca Binária e, facilmente, pode-se adaptar a busca em ordem decrescente.</p>
+
+
+
+
 
         </section>
 
