@@ -5423,7 +5423,1304 @@
         "e) são tipos de dados que escondem a sua implementação de quem o manipula; de maneira geral as operações sobre estes dados são executadas sem que se saiba como isso é feito."],
         "correta": "e) são tipos de dados que escondem a sua implementação de quem o manipula; de maneira geral as operações sobre estes dados são executadas sem que se saiba como isso é feito.",
         "explicacao": "Em outras palavras, o nível semântico trata do comportamento de um tipo abstrato de dados; e o nível sintático trata da apresentação de um tipo abstrato de dados. Podemos dizer, então, que o TAD encapsula uma estrutura de dados com características semelhantes – podendo ser formado por outros TADs –, e esconde a efetiva implementação dessa estrutura de quem a manipula. <br>(a) Errado. Pelo contrário, ele encapsula a estrutura de dados de modo que o usuário não tem acesso a implementação das operações; (b) Correto. Todas elas admitem, porém a FCC marcou o gabarito como errado; (c) Errado. Elas permitem a declaração como tipos abstratos de dados; (d) Errado. Um TAD pode ser formado por outros TADs; (e) Correto. Escondem a implementação de quem os manipula."
+      },
+      {
+        "pergunta": "(UFV – 2022 – UFV-MG) Considere as afirmativas a seguir sobre estrutura de dados: <br>I. Uma estrutura de dados heterogênea envolve a utilização de mais de um tipo básico de dado. <br>II. Uma lista encadeada pode ser definida como uma sequência de células em que cada célula contém um elemento e o endereço da célula seguinte. <br>III. Uma pilha é uma estrutura de dados baseada no princípio “First In First Out” (FIFO). <br>IV. Filas e pilhas são estruturas de dados lineares; o organograma de uma empresa pode ser representado por uma estrutura de árvore. <br>Está CORRETO o que se afirma, apenas, em:",
+        "alternativas": ["a) I e II.", 
+        "b) I e III.", 
+        "c) I, II e IV.", 
+        "d) II, III e IV."],
+        "correta": "c) I, II e IV.",
+        "explicacao": "Vamos analisar item a item: <br>I. Uma estrutura de dados heterogênea envolve a utilização de mais de um tipo básico de dado. Isso mesmo. Significa que cada elemento da estrutura de dados pode ter mais de um tipo básico de dado. Por exemplo, um inteiro, uma string, um booleano, etc. Verdadeiro. <br>II. Uma lista encadeada pode ser definida como uma sequência de células em que cada célula contém um elemento e o endereço da célula seguinte. Essa é a definição de lista encadeada simples. Certo. <br>III. Uma pilha é uma estrutura de dados baseada no princípio “First In First Out” (FIFO). Na verdade, a pilha segue a estrutura de dados com a regra LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair. Falso. <br>IV. Filas e pilhas são estruturas de dados lineares; o organograma de uma empresa pode ser representado por uma estrutura de árvore. <br>Filas e pilhas são estruturas lineares de fato, e uma árvore é uma estrutura hierárquica, e, por isso, um organograma de uma empresa pode ser representado por ela. Verdadeiro. Corretas: I, II e IV."
+      },
+      {
+        "pergunta": "(Quadrix – 2022 – PRODAM-AM) Assinale a alternativa que apresenta o nome do tipo de estrutura em que cada elemento armazena um ou vários dados e um ponteiro para o próximo elemento, que permite o encadeamento e mantém a estrutura linear, sendo que, nesse tipo de estrutura, são abordadas as seguintes operações: inserir no início da lista; inserir no fim; consultar toda a lista; remover um elemento qualquer dela; e esvaziá-la.",
+        "alternativas": ["a) lista simplesmente encadeada e não ordenada", 
+        "b) lista simplesmente encadeada e ordenada", 
+        "c) lista duplamente encadeada e não ordenada", 
+        "d) lista duplamente encadeada e ordenada",
+        "e) lista triplamente encadeada"],
+        "correta": "a) lista simplesmente encadeada e não ordenada",
+        "explicacao": "O enunciado fala em ponteiro para o próximo elemento, e não cita ponteiro para o elemento interior. Portanto, dá para inferir que se trata de uma lista simplesmente encadeada.<br>O enunciado também não fala em ordenação. Portanto, seria uma lista simplesmente encadeada e não ordenada."
+      },
+      {
+        "pergunta": "(FUNDATEC – 2022 – IF-RS) Que tipo de estrutura de dados está representada na Figura 1 abaixo?<br><img src='../dados/imgs/questao_desenvolvimento_34.png' alt='imagem da questão'><br>",
+        "alternativas": ["a) Árvore binária.", 
+        "b) Fila.", 
+        "c) Pilha.", 
+        "d) Lista ligada.",
+        "e) Vetor."],
+        "correta": "d) Lista ligada.",
+        "explicacao": "Note que cada elemento possui um ponteiro para o próximo, exceto o último, que aponta para “null”. Trata-se de uma lista ligada. <br>Como a questão não fala sobre regras de inserção e remoção (LIFO ou FIFO), não pode ser fila ou pilha. Como é uma estrutura sequencial, não pode ser árvore, que é uma estrutura hierárquica. <br>Para ser um vetor, deveria ter seus elementos em posições de memória sequenciais, e não utilizando ponteiros. Portanto, é uma lista ligada."
+      },
+      {
+        "pergunta": "(IBADE – 2022 – SES-MG) Uma estrutura de dados onde existe uma coleção ordenada de entidades sendo a metodologia de busca com base no deslocamento relativo ao primeiro (cabeça) da coleção, chama-se:",
+        "alternativas": ["a) árvore.", 
+        "b) lista.", 
+        "c) pilha.", 
+        "d) fila.",
+        "e) árvore binária."],
+        "correta": "b) lista.",
+        "explicacao": "Vamos analisar item a item: <br>a) árvore. <br>Em uma árvore, o deslocamento é feito a partir do nó raiz, e não da cabeça. Falso. <br>b) lista. <br>Em uma lista, temos a referência ao primeiro elemento, que é chamado de cabeça. Depois, cada elemento tem um apontamento para o próximo. Dessa forma, para buscar, temos que, de fato, ir da cabeça e seguir aos seguintes. Verdadeiro. <br>c) pilha.<br>Em uma pilha, temos o topo da pilha. Neste caso, temos apenas 3 operações: top, para ver qual elemento está no topo da pilha; pop, para remover o elemento do topo da pilha; e push, para incluir um elemento na pilha. Não há operação para deslocar sobre ela. Falso. <br>d) fila. <br>Em uma fila, temos duas extremidades, e duas operações: uma para inserir um elemento ao final, e outra pra retirar do início. Não é o caso de haver uma “cabeça” inicial para percorrer as demais. Falso. <br>e) árvore binária. <br>Em uma árvore binária, percorre-se do nó raiz, e não da cabeça. Falso."
+      },
+      {
+        "pergunta": "(FGV – 2021 – TJ-RO) Considere a lista duplamente encadeada exibida a seguir. <br>(1, 3, 0, “Verde”) <br>(2, 4, 3, “Azul”) <br>(3, 2, 1, “Amarelo”) <br>(4, 0, 2, “Vermelho”) <br>Cada elemento pertencente à lista é representado por uma quádrupla, com o seguinte formato: <br>(<id>, <id do anterior>, <id do seguinte>, <conteúdo>). <br>A ordem do conteúdo dos componentes, segundo a instância da lista apresentada, é:",
+        "alternativas": ["a) Amarelo, Verde, Azul, Vermelho;", 
+        "b) Azul, Verde, Vermelho, Amarelo;", 
+        "c) Verde, Vermelho, Amarelo, Azul;", 
+        "d) Vermelho, Amarelo, Azul, Verde;",
+        "e) Vermelho, Azul, Amarelo, Verde."],
+        "correta": "d) Vermelho, Amarelo, Azul, Verde;",
+        "explicacao": "De linha a linha, vamos analisando: <br>(1, 3, 0, “Verde”) <br>O verde vem depois do 3 (Amarelo), e antes do 0. Como não existe 0, então sabemos que: <br>Lista: Amarelo - Verde <br>(2, 4, 3, “Azul”) <br>O azul vem depois do 4 (Vermelho), e antes do 3 (Amarelo), então sabemos que: <br>Lista: Vermelho - Azul – Amarelo – Verde <br>Apenas com essas duas linhas, já sabemos a ordem que é a letra D, certo? Mas... vamos conferir as demais. <br>(3, 2, 1, “Amarelo”) <br>Diz que o Amarelo vem depois do 2 (Azul) e antes do 1 (Verde). Está certo. <br>(4, 0, 2, “Vermelho”) <br>Diz que o Vermelho vem depois do 0 (não existe, portanto, é o primeiro), e depois do 2 (Azul). Certo também. <br>A lista é Vermelho - Azul – Amarelo – Verde."
+      },
+      {
+        "pergunta": "CESPE/CEBRASPE – 2019 – MPC-PA) Assinale a opção que apresenta a denominação da estrutura de dados constituída por um conjunto de elementos individualizados, em que cada um dos elementos — com exceção dos elementos inicial e final — referencia sempre outros dois, um que o antecede e outro que o sucede.",
+        "alternativas": ["a) lista circular", 
+        "b) grafo", 
+        "c) lista duplamente encadeada", 
+        "d) árvore",
+        "e) pilha"],
+        "correta": "c) lista duplamente encadeada",
+        "explicacao": "Vamos analisar item a item: <br>a) lista circular <br>Uma lista em que cada elemento referencia o outro, porém com uma diferença: o último elemento referencia o primeiro também. A questão deixa claro que quer uma estrutrua de dados em que os elementos inicial e final não estejam ligados. Falso. <br>b) Grafo <br>Estrutura de dados com um conjunto de vértices ligados entre si por arestas. Falso. <br>c) lista duplamente encadeada <br>Uma lista em que cada elemento referencia o outro em ambas as direções: um elemento referencia o anterior e o próximo, exceto os elementos inicial e final. É isso aí. Verdadeiro. <br>d) Árvore <br>Estrutura de dados em que um nó possui 1 ou mais filhos, mas cada filho possui somente um pai. Falso. <br>e) pilha <br>Estrutura de dados usando a regra LIFO, last-in first-out, ou seja, o último a entrar é o primeiro a sair. Falso."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2017 – TRT-7) Considere uma estrutura de dados em que cada elemento armazenado apresenta ligações de apontamento com seu sucessor e com o seu predecessor, o que possibilita que ela seja percorrida em qualquer sentido. Trata-se de",
+        "alternativas": ["a) uma fila.", 
+        "b) um grafo.", 
+        "c) uma lista duplamente encadeada.", 
+        "d) uma pilha"],
+        "correta": "c) uma lista duplamente encadeada.",
+        "explicacao": "Vamos analisar item a item: <br>a) uma fila. <br>Estrutura de dados que segue a lógica FIFO (first-in, first-out), ou “primeiro a entrar é o primeiro a sair”. Os elementos são inseridos no fim da fila e removidos no início. Falso. <br>b) um grafo. <br>Grafo é uma estrutura de dados com um conjunto de vértices e arestas que os ligam. Falso. <br>c) uma lista duplamente encadeada. <br>É uma estrutura de dados que armazena uma sequência de elementos que possuem ligações de apontamento, ou ponteiros, entre si, em ambas as direções. Isso permite percorrer a lista em qualquer sentido. Verdadeiro. <br>d) uma pilha. <br>Estrutura de dados que segue a lógica LIFO, ou last-in first-out, que significa “o último a entrar é o primeiro a sair”. Falso."
+      },
+      {
+        "pergunta": "(FGV – 2018 – MPE-AL) Considere a representação de uma lista duplamente encadeada que armazena os times de futebol que participam de um torneio.<br><img src='../dados/imgs/questao_desenvolvimento_35.png' alt='imagem da questão'><br>Assinale a ordem em que os times estão dispostos nessa lista.",
+        "alternativas": ["a) Barcelona, Chelsea, Bayern, Real Madrid, Roma.", 
+        "b) Chelsea, Bayern, Real Madrid, Roma, Barcelona.", 
+        "c) Real Madrid, Roma, Barcelona, Chelsea, Bayern.", 
+        "d) Barcelona, Bayern, Chelsea, Real Madrid, Roma.",
+        "e) Roma, Real Madrid, Bayern, Chelsea, Barcelona."],
+        "correta": "a) Barcelona, Chelsea, Bayern, Real Madrid, Roma.",
+        "explicacao": "Vamos analisar linha a linha. <br>Real Madrid está depois do 4 (Bayern) e antes do 2 (Roma). <br>Lista: Bayern – Real Madrid – Roma <br>Roma está depois do 1 (Real Madrid), e não tem posterior, logo, é o último da lista. <br>Barcelona não tem anterior (logo, é o primeiro da lista), e está antes do 5 (Chelsea). <br>Lista: Barcelona – Chelsea – ??? – Bayern – Real Madrid – Roma <br>Bayern está depois do 5 (Chelsea) e antes do 1 (Real Madrid) <br>Lista: Barcelona – Chelsea – Bayern – Real Madrid – Roma <br>Já temos a resposta."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2018 – BNB) Uma lista encadeada é basicamente uma estrutura de dados em lista em que cada nó possui três campos: um para os dados, um para o endereço do nó anterior, e outro para o endereço do nó posterior.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Este é o conceito de lista duplamente encadeada, e não da lista encadeada. No caso, uma lista encadeada possui um endereço apenas para o nó posterior, e não para o anterior."
+      },
+      {
+        "pergunta": "(FCC – 2013 – DPE-SP) Em uma <strong><u>I</u></strong>, para cada novo elemento inserido na estrutura, alocamos um espaço de memória para armazená-lo. Desta forma, o espaço total de memória gasto pela estrutura é proporcional ao número de elementos nela armazenados. No entanto, não podemos garantir que os elementos armazenados na lista ocuparão um espaço de <strong><u>II</u></strong> contíguo, portanto, não temos acesso direto aos elementos da lista. Para que seja possível percorrer todos os elementos da <strong><u>III</u></strong> , devemos explicitamente guardar o encadeamento dos elementos, o que é feito armazenando-se, junto com a informação de cada elemento, um <strong><u>IV</u></strong> para o próximo elemento da <strong><u>V</u></strong>.<br>As lacunas de I a V, são preenchidas, corretas e respectivamente, por:",
+        "alternativas": ["a) estrutura de pilha - tamanho - memória - array - pilha", 
+        "b) lista encadeada - memória - lista - ponteiro - lista", 
+        "c) estrutura de filas (FIFO) - disco - sequência - buffer - memória alocada", 
+        "d) arquitetura de memória primária - tamanho - fila - contador sequencial - conexão",
+        "e) arquitetura TCP/IP - tamanho fixo - conexão - número de roteamento - tabela MTU"],
+        "correta": "b) lista encadeada - memória - lista - ponteiro - lista",
+        "explicacao": "Podemos perceber que o enunciado está falando de listas encadeadas, já que, para cada novo elemento, alocamos um espaço na memória para armazená-lo, e não necessariamente estes espaços são contíguos, de modo que são ligados entre si por ponteiros ou referências. Portanto, é letra B. <br>A letra a) fala de pilha, portanto está errada já no primeiro item. A letra c) fala de filas, e, portanto, também está errada. Os demais itens d) e e) não têm nada a ver com o assunto."
+      },
+      {
+        "pergunta": "(FCC – FAURGS – SES-RS) Qual é a afirmativa correta sobre estruturas de dados?",
+        "alternativas": ["a) Uma pilha armazena os dados em uma estrutura de dados do tipo árvore binária.", 
+        "b) Listas encadeadas são estruturas que encadeiam os elementos através de um ponteiro no qual todos os elementos, exceto o último, apontam para o seguinte.", 
+        "c) Em uma pilha, o primeiro elemento a ser inserido será o primeiro a ser retirado, ou seja, adicionam-se itens no fim e removem-se do início.", 
+        "d) Uma fila armazena os dados em uma estrutura de dados do tipo grafo.",
+        "e) Em uma fila, o primeiro elemento a ser inserido será o último a ser retirado, ou seja, adicionam-se e removem- se itens no início."],
+        "correta": "b) Listas encadeadas são estruturas que encadeiam os elementos através de um ponteiro no qual todos os elementos, exceto o último, apontam para o seguinte.",
+        "explicacao": "Vamos analisar item a item: <br>a) Uma pilha armazena os dados em uma estrutura de dados do tipo árvore binária. <br>Não. Uma pilha armazena dados em uma estrutura de dados do tipo lista, seguindo a regra LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair. Falso. <br>b) Listas encadeadas são estruturas que encadeiam os elementos através de um ponteiro no qual todos os elementos, exceto o último, apontam para o seguinte. <br>Definição correta de listas encadeadas simples. Verdadeiro. <br>c) Em uma pilha, o primeiro elemento a ser inserido será o primeiro a ser retirado, ou seja, adicionam-se itens no fim e removem-se do início. <br>Na verdade, uma pilha armazena dados em uma estrutura de dados do tipo lista, seguindo a regra LIFO (last-in firstout), ou seja, o último a entrar é o primeiro a sair. Falso. <br>d) Uma fila armazena os dados em uma estrutura de dados do tipo grafo. <br>Não. Uma fila armazena dados em uma estrutura de dados do tipo lista, seguindo a regra FIFO (first-in last-out), ou seja, o primeiro a entrar é o primeiro a sair. Falso. <br>e) Em uma fila, o primeiro elemento a ser inserido será o último a ser retirado, ou seja, adicionam-se e removem- se itens no início. Não. A regra da fila é a FIFO (first-in last-out), ou seja, o primeiro a entrar é o primeiro a sair. Falso."
+      },
+      {
+        "pergunta": "(CESPE - 2012 - Banco da Amazônia - Técnico Científico - Administração de Dados) O tempo de busca de um elemento em uma lista duplamente encadeada é igual à metade do tempo da busca de um elemento em uma lista simplesmente encadeada.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Apesar de permitir que se percorra a lista em ambas as direções, em média ambas possuem o mesmo tempo de busca de um elemento."
+      },
+      {
+        "pergunta": "(CESPE - 2012 - Banco da Amazônia - Técnico Científico - Administração de Dados) Em algumas implementações, uma lista vazia pode ter um único nó, chamado de sentinela, nó cabeça ou header. Entre suas possíveis funções, inclui-se simplificar a implementação de algumas operações realizadas sobre a lista, como inserir novos dados, recuperar o tamanho da lista, entre outras.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Ele simplifica a implementação de algumas operações porque se guarda o endereço do primeiro e do último elemento de uma estrutura de dados de modo que o programador não precisa conhecer a estrutura de implementação da lista para realizar suas operações."
+      },
+      {
+        "pergunta": "(CESPE - 2012 - Banco da Amazônia - Técnico Científico - Administração de Dados) As listas duplamente encadeadas diferenciam-se das listas simplesmente encadeadas pelo fato de, na primeira, os nós da lista formarem um anel com o último elemento ligado ao primeiro da lista.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, a diferença é que Listas Duplamente Encadeadas possuem dois ponteiros, que apontam para o nó sucessor e para o nó predecessor e Listas Simplesmente Encadeadas possuem apenas um ponteiro, que aponta para o nó sucessor."
+      },
+      {
+        "pergunta": "(FCC - 2012 - TRE-SP - Analista Judiciário - Análise de Sistemas - E) Numa lista singularmente encadeada, para acessar o último nodo é necessário partir do primeiro e ir seguindo os campos de ligação até chegar ao final da lista.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Se é uma lista singularmente encadeada, é necessário percorrer cada elemento um-a-um até chegar ao final da lista."
+      },
+      {
+        "pergunta": "(CESPE - 2011 - EBC - Analista - Engenharia de Software) Uma lista é uma coleção de elementos do mesmo tipo dispostos linearmente, que podem ou não seguir determinada organização. As listas podem ser dos seguintes tipos: de encadeamento simples, duplamente encadeadas e ordenadas.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Uma lista é, por natureza, heterogênea, i.e., seus elementos são compostos por tipos de dados primitivos diferentes. A questão afirmou que a lista é uma coleção de elementos do mesmo tipo. E ela está certa, veja só o peguinha da questão: <br>Eu crio um tipo composto por dois tipos de dados diferentes: tipoEstrategia = {curso: caractere; duracao: inteiro}. Observe que o tipo tipoEstrategia é composto por tipos de dados primitivos diferentes (caractere e inteiro). Agora eu crio uma lista ListaEstrategia: tipoEstrategia. Veja que todos os elementos dessa lista terão o mesmo tipo (tipoEstrategia). Em outras palavras: a Lista Heterogênea é composta por elementos do mesmo tipo que, em geral, são compostos por mais de um tipo primitivo. <br>Além disso, as listas podem ser simplesmente encadeadas, duplamente encadeadas e ordenadas. E ainda podem ser circulares. Observem que alguns autores consideram Listas Ordenadas como um tipo de lista! Como, professor? Ela é uma lista em que seus elementos são ordenados (crescente ou decrescente)."
+      },
+      {
+        "pergunta": "(CESPE - 2009 - ANAC - Técnico Administrativo - Informática) Em uma lista circular duplamente encadeada, cada nó aponta para dois outros nós da lista, um anterior e um posterior.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Há dois ponteiros: uma para o nó anterior e um para o nó posterior."
+      },
+      {
+        "pergunta": "(CESPE - 2008 - TRT - 5ª Região (BA) - Técnico Judiciário - Tecnologia da Informação) A principal característica de uma lista encadeada é o fato de o último elemento da lista apontar para o elemento imediatamente anterior.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, o último elemento da lista não aponta para nenhum outro nó em uma lista não-circular."
+      },
+      {
+        "pergunta": "(CESPE - 2009 - TCE-AC - Analista de Controle Externo - Processamentos de Dados) Uma lista encadeada é uma coleção de nodos que, juntos, formam uma ordem linear. Se é possível os nodos se deslocarem em ambas as direções na lista, diz-se que se trata de uma lista simplesmente encadeada.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Se é possível os nodos se deslocarem em ambas as direções na lista, diz-se que se trata de uma lista duplamente encadeada."
+      },
+      {
+        "pergunta": "(CESPE - 2008 – HEMOBRÁS – Técnico de Informática) Uma estrutura do tipo lista, em que é desejável percorrer o seu conteúdo nas duas direções indiferentemente, é denominado lista duplamente encadeada.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito, é exatamente isso!"
+      },
+      {
+        "pergunta": "(CESPE - 2010 – TRE/MT – Analista de Sistemas – C) Uma lista duplamente encadeada é uma lista em que o seu último elemento referencia o primeiro.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, isso se trata de uma Lista Circular!"
+      },
+      {
+        "pergunta": "(CESPE - 2006 – SGA/AC – Analista de Sistemas) O principal problema da alocação por lista encadeada é a fragmentação.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Em geral, a alocação por lista encadeada elimina a fragmentação"
+      },
+      {
+        "pergunta": "(CESPE - 2008 – MCT – Analista de Sistemas) O armazenamento de arquivos em disco pode ser feito por meio de uma lista encadeada, em que os blocos de disco são ligados por ponteiros. A utilização de lista encadeada elimina completamente o problema de fragmentação interna.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, ela elimina a fragmentação externa!"
+      },
+      {
+        "pergunta": "(CESPE - 2009 – FINEP – Analista de Sistemas) Uma lista encadeada é uma representação de objetos na memória do computador que consiste de uma sequência de células em que:",
+        "alternativas": ["a) cada célula contém apenas o endereço da célula seguinte.", 
+        "b) cada célula contém um objeto e o tipo de dados da célula seguinte.", 
+        "c) o último elemento da sequência aponta para o próximo objeto que normalmente possui o endereço físico como not null.", 
+        "d) cada célula contém um objeto de algum tipo e o endereço da célula seguinte.",
+        "e) a primeira célula contém o endereço da última célula."],
+        "correta": "d) cada célula contém um objeto de algum tipo e o endereço da célula seguinte.",
+        "explicacao": "Cada célula contém um objeto de algum tipo e o endereço da célula seguinte!"
+      },
+      {
+        "pergunta": "(CESPE - 2010 – BASA – Analista de Sistemas) Em uma lista encadeada, o tempo de acesso a qualquer um de seus elementos é constante e independente do tamanho da estrutura de dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Claro que não! Em uma busca sequencial, o tempo de acesso é proporcional ao tamanho da estrutura de dados, i.e., quanto mais ao final da lista, maior o tempo de acesso! Por que, professor? Porque a lista é acessada sequencialmente (ou seja, é preciso percorrer elemento por elemento) e, não, diretamente (ou seja, pode-se acessar de modo direto). Um vetor tem acesso direto, portanto seu tempo de acesso é igual independentemente do tamanho da estrutura."
+      },
+      {
+        "pergunta": "(CESPE - 2010 – INMETRO – Analista de Sistemas – C) Considere que Roberto tenha feito uso de uma lista encadeada simples para programar o armazenamento e o posterior acesso aos dados acerca dos equipamentos instalados em sua empresa. Considere, ainda, que, após realizar uma consulta acerca do equipamento X, Roberto precisou acessar outro equipamento Y que se encontrava, nessa lista, em posição anterior ao equipamento X. Nessa situação, pela forma como os ponteiros são implementados em uma lista encadeada simples, o algoritmo usado por Roberto realizou a consulta ao equipamento Y sem reiniciar a pesquisa do começo da lista.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Infelizmente, ele teve que reiniciar a pesquisa a partir do primeiro elemento da lista, na medida em que ele não pode voltar. Por que, professor? Porque se trata de uma lista encadeada simples e, não, dupla. Portanto, a lista só é percorrida em uma única direção."
+      },
+      {
+        "pergunta": "(FCC - 2003 – TRE/AM – Analista de Sistemas) Os dados contidos em uma lista encadeada estão:",
+        "alternativas": ["a) ordenados seqüencialmente.", 
+        "b) sem ordem lógica ou física alguma.", 
+        "c) em ordem física e não, necessariamente, em ordem lógica.", 
+        "d) em ordem lógica e, necessariamente, em ordem física.",
+        "e) em ordem lógica e não, necessariamente, em ordem física."],
+        "correta": "e) em ordem lógica e não, necessariamente, em ordem física.",
+        "explicacao": "A Ordem Física é sua disposição na memória do computador e a Ordem Lógica é como ela pode ser lida e entendida. Ora, a ordem em que ela se encontra na memória pouco importa, visto que cada sistema operacional e cada sistema de arquivos tem sua maneira. Portanto, trata-se da ordem lógica e, não, necessariamente física."
+      },
+      {
+        "pergunta": "(FCC - 2010 – DPE/SP – Analista de Sistemas) Uma estrutura de dados que possui três campos: dois ponteiros e campo de informação denomina-se:",
+        "alternativas": ["a) lista encadeada dupla.", 
+        "b) lista encadeada simples.", 
+        "c) pilha.", 
+        "d) fila.",
+        "e) vetor."],
+        "correta": "a) lista encadeada dupla.",
+        "explicacao": "Trata-se da Lista Encadeada Dupla: dois ponteiros (Ant e Prox) e um campo de informação."
+      },
+      {
+        "pergunta": "(CESPE - 2010 – TRE/MT – Analista de Sistemas) O algoritmo para inclusão de elementos em uma pilha é usado sem nenhuma alteração para incluir elementos em uma lista.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Galera... uma pilha pode ser implementada por meio de uma lista! Ademais, o algoritmo para inclusão de elementos de ambas necessita do primeiro elemento (ou topo). Portanto, questão correta!"
+      },
+      {
+        "pergunta": "(FGV – 2022 – PC-AM) Assinale as operações características de uma estrutura de dados do tipo pilha (stack).",
+        "alternativas": ["a) IMPORT, EXPORT.",
+        "b) INPUT, OUPUT.", 
+        "c) INSERT, REMOVE.", 
+        "d) PUSH, POP.",
+        "e) READ, READLN."],
+        "correta": "d) PUSH, POP.",
+        "explicacao": "Push e pop são duas operações de uma pilha: <br>● Push: inserir um elemento no topo da pilha; <br>●Pop: remover o último elemento inserido na pilha. Quanto aos demais itens: <br>● IMPORT, EXPORT: operações de arquivos. <br>● INPUT, OUPUT: entrada e saída de dados. Não tem a ver com pilhas. <br>● INSERT, REMOVE: inserir e remover. Embora na pilha tenhamos inserção e remoção, estas operações, com este nome, estão associadas a listas. <br>● READ, READLN: operações para a entrada de dados."
+      },
+      {
+        "pergunta": "(FGV – 2022 – TJDFT) Júlio está desenvolvendo uma aplicação e precisa implementar um mecanismo de desfazer/refazer de um editor de texto utilizando o algoritmo LIFO (Last In, First Out). <br>Para implementar o algoritmo LIFO, Júlio deve usar a estrutura de dados:",
+        "alternativas": ["a) fila;",
+        "b) pilha;", 
+        "c) árvore;", 
+        "d) nó folha;",
+        "e) tabela hash."],
+        "correta": "b) pilha;",
+        "explicacao": "Vamos analisar item a item: <br>a) fila; <br>A fila segue a regra FIFO (first-in first-out), ou seja, o primeiro a entrar é o primeiro a sair. Falso. <br>b) pilha; <br>A pilha segue a regra LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair. A operação de inserir um valor é o push, e a operação de remover o último inserido é o pop. Verdadeiro. <br>c) árvore; <br>Árvores não seguem necessariamente regras de inserção, além de não serem estruturas sequenciais. Falso. <br>d) nó folha; <br>Nó folha é o nó de uma árvore que não possui filhos. Não tem nada a ver com o enunciado. Falso. <br>e) tabela hash. <br>Tabelas hash não seguem regra LIFO. Falso"
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2022 – DPE-RO) Em um sistema operacional, a estrutura de dados utilizada para organizar chamadas de funções recursivas por meio da inserção ou remoção de elementos via operações como push e pop é denominada",
+        "alternativas": ["a) lista estática.",
+        "b) fila.", 
+        "c) hash.", 
+        "d) pilha.",
+        "e) lista dinâmica."],
+        "correta": "d) pilha.",
+        "explicacao": "Push e pop são duas operações de uma pilha: <br>● Push: inserir um elemento no topo da pilha; <br>● Pop: remover o último elemento inserido na pilha. <br>A pilha leva em consideração o padrão LIFO, ou seja, last-in first-out, ou seja, o último a entrar é o primeiro a sair. <br>Por isso, suas duas operações são push e pop. <br>Quanto aos demais itens: <br>● lista estática: uma lista em que o número de elementos é fixo e pré-alocado. <br>● fila: segue o padrão FIFO, ou seja, first-in first-out, ou seja, o primeiro a entrar é o primeiro a sair. <br>● Hash: uma estrutura de dados para inserção, busca e remoção de forma rápida. <br>● lista dinâmica: uma lista em que o número de elementos é alterado dinamicamente enquanto o programa executa."
+      },
+      {
+        "pergunta": "(UFV – 2022 – UFV-MG) Considere as afirmativas a seguir sobre estrutura de dados: <br>I. Uma estrutura de dados heterogênea envolve a utilização de mais de um tipo básico de dado. <br>II. Uma lista encadeada pode ser definida como uma sequência de células em que cada célula contém um elemento e o endereço da célula seguinte. <br>III. Uma pilha é uma estrutura de dados baseada no princípio “First In First Out” (FIFO). <br>IV. Filas e pilhas são estruturas de dados lineares; o organograma de uma empresa pode ser representado por uma estrutura de árvore. <br>Está CORRETO o que se afirma, apenas, em:",
+        "alternativas": ["a) I e II.", 
+        "b) I e III.", 
+        "c) I, II e IV.", 
+        "d) II, III e IV."],
+        "correta": "c) I, II e IV.",
+        "explicacao": "Vamos analisar item a item: <br>I. Uma estrutura de dados heterogênea envolve a utilização de mais de um tipo básico de dado. Isso mesmo. Significa que cada elemento da estrutura de dados pode ter mais de um tipo básico de dado. Por exemplo, um inteiro, uma string, um booleano, etc. Verdadeiro. <br>II. Uma lista encadeada pode ser definida como uma sequência de células em que cada célula contém um elemento e o endereço da célula seguinte. Essa é a definição de lista encadeada simples. Certo. <br>III. Uma pilha é uma estrutura de dados baseada no princípio “First In First Out” (FIFO). Na verdade, a pilha segue a estrutura de dados com a regra LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair. Falso. <br>IV. Filas e pilhas são estruturas de dados lineares; o organograma de uma empresa pode ser representado por uma estrutura de árvore. Filas e pilhas são estruturas lineares de fato, e uma árvore é uma estrutura hierárquica, e, por isso, um organograma de uma empresa pode ser representado por ela. Verdadeiro. Corretas: I, II e IV."
+      },
+      {
+        "pergunta": "(IBFC – 2022 – DPE-MT) Assinale a alternativa que apresenta a relação entre as duas estruturas de dados da coluna da esquerda com as respectivas características técnicas da coluna da direita.<br><img src='../dados/imgs/questao_desenvolvimento_36.png' alt='imagem da questão'><br>Assinale a alternativa correta.",
+        "alternativas": ["a) 1BC - 2AD", 
+        "b) 1AD - 2BC", 
+        "c) 1BD - 2AC", 
+        "d) 1AC - 2BD"],
+        "correta": "a) 1BC - 2AD",
+        "explicacao": "Uma pilha sege a regra LIFO (last-in first-out), ou seja, o elemento inserido por último é o primeiro elemento a sair da lista. Portanto, 1-B. <br>A pilha, também precisa de apenas um ponteiro, que aponta para o topo da pilha. Portanto, 1-BC. <br>Já a fila segue a regra FIFO (first-in first-out), ou seja, o elemento inserido primeiro é o primeiro a sair da lista. Portanto, 2-A. <br>A fila também precisa de dois ponteiros para ser acessada, já que suas operações envolvem adicionar sempre os elementos no final, e remover do início. Portanto, 2-AD."
+      },
+      {
+        "pergunta": "(FUNDATEC – 2022 – IPE Saúde) Uma sequência de valores é armazenada em uma estrutura de dados, onde novos elementos são inseridos no final da lista e removidos também do final da mesma. Dessa forma, qualquer elemento só pode ser removido quando todos os elementos inseridos após ele também forem removidos. Essa descrição caracteriza uma estrutura de dados conhecida como:",
+        "alternativas": ["a) Lista duplamente encadeada.", 
+        "b) Lista simplesmente encadeada.", 
+        "c) Fila.", 
+        "d) Pilha.",
+        "e) Árvore binária."],
+        "correta": "d) Pilha.",
+        "explicacao": "Precisamos considerar dois pontos importantes: <br>● Os elementos são apenas inseridos ao final da lista. <br>● Os elementos também são removidos apenas no fim da lista. <br>● Os elementos só podem ser removidos se todos os inseridos após ele tiverem sido removidos. Ou seja, o último a ser inserido é o primeiro a ser removido, ou seja, regra LIFO. <br>A estrutura de dado que segue a regra LIFO é a pilha. <br>Na pilha, temos a operação push, que é inserir um elemento no fim da lista; e a operação pop, que é remover o elemento do fim da lista. E temos a regra LIFO. <br>Analisemos as demais estruturas de dados: <br>● Lista duplamente encadeada: cada nó tem uma referência ao nó anterior e ao próximo, exceto o primeiro e o último. A inserção e remoção é livre. <br>● Lista simplesmente encadeada: cada nó tem uma referência ao próximo nó, exceto o último. A inserção e remoção é livre. <br>● Fila: segue o padrão FIFO (first-in first-out), ou seja, o primeiro a entrar é o primeiro a sair. Além disso, no caso da fila, os elementos são sempre adicionados no fim, e removidos do início da lista. <br>● Árvore binária: uma árvore binária possui nós com no máximo dois filhos. Não seguem as regras do enunciado."
+      },
+      {
+        "pergunta": "(FGV – 2021 – FUNSAÚDE-CE) As operações POP e PUSH aplicáveis às estruturas de dados são conhecidas como",
+        "alternativas": ["a) árvores binárias.", 
+        "b) bitmaps.", 
+        "c) hashtables.", 
+        "d) listas encadeadas.",
+        "e) pilhas."],
+        "correta": "e) pilhas.",
+        "explicacao": "Quando se fala em operações pop e push, só podemos estar falando de pilhas. <br>As pilhas segrem a regra LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair. Isso faz com que tenha duas operações: <br>● PUSH: inclui um elemento na pilha. <br>● POP: retira o último elemento incluído da pilha."
+      },
+      {
+        "pergunta": "(FGV – 2021 – IMBEL) No contexto das estruturas de dados, considere uma pilha (stack) onde as seguintes operações foram executadas. <br>CLEAR <br>PUSH (12) <br>PUSH (14) <br>POP <br>PUSH (20) <br>PUSH (15) <br>POP <br>PUSH (19) <br>Assinale a opção que indica o número de elementos e o valor do elemento localizado no topo da pilha, ao final das operações.",
+        "alternativas": ["a) 3 / 12", 
+        "b) 3 / 15", 
+        "c) 3 / 19", 
+        "d) 5 / 12",
+        "e) 5 / 19"],
+        "correta": "c) 3 / 19",
+        "explicacao": "Precisamos definir os comandos. <br>● CLEAR: limpa a pilha. <br>● PUSH: inclui um elemento na pilha. <br>●POP: retira o último elemento incluído da pilha.<br>Portanto, a pilha ficou com 3 elementos, sendo que, em seu topo, está o número 19. Portanto, 3 / 19."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2018 – ABIN) Julgue o item subsequente, relativo à lógica de programação. Pilha é uma estrutura de dados em que o último elemento a ser inserido será o primeiro a ser retirado.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A pilha é uma estrutura de dados que usa o princípio LIFO (Last In, First Out), que significa justamente 'último a entrar, primeiro a sair'."
+      },
+      {
+        "pergunta": "(FGV – 2018 – AL-RO) Considere uma pilha de latas de sardinhas na prateleira de um supermercado. Assinale a estrutura de dados que mais se assemelha ao modo como essas latas são manuseadas.",
+        "alternativas": ["a) Array.", 
+        "b) Binary tree.", 
+        "c) Hashing.", 
+        "d) Linked list.",
+        "e) Stack."],
+        "correta": "e) Stack.",
+        "explicacao": "Essa é praticamente uma questão de inglês... Precisamos saber o que cada uma dessas estruturas significa: <br>a) Array <br>Significa vetor. É uma sequência de elementos de um determinado tipo, em posições sequenciais de memória. Falso. <br>b) Binary tree. <br>Árvore binária. É uma árvore em que cada nó pode ter, no máximo, 3 filhos. Falso. <br>c) Hashing. <br>Técnica para mapear conjuntos de dados em um conjunto de índices de um array, permitindo rápida busca dos dados. Falso. <br>d) Linked list. <br>Lista encadeada. Uma estrutura de dados em que cada elemento possui uma referência ao próximo elemento da lista. Falso. <br>e) Stack. <br>Também conhecida como pilha. Veja só que o enunciado fala justamente sobre pilha de sardinhas! É uma estrutura em que vale a regra LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair. Verdadeiro."
+      },
+      {
+        "pergunta": "(FGV – 2018 – MPE-AL) Considere as seguintes operações sobre uma estrutura de dados, inicialmente vazia, organizada na forma de pilhas (ou stack), <br>PUSH (10) <br>PUSH (2) <br>POP () <br>POP () <br>PUSH (6) <br>Assinale a opção que apresenta a lista de elementos armazenados na estrutura, após a execução das operações acima.",
+        "alternativas": ["a) 10, 2, 6", 
+        "b) 10, 2", 
+        "c) 2, 6", 
+        "d) 6",
+        "e) 2"],
+        "correta": "d) 6",
+        "explicacao": "Precisamos definir os comandos. <br>● PUSH: inclui um elemento na pilha. <br>● POP: retira o último elemento incluído da pilha.<br>Ao fim, temos apenas o elemento 6."
+      },
+      {
+        "pergunta": "(CESPE - 2011 - FUB - Analista de Tecnologia da Informação - Específicos) As pilhas são listas encadeadas cujos elementos são retirados e acrescentados sempre ao final, enquanto as filas são listas encadeadas cujos elementos são retirados e acrescentados sempre no início.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Bem... o que é o final de uma Pilha? Pois é, não se sabe! O que existe é o Topo da Pilha, de onde sempre são retirados e acrescentados elementos. Em Filas, elementos são retirados do início e acrescentados no final."
+      },
+      {
+        "pergunta": "(CESPE - 2012 - TJ-RO - Analista Judiciário - Analista de Sistemas Suporte – E) Visitas a sítios armazenadas em um navegador na ordem last-in-first-out é um exemplo de lista.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Last-In-First-Out (LIFO) é um exemplo de Pilha! Cuidado, pilhas podem ser implementadas como listas, mas esse não é o foco da questão."
+      },
+      {
+        "pergunta": "(ESAF - 2013 - DNIT - Analista Administrativo - Tecnologia da Informação) Assinale a opção correta relativa às operações básicas suportadas por pilhas.",
+        "alternativas": ["a) Push: insere um novo elemento no final da pilha.", 
+        "b) Pop: adiciona elementos ao topo da pilha.", 
+        "c) Pull: insere um novo elemento no interior da pilha.", 
+        "d) Top: transfere o último elemento para o topo da pilha.",
+        "e) Top: acessa o elemento posicionado no topo da pilha."],
+        "correta": "e) Top: acessa o elemento posicionado no topo da pilha.",
+        "explicacao": "(a) Não, é no topo; (b) Não, remove do topo; (c) Não, não existe; (d) Não, simplesmente acessa e consulta o elemento do topo; (e) Perfeito! Gabarito: E"
+      },
+      {
+        "pergunta": "(FCC - 2012 – TST - Analista de Sistemas – C) As pilhas e as filas são estruturas de dados essenciais para os sistemas computacionais. É correto afirmar que a pilha é conhecida como lista FIFO - First In First Out.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Pilha é LIFO e Fila é FIFO."
+      },
+      {
+        "pergunta": "(FCC - 2012 – TRE/CE - Analista de Sistemas) Sobre pilhas é correto afirmar:",
+        "alternativas": ["a) Uma lista LIFO (Last-In/First-Out) é uma estrutura estática, ou seja, é uma coleção que não pode aumentar e diminuir durante sua existência.", 
+        "b) Os elementos na pilha são sempre removidos na mesma ordem em que foram inseridos.", 
+        "c) Uma pilha suporta apenas duas operações básicas, tradicionalmente denominadas push (insere um novo elemento no topo da pilha) e pop (remove um elemento do topo da pilha).", 
+        "d) Cada vez que um novo elemento deve ser inserido na pilha, ele é colocado no seu topo e, em qualquer momento, apenas aquele posicionado no topo da pilha pode ser removido.",
+        "e) Sendo P uma pilha e x um elemento qualquer, a operação Push(P,x) diminui o tamanho da pilha P, removendo o elemento x do seu topo."],
+        "correta": "d) Cada vez que um novo elemento deve ser inserido na pilha, ele é colocado no seu topo e, em qualquer momento, apenas aquele posicionado no topo da pilha pode ser removido.",
+        "explicacao": "(a) Não, é uma estrutura dinâmica; (b) Não, é na ordem inversa (último a entrar é o primeiro a sair); (c) Não, há também Top ou Check, que acessar e consulta o elemento do topo; (e) Push é a operação de inserção de novos elementos na pilha, portanto aumenta seu tamanho adicionando o elemento x no topo. <br>E a letra D? Vamos lá! Sabemos que uma pilha é um tipo de lista - o que muda é apenas a perspectiva. Como assim? Eu vejo um monte de elementos em sequência. Ora, se eu coloco uma regra em que o primeiro elemento a entrar é o primeiro a sair, chamamos essa lista de fila; se eu coloco uma regra em que o primeiro elemento a entrar é o último a sair, chamamos essa lista de pilha. <br>Ok! Dito isso, o algoritmo é exatamente o mesmo, eu vou simplesmente mudar a perspectiva e a minha visão sobre a estrutura. Bacana?"
+      },
+      {
+        "pergunta": "(CESPE - 2011 - EBC - Analista - Engenharia de Software) As pilhas, também conhecidas como listas LIFO ou PEPS, são listas lineares em que todas as operações de inserção e remoção de elementos são feitas por um único extremo da lista, denominado topo.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! LIFO é similar a UEPS (Último a Entrar, Primeiro a Sair). PEPS refere-se a Primeiro a Entrar, Primeiro a Sair, ou seja, FIFO."
+      },
+      {
+        "pergunta": "(VUNESP - 2011 - TJM-SP - Analista de Sistemas - Judiciário) Lista do tipo LIFO (Last in, First Out) e lista do tipo FIFO (Firstin,First Out) são, respectivamente, características das estruturas de dados denominadas:",
+        "alternativas": ["a) Fila e Pilha.", 
+        "b) Pilha e Fila.", 
+        "c) Grafo e Árvore.", 
+        "d) Árvore e Grafo.",
+        "e) Árvore Binária e Árvore Ternária."],
+        "correta": "b) Pilha e Fila.",
+        "explicacao": "E aí, já está automático para responder? Tem que ser automática: Pilha (LIFO) e Fila (FIFO)."
+      },
+      {
+        "pergunta": "(CESPE - 2010 - Banco da Amazônia - Técnico Científico - Tecnologia da Informação - Arquitetura de Tecnologia) A definição da estrutura pilha permite a inserção e a eliminação de itens, de modo que uma pilha é um objeto dinâmico, cujo tamanho pode variar constantemente.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Essa questão é polêmica, porque é inevitável pensar em Pilhas Sequenciais (implementadas por vetores estáticos)! No entanto, é comum que as bancas tratem por padrão Pilha como Pilha Encadeada (implementadas por listas dinâmicas). Dessa forma, a questão está perfeita!"
+      },
+      {
+        "pergunta": "(CESPE - 2009 - ANAC - Técnico Administrativo - Informática) As operações de inserir e retirar sempre afetam a base de uma pilha.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, sempre afetam o topo da pilha!"
+      },
+      {
+        "pergunta": "(FCC - 2009 - TRT - 16ª REGIÃO (MA) - Técnico Judiciário - Tecnologia da Informação) Pilha é uma estrutura de dados:",
+        "alternativas": ["a) cujo acesso aos seus elementos segue tanto a lógica LIFO quanto a FIFO.", 
+        "b) cujo acesso aos seus elementos ocorre de forma aleatória.", 
+        "c) que pode ser implementada somente por meio de vetores.", 
+        "d) que pode ser implementada somente por meio de listas.",
+        "e) cujo acesso aos seus elementos segue a lógica LIFO, apenas."],
+        "correta": "e) cujo acesso aos seus elementos segue a lógica LIFO, apenas.",
+        "explicacao": "(a) Não, somente LIFO; (b) Não, somente pelo Topo; (c) Não, pode ser por listas; (d) Não, pode ser por vetores; (e) Perfeito, é exatamente isso."
+      },
+      {
+        "pergunta": "(CESPE - 2004 – STJ – Analista de Sistemas) Em geral, em uma pilha só se admite ter acesso ao elemento localizado em seu topo. Isso se adapta perfeitamente à característica das seqüências em que só o primeiro componente é diretamente acessível.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "(a) Não, somente LIFO; (b) Não, somente pelo Topo; (c) Não, pode ser por listas; (d) Não, pode ser por vetores; (e) Perfeito, é exatamente isso."
+      },
+      {
+        "pergunta": "(CESPE - 2004 – STJ – Analista de Sistemas) A seguir, está representada corretamente uma operação de desempilhamento em uma pilha de nome p. <br>se p.topo = 0 então <br>nada {pilha vazia} <br>senão p.topo 🡨 p.topo-1",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Galera, a questão deu uma vaciladinha! O ideal seria dizer p.topo = null, mas vamos subentender que foi isso mesmo que ele quis dizer. Desse modo, se não tem topo, é porque a pilha está vazia. Se tiver topo, então o topo será o elemento anterior ao topo. O que ocorreu? Eu desempilhei a pilha!"
+      },
+      {
+        "pergunta": "(CESPE - 2010 – TRE/MT - Analista de Sistemas – A) O tipo nó é inadequado para implementar estruturas de dados do tipo pilha.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Uma pilha pode ser implementada por meio de um vetor ou de uma lista. Nesse último caso, temos tipos nós!"
+      },
+      {
+        "pergunta": "(FGV – 2015 – DPE/MT – Analista de Sistemas) Assinale a opção que apresenta a estrutura de dados na qual o primeiro elemento inserido é o último a ser removido.",
+        "alternativas": ["a) Árvore", 
+        "b) Fila", 
+        "c) Pilha", 
+        "d) Grafo",
+        "e) Tabela de dispersão"],
+        "correta": "c) Pilha",
+        "explicacao": "Também conhecida como Lista LIFO (Last In First Out), basta lembrar de uma pilha de pratos esperando para serem lavados, i.e., o último a entrar é o primeiro a sair. A ordem em que os pratos são retirados da pilha é o oposto da ordem em que eles são colocados sobre a pilha e, como consequência, apenas o prato do topo da pilha está acessível."
+      },
+      {
+        "pergunta": "(FCC – 2012 – MPE/AP – Técnico Ministerial - Informática) Nas estruturas de dados,",
+        "alternativas": ["a) devido às características das operações da fila, o primeiro elemento a ser inserido será o último a ser retirado. Estruturas desse tipo são conhecidas como LIFO.", 
+        "b) as pilhas são utilizadas para controlar o acesso de arquivos que concorrem a uma única impressora.", 
+        "c) a fila é uma lista linear na qual as operações de inserção e retirada ocorrem apenas no início da lista.", 
+        "d) a pilha é uma lista linear na qual as operações de inserção e retirada são efetuadas apenas no seu topo.",
+        "e) devido às características das operações da pilha, o último elemento a ser inserido será o último a ser retirado. Estruturas desse tipo são conhecidas como FIFO."],
+        "correta": "d) a pilha é uma lista linear na qual as operações de inserção e retirada são efetuadas apenas no seu topo.",
+        "explicacao": "(a) as filas não são LIFO, mas sim FIFO, ou seja, o primeiro elemento da fila será, na verdade, o primeiro a ser retirado. Só pensarmos numa fila de banco, se alguém chega por último e é atendido primeiro, ficaria bem bravo, e vocês?? :D Item errado; (b) os trabalhos que chegam a uma impressora devem ser do tipo FIFO, ou seja, o primeiro trabalho enviado deve ser o primeiro a ser impresso. Item errado; (c) na fila os elementos são incluídos numa das extremidades e retirados da outra. Item errado; (d) na pilha as operações de inclusão na pilha quanto de retirada acontecem numa mesma extremidade. A extremidade escolhida é o topo da pilha. Item certo; (e) na verdade essas características são das filas. Item errado."
+      },
+      {
+        "pergunta": "(IBFC – 2022 – AFEAM) Assinale, das alternativas abaixo, a única que identifica respectivamente uma Estrutura de Dados do tipo FIFO (First In, First Out) e uma outra com a Estrutura de dados do tipo LIFO (Last In, First Out):",
+        "alternativas": ["a) lista – vetor", 
+        "b) pilha – fila", 
+        "c) vetor – lista", 
+        "d) fila - pilha"],
+        "correta": "d) fila - pilha",
+        "explicacao": "Uma estrutura que segue a regra de dados FIFO (first-in first-out), ou seja, o primeiro a entrar é o primeiro a sair, é a fila. <br>Já a estrutura que segue a regra de dados LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair, é uma pilha."
+      },
+      {
+        "pergunta": "(IF-TO – 2022 – IF-TO) Em estrutura de dados os conceitos de FILAS e PILHAS são usados para implementar diversos recursos computacionais que vão desde compiladores e interpretadores a mecanismos usados nas linguagens de programação para auxiliar os desenvolvedores no dia a dia. Sobre essas estruturas, quais das definições abaixo são corretas?",
+        "alternativas": ["a) Nas FILAS é usado o princípio do primeiro a entrar é o último a sair, já as PILHAS obedecem a regra do primeiro a entrar é o último a sair.", 
+        "b) Nas FILAS é usado o princípio do primeiro a entrar é o primeiro a sair, já as PILHAS obedecem a regra do primeiro a entrar é o primeiro a sair.", 
+        "c) Nas FILAS é usado o princípio do segundo a entrar é o primeiro a sair, já as PILHAS obedecem a regra do último a entrar é o último a sair.", 
+        "d) Nas FILAS é usado o princípio do primeiro a entrar é o primeiro a sair, já as PILHAS obedecem a regra do primeiro a entrar é o último a sair.", 
+        "e) Nas FILAS é usado o princípio do primeiro a entrar é o segundo a sair, já as PILHAS obedecem a regra do segundo a entrar é o terceiro a sair."],
+        "correta": "d) Nas FILAS é usado o princípio do primeiro a entrar é o primeiro a sair, já as PILHAS obedecem a regra do primeiro a entrar é o último a sair.",
+        "explicacao": "As filas seguem o padrão FIFO (first-in first-out), ou seja, o primeiro a entrar é o primeiro a sair. Já as pilhas seguem o padrão LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair."
+      },
+      {
+        "pergunta": "(UFRPE – 2022 – UFRPE) Sobre algoritmos e estrutura de dados, assinale a afirmativa correta.",
+        "alternativas": ["a) Listas encadeadas ou ligadas são estruturas de dados estáticas, o que significa que o número de nós não pode ser modificado durante a execução do programa.", 
+        "b) Pilhas são estruturas de dados do tipo FIFO (first-in first-out), em que o primeiro elemento a ser inserido será o primeiro a ser retirado.", 
+        "c) Árvores são estruturas de dados do tipo FIFO (first-in first-out), em que o primeiro elemento a ser inserido será o primeiro a ser retirado.", 
+        "d) Filas podem ser implementadas em listas encadeadas ou em vetores.",
+        "e) Pilhas só podem ser implementadas em listas encadeadas."],
+        "correta": "d) Filas podem ser implementadas em listas encadeadas ou em vetores.",
+        "explicacao": "Vamos analisar item a item: <br>a) Listas encadeadas ou ligadas são estruturas de dados estáticas, o que significa que o número de nós não pode ser modificado durante a execução do programa. <br>Não são estáticas, mas, sim, dinâmicas: havendo memória livre, podem ser expandidas ou reduzidas conforme a necessidade. Falso. <br>b) Pilhas são estruturas de dados do tipo FIFO (first-in first-out), em que o primeiro elemento a ser inserido será o primeiro a ser retirado. <br>Não, pilhas são LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair. Falso. <br>c) Árvores são estruturas de dados do tipo FIFO (first-in first-out), em que o primeiro elemento a ser inserido será o primeiro a ser retirado. <br>Árvores são estruturas hierárquicas, e não sequenciais, portanto, não podem seguir a regra FIFO. Falso. <br>d) Filas podem ser implementadas em listas encadeadas ou em vetores. <br>De fato, filas podem ser implementadas usando listas encadeadas ou vetores. O importante é que siga a regra FIFO (first-in first-out), ou seja, o primeiro a entrar é o primeiro a sair. Verdadeiro. <br>e) Pilhas só podem ser implementadas em listas encadeadas. <br>Não, é possível implementar pilhas com vetores também. Falso."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2021 – SEED-PR) Em determinada estrutura de dados, os valores seguem a regra segundo a qual o último a entrar é o primeiro a sair. <br>Essa estrutura é do tipo",
+        "alternativas": ["a) pilha.", 
+        "b) fila.", 
+        "c) lista encadeada.", 
+        "d) lista duplamente encadeada.",
+        "e) matriz."],
+        "correta": "a) pilha.",
+        "explicacao": "A estrutura de dados que segue a regra 'último a entrar, primeiro a sair' é chamada de pilha.Uma pilha é uma estrutura de dados que armazena elementos em uma ordem específica, seguindo o método LIFO (Last In First Out). Isso significa que o último elemento a ser inserido na pilha será o primeiro a ser removido. Imagine uma pilha de pratos: o último prato a ser colocado na pilha será o primeiro a ser retirado."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2021 – SEED-PR) Na estrutura de dados denominada FILA,",
+        "alternativas": ["a) o último elemento a ser inserido será o primeiro a ser retirado.", 
+        "b) o primeiro elemento a ser inserido será o primeiro a ser retirado: adiciona-se item no fim e remove-se item do início.", 
+        "c) os elementos de um mesmo tipo de dado estão organizados de maneira sequencial e ordenada.", 
+        "d) os elementos não estão necessariamente armazenados sequencialmente na memória por ordem descrente de valores.",
+        "e) os elementos são formados de índices em duas dimensões: linhas e colunas."],
+        "correta": "b) o primeiro elemento a ser inserido será o primeiro a ser retirado: adiciona-se item no fim e remove-se item do início.",
+        "explicacao": "Vamos analisar item a item: <br>a) o último elemento a ser inserido será o primeiro a ser retirado. <br>Na fila, o padrão é o FIFO, ou seja, primeiro a ser inserido é o primeiro a ser retirado. Falso. <br>b) o primeiro elemento a ser inserido será o primeiro a ser retirado: adiciona-se item no fim e remove-se item do início. <br>Isso, devido ao padrão FIFO, é o correto. Verdadeiro. <br>c) os elementos de um mesmo tipo de dado estão organizados de maneira sequencial e ordenada. <br>Os elementos podem até ser organiszados de maneira sequencial e ordenada, se assim for desejado, mas não é um requisito de uma fila. Falso. <br>d) os elementos não estão necessariamente armazenados sequencialmente na memória por ordem descrente de valores. <br>De fato, os elementos não necessariamente estão armazenados sequencialmente na memória por ordem decrescente de valores. Este item, para mim, deveria estar certo, mas a banca considerou como errado. Penso que, nestes casos, o melhor é considerar o “mais certo”, e, sem dúvidas, a letra B é a definição certíssima de fila! <br>e) os elementos são formados de índices em duas dimensões: linhas e colunas. <br>Isso seria uma matriz, e não uma fila. Falso."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2017 – TRT-7) A lógica FIFO (first-in first-out) é utilizada na estrutura de dados do tipo",
+        "alternativas": ["a) pointer ou ponteiros.", 
+        "b) queue ou filas.", 
+        "c) stack ou pilhas.", 
+        "d) array ou matrizes."],
+        "correta": "b) queue ou filas.",
+        "explicacao": "O FIFO, que significa first-in first-out, ou “primeiro a entrar, primeiro a sair”, é usado na estrutura de dados de queue, ou filas. Nela, os elementos são colocados no fim da fila, e removidos no início. O primeiro elemento que é inserido é o primeiro a ser removido. <br>Quanto aos demais itens, vamos analisar: <br>• Pointer ou ponteiros: variáveis que armazenam endereços de memória de outras variáveis. <br>• Stack ou pilhas: estrutura de dados que segue a lógica LIFO, ou last-in first-out, que significa “o último a entrar é o primeiro a sair”. <br>• Array ou matrizes: estruturas de dados que permitem armazenar e acessar vários valores de uma vez, sem seguir lógica FIFO ou LIFO."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2017 – TRF-1) Acerca de estrutura de dados, julgue o próximo item. A fila é uma lista de elementos em que os itens são sempre inseridos em uma das extremidades e excluídos da outra.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Fila é uma estrutura de dados que segue a lógica FIFO (first-in first-out) armazena elementos de forma sequencial, permitindo a inserção de novos elementos no final da estrutura e a remoção de elementos do início. Então, está certo."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2018 – TCE-MG) Uma estrutura de dados em que o primeiro elemento inserido seja o primeiro elemento a ser retirado é denominada",
+        "alternativas": ["a) pilha.", 
+        "b) matriz.", 
+        "c) árvore binária.", 
+        "d) fila.",
+        "e) lista."],
+        "correta": "d) fila.",
+        "explicacao": "A lógica em questão refere-se ao padrão FIFO, que é first-in first-out, ou seja, primeiro a entrar é o primeiro a sair. <br>Vamos analisar item a item: <br>a) pilha. <br>Uma pilha segue o padrão LIFO, que é last-in first-out, ou seja, último a entrar é o primeiro a sair. Falso. <br>b) matriz. <br>É uma estrutura de dados com um conjunto de elementos de um determinado tipo e que estão organizados em linhas e colunas. Não há uma regra especial quanto à inserção ou remoção dos elementos. Falso. <br>c) árvore binária. <br>Estrutura de dados do tipo árvore, mas com uma restrição: cada nó pode ter apenas dois filhos. Falso. <br>d) fila. <br>Isso mesmo, uma fila segue justamente o padrão FIFO. Verdadeiro. <br>e) lista. <br>Numa lista, é possível inserir ou remover de qualquer posição. Falso."
+      },
+      {
+        "pergunta": "(FCC – 2019 – TRF-4) O Round-Robin é um tipo de escalonamento preemptivo mais simples e consiste em repartir uniformemente o tempo da CPU entre todos os processos prontos para a execução. Os processos são organizados em uma estrutura de dados, alocando-se a cada um uma fatia de tempo da CPU, igual a um número de quanta. Caso um processo não termine dentro de sua fatia de tempo, retorna para o fim da estrutura e uma nova fatia de tempo é alocada para o processo que está no começo da estrutura e que dela sai para receber o tempo de CPU. A estrutura de dados utilizada nesse tipo de escalonamento é:",
+        "alternativas": ["a) pilha.", 
+        "b) árvore B.", 
+        "c) fila circular.", 
+        "d) fila simples.",
+        "e) árvore binária."],
+        "correta": "c) fila circular.",
+        "explicacao": "No Round-Robin, os processos são organizados em uma estrutura de dados. Fatias de tempo da CPU são locadas para cada um desses processos. No caso de um processo não terminar dentro da sua fatia de tempo, ele retorna ao fim da estrutura, e uma nova fatia de tempo é alocada para ele. Essa nova fatia está no começo da estrutura. Assim, a estrutura de dados precisa ser uma fila, já que permite que os processos sejam inseridos no final e removidos no início. Além disso, precisa ser circular, já que o processo sai do fim da fila e volta para o início. <br>Sobre as demais estruturas de dados: <br>• pilha: não serve, pois a inserção e a remoção dos elementos é sempre no final. <br>• árvore B: não é uma estrutura de dados linear. <br>• fila simples: não serve, pois o final não é ligado ao início. <br>• árvore binária: també, não é uma estrutura de dados linear."
+      },
+      {
+        "pergunta": "(FCC – 2013 – MPE-MA) Ana precisa utilizar uma estrutura de dados para gerenciar trabalhos de impressão em uma impressora compartilhada por vários computadores em uma rede. As regras dessa estrutura devem permitir que ostrabalhos sejam impressos na ordem em que forem enviados, ou seja, o primeiro a enviar um pedido de impressão deve ser o primeiro a ter sua solicitação atendida. Não deve ser permitido inserir pedidos de impressão no meio dos pedidos já realizados. <br>A estrutura de dados mais adequada para Ana utilizar é",
+        "alternativas": ["a) pilha.", 
+        "b) lista encadeada ordenada.", 
+        "c) fila.", 
+        "d) tabela hash.",
+        "e) árvore binária."],
+        "correta": "c) fila.",
+        "explicacao": "A fila é justamente a descrição do necessário: segue a regra FIFO, portanto, o primeiro a entrar é o primeiro a sair."
+      },
+      {
+        "pergunta": "(FCC – 2013 – TRE-SP) No que se refere a estruturas de dados é INCORRETO afirmar:",
+        "alternativas": ["a) Numa fila dupla, os elementos podem ser inseridos e removidos de qualquer um dos extremos da fila.", 
+        "b) Em qualquer situação é possível usar uma única fila dupla para representar duas filas simples.", 
+        "c) A implementação de uma fila dupla normalmente é mais eficiente com uma lista duplamente encadeada que com uma encadeada simples.", 
+        "d) Pela definição de fila, se os elementos são inseridos por um extremo da lista linear, eles só podem ser removidos pelo outro.",
+        "e) Numa lista singularmente encadeada, para acessar o último nodo é necessário partir do primeiro e ir seguindo os campos de ligação até chegar ao final da lista."],
+        "correta": "b) Em qualquer situação é possível usar uma única fila dupla para representar duas filas simples.",
+        "explicacao": "O enunciado pede a incorreta. Vamos analisar item a item: <br>a) Numa fila dupla, os elementos podem ser inseridos e removidos de qualquer um dos extremos da fila. <br>Issomesmo. Como uma fila é dupla, ou seja, vai em ambas as direções, os elementos podem ser inseridos ou removidos de qualquer lado. Verdadeiro. <br>b) Em qualquer situação é possível usar uma única fila dupla para representar duas filas simples. <br>Uma única fila dupla não pode representar duas filas simples. Isso porque uma fila precisa seguir o padrão FIFO (firstin first-out), ou seja, o primeiro a entrar é o primeiro a sair. Na prática, você tem um lado onde você insere elementos, e o outro lado de onde você remove. Uma fila dupla não pode representar duas filas simples porque, nela, você insere ou remove de qualquer lado. Seria necessário poder inserir de um lado e remover de outro, exclusivamente, e em quatro pontos. Errado. <br>c) A implementação de uma fila dupla normalmente é mais eficiente com uma lista duplamente encadeada que com uma encadeada simples. <br>Está correto. Se já usa uma lista duplamente encadeada, em que cada nó faz referência ao próximo e ao anterior, fica mais fácil implementar uma fila dupla. Certo! <br>d) Pela definição de fila, se os elementos são inseridos por um extremo da lista linear, eles só podem ser removidos pelo outro. <br>É isso, como já disse anteriormente. Correto. <br>e) Numa lista singularmente encadeada, para acessar o último nodo é necessário partir do primeiro e ir seguindo os campos de ligação até chegar ao final da lista. <br>Isso. Numa lista singularmente encadeada, cada nó só possui referência ao próximo da lista, e você só sabe qual é o endereço do primeiro. Então, é preciso percorrer todos. Certo."
+      },
+      {
+        "pergunta": "(CESPE - 2010 - Banco da Amazônia - Técnico Científico - Tecnologia da Informação - Análise de Sistemas) Em um programa existe a necessidade de guardar todas as alterações feitas em determinado dado para que seja possível desfazer alterações feitas ao longo de toda a sua existência. Nessa situação, a estrutura de dados mais adequada para o armazenamento de todas as alterações citadas seria uma fila.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Pensem comigo: eu faço uma atividade, depois outra, depois mais uma e, por fim, mais outra. Se eu desejo desfazer a última atividade realizada para retornar a um estado anterior, eu preciso de uma pilha. Dessa forma, resgata-se o último estado válido e, não, o primeiro."
+      },
+      {
+        "pergunta": "(CESPE - 2012 – TST – Analista de Sistemas – A) As pilhas e as filas são estruturas de dados essenciais para os sistemas computacionais. É correto afirmar que a fila é conhecida como lista LIFO - Last In First Out.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, Fila é FIFO! (First In First Out)"
+      },
+      {
+        "pergunta": "(CESPE - 2012 - TRE-RJ - Técnico Judiciário - Programação de Sistemas) As filas são estruturas com base no princípio LIFO (last in, first out), no qual os dados que forem inseridos primeiro na fila serão os últimos a serem removidos. Existem duas funções que se aplicam a todas as filas: PUSH, que insere um dado no topo da fila, e POP, que remove o item no topo da fila.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, isso é uma Pilha (LIFO)."
+      },
+      {
+        "pergunta": "(FCC - 2012 - MPE-AP – Analista de Sistemas - A) Nas estruturas de dados, devido às características das operações da fila, o primeiro elemento a ser inserido será o último a ser retirado. Estruturas desse tipo são conhecidas como LIFO.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, será o primeiro a ser retirado – são do tipo FIFO!"
+      },
+      {
+        "pergunta": "(FCC - 2012 - MPE-AP – Analista de Sistemas - C) Nas estruturas de dados, a fila é uma lista linear na qual as operações de inserção e retirada ocorrem apenas no início da lista.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, isso é a definição de Pilha!"
+      },
+      {
+        "pergunta": "(FCC - 2012 - TRE-SP - Analista Judiciário - Análise de Sistemas – D) Pela definição de fila, se os elementos são inseridos por um extremo da lista linear, eles só podem ser removidos pelo outro.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Exato! Essa é a definição de fila: insere-se por um extremo e remove-se por outro"
+      },
+      {
+        "pergunta": "(FCC - 2011 - TRT - 19ª Região (AL) - Analista Judiciário - Tecnologia da Informação) FIFO refere-se a estruturas de dados do tipo:",
+        "alternativas": ["a) fila.", 
+        "b) árvore binária.", 
+        "c) pilha.", 
+        "d) matriz quadrada.",
+        "e) cubo."],
+        "correta": "a) fila.",
+        "explicacao": "Trata-se da Fila!"
+      },
+      {
+        "pergunta": "(ESAF - 2010 - CVM - Analista de Sistemas - prova 2) Uma fila é um tipo de lista linear em que:",
+        "alternativas": ["a) as inserções são realizadas em um extremo e as remoções no outro extremo.", 
+        "b) as inserções e remoções são realizadas em um mesmo extremo.", 
+        "c) podem ser realizadas apenas inserções.", 
+        "d) a inserção de um elemento requer a remoção de outro elemento.",
+        "e) a ordem de saída não corresponde à ordem de entrada dos elementos."],
+        "correta": "a) as inserções são realizadas em um extremo e as remoções no outro extremo.",
+        "explicacao": "As inserções são realizadas em um extremo e as remoções são realizadas no outro extremo, por isso é FIFO!"
+      },
+      {
+        "pergunta": "(CESPE - 2010 - DETRAN-ES - Analista de Sistemas) No armazenamento de dados pelo método FIFO (first in - first out), a estrutura de dados é representada por uma fila, em cuja posição final ocorrem inserções e, na inicial, retiradas.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Basta lembrar de uma fila: o primeiro a entrar é o primeiro a sair."
+      },
+      {
+        "pergunta": "(CESPE - 2008 - TRT - 5ª Região (BA) - Técnico Judiciário - Tecnologia da Informação) Entre alguns tipos de estrutura de dados, podem ser citados os vetores, as pilhas e as filas.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito, são todos exemplos de estruturas de dados!"
+      },
+      {
+        "pergunta": "(CESPE - 2004 – SES/PA– Analista de Sistemas) Uma estrutura mais geral que as pilhas e filas é o deque, em que as inserções, retiradas e acessos são permitidos em ambas as extremidades.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito, deques permitem todas essas operações!"
+      },
+      {
+        "pergunta": "(CESPE - 2009 – TCE/AC – Analista de Sistemas – D) Um deque (double ended queue) requer inserção e remoção no topo de uma lista e permite a implementação de filas com algum tipo de prioridade. A implementação de um deque, geralmente é realizada com a utilização de uma lista simplesmente encadeada.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, pode ser do início ou fim da lista! De fato, permite a implementação de filas com algum tipo de prioridade, mas geralmente é realizada com a utilização de filas duplamente encadeadas."
+      },
+      {
+        "pergunta": "(FCC - 2007 – TRT/23 – Analista de Sistemas) Uma estrutura de dados com vocação de FIFO de duplo fim e que admite a rápida inserção e remoção em ambos os extremos é:",
+        "alternativas": ["a) uma pilha.", 
+        "b) uma splay tree.", 
+        "c) um deque.", 
+        "d) uma lista linear.",
+        "e) uma árvore AVL."],
+        "correta": "c) um deque.",
+        "explicacao": "Trata-se de um Deque – fila duplamente encadeada!"
+      },
+      {
+        "pergunta": "(CESPE - 2004 – PBV/RR - Analista de Sistemas) As filas com prioridade são listas lineares nas quais os elementos são pares da forma (qi, pi), em que q é o elemento do tipo base e p é uma prioridade. Elas possuem uma política de fila do tipo FIFO (first in first out) entre os elementos de mesma prioridade.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! É assim que funciona a prioridade em conjunto com filas."
+      },
+      {
+        "pergunta": "(CESPE - 2004 – STJ – Analista de Sistemas) A seguir, está representada corretamente uma operação de retirada em uma fila de nome f. <br>se f.começo = nil <br>então erro {fila vazia} <br>senão j < f.começo.info",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, o correto seria: <br>se f.começo = nil então <br>erro {fila vazia} <br>senão f.começo  f.começo.anterior <br>Por que, professor? As duas primeiras linhas estão apenas dizendo que se o primeiro elemento da fila for Null (ou Nil), vai dar erro porque a fila está vazia, logo não há como retirar elementos de uma fila vazia. Agora vejam a última linha: ele atribui a uma variável j o valor f.começo.info. Na verdade, ele simplesmente está colocando em j os dados do primeiro elemento da fila, mas a questão pede o código para retirar um elemento da lista e não para capturar os dados do primeiro elemento. Na resposta, eu coloco que f.começo, i.e., o primeiro elemento da lista vaiser f.começo.anterior, ou seja, temos um novo primeiro elemento e eu retirei aquele elemento anterior."
+      },
+      {
+        "pergunta": "(FCC - 2016 - Prefeitura de Teresina - PI - Analista Tecnológico - Analista de Suporte Técnico) Considerando uma estrutura de dados do tipo fila, e a seguinte sequência de comandos sobre essa fila (sendo que o comando Push representa uma inserção de elemento e o comando Pop representa uma exclusão de elemento) e considerando também que a fila estava inicialmente vazia: <br>Push 3, Push 5, Pop 3, Push 7, Pop 5, Push 9, Push 8 <br>Após a execução dessa sequência de comandos, o conjunto de elementos que resulta na fila é:",
+        "alternativas": ["a) 3 − 5 − 7 − 9 − 8.", 
+        "b) 7 − 9 − 8 − 3 − 5.", 
+        "c) 3 − 3 − 5 − 5 − 7 − 9 − 8.", 
+        "d) 7 − 9 − 8.",
+        "e) 3 − 5 − 3 − 7 − 5 − 9 − 8."],
+        "correta": "d) 7 − 9 − 8.",
+        "explicacao": "Como a questão nem pediu a ordem, ficou bem fácil. Push inclui e pop retira. Se há dois pop’s, os elementos 3 e 5 são removidos da fila, sobrando 7, 9 e 8."
+      },
+      {
+        "pergunta": "(FCC - 2016 – TRT - 23ª REGIÃO (MT) - Técnico Judiciário - Tecnologia da Informação) Estruturas de dados básicas, como as pilhas e filas, são usadas em uma gama variada de aplicações. As filas, por exemplo, suportam alguns métodos essenciais, como o:",
+        "alternativas": ["a) enqueue(x), que insere o elemento x no fim da fila, sobrepondo o último elemento.", 
+        "b) dequeue(), que remove e retorna o elemento do começo da fila; um erro ocorrerá se a fila estiver vazia.", 
+        "c) push(x), que insere o elemento x no topo da fila, sem sobrepor nenhum elemento.", 
+        "d) pop(), que remove o elemento do início da fila e o retorna, ou seja, devolve o último elemento inserido.",
+        "e) top(), que retorna o elemento do fim da fila sem removê-lo; um erro ocorrerá se a fila estiver vazia."],
+        "correta": "b) dequeue(), que remove e retorna o elemento do começo da fila; um erro ocorrerá se a fila estiver vazia.",
+        "explicacao": "Queue = fila! Stack = pilha! Sendo assim, o que seria “enqueue”? Para quem tem idade (assim como eu!! ) deve se lembrar do famoso Winamp (ah, minha época de ouvir mp3!). Quanto clicávamos no botão direito de uma música, sempre tinha a opção “enqueue in Winamp”, ou seja, incluir na fila de reprodução. Enqueue, portanto, inclui na fila, enquanto dequeue remove!"
+      },
+      {
+        "pergunta": "(FCC - 2017 – TRE/BA - Analista de Sistemas) A estrutura que, além de ser similar à fila, é apropriada para ampliar as características desta, permitindo inserir e retirar elementos tanto do início quanto do fim da fila, é o(a):",
+        "alternativas": ["a) árvore.", 
+        "b) lista duplamente encadeada.", 
+        "c) deque.", 
+        "d) fila circular.",
+        "e) pilha."],
+        "correta": "c) deque.",
+        "explicacao": "Trata-se de um Deque (Double Ended Queue). Deque é uma estrutura de dados similar à fila e que permite que elementos possam ser adicionados ou removidos da frente (cabeça) ou de trás(cauda). Qual a diferença entre uma lista duplamente encadeada e um deque? Um deque gerencia elementos como um vetor, fornece acesso aleatório e tem quase a mesma interface que um vetor. Uma lista duplamente encadeada se difere de um deque por não fornecer acesso aleatório aos elementos, i.e., para acessar o quinto elemento, você deve necessariamente navegar pelos quatro primeiros elementos – logo a lista é maislenta nesse sentido. Existem outras diferenças, mas essa é a diferença fundamental entre essas duas estruturas. Bacana?"
+      },
+      {
+        "pergunta": "(CESGRANRIO – Banco do Brasil – 2023). Um estudante de computação decidiu escrever um método Java para exibir, no console, em pré-ordem, os valores dos nós de uma árvore binária recebida como parâmetro. Ao executar esse método, os seguintes valores foram exibidos no console: <br>80 84 55 76 72 <br>Considerando os valores exibidos, qual árvore foi recebida como parâmetro?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_37.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_38.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_39.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_40.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_41.png' alt='imagem da questão'>"],
+        "correta": "a) <img src='../dados/imgs/questao_desenvolvimento_37.png' alt='imagem da questão'>",
+        "explicacao": "O gabarito da questão é a Alternativa (A). A questão menciona que estamos lidando com uma árvore binária, o que significa que cada nó pode ter no máximo dois filhos. Existem três tipos de percursos em uma árvore binária: Pré-Ordem, Em Ordem e Pós-Ordem. No caso específico, estamos lidando com um percurso em pré-ordem, em que visitamos a raiz primeiro, em seguida os nós à esquerda e depois os nós à direita. A ordem de exibição em pré-ordem de uma árvore binária é a seguinte: <br>1 - O valor do nó raiz. <br>2 - Os valores dos nós da subárvore esquerda, em pré-ordem. <br>3 - Os valores dos nós da subárvore direita, em pré-ordem. <br>Considerando os valores exibidos, a ordem de exibição é a seguinte: <br>O primeiro valor, 80, representa a raiz da árvore. <br>O segundo valor, 84, representa a raiz da sub-árvore à direita, pois estamos em pré-ordem. <br>O 55 é o filho à esquerda da raiz da sub-árvore à direita (84). <br>O 76 é o filho à direita da raiz da sub-árvore à direita (80). <br>O 72 é o filho à esquerda da raiz da sub-árvore à direita (76). <br>A ordem desses valores indica a ordem de visita durante o percurso em pré-ordem."
+      },
+      {
+        "pergunta": "(FGV – 2022 – SEMSA Manaus) Numa estrutura de dados do tipo Árvore B, onde cada nó não raiz pode conter entre d e 2.d chaves, a complexidade do algoritmo de busca é da ordem",
+        "alternativas": ["a) log de N na base 2", 
+        "b) log de N na base d.", 
+        "c) N vezes log de N na base 2.", 
+        "d) N.",
+        "e) N²."],
+        "correta": "b) log de N na base d.",
+        "explicacao": "O limite superior da profundidade da árvore é d ≤ 1 + log[m/2]((N+1)/2), sendo que: <br>● m = a ordem da árvore, ou seja, o número máximo de chaves numa página não folha. Neste caso, m = 2d. <br>● N = a quantidade de registros. <br>Portanto: <br>d ≤ 1 + log[m/2]((N+1)/2) <br>d ≤ 1 + log[2d/2]((N+1)/2) d ≤ 1 <br>+ log[d]((N+1)/2) <br>Isso é da ordem de log de N na base d, ou O(logdN)."
+      },
+      {
+        "pergunta": "(UFPRE – 2022 – UFPRE) Acerca de estruturas de dados, assinale a alternativa correta.",
+        "alternativas": ["a) A estrutura denominada Pilha é considerada do tipo FIFO (first in, first out); o primeiro elemento inserido será o primeiro elemento a ser removido.", 
+        "b) A estrutura denominada Fila é considerada do tipo FILO (first in, last out); o primeiro elemento a ser inserido será o último elemento a ser removido.", 
+        "c) A estrutura denominada lista simplesmente encadeada não ordenada armazena um ou vários dados em cada elemento, e tem um ponteiro apontado para o último elemento que permite o encadeamento e a estrutura linear.", 
+        "d) A estrutura denominada árvore é um conjunto finito de elementos, onde cada elemento é denominado nó, e o primeiro nó é conhecido como raiz da árvore.",
+        "e) A estrutura denominada árvore AVL é uma árvore binária não balanceada, em que cada nó representa uma diferença de altura entre as subárvores direita e esquerda de 1, 2 ou 3 nós."],
+        "correta": "d) A estrutura denominada árvore é um conjunto finito de elementos, onde cada elemento é denominado nó, e o primeiro nó é conhecido como raiz da árvore.",
+        "explicacao": "Vamos analisar item a item: <br>a) A estrutura denominada Pilha é considerada do tipo FIFO (first in, first out); o primeiro elemento inserido será o primeiro elemento a ser removido. <br>Na verdade, uma pilha é LIFO (last-in first-out), ou seja, o último a entrar é o primeiro a sair. Falso. <br>b) A estrutura denominada Fila é considerada do tipo FILO (first in, last out); o primeiro elemento a ser inserido será o último elemento a ser removido. <br>Na verdade, a fila é FIFO (first-in first-out), ou seja, o primeiro a entrar é o primeiro a sair. Falso. <br>c) A estrutura denominada lista simplesmente encadeada não ordenada armazena um ou vários dados em cada elemento, e tem um ponteiro apontado para o último elemento que permite o encadeamento e a estrutura linear. <br>O ponteiro está apontado para o primeiro elemento, e não para o último. Falso. <br>d) A estrutura denominada árvore é um conjunto finito de elementos, onde cada elemento é denominado nó, e o primeiro nó é conhecido como raiz da árvore. <br>Alternativa sem erro sobre árvore. Verdadeiro. <br>e) A estrutura denominada árvore AVL é uma árvore binária não balanceada, em que cada nó representa uma diferença de altura entre as subárvores direita e esquerda de 1, 2 ou 3 nós. <br>A árvore AVL é uma árvore binária balanceada, e a diferença entre as subárvores da direita e da esquerda é de no máximo 1 nó. Falso."
+      },
+      {
+        "pergunta": "(MetroCapital Soluções – 2022 – Prefeitura de Nova Odessa – SP) A Estrutura de dados (ED) é um modo particular de armazenamento e organização de dados em um computador de modo que possam ser usados eficientemente. Analise a imagem a seguir:<br><img src='../dados/imgs/questao_desenvolvimento_42.png' alt='imagem da questão'><br>Qual estrutura de dados representa a imagem:",
+        "alternativas": ["a) Pilha.", 
+        "b) Fila.", 
+        "c) Grafo.", 
+        "d) Vetor de vetores.",
+        "e) Árvore binária."],
+        "correta": "e) Árvore binária.",
+        "explicacao": "Se observar, temos um nó raiz, que liga a mais dois nós filhos. Cada nó filho também liga a pelo menos dois nós filhos. <br>Isso é justamente uma estrutura de árvore binária, que é uma árvore com a restrição de 2 nós filhos por nó."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2020 – TJ-PA)<br><img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>De acordo com a figura anterior, o procedimento <br>CONSULTA (x) <br>1 while esquerda [x] ≠ NIL <br>2 do x 🡨 esquerda [x] <br>3 return x <br>realiza, na árvore, a consulta de",
+        "alternativas": ["a) search.", 
+        "b) minimum.", 
+        "c) maximum.", 
+        "d) successor.",
+        "e) predecessor."],
+        "correta": "b) minimum.",
+        "explicacao": "Trata-se de uma árvore binária. Nessa estrutura, os nós filhos da esquerda sempre possuem um valor menor do que os da direita. Os menores valores da árvore estarão à esquerda. <br>Dito isso, o algoritmo percorre os nós da esquerda sempre. Ou seja, vai chegar no número 2. <br>Significa que está procurando o menor valor da árvore. Ou seja, resposta é minimum."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2022 – Petrobrás) Uma árvore de decisão representa um determinado número de caminhos possíveis de decisão e os resultados de cada um deles, apresentando muitos pontos positivos, ou seja, são fáceis de entender e interpretar. Elas têm processo de previsão completamente transparente e lidam facilmente com diversos atributos numéricos, assim como atributos categóricos, podendo até mesmo classificar dados sem atributos definidos.<br>De acordo com os aspectos construtivos de uma árvore de decisão, julgue o item a seguir. <br>A entropia de uma árvore de decisão aborda o aspecto da quantidade de informações que está associada às respostas que podem ser obtidas às perguntas formuladas, representando o grau de incerteza associado aos dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A entropia é uma medida de mistura ou impureza de um conjunto de dados. No caso de uma construção de uma árvore de decisão, mede o grau de incerteza dos dados em cada nó da árvore."
+      },
+      {
+        "pergunta": "(CESPE/CEBRASPE – 2022 – Petrobrás) Uma árvore de decisão representa um determinado número de caminhos possíveis de decisão e os resultados de cada um deles, apresentando muitos pontos positivos, ou seja, são fáceis de entender e interpretar. Elas têm processo de previsão completamente transparente e lidam facilmente com diversos atributos numéricos, assim como atributos categóricos, podendo até mesmo classificar dados sem atributos definidos. <br>De acordo com os aspectos construtivos de uma árvore de decisão, julgue o item a seguir. <br>Se o processo adotado para a construção de árvores de decisão for determinístico, uma forma de obtenção de árvores aleatórias, que compõem as florestas aleatórias, pode ser realizada por meio do bootstrap dos dados, em que cada árvore é treinada com base no resultado de bootstrap_sample (inputs).",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "As florestas aleatórias correspondem a uma técnica de aprendizado de máquina em que se um conjunto de árvores de decisão com base em um conjunto de dados. É por meio do processo bootstrap que essas árvores são treinadas usando amostras aleatórias dos dados, com reposição. Dessa forma, cada árvore da floresta é treinada em um conjunto de dados diferente, incrementando a variabilidade das árvores e a robustez da floresta aleatória. Feito o treinamento, as árvores são então utilizadas para previsões ou classificações."
+      },
+      {
+        "pergunta": "(FGV – 2022 – MPE-GO) Árvores B são muito usadas na implementação de índices em bancos de dados. Uma árvore desse tipo é dita balanceada quando",
+        "alternativas": ["a) a complexidade do algoritmo de busca é logarítmica.", 
+        "b) as chaves são armazenadas em ordem de classificação, crescente ou decrescente.", 
+        "c) é possível localizar registros referenciados por um intervalo de chaves.", 
+        "d) o número de ponteiros em cada nó intermediário é constante.",
+        "e) toda página folha tem o mesmo número de páginas intermediárias até a raiz."],
+        "correta": "e) toda página folha tem o mesmo número de páginas intermediárias até a raiz.",
+        "explicacao": "Vamos analisar item a item: <br>a) a complexidade do algoritmo de busca é logarítmica. A complexidade de busca da Árvore B é logarítmica, mas não é uma condição para que ela seja balanceada. Falso. <br>b) as chaves são armazenadas em ordem de classificação, crescente ou decrescente. Também não é o motivo pela qual ela seria balanceada. Falso. <br>c) é possível localizar registros referenciados por um intervalo de chaves. Até é possível, mas não é o que torna ela balanceada. Falso. <br>d) o número de ponteiros em cada nó intermediário é constante. Não é o que a torna balaceada. Falso. <br>e) toda página folha tem o mesmo número de páginas intermediárias até a raiz. Isso. Se cada página folha tiver o mesmo número de páginas intermediárias até a raiz, teremos uma árvore com altura fixa, e, portanto, balaceada. Verdadeiro."
+      },
+      {
+        "pergunta": "(FCC – 2017 – TRE-SP) Considere, hipoteticamente, que um Técnico do TRE-SP tem, em seu computador, a seguinte organização de um diretório<br>Principal: Dados <br>Dentro de Dados: Técnicos Práticos <br>Dentro de Técnicos: Árvores Hash Recursão Filas Pilhas <br>Dentro de Práticos: Programas AFazer Prontos <br>Dentro de Prontos: Eleições Urnas <br>Dentro de Programas: Corretos <br>ComErro <br>Dentro de ComErro: Urgentes Pendentes Antigos <br>A estrutura de dados",
+        "alternativas": ["a) fila é a mais adequada para representar este diretório.", 
+        "b) pilha é a mais adequada para representar este diretório.", 
+        "c) árvore binária, ao armazenar este diretório, terá Dados na raiz e nós com grau 2, 3, 5 e folhas.", 
+        "d) árvore, que consegue armazenar este diretório, é de ordem 5.",
+        "e) hashing, ao armazenar este diretório, não terá colisões na tabela de dispersão."],
+        "correta": "d) árvore, que consegue armazenar este diretório, é de ordem 5.",
+        "explicacao": "Pela descrição, a estrutura de dados seria a seguinte:<br><img src='../dados/imgs/questao_desenvolvimento_43.png' alt='imagem da questão'><br>Isso é uma estrutura de árvore. <br>Portanto, excluímos as alternativas a), b) e e). Sobram as alternativas c) e d). <br>A alternativa c) fala de árvore binária. Não se trata de uma árvore binária, pois, em uma árvore binária, cada nó possui apenas dois filhos, o que não é o caso dessa estrutura. <br>Resta a alternativa d). De fato, é uma árvore, e, de fato, a sua ordem é 5. A ordem de uma árvore corresponde à quantidade máxima de níveis que ela possui. Note que ela possui 5 níveis."
+      },
+      {
+        "pergunta": "(FCC – 2019 – TRF-4) Determinada estrutura de dados foi projetada para minimizar o número de acessos à memória secundária. Como o número de acessos à memória secundária depende diretamente da altura da estrutura, esta foi concebida para ter uma altura inferior às estruturas hierarquizadas similares, para um dado número de registros. Para manter o número de registros armazenados e, ao mesmo tempo, diminuir a altura, uma solução é aumentar o grau de ramificação da estrutura (o número máximo de filhos que um nó pode ter). Assim, esta estrutura possui um grau de ramificação geralmente muito maior que 2. Além disso, a cada nó são associados mais de um registro de dados: se o grau de ramificação de um nó for g, este pode armazenar até g-1 registros. Esta estrutura de dados é utilizada em banco de dados e sistema de arquivos, sendo denominada",
+        "alternativas": ["a) árvore digital ou trie.", 
+        "b) árvore B.", 
+        "c) lista linear duplamente encadeada circular.", 
+        "d) árvore rubro-negra.",
+        "e) árvore binária de busca não balanceada."],
+        "correta": "b) árvore B.",
+        "explicacao": "A questão se refere à Árvore B. É uma modificação da árvore binária de busca balanceada que armazena os dados de forma organizada, permitindo a eles acesso rápido, reduzindo a quantidade de vezes em que é necessário acessar a memória secundária. <br>Este número de acessos à memória secundária depende diretamente da altura da estrutura, então ela foi criada para ter uma altura menor do que a de outras estruturas hierarquizadas semelhantes. <br>Quanto às demais estruturas de dados, sabemos que: <br>● digital ou trie: estrutura de dados para armazenar uma coleção de strings de forma organizada, para ser usado de forma eficiente em um dicionário. <br>● lista linear duplamente encadeada circular: uma lista em que cada nó tem ligação com o anterior e o próximo. Além disso, o primeiro nó tem ligação com o último, e vice-versa. <br>● árvore rubro-negra: uma variante de uma árvore de busca balanceada. Os nós da árvore podem ser coloridos de vermelho ou preto. Há algumas regras: <br>a. os nós vermelhos sempre têm dois filhos pretos <br>b. a raíz e as folhas devem ser nós pretos. <br>● árvore binária de busca não balanceada: os elementos são dispostos na árvore de modo que as operações são realizadas em tempo linear. É o contrário da Árvore B, que é balanceada."
+      },
+      {
+        "pergunta": "(FGV – 2022 – SEFAZ-AM) A estrutura de dados usada em índices multiníveis dinâmicos em banco de dados relacionais, que garantem que tais estruturas sempre estejam balanceadas e que o espaço desperdiçado pela exclusão de itens de dados, se houver, nunca se torne excessivo, é denominada",
+        "alternativas": ["a) fila.", 
+        "b) hash.", 
+        "c) bitmap.", 
+        "d) árvore B.",
+        "e) árvore binária."],
+        "correta": "d) árvore B.",
+        "explicacao": "Vamos analisar item a item: <br>a) fila <br>Fila é uma estrutura de dados linear que seja a regra FIFO, first-in first-out, ou seja, primeiro a entrar é o primeiro a sair. Não envolve balanceamento e não tem multiníveis. Falso. <br>b) hash. <br>Estrutura de dados que usa uma função hash para transformar entradas variáveis em saídas fixas de um vetor. Não tem multiníveis dinâmicos ou balanceamento. Falso. <br>c) bitmap. <br>Armazena bits em um vetor. Não envolve balanceamento. Falso. <br>d) árvore B. <br>São um tipo de árvore binária de busca balanceada. As árvores B são justamente as estruturas usadas para implementar os índices multiníveis dinâmicos em bancos de dados relacionais. Verdadeiro. <br>e) árvore binária. <br>Uma árvore binária não necessariamente é balanceada, portanto não é a resposta correta. Falso."
+      },
+      {
+        "pergunta": "(FGV – 2021 – IMBEL) Considere uma árvore B+ com as seguintes características. <br>I. A raiz é uma folha ou um nó que contém, no mínimo, dois filhos. <br>II. Cada nó diferente do nó raiz e das folhas possui no mínimo d filhos. <br>III. Cada nó tem no máximo 2d filhos. Cada nó possui entre d-1 e 2d-1 chaves, exceto o raiz que possui entre 1 e 2d-1 chaves. <br>IV. Somente os nós folhas contêm dados associados às chaves.<br>Assinale o número máximo de acessos necessários para localizar uma chave, com d=10, num universo de 10 milhões de chaves.",
+        "alternativas": ["a) 5", 
+        "b) 7", 
+        "c) 10", 
+        "d) 100",
+        "e) 1.000"],
+        "correta": "b) 7",
+        "explicacao": "O número máximo de acessos é calculado pela fórmula logdn. Para d = 10 e n = 10.000.000, temos log1010000000 = 7."
+      },
+      {
+        "pergunta": "(CESPE - 2012 - Banco da Amazônia - Técnico Científico - Administração de Dados) As operações de busca em uma árvore binária não a alteram, enquanto operações de inserção e remoção de nós provocam mudanças sistemáticas na árvore.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Operações de Busca não alteram nenhuma estrutura de dados. Já Operações de Inserção e Remoção podem provocar diversas mudanças estruturais."
+      },
+      {
+        "pergunta": "(CETAP - 2010 - AL-RR - Analista de Sistemas - A) Uma árvore binária é aquela que tem como conteúdo somente valores binários.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Uma árvore binária é aquela que tem, no máximo, grau 2!"
+      },
+      {
+        "pergunta": "(CESPE - 2012 - Banco da Amazônia - Técnico Científico - Administração de Dados) O tipo de dados árvore representa organizações hierárquicas entre dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito, observem que alguns autores tratam Tipos de Dados como sinônimo de Estruturas de Dados."
+      },
+      {
+        "pergunta": "(CETAP - 2010 - AL-RR - Analista de Sistemas - B) Uma árvore é composta por duas raízes, sendo uma principal e a outra secundária.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, uma árvore possui somente um nó raíz!"
+      },
+      {
+        "pergunta": "(CESPE - 2010 - DETRAN-ES - Analista de Sistemas) Denomina-se árvore binária a que possui apenas dois nós.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não, árvore binária é aquela em que cada nó tem, no máximo, dois filhos!"
+      },
+      {
+        "pergunta": "(FUNCAB - 2010 - SEJUS-RO - Analista de Sistemas - II) Árvores são estruturas de dados estáticas com sua raiz representada no nível um.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Árvores são estruturas dinâmicas e sua raiz, em geral, é representada no nível 0 (mas depende de autor para autor)."
+      },
+      {
+        "pergunta": "(CESPE - 2009 - ANAC - Especialista em Regulação - Economia) Considerando-se uma árvore binária  completa até o nível 5, então a quantidade de folhas nesse nível será 24.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! A quantidade de folhas em um determinado nível – considerando a raiz como nível 0 –, é dada pela fórmula 2^d, portanto 25.” ou “ é dada pela fórmula 2d, portanto 25.."
+      },
+      {
+        "pergunta": "(CESPE - 2009 – ANAC - Analista de Sistemas) Uma árvore binária completa até o nível 10 tem 2.047 nós.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Se possui 10 níveis, possui 2d+1-1: 2047 nós!” ou “Se possui 10 níveis, possui 2^(d+1) -1 : 2047 nós!!"
+      },
+      {
+        "pergunta": "(FGV – 2015 – DPE/MT – Analista de Sistemas) No desenvolvimento de sistemas, a escolha de estruturas de dados em memória é especialmente relevante. Dentre outras classificações, é possível agrupar essas estruturas em lineares e não lineares, conforme a quantidade de sucessores e antecessores que os elementos da estrutura possam ter. <br>Assinale a opção que apresenta, respectivamente, estruturas de dados lineares e não lineares.",
+        "alternativas": ["a) Tabela de dispersão e fila.", 
+        "b) Estrutura de seleção e pilha.", 
+        "c) Pilha e estrutura de seleção.", 
+        "d) Pilha e árvore binária de busca.",
+        "e) Fila e pilha."],
+        "correta": "d) Pilha e árvore binária de busca.",
+        "explicacao": "Além dessa classificação, existe outra também importante: Estruturas Lineares e Estruturas Não-Lineares. As Estruturas Lineares são aquelas em que cada elemento pode ter um único predecessor (exceto o primeiro elemento) e um único sucessor (exceto o último elemento). Como exemplo, podemos citar Listas, Pilhas, Filas, Arranjos, entre outros. <br>Já as Estruturas Não-Lineares são aquelas em que cada elemento pode ter mais de um predecessor e/ou mais de um sucessor. Como exemplo, podemos citar Árvores, Grafos e Tabelas de Dispersão. Essa é uma classificação muito importante e muito simples de entender. Pessoal, vocês perceberão que esse assunto é cobrado de maneira superficial na maioria das questões, mas algumas são nível doutorado! <br>Conforme vimos em aula, trata-se de pilha e árvore respectivamente."
+      },
+      {
+        "pergunta": "(CESPE - 2010 – TRE/MT – Analista de Sistemas – B) As listas, pilhas, filas e árvores são estruturas de dados que têm como principal característica a sequencialidade dos seus elementos.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não! Árvores não têm como principal característica a sequencialidade dos seus elementos."
+      },
+      {
+        "pergunta": "(FCC - 2012 - MPE-AP - Analista Ministerial - Tecnologia da Informação – A) A árvore é uma estrutura linear que permite representar uma relação de hierarquia. Ela possui um nó raiz e subárvores não vazias.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Árvore é uma estrutura linear? Não, hierárquica!"
+      },
+      {
+        "pergunta": "(CESPE - 2010 – TRE/MT - Analista de Sistemas – E) O uso de recursividade é totalmente inadequado na implementação de operações para manipular elementos de uma estrutura de dados do tipo árvore.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pelo contrário, é fundamental para implementação de operações."
+      },
+      {
+        "pergunta": "(FCC - 2011 - TRT - 19ª Região (AL) - Técnico Judiciário - Tecnologia da Informação) Em uma árvore binária, todos os nós têm grau:",
+        "alternativas": ["a) 2.", 
+        "b) 0, 1 ou 2.", 
+        "c) divisível por 2.", 
+        "d) maior ou igual a 2.",
+        "e) 0 ou 1."],
+        "correta": "b) 0, 1 ou 2.",
+        "explicacao": "Olha a pegadinha! Todos os nós têm grau 0 (Folha), 1 (Único filho) ou 2 (Dois filhos)."
+      },
+      {
+        "pergunta": "(CESPE - 2011 – STM – Analista de Sistemas) Enquanto uma lista encadeada somente pode ser percorrida de um único modo, uma árvore binária pode ser percorrida de muitas maneiras diferentes.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Galera, pense em uma árvore bem simples com um pai (raiz) e dois filhos. O Modo Pré-fixado vai ler primeiro a raíz, depois a sub-árvore da esquerda e depois a sub-árvore da direita. O Modo In-fixado vai ler primeiro a sub-árvore da esquerda, depois a raiz e depois a sub-árvore da direita. O Modo Pós-fixado vai ler primeiro a sub-árvore da esquerda, depois a sub-árvore da direita e depois a raiz. <br>Vamos resumir: o modo de percorrimento de uma árvore pode obedecer três regras de acordo com a posição da raiz (pai): pré-fixado (raiz, esquerda, direita); in-fixado (esquerda, raiz, direita); e pós-fixada (esquerda, direita, raiz)."
+      },
+      {
+        "pergunta": "(FCC - 2016 - Prefeitura de Teresina - PI - Analista Tecnológico - Analista de Suporte Técnico) Considerando a estrutura de dados denominada árvore,",
+        "alternativas": ["a) a sua altura é definida como a profundidade média de todos os seus vértices.", 
+        "b) um vértice com um ou dois filhos é denominado folha.", 
+        "c) cada nó tem no mínimo dois filhos em uma árvore binária.", 
+        "d) as folhas de uma árvore binária completa podem ter profundidades distintas entre si.",
+        "e) a profundidade de um vértice em uma árvore é definida como o comprimento da raiz da árvore até esse vértice."],
+        "correta": "b) 0, 1 ou 2.",
+        "explicacao": "(a) Errado! Altura é definida pela folha mais profunda; (b) Errado! Folhas não possuem filhos, do contrário não seriam folhas (as arves... somo nozes... péssimo, professor :P); (c) Errado! Os nós de uma árvore binaria podem ter NO MÁXIMO dois filhos, e não no mínimo; (d) Errado! Uma árvore binária completa é aquele em que todos os nós internos possuem seus dois filhos (máximo). Desse modo, todas as folhas devem ter a mesma profundidade; (e) Certo!"
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2012 – PETROBRÁS - Analista de Sistemas) Qual figura representa uma árvore AVL?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_44.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_45.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_46.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_47.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_48.png' alt='imagem da questão'>"],
+        "correta": "e) <img src='../dados/imgs/questao_desenvolvimento_48.png' alt='imagem da questão'>",
+        "explicacao": "Vamos relembrar dois conceitos: (1) Uma Árvore AVL é uma árvore binária de busca em que, para todos os seus nós, a diferença da altura da subárvore da esquerda para a altura da subárvore da direita deve ser no máximo 1. (2) Uma Árvore Binária de Busca é aquela em que, para todos os nós, a subárvore da esquerda possui um valor menor que a subárvore da direita. Dito isso, vamos analisar agora as opções: <br>(a) Errado. Não é uma árvore binária de busca, visto que o 35 é maior que 30 e está na subárvore da esquerda; <br>(b) Errado. Não é uma árvore binária de busca, visto que o 80 é maior que 75 e está na subárvore da esquerda; <br>(c) Errado. Observem que se trata realmente de uma árvore binária de busca, porém está desbalanceada. A diferença de altura da subárvore da esquerda de 50 e a subárvore da direita de 50 é 2 (que é maior do 1), portanto não é uma Árvore AVL. <br>(d) Errado. Não é uma árvore binária de busca, visto que o 55 é maior que 50 e está na subárvore da esquerda; <br>(e) Correto. Trata-se de árvore binária de busca e está completamente balanceada – requisitos para ser definida como uma Árvore AVL. Gabarito: Letra E"
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2006 – DECEA - Analista de Sistemas) Suponha a seguinte árvore AVL.<br><img src='../dados/imgs/questao_desenvolvimento_49.png' alt='imagem da questão'><br>A inserção do elemento 30 nessa árvore:",
+        "alternativas": ["a) aumenta a profundidade da árvore após uma rotação.", 
+        "b) provoca uma rotação à direita.", 
+        "c) deixa os nós 02 e 07 no mesmo nível.", 
+        "d) altera a raiz da árvore (nó 41).",
+        "e) torna o nó 33 pai do nó 27."],
+        "correta": "b) provoca uma rotação à direita.",
+        "explicacao": "Vamos lá! A questão quer inserir 30. Onde ele entraria? À esquerda do 33! No entanto, isso tornaria a árvore desbalanceada. Por que? Porque a árvore à esquerda do nó 38 teria altura 2 e o nó à direita do nó 38 teria altura 0 – a diferença seria 2, que é maior do que 1. Podemos notar que se trata de um Caso Esquerda- Esquerda, logo temos que fazer uma rotação simples para direita. <br>Rotacionamos o Ramo 38-33 para direita. Dessa forma, teríamos o 33 no lugar do 38 e o 38 à direita do 33. Pronto! Agora vamos analisar as opções: (a) Errado. A profundidade permanece a mesma; (b) Correto. Foi isso que nós fizemos; (c) Errado. Isso não faz nenhum sentido; (d) Errado. Isso também não faz nenhum sentido; (e) Errado. Também nenhum sentido."
+      },
+      {
+        "pergunta": "(CESPE – 2012 – TJ/RO - Analista de Sistemas) Assinale a opção em que é apresentado exemplo de estrutura de informação do tipo abstrata, balanceada, não linear e com relacionamento hierárquico.",
+        "alternativas": ["a) lista duplamente encadeada", 
+        "b) árvore binária", 
+        "c) pilha", 
+        "d) árvore AVL",
+        "e) deque"],
+        "correta": "d) árvore AVL",
+        "explicacao": "Tipo abstrato? Todos são! Não Linear? Árvore Binária e Árvore AVL! Com relacionamento hierárquico? Árvore Binária e Árvore AVL! Balanceada? Somente a Árvore AVL."
+      },
+      {
+        "pergunta": "(FCC – 2008 – TRT/18 - Analista de Sistemas) Árvore AVL balanceada em altura significa que, para cada nó da árvore, a diferença entre as alturas das suas sub- árvores (direita e esquerda) sempre será:",
+        "alternativas": ["a) menor ou igual a 2.", 
+        "b) igual a 0 ou -1.", 
+        "c) maior que 1.", 
+        "d) igual a 1.",
+        "e) igual a -1, 0 ou 1."],
+        "correta": "e) igual a -1, 0 ou 1.",
+        "explicacao": "Por fim, vamos falar um pouco sobre Árvores AVL! Uma Árvore AVL (Adelson-Vesky e Landis) é uma Árvore Binária de Busca em que, para qualquer nó, a altura das subárvores da esquerda e da direita não podem ter uma diferença maior do que 1, portanto uma Árvore AVL é uma Árvore Binária de Busca autobalanceável. Calma que nós vamos ver isso em mais detalhes... <br>Conforme vimos em aula, trata-se da última opção. Lembrando que, na aula, nós falamos que era a diferença não podia ser maior que 1. Uma outra forma de escrever isso é dizer que o módulo da diferença entre as alturas não pode ser maior do 1. E outra forma de escrever isso é dizer que um nó só poder ter uma diferença de altura de suas subárvores de 1, 0 ou -1. Certinho?"
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2010 – PETROBRÁS - Analista de Sistemas) Uma árvore AVL é uma estrutura de dados muito usada para armazenar dados em memória. Ela possui algumas propriedades que fazem com que sua altura tenha uma relação muito específica com o número de elementos nela armazenados. Para uma folha, cuja altura é igual a um, tem-se uma árvore AVL com 6 nós. Qual é a altura máxima que esta árvore pode ter?",
+        "alternativas": ["a) 6", 
+        "b) 5", 
+        "c) 4", 
+        "d) 3",
+        "e) 2"],
+        "correta": "d) 3",
+        "explicacao": "Com seis nós, a altura máxima que atingiremos será 3. Portanto, a resposta para nossa questão é Letra D."
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2011 – PETROBRÁS - Analista de Sistemas) Uma árvore AVL é uma árvore binária de busca autobalanceada que respeita algumas propriedades fundamentais. Como todas as árvores, ela tem uma propriedade chamada altura, que é igual ao valor da altura de sua raiz. <br>Sabendo que a altura de uma folha é igual a um e que a altura de um nó pai é igual ao máximo das alturas de seus filhos mais um, qual estrutura NÃO pode representar uma árvore AVL?",
+        "alternativas": ["a) Uma árvore vazia", 
+        "b) Uma árvore com dois nós", 
+        "c) Uma árvore com três nós e altura igual a dois", 
+        "d) Uma árvore com três nós e altura igual a três",
+        "e) Uma árvore com seis nós e altura igual a três"],
+        "correta": "d) Uma árvore com três nós e altura igual a três",
+        "explicacao": "(a) Errado, uma árvore vazia é uma Árvore AVL; (b) Errado, é impossível uma árvore com dois nós não ser uma Árvore AVL; (c) Errado, uma árvore com três nós e altura igual a dois é perfeitamente balanceada; (d) Correto, uma árvore com três nós e altura igual a três não pode estar balanceada (vide imagem abaixo); (e) Errado, uma árvore com seis nós e altura igual a três também está balanceada."
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2011 – PETROBRÁS - Analista de Sistemas) Após a inserção de um nó, é necessário verificar cada um dos nós ancestrais desse nó inserido, relativamente à consistência com as regras estruturais de uma árvore AVL. <br>PORQUE <br>O fator de balanceamento de cada nó, em uma árvore AVL, deve pertencer ao conjunto formado por {-2, -1, 0, +1, +2}. <br>Analisando-se as afirmações acima, conclui-se que:",
+        "alternativas": ["a) as duas afirmações são verdadeiras, e a segunda justifica a primeira.", 
+        "b) as duas afirmações são verdadeiras, e a segunda não justifica a primeira.", 
+        "c) a primeira afirmação é verdadeira, e a segunda é falsa.", 
+        "d) a primeira afirmação é falsa, e a segunda é verdadeira.",
+        "e) as duas afirmações são falsas."],
+        "correta": "c) a primeira afirmação é verdadeira, e a segunda é falsa.",
+        "explicacao": "Galera, a primeira frase está perfeita! Após inserir um novo nó, você tem que verificar os nós ancestrais para se certificar de que a Árvore AVL continua balanceada. No entanto, o fator de balanceamento de cada nó deve pertencer ao conjunto formado por {-1, 0, 1}. Lembrem-se: o módulo da diferença jamais pode ser maior do que 1, portanto a primeira está verdadeira e a segunda falsa."
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2010 – EPE - Analista de Sistemas) Um programador decidiu utilizar, em determinado sistema de análise estatística, uma árvore AVL como estrutura de dados. Considerando-se n a quantidade de elementos dessa árvore, o melhor algoritmo de pesquisa, com base em comparações, possui complexidade de tempo, no pior caso, igual a:",
+        "alternativas": ["a) O(1)", 
+        "b) O(log n).", 
+        "c) O(n).", 
+        "d) O(n log n).",
+        "e) O(n²)."],
+        "correta": "b) O(log n).",
+        "explicacao": "Diferente dos algoritmos de ordenação, a árvore B e árvore AVL possuem como pior caso O(log n)"
+      },
+      {
+        "pergunta": "(IBFC – 2014 – TRE/AM - Analista de Sistemas) Quanto ao Algoritmo e estrutura de dados no caso de árvore AVL (ou árvore balanceada pela altura), analise as afirmativas abaixo, dê valores Verdadeiro (V) ou Falso (F) e assinale a alternativa que apresenta a sequência correta de cima para baixo: ( ) Uma árvore AVL é dita balanceada quando, para cada nó da árvore, a diferença entre as alturas das suas sub-árvores (direita e esquerda) não é maior do que um. 20 ( ) Caso a árvore não esteja balanceada é necessário seu balanceamento através da rotação simples ou rotação dupla. Assinale a alternativa correta:",
+        "alternativas": ["a) F-F", 
+        "b) F-V", 
+        "c) V-F", 
+        "d) V-V"],
+        "correta": "d) V-V",
+        "explicacao": "A primeira alternativa está impecável, assim como a segunda. Vimos exaustivamente em aula!"
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2010 – PETROBRÁS - Analista de Sistemas) Uma sequência desordenada de números armazenada em um vetor é inserida em uma árvore AVL. Após a inserção nesta árvore, é feito um percurso em ordem simétrica (em ordem) e o valor de cada nó visitado é inserido em uma pilha. Depois de todos os nós serem visitados, todos os números são retirados da pilha e apresentados na tela. A lista de números apresentada na tela está:",
+        "alternativas": ["a) ordenada ascendentemente de acordo com os números.", 
+        "b) ordenada descendentemente de acordo com os números.", 
+        "c) na mesma ordem do vetor original.", 
+        "d) na ordem inversa do vetor original.",
+        "e) ordenada ascendentemente de acordo com sua altura na árvore."],
+        "correta": "b) ordenada descendentemente de acordo com os números.",
+        "explicacao": "Eu tenho um vetor com um bocado de valor desordenado. Esses valores são colocados em uma Árvore AVL. Ora, uma árvore AVL é uma árvore binária de busca, portanto segue suas propriedades. Logo, não importa se estava desordenado. À medida que são inseridos os valores desordenados na árvore, ela vai se balanceando e ordenando os dados. <br>Após isso, vamos retirar os dados da Árvore AVL. Como? Da esquerda para a direita! E vamos colocá-los em uma pilha. Se estamos lendo da esquerda para a direita, estamos retirando do menor valor para o maior valor, logo o maior valor da pilha será o maior valor da Árvore AVL. Por fim, ao retirar os elementos da pilha, retiramos do topo (maior) para a base (menor), logo em ordem descendente."
+      },
+      {
+        "pergunta": "(FGV – 2009 – MEC - Analista de Sistemas) Acerca das estruturas de dados Árvores, analise as afirmativas a seguir. <br>I. A árvore AVL é uma árvore binária com uma condição de balanço, porém não completamente balanceada. <br>II. Árvores admitem tratamento computacional eficiente quando comparadas às estruturas mais genéricas como os grafos. <br>III. Em uma Árvore Binária de Busca, todas as chaves da subárvore esquerda são maiores que a chave da raiz. <br>Assinale:",
+        "alternativas": ["a) se somente a afirmativa I estiver correta.", 
+        "b) se somente as afirmativas I e II estiverem corretas.", 
+        "c) se somente as afirmativas I e III estiverem corretas.", 
+        "d) se somente as afirmativas II e III estiverem corretas.",
+        "e) se todas as afirmativas estiverem corretas."],
+        "correta": "b) se somente as afirmativas I e II estiverem corretas.",
+        "explicacao": "(I) Correto, ela é não é completamente balanceada; (II) Correto, isso é verdade! (III) Errado, são menores que a chave da raiz."
+      },
+      {
+        "pergunta": "(CESPE – 2010 – PETROBRÁS - Analista de Sistemas) No sistema de dados do Departamento de Recursos Humanos de uma grande empresa multinacional, os registros de funcionários são armazenados em uma estrutura de dados do tipo árvore binária AVL, onde cada registro é identificado por uma chave numérica inteira. Partindo de uma árvore vazia, os registros cujas chaves são 23, 14, 27, 8, 18, 15, 30, 25 e 32 serão, nessa ordem, adicionados à árvore. <br>Dessa forma, o algoritmo de inserção na árvore AVL deverá realizar a primeira operação de rotação na árvore na ocasião da inserção do elemento:",
+        "alternativas": ["a) 30", 
+        "b) 25", 
+        "c) 18", 
+        "d) 15",
+        "e) 8"],
+        "correta": "d) 15",
+        "explicacao": "Vamos simular! Vamos inserir logo os três primeiros: 23, 14 e 27 (primeira imagem); depois inserimos o número 8 (segunda imagem); e inserimos o número 18 (terceira imagem). Vejamos como ficou:<br><img src='../dados/imgs/questao_desenvolvimento_50.png' alt='imagem da questão'><br>Agora vamos inserir o 15! Esse nó iria para a esquerda de 18 como mostra a primeira imagem abaixo. Nesse caso, o nó 23 ficaria desbalanceado. O que fazer? Temos um Caso Esquerda-Direita, portanto temos que fazer uma rotação dupla: primeiro à esquerda no Ramo 14-18 e depois à direita no Ramo 18-23. O resultado é mostrado a imagem abaixo e é na inserção do nó 15 que devemos fazer a primeira rotação.<br><img src='../dados/imgs/questao_desenvolvimento_51.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CESGRANRIO–TRANSPETRO– 2023) Estruturas de dados referem-se aos diferentes mecanismos de organização de dados para atender a diferentes requisitos de processamento. Dentre as estruturas de dados, é eficiente para inserção e remoção de elementos em qualquer posição, incluindo início, meio e fim, além de oferecer acesso aos elementos em posições intermediárias, a seguinte estrutura de dados:",
+        "alternativas": ["a) pilha", 
+        "b) fila", 
+        "c) lista encadeada", 
+        "d) array estático",
+        "e) vetor dinâmico"],
+        "correta": "c) lista encadeada",
+        "explicacao": "A estrutura de dados mais eficiente para inserção e remoção de elementos em qualquer posição (incluindo início, meio e fim) e que oferece acesso aos elementos em posições intermediárias é a lista encadeada. <br>Pilha (a): Uma pilha é uma estrutura de dados que segue o princípio Last In, First Out (LIFO), onde o último elemento a ser adicionado é o primeiro a ser removido. A inserção e remoção são eficientes, mas apenas no topo da pilha, não em posições intermediárias ou no fim. <br>Fila (b): Uma fila segue o princípio First In, First Out (FIFO), onde o primeiro elemento a ser adicionado é o primeiro a ser removido. Semelhante à pilha, a inserção e remoção são eficientes no início e no fim da fila, respectivamente, mas não em posições intermediárias. <br>Lista encadeada (c): A lista encadeada permite a inserção e remoção de elementos em qualquer posição com eficiência. Cada elemento (nó) na lista encadeada contém o dado e a referência para o próximo nó, facilitando a inserção e remoção em qualquer ponto da lista sem a necessidade de deslocar outros elementos, como seria necessário em um array estático ou um vetor dinâmico. <br>Array estático (d): Em um array estático, o tamanho é definido na criação e não pode ser alterado. A inserção e remoção de elementos em qualquer lugar que não seja o final do array exigem o deslocamento de elementos subsequentes, o que não é eficiente. <br>Vetor dinâmico (e): Semelhante ao array estático, porém seu tamanho pode ser ajustado dinamicamente. Apesar disso, inserções e remoções no início ou no meio também requerem deslocamento de elementos, o que reduz a eficiência para essas operações, apesar de serem mais flexíveis que arrays estáticos em termos de gestão de capacidade. <br>Portanto, a letra C (lista encadeada) é a resposta correta, pois essa estrutura de dados atende a todos os requisitos mencionados de maneira eficiente."
+      },
+      {
+        "pergunta": "(CESGRANRIO–TRANSPETRO– 2023) Considere uma árvore AVL que possui 12 nós. A altura dessa árvore é",
+        "alternativas": ["a) 3", 
+        "b) 4", 
+        "c) 5", 
+        "d) 6",
+        "e) 7"],
+        "correta": "b) 4",
+        "explicacao": "Uma árvore AVL garante que a diferença de altura entre as subárvores de qualquer nó seja no máximo 1. Isso significa que a altura da árvore pode ser estimada usando o logaritmo de base 2 do número de nós. Para calcular a altura mínima da árvore, podemos usar a seguinte fórmula: <br>Altura mínima = log2(n + 1) + 1. Onde n é o número de nós na árvore. <br>No caso de 12 nós: Altura mínima = log2(12 + 1) + 1 = log2(13) + 1 ≈ 3.60 <br>Como a altura precisa ser um número inteiro, arredondamos 3.60 para cima, resultando em uma altura mínima de 4. A altura máxima da árvore AVL com n nós é n - 1. No caso de 12 nós, a altura máxima é 12 - 1 = 11. <br>A altura de uma árvore AVL com 12 nós pode ser 4 (altura mínima) ou um valor entre 4 e 11 (alturas intermediárias). No entanto, a questão pede a altura no pior caso, o que significa que a resposta correta é 4."
+      },
+      {
+        "pergunta": "(CESGRANRIO–BASA– 2022) Uma função, chamada converte, tem por objetivo converter um número inteiro na base decimal (d), recebido como parâmetro, em um número inteiro na base binária (b), isto é, um número que seja formado apenas pelos algarismos 0 e 1, como nos exemplos abaixo. Exemplos: converte(7) = 111 converte(12) = 1100 converte(16) = 10000 Admita que o inteiro (d), recebido como parâmetro, é tal que d>=0 e d<=1024. Qual função executa essa conversão corretamente?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_52.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_53.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_54.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_55.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_56.png' alt='imagem da questão'>"],
+        "correta": "a) <img src='../dados/imgs/questao_desenvolvimento_52.png' alt='imagem da questão'>",
+        "explicacao": "A alternativa A é correta porque implementa corretamente o processo de conversão de um número na base decimal para a base binária usando recursão. O método divide o número decimal por 2 sucessivamente até que o resultado dessa divisão seja 0, que é a condição de parada da recursão. Em cada chamada recursiva, o método calcula o resto da divisão do número atual por 2 (dec % 2), que será 0 ou 1, representando o bit atual na posição binária. Esse bit é então somado ao resultado da chamada recursiva multiplicado por 10, para posicionar corretamente o dígito binário no retorno. Esse processo constrói o número binário de forma correta, de trás para frente, começando pelos bits menos significativos. <br>Vejamos por que as demais alternativas estão incorretas: <br>b) O uso de bin+=r << 2; é incorreto porque o operador << desloca os bits para a esquerda no valor binário. A intenção era provavelmente deslocar o valor binário uma casa decimal para cada novo bit encontrado (<< 1 seria o deslocamento correto para bits), mas mesmo assim, a implementação deveria usar fat para garantir a multiplicação correta por 10 na base decimal, e não um deslocamento de bits. <br>c) Esta função retorna imediatamente o valor de dec se dec > 0, o que significa que ela não realiza nenhuma conversão. Além disso, a lógica de conversão está mal-formulada e não segue o processo correto de divisão por 2 e acumulação dos restos. <br>d) A condição no loop do-while está incorreta (do {...} while(dec >= 0);), resultando em um loop infinito para qualquer valor de dec diferente de -1, porque dec alcançará 0 mas nunca será menor que 0, a condição para sair do loop nunca será verdadeira. A intenção era provavelmente usar do {...} while(dec > 0);. <br>e) Apesar de essa alternativa implementar a lógica corretamente, similar ao que é feito na alternativa A, a afirmação de que o gabarito é a letra A está incorreta. Na verdade, a alternativa E também executa a conversão corretamente, empregando um loop for para dividir o número por 2 sucessivamente e acumular o resto multiplicado por um fator que representa a posição binária correta (potência de 10). Portanto, a justificativa do gabarito parece estar baseada em um erro de interpretação ou em uma discrepância nos critérios de avaliação fornecidos. Na realidade, tanto a alternativa A quanto a E realizam a conversão de forma adequada, com A utilizando recursão e E um loop for, ambas construindo o número binário corretamente."
+      },
+      {
+        "pergunta": "(CESGRANRIO–BASA– 2022) Em linguagens de programação como Java, onde existem estruturas de repetição, a recursão pode ser muitas vezes substituída pela repetição, com ganhos de desempenho. Considere a seguinte função recursiva segredo, em Java:<br><img src='../dados/imgs/questao_desenvolvimento_57.png' alt='imagem da questão'><br>Que fragmento de código, em Java, contendo uma estrutura de repetição, é adequado para substituí-la?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_58.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_59.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_60.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_61.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_62.png' alt='imagem da questão'>"],
+        "correta": "c) <img src='../dados/imgs/questao_desenvolvimento_60.png' alt='imagem da questão'>",
+        "explicacao": "A função segredo recursiva decrementa o valor de a por 2 a cada chamada e incrementa o retorno em 1, até que a seja menor que 2. Isso efetivamente conta quantas vezes o número pode ser dividido por 2 antes de se tornar menor que 2. <br>A alternativa C implementa corretamente a lógica da função recursiva segredo de forma iterativa. Ela utiliza um loop while que continua a subtrair 2 de a enquanto a for maior ou igual a 2, incrementando s a cada iteração. Isso replica exatamente o comportamento da função recursiva original, realizando a mesma quantidade de decrementos de 2 em a e incrementos em s até que a seja menor que 2. <br>Letra A: O loop for decrementa i de a até i ser maior que 2, incrementando s a cada passo. No entanto, este loop nunca executa quando i é exatamente 2, porque a condição de parada é i > 2, o que ignora uma subtração final que seria contada. <br>Letra B: O loop for está configurado para uma condição que nunca é verdadeira (i<2 && i>0). Além disso, essa lógica não corresponde à da função segredo, pois verifica uma condição de incremento que não replica o comportamento original de subtrair 2 até que a seja menor que 2. <br>Letra D: O loop do-while executa pelo menos uma vez independente do valor de a, mas a condição while (a>0 && a<=2) não replica corretamente o comportamento da função segredo. <br>Ela para o loop de maneira prematura para certos valores de a e permite uma iteração adicional indevidamente para a inicialmente menor que 2. <br>Letra E: Similarmente ao D, o loop do-while não replica corretamente a lógica da função segredo. A condição while (a>0 && a<2) é ainda mais restritiva e menos alinhada com a função original, terminando o loop prematuramente e não executando a subtração e incremento corretamente para todos os casos."
+      },
+      {
+        "pergunta": "(CESGRANRIO–PNS– 2022) Seja um array composto por 7 números inteiros. <br>[ 5, 15, 77, 21, 5, 25, 2 ] <br>Esse array foi usado por um profissional de teste de software para testar uma função que ordena, de forma ascendente, um array de números inteiros. Essa função implementa o algoritmo de ordenação por seleção. <br>Para avaliar a evolução do array sendo ordenado, o profissional de teste solicitou ao programador que criou a função de ordenação que fizesse uma modificação no código, de modo que o somatório dos elementos do array com índices 2, 3 e 4 seja exibido no console imediatamente antes do incremento da variável ( i ) que controla a execução do comando de repetição mais externo. <br>Feitas as modificações solicitadas, o código da função passou a ter a seguinte forma geral:<br><img src='../dados/imgs/questao_desenvolvimento_63.png' alt='imagem da questão'><br>O que será exibido no console pelo comando print na 3ª iteração do comando de repetição mais externo?",
+        "alternativas": ["a) 32", 
+        "b) 38", 
+        "c) 41", 
+        "d) 103",
+        "e) 113"],
+        "correta": "c) 41",
+        "explicacao": "Para entender a questão, é necessário acompanhar o processo de ordenação por seleção nas primeiras iterações e verificar o que acontece especificamente na terceira iteração. O algoritmo de ordenação por seleção funciona selecionando iterativamente o menor elemento do array e movendo-o para a posição correta. Vamos acompanhar as etapas desse algoritmo e entender como o array evolui até a terceira iteração. Dado o array inicial: [5,15,77,21,5,25,2] <br>1ª Iteração: O menor elemento é 2, que está no último índice. Trocamos o elemento na primeira posição (índice 0) com o elemento mínimo. O array se torna: [2,15,77,21,5,25,5] <br>2ª Iteração: O próximo menor elemento a partir do índice 1 é 5, localizado no índice 4. Trocamos o elemento na segunda posição (índice 1) com o elemento mínimo. O array se torna: [2,5,77,21,15,25,5] <br>3ª Iteração: Agora, buscamos o menor elemento a partir do índice 2. Temos dois 5s, mas como um já está na posição correta (índice 1), o próximo menor elemento é 15 no índice 4. Portanto, após a terceira iteração, os elementos nos índices 2, 3 e 4 são 5, 21 e 15, respectivamente. O somatório desses elementos é 5+21+15=41. Assim, o valor que será exibido no console é 41."
+      },
+      {
+        "pergunta": "(CESGRANRIO – PNS- 2022) Os tipos abstratos de dados (TAD) Fila e Pilha foram implementados em uma linguagem orientada a objetos por meio de um array de inteiros. As classes criadas para a implementação desses TADs contêm os seguintes métodos:<br><img src='../dados/imgs/questao_desenvolvimento_64.png' alt='imagem da questão'><br>Admita que o estado inicial de uma pilha (p) seja um array vazio, e que o estado inicial de uma fila (f) seja caracterizado pelo array [ 15, 90, 40 ]. <br>Após a execução de uma sequência de operações sobre p e f, a fila assumiu o seguinte estado final: [ 35, 90, 40, 15 ] <br>Qual sequência de comandos levou f do estado inicial para o estado final?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_65.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_66.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_67.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_68.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_69.png' alt='imagem da questão'>"],
+        "correta": "b) <img src='../dados/imgs/questao_desenvolvimento_66.png' alt='imagem da questão'>",
+        "explicacao": "A sequência de comandos que levou a fila do estado inicial para o estado final é a letra B. Vamos analisar cada comando dessa sequência para entender como ocorreu a transformação da fila. <br>p.push ( f.deq( ) ): O comando f.deq( ) retira o elemento mais à esquerda da fila, que é 15 no estado inicial. Esse valor é então inserido na pilha p usando p.push(). Após essa operação, o estado da fila é [90, 40], e o valor retirado (15) foi empilhado. <br>p.push (f.deq ( ) ): O próximo valor a ser retirado da fila é 90. Assim, f.deq( ) retira 90 da fila, e p.push() insere esse valor na pilha p. Agora a fila fica com [40], e a pilha p terá 90 no topo, seguido por 15. <br>f.enq ( 35 ): O valor 35 é inserido na fila. Após essa operação, a fila fica com [40, 35]. <br>f.enq ( p.pop ( ) ): O comando p.pop() retira o elemento do topo da pilha p, que é 90. Esse valor é então inserido na fila f. Assim, a fila agora será [40, 35, 90], e a pilha p terá apenas o valor 15 no topo. <br>f.enq (f.deq ( ) ): O comando f.deq( ) retira o primeiro elemento da fila, que é 40. Esse valor é inserido novamente na fila. Agora a fila fica com [35, 90, 40]. <br>f.enq (p.pop ( ) ): O comando p.pop( ) retira o último elemento da pilha p, que é 15. Esse valor é inserido na fila. Após essa operação, a fila assume o estado final [35, 90, 40, 15]. <br>Portanto, a sequência de comandos da opção B é a correta para levar a fila do estado inicial para o estado final."
+      },
+      {
+        "pergunta": "(CESGRANRIO CEF– 2021) Qual árvore binária pode ser classificada como árvore binária de busca?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_70.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_71.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_72.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_73.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_74.png' alt='imagem da questão'>"],
+        "correta": "c) <img src='../dados/imgs/questao_desenvolvimento_72.png' alt='imagem da questão'>",
+        "explicacao": "gabarito do estratégia tá errado, mas é porque os elementos devem estar ordenados do menor para o maior a partir da esquerda."
+      },
+      {
+        "pergunta": "(CESGRANRIO– BB- 2021) Uma das formas de o gerente de uma agência bancária acompanhar a qualidade dos serviços prestados aos seus clientes é verificar o estado da ordem de atendimento em vários instantes ao longo do expediente. O sistema que a gerência utiliza para tal fim é a estrutura de dados conhecida como FILA, que mostra a situação da ordem de atendimento no instante da verificação. <br>Nesse contexto, implementa-se uma estrutura de FILA de números inteiros com suas duas operações tradicionais: ENFILEIRAR(Z), que ocorre no instante em que um cliente recebe uma senha Z e entra na FILA; e DESENFILEIRAR( ), que ocorre quando um cliente sai da FILA, caso em que DESENFILEIRAR( ) retorna o número da senha. Sabe-se, também, que a representação do estado da FILA em um instante qualquer é realizada listando os elementos, de forma que o primeiro elemento, da esquerda para a direita, é o mais antigo presente na FILA. <br>Nas condições apresentadas, considere uma FILA que começa vazia e realiza as seguintes operações: <br>ENFILEIRAR(8) → ENFILEIRAR(9) → DESENFILEIRAR( ) → ENFILEIRAR(10) → ENFILEIRAR(11) → ENFILEIRAR(DESENFILEIRAR ( )) → ENFILEIRAR(12) → DESENFILEIRAR( ) → ENFILEIRAR(13) → DESENFILEIRAR( ) <br>Após realizar as operações acima, a FILA estará no estado",
+        "alternativas": ["a) 10 – 11 – 12", 
+        "b) 9 – 12 – 13", 
+        "c) 9 – 10 – 11", 
+        "d) 8 – 10 – 11",
+        "e) 8 – 9 – 10"],
+        "correta": "b) 9 – 12 – 13",
+        "explicacao": "Vamos analisar cada operação realizada: <br>ENFILEIRAR(8): Adiciona o número 8 na fila. <br>Fila: 8 <br>ENFILEIRAR(9): Adiciona o número 9 na fila. <br>Fila: 8 - 9 <br>DESENFILEIRAR( ): Remove o primeiro elemento da fila, que é o 8. <br>Fila: 9 <br>ENFILEIRAR(10): Adiciona o número 10 na fila. <br>Fila: 9 - 10 <br>ENFILEIRAR(11): Adiciona o número 11 na fila. <br>Fila: 9 - 10 - 11 <br>ENFILEIRAR(DESENFILEIRAR ( )): Remove o primeiro elemento da fila (9) e o adiciona novamente. <br>Fila: 10 - 11 - 9 <br>ENFILEIRAR(12): Adiciona o número 12 na fila. <br>Fila: 10 - 11 - 9 - 12 <br>DESENFILEIRAR( ): Remove o primeiro elemento da fila (10). <br>Fila: 11 - 9 - 12 <br>ENFILEIRAR(13): Adiciona o número 13 na fila. <br>Fila: 11 - 9 - 12 - 13 <br>DESENFILEIRAR( ): Remove o primeiro elemento da fila (11). <br>Fila: 9 - 12 - 13 <br>Após todas as operações, a fila estará no estado 9 - 12 - 13. Portanto, o gabarito é a letra B, que representa corretamente o estado final da fila após as operações realizadas."
+      },
+      {
+        "pergunta": "(CESGRANRIO –BB – 2021) Um programador escreveu uma função para percorrer, em pós-ordem, uma árvore binária e exibir, no console, os valores referentes aos nós dessa árvore. <br>Após essa função ter sido executada, foi exibido o seguinte resultado: <br>41 44 33 47 55 52 36 30 <br>Que árvore essa função percorreu para exibir o resultado acima?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_75.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_76.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_77.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_78.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_79.png' alt='imagem da questão'>"],
+        "correta": "e) <img src='../dados/imgs/questao_desenvolvimento_79.png' alt='imagem da questão'>",
+        "explicacao": "Para entender que árvore essa função percorreu para exibir o resultado, devemos saber inicialmente os possíveis percursos em profundidade em uma árvore binária. Os percursos são formas de percorrer uma árvore binária visitando os nós de forma sistemática. Existem três tipos principais de percursos em profundidade: Em-Ordem, Pré-Ordem e Pós-Ordem. <br>Em-Ordem: Visita recursivamente a subárvore esquerda, depois visita a raiz da árvore e, por fim, visita recursivamente a subárvore direita. <br>Pré-Ordem: Visita primeiro a raiz da árvore, depois visita recursivamente as subárvores esquerda e direita, nessa ordem. <br>Pós-Ordem: Visita recursivamente as subárvores esquerda e direita, nessa ordem, e depois visita a raiz da árvore. <br>O percurso mencionado na questão é o percurso em Pós-Ordem, que visita os nós mais à esquerda, depois os mais à direita e, por fim, a raiz. O resultado '41 44 33 47 55 52 36 30' indica que o nó mais à esquerda é 41 e a raiz é 30. <br>Portanto, é feito um percurso em pós-ordem na árvore onde o nó mais à esquerda é 41 e a raiz é 30. Portanto, a árvore representada pela letra E é a correta, pois possui a combinação correta de raiz (30) e nó mais à esquerda (41), conforme observado na sequência de valores exibidos pelo percurso em pós-ordem. As outras alternativas são descartadas por não satisfazerem essa condição."
+      },
+      {
+        "pergunta": "(CESGRANRIO– BB- 2021) Desejam-se realizar buscas nas seguintes coleções de dados, representadas na linguagem Java: <br>I - Um array de 1.000 números inteiros ordenados de forma decrescente; <br>II - Uma lista encadeada desordenada e alocada dinamicamente, cujos 1.000 nós contêm strings(uma string por nó); <br>III - Uma lista encadeada, alocada dinamicamente, cujos 1.000 nós contêm números decimais (um número double por nó) ordenados de forma ascendente. <br>Levando-se em consideração a exequibilidade e a eficiência, quais métodos de busca devem ser empregados, respectivamente, em cada um dos três casos acima?",
+        "alternativas": ["a) I – sequencial; II – sequencial; III – binária", 
+        "b) I – binária; II – sequencial; III – sequencial", 
+        "c) I – binária; II – sequencial; III – binária", 
+        "d) I – sequencial; II – sequencial; III – sequencial",
+        "e) I – sequencial; II – binária; III – binária"],
+        "correta": "b) I – binária; II – sequencial; III – sequencial",
+        "explicacao": "Para escolher o método de busca mais adequado para cada coleção de dados, é necessário considerar a natureza dos dados e a eficiência de cada método de busca. <br>Array de 1.000 números inteiros ordenados de forma decrescente (I): Como o array está ordenado de forma decrescente, o método de busca binária é mais adequado. A busca binária é altamente eficiente em arrays ordenados, reduzindo o tempo de busca para O(logn), onde n é o número de elementos no array. <br>Lista encadeada desordenada contendo strings (II): Neste caso, como a lista encadeada está desordenada, o método de busca sequencial é mais apropriado. Como não há garantia sobre a ordenação dos elementos, a busca sequencial é a opção mais simples e eficiente, com complexidade de tempo O(n), onde n é o número de elementos na lista. <br>Lista encadeada contendo números decimais ordenados de forma ascendente (III): Dado que os números decimais estão ordenados de forma ascendente, a busca binária é a escolha mais eficiente. Assim como no caso do array ordenado, a busca binária pode ser aplicada a listas encadeadas ordenadas, oferecendo uma complexidade de tempo O(logn), onde n é o número de elementos na lista. <br>Portanto, o método de busca mais adequado para cada caso é a letra B, pois a busca binária é a mais eficiente para o array de números inteiros ordenados e para a lista encadeada de números decimais ordenados, enquanto a busca sequencial é a mais apropriada para a lista encadeada de strings desordenadas."
+      },
+      {
+        "pergunta": "(CESGRANRIO –BB – 2021) Um professor preparou uma série de experimentos para avaliar, juntamente com seus alunos, três algoritmos de ordenação: o da bolha, o de ordenação por inserção e o de ordenação por seleção. Para tal, ele escreveu três métodos Java, um para cada algoritmo. Todos eles recebem como único parâmetro um array de inteiros (int vet[ ] = {81,15,4,20,7,47,14,20,4}), que será ordenado em ordem crescente. <br>Para acompanhar a evolução desse array sendo ordenado, cada um dos três métodos exibe a configuração dos elementos do array ao término de cada iteração do comando de repetição mais externo. Vale lembrar que esses três algoritmos de ordenação são compostos por dois comandos de repetição aninhados (dois comandos for ou dois comandos while). <br>Terminada a codificação, o professor executou os métodos relativos aos três algoritmos de ordenação e projetou no quadro as configurações do array relativas às três primeiras iterações de cada um dos algoritmos de ordenação, conforme mostrado a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_80.png' alt='imagem da questão'><br>As configurações 1, 2 e 3, exibidas acima, correspondem, respectivamente, aos algoritmos",
+        "alternativas": ["a) da bolha, de seleção e de inserção", 
+        "b) da bolha, de inserção e de seleção", 
+        "c) de seleção, de inserção e da bolha", 
+        "d) de seleção, da bolha e de inserção",
+        "e) de inserção, de seleção e da bolha"],
+        "correta": "c) de seleção, de inserção e da bolha",
+        "explicacao": "O enunciado apresenta três algoritmos de ordenação: o da bolha, o de ordenação por inserção e o de ordenação por seleção. Cada algoritmo é representado por um método Java, que recebe como parâmetro um array de inteiros a ser ordenado em ordem crescente. <br>O professor executou os métodos relativos aos três algoritmos de ordenação e projetou no quadro as configurações do array após as três primeiras iterações de cada algoritmo. No entanto, as configurações apresentadas não estão explicitamente relacionadas com os algoritmos específicos. <br>Para identificar a correspondência entre as configurações e os algoritmos de ordenação, é necessário entender o que ocorre em cada algoritmo durante as primeiras iterações. <br>Algoritmo da bolha: <br>O algoritmo da bolha compara pares adjacentes de elementos e os troca se estiverem na ordem errada. Nas primeiras iterações, os maiores elementos sobem para o topo do array. <br>Algoritmo de ordenação por seleção: <br>O algoritmo de ordenação por seleção busca o menor elemento do array e o move para a posição correta. Nas primeiras iterações, os menores elementos são movidos para o início do array. <br>Algoritmo de ordenação por inserção: <br>O algoritmo de ordenação por inserção insere cada elemento na posição correta em relação aos elementos já ordenados. Nas primeiras iterações, os primeiros elementos permanecem na mesma posição, enquanto os elementos restantes são inseridos na posição correta."
+      },
+      {
+        "pergunta": "(CESGRANRIO–BASA– 2021) Um determinado programador é responsável por tarefas de ordenação e, ao estudar determinados produtos, resolveu ordenar, de maneira crescente, a sequência [64, 34, 25, 12, 90, 11, 22] utilizando dois algoritmos, o Bubble Sort e o Select Sort, nessa ordem. <br>Ele iniciou o teste com o Bubble Sort, mas, na iteração em que a chave 64 atingiu a sua posição correta pela primeira vez, copiou a sequência alcançada nesse estágio e utilizou-a para continuar o trabalho com o algoritmo Select Sort. <br>A partir do momento em que o programador começa a utilizar o segundo algoritmo, quantas trocas de posições de chaves serão realizadas para atingir, pela primeira vez, a situação em que a sequência está ordenada?",
+        "alternativas": ["a) 1", 
+        "b) 2", 
+        "c) 3", 
+        "d) 4",
+        "e) 5"],
+        "correta": "b) 2",
+        "explicacao": "Ao término do bubble sort, será obtido a seguinte sequência: <br>[25, 12, 34, 11, 22, 64, 90] <br>Ao iniciar o selection sort, serão realizadas 2 operações: <br>[11, 12, 34, 25, 22, 64, 90] -> Troca do 11 pelo 25 <br>[11, 12, 22, 25, 34, 64, 90] -> Troca do 22 pelo 34 <br>Assim o array encontra-se ordenado!"
+      },
+      {
+        "pergunta": "(CESGRANRIO –BB – 2021) Dentre os problemas identificados pela gerência de um banco comercial, está a localização das contas dos seus titulares nas listagens e nos relatórios impressos em diferentes situações. Um especialista de TI sugeriu ordenar as contas por meio dos CPF dos seus n titulares antes das impressões. Dentre alguns algoritmos pré-selecionados para essa ordenação, o especialista escolheu o algoritmo de ordenação por inserção, no qual o consumo de tempo é, no melhor caso, proporcional a",
+        "alternativas": ["a) n log n", 
+        "b) log n", 
+        "c) n²", 
+        "d) n",
+        "e) 1"],
+        "correta": "d) n",
+        "explicacao": "O algoritmo de ordenação por inserção é um algoritmo simples que percorre uma lista de elementos, inserindo cada elemento na posição correta em relação aos elementos que já foram ordenados anteriormente. No melhor caso, ou seja, quando a lista já está ordenada ou quase ordenada, o consumo de tempo do algoritmo de ordenação por inserção é proporcional a n, onde n é o número de elementos na lista. <br>Isso ocorre porque, no melhor caso, o algoritmo percorre a lista uma vez para cada elemento, realizando apenas comparações para determinar a posição correta de inserção do elemento atual. Como cada elemento é inserido na posição correta durante a passagem pela lista, não são necessárias operações adicionais para reposicionar elementos, resultando em um tempo de execução proporcional ao número de elementos na lista, ou seja, n. Portanto, o consumo de tempo no melhor caso para o algoritmo de ordenação por inserção é O(n), o que corresponde à opção D."
+      },
+      {
+        "pergunta": "(CESGRANRIO –BB – 2021) As agências bancárias negociam seguros residenciais com seus clientes e, muitas vezes, precisam arquivar cópias de forma ordenada para que consultas eventuais sejam facilitadas. O gerente de uma agência precisava ordenar um vetor de documentos referentes a esses seguros, e o seu adjunto, da área de TI, o aconselhou a usar o algoritmo de ordenação chamado Bubble Sort. <br>Utilizando-se o algoritmo sugerido, qual será a quantidade de trocas de posições realizadas para ordenar, de modo crescente, o vetor de números de contrato (77, 51, 11, 37, 29, 13, 21)?",
+        "alternativas": ["a) 14", 
+        "b) 15", 
+        "c) 16", 
+        "d) 17",
+        "e) 18"],
+        "correta": "c) 16",
+        "explicacao": "(77, 51, 11, 37, 29, 13, 21) = 7 elementos <br>como 77 é o maior troca com os 6 posteriores = 6 trocas <br>(51,11,37,29,13,21,77) <br>como 51 é o segundo maior, troca com os 5 posteriores = 5 trocas <br>(11,37,29,13,21,51,77) <br>11 é o menor de todos não mexe. <br>37 é o terceiro maior de todos troca com os 3 posteriores = 3 trocas <br>(11,29,13,21,37,51,77) <br>29 é o quarto maior de todos troca com os 2 posteriores = 2 trocas <br>(11,13,21,29,37,51,77 ) (ta ordenado) <br>6+5+3+2 = 16 trocas"
+      },
+      {
+        "pergunta": "(CESGRANRIO –BB – 2018) O programa a seguir, em Python, implementa o algoritmo do método de bolha, imprimindo o resultado de cada passo.<br><img src='../dados/imgs/questao_desenvolvimento_81.png' alt='imagem da questão'><br>Qual será a quarta linha impressa para a chamada bolha([ 4, 3, 1, 9, 8, 7, 2, 5]) ?",
+        "alternativas": ["a)  [3, 1, 4, 8, 7, 2, 5, 9]", 
+        "b) [1, 3, 4, 7, 2, 5, 8, 9]", 
+        "c) [1, 2, 3, 4, 5, 7, 8, 9]", 
+        "d) [1, 3, 2, 4, 5, 7, 8, 9]",
+        "e) [1, 3, 4, 2, 5, 7, 8, 9]"],
+        "correta": "d) [1, 3, 2, 4, 5, 7, 8, 9]",
+        "explicacao": "O algoritmo implementado é o algoritmo de ordenação conhecido como Bubble Sort, que funciona percorrendo repetidamente a lista de elementos e comparando elementos adjacentes. Se um elemento estiver fora de ordem em relação ao próximo elemento, eles são trocados. Esse processo é repetido até que a lista esteja completamente ordenada. <br>A função bolha(lista) recebe uma lista como entrada e ordena os elementos dessa lista usando o algoritmo de Bubble Sort. Durante cada iteração do algoritmo, o estado atual da lista é impresso. <br>Vamos analisar a quarta linha impressa para a chamada bolha([ 4, 3, 1, 9, 8, 7, 2, 5]): <br>Na primeira iteração do algoritmo, o maior elemento é movido para a posição correta no final da lista. Portanto, o maior elemento, 9, é movido para a última posição. <br>Na segunda iteração, o próximo maior elemento, 8, é movido para a sua posição correta, e assim por diante. <br>Na terceira iteração, o terceiro maior elemento, 7, é movido para a sua posição correta. <br>Portanto, a quarta linha impressa mostrará a lista após a terceira iteração do algoritmo. Observando as opções fornecidas, a letra D) [1, 3, 2, 4, 5, 7, 8, 9] é a lista após a terceira iteração do algoritmo de Bubble Sort, conforme indicado pelo gabarito."
+      },
+      {
+        "pergunta": "(CESGRANRIO –TRANSPETRO– 2018) Analise o algoritmo de ordenação que se segue.<br><img src='../dados/imgs/questao_desenvolvimento_82.png' alt='imagem da questão'><br>Com o uso desse algoritmo, qual é a quantidade de trocas realizadas para ordenar a sequência dado?",
+        "alternativas": ["a) 4", 
+        "b) 5", 
+        "c) 6", 
+        "d) 7",
+        "e) 8"],
+        "correta": "c) 6",
+        "explicacao": "Pessoal, trata-se do algoritmo Bubble Sort, que percorre repetidamente a lista, comparando elementos adjacentes e os trocando de posição se estiverem na ordem errada. <br>Vamos analisar o algoritmo: <br>1. O loop externo for passnum in range(len(dado)-1,0,-1) percorre a lista dado de trás para frente. <br>2. O loop interno for i in range(passnum) percorre a lista até o valor atual de passnum. <br>3. Dentro do loop interno, se o elemento atual (dado[i]) for maior que o próximo elemento (dado[i+1]), eles são trocados de posição. <br>4. O processo se repete até que a lista esteja completamente ordenada. <br>Agora, vamos analisar a lista fornecida [16,18,15,37,13]: <br>● Na primeira iteração, o algoritmo trocará os elementos 18 e 15, resultando em [16, 15, 18, 37, 13]. <br>● Na segunda iteração, os elementos 18 e 37 serão trocados, resultando em [16, 15, 18, 13, 37]. <br>● Na terceira iteração, os elementos 18 e 13 serão trocados, resultando em [16, 15, 13, 18, 37]. <br>● Na quarta iteração, os elementos 16 e 15 serão trocados, resultando em [15, 16, 13, 18, 37]. <br>● Na quinta iteração, os elementos 16 e 13 serão trocados, resultando em [15, 13, 16, 18, 37]. <br>Portanto, foram realizadas 6 trocas para ordenar a sequência dado."
+      },
+      {
+        "pergunta": "(CESGRANRIO–PETROBRAS–2018) Dada a sequência numérica (15,11,16,18,23,5,10,22,21,12) para ordenar pelo algoritmo Selection Sort, qual é a sequência parcialmente ordenada depois de completada a quinta passagem do algoritmo?",
+        "alternativas": ["a) [15, 11, 16, 18, 12, 5, 10, 21, 22, 23]", 
+        "b) [15, 11, 5, 10, 12, 16, 18, 21, 22, 23]", 
+        "c) [15, 11, 16, 10, 12, 5, 18, 21, 22, 23]", 
+        "d) [10, 11, 5, 12, 15, 16, 18, 21, 22, 23]",
+        "e) [12, 11, 5, 10, 15, 16, 18, 21, 22, 23]"],
+        "correta": "b) [15, 11, 5, 10, 12, 16, 18, 21, 22, 23]",
+        "explicacao": "O algoritmo de ordenação Selection Sort funciona da seguinte maneira: <br>1. Percorre a lista em busca do menor elemento. <br>2. Troca o menor elemento encontrado com o primeiro elemento da lista. <br>3. Repete os passos 1 e 2 para o restante da lista, excluindo o primeiro elemento. <br>4. O processo é repetido até que toda a lista esteja ordenada. <br>Essencialmente, o algoritmo 'seleciona' o menor elemento não ordenado e o coloca na posição correta na lista ordenada. Este processo é repetido até que todos os elementos estejam em ordem. O Selection Sort tem uma complexidade de tempo de O(n^2), tornando-o menos eficiente para grandes conjuntos de dados em comparação com algoritmos como Merge Sort ou Quick Sort. <br>De maneira mais direta, Selection Sort funciona selecionando repetidamente o menor elemento da lista não ordenada e movendo-o para o início da lista ordenada. <br>Ao analisar as opções fornecidas: <br>a) [15, 11, 16, 18, 12, 5, 10, 21, 22, 23] - Esta sequência não está parcialmente ordenada após a quinta passagem, pois o menor elemento (5) deveria estar na quinta posição. <br>b) [15, 11, 5, 10, 12, 16, 18, 21, 22, 23] - Esta é a sequência correta. Após a quinta passagem do algoritmo, os primeiros cinco elementos estão ordenados (5, 10, 11, 12, 15), e os demais elementos permanecem nas suas posições originais. <br>c) [15, 11, 16, 10, 12, 5, 18, 21, 22, 23] - Esta sequência não está parcialmente ordenada após a quinta passagem, pois o menor elemento (5) deveria estar na quinta posição. <br>d) [10, 11, 5, 12, 15, 16, 18, 21, 22, 23] - Esta sequência não está parcialmente ordenada após a quinta passagem, pois os primeiros cinco elementos não estão em ordem crescente. <br>e) [12, 11, 5, 10, 15, 16, 18, 21, 22, 23] - Esta sequência não está parcialmente ordenada após a quinta passagem, pois os primeiros cinco elementos não estão em ordem crescente. <br>Portanto, a opção que representa corretamente a sequência parcialmente ordenada após a quinta passagem do algoritmo Selection Sort é a letra B."
+      },
+      {
+        "pergunta": "(CESGRANRIO –PETROBRAS– 2018) A sequência de chaves 20 – 30 – 25 – 31 – 12 – 15 – 8 – 6 – 9 – 14 – 18 é organizada em uma árvore binária de busca. Em seguida, a árvore é percorrida em pré-ordem. Qual é a sequência de nós visitados?",
+        "alternativas": ["a)  6 – 9 – 8 – 14 – 18 – 15 – 12 – 25 – 31 – 30 – 20", 
+        "b) 20 – 12 – 8 – 6 – 9 – 15 – 14 – 18 – 30 – 25 – 31", 
+        "c) 6 – 8 – 9 – 12 – 14 – 15 – 18 – 20 – 25 – 30 – 31", 
+        "d) 20 – 30 – 31 – 25 – 12 – 15 – 18 – 14 – 8 – 9 – 6",
+        "e) 6 – 8 – 9 – 14 – 15 – 18 – 12 – 25 – 30 – 31 – 20"],
+        "correta": "b) 20 – 12 – 8 – 6 – 9 – 15 – 14 – 18 – 30 – 25 – 31",
+        "explicacao": "Para percorrer uma árvore binária em pré-ordem, seguimos a ordem Raiz - Esquerda - Direita. O percurso em pré-ordem será: 20 - 12 - 8 - 6 - 9 - 15 - 14 - 18 - 30 - 25 - 31."
+      },
+      {
+        "pergunta": "(CESGRANRIO –TRANSPETRO– 2018) Uma árvore binária foi percorrida em ordem simétrica, e os valores de seus nós exibidos no console. O resultado desse procedimento foi o seguinte: <br>15 12 10 19 20 13 34 <br>Dentre as árvores apresentadas, a única capaz de produzir o resultado acima é",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_83.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_84.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_85.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_86.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_87.png' alt='imagem da questão'>"],
+        "correta": "b) <img src='../dados/imgs/questao_desenvolvimento_84.png' alt='imagem da questão'>",
+        "explicacao": "Pessoal, para determinar a árvore binária correspondente à sequência de nós percorrida em ordem simétrica, podemos usar a seguinte estratégia: <br>1. Identificar o valor central da sequência, que corresponderá ao valor da raiz da árvore. <br>2. Dividir a sequência em duas partes, uma representando os nós à esquerda da raiz e outra representando os nós à direita da raiz. <br>3. Recursivamente, aplicar o mesmo procedimento para cada uma das duas partes, identificando os nós correspondentes às subárvores esquerda e direita. <br>4. Repetir o processo até que todos os nós sejam atribuídos às posições corretas na árvore. <br>Dado o exemplo fornecido, a sequência de nós em ordem simétrica é 15 12 10 19 20 13 34. Podemos identificar o valor central como 20, que corresponde à raiz da árvore. Em seguida, dividimos a sequência em duas partes: os nós à esquerda de 20 (13,34) e os nós à direita de 20 (15, 12, 10, 19). <br>Continuamos esse processo recursivamente para as subárvores esquerda e direita até atribuir todos os nós às suas posições corretas na árvore. <br>A raiz da árvore é o elemento 20. <br>O filho da esquerda da raiz é o elemento 13. <br>O filho da esquerda de 13 é o elemento 34. <br>O filho da direita da raiz é o elemento 12. <br>O filho da esquerda de 12 é o elemento 10. <br>O filho da direita de 12 é o elemento 15. <br>O filho da esquerda de 10 é o elemento 19."
+      },
+      {
+        "pergunta": "(CESGRANRIO –TRANSPETRO– 2018) Um método que implementa um algoritmo de busca binária recebe como parâmetros um vetor de inteiros ordenados descendentemente, o comprimento desse vetor e um número inteiro que se deseja localizar no vetor. O cabeçalho desse método é o seguinte: <br>public int buscaBin(int vet[], int n, int val) <br>Admitindo-se que o vetor passado como parâmetro tenha 750 elementos, qual será o número máximo de iterações que o algoritmo irá realizar até que o valor (val) seja localizado ou que seja detectado que esse valor não se encontra no vetor?",
+        "alternativas": ["a) 8", 
+        "b) 9", 
+        "c) 10", 
+        "d) 11",
+        "e) 12"],
+        "correta": "c) 10",
+        "explicacao": "Para encontrar o número máximo de iterações que o algoritmo de busca binária realizará, precisamos entender como a busca binária funciona em um vetor ordenado descendentemente. <br>Na busca binária, em cada iteração, o algoritmo divide o intervalo de busca ao meio e verifica se o elemento procurado está na metade esquerda ou direita do intervalo. Como o vetor está ordenado de forma decrescente, se o elemento na metade for maior que o elemento procurado, isso significa que o elemento procurado está na metade direita. Caso contrário, está na metade esquerda. <br>Dessa forma, a cada iteração, o intervalo de busca é reduzido pela metade. Portanto, o número máximo de iterações será determinado pelo número de vezes que podemos dividir o vetor pela metade até que reste apenas um elemento (ou até que o elemento seja encontrado). <br>Para calcular o número máximo de iterações, podemos usar a fórmula do logaritmo na base 2, já que estamos dividindo o vetor ao meio a cada iteração: log2 (n), onde n é o número de elementos no vetor. Dado que o vetor tem 750 elementos, o número máximo de iterações será: log2 (750) =~ 9,55. Como queremos o número máximo inteiro de iterações, arredondamos para cima, resultando em 10 iterações. <br>Portanto, a resposta correta é a letra C, que indica 10 iterações."
+      },
+      {
+        "pergunta": "(CESGRANRIO –TRANSPETRO– 2018) Analise a árvore binária de busca (BST), abaixo, representada pelas chaves dos seus nós.<br><img src='../dados/imgs/questao_desenvolvimento_88.png' alt='imagem da questão'><br>Qual é a sequência de chaves representativa do seu percurso em pré-ordem?",
+        "alternativas": ["a) 11; 12; 18; 23; 27; 45; 53; 71", 
+        "b) 11; 18; 12; 27; 53; 71; 45; 23", 
+        "c) 23; 12; 11; 18; 45; 27; 71; 53", 
+        "d) 53; 71; 27; 45; 18; 11; 12; 23",
+        "e) 23; 45; 71; 27; 53; 18; 12; 11"],
+        "correta": "c) 23; 12; 11; 18; 45; 27; 71; 53",
+        "explicacao": "O percurso em pré-ordem em uma árvore binária de busca (BST) segue a ordem Raiz - Subárvore esquerda - Subárvore direita. Para determinar a sequência de chaves representativa do percurso em pré-ordem, podemos seguir essa ordem na árvore dada. Aplicando essa ordem à árvore em questão, obtemos a seguinte sequência de chaves: 23-12-11-18-45-27-71-53. <br>A sequência 23-12-11-18-45-27-71-53 corresponde à alternativa C). As demais alternativas apresentam sequências diferentes, o que indica que não representam o percurso em pré-ordem da árvore."
+      },
+      {
+        "pergunta": "(CESGRANRIO –PETROBRAS– 2018) A seleção de uma estrutura de dados adequada muitas vezes acelera a solução de um problema. A Pilha é uma das estruturas de dados mais importantes. Que propriedade caracteriza uma Pilha?",
+        "alternativas": ["a) Permite inserção em qualquer posição.", 
+        "b) Suas folhas estão no mesmo nível.", 
+        "c) Seus nós têm no máximo dois filhos.", 
+        "d) O último elemento inserido será o primeiro a ser removido.",
+        "e) O primeiro elemento inserido será o primeiro a ser removido."],
+        "correta": "d) O último elemento inserido será o primeiro a ser removido.",
+        "explicacao": "Uma pilha é uma estrutura de dados linear que segue o princípio LIFO (Last In, First Out). Isso significa que o último elemento inserido na pilha será o primeiro a ser removido. As principais propriedades da pilha são: <br>● LIFO: O último elemento inserido é o primeiro a ser removido. <br>● Acesso restrito: O acesso aos elementos da pilha é feito apenas pelo topo da estrutura. <br>● Inserir (push): Insere um novo elemento no topo da pilha. <br>● Remover (pop): Remove o elemento do topo da pilha. <br>● Topo (top): Retorna o elemento do topo da pilha sem removê-lo. <br>● Vazia (empty): Verifica se a pilha está vazia. <br>a) Permite inserção em qualquer posição. Incorreta. A inserção em uma pilha só pode ser feita no topo da estrutura. <br>b) Suas folhas estão no mesmo nível. Incorreta. As folhas de uma pilha podem estar em diferentes níveis. <br>c) Seus nós têm no máximo dois filhos. Incorreta. Os nós de uma pilha podem ter zero ou um filho. <br>d) O último elemento inserido será o primeiro a ser removido. Correta. Essa propriedade é a definição de LIFO. <br>e) O primeiro elemento inserido será o primeiro a ser removido. Incorreta. Essa propriedade define uma fila, não uma pilha. <br>A propriedade que caracteriza uma pilha é o último elemento inserido será o primeiro a ser removido (LIFO). Portanto, nosso gabarito é a Letra D"
+      },
+      {
+        "pergunta": "(CESGRANRIO –TRANSPETRO– 2018) Considere uma árvore binária de busca (BST) com n (n>3) níveis (o nó raiz está no nível 1), 2n -1 nós e todas as chaves diferentes. Suponha, ainda, que algum dos pais de duas folhas seja removido da árvore e, mais tarde, uma chave com o mesmo valor da chave do nó removido seja inserida na árvore. <br>Quantas são as comparações necessárias para fazer a busca e encontrar o nó cuja chave foi removida e depois reinserida?",
+        "alternativas": ["a) n - 2", 
+        "b) n - 1", 
+        "c) n", 
+        "d) n + 1",
+        "e) n + 2"],
+        "correta": "d) n + 1",
+        "explicacao": "A estrutura de uma Árvore Binária de Busca (BST) é caracterizada por possuir um número específico de níveis e nós. Comumente, uma BST possui n níveis, onde o nó raiz está localizado no primeiro nível, e o número total de nós é 2n−1. Além disso, todas as chaves presentes na BST são distintas, garantindo assim a integridade e unicidade dos dados armazenados. <br>Quando um nó pai que possui duas folhas é removido da BST, ocorre um processo de reinserção de um novo nó com uma chave de valor semelhante ao nó removido. Essa operação pode impactar o número de comparações necessárias para encontrar ou reinserir um nó na árvore. Em média, a busca por um nó na BST com n níveis exige aproximadamente log2 (n) comparações, enquanto a reinserção de um nó pode exigir um número ligeiramente maior de comparações, especialmente no pior caso. <br>Ao considerar o número total de comparações para busca e reinserção, é necessário somar o número de comparações para cada uma dessas operações. O cálculo resulta em uma expressão que depende da altura da árvore após a remoção e reinserção do nó. No pior caso, o número total de comparações é n+1, onde n representa o número de níveis da árvore. Assim, O número total de comparações necessárias para fazer a busca e encontrar o nó cuja chave foi removida e depois reinserida é n + 1, sendo nosso gabarito Letra D."
       }
+
+
+
 
 
     ],
@@ -5735,6 +7032,268 @@
         "Errado"],
         "correta": "Certo",
         "explicacao": "Vamos calcular o Montante resultante da aplicação de um Capital de R$ 25.000,00 submetido a uma Taxa de>br>Juros compostos de 6% ao mês por 2 meses. Em regime de Juros Compostos, o Montante é calculado pela seguinte equação:>br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ>br>Onde,>br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 = 25.000>br>𝑖 = 𝑇𝑎𝑥𝑎 𝑑𝑒 𝐽𝑢𝑟𝑜𝑠 = 6% 𝑎𝑜 𝑚ê𝑠 = 0,06>br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 = 2 𝑚𝑒𝑠𝑒𝑠>br>Iremos substituir os valores e calcular o Montante.>br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ>br>𝑀 = 25.000 × (1 + 0,06)²>br>𝑀 = 25.000 × 1,06²>br>𝑀 = 25.000 × 1,1236 → 𝑴 = 𝟐𝟖.𝟎𝟗𝟎>br>De posse do Montante e do Capital, calculamos os Juros.>br>Sabemos que os Juros são calculados pela diferença do Montante resultante menos o Capital aplicado.>br>𝐽 = 𝑀 − 𝐶>br>𝐽 = 28.090 − 25.000 → 𝑱 = 𝟑.𝟎𝟗𝟎>br>Ou seja, como a televisão custa R$ 3.000,00 e os Juros da aplicação são iguais a R$ 3.090,00, ele poderá (sim) comprar a televisão usando apenas os juros recebidos na aplicação."
+      },
+      {
+        "pergunta": "(Inédita - 2022) João faz um investimento de R$ 10.000,00 a uma taxa de juros compostos de 12% a.a. com capitalizações bimestrais. <br>Após 4 meses, por estar passando por dificuldades financeiras, João resolve sacar R$ 1.904,00 e deixar o restante aplicado. <br>10 meses após o início do investimento, qual o valor aproximadamente que João terá na sua conta investimento?",
+        "alternativas": ["a) R$ 8.500,27", 
+        "b) R$ 9.020,27", 
+        "c) R$ 9.220,27", 
+        "d) R$ 9.420,27",
+        "e) R$ 9.620,27"],
+        "correta": "b) R$ 9.020,27",
+        "explicacao": "Em 1 ano há 6 bimestres. Então, a Taxa Efetiva bimestral será um sexto da taxa anual.<br> 12%/6 = 2% a.b.<br>Em regime de Juros Compostos, o Montante é calculado pela seguinte equação:<br>𝑀 = 𝐶 × (1 + 𝑖)t<br>Onde,<br>𝑀 = 𝑀𝑜𝑛𝑡𝑎𝑛𝑡𝑒 = ?<br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 = 10.000<br>𝑖 = 𝑇𝑎𝑥𝑎 𝑑𝑒 𝐽𝑢𝑟𝑜𝑠 = 2% 𝑎𝑜 𝑏𝑖𝑚𝑒𝑠𝑡𝑟𝑒 = 0,02<br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 = 4 𝑚𝑒𝑠𝑒𝑠 = 2 𝑏𝑖𝑚𝑒𝑠𝑡𝑟𝑒𝑠<br>Vamos substituir os valores e calcular o Montante.<br>𝑀 = 𝐶 × (1 + 𝑖)t<br>𝑀 = 10.000 × (1 + 0,02)²<br>𝑀 = 10.000 × (1,02)²<br>𝑀 = 10.000 × 1,0404 > 𝑀 = 10.404<br>“João resolve sacar R$ 1.904,00...”<br>Logo, ainda restará na conta investimento o valor de:<br>𝑣𝑎𝑙𝑜𝑟 = 10.404 − 1.904 → 𝒗𝒂𝒍𝒐𝒓 = 𝟖. 𝟓𝟎𝟎<br>“João resolve sacar R$ 1.904,00 e deixar o restante aplicado.”<br>Ou seja, esse valor de R$ 8.500 continuará aplicado por mais (6 meses=3bimestre) a uma taxa de juros de 2% ao bimestre.<br>Observe que a aplicação total ocorre em 10 meses. Porém, como já se passaram 4 meses, ainda restam 6 meses (3 bimestres) de aplicação.<br>𝑀 = 𝑀𝑜𝑛𝑡𝑎𝑛𝑡𝑒 = ?<br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 = 8.500<br>𝑖 = 𝑇𝑎𝑥𝑎 𝑑𝑒 𝐽𝑢𝑟𝑜𝑠 = 2% 𝑎𝑜 𝑏𝑖𝑚𝑒𝑠𝑡𝑟𝑒 = 0,02<br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 = 6 𝑚𝑒𝑠𝑒𝑠 = 3 𝑏𝑖𝑚𝑒𝑠𝑡𝑟𝑒<br>Vamos substituir os valores e calcular o Montante.<br>𝑀 = 𝐶 × (1 + 𝑖)t<br>𝑀 = 8.500 × (1 + 0,02)³<br>𝑀 = 8.500 × 1,0612 → 𝑴 = 9.020,27"
+      },
+      {
+        "pergunta": "(Inédita - 2022) Um financiamento, sob regime de juros compostos, é firmado com taxa semestral de juros de 12% capitalizados bimestralmente. A taxa semestral efetiva nessa contratação é de aproximadamente:",
+        "alternativas": ["a) 12,00%", 
+        "b) 12,25%", 
+        "c) 12,36%", 
+        "d) 12,49%",
+        "e) 12,56%"],
+        "correta": "d) 12,49%",
+        "explicacao": "Primeiro passo é converter a Taxa Nominal para a Taxa Efetiva.<br>Taxa Nominal é a taxa de juros cuja unidade de tempo não coincide com a unidade de tempo do período de capitalização. Observe que a taxa fornecida no enunciado é uma taxa nominal.<br>inominal = 12% 𝑎𝑜 𝑎𝑛𝑜 𝑐𝑎𝑝𝑖𝑡𝑎𝑙𝑖𝑧𝑎𝑑𝑎 𝑏𝑖𝑚𝑒𝑠𝑡𝑟𝑎𝑙𝑚𝑒𝑛𝑡𝑒<br>Em 1 semestre há 3 bimestres. Então, a Taxa Efetiva bimestral será igual a:<br>iefetivabimestral = 12% / 3  → 𝒊𝑬𝒇𝒆𝒕𝒊𝒗𝒂 𝑩𝒊𝒎𝒆𝒔𝒕𝒓𝒂𝒍 = 𝟒% 𝒂. 𝒃.<br>Segundo passo é calcular a Taxa Efetiva semestral equivalente à Taxa Efetiva trimestral de 4%.<br>Ou seja, uma taxa efetiva bimestral capitalizada por 3 bimestres (1 semestre) resultará em que taxa efetiva semestral?<br>Para acharmos a taxa equivalente tomamos como base a potenciação.<br>(1 + ibimestral)³ = (1 + 𝑖semestral)<br>(1 + 0,04)³ = (1 + 𝑖semestral)<br>1,04³ = 1 + 𝑖semestral<br>1,1249 = 1 + 𝑖semestral<br>𝑖semestral = 1,1249 − 1 → 𝑖semestral = 𝟎, 𝟏𝟐𝟒𝟗 𝒐𝒖 𝟏𝟐, 𝟒𝟗%"
+      },
+      {
+        "pergunta": "(Pref. Porto Alegre – 2019 - Adaptada) Em um sistema composto de capitalização, a taxa de 5% ao mês é equivalente a uma taxa anual de:<br>Dado: 𝟏,𝟎𝟓⁶ = 𝟏,𝟑𝟒𝟎𝟏",
+        "alternativas": ["a) 60%", 
+        "b) 65%", 
+        "c) 70,29%", 
+        "d) 75,49%",
+        "e) 79,59%"],
+        "correta": "e) 79,59%",
+        "explicacao": "Sabemos que: <br>5% ao mês = fator de capitalização mensal: 1 + 0,05 = 1,05<br>Em 12 meses: (1,05)¹² = [(1,05)⁶]² <br>E o dado da questão já nos dá:<br> (1,05)⁶ = 1,3401 <br>Portanto: (1,05)¹² = (1,3401)² <br>Vamos calcular: <br>1,3401² = 1,7959 (aproximadamente)"
+      },
+      {
+        "pergunta": "(CESGRANRIO / AgeRio - 2024)O Microcrédito da AgeRio financia quantias que vão de R$ 500,00 a R$ 21.000,00, que podem ser destinadas para aquisição de máquinas e equipamentos, reformas e obras, material de consumo e capital de giro. As condições do financiamento estão apresentadas na Figura a seguir.<br><img src='../dados/imgs/questao_matematica_2.png' alt='imagem da questão'><br>Um empreendedor tomou um empréstimo de R$ 21.000,00, em ago/22, financiados em prestações mensais e iguais, a juros compostos, com a primeira prestação para set/23, e a última para ago/25. Considere que a taxa de juro indicada seja aplicada ao saldo devedor, durante todo o período do financiamento, incluindo o período de carência.<br><img src='../dados/imgs/questao_matematica_3.png' alt='imagem da questão'><br>A melhor aproximação para o saldo devedor desse cliente, em ago/23, logo após a aplicação da taxa desse mês, será",
+        "alternativas": ["a) R$ 21.600,40", 
+        "b) R$ 21.630,00", 
+        "c) R$ 21.638,40", 
+        "d) R$ 21.642,80",
+        "e) R$ 21.646,40"],
+        "correta": "c) R$ 21.638,40",
+        "explicacao": "Observe que o empreendedor tomou o empréstimo em ago/22 e apenas começou a pagar em set/23. Ou seja, durante todo esse período de carência, a dívida ficou capitalizando em juros compostos a 0,25% ao mês. <br>Vamos aplicar a fórmula do Montante em regime de Juros Compostos e calcular o Montante em ago/23 (12 meses após) resultante do empréstimo do Capital de R$ 21.000,00 a uma taxa de 0,25% ao mês. <br>𝑀 = 𝐶 × (1 + 𝑖)𝑡 <br>𝑀 = 21.000 × (1 + 0,0025)¹² <br>𝑀 = 21.000 × 1,0025¹² <br>A banca nos informa que 1,0025¹² = 1,0304. <br>𝑀 = 21.000 × 1,0304 → 𝑴 = 𝟐𝟏. 𝟔𝟑𝟖, 𝟒𝟎 <br>Gabarito: Alternativa C"
+      },
+      {
+        "pergunta": "(CESGRANRIO / CEF - 2024) Para compor o capital de giro de sua empresa, um empresário tomou um empréstimo de R$ 100.000,00, em janeiro de 2024, a uma taxa de juro composto de 4% ao mês. Em março de 2024, após exatos 2 meses, efetuou o primeiro pagamento da dívida, pagando metade do saldo devedor. Em abril não efetuou qualquer pagamento, mas pretende quitar toda a dívida em maio de 2024, após exatos 4 meses. Considerando-se esse fluxo de capitais, o valor mais próximo, em reais, do saldo devedor desse empréstimo, em maio de 2024, é de",
+        "alternativas": ["a) R$ 59.806,00", 
+        "b) R$ 57.934,00", 
+        "c) R$ 58.943,00", 
+        "d) R$ 58.493,00",
+        "e) R$ 58.193,00"],
+        "correta": "d) R$ 58.493,00",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / Casa da Moeda – 2024) Um investimento bancário paga 1% a juros compostos a cada mês e cobra 10% de taxa sobre os rendimentos, uma única vez no dia do resgate. Aplicando-se R$ 20.000,00 nesse investimento, qual será o valor do resgate, em reais, após 3 meses?",
+        "alternativas": ["a) R$ 20.500,00", 
+        "b) R$ 20.460,60", 
+        "c) R$ 20.545,42", 
+        "d) R$ 20.560,40",
+        "e) R$ 20.606,02"],
+        "correta": "c) R$ 20.545,42",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BANRISUL - 2023) Um investidor planeja ter um montante superior a 600 mil reais e, para isso, aplicou uma única quantia de 200 mil reais, em janeiro de 2023, a uma taxa fixa de 12% ao ano, no regime de juros compostos, conforme orientação do consultor financeiro indicado pelo gerente do banco. Supondo-se que ele não faça mais nenhum aporte no investimento, o número mínimo de anos, para ser atingida a meta, por meio, exclusivamente, desse investimento, é igual a <br>Dado: log 1,12 = 0,049 ; log 3 = 0,477",
+        "alternativas": ["a) 8", 
+        "b) 10", 
+        "c) 12", 
+        "d) 14",
+        "e) 17"],
+        "correta": "c) R$ 20.545,42",
+        "explicacao": "Um investidor planeja ter um montante superior a 600 mil reais e, para isso, aplicou um Capital de 200 mil reais a uma taxa fixa de 12% ao ano.<br>Vamos aplicar a fórmula do Montante em regime de Juros Compostos e calcular quantos anos ele levará para atingir esta meta.<br>𝑀 = 𝐶 × (1 + 𝑖)𝑡<br>600.000 = 200.000 × (1 + 0,12)𝑡<br>600 / 200 = 1,12𝑡<br>3 = 1,12𝑡<br>Iremos aplicar logaritmo (log) dos dois lados da equação:<br>log 3 = log 1,12𝑡<br>No lado direito da equação, vamos aplicar a propriedade do Logaritmo de uma potência. Caso você não se recorde, temos que:<br>Logaritmo de uma potência<br>O logaritmo de uma potência (base real positiva e expoente real) é igual a esta potência vezes o logaritmo.<br>𝐥𝐨𝐠𝒂 𝒙𝒑 = 𝒑 × 𝐥𝐨𝐠𝒂 𝒙<br>Então, voltando à equação teremos:<br>log 3 = log 1,12𝑡<br>log 3 = 𝑡 × log 1,12<br>Substituindo log 3 = 0,477 e log 1,12 = 0,049:<br>0,477 = 𝑡 × 0,049<br>𝑡 = 0,477 / 0,049 → 𝒕 ≅ 𝟏𝟎 anos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BANRISUL - 2023) O diretor financeiro de uma agência de veículos fez um empréstimo de 300 mil reais, em janeiro de 2022, junto a um banco que cobrava uma taxa de 4% ao mês, no sistema de juros compostos. Após exatos dois meses da data do primeiro empréstimo, em março de 2022, o diretor financeiro pegou mais 200 mil reais emprestado, com a mesma taxa e sistema de juro. Em maio de 2022, exatamente dois meses após o último empréstimo, liquidou as duas dívidas, zerando o seu saldo devedor. O valor pago pela agência de veículos, em milhares de reais, foi de, aproximadamente,<br>Dados: 1,04² = 1,0816 ; 1,04⁴ = 1,1698 ; 1,04⁶ = 1,2653",
+        "alternativas": ["a) 497", 
+        "b) 528", 
+        "c) 567", 
+        "d) 614",
+        "e) 684"],
+        "correta": "c) 567",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Um cliente deseja fazer uma aplicação em uma instituição financeira, que paga uma taxa de juros compostos de 𝟏𝟎% ao ano, por um período de 𝟑 anos, já que, ao final da aplicação, planeja comprar uma TV no valor de 𝑹$ 𝟑.𝟓𝟎𝟎,𝟎𝟎 à vista. <br>Qual o valor aproximado a ser investido para esse objetivo ser alcançado?",
+        "alternativas": ["a) 𝑅$ 2.629,60", 
+        "b) 𝑅$ 2.450,00", 
+        "c) 𝑅$ 2.692,31", 
+        "d) 𝑅$ 2.341,50",
+        "e) 𝑅$ 2.525,00"],
+        "correta": "a) 𝑅$ 2.629,60",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Em uma carta aos clientes, um investimento é oferecido com a promessa de recebimento de um montante de 𝑹$ 𝟖.𝟐𝟎𝟎,𝟎𝟎 líquidos, após 𝟐 anos, para quem aderisse investindo inicialmente 𝑹$ 𝟓.𝟎𝟎𝟎,𝟎𝟎. O valor líquido pago é obtido após descontados 𝑹$ 𝟐𝟓𝟎,𝟎𝟎 de taxas e impostos. Para melhorar a comunicação com os clientes, julgaram interessante acrescentar a taxa de juros compostos usada no cálculo do valor bruto, isto é, sem o desconto. <br>Qual é o valor da taxa anual que deve ser acrescentada na carta?",
+        "alternativas": ["a) 2%", 
+        "b) 3%", 
+        "c) 20%", 
+        "d) 25%",
+        "e) 30%"],
+        "correta": "e) 30%",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Uma pessoa deixou de pagar a fatura do cartão de crédito, de modo que, após dois meses, o valor inicial da fatura se transformou em uma dívida de 𝑹$ 𝟐𝟔.𝟒𝟓𝟎,𝟎𝟎. Nunca foram feitas compras parceladas e não foram feitas compras adicionais durante esses dois meses. <br>Considerando-se que foram cobrados, indevidamente, juros compostos de 15% ao mês e que, por determinação judicial, o valor inicial deva ser reconsiderado para uma nova negociação entre as partes, o valor inicial da dívida era de",
+        "alternativas": ["a) 𝑅$ 18.515,00", 
+        "b) 𝑅$ 18.815,00", 
+        "c) 𝑅$ 20.000,00", 
+        "d) 𝑅$ 21.000,00",
+        "e) 𝑅$ 21.115,00"],
+        "correta": "c) 𝑅$ 20.000,00",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / CEF - 2021) Para ampliar o capital de giro de um novo negócio, um microempreendedor tomou um empréstimo no valor de 𝑹$ 𝟐𝟎. 𝟎𝟎𝟎, 𝟎𝟎, em janeiro de 2021, a uma taxa de juros de 𝟓% ao mês, no regime de juros compostos. Exatamente dois meses depois, em março de 2021, pagou 𝟔𝟎% do valor do empréstimo, ou seja, dos 𝑹$ 𝟐𝟎.𝟎𝟎𝟎,𝟎𝟎, e liquidou tudo o que devia desse empréstimo em abril de 2021. A quantia paga, em abril de 2021, que liquidou a referida dívida, em reais, foi de",
+        "alternativas": ["a) 𝑅$ 11.352,50", 
+        "b) 𝑅$ 11.152,50", 
+        "c) 𝑅$ 10.552,50", 
+        "d) 𝑅$ 10.452,50",
+        "e) 𝑅$ 10.152,50"],
+        "correta": "c) 𝑅$ 10.552,50",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / CEF - 2021) Uma pessoa tem uma dívida no valor de 𝑹$ 𝟐.𝟎𝟎𝟎,𝟎𝟎, vencendo no dia de hoje. Com dificuldade de quitá-la, pediu o adiamento do pagamento para daqui a 𝟑 meses. <br>Considerando-se uma taxa de juros compostos de 2% 𝑎. 𝑚., qual é o valor equivalente, aproximadamente, que o gerente do banco propôs que ela pagasse, em reais?",
+        "alternativas": ["a) 𝑅$ 2.020,40", 
+        "b) 𝑅$ 2.040,00", 
+        "c) 𝑅$ 2.080,82", 
+        "d) 𝑅$ 2.120,20",
+        "e) 𝑅$ 2.122,42"],
+        "correta": "e) 𝑅$ 2.122,42",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2013) Um cliente contraiu um empréstimo, junto a um banco, no valor de R$ 20.000,00, a uma taxa de juros compostos de 4% ao mês, com prazo de 2 trimestres, contados a partir da liberação dos recursos. O cliente quitou a dívida exatamente no final do prazo determinado, não pagando nenhum valor antes disso. <br><img src='../dados/imgs/questao_matematica_4.png' alt='imagem da questão'><br>Qual o valor dos juros pagos pelo cliente na data da quitação dessa dívida?",
+        "alternativas": ["a) R$ 5.300,00",
+        "b) R$ 2.650,00",
+        "c) R$ 1.250,00",
+        "d) R$ 1.640,00",
+        "e) R$ 2.500,00"],
+        "correta": "a) R$ 5.300,00",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2012) João tomou um empréstimo de R$ 900,00 a juros compostos de 10% ao mês. Dois meses depois, João pagou R$ 600,00 e, um mês após esse pagamento, liquidou o empréstimo.<br>O valor desse último pagamento foi, em reais, aproximadamente,",
+        "alternativas": ["a) R$ 240,00", 
+        "b) R$ 330,00", 
+        "c) R$ 429,00", 
+        "d) R$ 489,00",
+        "e) R$ 538,00"],
+        "correta": "e) R$ 538,00",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2015) Um investimento rende à taxa de juros compostos de 12% ao ano com capitalização trimestral. <br>Para obter um rendimento de R$ 609,00 daqui a 6 meses, deve-se investir, hoje, em reais,",
+        "alternativas": ["a) 6.460", 
+        "b) 10.000", 
+        "c) 3.138", 
+        "d) 4.852",
+        "e) 7.271"],
+        "correta": "b) 10.000",
+        "explicacao": "Em 1 ano há 4 trimestres. Então, a Taxa Efetiva trimestral será um quarto da taxa anual.<br>𝑖𝐸𝑓𝑒𝑡𝑖𝑣𝑎 𝑇𝑟𝑖𝑚𝑒𝑠𝑡𝑟𝑎𝑙 = 12% / 4 → 𝒊𝑬𝒇𝒆𝒕𝒊𝒗𝒂𝒕𝒓𝒊𝒎𝒆𝒔𝒕𝒓𝒂𝒍 = 𝟑% 𝒂. 𝒕.<br>Substituindo os valores e calculando o Capital teremos:<br>𝑀 = 𝐶 × (1 + 𝑖)𝑡<br>𝐶 + 609 = 𝐶 × (1 + 0,03)²<br>𝐶 + 609 = 𝐶 × 1,03²<br>Lembra da dica do 'um vírgula alguma coisa ao quadrado'? Primeiro dobra e depois eleva ao quadrado.<br>𝐶 + 609 = 𝐶 × 1,0609<br>609 = 1,0609𝐶 − 𝐶<br>609 = 0,0609𝐶<br>𝐶 = 609 / 0,0609 → 𝑪 = 𝟏𝟎.𝟎𝟎𝟎<br>Para obter um rendimento de R$ 609,00 daqui a 6 meses, deve-se investir, hoje, em reais, 10.000. "
+      },
+      {
+        "pergunta": "(CESGRANRIO / Liquigás - 2014) Uma instituição financiou R$ 10.000,00, utilizando uma taxa de juros de 6% ao semestre com capitalização mensal. <br>Se o financiamento foi quitado ao final de três meses, os juros foram, aproximadamente, de",
+        "alternativas": ["a) R$ 100,00", 
+        "b) R$ 200,00", 
+        "c) R$ 204,00", 
+        "d) R$ 300,00",
+        "e) R$ 303,00"],
+        "correta": "e) R$ 303,00",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BR - 2013) Um capital foi aplicado por dois anos, pelo regime de juros compostos, à taxa nominal aparente de 12% ao ano capitalizados mensalmente e, nesse período, rendeu juros de R$ 2.697,35. <br>O capital inicial foi, em reais, de aproximadamente<br><img src='../dados/imgs/questao_matematica_5.png' alt='imagem da questão'>",
+        "alternativas": ["a) R$ 6.080,00", 
+        "b) R$ 6.122,00", 
+        "c) R$ 8.080,00", 
+        "d) R$ 10.000,00",
+        "e) R$ 10.603,00"],
+        "correta": "d) R$ 10.000,00",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / PETROBRAS - 2010) Aplicaram-se R$ 10.000,00 por nove meses à taxa nominal de 12% ao ano com capitalização trimestral. No momento do resgate, pagou-se Imposto de Renda de alíquota 15%, sobre os rendimentos. O valor líquido do resgate foi, em reais, mais próximo de",
+        "alternativas": ["a) R$ 10.927,00", 
+        "b) R$ 10.818,00", 
+        "c) R$ 10.787,00", 
+        "d) R$ 10.566,00",
+        "e) R$ 9.287,00"],
+        "correta": "c) R$ 10.787,00",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / CEF - 2024) Em um certo país, a lei exige que sejam exibidas a taxa mensal e a taxa anual equivalente, no regime de juros compostos, junto ao preço do produto que será financiado. Considerando-se que um estabelecimento cobra uma taxa de juro mensal de 5% ao mês, essa taxa anual é, aproximadamente, de <br>Dado: 1,05⁶ = 1,34",
+        "alternativas": ["a) 96%", 
+        "b) 34%", 
+        "c) 80%", 
+        "d) 60%",
+        "e) 48%"],
+        "correta": "c) 80%",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BNB - 2024) Considere válidas as seguintes igualdades: <br>(1,21)³ = ((1,1)²)³ = (1,1)⁶ = 1,772 <br>Tais igualdades justificam o fato de serem equivalentes as taxas de juros compostos",
+        "alternativas": ["a) 10% ao mês, 21% ao bimestre e 77,2% ao semestre", 
+        "b) 10% ao mês, 21% ao trimestre e 77,2% ao semestre", 
+        "c) 10% ao semestre, 21% ao trimestre e 77,2% ao ano", 
+        "d) 1% ao mês, 2,1% ao bimestre e 7,72% ao semestre",
+        "e) 1% ao mês, 2,1% ao trimestre e 7,72% ao semestre"],
+        "correta": "a) 10% ao mês, 21% ao bimestre e 77,2% ao semestre",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2023) Um banco oferece para um cliente um investimento que lhe proporcionará uma taxa de juros de 1% ao mês, no regime de juros compostos. Esse mesmo banco também disponibiliza, para o mesmo cliente, uma linha de crédito de fácil acesso chamada cheque especial, cobrando uma taxa de juros de 4% ao mês, no regime de juros compostos. <br>Dado:<br><img src='../dados/imgs/questao_matematica_6.png' alt='imagem da questão'><br>Para esse cliente, a diferença entre a taxa anual da operação financeira disponível no cheque especial e a taxa anual da operação financeira disponível no investimento oferecido é",
+        "alternativas": ["a) 12,68%", 
+        "b) 36,00%", 
+        "c) 47,42%", 
+        "d) 48,68%",
+        "e) 60,10%"],
+        "correta": "c) 47,42%",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / CEF - 2021) Um banco possui, atualmente, um modelo de financiamento em regime de juros compostos, em que as parcelas são pagas, mensalmente, a uma taxa de juros de 𝟐% ao mês. Para um certo perfil de clientes, o banco pretende possibilitar o pagamento da dívida a cada três meses, a uma taxa de juros trimestral equivalente à praticada no modelo atual. <br>A melhor aproximação para o valor da taxa de juros trimestral desse novo modelo de financiamento é:",
+        "alternativas": ["a) 2,48%", 
+        "b) 6,00%", 
+        "c) 6,12%", 
+        "d) 7,28%",
+        "e) 8,00%"],
+        "correta": "c) 6,12%",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(CESGRANRIO / Liquigás - 2018) Um investidor aplicou uma determinada quantia em um investimento que proporcionou uma rentabilidade de 100% após exatos dois anos de aplicação, no sistema de juros compostos. <br>Considerando-se que nenhum resgate foi realizado nesse período, o valor mais próximo da taxa anual equivalente proporcionada por esse investimento, nesse sistema de juro, é igual a",
+        "alternativas": ["a) 40%", 
+        "b) 41%", 
+        "c) 43%", 
+        "d) 45%",
+        "e) 50%"],
+        "correta": "b) 41%",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      }
+    ],
+
+
+
+    ">>>>>>> apenas para pegar imagem 2 <<<<<<<": [
+      {
+        "pergunta": "<img src='../dados/imgs/questao_matematica_1.png' alt='imagem da questão'><br>",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "<img src='../dados/imgs/questao_matematica_1.png' alt='imagem da questão'><br>",
+        "alternativas": ["a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
       }
     ]
   }
