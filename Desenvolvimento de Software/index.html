@@ -1715,7 +1715,114 @@
 
         </section>
 
-        
+
+        <section>
+
+            <!-- AULA 00-->
+    
+            <h2>Aula 03 - DevOps</h2>
+
+            <h3>O que é DevOps?</h3>
+            <p><strong>DevOps</strong> é uma <strong>cultura organizacional</strong> e também um <strong>conjunto de práticas</strong> que unem <strong>Desenvolvimento (Dev)</strong> e <strong>Operações (Ops)</strong>.</p>
+            <p>O objetivo é entregar software de forma <strong>rápida, contínua, com qualidade e segurança</strong>, reduzindo falhas e aumentando a colaboração entre as equipes.</p>
+            <p>Tradicionalmente, desenvolvimento e operações trabalhavam em <strong>silos separados</strong>: um grupo criava o software e outro cuidava da infraestrutura. Isso causava atrasos, retrabalho e falhas de comunicação. O <strong>DevOps quebra essa barreira</strong>, integrando os times desde o planejamento até a manutenção em produção.</p>
+            <p><strong>Características principais do DevOps:</strong></p>
+            <ul>
+                <li><strong>Automação</strong> de processos (build, testes, deploy, monitoramento).</li>
+                <li><strong>Colaboração</strong> entre equipes multidisciplinares.</li>
+                <li><strong>Feedback contínuo</strong> para melhoria.</li>
+                <li><strong>Integração e entrega contínuas (CI/CD)</strong>.</li>
+            </ul>
+
+            <h3>Princípios Fundamentais do DevOps</h3>
+            <ol>
+                <li><strong>Processo repetível e confiável</strong> – a entrega não deve ser traumática, mas previsível.</li>
+                <li><strong>Automatizar tudo</strong> – menos erros humanos, mais agilidade.</li>
+                <li><strong>Controle de versão único</strong> – código, configuração e documentação devem estar versionados.</li>
+                <li><strong>Resolver cedo</strong> – se algo dá problema, execute com frequência até estabilizar.</li>
+                <li><strong>“Concluído” significa pronto para produção</strong> – só é considerado concluído se estiver testado e documentado.</li>
+                <li><strong>Responsabilidade compartilhada</strong> – todos (Dev + Ops) são responsáveis pelo sucesso da entrega.</li>
+            </ol>
+
+            <h3>Ciclo de Vida do DevOps</h3>
+            <p>O ciclo DevOps é contínuo e interligado:</p>
+            <ol>
+                <li><strong>Discover / Plan (Descoberta / Planejamento)</strong> – entender requisitos e planejar.</li>
+                <li><strong>Code (Codificação)</strong> – desenvolvimento do software.</li>
+                <li><strong>Build (Construção)</strong> – compilação e empacotamento automatizados.</li>
+                <li><strong>Test (Teste)</strong> – verificação automática de qualidade (unitários, integração, aceitação).</li>
+                <li><strong>Release (Lançamento)</strong> – preparar para disponibilização controlada.</li>
+                <li><strong>Deploy (Implantação)</strong> – instalação em produção, preferencialmente automatizada.</li>
+                <li><strong>Operate (Operação)</strong> – manutenção do sistema em uso.</li>
+                <li><strong>Monitor (Monitoramento)</strong> – acompanhar desempenho, falhas e segurança.</li>
+            </ol>
+            <p>Diferencial: <strong>feedback contínuo em todas as fases</strong>, para corrigir rápido.</p>
+
+            <h3>CI/CD (Continuous Integration / Continuous Delivery / Continuous Deployment)</h3>
+            <h4>Continuous Integration (CI) – Integração Contínua</h4>
+            <p>Cada alteração de código é integrada rapidamente ao repositório principal. Isso evita conflitos e garante testes constantes.</p>
+            <p>👉 Mantemos “CI” porque é como aparece em ferramentas (Jenkins CI, GitLab CI).</p>
+            <h4>Continuous Delivery (CD) – Entrega Contínua</h4>
+            <p>O software está <strong>sempre pronto para ser lançado</strong>, mas a liberação depende de aprovação manual (gerente, equipe de release).</p>
+            <p>👉 Banca usa Continuous Delivery porque é o termo da documentação oficial.</p>
+            <h4>Continuous Deployment (CD) – Implantação Contínua</h4>
+            <p>Cada alteração aprovada vai <strong>direto para produção</strong>, sem intervenção humana.</p>
+            <p>👉 Mesmo em português, aparece quase sempre como Continuous Deployment ou “Deploy Contínuo”.</p>
+            <p><strong>Benefícios do CI/CD:</strong></p>
+            <ul>
+                <li>Releases frequentes e confiáveis.</li>
+                <li>Feedback rápido para os devs.</li>
+                <li>Menos falhas em produção.</li>
+                <li>Possibilidade de testar hipóteses com usuários.</li>
+            </ul>
+
+            <h3>Ferramentas de DevOps</h3>
+            <p>As ferramentas <strong>automatizam</strong> e dão suporte às práticas de DevOps. Nas provas, caem <strong>mais pelo conceito e categoria</strong> do que pelo detalhe.</p>
+            
+            <h4>Version Control (Controle de Versão)</h4>
+            <p>Armazena e gerencia mudanças no código.</p>
+            <p>Exemplos: <strong>Git</strong>, <strong>GitHub</strong>, <strong>GitLab</strong>, <strong>Bitbucket</strong>.</p>
+            <p>👉 Termo mantido porque ferramentas e provas usam “Version Control”.</p>
+
+            <h4>CI/CD (Integração e Entrega Contínuas)</h4>
+            <p>Automatizam build, testes e deploy.</p>
+            <p>Exemplos: <strong>Jenkins</strong>, <strong>GitLab CI</strong>, <strong>GitHub Actions</strong>, <strong>Codeship</strong>.</p>
+
+            <h4>IaC – Infrastructure as Code (Infraestrutura como Código)</h4>
+            <p>Gerenciar servidores e configurações via código, evitando erros manuais.</p>
+            <p>Exemplos: <strong>Ansible</strong>, <strong>Terraform</strong>, <strong>Puppet</strong>, <strong>Chef</strong>.</p>
+            <p>👉 “IaC” é padrão internacional, aparece assim em provas.</p>
+
+            <h4>Containerization (Containerização) e Orchestration (Orquestração)</h4>
+            <p>Permitem empacotar e escalar aplicações em ambientes isolados.</p>
+            <p>Exemplos: <strong>Docker (contêineres)</strong>, <strong>Kubernetes (orquestração de contêineres)</strong>.</p>
+
+            <h4>Monitoring (Monitoramento) e Logging (Registro de Logs)</h4>
+            <p>Acompanham desempenho, falhas e segurança.</p>
+            <p>Exemplos: <strong>Prometheus</strong>, <strong>Grafana</strong>, <strong>Nagios</strong>, <strong>Loggly</strong>, <strong>Graylog</strong>.</p>
+            <p>👉 Termos usados em inglês porque dashboards e documentação trazem assim.</p>
+
+            <h4>Collaboration (Colaboração)</h4>
+            <p>Ferramentas para comunicação e gestão de tarefas.</p>
+            <p>Exemplos: <strong>Jira</strong>, <strong>Trello</strong>, <strong>Slack</strong>, <strong>Microsoft Teams</strong>.</p>
+
+            <h3>Benefícios do DevOps</h3>
+            <ul>
+                <li>Redução do tempo de entrega (time-to-market).</li>
+                <li>Maior confiabilidade em produção.</li>
+                <li>Detecção e correção rápida de falhas.</li>
+                <li>Equipes mais colaborativas.</li>
+                <li>Software mais alinhado às necessidades do cliente.</li>
+            </ul>
+
+            <p><strong>Ciclo de DevOps</strong></p>
+            <p style="text-align: center;"><img src="img/devops.ciclo.png" alt="DevOps Ciclo" width="95%"></p>
+
+            <p><strong>Ferramentas de DevOps</strong></p>
+            <p style="text-align: center;"><img src="img/devops.ferramentas.png" alt="DevOps Ferramentas" width="95%"></p>
+
+        </section>
+
         <section class="campoQuestoes">
             <h2>Questões de Desenvolvimento de Software</h1>
             <div id="questoes"></div>
