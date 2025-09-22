@@ -114,11 +114,18 @@
       });
   }
 
-  const materias = ['conhecimentosBancarios', 'bancoDeDados', 'desenvolvimentoDeSoftware', 'probabilidadeEEstatistica', 'portugues', 'ingles', 'matematica', ];
-  const totalQuestoesPorMateria = 5;
+  const materiasConfig = {
+    conhecimentosBancarios: 5,
+    bancoDeDados: 10,
+    desenvolvimentoDeSoftware: 10,
+    ingles: 3,
+    matematica: 3,
+    probabilidadeEEstatistica: 3,
+    portugues: 3
+  };
 
-  materias.forEach(materia => {
-    carregarQuestoesSimulado(materia, totalQuestoesPorMateria);
+  Object.entries(materiasConfig).forEach(([materia, qtd]) => {
+    carregarQuestoesSimulado(materia, qtd);
   });
 
   function toggleMenu() {
