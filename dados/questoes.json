@@ -1169,8 +1169,8 @@
         "c) Bolsa de Valores de São Paulo.", 
         "d) Comissão de Valores Mobiliários (CVM).", 
         "e) Superintendência de Seguros Privados."],
-        "correta": "b) as Instituições financeiras públicas.",
-        "explicacao": "Conselho da República e Receita Federal não integram o SFN, deixando-nos apenas com a alternativa “e” válida."
+        "correta": "c) Bolsa de Valores de São Paulo.",
+        "explicacao": "A Bolsa de Valores de São Paulo, posteriormente transformada em B3 por meio de fusões, não integra o subsistema normativo, sendo na verdade operadora do SFN."
       },
       {
         "pergunta": "(2007/CESGRANRIO/BNDES/Técnico de Arquivo) Além do Banco Central do Brasil e do Banco do Brasil S.A., constituem o Sistema Financeiro Nacional:<br>I - Conselho Monetário Nacional;<br>II - BNDES;<br>III - demais instituições financeiras públicas;<br>IV - demais instituições financeiras privadas.<br>Estão corretos os itens",
@@ -2260,12 +2260,442 @@
         "e) Mercado Cambial."],
         "correta": "b) Mercado Secundário de Títulos Públicos.",
         "explicacao": "O Tesouro IPCA é um título que paga IPCA (um índice de inflação)e algum juros adicional.<br>Portanto, a letra “a” é nosso gabarito.<br>Note que o IGPM (letra “b”) também é um índice de inflação, mas não existe tal título.<br>E a Selic não é um índice de inflação, o que torna a letra “c” incorreta.<br>“Tesouro Inflação” também não existe."
+      },
+      {
+        "pergunta": "(2009/CESGRANRIO/BNDES/Profissional Básico - Comunicação Social) As moedas-mercadoria, usadas como intermediárias de troca nas economias de mercado, são constituídas de substâncias que devem ter certas características físicas ou químicas, dentre as quais NÃO figura a",
+        "alternativas": ["a) flexibilidade.", 
+        "b) durabilidade.", 
+        "c) homogeneidade.", 
+        "d) divisibilidade.",
+        "e) facilidade de transporte."],
+        "correta": "a) flexibilidade.",
+        "explicacao": "A questão quer que você indique a alternativa que não traz uma característica (ou atributo) da moeda. Nesse sentido, não precisamos que a moeda tenha “flexibilidade” (letra A), ou em vez de papel-moeda teríamos borracha-moeda. Pelo contrário, a flexibilidade tende a significar menor durabilidade e homogeneidade. Aproveitamos para relembrar os atributos da moeda:<br><img src='../dados/imgs/questao_conhecimentosbancarios_1.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(2014/VUNESP/TJ PA/Analista Judiciário - Economia) Preocupados com a perspectiva de alta na inflação, moradores de um país passam a guardar em suas casas algum tipo de moeda forte estrangeira, como o dólar ou o euro. A função da moeda local transferida para moedas estrangeiras, nesse caso, foi",
+        "alternativas": ["a) meio de troca.", 
+        "b) unidade de conta.", 
+        "c) poupança.", 
+        "d) velocidade-renda.",
+        "e) reserva de valor."],
+        "correta": "e) reserva de valor.",
+        "explicacao": "Quando a inflação corrói o poder de compra da moeda doméstica, ela perde sua função de reserva de valor. Em outras palavras, torna-se mal negócio guardar dinheiro em espécie debaixo do colchão. Por isso, “e” é nosso gabarito. <br>As funções de meio de troca e unidade de conta continuam existindo, afinal ainda é possível comprar e contar o valor de mercadorias com o dinheiro, ainda que seja preciso atualizar constantemente, e por isso “a” e “b” estão erradas. <br>Por fim, “velocidade-renda” e “poupança” não são funções da moeda."
+      },
+      {
+        "pergunta": "(2011/CESGRANRIO/TRANSPETRO/Engenheiro Júnior) Se o multiplicador dos meios de pagamento em certo país for igual a 2, isso significa que o(a)",
+        "alternativas": ["a) total de meios de pagamento é o dobro do PIB.", 
+        "b) total de empréstimos é o dobro dos depósitos nos bancos.", 
+        "c) total de meios de pagamentos é o dobro da base monetária.", 
+        "d) velocidade renda de circulação de moeda é 0,5.",
+        "e) taxa de inflação no país deve dobrar."],
+        "correta": "c) total de meios de pagamentos é o dobro da base monetária.",
+        "explicacao": "Comentários: O multiplicador dos meios de pagamento (ou multiplicador monetário) informa quantas vezes os meios de pagamento são superiores à base monetária. Colocando em termos matemáticos: m = M/B Se o valor de “m” é 2, necessariamente M é duas vezes maior que B."
+      },
+      {
+        "pergunta": "(2013/CESGRANRIO/BNDES/Profissional Básico) O sistema bancário de reservas fracionárias possibilita que instituições financeiras privadas obtenham lucratividade, por permitir que essas instituições",
+        "alternativas": ["a) paguem impostos federais equivalentes a uma fração de seus depósitos bancários.", 
+        "b) possam cobrar de seus clientes, em tarifas bancárias, uma fração de seus depósitos bancários.", 
+        "c) mantenham uma fração de seus depósitos bancários em moeda estrangeira.", 
+        "d) mantenham apenas uma fração de seus depósitos bancários em seus cofres e o restante nos cofres do Banco Central.",
+        "e) mantenham em mãos apenas uma fração de seus depósitos bancários, utilizando o resto para oferecer empréstimos com juros."],
+        "correta": "e) mantenham em mãos apenas uma fração de seus depósitos bancários, utilizando o resto para oferecer empréstimos com juros.",
+        "explicacao": "O sistema de reservas fracionárias permite que os bancos emprestem uma parte dos depósitos, mantendo apenas uma parte como reservas. Nesse sentido, o termo “em mãos” não é muito adequado, mas a alternativa “e” ainda é a melhor opção. <br>a) paguem impostos federais equivalentes a uma fração de seus depósitos bancários. <br>O sistema de reservas nada tem a ver com tributos. <br>b) possam cobrar de seus clientes, em tarifas bancárias, uma fração de seus depósitos bancários. <br>Também não é o sistema que permite isso. Eu diria até que o sistema causa justamente o inverso: como os bancos podem emprestar parte dos depósitos, eles tendem a atrair esses depósitos, algo que seria bastante complicado de fazer se fossem cobradas tarifas sobre os saldos. <br>c) mantenham uma fração de seus depósitos bancários em moeda estrangeira. <br>Errado. Também não tem a ver com moeda estrangeira. <br>d) mantenham apenas uma fração de seus depósitos bancários em seus cofres e o restante nos cofres do Banco Central. <br>Errado. O correto seria: uma fração em reservas, e o restante pode ser emprestado."
+      },
+      {
+        "pergunta": "(2019/FGV/DPE RJ/Técnico Superior Especializado - Economia) Os agregados monetários (M1, M2, M3 e M4) diferem de acordo com sua liquidez. Nesse sentido, relacione cada agregado monetário com seus respectivos elementos ou características. <br>1. M1 <br>2. M2 <br>3. M3 <br>4. M4 <br>(_) Inclui apenas papel-moeda em poder do público e depósitos à vista. <br>(_) Um aumento dos depósitos de poupança eleva tanto este agregado como o(s) agregado(s) inferior(es). <br>(_) Inclui títulos públicos de elevada liquidez. <br>(_) Uma redução das cotas de fundo de renda fixa reduz tanto este agregado como o(s) agregado(s) inferior(es). <br>A sequência correta é:",
+        "alternativas": ["a) 1, 2, 3 e 4;", 
+        "b) 1, 2, 4 e 3;", 
+        "c) 1, 3, 4 e 2;", 
+        "d) 2, 4, 3 e 1;",
+        "e) 2, 1, 3 e 4."],
+        "correta": "a) letra A",
+        "explicacao": "Apenas observando a tabela, já podemos concluir facilmente que M1 é aquele que incluir apenas papel moeda em poder do público e depósitos à vista, assim como apenas M4 inclui títulos públicos de alta liquidez, deixando-nos entre as alternativas “b” e “c”: <br>M1 - Papel moeda em poder do público + Depósitos à Vista <br>M2 - M1 + Depósitos de Poupança + Títulos emitidos por Instituições Depositárias + Depósitos Especiais Remunerados <br>M3 - M2 + Fundos de Investimentos + Operações Compromissadas Selic <br>M4 - M3 + Títulos Públicos Federais de Alta Liquidez <br>A redução nas cotas de fundos de investimentos reduz M3, mas nada altera em relação ao M2, de forma que temos nosso gabarito."
+      },
+      {
+        "pergunta": "(2011/CESGRANRIO/BNDES/Profissional Básico - Economia) Em relação ao tema de agregados monetários, considere as seguintes siglas: PMC = Papel-moeda em circulação CBCOM = Encaixe em moeda mantido pelo sistema bancário (Caixa dos Bancos Comerciais) CBACEN = Caixa do Banco Central DVBCOM = Depósitos à vista nos bancos comerciais PMPP = Papel-moeda em poder do público PME = Papel-moeda emitido TPPSP = Títulos públicos em poder do setor privado TEID = Títulos emitidos por instituições depositárias. A definição de meios de pagamento (M1) é dada por",
+        "alternativas": ["a) M1 = PMC – CBCOM – CBACEN + DVBCOM", 
+        "b) M1 = PME – CBACEN – CBCOM + DVBCOM", 
+        "c) M1 = PMPP + TPPSP", 
+        "d) M1 = PMPP + DVBCOM + TEID",
+        "e) M1 = PMPP + PMC – PME + DVBCOM"],
+        "correta": "b) M1 = PME – CBACEN – CBCOM + DVBCOM",
+        "explicacao": "Precisamos “transformar” as expressões em algo que conhecemos bem como M1, ou seja: <br>M1 = papel moeda em poder do público + depósitos à vista <br>Os depósitos à vista estão claramente definidos como DVBCOM, então apenas trocar deixa nossa expressão mais próxima do gabarito: <br>M1 = PMPP + DVBCOM <br>Com isso, vamos lembrar que papel moeda em poder do público é: <br>PME=PMPP+CXBACOMS+CXBACEN <br>Reorganizando: <br>PMPP = PME – CXBACOMS – CXBACEN <br>Utilizando as expressões da banca: <br>PMPP = PME – CBACEN – CBCOM <br>Por fim, substituindo na nossa expressão: <br>M1 = PME – CBACEN – CBCOM + DVBCOM <br>Exatamente como consta em “b”, o gabarito. <br>Também é possível lembrar que o papel moeda em poder do público (PMPP) é o que sobra do papel moeda emitido (PME) depois de descontarmos os caixas do Banco Central (CBACEN) e dos bancos comerciais (CBCOM)."
+      },
+      {
+        "pergunta": "(2015/VUNESP/SP/Auditor Municipal de Controle Interno) Em uma determinada economia, o total de moedas em poder do público é 1 bilhão de reais, há 2 bilhões de reais em depósitos à vista e 500 milhões de reais em depósitos a prazo, como CDBs. A partir disso, conclui-se corretamente que",
+        "alternativas": ["a) o M1 é 3 bilhões de reais.", 
+        "b) a base monetária é 1 bilhão de reais.", 
+        "c) o M2 é 500 milhões de reais.", 
+        "d) o multiplicador bancário é 3.",
+        "e) o M1 é 3,5 bilhões de reais."],
+        "correta": "a) o M1 é 3 bilhões de reais.",
+        "explicacao": "Vamos classificar: <br>• moedas em poder do público é 1 bilhão de reais (M1), <br>• há 2 bilhões de reais em depósitos à vista (M1) e <br>• 500 milhões de reais em depósitos a prazo (M2). CDB são títulos emitidos por instituições depositárias. <br>Sendo assim, M1 é de 3 bilhões de reais, e “a” é nosso gabarito. <br>Lembrando que M2 é a soma de M1 com outras coisas, e no nosso caso ele será de 3,5 bilhões (por isso “c” está errada)."
+      },
+      {
+        "pergunta": "(2018/VUNESP/PREF SJC/Analista em Gestão Municipal - Ciências Econômicas) Os agregados monetários, em geral, são ordenados por um grau de liquidez no qual",
+        "alternativas": ["a) quanto maior a classificação, mais líquida será o agregado.", 
+        "b) depósitos de poupança, de acordo com o Banco Central do Brasil (BC), é mais líquido que depósitos à vista.", 
+        "c) quotas de fundo de renda fixa são classificadas como haveres estritamente monetários.", 
+        "d) títulos públicos de alta liquidez são classificados com a mesma liquidez que depósitos de poupança.",
+        "e) papel-moeda em poder do público e depósitos à vista são classificados com o mesmo grau de liquidez."],
+        "correta": "e) papel-moeda em poder do público e depósitos à vista são classificados com o mesmo grau de liquidez.",
+        "explicacao": "Deixando um pouco de lado que desde 2001 os agregados não são mais ordenados por grau de liquidez, e a questão de 2018 ignorar isso, podemos analisar cada alternativa à luz da classificação atual e, se houver inconsistência em uma situação real, entramos com recurso. <br>a) quanto maior a classificação, mais líquida será o agregado. <br>Vimos que apesar de esse não ser o critério (liquidez), de forma geral os agregados com menor numeração são mais líquidos. É impossível dizer que títulos públicos têm mais liquide que depósitos à vista, então essa alternativa está errada. <br>b) depósitos de poupança, de acordo com o Banco Central do Brasil (BC), é mais líquido que depósitos à vista. <br>“Depósitos de poupança” entram em M2 enquanto “depósitos à vista’ entram em M1. Mesmo sem isso, sabíamos que depósitos à vista são mais líquidos que depósitos de poupança, né? <br>c) quotas de fundo de renda fixa são classificadas como haveres estritamente monetários. <br>Cotas de fundo de renda fixa: M3 <br>Haveres estritamente monetários: M1 <br>Então não. <br>d) títulos públicos de alta liquidez são classificados com a mesma liquidez que depósitos de poupança. <br>Já falamos dos depósitos em poupança (M2), restando lembrar que títulos públicos de alta liquidez entram em “M4”. <br>e) papel-moeda em poder do público e depósitos à vista são classificados com o mesmo grau de liquidez. <br>Isso mesmo, ambos são classificados em M1. Note que não houve prejuízo causado pelo equívoco da banca no enunciado em afirmar que o critério é a liquidez, e por isso, nesse caso específico, a questão realmente não deveria ser anulada, na minha opinião."
+      },
+      {
+        "pergunta": "(2016/FGV/IBGE/Tecnologista - Economia) Um trabalhador ganha um salário-mínimo e separa uma quantia para pagar as contas ao longo do mês. Esse ato destaca a função de:",
+        "alternativas": ["a) reserva de valor da moeda;", 
+        "b) padrão de valor da moeda;", 
+        "c) unidade de conta da moeda;", 
+        "d) meio de troca da moeda;",
+        "e) poupança da moeda."],
+        "correta": "a) reserva de valor da moeda;",
+        "explicacao": "Temos aqui uma manifestação da função de reserva de valor da moeda, que é guardada para ser utilizada em outro momento."
+      },
+      {
+        "pergunta": "(2018/VUNESP/PREF SJC/Analista em Gestão Municipal - Ciências Econômicas) Os agregados monetários, em geral, são ordenados por um grau de liquidez no qual",
+        "alternativas": ["a) quanto maior a classificação, mais líquida será o agregado.", 
+        "b) depósitos de poupança, de acordo com o Banco Central do Brasil (BC), é mais líquido que depósitos à vista.", 
+        "c) quotas de fundo de renda fixa são classificadas como haveres estritamente monetários.", 
+        "d) títulos públicos de alta liquidez são classificados com a mesma liquidez que depósitos de poupança.",
+        "e) papel-moeda em poder do público e depósitos à vista são classificados com o mesmo grau de liquidez."],
+        "correta": "e) papel-moeda em poder do público e depósitos à vista são classificados com o mesmo grau de liquidez.",
+        "explicacao": "A classificação dos agregados monetários de M1 a M4 consiste no agrupamento da maior para a menor liquidez, o que torna a alternativa “a” incorreta. <br>Depósitos de poupança entram no M2 enquanto depósitos à vista estão no M1, então estes são mais líquidos do que aqueles, e a alternativa “b” está errada. Os haveres estritamente monetários são apenas aqueles classificáveis em M1: papel moeda em poder do público e depósitos à vista. Portanto, a alternativa “c” está errada. <br>Os títulos públicos de alta liquidez entram apenas no M4, enquanto os depósitos de poupança entram desde o M2. <br>A alternativa “d” também está errada. <br>A alternativa “e”, por fim, traz o conceito de M1, e está correta. <br>M1 - Papel moeda em poder do público + Depósitos à Vista <br>M2 - M1 + Depósitos de Poupança + Títulos emitidos por Instituições Depositárias + Depósitos Especiais Remunerados <br>M3 - M2 + Fundos de Investimentos + Operações Compromissadas Selic <br>M4 - M3 + Títulos Públicos Federais de Alta Liquidez"
+      },
+      {
+        "pergunta": "(2013/FCC/DPE RS/Analista - Economia) Os meios de pagamento, em seu conceito convencional, correspondem à soma:",
+        "alternativas": ["a) papel-moeda emitido + depósitos à vista nos bancos comerciais.", 
+        "b) papel-moeda em poder do público + reservas bancárias.", 
+        "c) depósitos à vista nos bancos comerciais + caixa, em moeda corrente, dos bancos comerciais.", 
+        "d) papel-moeda em poder do público + depósitos à vista dos bancos comerciais.",
+        "e) papel-moeda em circulação + depósitos à vista e a prazo nos bancos comerciais."],
+        "correta": "d) papel-moeda em poder do público + depósitos à vista dos bancos comerciais.",
+        "explicacao": "Os meios de pagamento, em seu conceito convencional, são o que chamamos de M1. Dito isso, fica tranquilo de resolver, não é? Afinal, M1 = papel-moeda em poder do público + depósitos à vista dos bancos comerciais."
+      },
+      {
+        "pergunta": "(2018/FGV/ALERO/Analista Legislativo - Economia) Em relação aos agregados monetários, assinale (V) para a afirmativa verdadeira e (F) para a falsa. <br>( ) Uma elevação do caixa do Banco Central reduz o papel moeda em poder do público. <br>( ) Uma redução das reservas compulsórias junto aos bancos comerciais eleva a base monetária. <br>( ) O saque de um cheque no caixa de um banco eleva o saldo dos meios de pagamentos. <br>Segundo a ordem proposta, as afirmativas são, respectivamente,",
+        "alternativas": ["a) V – V – V.", 
+        "b) V – V – F.", 
+        "c) V – F – F.", 
+        "d) F – V – F.",
+        "e) F – F – V."],
+        "correta": "c) V – F – F.",
+        "explicacao": "Este esquema vai nos ajudar:<br><img src='../dados/imgs/questao_conhecimentosbancarios_2.png' alt='imagem da questão'><br>Se aumenta o caixa do banco central, reduz o papel-moeda em circulação e, consequentemente, reduz o papel moeda em poder do público. A primeira afirmativa é verdadeira. <br>A base monetária é dada por <strong>PMC+RESERVAS BANCÁRIAS</strong>. Portanto, se aumentam as reservas bancárias, diminui o papel moeda em circulação, mas a base monetária permanece inalterada. A segunda afirmativa é falsa. <br>Por fim, o saque de um cheque no caixa aumenta o papel moeda em poder do público e reduz os depósitos à vista. Portanto, os meios de pagamento estritos (M1) permanecem inalterados ou diminuem, se considerarmos o multiplicador. De um jeito ou de outro, a terceira afirmativa é falsa."
+      },
+      {
+        "pergunta": "(2018/VUNESP/IPSM SJC/Analista de Gestão Municipal - Economia) São fatores que tendem a elevar a oferta monetária na economia:",
+        "alternativas": ["a) redução das reservas internacionais do país, redução do depósito compulsório junto aos bancos comerciais e venda de títulos públicos pelo Tesouro Nacional.", 
+        "b) redução das reservas internacionais do país, redução do depósito compulsório junto aos bancos comerciais e compra de títulos públicos pelo Tesouro Nacional.", 
+        "c) concessão de empréstimos, por parte do Banco Central, aos bancos comerciais e venda de títulos públicos pelo Banco Central.", 
+        "d) elevação das reservas internacionais do país, concessão de empréstimos, por parte do Banco Central, aos bancos comerciais e compra de títulos públicos pelo Banco Central.",
+        "e) redução das reservas internacionais, aumento do depósito compulsório e venda de títulos públicos pelo Banco Central."],
+        "correta": "d) elevação das reservas internacionais do país, concessão de empréstimos, por parte do Banco Central, aos bancos comerciais e compra de títulos públicos pelo Banco Central.",
+        "explicacao": "A chave aqui é o termo “tendem”. Perceba, portanto, que não é preciso que a operação descrita tenha efeito imediato, podendo ser que apenas estimule o aumento da oferta monetária. <br>Vejamos cada uma das alternativas: <br>a) redução das reservas internacionais do país, redução do depósito compulsório junto aos bancos comerciais e venda de títulos públicos pelo Tesouro Nacional. <br>Quando há redução das reservas internacionais, o Banco Central entrega haveres não monetários (dólares, por exemplo) ao público (importadores, por exemplo) e recebe em troca haveres monetários (reais). Sendo assim, há destruição de moeda, e redução da oferta. Isso já torna a alternativa errada (junto com “b” e “e”). <br>A redução dos compulsórios, de fato, tende a aumentar a oferta monetária, mas a alternativa já estava prejudicada. <br>A venda de títulos públicos pelo Tesouro Nacional só iria aumentar a oferta monetária se o comprador fosse o Banco Central ou um banco comercial. Não está especificado. <br>b) redução das reservas internacionais do país, redução do depósito compulsório junto aos bancos comerciais e compra de títulos públicos pelo Tesouro Nacional. <br>Já vimos sobre as reservas e a redução do compulsório. A compra de títulos pelo Tesouro vai diminuir a oferta monetária se o vendedor for o Banco Central, por exemplo, mas se o vendedor for o público, nada acontece nesse sentido. <br>c) concessão de empréstimos, por parte do Banco Central, aos bancos comerciais e venda de títulos públicos pelo Banco Central. <br>A concessão de empréstimos do Banco Central aos bancos comerciais não muda nada na oferta monetária de forma imediata, mas com mais dinheiro, os bancos comerciais podem emprestar mais e assim ampliar a oferta monetária, e a venda de títulos pelo BC pode reduzir a oferta se o comprador for parte do público. <br>d) elevação das reservas internacionais do país, concessão de empréstimos, por parte do Banco Central, aos bancos comerciais e compra de títulos públicos pelo Banco Central. <br>A elevação das reservas de fato aumenta a oferta monetária, pois indica que o Banco Central comprou moeda estrangeira e entregou reais em troca. Vimos na letra “c” que o empréstimo aos bancos comerciais tende a aumentar a oferta monetária. Por fim, a compra de títulos públicos pelo Banco Central ou aumentará a oferta diretamente, se o vendedor for o “público”, ou aumentará a liquidez e capacidade de emprestar dos bancos comerciais. Aqui está nosso gabarito. <br>e) redução das reservas internacionais, aumento do depósito compulsório e venda de títulos públicos pelo Banco Central. <br>Aqui, tudo tende a diminuir a oferta monetária."
+      },
+      {
+        "pergunta": "(2012/VUNESP/PREF SJC/Auditor Tributário Municipal - Gestão Tributária) Há criação de meios de pagamentos quando",
+        "alternativas": ["a) um título público é negociado entre pessoas do público.", 
+        "b) um Banco Central compra um título público do público.", 
+        "c) um banco compra um título federal de outro banco.", 
+        "d) um banco aumenta seu capital, vendendo ações ao público.",
+        "e) uma sociedade de economia mista paga uma dívida ao seu fornecedor."],
+        "correta": "b) um Banco Central compra um título público do público.",
+        "explicacao": "Só há criação ou destruição de meios de pagamentos quando há transação entre o setor bancário (Banco Central + bancos comerciais) e o público. Isso já elimina “a”, “c” e “e”. <br>Em “b”, temos o BC e entregando haveres monetários em troca de haveres não monetários. Portanto, há criação de meios de pagamento. <br>Em d”, o banco recebe haveres monetários e entrega haveres não monetários (ações). Mesmo se suponhamos que é um banco comercial, a alternativa está errada."
+      },
+      {
+        "pergunta": "(2014/CESGRANRIO/EPE/Analista de Pesquisa Energética) Um ativo monetário que NÃO é considerado M1 é",
+        "alternativas": ["a) a moeda corrente", 
+        "b) os depósitos à vista", 
+        "c) os cheques de viagem", 
+        "d) os depósitos que possam ser movimentados por cheques",
+        "e) os depósitos de poupança"],
+        "correta": "e) os depósitos de poupança",
+        "explicacao": "Moeda corrente (a) e depósitos à vista (b), sem dúvidas, são M1. As demais precisam de análise. <br>Depósitos que possam ser movimentados por cheques (d) são, em essência, os próprios depósitos à vista. <br>Cheques de viagem também representam depósitos à vista, desde que sejam emitidos em reais para estrangeiros. Caso contrário, serão essencialmente moeda estrangeira. Isso tornaria a letra “c” uma boa candidata a gabarito. Não fosse a letra “e”. <br>Os depósitos de poupança entram apensa no M2, então não são considerados M1. <br>Relembrando: <br>M1 - Papel moeda em poder do público + Depósitos à Vista <br>M2 - M1 + Depósitos de Poupança + Títulos emitidos por Instituições Depositárias + Depósitos Especiais Remunerados <br>M3 - M2 + Cotas de Fundos de Investimentos + Operações Compromissadas Selic <br>M4 - M3 + Títulos Públicos Federais de Alta Liquidez"
+      },
+      {
+        "pergunta": "(2018/CESGRANRIO/TRANSPETRO/Economista Júnior) Em certo país, a propensão marginal a consumir é igual a 0,8; o Produto Interno Bruto (PIB), é igual a 1000 unidades monetárias; a base monetária é igual a 100 unidades monetárias; a formação bruta de capital fixo é de 20% do PIB, ou seja, 200 unidades monetárias anuais; a taxa de inflação é de 10% ao ano; e os meios de pagamento totalizam 300 unidades monetárias. Desses dados, conclui-se que a(o)",
+        "alternativas": ["a) inflação está em trajetória ascendente.", 
+        "b) exportação excede a importação.", 
+        "c) velocidade renda da circulação da moeda é 5.", 
+        "d) multiplicador da base monetária é 3.",
+        "e) país se encontra em recessão."],
+        "correta": "d) multiplicador da base monetária é 3.",
+        "explicacao": "Atendo-nos ao escopo desta aula, podemos calcular o multiplicador da base monetária com a seguinte fórmula: <br>m = M1/B <br>m= 300/100 <br>m = 3"
+      },
+      {
+        "pergunta": "(2018/FCC/TCE-RS/Auditor Público Externo - Ciências Econômicas) O conceito de M2 para os meios de pagamento",
+        "alternativas": ["a) inclui os depósitos à vista, mas não os depósitos de poupança.", 
+        "b) inclui os títulos emitidos por instituições depositárias, mas não os depósitos especiais remunerados.", 
+        "c) inclui os depósitos de poupança, mas não as quotas de fundos de renda fixa.", 
+        "d) não inclui os depósitos especiais remunerados nem os depósitos de poupança.",
+        "e) inclui os depósitos de poupança e os títulos públicos de alta liquidez."],
+        "correta": "c) inclui os depósitos de poupança, mas não as quotas de fundos de renda fixa.",
+        "explicacao": "M1 - Papel moeda em poder do público + Depósitos à Vista <br>M2 - M1 + Depósitos de Poupança + Títulos emitidos por Instituições Depositárias + Depósitos Especiais Remunerados <br>M3 - M2 + Fundos de Investimentos + Operações Compromissadas Selic <br>M4 - M3 + Títulos Públicos Federais de Alta Liquidez <br>O conceito de M2 inclui os depósitos de poupança, enquanto as quotas de fundos de investimento entram apenas em M3."
+      },
+      {
+        "pergunta": "(2013/CESGRANRIO/BNDES/Profissional Básico - Economia) Em relação ao tema de agregados monetários, considere as seguintes siglas: <br>PMC = Papel-moeda em circulação <br>CBCOM = Encaixe em moeda mantido pelo sistema bancário (Caixa dos Bancos Comerciais) <br>CBACEN = Caixa do Banco Central <br>DVBCOM = Depósitos à vista nos bancos comerciais <br>PMPP = Papel-moeda em poder do público <br>PME = Papel-moeda emitido <br>TPPSP = Títulos públicos em poder do setor privado <br>TEID = Títulos emitidos por instituições depositárias. <br>A definição de meios de pagamento (M1) é dada por",
+        "alternativas": ["a) M1 = PMC – CBCOM – CBACEN + DVBCOM", 
+        "b) M1 = PME – CBACEN – CBCOM + DVBCOM", 
+        "c) M1 = PMPP + TPPSP", 
+        "d) M1 = PMPP + DVBCOM + TEID",
+        "e) M1 = PMPP + PMC – PME + DVBCOM"],
+        "correta": "b) M1 = PME – CBACEN – CBCOM + DVBCOM",
+        "explicacao": "Você está bastante confortável com o fato de que M1=PMPP+DVCOM, certo? Mas a questão não tem essa alternativa, exigindo que tenhamos conhecimento dos demais conceitos. <br>Para começar, precisamos lembrar que PMC=PMPP+CBCOM, ou seja, PMPP=PMC-CBCOM. <br>Depois, recordemos que PME=PMC+CBACEN, ou seja, PMC=PME-CBACEN. <br>Com isso, concluímos que M1=PME-CBACEN-CBCOM+DVCOM."
+      },
+      {
+        "pergunta": "(2010/FCC/TCE-RO/Auditor Substituto de Conselheiro) É uma transação econômica que tem como consequência uma elevação dos meios de pagamento (medido no conceito M1) de um país:",
+        "alternativas": ["a) Uma pessoa jurídica paga seus funcionários com numerário sacado de sua conta corrente bancária.", 
+        "b) Um banco desconta duplicatas de uma empresa comercial.", 
+        "c) Uma pessoa física saca um determinado valor de sua conta corrente bancária e aplica em uma caderneta de poupança.", 
+        "d) Uma empresa exporta mercadorias com recebimento do pagamento para dali a três meses.",
+        "e) Um banco vende um imóvel de sua propriedade ao público."],
+        "correta": "b) Um banco desconta duplicatas de uma empresa comercial.",
+        "explicacao": "1º passo: encontre a transação realizada entre o setor bancário (Banco Central e bancos comerciais) e o público. Isso já elimina a alternativa “d”. <br>2º passo: encontre a entrega de haveres monetários do setor bancário para o público; o que só ocorre em B. Nas alternativas “c” e “e” temos o contrário, enquanto em “a” e “d” não há alteração em M1."
+      },
+      {
+        "pergunta": "(2018/VUNESP/IPSM SJC/Analista de Gestão Municipal - Economia) A relação entre a base monetária e os meios de pagamentos é dada pelo multiplicador monetário. Para o Banco Central reduzir o multiplicador, será necessário",
+        "alternativas": ["a) aumentar o deposito compulsório dos bancos comerciais.", 
+        "b) comprar títulos públicos no mercado aberto.", 
+        "c) vender títulos públicos no mercado aberto.", 
+        "d) diminuir a taxa de redesconto.",
+        "e) reduzir a emissão de títulos públicos."],
+        "correta": "a) aumentar o deposito compulsório dos bancos comerciais.",
+        "explicacao": "O multiplicador depende inversamente da taxa de depósitos compulsórios, ou melhor, do percentual dos depósitos à vista que é mantido como reservas. Se essa taxa aumenta, diminui o multiplicador, e por isso “a” é nosso gabarito. <br>Vejamos os efeitos (e erros) relacionados às demais alternativas. <br>b) comprar títulos públicos no mercado aberto. <br>Isso provocará aumento da oferta monetária e dos meios de pagamento, mas não provoca qualquer alteração do multiplicador. <br>c) vender títulos públicos no mercado aberto. <br>Isso provocará redução da oferta monetária e dos meios de pagamento, mas não provoca qualquer alteração do multiplicador. <br>d) diminuir a taxa de redesconto. <br>Isso tende a aumenta a oferta monetária, mas sem efeito no multiplicador. <br>e) reduzir a emissão de títulos públicos. <br>Em regra, isso não tem efeito nem na oferta de moeda, por ser uma transação entre governo e público, nem no multiplicador."
+      },
+      {
+        "pergunta": "(2010/FCC/SEFAZ-SP/Analista em Planejamento, Orçamento e Finanças) Com relação à presença da moeda no sistema econômico, é correto afirmar:",
+        "alternativas": ["a) O Banco Central é o único capaz de criar e destruir moeda.", 
+        "b) A moeda é demandada apenas para satisfazer as necessidades de transação dos agentes econômicos.", 
+        "c) A oferta de moeda tem relação inversa com a taxa de reservas compulsórias dos bancos comerciais.", 
+        "d) A demanda de moeda tem relação direta com a taxa de juros da economia.",
+        "e) O efeito da moeda sobre o nível de preços é neutro, qualquer que seja o grau de utilização da capacidade instalada da economia."],
+        "correta": "c) A oferta de moeda tem relação inversa com a taxa de reservas compulsórias dos bancos comerciais.",
+        "explicacao": "Lembre-se sempre dessas relações, pois elas ajudarão a resolver as questões sobre multiplicador sem precisar recorrer aos cálculos, ou seja, de forma mais ágil:<br><img src='../dados/imgs/questao_conhecimentosbancarios_3.png' alt='imagem da questão'><br>E claro: quanto maior o multiplicador (m), maior a oferta de moeda."
+      },
+      {
+        "pergunta": "(2018/VUNESP/PREF SBC/Analista Tributário Financeiro) Em relação ao valor do multiplicador dos meios de pagamento, é correto afirmar que seu valor aumenta quando",
+        "alternativas": ["a) a proporção dos depósitos à vista em relação aos meios de pagamento diminui.", 
+        "b) a base monetária aumenta.", 
+        "c) o Governo aumenta a taxa dos depósitos compulsórios.", 
+        "d) o Governo aumenta os impostos e mantém seus gastos constantes.",
+        "e) a relação encaixes bancários/depósitos à vista nos bancos comerciais diminui."],
+        "correta": "e) a relação encaixes bancários/depósitos à vista nos bancos comerciais diminui.",
+        "explicacao": "O multiplicador depende de duas coisas: <br>• Positivamente dos meios de pagamento mantidos como depósitos à vista; <br>• Negativamente do percentual de depósitos à vista mantidos como encaixes bancários. <br>Sendo assim, “e” é nosso gabarito. Diminuir essa relação significa diminuir o “r” do multiplicador."
+      },
+      {
+        "pergunta": "(2008/CESGRANRIO/CAIXA ECONÔMICA FEDERAL/Técnico Bancário Novo) A política monetária enfatiza sua atuação sobre os meios de pagamento, títulos públicos e taxas de juros, modificando o custo e o nível de oferta do crédito. O Banco Central administra a política monetária por intermédio dos seguintes instrumentos clássicos de controle monetário: <br>I – recolhimentos compulsórios; <br>II – operações de mercado aberto – open market; <br>III – limites e políticas de alçadas internas de crédito; <br>IV– políticas de redesconto bancário e empréstimos de liquidez; <br>V – depósitos à vista e cadernetas de poupança. <br>Estão corretos APENAS os instrumentos",
+        "alternativas": ["a) I, II e III", 
+        "b) I, II e IV", 
+        "c) I, III e IV", 
+        "d) II, III e V",
+        "e) III, IV e V"],
+        "correta": "b) I, II e IV",
+        "explicacao": "Embora todos os itens, em tese, possam ser utilizados como instrumento de política monetária, o enunciado é claro sobre querer apenas os instrumentos clássicos. <br>Sendo assim, temos que os instrumentos clássicos são: compulsórios (I), operações em mercado aberto (II) e redesconto (IV)."
+      },
+      {
+        "pergunta": "(2008/CESGRANRIO/INEA/Economista) O aumento do percentual da reserva compulsória que o Banco Central exige dos bancos reduz a(o)",
+        "alternativas": ["a) oferta de moeda.", 
+        "b) demanda por bens públicos.", 
+        "c) taxa de juros vigente na economia.", 
+        "d) spread cobrado pelos bancos.",
+        "e) gasto do governo."],
+        "correta": "a) oferta de moeda.",
+        "explicacao": "Os depósitos (ou reservas) compulsórios são um dos instrumentos clássicos de política monetária. Ao elevar a exigência, o Banco Central reduz o dinheiro disponível para os bancos emprestarem, tendendo a reduzir a oferta monetária. <br>Afinal, é uma política monetária contracionista."
+      },
+      {
+        "pergunta": "(2012/FDC/PREFEITURA DE BH/Auditor de Tributos Municipais) O Banco Central, para aumentar a liquidez do sistema econômico, pode implementar a seguinte medida:",
+        "alternativas": ["a) redução da taxa de redesconto", 
+        "b) redução do montante de redesconto", 
+        "c) elevação na venda de título do governo", 
+        "d) elevação da taxa de recolhimento compulsório",
+        "e) redução do prazo de pagamento do redesconto"],
+        "correta": "a) redução da taxa de redesconto",
+        "explicacao": "Aumentar a liquidez do sistema econômico requer a implementação de uma política monetária expansionista. Apenas a alternativa A traz um exemplo correto."
+      },
+      {
+        "pergunta": "(2016/FCC/ASSEMBLEIA LEGISLATIVA MS/Economista) O redesconto é um instrumento clássico de política monetária que, se expandido,",
+        "alternativas": ["a) pode abrir espaço para os bancos realizarem novas operações de crédito.", 
+        "b) reduz as disponibilidades dos bancos.", 
+        "c) provoca instantâneo aumento da carteira de crédito do sistema bancário.", 
+        "d) não é utilizado em época de crise bancária.",
+        "e) representa um imediato aumento do passivo dos bancos."],
+        "correta": "a) pode abrir espaço para os bancos realizarem novas operações de crédito.",
+        "explicacao": "Note que a questão se limita ao campo teórico. Teoricamente, a expansão do redesconto pode abrir espaço para os bancos realizarem novas operações. Então a alternativa “a” está certa. Ah! Veja que a alternativa “a” estaria errada se falasse que a expansão da taxa de redesconto tem esse efeito, mas não é o caso."
+      },
+      {
+        "pergunta": "(2012/CESGRANRIO/CAIXA ECONÔMICA FEDERAL/Técnico Bancário Novo) A política monetária enfatiza sua atuação sobre os meios de pagamento, os títulos públicos e as taxas de juros. A política monetária é considerada expansionista quando",
+        "alternativas": ["a) reduz os meios de pagamento, retraindo o consumo e a atividade econômica.", 
+        "b) mantém todas as condições macroeconômicas estáveis por longo período.", 
+        "c) estabelece diretrizes de expansão da produção do mercado interno para o exterior.", 
+        "d) realiza operações de crédito no exterior, aumentando a captação de recursos e, por consequência, os meios de recebimento.",
+        "e) eleva a liquidez da economia, injetando maior volume de recursos nos mercados, elevando, em consequência, os meios de pagamentos."],
+        "correta": "e) eleva a liquidez da economia, injetando maior volume de recursos nos mercados, elevando, em consequência, os meios de pagamentos.",
+        "explicacao": "A política monetária expansionista consiste, como descrito em “e”, na elevação da liquidez (quantidade de moeda) e elevação dos meios de pagamentos."
+      },
+      {
+        "pergunta": "(2000/ESAF/TCU/Auditor Federal de Controle Externo) Qual das políticas abaixo não constitui uma política monetária restritiva.",
+        "alternativas": ["a) Aumento da taxa de redesconto paga pelo Banco Central.", 
+        "b) Venda de títulos governamentais pelo Banco Central no mercado de capitais.", 
+        "c) Aumento dos depósitos compulsórios dos bancos comerciais.", 
+        "d) Diminuição da taxa de juros dos empréstimos de liquidez efetuados pelo Banco Central aos bancos comerciais.",
+        "e) Diminuição dos limites quantitativos do redesconto que pode ser efetuado junto ao Banco Central."],
+        "correta": "d) Diminuição da taxa de juros dos empréstimos de liquidez efetuados pelo Banco Central aos bancos comerciais.",
+        "explicacao": "Reduzir a taxa de juros dos redescontos é um convite à expansão do crédito pelos bancos."
+      },
+      {
+        "pergunta": "(2009/CESGRANRIO/BANCO CENTRAL DO BRASIL/Analista) Entre as várias ações do Banco Central que resultam numa política monetária expansionista, NÃO se encontra a",
+        "alternativas": ["a) compra de moeda estrangeira no mercado cambial.", 
+        "b) compra de títulos federais no mercado aberto.", 
+        "c) venda de títulos federais no mercado aberto.", 
+        "d) redução do percentual de recolhimento compulsório dos bancos ao Banco Central.",
+        "e) redução da taxa de juros dos empréstimos de liquidez do Banco Central aos bancos."],
+        "correta": "c) venda de títulos federais no mercado aberto.",
+        "explicacao": "Note que as alternativas B e C são opostas e, portanto, uma está certa e outra errada, obrigatoriamente. <br>Como a questão quer saber qual não é expansionista, podemos marcar C como o gabarito, posto que vender títulos no mercado aberto é algo que o Banco Central faz quando deseja retirar liquidez do mercado."
+      },
+      {
+        "pergunta": "(2011/CESGRANRIO/BNDES/Comunicação Social) No Brasil, a emissão de moeda e a política monetária são implementadas pelo(a)",
+        "alternativas": ["a) Banco do Brasil", 
+        "b) Tesouro Nacional", 
+        "c) Banco Central do Brasil", 
+        "d) Banco Nacional do Desenvolvimento Econômico e Social",
+        "e) Caixa Econômica Federal"],
+        "correta": "c) Banco Central do Brasil",
+        "explicacao": "Bem tranquila essa né? Resta-nos torcer para não cair algo assim na sua prova, afinal questões fáceis são boas para quem está menos preparado... o que não é seu caso. Mas acontece que, se cair, você não pode errar, porque ninguém vai. <br>Então, de vez em quando, é bom trazer uma dessas para chamar sua atenção."
+      },
+      {
+        "pergunta": "(2006/FCC/TRT-4/Analista Judiciário) É medida de política monetária anti-recessiva:",
+        "alternativas": ["a) apreciação da moeda nacional.", 
+        "b) aumento da taxa de redesconto de liquidez.", 
+        "c) instituição de taxa de câmbio fixa.", 
+        "d) diminuição da taxa do depósito compulsório.",
+        "e) venda de títulos públicos no mercado aberto."],
+        "correta": "d) diminuição da taxa do depósito compulsório.",
+        "explicacao": "Política monetária anti-recessiva é o mesmo que política monetária expansionista, pois tem por objetivo aumentar a demanda agregada para combater movimento econômicos recessivos. <br>Nesse sentido, apenas a alternativa D traz uma hipótese válida."
+      },
+      {
+        "pergunta": "(2013/CESGRANRIO/BNDES/Administração) Uma operação de mercado aberto do Banco Central, na qual títulos da dívida pública do Governo Federal são comprados e sequentemente aposentados, tem como objetivo",
+        "alternativas": ["a) diminuir a demanda por moeda estrangeira.", 
+        "b) diminuir a taxa de inflação.", 
+        "c) aumentar a oferta monetária.", 
+        "d) aumentar o volume de depósitos bancários.",
+        "e) aumentar a liquidez dos títulos públicos federais."],
+        "correta": "c) aumentar a oferta monetária.",
+        "explicacao": "A simples aquisição, pelo Banco Central, de títulos públicos no mercado aberto, é a execução de uma política monetária expansionista, pouco importando o que é feito com o título depois (desde que não seja revendido no mercado aberto, é claro)."
+      },
+      {
+        "pergunta": "(2015/FMP/CGE MT/Auditor do Estado de Mato Grosso) Para aumentar a oferta de moeda ao sistema econômico o Banco Central pode: <br>I – reduzir o nível de reservas obrigatórias dos bancos comerciais. <br>II – aumentar a taxa de redesconto de títulos. <br>III – vender títulos governamentais ao mercado de capitais. <br>Quais afirmações estão corretas?",
+        "alternativas": ["a) Apenas a I.", 
+        "b) Apenas a II.", 
+        "c) Apenas a III.", 
+        "d) Apenas I e II.",
+        "e) Apenas I e III."],
+        "correta": "a) Apenas a I.",
+        "explicacao": "Vejamos cada umas das afirmações: <br>I – reduzir o nível de reservas obrigatórias dos bancos comerciais. <br>Isso certamente gera um incentivo para que os bancos comerciais emprestem mais e, dessa forma, promovam a expansão dos meios de pagamento. Portanto, é uma política monetária expansionista. <br>II – aumentar a taxa de redesconto de títulos. <br>Isso tem, teoricamente, o efeito contrário de desestimular os empréstimos dos bancos comerciais, que serão mais criteriosos em suas concessões de crédito, posto que terão de arcar com taxas mais altas se precisarem recorrer ao redesconto. Enfim: é uma política monetária contracionista. <br>III – vender títulos governamentais ao mercado de capitais. <br>Novamente, estamos diante de política monetária contracionista: o Banco Central entre títulos públicos, os donos dos títulos entregam moeda. O resultado é menor moeda com o público."
+      },
+      {
+        "pergunta": "(2018/CESGRANRIO/LIQUIGÁS/Profissional - Economia) As autoridades monetárias podem controlar a oferta de moeda e os meios de pagamento da economia mediante diversas medidas operacionais. Uma operação que pode acarretar redução dos meios de pagamento da economia é a",
+        "alternativas": ["a) queda da alíquota do depósito compulsório exigido dos bancos comerciais.", 
+        "b) compra de títulos públicos pelo banco central em transações de curtíssimo prazo (overnight).", 
+        "c) compra de títulos públicos pelo banco central para financiar o Tesouro Nacional.", 
+        "d) venda de reservas cambiais pelo banco central no mercado à vista.",
+        "e) redução da taxa de redesconto."],
+        "correta": "d) venda de reservas cambiais pelo banco central no mercado à vista.",
+        "explicacao": "Todas as operações podem alterar a oferta de meios de pagamento, ou seja, podem criar ou destruir moeda ao transitar os meios de pagamento entre o setor bancário e o setor não bancário. <br>a) queda da alíquota do depósito compulsório exigido dos bancos comerciais. <br>Errado. A redução da alíquota do compulsório deixa mais recursos disponíveis para os bancos comerciais realizarem empréstimos. Portanto, temos uma política monetária expansionista. <br>b) compra de títulos públicos pelo banco central em transações de curtíssimo prazo (overnight). <br>Errado. Ao comprar títulos públicos, o Banco Central entrega moeda em troca dos títulos. O resultado é criação de moeda em política monetária expansionista. <br>c) compra de títulos públicos pelo banco central para financiar o Tesouro Nacional. <br>Errado, e vale o mesmo comentário feito em relação à alternativa anterior. <br>d) venda de reservas cambiais pelo banco central no mercado à vista. <br>Certo! Ao vender moeda estrangeira, o Banco Central recebe reais em troca, ou seja, há redução dos meios de pagamento em circulação. <br>e) redução da taxa de redesconto. <br>Errado. Reduzir a taxa de redesconto tende a estimular um comportamento mais “emprestador” por parte dos bancos. Também é política monetária expansionista."
+      },
+      {
+        "pergunta": "(2012/CESGRANRIO/PETROBRAS/Analista) Com o objetivo de implementar uma política monetária expansionista, o Banco Central deveria promover uma",
+        "alternativas": ["a) elevação da taxa de câmbio", 
+        "b) elevação dos investimentos privados na economia", 
+        "c) redução das exportações de mercadorias e serviços", 
+        "d) redução das alíquotas do imposto sobre produtos industrializados",
+        "e) redução da alíquota do depósito compulsório, mantido pelos bancos no Banco Central"],
+        "correta": "e) redução da alíquota do depósito compulsório, mantido pelos bancos no Banco Central",
+        "explicacao": "Vamos avaliar cada uma das alternativas, buscando a política monetária expansionista que poderia ser promovida pelo Banco Central. a) elevação da taxa de câmbio Errado. Isso é política cambial. b) elevação dos investimentos privados na economia Errado. Isso sequer é política, já que foca em uma atividade do setor privado, e não do banco Central. c) redução das exportações de mercadorias e serviços Errado. Também não é algo que o Banco Central possa fazer de forma direta, embora possa influenciar as exportações por meio da política cambial. d) redução das alíquotas do imposto sobre produtos industrializados Errado. Isso é política fiscal, e não cabe ao Banco Central. e) redução da alíquota do depósito compulsório, mantido pelos bancos no Banco Central Certo! Essa redução liberaria recursos para os bancos elevarem a oferta monetária."
+      },
+      {
+        "pergunta": "(2018/CESGRANRIO/TRANSPETRO/Analista Júnior - Financeiro) De acordo com a legislação brasileira, a fixação das metas de inflação anuais, bem como de seus respectivos intervalos de tolerância, é da competência do(a)",
+        "alternativas": ["a) Comitê de Política Monetária (COPOM) do Banco Central do Brasil", 
+        "b) Conselho Monetário Nacional", 
+        "c) Banco do Brasil", 
+        "d) Banco Nacional de Desenvolvimento Econômico e Social (BNDES)",
+        "e) Comissão de Valores Mobiliários (CVM)"],
+        "correta": "a) letra A",
+        "explicacao": "Esse é o tipo de questão que você não pode errar, então vamos reforçar: <br>1. O Conselho Monetário Nacional (CMN) determina até junho a meta de inflação para o ano seguinte, mediante proposta do Ministro da Economia. <br>a. Essa meta possui um intervalo de tolerância. <br>b. Exemplo: a meta para 2021 foi determinada em 3%, com tolerância de 1,5 ponto percentual para cima ou para baixo. <br>2. O Banco Central do Brasil define qual deve ser a taxa de juros para atingimento da meta: a Selic Meta. <br>a. Portanto, o BCB busca que a taxa Selic seja igual à Selic Meta. <br>b. A cada 45 dias, diretores do BCB se reúnem no Copom (Comitê de Política Monetária), e revisam a Selic Meta. Ou seja, reavaliam o cenário econômico para concluir se a taxa de juros precisa ser ajustada para cumprir a meta de inflação. Por isso, vemos com frequência notícias de que o BCB aumentou ou reduziu a meta da taxa Selic. <br>c. Para atingir a Selic Meta, o Banco Central realiza operações compromissados no Selic. <br>3. A meta de inflação é considerada cumprida quando a variação acumulada da inflação - medida pelo IPCA, relativa ao período de janeiro a dezembro de cada ano calendário - situar-se na faixa do seu respectivo intervalo de tolerância. <br>4. Caso a meta não seja cumprida, o Presidente do Banco Central do Brasil divulgará publicamente as razões do descumprimento, por meio de carta aberta ao Ministro de Economia."
+      },
+      {
+        "pergunta": "(2010/CESGRANRIO/PETROBRAS/Profissional Júnior) No Brasil, a política monetária se orienta pelo regime de “metas de inflação”, as quais",
+        "alternativas": ["a) se referem ao índice de preços IPCA do IBGE, sem qualquer expurgo.", 
+        "b) são fixadas pelo presidente do Banco Central, com antecedência trimestral.", 
+        "c) são revistas mensalmente pelo Comitê de Política Monetária (COPOM).", 
+        "d) constituem um modelo de política monetária adotado apenas no Brasil.",
+        "e) implicam a eliminação do déficit orçamentário do setor público."],
+        "correta": "a) se referem ao índice de preços IPCA do IBGE, sem qualquer expurgo.",
+        "explicacao": "O referencial utilizado no regime de metas é o IPCA, calculado pelo IBGE, sem qualquer tipo de ajuste ou expurgo. Isso torna “a” nosso gabarito, mas vejamos o erro nas demais. b) são fixadas pelo presidente do Banco Central, com antecedência trimestral. 72 Errado. São fixadas pelo CMN. c) são revistas mensalmente pelo Comitê de Política Monetária (COPOM). Errado. O Copom revisa a meta para a Selic a cada 45 dias. d) constituem um modelo de política monetária adotado apenas no Brasil. Errado. Diversos países adotam o regime de metas atualmente, inclusive o Brasil. e) implicam a eliminação do déficit orçamentário do setor público. Errado. Apesar de fugir ao escopo desta aula, o efeito no déficit do governo pode ser nos dois sentidos: aumentando ou reduzindo. A política monetária contracionista, por elevar os juros, pode elevar os custos com a dívida pública."
+      },
+      {
+        "pergunta": "(2012/CESGRANRIO/PETROBRAS/Economista Júnior) No Brasil, o regime de política monetária atual segue a sistemática de metas de inflação. A meta e seu intervalo de tolerância são",
+        "alternativas": ["a) referenciados ao Índice Geral de Preços da Fundação Getulio Vargas.", 
+        "b) fixados mensalmente pelo Banco Central do Brasil.", 
+        "c) fixados pelo Conselho Monetário Nacional.", 
+        "d) alterados se a economia estiver em recessão.",
+        "e) prorrogados se não forem cumpridos."],
+        "correta": "c) fixados pelo Conselho Monetário Nacional.",
+        "explicacao": "Veja como a banca gosta desse assunto... e lembre-se que quem define a meta de inflação e sua tolerância é o CMN."
+      },
+      {
+        "pergunta": "(2016/FCC/AL-MS/Economista) Considere as seguintes características relativas ao modelo de Metas de Inflação, que ganhou força na década de 1990, como novo mecanismo de preservação do valor da moeda pelos governos: <br>I. Anúncio público da meta quantitativa para a inflação. <br>II. Definição da meta quantitativa de emissão de moeda. <br>III. Anúncio público da taxa de juros de longo prazo, considerada como taxa natural. <br>IV. Definição do índice de preços a ser utilizado. <br>Está correto o que consta em",
+        "alternativas": ["a) I, II e III, apenas.", 
+        "b) III e IV, apenas.", 
+        "c) II e IV, apenas.", 
+        "d) I e IV, apenas.",
+        "e) I, II, III e IV."],
+        "correta": "d) I e IV, apenas.",
+        "explicacao": "Bem, a definição de meta quantitativa de emissão de moeda iria inviabilizar a perseguição da meta de inflação, uma vez que comprometeria o uso da política monetária para esse fim. Por isso, a afirmativa II está errada. O anúncio público da taxa de juros de longo prazo não está relacionado com o regime de metas de inflação, e por isso a afirmativa III também está errada. As afirmativas I e IV estão corretas, e fazem parte da transparência, componente crítico para o sucesso do Regime de Metas de Inflação no que tange às expectativas inflacionárias."
+      },
+      {
+        "pergunta": "(2013/CEBRASPE-CESPE/ES/Analista do Executivo - Ciências Econômicas) Assinale a opção em que é apresentado o índice oficial de preços adotado pelo BACEN para fins de cumprimento da meta inflacionária.",
+        "alternativas": ["a) índice nacional de preços ao consumidor amplo (IPCA)", 
+        "b) índice nacional de preços ao consumidor (INPC)", 
+        "c) índice nacional de custo da construção (INCC)", 
+        "d) índice geral de preços do mercado (IGP-M)",
+        "e) índice de preços ao consumidor semanal (IPCS)"],
+        "correta": "a) índice nacional de preços ao consumidor amplo (IPCA)",
+        "explicacao": "O índice utilizado pelo Banco Central do Brasil e pelo Conselho Monetário Nacional no Sistema de Metas adotado no Brasil desde 1999 é o IPCA, calculado e divulgado pelo IBGE."
+      },
+      {
+        "pergunta": "(2021/PROF. CELSO NATALE) Assinale a opção em que é apresentado a denominação para políticas monetárias que não recorrem aos instrumentos clássicos de determinação da taxa de juros de curto prazo.",
+        "alternativas": ["a) Redesconto", 
+        "b) Empréstimos compulsórios", 
+        "c) Recolhimentos compulsórios", 
+        "d) Selic",
+        "e) Não convencional"],
+        "correta": "e) Não convencional",
+        "explicacao": "O enunciado descreve as políticas monetárias não convencionais (PMNC) que, como o nome indica, são políticas que não envolvem as (convencionais) operações compromissadas em mercado aberto, taxas de redesconto e determinação da alíquota do compulsório."
       }
+
+
     ],
 
 
+    ">>>>>>> apenas para pegar imagem 3 <<<<<<<": [
+      {
+        "pergunta": "<img src='../dados/imgs/questao_conhecimentosbancarios_1.png' alt='imagem da questão'><br>",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "<img src='../dados/imgs/questao_conhecimentosbancarios_1.png' alt='imagem da questão'><br>",
+        "alternativas": ["a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      }
 
-
+    ],
 
     "bancoDeDados": [
       {
@@ -3167,8 +3597,8 @@
         "c) Peça é uma entidade fraca.",
         "d) Peça não tem chave primária.",
         "e) um Depósito pode conter várias Peças."],
-        "correta": "Certo",
-        "explicacao": "Para responder essa questão, basta analisar a cardinalidade. Notem que temos (0,n) de ambos os lados do relacionamento, logo isso indica que um participante pode inscrever em nenhum ou em várias provas do ENEM; e o ENEM pode ter inscrições de nenhum ou de vários participantes. Logo, é realmente possível que um participante se inscreva em mais de um ENEM."
+        "correta": "e) um Depósito pode conter várias Peças.",
+        "explicacao": "(a) Errado. Depósito possui uma chave primária própria (ID-Depósito), logo não é entidade fraca; (b) Errado. O relacionamento é do tipo um para muitos; (c) Errado. Peça possui uma chave primária própria (ID-Peça), logo não é uma entidade fraca; (d) Errado. Peça tem uma chave primária (ID-Peça); (e) Correto. Como podemos ver pela cardinalidade do relacionamento, um Depósito pode conter várias Peças (N) e uma Peça só pode estar contida em um Depósito (1). <br>Obs: sendo rigoroso, a chave primária é um termo do modelo lógico e, não, conceitual."
       },
       {
         "pergunta": "(FUNDEP / IFN-MG – 2014) Para a modelagem conceitual apresentada abaixo, podemos dizer que Skill:<br><img src='../dados/imgs/questao_bancodedados_5.png' alt='imagem da questão'>",
@@ -4046,13 +4476,13 @@
         "explicacao": "“Na frase do último parágrafo Em suma, os bancos estão melhor posicionados para ter sucesso se eles se comprometerem a ter uma constante transformação digital., a frase Em suma transmite uma ideia de” <br>cause - causa<br>addition – adição<br>emphasis – ênfase<br>conclusion – conclusão<br>time sequence – sequência de tempo"
       },
       {
-        "pergunta": "The sentence in which the <strong>boldfaced item expresses an advice is",
+        "pergunta": "The sentence in which the <strong>boldfaced</strong> item expresses an advice is",
         "alternativas": ["a) “The employer absolutely <strong>must</strong> find people”", 
         "b) “Programmers <strong>have to</strong> know how to program.”", 
         "c) “Data analysts <strong>need</strong> to know how to crunch numbers”", 
         "d) “they <strong>can</strong> shift their focus to their candidates’ mindsets”",
         "e) “They <strong>should</strong> be articulating their skills”"],
-        "correta": "d) conclusion",
+        "correta": "e) “They <strong>should</strong> be articulating their skills”",
         "explicacao": "A frase na qual o item em <strong>negrito</strong> expressa um conselho é<br>a) “O empregador absolutamente <strong>precisa</strong> encontrar pessoas”<br>b) “Os programadores <strong>tem que</strong> saber como programar”<br>c) “Os analistas de dados <strong>precisam</strong> saber como processar os números”<br>d) “Eles <strong>podem</strong> mudar o foco deles para a mentalidade dos candidatos”<br>e) “Eles <strong>poderiam</strong> está articulando suas habilidades”"
       }
     ],
@@ -5856,7 +6286,7 @@
         "alternativas": ["Certo",
         "Errado"],
         "correta": "Certo",
-        "explicacao": "(a) Não, somente LIFO; (b) Não, somente pelo Topo; (c) Não, pode ser por listas; (d) Não, pode ser por vetores; (e) Perfeito, é exatamente isso."
+        "explicacao": "Perfeito, é exatamente isso – muda-se apenas a perspectiva!"
       },
       {
         "pergunta": "(CESPE - 2004 – STJ – Analista de Sistemas) A seguir, está representada corretamente uma operação de desempilhamento em uma pilha de nome p. <br>se p.topo = 0 então <br>nada {pilha vazia} <br>senão p.topo 🡨 p.topo-1",
@@ -6963,7 +7393,7 @@
         "explicacao": "A alternativa correta é a letra e) CI/CD. No modelo DevOps, a prática de integração contínua (CI) está relacionada à integração frequente e automatizada do código fonte em um repositório compartilhado. Isso permite que as equipes trabalhem de forma colaborativa, integrando suas alterações de forma contínua e automatizada. <br>Já a prática de entrega contínua (CD) envolve a automatização do processo de implantação do software em ambientes de produção. Com a entrega contínua, as alterações de software podem ser entregues rapidamente aos usuários, reduzindo o tempo de espera e permitindo um feedback mais rápido. <br>A combinação dessas práticas, CI/CD, é essencial no DevOps, pois permite uma entrega mais ágil, confiável e frequente de software, com a integração e implantação contínuas, mantendo a qualidade e a estabilidade do sistema."
       },
       {
-        "pergunta": "(UFAC – UFAC– 2022) O administrador DevOps acessou um servidor Linux da empresa, ao utilizar o comando “df” no “i” apontou 100% de uso. Julgue a informação recebida pelo console:",
+        "pergunta": "(UFAC – UFAC – 2022) O administrador DevOps acessou um servidor Linux da empresa, ao utilizar o comando “df” no “i” apontou 100% de uso. Julgue a informação recebida pelo console:",
         "alternativas": ["a) A memória swap atingiu sua capacidade máxima.", 
         "b) A memória RAM não possui espaço disponível.", 
         "c) O número de conexões máximas foi atingido.", 
@@ -6971,6 +7401,183 @@
         "e) Nenhuma das alternativas está correta."],
         "correta": "d) O sistema de arquivos raiz está cheio.",
         "explicacao": "Ao utilizar o comando 'df' com a opção 'i' em um servidor Linux e obter 100% de uso, a informação recebida pelo console indica que o número de inodes disponíveis no sistema de arquivos está totalmente utilizado. Isso significa que não há mais espaço disponível para armazenar informações sobre novos arquivos e diretórios. Portanto, a resposta correta é a opção d) O sistema de arquivos raiz está cheio. Isso significa que o diretório raiz do sistema, que geralmente é montado em '/', está com sua capacidade de armazenamento esgotada. Isso pode afetar o funcionamento do servidor, causar problemas de desempenho e impedir a criação de novos arquivos."
+      },
+      {
+        "pergunta": "(Instituto Avança São Paulo - Prefeitura do Município de Araçariguama - Enfermeiro - 2024)Um número binário é um número expresso na base 2, isto é, utiliza apenas dois algarismos para ser representado (0 e 1). Por exemplo, o número 53 é representado no sistema binário por: 110101, pois:<br><img src='../dados/imgs/questao_desenvolvimento_90.png' alt='imagem da questão'><br>Com base na lógica dada para encontrar a representação binária de um número, indique a representação do número 62:",
+        "alternativas": ["a) 111110.", 
+        "b) 000001.", 
+        "c) 111101.", 
+        "d) 110001.",
+        "e) 101010."],
+        "correta": "a) 111110.",
+        "explicacao": "Para converter um número decimal para binário, devemos decompor o número decimal em somas de potências de 2, de forma que cada potência de 2 seja representada por um dígito binário '1' na posição correspondente. O número 62, quando decomposto em potências de 2, nos permite entender como cada dígito em sua representação binária contribui para o valor total."
+      },
+      {
+        "pergunta": "(Instituto Tupy - Prefeitura de São Bento do Sul - Médico Veterinário - 2024)Códigos binários, como os utilizados em transferência de mensagens digitais, são sequências de algarismos 0 e 1. Cada código é formado por uma sequência específica, ou seja, uma sequência com 2 algarismos pode representar quatro códigos distintos: 00; 01 ;10; 11. Desta forma, determine a quantidade de códigos binários distintos que podem ser formados com nove algarismos.",
+        "alternativas": ["a) 1000 códigos distintos.", 
+        "b) 256 códigos distintos.", 
+        "c) 32 códigos distintos.", 
+        "d) 512 códigos distintos.",
+        "e) 18 códigos distintos."],
+        "correta": "d) 512 códigos distintos.",
+        "explicacao": "Para resolver esta questão, precisamos entender como calcular a quantidade de códigos binários distintos que podem ser formados com um determinado número de algarismos. Um código binário é uma sequência de 0s e 1s. Se tivermos uma sequência de n algarismos, cada posição pode ser ocupada por um 0 ou um 1, resultando em 2 possibilidades por posição. Portanto, o número total de códigos binários distintos é dado por 2^n.<br>Para calcular a quantidade de códigos binários distintos que podem ser formados com nove algarismos, utilizamos a fórmula: 2n² <br>onde n é o número de algarismos. Neste caso, n = 9.<br>Portanto, temos:<br>2⁹<br>Calculando:2⁹=512<br>Assim, a quantidade de códigos binários distintos que podem ser formados com nove algarismos é 512."
+      },
+      {
+        "pergunta": "(IDECAN - PM CE - 2º Tenente QOPM - Oficial - 2023) Na Academia Estadual de Segurança Pública os futuros oficiais da Polícia Militar do Ceará possuem uma disciplina de inteligência onde estudam o código binário, meio pelo qual conseguem acessar o sistema guardião de informações. O comportamento do sistema de numeração binário é o mesmo do decimal, a menos do número de algarismos que compõe os sistemas. Determinado dia, o sistema guardião detectou que 1101 usuários foram flagrados passando informações sigilosas sobre planos de segurança interna do palácio do governo. O aluno do curso que estava em posse dessas informações deveria urgentemente repassar para seus superiores o número de usuários no sistema de numeração decimal. Qual valor o aluno deveria repassar?",
+        "alternativas": ["a) 9", 
+        "b) 10", 
+        "c) 11", 
+        "d) 12",
+        "e) 13"],
+        "correta": "e) 13",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(Objetiva Concursos - Prefeitura de Jaguariaíva - Agente Administrativo - 2023) Assinalar a alternativa que apresenta a forma decimal do número binário 101010:",
+        "alternativas": ["a) 26", 
+        "b) 38", 
+        "c) 42", 
+        "d) 54"],
+        "correta": "c) 42",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(FAU UNICENTRO - Prefeitura de Dois Vizinhos - Educador Artístico - 2023) Na linguagem binária são utilizados os elementos 0 ou 1 em sua escrita. Por exemplo, o número 3 é representado por 00000011. Se utilizarmos 8 posições para o 0 ou 1, quantos códigos diferentes conseguimos fazer?",
+        "alternativas": ["a) 8", 
+        "b) 64", 
+        "c) 128",
+        "d) 211",
+        "e) 256"],
+        "correta": "e) 256",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(Objetiva Concursos - Prefeitura de Canoas - Analista Municipal -Área: Gestor Contábil/Financeiro - 2023) O número 100 escrito em base binária é igual a:",
+        "alternativas": ["a) 0010011", 
+        "b) 1101000", 
+        "c) 1110001",
+        "d) 1100100",
+        "e) 0001011"],
+        "correta": "d) 1100100",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(AGIRH - Prefeitura de Roseira - Professor - Área: Matemática - 2022) O sistema binário ou de base 2 é um sistema de numeração posicional em que todas as quantidades se representam com base em dois números, ou seja, zero e um (0 e 1). Em relação ao número binário “1000”, analise as afirmações abaixo.<br>I- É um número primo;<br>II- É um número ímpar;<br>III- É um divisor de 4;<br>São afirmações corretas apenas:",
+        "alternativas": ["a) Apenas I.", 
+        "b) Apenas II.", 
+        "c) Apenas III.",
+        "d) I e II."],
+        "correta": "c) Apenas III.",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(INEP/ENEM - INEP - Enem - 2021) Uma das bases mais utilizadas para representar um número é a base decimal. Entretanto, os computadores trabalham com números na base binária. Nessa base, qualquer número natural é representado usando apenas os algarismos 0 e 1. Por exemplo, as representações dos números 9 e 12, na base binária, são 1001 e 1100, respectivamente. A operação de adição, na base binária, segue um algoritmo similar ao utilizado na base decimal, como detalhado no quadro:<br><img src='../dados/imgs/questao_desenvolvimento_91.png' alt='imagem da questão'><br>Por exemplo, na base binária, a soma dos números 10 e 10 é 100, como apresentado:<br>   10  <br>+ 10  <br>_____<br>  100   <br>Considerando as informações do texto, o resultado da adição 9 + 12 será representado, na base binária, por",
+        "alternativas": ["a) 101.", 
+        "b) 1101.", 
+        "c) 1111.",
+        "d) 10101.",
+        "e) 11001."],
+        "correta": "d) 10101.",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(AGIRH - Prefeitura de Roseira - Professor - Área: Matemática - 2020) Os computadores digitais trabalham internamente com dois níveis de tensão, pelo que o seu sistema de numeração natural é o sistema binário. O sistema binário ou de base 2 é um sistema de numeração posicional em que todas as quantidades se representam com base em dois números, ou seja, zero e um (0 e 1). Em relação ao número binário “0101”, analise as afirmações abaixo.   <br>I- É um número primo;  <br>II- É um número ímpar;  <br>III- É um divisor de 4;   <br>São afirmações corretas apenas: ",
+        "alternativas": ["a) I e II", 
+        "b) I e III", 
+        "c) II e III", 
+        "d) I, II e III"],
+        "correta": "a) I e II",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(Instituto AOCP - EMPREL - Assistente de Operações e Monitoramento - 2019) Os números binários são essenciais para a o processamento de dados em um computador. Sabendo disso, assinale a alternativa que apresenta corretamente o resultado da seguinte adição binária: <br><img src='../dados/imgs/questao_desenvolvimento_92.png' alt='imagem da questão'><br>",
+        "alternativas": ["a) 111", 
+        "b) 1100", 
+        "c) 1001", 
+        "d) 101",
+        "e) 000"],
+        "correta": "a) letra A",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(Instituto AOCP - EMPREL - Assistente de Operações e Monitoramento - 2019) Observe a seguinte multiplicação de dois números binários e assinale a alternativa que apresenta o resultado da multiplicação em binário e em decimal. <br><img src='../dados/imgs/questao_desenvolvimento_93.png' alt='imagem da questão'><br>",
+        "alternativas": ["a) 1100110 e 102.", 
+        "b) 1101011 e 107.", 
+        "c) 1001111 e 79.", 
+        "d) 1110101 e 117.",
+        "e) 1110111 e 165."],
+        "correta": "d) 1110101 e 117.",
+        "explicacao": "Números binários. Convertê-lo para o sistema decimal."
+      },
+      {
+        "pergunta": "(CEBRASPE – PC PB– 2022) Na linguagem Python, o tipo de uma variável em tempo de execução é definido pelo interpretador pelo recurso denominado",
+        "alternativas": ["a) tipagem dinâmica.", 
+        "b) modo interativo.", 
+        "c) sintaxe.", 
+        "d) interpretação bytecode.",
+        "e) empacotamento."],
+        "correta": "a) tipagem dinâmica.",
+        "explicacao": "Tipagem dinâmica é uma característica de determinadas linguagens de programação, que não exigem declarações de tipos de dados, pois são capazes de escolher que tipo utilizar dinamicamente para cada variável, podendo alterá-lo durante a compilação ou a execução do programa. (Gabarito: Letra A)"
+      },
+      {
+        "pergunta": "(CESGRANRIO – IPEA– 2024) Em Python, a classe list implementa o conceito genérico de lista, que tem como uma de suas características permitir acessar cada item unicamente por um índice. Outra propriedade importante das listas em Python é",
+        "alternativas": ["a) exigir que todos os objetos da lista sejam da mesma classe.", 
+        "b) garantir que cada elemento só esteja presente uma vez na lista.", 
+        "c) guardar pares chave-valor, que permitem achar um valor por meio da chave.", 
+        "d) manter os elementos sempre ordenados, do menor para o maior.",
+        "e) permitir a alteração do tamanho da lista pela inserção e pela remoção de elementos."],
+        "correta": "e) permitir a alteração do tamanho da lista pela inserção e pela remoção de elementos.",
+        "explicacao": "A propriedade importante das listas em Python mencionada na questão é a opção E, 'permitir a alteração do tamanho da lista pela inserção e pela remoção de elementos'. As listas em Python são estruturas de dados dinâmicas, o que significa que elas podem crescer ou encolher conforme necessário. Isso ocorre devido à capacidade das listas de permitir a inserção de novos elementos no final da lista (com o método append()) ou em posições específicas (com o método insert()), bem como a remoção de elementos (com os métodos pop() ou remove()), o que pode alterar o tamanho da lista."
+      },
+      {
+        "pergunta": "Considere a função em Python a seguir. <br>def sopares(dados):<br> for i in range(len(dados)): <br>  if dados[i] % 2 != 0: <br>  return False <br>return True <br>Qual função retorna os mesmos valores quando recebe uma lista de inteiros positivos?",
+        "alternativas": ["a) def sopares(dados): <br>return all(x % 2 == 0 for x in dados)", 
+        "b) def sopares(dados): <br>return all(x % 2 != 0 for x in dados)", 
+        "c) def sopares(dados): <br>return all(map(lambda x: x % 2 != 0, dados))", 
+        "d) def sopares(dados): <br>return next((True for x in dados if x % 2 == 0), False)",
+        "e) def sopares(dados): <br>for i in dados: <br> if i % 2 == 0: <br>  return True <br>return False"],
+        "correta": "a) def sopares(dados): <br>return all(x % 2 == 0 for x in dados)",
+        "explicacao": "A função que retorna os mesmos valores que a função fornecida quando recebe uma lista de inteiros positivos é a opção A: def sopares(dados): <br>return all(x % 2 == 0 for x in dados) <br>Nesta função, estamos usando a função all() em conjunto com uma expressão geradora para verificar se todos os elementos da lista dados são pares. A expressão x % 2 == 0 verifica se o número x é par, e all() retorna True se todos os elementos da expressão geradora forem verdadeiros, caso contrário, retorna False. Portanto, essa função verifica se todos os números na lista dados são pares e retorna True apenas se todos forem pares, o que é equivalente ao comportamento da função original fornecida."
+      },
+      {
+        "pergunta": "(FGV – MPE GO– 2022) Assinale a lista de números produzida pela execução, na IDLE Shell 3.9.9, do código Python a seguir. <br>for x in range(-1, -10, -1): <br>print (x)",
+        "alternativas": ["a) -1 -2 -3 -4 -5 -6 -7 -8 -9", 
+        "b) -9 -8 -7 -6 -5 -4 -3 -2 -1", 
+        "c) 0 -1 -2 -3 -4 -5 -6 -7 -8 -9", 
+        "d) 0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10",
+        "e) -1 -2 -3 -4 -5 -6 -7 -8 -9 -10"],
+        "correta": "a) -1 -2 -3 -4 -5 -6 -7 -8 -9",
+        "explicacao": "Pessoal, as bancas gostam muito de índices negativos, para dificultar um pouco. No caso da questão, é gerada uma sequência de números negativos iniciando em -1 e parando antes do -10 (ou seja, o for para no -9). O For é incrementado de -1 em -1 formando a sequência -1 -2 -3 -4 -5 -6 -7 -8 -9"
+      },
+      {
+        "pergunta": "(CESPE – DPE RO – 2022) Na linguagem Python, são consideradas sequências mutáveis as:",
+        "alternativas": ["a) strings", 
+        "b) cadeias", 
+        "c) tuplas", 
+        "d) listas",
+        "e) ranges"],
+        "correta": "d) listas",
+        "explicacao": "A lista é mutável, o que significa que podemos alterar, adicionar e remover itens em uma lista após ela ter sido criada. Portanto, as listas são consideradas sequências mutáveis."
+      },
+      {
+        "pergunta": "FGV – MPE SC – 2022) Analise o código Python a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_94.png' alt='imagem da questão'><br>Dado que os elementos de x1 podem ser exibidos em ordem aleatória, a linha que possivelmente é produzida pelo comando print na execução do código acima é:",
+        "alternativas": ["a) ['AA', 'BB', 'CC', 'BB', {'C', 'A', 'B'}]", 
+        "b) ['AA', 'BB', 'CC', 'BB', 'C', 'A', 'B', 'B']", 
+        "c) ['AA', 'BB', 'CC', 'BB', 'C', 'A', 'B']", 
+        "d) ['AA', 'BB', 'CC', ['BB'], {'B'}]",
+        "e) {'AA', 'BB', 'CC', 'BB', 'C', 'A', 'B'}"],
+        "correta": "a) ['AA', 'BB', 'CC', 'BB', {'C', 'A', 'B'}]",
+        "explicacao": "Pessoal, primeiramente devemos desconsiderar x1 já que o comando da questão diz que os elementos de x1 podem ser exibidos em ordem aleatória. Vejamos então a ordem de x2. Inicialmente temos um ['AA', 'BB', 'CC'] que consiste no x2 original. Após, teremos BB (devido ao x2.append ('BB')). Portanto ficamos com 'AA', 'BB', 'CC', 'BB'. Dessa forma ficamos entre as opções a,b, c e e. Porém, depois do x2 há um x1 (x2.append(x1)). Dessa forma, podemos ter um{'A', 'B', 'C'} em uma sequência aleatória – como diz o comando da questão. A única opção que possui um {'A', 'B', 'C'} em sequência aleatória é a letra A. (Gabarito: Letra A)."
+      },
+      {
+        "pergunta": "(CESPE – PC PB– 2022) Python é uma linguagem procedural que utiliza quatro tipos de dados predefinidos para lidar com coleções: conjuntos, dicionários, listas e tuplas. A respeito desses tipos de dados, julgue os itens a seguir. <br>I O conjunto permite o armazenamento de uma tupla, mas não o de uma lista. <br>II A tupla é idêntica à lista, exceto pela forma mais simples com que sua declaração é realizada. <br>III A lista é um tipo de dados variável que permite a alteração de seus elementos após a sua criação. <br>Assinale a opção correta.",
+        "alternativas": ["a) Apenas o item I está certo.", 
+        "b) Todos os itens estão certos.", 
+        "c) Apenas o item II está certo.", 
+        "d) Apenas os itens I e III estão certos.",
+        "e) Apenas os itens II e III estão certos."],
+        "correta": "d) Apenas os itens I e III estão certos.",
+        "explicacao": "Pessoal, vamos começar pelo erro do item II: Uma tupla é uma estrutura bastante similar a uma lista, com uma diferença especial: os elementos inseridos em uma tupla não podem ser alterados, o que não ocorre em uma lista, já que nesta podem ser alterados livremente. Ademais, vejamos o item I: conjunto permite o armazenamento de uma tupla, mas não o de uma lista. Está correto o item I, porque os elementos de um conjunto não são armazenados em uma ordem específica além disso, conjuntos não contém elementos repetidos. Portanto, conjuntos são diferentes de listas. Por fim, o item III está correto, é possível a alteração dos elementos de uma lista."
       }
 
 
