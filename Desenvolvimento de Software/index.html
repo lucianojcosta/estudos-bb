@@ -1718,7 +1718,7 @@
 
         <section>
 
-            <!-- AULA 00-->
+            <!-- AULA 03-->
     
             <h2>Aula 03 - DevOps</h2>
 
@@ -1820,6 +1820,1723 @@
 
             <p><strong>Ferramentas de DevOps</strong></p>
             <p style="text-align: center;"><img src="img/devops.ferramentas.png" alt="DevOps Ferramentas" width="95%"></p>
+
+        </section>
+
+        <section>
+
+            <!-- AULA 06 - Python-->
+
+            <h2>Aula 06 – Python</h1>
+
+            <h3>O que é Python?</h3>
+            <p>Python é uma linguagem de programação <strong>interpretada</strong>, <strong>de alto nível</strong>, <strong>dinâmica</strong> e <strong>multiplataforma</strong>. 
+            Foi criada para ser <em>simples de ler e escrever</em>, sem perder o poder de resolver problemas complexos. 
+            É usada em várias áreas: <strong>desenvolvimento web, automação, ciência de dados, inteligência artificial, análise de dados e DevOps</strong>.</p>
+
+            <h3>Principais Características</h3>
+
+            <p><strong>1. Linguagem de Alto Nível</strong></p>
+            <p>Sintaxe próxima da linguagem humana. O programador não precisa lidar com detalhes da máquina.</p>
+
+            <p><strong>2. Interpretada</strong></p>
+            <p>O código é executado <strong>linha por linha</strong> pelo interpretador, sem necessidade de compilação prévia.</p>
+
+            <p><strong>3. Multiparadigma</strong></p>
+            <p>Python suporta diferentes estilos de programação:</p>
+            <ul>
+                <li>Orientada a Objetos (OOP)</li>
+                <li>Funcional</li>
+                <li>Imperativa/Procedural</li>
+            </ul>
+
+            <p><strong>4. Orientada a Objetos</strong></p>
+            <p>Tudo em Python é um objeto. Suporta classes, herança e polimorfismo:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="amarelocodigo">class</span> Pessoa<span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="amarelocodigo">def</span> __init__(self, nome)<span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="trestab">self.nome <span class="rosacodigo">=</span> nome</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">p <span class="rosacodigo">=</span> Pessoa(<span class="verdelevecodigo">"Ana"</span>)</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="verdecodigo">print</span>(p.nome)</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <p><strong>5. Tipagem Forte e Dinâmica</strong></p>
+            <p><strong>Forte:</strong> não permite misturar tipos incompatíveis.</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"5"</span> <span class="rosacodigo">+</span> <span class="roxocodigo">3</span>)  <span class="verdecodigo"># ERRO</span></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <p><strong>Dinâmica:</strong> não precisa declarar tipo, ele é atribuído em tempo de execução.</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">x <span class="rosacodigo">=</span> <span class="roxocodigo">10</span> <span class="verdecodigo"># int</span></td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">x <span class="rosacodigo">=</span> <span class="verdelevecodigo">"dez"</span> <span class="verdecodigo"># agora é str</span></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+            <p>Importante: A função input() sempre retorna uma string (str), independentemente do que o usuário digite.</p>
+
+            <p><strong>6. Portável / Multiplataforma</strong></p>
+            <p>O mesmo código roda em Windows, Linux, macOS e outros sistemas.</p>
+
+            <p><strong>7. Sintaxe Simples</strong></p>
+            <p>Usa indentação (espaços) para definir blocos de código:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="amarelocodigo">if</span> <span class="roxocodigo">5</span> <span class="rosacodigo">&#62;</span> <span class="roxocodigo">2</span><span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"Cinco é maior que dois"</span>)</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <p><strong>8. Biblioteca Padrão Rica</strong></p>
+            <p>Inclui módulos para arquivos, redes, data/hora, matemática, expressões regulares e muito mais.</p>
+
+            <p><strong>9. Gerenciamento Automático de Memória</strong></p>
+            <p>Possui <em>garbage collector</em> que libera memória automaticamente.</p>
+
+            <p><strong>10. Comunidade e Open Source</strong></p>
+            <p>Python é gratuito, de código aberto e possui milhares de pacotes disponíveis no <strong>PyPI</strong>.</p>
+
+            <h3>🧾 Estruturas Básicas</h3>
+
+            <h4>Variáveis</h4>
+            <p>Variáveis são contêineres para armazenar valores de dados. Python não tem comando para declarar uma variável. Em Python, as variáveis são criadas quando você atribui um valor a ela:</p>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">x <span class="rosacodigo">=</span> <span class="roxocodigo">5</span></td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">y <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Olá, Mundo!"</span></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <p>Regras para nomes de variáveis:</p>
+            <ul>
+                <li>Deve começar com uma letra ou o caractere sublinhado</li>
+                <li>Não pode começar com um número</li>
+                <li>Pode conter apenas caracteres alfanuméricos e sublinhados (AZ, 0-9, E_)</li>
+                <li>Diferenciam maiúsculas de minúsculas</li>
+            </ul>
+
+            <h4>Tipos de dados</h4>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Tipo de Dado</th>
+                            <th>Descrição</th>
+                            <th>Exemplo</th>
+                        </tr>
+                        <tr>
+                            <th>Texto</th>
+                            <td>str</td>
+                            <td>x = "Hello World"</td>
+                        </tr>
+                        <tr>
+                            <th>Numéricos</th>
+                            <td>int, float, complex</td>
+                            <td>int: x= "20"<br>float: x = 20.5<br>complex: x = 1j</td>
+                        </tr>
+                        <tr>
+                            <th>Sequência</th>
+                            <td>list, tupla, range</td>
+                            <td>List: x = ["maçã", "banana", "cereja"]<br>Tupla: x = ("maçã", "banana", "cereja")<br>Range: x = range(6)</td>
+                        </tr>
+                        <tr>
+                            <th>Mapeamento</th>
+                            <td>dict</td>
+                            <td>Dict: x = {"nomw=e" : "John", "idade" : 36}</td>
+                        </tr>
+                        <tr>
+                            <th>Conjunto</th>
+                            <td>set, frozenset</td>
+                            <td>Set: x = {"maçã", "banana", "cereja"}<br>Frozenset: x = frozenset({"maçã", "banana", "cereja"})</td>
+                        </tr>
+                        <tr>
+                            <th>Booleano</th>
+                            <td>bool</td>
+                            <td>x = True<br>y = False</td>
+                        </tr>
+                        <tr>
+                            <th>Binário</th>
+                            <td>bytes, bytearray, memoryview</td>
+                            <td>Bytes: x = b"Hello"<br>Bytearray: x = bytearray(5)<br>Memoryview: x = memoryview(bytes(5))</td>
+                        </tr>
+                        <tr>
+                            <th>Nenhum tipo</th>
+                            <td>NoneType</td>
+                            <td>NoneType x = None</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>String em Python</h3>
+            <p>
+                Como muitas outras linguagens de programação populares, strings em Python são arrays de bytes que representam caracteres unicode. 
+                No entanto, o Python não possui um tipo de dado de caractere, um único caractere é simplesmente uma string com comprimento 1. 
+                Colchetes podem ser usados para acessar elementos da string.
+            </p>
+
+            <p>Como muitas outras linguagens de programação populares, <strong>strings</strong> em Python são <strong>arrays de bytes</strong> que <strong>representam caracteres unicode</strong>. No entanto, o <strong>Python não possui um tipo de dado de caractere</strong>, um único caractere é simplesmente uma string com comprimento 1. Colchetes podem ser usados para acessar elementos da string.
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                <span class="azulcodigo">a</span> <span class="rosacodigo">=</span> "Hello, World!"<br>
+                                <span class="verdecodigo">print</span>(a[1])
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>No exemplo, o resultado será “e” porque o array inicia em 0 (zero).</p>
+
+            <p>
+                Como strings são arrays, podemos fazer um loop pelos caracteres em uma string com um loop for.
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                <span class="azulcodigo">for</span> x <span class="azulcodigo">in</span> "banana":<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(x)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Para obter o comprimento de uma string, use a função len().</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                a <span class="rosacodigo">=</span> "Hello, World!"<br>
+                                <span class="verdecodigo">print</span>(<span class="azulcodigo">len</span>(a))
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Para verificar se uma determinada palavra ou caractere está presente em uma string, podemos usar a palavra-chave 
+                in.
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                txt <span class="rosacodigo">=</span> "Estratégia Concursos é referência na preparação de alunos "<br>
+                                <span class="verdecodigo">print</span>("Concursos" <span class="azulcodigo">in</span> txt)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>É possível procurar uma palavra dentro de uma instrução if:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                txt <span class="rosacodigo">=</span> "Estratégia Concursos é referência na preparação de alunos "<br>
+                                <span class="azulcodigo">if</span> "Estratégia" <span class="azulcodigo">in</span> txt:<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>("Sim!, Estratégia está presente no texto.")
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Há muitas funções que podem ser utilizadas em strings. Uma delas é o <strong>slice</strong>, que retorna um 
+                intervalo de caracteres usando a sintaxe de fatiamento [início:fim].
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                b <span class="rosacodigo">=</span> "Estratégia Concursos!"<br>
+                                <span class="verdecodigo">print</span>(b[2:5])
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>O exemplo acima retorna “tra”. O índice final é <em>não-inclusivo</em>, ou seja, o caractere de b[5] não é retornado.</p>
+
+            <p>Ao omitir o índice inicial, o intervalo começará no primeiro caractere:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                b <span class="rosacodigo">=</span> "Estratégia Concursos!"<br>
+                                <span class="verdecodigo">print</span>(b[:10])
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Esse exemplo retorna apenas o texto "Estratégia".</p>
+
+            <p>Já ao omitir o índice final, o intervalo vai até o final da string:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                b <span class="rosacodigo">=</span> "Estratégia Concursos!"<br>
+                                <span class="verdecodigo">print</span>(b[11:])
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Esse exemplo retorna apenas " Concursos!".</p>
+
+            <p>Também é possível usar índices negativos para iniciar o corte a partir do final da string:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                b <span class="rosacodigo">=</span> "Estratégia Concursos!"<br>
+                                <span class="verdecodigo">print</span>(b[-10])
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>O exemplo acima retorna apenas o caractere "C".</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Métodos para modificar strings</th>
+                            <th>Descrição</th>
+                        </tr>
+                        <tr>
+                            <th>upper()</th>
+                            <td>Retorna a string em maiúsculas</td>
+                        </tr>
+                        <tr>
+                            <th>lower()</th>
+                            <td>Retorna a string em minúsculas</td>
+                        </tr>
+                        <tr>
+                            <th>strip()</th>
+                            <td>Remove qualquer espaço em branco do início ou do fim</td>
+                        </tr>
+                        <tr>
+                            <th>replace()</th>
+                            <td>Substitui uma string por outra string. Ex: replace("h", "j")</td>
+                        </tr>
+                        <tr>
+                            <th>split()</th>
+                            <td>Retorna uma lista em que o texto entre o separador especificado se torna os itens da lista.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h4>Operadores em Python</h4>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="3">Operadores aritméticos Python</th>
+                        </tr>
+                        <tr>
+                            <th>+</th>
+                            <td>Adição</td>
+                            <td>x + y</td>
+                        </tr>
+                        <tr>
+                            <th>-</th>
+                            <td>Subtração</td>
+                            <td>x - y</td>
+                        </tr>
+                        <tr>
+                            <th>*</th>
+                            <td>Multiplicação</td>
+                            <td>x * y</td>
+                        </tr>
+                        <tr>
+                            <th>/</th>
+                            <td>Divisão</td>
+                            <td>x / y</td>
+                        </tr>
+                        <tr>
+                            <th>%</th>
+                            <td>Módulo</td>
+                            <td>x % y</td>
+                        </tr>
+                        <tr>
+                            <th>**</th>
+                            <td>Exponenciação</td>
+                            <td>x ** y</td>
+                        </tr>
+                        <tr>
+                            <th>//</th>
+                            <td>Divisão inteira</td>
+                            <td>x // y</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Os operadores de atribuição são usados para atribuir valores a variáveis:</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Função</th>
+                            <th>Descrição</th>
+                            <th>Igual a</th>
+                        </tr>
+                        <tr>
+                            <th>=</th>
+                            <td>x = 5</td>
+                            <td>x = 5</td>
+                        </tr>
+                        <tr>
+                            <th>+=</th>
+                            <td>x += 3</td>
+                            <td>x = x + 3</td>
+                        </tr>
+                        <tr>
+                            <th>-=</th>
+                            <td>x -= 3</td>
+                            <td>x = x - 3</td>
+                        </tr>
+                        <tr>
+                            <th>*=</th>
+                            <td>x *= 3</td>
+                            <td>x = x * 3</td>
+                        </tr>
+                        <tr>
+                            <th>/=</th>
+                            <td>x /= 3</td>
+                            <td>x = x / 3</td>
+                        </tr>
+                        <tr>
+                            <th>%=</th>
+                            <td>x %= 3</td>
+                            <td>x = x % 3</td>
+                        </tr>
+                        <tr>
+                            <th>//=</th>
+                            <td>x //= 3</td>
+                            <td>x = x // 3</td>
+                        </tr>
+                        <tr>
+                            <th>**=</th>
+                            <td>x **= 3</td>
+                            <td>x = x ** 3</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Os operadores de comparação são usados para comparar dois valores:</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Função</th>
+                            <th>Descrição</th>
+                            <th>Igual a</th>
+                        </tr>
+                        <tr>
+                            <th>==</th>
+                            <td>Igual</td>
+                            <td>x == y</td>
+                        </tr>
+                        <tr>
+                            <th>!=</th>
+                            <td>Diferente</td>
+                            <td>x != y</td>
+                        </tr>
+                        <tr>
+                            <th>></th>
+                            <td>Maior que</td>
+                            <td>x > y</td>
+                        </tr>
+                        <tr>
+                            <th><</th>
+                            <td>Menor que</td>
+                            <td>x < y</td>
+                        </tr>
+                        <tr>
+                            <th>>=</th>
+                            <td>Maior ou igual a</td>
+                            <td>x >= y</td>
+                        </tr>
+                        <tr>
+                            <th><=</th>
+                            <td>Menor ou igual a</td>
+                            <td>x <= y</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Os operadores lógicos são usados para combinar instruções condicionais:</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Operador</th>
+                            <th>Descrição</th>
+                            <th>Exemplo</th>
+                        </tr>
+                        <tr>
+                            <th>and</th>
+                            <td>Retorna True se ambas as declarações forem verdadeiras</td>
+                            <td>x < 5 and x < 10</td>
+                        </tr>
+                        <tr>
+                            <th>or</th>
+                            <td>Retorna True se uma das declarações for verdadeira</td>
+                            <td>x < 5 or x < 4</td>
+                        </tr>
+                        <tr>
+                            <th>not</th>
+                            <td>Inverte o resultado, retorna False se o resultado for verdadeiro</td>
+                            <td>not(x < 5 and x < 10)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Os operadores de identidade são usados para comparar os objetos, não se forem iguais, mas <strong>se forem realmente o mesmo objeto</strong>, com a <strong>mesma localização de memória:</strong></p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Operador</th>
+                            <th>Descrição</th>
+                            <th>Exemplo</th>
+                        </tr>
+                        <tr>
+                            <th>is</th>
+                            <td>Retorna True se ambas as variáveis forem o mesmo objeto</td>
+                            <td>x is y</td>
+                        </tr>
+                        <tr>
+                            <th>is not</th>
+                            <td>Retorna True se ambas as variáveis não forem o mesmo objeto</td>
+                            <td>x is not y</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Os operadores de associação são usados para testar se uma sequência é apresentada em um objeto:</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Operador</th>
+                            <th>Descrição</th>
+                            <th>Exemplo</th>
+                        </tr>
+                        <tr>
+                            <th>in</th>
+                            <td>Retorna True se uma sequência com o valor especificado estiver presente no objeto</td>
+                            <td>x in y</td>
+                        </tr>
+                        <tr>
+                            <th>not in</th>
+                            <td>Retorna True se uma sequência com o valor especificado não estiver presente no objeto</td>
+                            <td>x not in y</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Coleções em Python</h3>
+
+            <h4>Listas</h4>
+
+            <p>
+                As listas são usadas para armazenar vários itens em uma única variável. São um dos 4 tipos de dados internos do Python usados para armazenar coleções de dados. As listas são criadas usando colchetes:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja"]<br>
+                                <span class="verdecodigo">print</span>(lista1)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Os itens da lista são ordenados, alteráveis e permitem valores duplicados.
+                O primeiro item possui índice [0], o segundo [1], e assim por diante.
+            </p>
+
+            <p>
+                A lista é mutável, ou seja, podemos alterar, adicionar e remover itens após sua criação.
+                Como são indexadas, listas podem conter itens com o mesmo valor:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista2 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja", "maçã", "cereja"]<br>
+                                <span class="verdecodigo">print</span>(lista2)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Para determinar quantos itens uma lista possui, use a função len():
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista3 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja"]<br>
+                                <span class="verdecodigo">print</span>(<span class="azulcodigo">len</span>(lista3))
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Os itens da lista podem ser de qualquer tipo de dados:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja"]<br>
+                                lista2 <span class="rosacodigo">=</span> [1, 5, 7, 9, 3]<br>
+                                lista3 <span class="rosacodigo">=</span> [True, False, False]
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Uma lista pode conter diferentes tipos de dados:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["abc", 34, True, 40, "masculino"]
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Os itens da lista podem ser acessados pelos índices:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja"]<br>
+                                <span class="verdecodigo">print</span>(lista1[1]) <span class="cinzacodigo"># imprime "banana"</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                A indexação negativa começa pelo fim: -1 é o último item, -2 o penúltimo, etc.
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja"]<br>
+                                <span class="verdecodigo">print</span>(lista1[-1]) <span class="cinzacodigo"># imprime "cereja"</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Podemos especificar intervalos de índices para retornar uma sublista:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja", "laranja", "kiwi", "melão", "manga"]<br>
+                                <span class="verdecodigo">print</span>(lista1[2:5]) <span class="cinzacodigo"># ['cereja', 'laranja', 'kiwi']</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Para verificar se um item está presente em uma lista, use a palavra-chave in:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja"]<br>
+                                <span class="azulcodigo">if</span> "maçã" <span class="azulcodigo">in</span> lista1:<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>("Sim, 'maçã' é uma fruta da lista")
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Para alterar o valor de um item específico, consulte o índice correspondente:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja"]<br>
+                                lista1[1] <span class="rosacodigo">=</span> "abacaxi"<br>
+                                <span class="verdecodigo">print</span>(lista1) <span class="cinzacodigo"># ['maçã', 'abacaxi', 'cereja']</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Também é possível alterar múltiplos valores em um intervalo de índices:
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab">
+                                lista1 <span class="rosacodigo">=</span> ["maçã", "banana", "cereja", "laranja", "kiwi", "manga"]<br>
+                                lista1[1:3] <span class="rosacodigo">=</span> ["abacaxi", "melancia"]<br>
+                                <span class="verdecodigo">print</span>(lista1) <span class="cinzacodigo"># ['maçã', 'abacaxi', 'melancia', 'laranja', 'kiwi', 'manga']</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                Python possui diversos métodos embutidos que podem ser usados em listas/matrizes, que veremos a seguir.
+            </p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Método</th>
+                            <th>Descrição</th>
+                        </tr>
+                        <tr>
+                            <th>append()</th>
+                            <td>Adiciona um elemento no final da lista</td>
+                        </tr>
+                        <tr>
+                            <th>clear()</th>
+                            <td>Remove todos os elementos da lista</td>
+                        </tr>
+                        <tr>
+                            <th>copy()</th>
+                            <td>Retorna uma cópia da lista</td>
+                        </tr>
+                        <tr>
+                            <th>count()</th>
+                            <td>Retorna o número de elementos com o valor especificado</td>
+                        </tr>
+                        <tr>
+                            <th>extend()</th>
+                            <td>Adiciona os elementos de uma lista (ou qualquer iterável), ao final da lista atual</td>
+                        </tr>
+                        <tr>
+                            <th>index()</th>
+                            <td>Retorna o índice do primeiro elemento com o valor especificado</td>
+                        </tr>
+                        <tr>
+                            <th>insert()</th>
+                            <td>Adiciona um elemento na posição especificada</td>
+                        </tr>
+                        <tr>
+                            <th>pop()</th>
+                            <td>Remove o elemento na posição especificada</td>
+                        </tr>
+                        <tr>
+                            <th>remove()</th>
+                            <td>Remove o primeiro item com o valor especificado</td>
+                        </tr>
+                        <tr>
+                            <th>reverse()</th>
+                            <td>Inverte a ordem da lista</td>
+                        </tr>
+                        <tr>
+                            <th>sort()</th>
+                            <td>Ordena os elementos da lista em ordem crescente (por padrão)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Você pode percorrer os itens da lista usando um loop for:</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                </tr>
+                <tr>
+                    <td class="umtab">
+                    <span class="azulcodigo">lista1</span> <span class="rosacodigo">=</span> ["maçã", "banana", "laranja"]<br>
+                    <span class="azulcodigo">for</span> x <span class="azulcodigo">in</span> lista1:<br>
+                    &nbsp;&nbsp;<span class="verdecodigo">print</span>(x)
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Além disso, é possível percorrer os itens da lista consultando seu número de índice. Use as funções range() e len() para criar um iterável adequado.</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                </tr>
+                <tr>
+                    <td class="umtab">
+                    <span class="azulcodigo">lista1</span> <span class="rosacodigo">=</span> ["maçã", "banana", "laranja"]<br>
+                    <span class="azulcodigo">for</span> i <span class="azulcodigo">in</span> <span class="azulcodigo">range</span>(<span class="azulcodigo">len</span>(lista1)):<br>
+                    &nbsp;&nbsp;<span class="verdecodigo">print</span>(lista1[i])
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Outra forma de percorrer a lista é usando um loop while. Use a função len() para determinar o comprimento da lista, então comece em 0 e faça um loop pelos itens da lista consultando seus índices. Lembre-se de aumentar o índice em 1 após cada iteração.</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                </tr>
+                <tr>
+                    <td class="umtab">
+                    <span class="azulcodigo">lista1</span> <span class="rosacodigo">=</span> ["maçã", "banana", "laranja"]<br>
+                    i <span class="rosacodigo">=</span> 0<br>
+                    <span class="azulcodigo">while</span> i &lt; <span class="azulcodigo">len</span>(lista1)<br>
+                    &nbsp;&nbsp;<span class="verdecodigo">print</span>(lista1[i])<br>
+                    &nbsp;&nbsp;i <span class="rosacodigo">=</span> i + 1
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+            
+            <h4>Tuplas</h4>
+
+            <p>Tuplas são usadas para <strong>armazenar vários itens em uma única variável</strong>. Tupla é um dos 4 tipos de dados internos do Python usados para <strong>armazenar coleções de dados</strong>, os outros 3 são List, Set e Dictionary, todos com qualidades e usos diferentes. Uma tupla é uma <strong>coleção ordenada e imutável</strong>.</p>
+
+            <p>Os itens de tupla são <strong>indexados</strong>, o <strong>primeiro item possui índice [0]</strong>, o segundo item possui índice [1], e assim sucessivamente. Quando dizemos que as tuplas estão ordenadas, significa que os itens têm uma ordem definida, e <strong>essa ordem não será alterada</strong>.</p>
+
+            <p class="destaqueVermelho">As tuplas são imutáveis, o que significa que não podemos alterar, adicionar ou remover itens após a criação da tupla. </p>
+
+            <p>Como as tuplas são indexadas, elas <strong>podem ter itens com o mesmo valor</strong>, ou seja, tuplas permitem duplicatas:</p>
+
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                </tr>
+                <tr>
+                    <td class="umtab">tupla1 <span class="rosacodigo">=</span> ("maça", "banana", "laranja","maça")</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Para determinar quantos itens uma tupla possui, use a função <strong>len()</strong>:</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                </tr>
+                <tr>
+                    <td class="umtab"><span class="verdecodigo">print</span>(<span class="azulcodigo">len</span>(tupla1))</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Os itens de tupla podem ser de <strong>qualquer tipo de dados:</strong></p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    tupla1 <span class="rosacodigo">=</span> ("maça", "banana", "laranja") <span class="comentario">#tupla de strings</span><br>
+                    tupla2 <span class="rosacodigo">=</span> (1, 5, 7, 9, 3) <span class="comentario">#tupla de inteiros</span><br>
+                    tupla3 <span class="rosacodigo">=</span> (True, False, False) <span class="comentario">#tupla de booleanos</span><br>
+                    tupla4 <span class="rosacodigo">=</span> ("abc", 34, True, 40, "masculino") <span class="comentario">#diversos tipos</span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Para acessar os itens da tupla, é possível consultar o número do índice, entre colchetes:</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    tupla1 <span class="rosacodigo">=</span> ("maça", "banana", "laranja")<br>
+                    <span class="verdecodigo">print</span>(tupla1[1]) <span class="comentario">#imprime banana</span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Também é possível acessar tuplas com índice negativo:</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    tupla1 <span class="rosacodigo">=</span> ("maça", "banana", "laranja")<br>
+                    <span class="verdecodigo">print</span>(tupla1[-1]) <span class="comentario">#imprime laranja</span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Tuplas são imutáveis, mas é possível excluí-las com a palavra-chave <strong>del</strong></p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    tupla1 <span class="rosacodigo">=</span> ("maça", "banana", "laranja")<br>
+                    <span class="azulcodigo">del</span> tupla1
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>É possível percorrer os itens da tupla usando um loop <strong>for</strong>:</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    tupla1 <span class="rosacodigo">=</span> ("maçã", "banana", "laranja")<br>
+                    <span class="azulcodigo">for</span> x <span class="azulcodigo">in</span> tupla1:<br>
+                    &nbsp;&nbsp;<span class="verdecodigo">print</span>(x)
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Também é possível percorrer os itens da tupla com índices. Use as funções range()e len() para criar um iterável adequado.</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    tupla1 <span class="rosacodigo">=</span> ("maçã", "banana", "laranja")<br>
+                    <span class="azulcodigo">for</span> i <span class="azulcodigo">in</span> <span class="azulcodigo">range</span>(<span class="azulcodigo">len</span>(tupla1)):<br>
+                    &nbsp;&nbsp;<span class="verdecodigo">print</span>(tupla1[i])
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Outra forma é com um loop <strong>while</strong>. Use a função <strong>len()</strong> para <strong>determinar o comprimento da tupla</strong>, então comece em 0 e <strong>faça um loop pelos itens da tupla consultando seus índices</strong>. Lembre-se, sempre, de aumentar o índice em 1 após cada iteração.</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    tupla1 <span class="rosacodigo">=</span> ("maçã", "banana", "laranja")<br>
+                    i <span class="rosacodigo">=</span> 0<br>
+                    <span class="azulcodigo">while</span> i &lt; <span class="azulcodigo">len</span>(tupla1):<br>
+                    &nbsp;&nbsp;<span class="verdecodigo">print</span>(tupla1[i])<br>
+                    &nbsp;&nbsp;i <span class="rosacodigo">=</span> i + 1
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Tuplas podem ser concatenadas com <strong>+</strong>:</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    tupla1 <span class="rosacodigo">=</span> ("a", "b", "c")<br>
+                    tupla2 <span class="rosacodigo">=</span> (1, 2, 3)<br>
+                    tupla3 <span class="rosacodigo">=</span> tupla1 + tupla2<br>
+                    <span class="verdecodigo">print</span>(tupla3)
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <p>Python possui dois métodos integrados que você pode usar em tuplas.</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Método</th>
+                            <th>Descrição</th>
+                        </tr>
+                        <tr>
+                            <th>count()</th>
+                            <td>Retorna o número de vezes que um valor especificado ocorre em uma tupla</td>
+                        </tr>
+                        <tr>
+                            <th>index()</th>
+                            <td>Procura na tupla um valor especificado e retorna a posição de onde foi encontrado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Também é possível multiplicar os itens da tupla usando <strong>*</strong>:</p>
+            <div class="tabelaEditorCodigo">
+            <table>
+                <tbody>
+                <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                <tr>
+                    <td class="umtab">
+                    frutas <span class="rosacodigo">=</span> ("maçã", "banana", "laranja")<br>
+                    tupla1 <span class="rosacodigo">=</span> frutas * 2<br>
+                    <span class="verdecodigo">print</span>(tupla1)<br>
+                    <span class="comentario"># imprime ('maçã', 'banana', 'laranja', 'maçã', 'banana', 'laranja')</span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <h4>Conjuntos (Sets)</h4>
+
+            <p>Conjuntos, também conhecidos como <em><strong>SETs</strong></em>, são usados para armazenar vários itens em uma única variável. 
+            Um <strong>conjunto</strong> é uma <strong>coleção não ordenada, mutável e não indexada</strong>. São escritos com chaves:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">conjunto1</span> <span class="rosacodigo">=</span> {<span class="amarelocodigo">"maça"</span>, <span class="amarelocodigo">"banana"</span>, <span class="amarelocodigo">"cereja"</span>}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">print</span>(conjunto1)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Não ordenado significa que os <strong>itens em um conjunto não têm uma ordem definida</strong>. 
+            Os itens do conjunto podem aparecer em uma ordem diferente toda vez que você os usa e <strong>não podem ser referenciados por índice ou chave</strong>.</p>
+
+            <p>Um conjunto (set) é <strong>mutável</strong>, ou seja, <strong>é possível adicionar e remover elementos após sua criação</strong>, <strong>mas os elementos devem ser imutáveis</strong>. 
+            Além disso, <strong>conjuntos não aceitam itens duplicados</strong>.É possível determinar quantos itens um conjunto possui usando a função <strong>len()</strong>. 
+
+            <p><strong>Não é possível</strong> acessar itens em um conjunto fazendo referência a <strong>um índice ou a uma chave</strong>. Mas você pode <strong>percorrer os itens</strong> do conjunto <strong>usando um loop for</strong> ou perguntar se um valor especificado está presente em um conjunto, usando a palavra-chave <strong>in</strong>.</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">thisset</span> <span class="rosacodigo">=</span> {<span class="amarelocodigo">"maça"</span>, <span class="amarelocodigo">"banana"</span>, <span class="amarelocodigo">"cereja"</span>}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="roxocodigo">for</span> x <span class="roxocodigo">in</span> thisset:</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(x)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p><strong>Não é possível alterar itens</strong> depois que um conjunto é criado, mas é possível <strong>adicionar novos itens</strong> com o método <strong>add()</strong>:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">thisset</span> <span class="rosacodigo">=</span> {<span class="amarelocodigo">"maça"</span>, <span class="amarelocodigo">"banana"</span>, <span class="amarelocodigo">"cereja"</span>}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">thisset.add(<span class="amarelocodigo">"laranja"</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Para adicionar <strong>itens de outro conjunto ao conjunto atual</strong>, use o método <strong>update()</strong>:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">thisset</span> <span class="rosacodigo">=</span> {<span class="amarelocodigo">"maça"</span>, <span class="amarelocodigo">"banana"</span>, <span class="amarelocodigo">"cereja"</span>}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">tropical</span> <span class="rosacodigo">=</span> {<span class="amarelocodigo">"pinemaça"</span>, <span class="amarelocodigo">"mango"</span>, <span class="amarelocodigo">"papaya"</span>}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">thisset.update(tropical)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>O objeto no método <strong>update()</strong> não precisa ser um conjunto, <strong>pode ser qualquer objeto iterável (tupla, lista, dicionário, etc.)</strong>:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">thisset</span> <span class="rosacodigo">=</span> {<span class="amarelocodigo">"maça"</span>, <span class="amarelocodigo">"banana"</span>, <span class="amarelocodigo">"cereja"</span>}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">mylist</span> <span class="rosacodigo">=</span> [<span class="amarelocodigo">"kiwi"</span>, <span class="amarelocodigo">"laranja"</span>]</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">thisset.update(mylist)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Para remover itens, use <strong>remove() ou discard()</strong>. 
+            A diferença é que <strong>remove() gera erro se o item não existir</strong>, enquanto <strong>discard() não gera erro</strong>:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">thisset</span> <span class="rosacodigo">=</span> {<span class="amarelocodigo">"maça"</span>, <span class="amarelocodigo">"banana"</span>, <span class="amarelocodigo">"cereja"</span>}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">thisset.remove(<span class="amarelocodigo">"banana"</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Além de <strong>remove()</strong> e <strong>discard()</strong>, temos o método <strong>pop()</strong> (remove um item aleatório), 
+            o método <strong>clear() (esvazia o conjunto)</strong>, e a palavra-chave <strong>del (apaga o conjunto por completo)</strong>.</p>
+
+            <p>Também é possível unir conjuntos. O método <strong>union() cria um novo conjunto</strong> com todos os itens, 
+            e o método <strong>update() adiciona os itens de um conjunto em outro</strong>. Ambos excluirão quaisquer itens duplicados.</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo"><td class="linhaEditorCodigo">Python</td></tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">set1</span> <span class="rosacodigo">=</span> {<span class="amarelocodigo">"a"</span>, <span class="amarelocodigo">"b"</span>, <span class="amarelocodigo">"c"</span>}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">set2</span> <span class="rosacodigo">=</span> {1, 2, 3}</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">set3</span> <span class="rosacodigo">=</span> set1.union(set2)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">set1.update(set2)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Abaixo é apresentada a tabela contendo o conjunto de métodos integrados que você pode usar em conjuntos.</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tr><th>Método</th><th>Descrição</th></tr>
+                    <tr><td>add()</td><td>Adiciona um elemento ao conjunto</td></tr>
+                    <tr><td>clear()</td><td>Remove todos os elementos do conjunto</td></tr>
+                    <tr><td>copy()</td><td>Retorna uma cópia do conjunto</td></tr>
+                    <tr><td>difference()</td><td>Retorna um conjunto contendo a diferença entre dois ou mais conjuntos</td></tr>
+                    <tr><td>difference_update()</td><td>Remove os itens neste conjunto que também estão incluídos em outro conjunto especificado</td></tr>
+                    <tr><td>discard()</td><td>Remove o item especificado</td></tr>
+                    <tr><td>intersection()</td><td>Retorna um conjunto, que é a interseção de dois outros conjuntos</td></tr>
+                    <tr><td>intersection_update()</td><td>Remove os itens neste conjunto que não estão presentes em outros conjuntos especificados</td></tr>
+                    <tr><td>isdisjoint()</td><td>Retorna se dois conjuntos têm uma interseção ou não</td></tr>
+                    <tr><td>issubset()</td><td>Retorna se outro conjunto contém este conjunto ou não</td></tr>
+                    <tr><td>issuperset()</td><td>Retorna se este conjunto contém outro conjunto ou não</td></tr>
+                    <tr><td>pop()</td><td>Remove um elemento do conjunto</td></tr>
+                    <tr><td>remove()</td><td>Remove o elemento especificado (gera erro se não existir)</td></tr>
+                    <tr><td>symmetric_difference()</td><td>Retorna um conjunto com as diferenças simétricas de dois conjuntos</td></tr>
+                    <tr><td>symmetric_difference_update()</td><td>Insere as diferenças simétricas deste conjunto e de outro</td></tr>
+                    <tr><td>union()</td><td>Retorna um conjunto contendo a união de conjuntos</td></tr>
+                    <tr><td>update()</td><td>Atualize o conjunto com a união deste conjunto e outros</td></tr>
+                </table>
+            </div>
+
+            <h4>Dicionários</h4>
+
+            <p>Os <strong>dicionários</strong> em Python são usados para armazenar valores de dados em pares <strong>chave:valor</strong>. 
+            Um dicionário é uma <strong>coleção ordenada</strong> - a partir do Python 3.7, <strong>mutável</strong> e que <strong>não permite duplicatas</strong>. Os dicionários possuem <strong>chaves e valores</strong>:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">carros</span> = {<span class="laranjacodigo">"marca"</span>: <span class="laranjacodigo">"Toyota"</span>, 
+                    <span class="laranjacodigo">"modelo"</span>: <span class="laranjacodigo">"Corolla Cross"</span>, 
+                    <span class="laranjacodigo">"ano"</span>: <span class="laranjacodigo">2022</span>}
+
+                    <span class="verdecodigo">print</span>(carros[<span class="laranjacodigo">"modelo"</span>])
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Para referenciar um item do dicionário, usamos o <strong>nome da chave</strong>. 
+            No exemplo acima, <code>print(carros["modelo"])</code> retorna <em>Corolla Cross</em>.</p>
+
+            <p>Quando dizemos que os dicionários estão <strong>ordenados</strong>, significa que os <strong>itens têm uma ordem definida</strong>, <strong>e essa ordem não será alterada</strong>.</p>
+            <p>Por outro lado, <strong><strong>não ordenado</strong></strong> significa que <strong>não podemos fazer referência a um item usando índice numérico</strong>, apenas pelas chaves.</p>
+            <p>Os dicionários são <strong>mutáveis</strong>, ou seja, podemos alterar, adicionar ou remover itens após a criação.</p>
+            <p>Além disso, <strong>não podem conter duas chaves iguais</strong>.</p>
+
+
+            <p><strong>Métodos mais usados em dicionários:</strong></p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Método</th>
+                            <th>Descrição</th>
+                        </tr>
+                        <tr>
+                            <td>clear()</td>
+                            <td>Remove todos os elementos do dicionário</td>
+                        </tr>
+                        <tr>
+                            <td>copy()</td>
+                            <td>Retorna uma cópia do dicionário</td>
+                        </tr>
+                        <tr>
+                            <td>fromkeys()</td>
+                            <td>Retorna um dicionário com as chaves e o valor especificados</td>
+                        </tr>
+                        <tr>
+                            <td>get()</td>
+                            <td>Retorna o valor da chave especificada</td>
+                        </tr>
+                        <tr>
+                            <td>items()</td>
+                            <td>Retorna uma lista contendo uma tupla para cada par de valores-chave</td>
+                        </tr>
+                        <tr>
+                            <td>keys()</td>
+                            <td>Retorna uma lista contendo as chaves do dicionário</td>
+                        </tr>
+                        <tr>
+                            <td>pop()</td>
+                            <td>Remove o elemento com a chave especificada</td>
+                        </tr>
+                        <tr>
+                            <td>popitem()</td>
+                            <td>Remove o último par de valores-chave inserido</td>
+                        </tr>
+                        <tr>
+                            <td>setdefault()</td>
+                            <td>Retorna o valor da chave especificada. Se a chave não existir: insira a chave, com o valor especificado</td>
+                        </tr>
+                        <tr>
+                            <td>update()</td>
+                            <td>Atualiza o dicionário com os pares de valores-chave especificados</td>
+                        </tr>
+                        <tr>
+                            <td>values()</td>
+                            <td>Retorna uma lista de todos os valores no dicionário</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h4>Comparação - Listas, Tuplas, Set e Dicionários</h4>
+
+            <p><strong>Comparação entre estruturas:</strong></p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Critério</th>
+                            <th>List</th>
+                            <th>Tuple</th>
+                            <th>Set</th>
+                            <th>Dictionary</th>
+                        </tr>
+                        <tr>
+                            <td>Ordenação</td>
+                            <td>Ordenada</td>
+                            <td>Ordenada</td>
+                            <td>Não ordenada</td>
+                            <td>Não ordenada</td>
+                        </tr>
+                        <tr>
+                            <td>Modificação</td>
+                            <td>Mutável</td>
+                            <td>Imutável</td>
+                            <td>Mutável</td>
+                            <td>Mutável</td>
+                        </tr>
+                        <tr>
+                            <td>Duplicatas</td>
+                            <td>Permite</td>
+                            <td>Permite</td>
+                            <td>Não permite</td>
+                            <td>Não permite</td>
+                        </tr>
+                        <tr>
+                            <td>Indexação</td>
+                            <td>Por inteiro</td>
+                            <td>Por inteiro</td>
+                            <td>Não indexada</td>
+                            <td>Por string</td>
+                        </tr>
+                        <tr>
+                            <td>Delimitador</td>
+                            <td>Entre colchetes[ ]</td>
+                            <td>Entre parênteses ( )</td>
+                            <td>Entre chaves { }</td>
+                            <td>Entre chaves { }</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Estruturas de Controle</h3>
+
+            <h4>Condições</h4>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">idade <span class="rosacodigo">=</span> <span class="roxocodigo">20</span></td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="amarelocodigo">if</span> idade <span class="rosacodigo">&#62;=</span> <span class="roxocodigo">18</span><span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"Maior de idade"</span>)</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="amarelocodigo">else:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"Menor de idade"</span>)</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <h4>Laços</h4>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="amarelocodigo">for</span> i <span class="amarelocodigo">in</span> <span class="verdecodigo">range</span>(<span class="roxocodigo">3</span>)<span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="verdecodigo">print</span>(i)</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"></td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">j <span class="rosacodigo">=</span> <span class="roxocodigo">0</span></td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="amarelocodigo">while</span> j <span class="rosacodigo">&#60;</span> <span class="roxocodigo">3</span><span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="verdecodigo">print</span>(j)</td>
+                    </tr>
+                    <tr>
+                    <td class="doistab">j <span class="rosacodigo">+=</span> <span class="roxocodigo">1</span></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <h3>Funções</h3>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="amarelocodigo">def</span> saudacao(nome)<span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="amarelocodigo">return</span> <span class="verdelevecodigo">f"Olá, {nome}!"</span></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <h4>Lambda (funções anônimas)</h4>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">dobro <span class="rosacodigo">=</span> <span class="amarelocodigo">lambda</span> x<span class="rosacodigo">:</span> x <span class="rosacodigo">*</span> <span class="roxocodigo">2</span></td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="verdecodigo">print</span>(dobro(<span class="roxocodigo">5</span>)) <span class="verdecodigo"># 10</span></td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <h3>Classes e Objetos</h3>
+            <div class="tabelaEditorCodigo">
+                <table>
+                <tbody>
+                    <tr class="cabecalhoEditorCodigo">
+                    <td class="linhaEditorCodigo">Python</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="amarelocodigo">class</span> Pessoa<span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="amarelocodigo">def</span> __init__(self, nome, idade)<span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="tresstab">self.nome <span class="rosacodigo">=</span> nome</td>
+                    </tr>
+                    <tr>
+                    <td class="tresstab">self.idade <span class="rosacodigo">=</span> idade</td>
+                    </tr>
+                    <tr>
+                    <td class="doistab"><span class="amarelocodigo">def</span> apresentar(self)<span class="rosacodigo">:</span></td>
+                    </tr>
+                    <tr>
+                    <td class="tresstab"><span class="amarelocodigo">return</span> <span class="verdelevecodigo">f"Meu nome é {self.nome} e tenho {self.idade} anos."</span></td>
+                    </tr>
+                    <tr>
+                    <td class="umtab">p <span class="rosacodigo">=</span> Pessoa(<span class="verdelevecodigo">"Carlos"</span>, <span class="roxocodigo">30</span>)</td>
+                    </tr>
+                    <tr>
+                    <td class="umtab"><span class="verdecodigo">print</span>(p.apresentar())</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+            <h3>Automação com Python</h3>
+            <ul>
+                <li><strong>PyAutoGUI</strong> → automação de mouse e teclado</li>
+                <li><strong>Selenium</strong> → automação de navegadores</li>
+                <li><strong>OpenPyXL / XlsxWriter</strong> → planilhas Excel</li>
+                <li><strong>PDFMiner / ReportLab</strong> → manipulação de PDFs</li>
+                <li><strong>Robot Framework / TagUI</strong> → automação de processos (RPA)</li>
+            </ul>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <!-- AULA EXTRA - NÚMEROS BINÁRIOS-->
+    
+            <h2>Números Binários</h2>
+            <p>
+                O sistema binário é um sistema de numeração posicional que utiliza apenas dois dígitos: 
+                <strong>0</strong> e <strong>1</strong>. Cada posição representa uma potência de 2, assim como no sistema decimal cada posição representa uma potência de 10.
+            </p>
+
+            <h3>Potências de 2 (Correspondência das Casas)</h3>
+            <p>
+                Da direita para a esquerda, cada casa em binário vale o dobro da anterior:
+            </p>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>4</li>
+                <li>8</li>
+                <li>16</li>
+                <li>32</li>
+                <li>64</li>
+                <li>128</li>
+                <li>256</li>
+                <li>512</li>
+                <li>1024 ...</li>
+            </ul>
+
+            <h3>Tabela de Conversão</h3>
+            <table border="1" cellpadding="6" cellspacing="0">
+                <thead>
+                <tr>
+                    <th>Decimal</th>
+                    <th>Binário</th>
+                    <th>Hexadecimal</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr><td>0</td><td>0000</td><td>0</td></tr>
+                <tr><td>1</td><td>0001</td><td>1</td></tr>
+                <tr><td>2</td><td>0010</td><td>2</td></tr>
+                <tr><td>3</td><td>0011</td><td>3</td></tr>
+                <tr><td>4</td><td>0100</td><td>4</td></tr>
+                <tr><td>5</td><td>0101</td><td>5</td></tr>
+                <tr><td>6</td><td>0110</td><td>6</td></tr>
+                <tr><td>7</td><td>0111</td><td>7</td></tr>
+                <tr><td>8</td><td>1000</td><td>8</td></tr>
+                <tr><td>9</td><td>1001</td><td>9</td></tr>
+                <tr><td>10</td><td>1010</td><td>A</td></tr>
+                <tr><td>11</td><td>1011</td><td>B</td></tr>
+                <tr><td>12</td><td>1100</td><td>C</td></tr>
+                <tr><td>13</td><td>1101</td><td>D</td></tr>
+                <tr><td>14</td><td>1110</td><td>E</td></tr>
+                <tr><td>15</td><td>1111</td><td>F</td></tr>
+                </tbody>
+            </table>
+
+            <h2>Soma e Subtração em Binário</h2>
+
+            <h3>Soma</h3>
+            <p>
+                A soma em binário segue quatro regras simples:
+            </p>
+            <ul>
+                <li>0 + 0 = 0</li>
+                <li>0 + 1 = 1</li>
+                <li>1 + 0 = 1</li>
+                <li>1 + 1 = 10 (vai 1 para a próxima casa)</li>
+            </ul>
+            <p><strong>Exemplo:</strong></p>
+            <pre style="text-align: left;">
+   1011   (11 em decimal)
++  0110   (6 em decimal)
+   -----
+   10001   (17 em decimal)
+            </pre>
+
+            <h3>Subtração</h3>
+            <p>
+                A subtração em binário também tem quatro regras:
+            </p>
+            <ul>
+                <li>0 - 0 = 0</li>
+                <li>1 - 0 = 1</li>
+                <li>1 - 1 = 0</li>
+                <li>0 - 1 = 1 (com empréstimo da casa seguinte)</li>
+            </ul>
+            <p><strong>Exemplo:</strong></p>
+            <pre style="text-align: left;">
+   1011   (11 em decimal)
+-  0110   (6 em decimal)
+   -----
+   0101   (5 em decimal)
+            </pre>
 
         </section>
 
