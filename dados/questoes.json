@@ -5321,7 +5321,7 @@
         "explicacao": "Perfeito! Na estrutura em fila, o elemento retirado será aquele que está alocado na frente da fila, que é composta justamente do elemento mais antigo que foi adicionado ao conjunto de dados - assim como uma fila indiana. Portanto, correta a afirmativa."
       },
       {
-        "pergunta": "(VUNESP/TCM SP/2023) Considere uma estrutura de dados do tipo pilha, inicialmente vazia, que possui as operações típicas de inserção e remoção de elementos, denominadas PUSH e POP.<br>Nessa estrutura, foram executadas as seguintes operações, nesta ordem.<br><img src='../dados/imgs/questao_desenvolvimento_25.png' alt='imagem da questão'><br>Após a realização de todas essas operações, o número de elementos na pilha e o valor armazenado no topo da pilha serão, respectivamente,",
+        "pergunta": "(VUNESP/TCM SP/2023) Considere uma estrutura de dados do tipo pilha, inicialmente vazia, que possui as operações típicas de inserção e remoção de elementos, denominadas PUSH e POP.<br>Nessa estrutura, foram executadas as seguintes operações, nesta ordem.<br><img src='../dados/imgs/questao_desenvolvimento_97.png' alt='imagem da questão'><br>Após a realização de todas essas operações, o número de elementos na pilha e o valor armazenado no topo da pilha serão, respectivamente,",
         "alternativas": ["a) 0 e 0.", 
         "b) 1 e 1.",
         "c) 1 e 5.",
@@ -7578,6 +7578,66 @@
         "e) Apenas os itens II e III estão certos."],
         "correta": "d) Apenas os itens I e III estão certos.",
         "explicacao": "Pessoal, vamos começar pelo erro do item II: Uma tupla é uma estrutura bastante similar a uma lista, com uma diferença especial: os elementos inseridos em uma tupla não podem ser alterados, o que não ocorre em uma lista, já que nesta podem ser alterados livremente. Ademais, vejamos o item I: conjunto permite o armazenamento de uma tupla, mas não o de uma lista. Está correto o item I, porque os elementos de um conjunto não são armazenados em uma ordem específica além disso, conjuntos não contém elementos repetidos. Portanto, conjuntos são diferentes de listas. Por fim, o item III está correto, é possível a alteração dos elementos de uma lista."
+      },
+      {
+        "pergunta": "Analise o código Python a seguir.<br>x = 0 y = 20 try: print(y/x) except: print('Deu erro!') else: print('Ok') finally: print('The end')<br>A saída produzida pela execução desse trecho é:",
+        "alternativas": ["a) None The end", 
+        "b) Deu erro! The end", 
+        "c) Deu erro! Ok", 
+        "d) Ok The end",
+        "e) None Ok The end"],
+        "correta": "b) Deu erro! The end",
+        "explicacao": "Questão de tratamento de exceções. Ele vai tentar fazer a divisão por 0 e vai dar erro, ativando a exceção (except)."
+      },
+      {
+        "pergunta": "(FGV – FunSaúde CE– 2021) Observe o código Python v2.7 <br>def F (a, b): <br>  while a != b: <br>    if a > b: <br>      a = a - b <br>    elif b > a: <br>      b -= a <br>  return a <br>Assinale o valor retornado para F (48,36).",
+        "alternativas": ["a) 1", 
+        "b) 12", 
+        "c) 24", 
+        "d) 36",
+        "e) 48"],
+        "correta": "b) 12",
+        "explicacao": "O código consiste em um loop seguido de um condicional. O loop while roda enquanto a variável a tiver um valor diferente de b, assim, resolve-se a condicional. Como 48 é diferente de 36, entramos no condicional, se 48>36 então, a vai receber a – b. a = 46 e b = 36. A vai receber = 12 e retorna esse valor que será impresso. Assim, nosso gabarito é a letra B."
+      },
+      {
+        "pergunta": "(FGV – TCU – 2022) A execução desse código na IDLE Shell produz, na ordem e exclusivamente, os números:<br><img src='../dados/imgs/questao_desenvolvimento_96.png' alt='imagem da questão'>",
+        "alternativas": ["a) 6,1", 
+        "b) 5, 3, 1", 
+        "c) 6, 4, 2", 
+        "d) 1, 3, 5",
+        "e) 2, 4, 6"],
+        "correta": "c) 6, 4, 2",
+        "explicacao": "Pessoal, precisamos entender o que a função faz. xpto consiste em uma função com um for que percorre S. Caso o valor k da lista S seja par (2, 4, 6), então ele cria uma lista (S) com os valores pares (2, 4, 6). Veja que o retorno da função é exatamente a lista gerada pelo yield(S[k]). Agora vamos para o código principal. Após a criação da lista S=[1,2,3,4,5,6], temos for x in xpto(S[::-1]): nesse ponto devemos ficar atentos ao -1. O -1 inverte a lista. Enviando para xpto a lista [6,5,4,3,2,1]. Assim, quando passar pela função xpto, teremos como resultado apenas os valores pares de [6,5,4,3,2,1], ou seja, 6,4,2. Portanto o gabarito é a letra c."
+      },
+      {
+        "pergunta": "(FGV – MPE GO– 2022) Assinale a lista de números produzida pela execução, na IDLE Shell 3.9.9, do código Python a seguir. <br>for x in range(-1, -10, -1): <br>  print (x)",
+        "alternativas": ["a) -1 -2 -3 -4 -5 -6 -7 -8 -9", 
+        "b) -9 -8 -7 -6 -5 -4 -3 -2 -1", 
+        "c) 0 -1 -2 -3 -4 -5 -6 -7 -8 -9", 
+        "d) 0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10",
+        "e) -1 -2 -3 -4 -5 -6 -7 -8 -9 -10"],
+        "correta": "a) -1 -2 -3 -4 -5 -6 -7 -8 -9",
+        "explicacao": "Pessoal, as bancas gostam muito de índices negativos, para dificultar um pouco. No caso da questão, é gerada uma sequência de números negativos iniciando em -1 e parando antes do -10 (ou seja, o for para no -9). O For é incrementado de -1 em -1 formando a sequência -1 -2 -3 -4 -5 -6 -7 -8 -9."
+      },
+      {
+        "pergunta": "(FGV – PC AM– 2022) Considere o código Python a seguir. <br>L=[0,1,1,2,3,5,8,13,21] <br> k in range(0,len(L),2): <br>print (L[k]) Assinale o resultado exibido pela execução desse código, na IDLE Shell 3.9.9.",
+        "alternativas": ["a) 1, 2, 5, 13", 
+        "b) 0, 1, 3, 8, 21, 1, 2, 5, 13, 21", 
+        "c) 1, 3, 8, 21, 1, 2, 5, 13, 21", 
+        "d) 0, 1, 3, 8, 21",
+        "e) 0, 1, 3, 8"],
+        "correta": "d) 0, 1, 3, 8, 21",
+        "explicacao": "A questão consiste em um for que percorre a lista L e avança de 2 em 2 posições (for k in range(0,len(L),2):). Ele percorre sempre de 2 em 2 posições, portanto, a variável k procurará os valores das posições pares: Posições 0,2,4,6,8. Tenham em mente que o valor da posição 0 é 0, da posição 1 é 1, da posição 2 é 1, da posição 3 é 2 e assim por diante, veja: L=[0,1,1,2,3,5,8,13,21]. Se for necessário, desenhe as listas (uma em cima da outra) POSIÇÕES = [0,1,2,3,4,5,6,7,8,9] LISTA = [0,1,1,2,3,5,8,13,21]."
+      },
+      {
+        "pergunta": "(FGV – MPE SC– 2022) Analise o código Python a seguir. <br>s=0 <br>for k in range(16,10, -2): <br>s -= k <br>print (s) <br>O valor exibido pela execução desse trecho é:",
+        "alternativas": ["a) 0", 
+        "b) -28", 
+        "c) -30", 
+        "d) -42",
+        "e) -52"],
+        "correta": "d) -42",
+        "explicacao": "Pessoal, for k in range(16,10, -2):gera 16,14 e 12. Nessa sequência. s -= k vai somar os valores negativos da seguinte forma: -16 - 14 e -12 que gera como resultado -42"
       }
 
 
