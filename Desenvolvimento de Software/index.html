@@ -3183,7 +3183,7 @@
             </div>
 
             <p>Para referenciar um item do dicionário, usamos o <strong>nome da chave</strong>. 
-            No exemplo acima, <code>print(carros["modelo"])</code> retorna <em>Corolla Cross</em>.</p>
+            No exemplo acima, print(carros["modelo"]) retorna <em>Corolla Cross</em>.</p>
 
             <p>Quando dizemos que os dicionários estão <strong>ordenados</strong>, significa que os <strong>itens têm uma ordem definida</strong>, <strong>e essa ordem não será alterada</strong>.</p>
             <p>Por outro lado, <strong><strong>não ordenado</strong></strong> significa que <strong>não podemos fazer referência a um item usando índice numérico</strong>, apenas pelas chaves.</p>
@@ -3304,62 +3304,438 @@
             <h3>Estruturas de Controle</h3>
 
             <h4>Condições</h4>
+
+            <p>Python suporta as condições lógicas usuais da matemática. Essas condições podem ser usadas de várias maneiras, mais comumente em <b>instruções if</b> e <b>loops</b>.</p>
+
+            <p>Uma instrução <b>if</b> é escrita usando a palavra-chave <b>if</b>.</p>
+
             <div class="tabelaEditorCodigo">
                 <table>
-                <tbody>
-                    <tr class="cabecalhoEditorCodigo">
-                    <td class="linhaEditorCodigo">Python</td>
-                    </tr>
-                    <tr>
-                    <td class="umtab">idade <span class="rosacodigo">=</span> <span class="roxocodigo">20</span></td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"><span class="amarelocodigo">if</span> idade <span class="rosacodigo">&#62;=</span> <span class="roxocodigo">18</span><span class="rosacodigo">:</span></td>
-                    </tr>
-                    <tr>
-                    <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"Maior de idade"</span>)</td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"><span class="amarelocodigo">else:</span></td>
-                    </tr>
-                    <tr>
-                    <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"Menor de idade"</span>)</td>
-                    </tr>
-                </tbody>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">a</span> <span class="rosacodigo">=</span> 33</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">b</span> <span class="rosacodigo">=</span> 200</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">if</span> <span class="azulcodigo">b</span> <span class="rosacodigo">&gt;</span> <span class="azulcodigo">a</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"B é maior que A"</span>)</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
 
-            <h4>Laços</h4>
+            <p>Vejamos as condições lógicas usuais da matemática que podem ser utilizadas:</p>
+
+            <ul>
+                <li><b>Igual a:</b> a == b</li>
+                <li><b>Diferente:</b> a != b</li>
+                <li><b>Menor que:</b> a &lt; b</li>
+                <li><b>Menor ou igual a:</b> a &lt;= b</li>
+                <li><b>Maior que:</b> a &gt; b</li>
+                <li><b>Maior ou igual a:</b> a &gt;= b</li>
+            </ul>
+
+            <p>
+            Python é diferente de outras linguagens como C e Java, que usam colchetes para definir o escopo de um código. 
+            Python usa a <b>indentação</b> (espaço em branco no início de uma linha) para definir o escopo no código. 
+            </p>
+
+            <p>
+            Além da instrução <b>if</b>, há a instrução <b>elif</b>. Elif nada mais é que um <b>else</b> com um <b>if</b>, ou seja, "senão se". 
+            </p>
+
             <div class="tabelaEditorCodigo">
                 <table>
-                <tbody>
-                    <tr class="cabecalhoEditorCodigo">
-                    <td class="linhaEditorCodigo">Python</td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"><span class="amarelocodigo">for</span> i <span class="amarelocodigo">in</span> <span class="verdecodigo">range</span>(<span class="roxocodigo">3</span>)<span class="rosacodigo">:</span></td>
-                    </tr>
-                    <tr>
-                    <td class="doistab"><span class="verdecodigo">print</span>(i)</td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"></td>
-                    </tr>
-                    <tr>
-                    <td class="umtab">j <span class="rosacodigo">=</span> <span class="roxocodigo">0</span></td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"><span class="amarelocodigo">while</span> j <span class="rosacodigo">&#60;</span> <span class="roxocodigo">3</span><span class="rosacodigo">:</span></td>
-                    </tr>
-                    <tr>
-                    <td class="doistab"><span class="verdecodigo">print</span>(j)</td>
-                    </tr>
-                    <tr>
-                    <td class="doistab">j <span class="rosacodigo">+=</span> <span class="roxocodigo">1</span></td>
-                    </tr>
-                </tbody>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">a</span> <span class="rosacodigo">=</span> 33</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">b</span> <span class="rosacodigo">=</span> 33</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">if</span> <span class="azulcodigo">a</span> <span class="rosacodigo">&gt;</span> <span class="azulcodigo">b</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"A é maior que B"</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">if</span> <span class="azulcodigo">b</span> <span class="rosacodigo">&gt;</span> <span class="azulcodigo">a</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"B é maior que A"</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">elif</span> <span class="azulcodigo">a</span> <span class="rosacodigo">==</span> <span class="azulcodigo">b</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"A e B são iguais"</span>)</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
+
+            <p>Neste caso, será impresso: <i>"A e B são iguais"</i>.</p>
+
+            <p>
+            O <b>else</b> é usado para capturar o resultado do que não “entrar” no <b>if</b>.
+            </p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">idade</span> <span class="rosacodigo">=</span> 18</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">if</span> <span class="azulcodigo">idade</span> <span class="rosacodigo">&gt;=</span> 18<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">'maior de idade'</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">else</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">'menor de idade'</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Também é possível encadear várias condições:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">idade</span> <span class="rosacodigo">=</span> 18</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">if</span> <span class="azulcodigo">idade</span> <span class="rosacodigo">&lt;</span> 12<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">'crianca'</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">elif</span> <span class="azulcodigo">idade</span> <span class="rosacodigo">&lt;</span> 18<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">'adolescente'</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">elif</span> <span class="azulcodigo">idade</span> <span class="rosacodigo">&lt;</span> 60<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">'adulto'</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">else</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">'idoso'</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Também é possível escrever uma condição em uma única linha:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">a</span> <span class="rosacodigo">=</span> 2</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">b</span> <span class="rosacodigo">=</span> 330</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">
+                                <span class="verdecodigo">print</span>(<span class="verdelevecodigo">"A"</span>) 
+                                <span class="amarelocodigo">if</span> <span class="azulcodigo">a</span> <span class="rosacodigo">&gt;</span> <span class="azulcodigo">b</span> 
+                                <span class="amarelocodigo">else</span> <span class="verdecodigo">print</span>(<span class="verdelevecodigo">"B"</span>)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p><b>Operadores lógicos</b> permitem combinar condições:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">a</span> <span class="rosacodigo">=</span> 200</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">b</span> <span class="rosacodigo">=</span> 33</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">c</span> <span class="rosacodigo">=</span> 500</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">if</span> <span class="azulcodigo">a</span> <span class="rosacodigo">&gt;</span> <span class="azulcodigo">b</span> <span class="rosacodigo">and</span> <span class="azulcodigo">c</span> <span class="rosacodigo">&gt;</span> <span class="azulcodigo">a</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"Ambas condições são verdadeiras"</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">a</span> <span class="rosacodigo">=</span> 200</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">b</span> <span class="rosacodigo">=</span> 33</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">c</span> <span class="rosacodigo">=</span> 500</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">if</span> <span class="azulcodigo">a</span> <span class="rosacodigo">&gt;</span> <span class="azulcodigo">b</span> <span class="rosacodigo">or</span> <span class="azulcodigo">c</span> <span class="rosacodigo">&gt;</span> <span class="azulcodigo">a</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">"Uma das condições é verdadeira"</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Por fim, a palavra-chave <b>not</b> inverte o resultado: se a condição for verdadeira, retorna falso.</p>
+
+            <p>Tabela dos operadores nas condições</p>
+
+            <div class="tabelaExplica">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Operador</th>
+                            <th>Descrição</th>
+                            <th>Exemplo</th>
+                        </tr>
+
+                        <tr>
+                            <td><b>and</b></td>
+                            <td>Retorna <i>True</i> se todas as condições forem verdadeiras.</td>
+                            <td>x &gt; 1 <b>and</b> x &lt; 5</td>
+                        </tr>
+                        <tr>
+                            <td><b>or</b></td>
+                            <td>Retorna <i>True</i> se uma das condições for verdadeira.</td>
+                            <td>x &gt; 1 <b>or</b> x &lt; 5</td>
+                        </tr>
+                        <tr>
+                            <td><b>not</b></td>
+                            <td>Inverte o resultado da condição.</td>
+                            <td><b>not</b>(x &gt; 1 <b>and</b> x &lt; 5)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Python While Loops</h2>
+
+            <p>Com o loop <b>while</b> podemos executar um conjunto de instruções desde que uma condição seja verdadeira. O loop <b>while</b> requer que as variáveis relevantes estejam prontas, no exemplo abaixo precisamos definir uma variável de indexação, <span class="azulcodigo">i</span>, que definimos como 1.</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">i</span> <span class="rosacodigo">=</span> 1</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">while</span> <span class="azulcodigo">i</span> <span class="rosacodigo">&lt;</span> 6<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">i</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="azulcodigo">i</span> <span class="rosacodigo">+=</span> 1 <span class="verdelevecodigo"># imprime 1 2 3 4 5 (um abaixo do outro)</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Além disso, podemos parar uma estrutura de repetição utilizando a instrução <b>break</b>. Com <b>break</b> podemos parar o loop mesmo se a condição <b>while</b> for verdadeira. A instrução <b>continue</b> pula a iteração atual e continua com a próxima.</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">i</span> <span class="rosacodigo">=</span> 1</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">while</span> <span class="azulcodigo">i</span> <span class="rosacodigo">&lt;</span> 6<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">i</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">if</span> <span class="azulcodigo">i</span> <span class="rosacodigo">==</span> 3<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="trestab"><span class="amarelocodigo">break</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="azulcodigo">i</span> <span class="rosacodigo">+=</span> 1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>No exemplo acima, será impresso na tela 1 2 3. O loop para quando a condição do <b>if</b> é satisfeita.</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">i</span> <span class="rosacodigo">=</span> 0</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">while</span> <span class="azulcodigo">i</span> <span class="rosacodigo">&lt;</span> 6<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="azulcodigo">i</span> <span class="rosacodigo">+=</span> 1</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="amarelocodigo">if</span> <span class="azulcodigo">i</span> <span class="rosacodigo">==</span> 3<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="trestab"><span class="amarelocodigo">continue</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="verdelevecodigo">i</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Será impresso todos os números de 1 a 6, exceto o 3. A instrução <b>continue</b> interrompe a iteração atual e prossegue com a próxima.</p>
+
+            <h4>Loop for em Python</h4>
+
+            <p>Um loop <b>for</b> é usado para iterar sobre uma sequência (lista, tupla, conjunto, dicionário ou string). Traduzindo para o português, for é "para", ou seja, a sintaxe é: para uma lista de valores de 1 até 10 (por exemplo), faça isso. Um bom exemplo: para um vetor de 10 variáveis imprima o valor de cada variável. Isso seria traduzido em algo como:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">numeros</span> <span class="rosacodigo">=</span> [1,2,3,4,5,6,7,8,9,10]</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">for</span> <span class="azulcodigo">x</span> <span class="amarelocodigo">in</span> <span class="azulcodigo">numeros</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="azulcodigo">x</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Também é possível iterar sobre strings:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">umaStringQualquer</span> <span class="rosacodigo">=</span> <span class="verdelevecodigo">"Estrategia Concursos"</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">for</span> <span class="azulcodigo">x</span> <span class="amarelocodigo">in</span> <span class="azulcodigo">umaStringQualquer</span><span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="azulcodigo">x</span>)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Usando o loop <strong>for</strong> é possível executar um conjunto de instruções, <strong>uma vez para cada item</strong> de uma lista, tupla, conjunto etc. É possível usar o comando <strong>break</strong> e <strong>continue</strong> no loop for.</p>
+
+            <p>Uma das formas mais usadas é utilizar o range(). O range() retorna uma <strong>sequência de números</strong>, começando do 0(zero) (por padrão), incrementando por 1 (por padrão) e termina no número especificado. Ela pode ser utilizada em conjunto com a função <strong>for</strong> para iterar sobre <strong>um bloco de instruções por um número específico de vezes</strong>. Vamos ver como funciona:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">for</span> <span class="azulcodigo">x</span> <span class="amarelocodigo">in</span> <span class="amarelocodigo">range</span>(6)<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="azulcodigo">x</span>) <span class="verdelevecodigo"># Imprimirá 0 1 2 3 4 5</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Lembrem-se também que essa função pode ser um pouco mais complexa quando possui todos os seus três parâmetros: <strong>start</strong>, <strong>stop</strong> e <strong>step</strong>. Vejamos um exemplo:</p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="amarelocodigo">for</span> <span class="azulcodigo">x</span> <span class="amarelocodigo">in</span> <span class="amarelocodigo">range</span>(2, 20, 3)<span class="rosacodigo">:</span></td>
+                        </tr>
+                        <tr>
+                            <td class="doistab"><span class="verdecodigo">print</span>(<span class="azulcodigo">x</span>) <span class="verdelevecodigo"># Imprimirá 2 5 8 11 14 17</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>Note que o for itera sobre o conjunto de valores que se inicia em 2 (incluso) até 20 (não incluso), pulando de três em três unidades.</p>
+
 
             <h3>Funções</h3>
             <div class="tabelaEditorCodigo">
