@@ -5750,7 +5750,7 @@
         "c) Azul.", 
         "d) Verde.",
         "e) Vermelho."],
-        "correta": "b) Amarelo",
+        "correta": "b) Amarelo.",
         "explicacao": "<br><img src='../dados/imgs/questao_desenvolvimento_32.png' alt='imagem da questão'><br>Conforme vimos em aula, basta consultar a tabelinha! O primeiro é o time Azul (O(1)) e o segundo é o time Amarelo (O(n log n))."
       },
       {
@@ -7580,7 +7580,7 @@
         "explicacao": "Pessoal, vamos começar pelo erro do item II: Uma tupla é uma estrutura bastante similar a uma lista, com uma diferença especial: os elementos inseridos em uma tupla não podem ser alterados, o que não ocorre em uma lista, já que nesta podem ser alterados livremente. Ademais, vejamos o item I: conjunto permite o armazenamento de uma tupla, mas não o de uma lista. Está correto o item I, porque os elementos de um conjunto não são armazenados em uma ordem específica além disso, conjuntos não contém elementos repetidos. Portanto, conjuntos são diferentes de listas. Por fim, o item III está correto, é possível a alteração dos elementos de uma lista."
       },
       {
-        "pergunta": "Analise o código Python a seguir.<br>x = 0 y = 20 try: print(y/x) except: print('Deu erro!') else: print('Ok') finally: print('The end')<br>A saída produzida pela execução desse trecho é:",
+        "pergunta": "(FGV/MPE-SC/2022) Analise o código Python a seguir.<br>x = 0 y = 20 try: print(y/x) except: print('Deu erro!') else: print('Ok') finally: print('The end')<br>A saída produzida pela execução desse trecho é:",
         "alternativas": ["a) None The end", 
         "b) Deu erro! The end", 
         "c) Deu erro! Ok", 
@@ -7630,7 +7630,7 @@
         "explicacao": "A questão consiste em um for que percorre a lista L e avança de 2 em 2 posições (for k in range(0,len(L),2):). Ele percorre sempre de 2 em 2 posições, portanto, a variável k procurará os valores das posições pares: Posições 0,2,4,6,8. Tenham em mente que o valor da posição 0 é 0, da posição 1 é 1, da posição 2 é 1, da posição 3 é 2 e assim por diante, veja: L=[0,1,1,2,3,5,8,13,21]. Se for necessário, desenhe as listas (uma em cima da outra) POSIÇÕES = [0,1,2,3,4,5,6,7,8,9] LISTA = [0,1,1,2,3,5,8,13,21]."
       },
       {
-        "pergunta": "(FGV – MPE SC– 2022) Analise o código Python a seguir. <br>s=0 <br>for k in range(16,10, -2): <br>s -= k <br>print (s) <br>O valor exibido pela execução desse trecho é:",
+        "pergunta": "(FGV – MPE SC – 2022) Analise o código Python a seguir. <br>s=0 <br>for k in range(16,10, -2): <br>s -= k <br>print (s) <br>O valor exibido pela execução desse trecho é:",
         "alternativas": ["a) 0", 
         "b) -28", 
         "c) -30", 
@@ -7638,8 +7638,127 @@
         "e) -52"],
         "correta": "d) -42",
         "explicacao": "Pessoal, for k in range(16,10, -2):gera 16,14 e 12. Nessa sequência. s -= k vai somar os valores negativos da seguinte forma: -16 - 14 e -12 que gera como resultado -42"
+      },
+      {
+        "pergunta": "(FGV – TCE-RO – 2022) Analise o código em Python a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_100.png' alt='imagem da questão'><br>O resultado exibido será:",
+        "alternativas": ["a) 0", 
+        "b) 1", 
+        "c) 5", 
+        "d) 10",
+        "e) 50"],
+        "correta": "c) ",
+        "explicacao": "Questão do vídeo 13."
+      },
+      {
+        "pergunta": "(FGV – CGE-SC – 2023) Analise o código em Python a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_98.png' alt='imagem da questão'><br>O resultado exibido será:",
+        "alternativas": ["a) 2", 
+        "b) 4", 
+        "c) 6", 
+        "d) 3",
+        "e) 5"],
+        "correta": "c) 6",
+        "explicacao": "Questão do vídeo 13."
+      },
+      {
+        "pergunta": "(FGV – TCE-AM – 2021) A execução desse código:<br><img src='../dados/imgs/questao_desenvolvimento_99.png' alt='imagem da questão'>",
+        "alternativas": ["a) não tem efeito, pois nenhum comando print é acionado;", 
+        "b) provoca a exibição do número 10 na saída;", 
+        "c) provoca a exibição dos números de 1 até 10 na saída;", 
+        "d) provoca um erro de compilação;",
+        "e) provoca um erro de execução"],
+        "correta": "c) provoca a exibição dos números de 1 até 10 na saída;",
+        "explicacao": "Questão do vídeo 13."
+      },
+      {
+        "pergunta": "(FGV/IMBEL/2021) Analise o código Python a seguir.<br>x = [1,2,3,4,5]<br>print(x[-1])<br>Assinale a opção que indica a saída produzida pela execução desse código.",
+        "alternativas": ["a) [1,2,3,4,5]", 
+        "b) 1", 
+        "c) [5,1]", 
+        "d) 5",
+        "e) [5,4,3,2,1]"],
+        "correta": "d) 5",
+        "explicacao": "Questão do vídeo 13."
+      },
+      {
+        "pergunta": "(FGV/IMBEL/2021) Analise o código Python a seguir.<br>x = [1,2,3,4,5]<br>print(x[::-1])<br>Assinale a opção que indica a saída produzida pela execução desse código.",
+        "alternativas": ["a) [1,2,3,4,5]", 
+        "b) 1", 
+        "c) [5,1]", 
+        "d) 5",
+        "e) [5,4,3,2,1]"],
+        "correta": "e) [5,4,3,2,1]",
+        "explicacao": "Questão do vídeo 13."
+      },
+      {
+        "pergunta": "(MPE/AL/2021) Considere os seguintes operadores: <br>Exponenciação Comparação de Igualdade Módulo (Resto da Divisão)<br>Assinale a lista dos sómbolos que, respectivamente, representam esses operadores no Python:",
+        "alternativas": ["a) ^ == mod", 
+        "b) ** == %", 
+        "c) ** = %", 
+        "d) ** == mod",
+        "e) ^ = mod"],
+        "correta": "b) ** == %",
+        "explicacao": "Questão do vídeo 13."
+      },
+      {
+        "pergunta": "(CESGRANRIO – IPEA– 2024) Em Python 3, existem várias formas de se imprimir um número float com um formato específico. Por exemplo, para imprimir o número 12.45667 aproximado para 1 casa decimal, isto é, como 12.5, é possível usar a formatação no estilo da linguagem C, como em <br>print('%.1f' % 12.45667) <br>Outra forma correta de, em Python, imprimir o número 12.45667 exatamente como 12.5 é",
+        "alternativas": ["a) print('{:.1f}'.format(12.45667))", 
+        "b) print(f'{12.45667:.1g}')", 
+        "c) print(f'{12.45667:.1e}')", 
+        "d) print(round(12.45667,0))",
+        "e) print('%1f' % 12.45667)"],
+        "correta": "a) print('{:.1f}'.format(12.45667))",
+        "explicacao": "A forma correta de imprimir o número 12.45667 exatamente como 12.5 em Python é a opção A.<br>Nesta opção, estamos utilizando o método format() para formatar o número 12.45667 com uma precisão de 1 casa decimal (:.1f). Isso garante que apenas uma casa decimal seja exibida na saída, resultando em 12.5."
+      },
+      {
+        "pergunta": "(CESGRANRIO – IPEA– 2024) Um administrador do sistema operacional Linux Ubuntu Server deseja criar um script em linguagem Python, para listar o nome e a identificação (Group Identification – GID) de cada um dos grupos cadastrados no arquivo /etc/group. <br>O script, em linguagem Python, que atende a essa especificação é o",
+        "alternativas": ["a) for x in open('/etc/group').readlines(): <br>y = x.split(':').strip('\n') <br>print(y[1:2])", 
+        "b) for x in open('/etc/group').readlines(): <br>y = x.split(':').strip('\n') <br>print(y[0], y[1])", 
+        "c) for x in open('/etc/group').readlines(): <br>y = x.split(':').strip('\n') <br>print(y[0], y[2])", 
+        "d) for x in open('/etc/group').readlines(): <br>y = x.strip('\n').split(':') <br>print(y[0], y[1])",
+        "e) for x in open('/etc/group').readlines(): <br>y = x.strip('\n').split(':') <br>print(y[0], y[2])"],
+        "correta": "e) for x in open('/etc/group').readlines(): <br>y = x.strip('\n').split(':') <br>print(y[0], y[2])",
+        "explicacao": "O script correto para listar o nome e a identificação (GID) de cada grupo cadastrado no arquivo /etc/group em um sistema operacional Linux Ubuntu Server é a opção e). <br>Nesse script, há um loop que percorre cada linha do arquivo /etc/group. Para cada linha, é removido o caractere de quebra de linha (\n) usando o método strip('\n'). Em seguida, a linha é dividida em partes usando o caractere : como delimitador, usando o método split(':'). Isso cria uma lista y contendo as partes da linha. Finalmente, o nome do grupo é obtido de y[0] e a identificação do grupo (GID) é obtida de y[2], e ambos são impressos no console."
+      },
+      {
+        "pergunta": "(CESGRANRIO – IPEA– 2024) Uma lista é uma estrutura de dados versátil e fundamental usada para organizar e armazenar coleções de itens. As listas em Python oferecem uma maneira dinâmica e eficiente de lidar com sequências de itens. Por terem a capacidade de adicionar, remover e modificar elementos, essas listas desempenham um papel crucial em muitos programas em Python, tornando-se uma ferramenta essencial para tarefas que vão desde o armazenamento simples de dados até algoritmos mais complexos e manipulação de dados. <br>Nesse contexto, considere duas listas, L1 e L2, que foram implementadas em Python. As configurações iniciais dessas listas são as seguintes: <br>L1 = [1, 2, 3] <br>L2 = [3, 4, 5] <br>Em seguida, foram feitas as seguintes operações: <br>L1.append(3) <br>L3 = L1 <br>L3.append(7) <br>L1.append(8) <br>L4 = L1 + L2 <br>Qual é o valor de L4?",
+        "alternativas": ["a) [1, 2, 3, 4, 5]", 
+        "b) [1, 2, 3, 3, 4, 5]", 
+        "c) [1, 2, 3, 3, 8, 3, 4, 5]", 
+        "d) [1, 2, 3, 3, 3, 4, 5, 7, 8]",
+        "e) [1, 2, 3, 3, 7, 8, 3, 4, 5]"],
+        "correta": "e) [1, 2, 3, 3, 7, 8, 3, 4, 5]",
+        "explicacao": "Vamos analisar as operações realizadas nas listas L1 e L2 em Python. Inicialmente, L1 foi definida como [1, 2, 3] e L2 como [3, 4, 5]. A primeira operação, L1.append(3), adicionou o valor 3 ao final da lista L1, resultando em [1, 2, 3, 3]. <br>Em seguida, foi criada a variável L3 como uma referência à lista L1 (L3 = L1). Isso significa que L3 e L1 apontam para a mesma lista na memória. Quando o valor 7 foi adicionado a L3 com L3.append(7), a lista L1 também foi modificada, tornando-se [1, 2, 3, 3, 7]. Posteriormente, o valor 8 foi adicionado a L1 com L1.append(8), atualizando a lista para [1, 2, 3, 3, 7, 8]. <br>Por fim, a lista L4 foi criada como a concatenação de L1 e L2 com a operação L4 = L1 + L2. Como resultado, L4 tornou-se [1, 2, 3, 3, 7, 8, 3, 4, 5]. Assim, a resposta correta para o valor final de L4 é a opção e) [1, 2, 3, 3, 7, 8, 3, 4, 5]."
+      },
+      {
+        "pergunta": "(CESGRANRIO – IPEA– 2024) Python é dinamicamente tipado, o que significa que os tipos de variáveis são determinados em tempo de execução com base nos valores atribuídos, proporcionando flexibilidade durante o desenvolvimento. Essa dinamicidade permite a criação de código versátil e adaptável. <br>Nesse contexto, considere o seguinte trecho de código: <br>a = 5 <br>b = 5 <br>c = '5' <br>d = (a + b) + c <br>Qual é o resultado da variável d?",
+        "alternativas": ["a) '555'", 
+        "b) 15", 
+        "c) '105'", 
+        "d) 555",
+        "e) erro"],
+        "correta": "e) erro",
+        "explicacao": "Vamos analisar desde o início. A variável a é do tipo inteiro (int), pois recebe o valor 5. A variável b também é do tipo inteiro (int), pois recebe o valor 5. Por fim, a variável c é do tipo string (str), pois recebe o valor '5' entre aspas simples. <br>Passamos a análise das operações matemáticas e concatenação: Primeiramente temos a expressão (a + b), uma operação matemática que soma os valores de a e b, resultando em 10. Após, a expressão (a + b) + c concatena o resultado da soma (10) com a string c. <br>Em Python, quando se concatena um número com uma string, o resultado é uma string. O número 10 é convertido para a string '10' antes da concatenação com '5' (lembre: c = '5'). Portanto, a resposta correta é a letra E) erro. A expressão (a + b) + c não é válida porque tenta somar um número com uma string, o que gera um erro de tipo."
+      },
+      {
+        "pergunta": "(CESGRANRIO – TRANSPETRO – 2023) Seja o seguinte programa Python: <br>l = ['abc', ['a', 'b', 'c'], 'd', ['a', ['abc', 'd']]] <br>c = 0 <br>for e in l: <br>c+=len(e) <br>print( c ) <br>O que será exibido no console quando esse programa for executado?",
+        "alternativas": ["a) 4", 
+        "b) 7", 
+        "c) 8", 
+        "d) 9",
+        "e) 12"],
+        "correta": "d) 9",
+        "explicacao": "O programa Python exibirá o número 9 no console quando executado. A variável l é uma lista que contém quatro elementos: <br>1. 'abc': Tem comprimento 3. <br>2. ['a', 'b', 'c']: Tem comprimento 3. <br>3. 'd': Tem comprimento 1. <br>4. ['a', ['abc', 'd']]: Tem comprimento 2. Aqui, a lista ['abc', 'd'] conta como um único elemento. <br>Portanto, a contagem total é: <br>3 (de 'abc') + 3 (de ['a', 'b', 'c']) + 1 (de 'd') + 2 (de ['a', ['abc', 'd']]) = 9. <br>Portanto, o valor de c será 9."
+      },
+      {
+        "pergunta": "(CESGRANRIO – TRANSPETRO – 2023) Seja o seguinte código Python: <br>str = 'America do Sul' <br>s1 = ( str.split ( ';' ) ).pop().upper() <br>print ( str ) <br>O que será exibido no console quando esse código for executado?",
+        "alternativas": ["a) America do Sul", 
+        "b) AMERICA DO SUL", 
+        "c) Sul", 
+        "d) SUL",
+        "e) AMERICA"],
+        "correta": "a) America do Sul",
+        "explicacao": "Quando esse código for executado, será exibido no console a alternativa: a) America do Sul. Isso porque a primeira linha str = 'America do Sul': Define a variável str como a string 'America do Sul'. Após, s1 = (str.split(';')).pop().upper(): Primeiro, a string é dividida usando o ponto e vírgula como separador, mas como não há nenhum ponto e vírgula na string original, split(';') retorna uma lista contendo apenas a string original. Em seguida, o método pop() é chamado, removendo o último elemento da lista, que é a própria string 'America do Sul'. Finalmente, upper() é aplicado, mas como s1 não é armazenado em lugar nenhum, essa operação não tem efeito prático. Finalmente, print(str): Imprime o conteúdo da variável str, que é 'America do Sul'."
       }
-
 
 
 
