@@ -3741,7 +3741,7 @@
 
             <p>Uma função é um bloco de código que só é executado quando é chamado. Você pode passar
             dados, conhecidos como parâmetros, para uma função. Essa função pode retornar dados como
-            resultado. Para criar uma função, utiliza-se a palavra-chave <span class="verdecodigo">def</span>:</p>
+            resultado. Para criar uma função, utiliza-se a palavra-chave <span class="amarelocodigo">def</span>:</p>
             
             <div class="tabelaEditorCodigo">
                 <table>
@@ -3750,8 +3750,8 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao():
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>(<span class="laranjacodigo">"Olá Mundo!"</span>)
+                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao():
+                                <br class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">"Olá Mundo!"</span>)
                             </td>
                         </tr>
                     </tbody>
@@ -3786,11 +3786,11 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao(<span class="laranjacodigo">nome</span>):
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>(<span class="laranjacodigo">"Prof. "</span> + <span class="laranjacodigo">nome</span>)
-                                <br>minhafuncao(<span class="laranjacodigo">"Diego Carvalho"</span>)
-                                <br>minhafuncao(<span class="laranjacodigo">"Raphael Lacerda"</span>)
-                                <br>minhafuncao(<span class="laranjacodigo">"Paolla Ramos"</span>)
+                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao(<span class="laranjacodigo">nome</span>):
+                                <br class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">"Prof. "</span> + <span class="laranjacodigo">nome</span>)
+                                <br class="trestab">minhafuncao(<span class="laranjacodigo">"Diego Carvalho"</span>)
+                                <br class="trestab">minhafuncao(<span class="laranjacodigo">"Raphael Lacerda"</span>)
+                                <br class="trestab">minhafuncao(<span class="laranjacodigo">"Paolla Ramos"</span>)
                             </td>
                         </tr>
                     </tbody>
@@ -3815,9 +3815,9 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao (<span class="laranjacodigo">*</span>professores):
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>( <span class="laranjacodigo">professores[1]</span> + <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)
-                                <br>minhafuncao(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>)
+                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao (<span class="laranjacodigo">*</span>professores):
+                                <br class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">professores[1]</span> + <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)
+                                <br class="trestab">minhafuncao(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>)
                             </td>
                         </tr>
                     </tbody>
@@ -3836,9 +3836,9 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao (<span class="laranjacodigo">prof1</span>, <span class="laranjacodigo">prof2</span>, <span class="laranjacodigo">prof3</span>):
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>( <span class="laranjacodigo">prof1</span> + <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)
-                                <br>minhafuncao(<span class="laranjacodigo">prof1 = "Diego Carvalho"</span>, <span class="laranjacodigo">prof2 = "Raphael Lacerda"</span>, <span class="laranjacodigo">prof3 = "Paolla Ramos"</span>)
+                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao (<span class="laranjacodigo">prof1</span>, <span class="laranjacodigo">prof2</span>, <span class="laranjacodigo">prof3</span>):
+                                <br class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">prof1</span> + <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)
+                                <br class="trestab">minhafuncao(<span class="laranjacodigo">prof1 = "Diego Carvalho"</span>, <span class="laranjacodigo">prof2 = "Raphael Lacerda"</span>, <span class="laranjacodigo">prof3 = "Paolla Ramos"</span>)
                             </td>
                         </tr>
                     </tbody>
@@ -3861,11 +3861,11 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao(<span class="laranjacodigo">professores</span>):
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">for</span> <span class="laranjacodigo">x</span> <span class="rosacodigo">in</span> <span class="laranjacodigo">professores</span>:
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>(<span class="laranjacodigo">x</span>)
-                                <br>listadeprofessores(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>, <span class="laranjacodigo">"Paolla Ramos"</span>)
-                                <br>minhafuncao(<span class="laranjacodigo">listadeprofessores</span>)
+                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao(<span class="laranjacodigo">professores</span>):
+                                <br class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">for</span> <span class="laranjacodigo">x</span> <span class="rosacodigo">in</span> <span class="laranjacodigo">professores</span>:
+                                <br class="trestab">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">x</span>)
+                                <br class="trestab">listadeprofessores(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>, <span class="laranjacodigo">"Paolla Ramos"</span>)
+                                <br class="trestab">minhafuncao(<span class="laranjacodigo">listadeprofessores</span>)
                             </td>
                         </tr>
                     </tbody>
@@ -3873,7 +3873,7 @@
             </div>
             
             <p>Para permitir que uma função retorne um valor, use a instrução <span class="verdecodigo">return</span></p>
-
+            
             <div class="tabelaEditorCodigo">
                 <table>
                     <tbody>
@@ -3881,11 +3881,11 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="verdecodigo">def</span> funcao(<span class="laranjacodigo">x</span>):
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">return</span> <span class="laranjacodigo">5</span> * <span class="laranjacodigo">x</span>
-                                <br><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">3</span>)) <span class="rosacodigo">#</span> imprime 15
-                                <br><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">5</span>)) <span class="rosacodigo">#</span> imprime 25
-                                <br><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">9</span>)) <span class="rosacodigo">#</span> imprime 45
+                            <td class="umtab"><span class="amarelocodigo">def</span> funcao(<span class="laranjacodigo">x</span>):
+                                <br class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">return</span> <span class="laranjacodigo">5</span> * <span class="laranjacodigo">x</span>
+                                <br class="trestab"><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">3</span>)) <span class="rosacodigo">#</span> imprime 15
+                                <br class="trestab"><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">5</span>)) <span class="rosacodigo">#</span> imprime 25
+                                <br class="trestab"><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">9</span>)) <span class="rosacodigo">#</span> imprime 45
                             </td>
                         </tr>
                     </tbody>
@@ -3899,7 +3899,7 @@
             <p>O desenvolvedor deve ter muito cuidado com a recursão, pois pode ser muito fácil escrever uma
             função que nunca termina, ou uma que usa quantidades excessivas de memória ou poder do
             processador. No entanto, quando escrita corretamente, a recursão pode ser uma abordagem de
-            programação muito eficiente e matematicamente elegante.</p>
+            programação muito eficiente e matematicamente elegante.</p>            
             
 
             <h4>Lambda (funções anônimas)</h4>
