@@ -2108,7 +2108,7 @@
         "c) orçamentária contracionista", 
         "d) macroeconômica fiscal expansiva", 
         "e) financeira sem efeitos reais na economia"],
-        "correta": "a) gasto do setor público",
+        "correta": "d) macroeconômica fiscal expansiva",
         "explicacao": "Não importa como ele se dê, o aumento de gastos públicos sempre será uma política fiscal expansiva, tornando “d” o gabarito. <br>a) de redução da demanda agregada <br>Pelo contrário. Políticas expansionistas são de elevação da demanda agregada. <br>b) monetária expansiva <br>Errado. Elevação dos gastos não é política monetária. <br>c) orçamentária contracionista <br>Também pelo contrário: até podemos chamar de orçamentária, mas do tipo expansionista. <br>e) financeira sem efeitos reais na economia <br>Errado. O efeito é elevação da demanda agregada. "
       },
       {
@@ -5518,7 +5518,7 @@
         "explicacao": "Verdade, ele continua percorrendo todo o vetor mesmo após fazer o ordenamento."
       },
       {
-        "pergunta": "(CEBRASPE/FUB/2015) Em cada passo do método de ordenação conhecidom como Quick Sort, cada elemento do vetor é comparado com o seu sucessor. Nessa comparação, os dois elementos comparados serão trocados de posição caso estejam fora de ordem.",
+        "pergunta": "(CEBRASPE/FUB/2015) Em cada passo do método de ordenação conhecido como Quick Sort, cada elemento do vetor é comparado com o seu sucessor. Nessa comparação, os dois elementos comparados serão trocados de posição caso estejam fora de ordem.",
         "alternativas": ["Certo",
         "Errado"],
         "correta": "Errado",
@@ -7496,7 +7496,7 @@
         "c) 1001", 
         "d) 101",
         "e) 000"],
-        "correta": "a) letra A",
+        "correta": "a) 111",
         "explicacao": "Números binários. Convertê-lo para o sistema decimal."
       },
       {
@@ -7758,6 +7758,76 @@
         "e) AMERICA"],
         "correta": "a) America do Sul",
         "explicacao": "Quando esse código for executado, será exibido no console a alternativa: a) America do Sul. Isso porque a primeira linha str = 'America do Sul': Define a variável str como a string 'America do Sul'. Após, s1 = (str.split(';')).pop().upper(): Primeiro, a string é dividida usando o ponto e vírgula como separador, mas como não há nenhum ponto e vírgula na string original, split(';') retorna uma lista contendo apenas a string original. Em seguida, o método pop() é chamado, removendo o último elemento da lista, que é a própria string 'America do Sul'. Finalmente, upper() é aplicado, mas como s1 não é armazenado em lugar nenhum, essa operação não tem efeito prático. Finalmente, print(str): Imprime o conteúdo da variável str, que é 'America do Sul'."
+      },
+      {
+        "pergunta": "(CESPE/SEED-PR/2021)<br>x = 7*3**2%4<br>print(x)<br>Assinale a opção que corresponde à saída que o compilador Python apresentará para os comandos em questão.",
+        "alternativas": ["a) 1", 
+        "b) 3", 
+        "c) 7", 
+        "d) 15",
+        "e) 15.75"],
+        "correta": "b) 3",
+        "explicacao": "Ordem de precedência:<br>1 - parênteses<br>2 - exponencial<br>3 - multiplicação/divisão<br>4 - resto"
+      },
+      {
+        "pergunta": "(MJSP/2020) Uma cientista de dados necessita gerar um número randômico entre 1 e 15 na linguagem Python. Assinale a alternativa que apresenta o código correto que essa cientista de dados deve escrever.",
+        "alternativas": ["a)<br>int{<br>from random import randint print (randint(1, 15))}", 
+        "b)<br>from random import randint<br>print(randing(1, 15))", 
+        "c)<br>import random;<br>print (randint(1, 15));", 
+        "d)<br>import random print (random (1, 15))",
+        "e)<br>from random import randnum print (randnum(1, 15))"],
+        "correta": "b)<br>from random import randint<br>print(randing(1, 15))",
+        "explicacao": "questão de sintaxe."
+      },
+      {
+        "pergunta": "(MJSP/2020) Assinale a alternativa que apresenta o código Python que implementa corretamente uma função para o cálculo da área de um retângulo, bem como o código que imprime o seu resultado.",
+        "alternativas": ["a)<br>def area_retangulo(comp, larg){<br>return comp * larg}<br>print('A área é ' +<br>area_retangulo (2, 4)", 
+        "b)<br>fuc area_retangulo(comp, larg): return comp * larg print('A área é '|| <br>area_retangulo (2, 4)", 
+        "c)<br>def area_retangulo(comp, larg)(<br><br>return comp * larg)<br>print('A área é {}'.format(area_retangulo (2, 4)))", 
+        "d)<br>fuc area_retangulo(comp, larg): return comp * larg; println('A área é ' + <br>area_retangulo (2, 4)",
+        "e)<br>def area_retangulo(comp, larg):<br>return comp * larg<br>print('A área é {}'.format<br>(area_retangulo (2, 4)))"],
+        "correta": "a) letra A",
+        "explicacao": "questão de sintaxe."
+      },
+      {
+        "pergunta": "(MJSP/2020) Um desenvolvedor implementou um programa para exibir a média de um dado retirado de uma grande base de dados. Para isso, foi utilizada a linguagem Python. O trecho do código que mostra o resultaddo é apresentado a seguir. Assinale a alternativa correta acerca desse trecho de código sabendo que a média do usuário foi 75.<br>print('Sua média foi {}.'.format(med))",
+        "alternativas": ["a) O programa imprime: Sua média foi 75.", 
+        "b) O programa imprime: Sua média foi {}.", 
+        "c) O programa imprime: Sua média foi Null.", 
+        "d) O programa apresenta um erro na impressão porque tenta converter tipo número em caractere.",
+        "e) O programa apresenta um erro na impressão, pois não apresenta o formato do valor."],
+        "correta": "a) O programa imprime: Sua média foi 75.",
+        "explicacao": "vídeo 14 - questões python"
+      },
+      {
+        "pergunta": "(MJSP/2020) Assinale o seguinte código Python, escrito por um cientista de dados, e assinale a alternativa correta.<br>ln [01]: num = 88 ln [02]: print ('par' if num%2 == 0 else 'ímpar')",
+        "alternativas": ["a) O resultado da execução de código é a informação 'ímpar' na tela.", 
+        "b) O código apresenta como resultado '1' na linha [02], pois num%2 == 0 é uma atribuição e não uma comparação.", 
+        "c) O código executado apresenta na tela o resultado '0'.", 
+        "d) O resultado da execução de código é a informação 'par' na tela.",
+        "e) O código gera um erro, pois na linha [02] o comando if...else não está correto."],
+        "correta": "d) O resultado da execução de código é a informação 'par' na tela.",
+        "explicacao": "vídeo 14 - questões python"
+      },
+      {
+        "pergunta": "(MJSP/2020) Assinale o seguinte código Python, escrito por um cientista de dados, e analise a alternativa correta.<br>ln [01]: nome = input('Qual o seu nome? ') ln [02]: print(nome)",
+        "alternativas": ["a) O código não irá funcionar pois está faltando ';' ao final de cada linha.", 
+        "b) O uso da função input está incorreto, pois ela tem que ser chamada em uma nova linha.", 
+        "c) O resultado do comando print é apresentar na tela o nome informado pelo usuário.", 
+        "d) Falta a estrutura correta de criação de uma classe para a execução do comando.",
+        "e) Falta definir o tipo de variável nome, por isso o programa não irá executar."],
+        "correta": "c) O resultado do comando print é apresentar na tela o nome informado pelo usuário.",
+        "explicacao": "vídeo 14 - questões python"
+      },
+      {
+        "pergunta": "(MJSP/2020) Um analista do MJSP armazenou nomes e ID no seguinte programa Python:<br>01 dados = {<br>01 'Machado de Assis': 7575, <br>03 'Santos Dumont': 7475, <br> 04 'Rui Barbosa': 1675,<br> 05};<br>Agora, o analista necessita apresentar em tela o ID 7475 referente ao nome informado. Assinale a alternativa que apresenta o código correto para imprimir esse ID na tela para o usuário.",
+        "alternativas": ["a) print(7475);", 
+        "b) print(dados[nome], ID==7475);", 
+        "c) print(ID, 'Santos Dumont');", 
+        "d) print(dados == 'Santos Dumont);",
+        "e) print(dados['Santos Dumont']);"],
+        "correta": "e) print(dados['Santos Dumont']);",
+        "explicacao": "vídeo 14 - questões python"
       }
 
 
