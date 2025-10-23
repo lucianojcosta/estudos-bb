@@ -3737,22 +3737,170 @@
             <p>Note que o for itera sobre o conjunto de valores que se inicia em 2 (incluso) até 20 (não incluso), pulando de três em três unidades.</p>
 
 
-            <h3>Funções</h3>
+            <h4>Funções do Python</h4>
+
+            <p>Uma função é um bloco de código que só é executado quando é chamado. Você pode passar
+            dados, conhecidos como parâmetros, para uma função. Essa função pode retornar dados como
+            resultado. Para criar uma função, utiliza-se a palavra-chave <span class="verdecodigo">def</span>:</p>
+            
             <div class="tabelaEditorCodigo">
                 <table>
-                <tbody>
-                    <tr class="cabecalhoEditorCodigo">
-                    <td class="linhaEditorCodigo">Python</td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"><span class="amarelocodigo">def</span> saudacao(nome)<span class="rosacodigo">:</span></td>
-                    </tr>
-                    <tr>
-                    <td class="doistab"><span class="amarelocodigo">return</span> <span class="verdelevecodigo">f"Olá, {nome}!"</span></td>
-                    </tr>
-                </tbody>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao():
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>(<span class="laranjacodigo">"Olá Mundo!"</span>)
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
+            
+            <p>Para chamar uma função, use o nome da função seguido de parênteses:</p>
+            
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab">minhafuncao()</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p>As informações podem ser passadas para funções como argumentos. Os argumentos são
+            especificados após o nome da função, dentro dos parênteses. Você pode adicionar quantos
+            argumentos quiser, basta separá-los com uma vírgula. O exemplo a seguir tem uma função com
+            um argumento (<span class="laranjacodigo">nome</span>). Quando a função é chamada, passamos um primeiro nome, que é usado
+            dentro da função para imprimir o nome completo:</p>
+            
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao(<span class="laranjacodigo">nome</span>):
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>(<span class="laranjacodigo">"Prof. "</span> + <span class="laranjacodigo">nome</span>)
+                                <br>minhafuncao(<span class="laranjacodigo">"Diego Carvalho"</span>)
+                                <br>minhafuncao(<span class="laranjacodigo">"Raphael Lacerda"</span>)
+                                <br>minhafuncao(<span class="laranjacodigo">"Paolla Ramos"</span>)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p>Por padrão, uma função deve ser chamada com o número correto de argumentos. Isso significa
+            que, se sua função espera 2 argumentos, você deve chamar a função com 2 argumentos, nem
+            mais, nem menos. Além disso, se você tentar chamar a função com mais ou menos argumentos,
+            receberá um erro. No caso da função do exemplo, se passar um argumento a menos, receberá o
+            erro: <span class="rosacodigo">missing 1 required positional argument</span>, por outro lado, se inserir dois argumentos quando
+            era necessário um, receberá o seguinte erro: <span class="rosacodigo">takes 1 positional argument but 2 were given</span>.</p>
+            
+            <p>Se você não souber quantos argumentos serão passados para sua função, adicione um <span class="laranjacodigo">*</span>antes do
+            nome do parâmetro na definição da função. Dessa forma, a função receberá uma tupla de
+            argumentos. Vejamos um exemplo:</p>
+            
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao (<span class="laranjacodigo">*</span>professores):
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>( <span class="laranjacodigo">professores[1]</span> + <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)
+                                <br>minhafuncao(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p>No exemplo anterior, será impresso <span class="laranjacodigo">Raphael Lacerda</span> é professor de TI do Estratégia. A tupla
+            professores possui dois valores: (<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>). A posição 0 refere-se a
+            Diego Carvalho e a posição 1 refere-se a Raphael Lacerda. Vejamos agora como passar
+            argumentos na função usando chave-valor. Desta forma, a ordem dos argumentos não importa.</p>
+            
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao (<span class="laranjacodigo">prof1</span>, <span class="laranjacodigo">prof2</span>, <span class="laranjacodigo">prof3</span>):
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>( <span class="laranjacodigo">prof1</span> + <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)
+                                <br>minhafuncao(<span class="laranjacodigo">prof1 = "Diego Carvalho"</span>, <span class="laranjacodigo">prof2 = "Raphael Lacerda"</span>, <span class="laranjacodigo">prof3 = "Paolla Ramos"</span>)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p>Se você não souber quantos argumentos de palavra-chave serão passados para sua função,
+            adicione dois asteriscos: <span class="laranjacodigo">**</span> antes do nome do parâmetro na definição da função. Desta forma a
+            função receberá um dicionário de argumentos.</p>
+            
+            <p>Outra forma de passar argumentos é enviando uma função. Você pode enviar qualquer tipo de 
+            dado de argumento para uma função (<span class="laranjacodigo">string</span>, <span class="laranjacodigo">número</span>, <span class="laranjacodigo">lista</span>, <span class="laranjacodigo">dicionário</span> etc.), e ele será tratado
+            como o mesmo tipo de dado dentro dela. Por exemplo, se você enviar uma lista como argumento,
+            ela ainda será uma lista quando chegar à função:</p>
+            
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">def</span> minhafuncao(<span class="laranjacodigo">professores</span>):
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">for</span> <span class="laranjacodigo">x</span> <span class="rosacodigo">in</span> <span class="laranjacodigo">professores</span>:
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="azulcodigo">print</span>(<span class="laranjacodigo">x</span>)
+                                <br>listadeprofessores(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>, <span class="laranjacodigo">"Paolla Ramos"</span>)
+                                <br>minhafuncao(<span class="laranjacodigo">listadeprofessores</span>)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p>Para permitir que uma função retorne um valor, use a instrução <span class="verdecodigo">return</span></p>
+
+            <div class="tabelaEditorCodigo">
+                <table>
+                    <tbody>
+                        <tr class="cabecalhoEditorCodigo">
+                            <td class="linhaEditorCodigo">Python</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">def</span> funcao(<span class="laranjacodigo">x</span>):
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">return</span> <span class="laranjacodigo">5</span> * <span class="laranjacodigo">x</span>
+                                <br><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">3</span>)) <span class="rosacodigo">#</span> imprime 15
+                                <br><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">5</span>)) <span class="rosacodigo">#</span> imprime 25
+                                <br><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">9</span>)) <span class="rosacodigo">#</span> imprime 45
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <p>Python também aceita funções recursivas, o que significa que uma função definida pode chamar
+            a si mesma. A recursão é um conceito matemático e de programação comum. Isso tem a
+            vantagem de significar que você pode percorrer os dados para chegar a um resultado.</p>
+            
+            <p>O desenvolvedor deve ter muito cuidado com a recursão, pois pode ser muito fácil escrever uma
+            função que nunca termina, ou uma que usa quantidades excessivas de memória ou poder do
+            processador. No entanto, quando escrita corretamente, a recursão pode ser uma abordagem de
+            programação muito eficiente e matematicamente elegante.</p>
+            
 
             <h4>Lambda (funções anônimas)</h4>
             <div class="tabelaEditorCodigo">
