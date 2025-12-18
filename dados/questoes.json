@@ -7828,11 +7828,703 @@
         "e) print(dados['Santos Dumont']);"],
         "correta": "e) print(dados['Santos Dumont']);",
         "explicacao": "vídeo 14 - questões python"
+      },
+      {
+        "pergunta": "(CESGRANRIO – BB – 2023) Em uma base de dados (dataset) com avaliações sobre a qualidade de um determinado produto, o campo stars tem um valor de 1 a 5. Na fase de pré-processamento, decidiu-se criar o campo sentimento com valores bom ou ruim, e utilizando-se da biblioteca NumPy, escreveu-se o comando abaixo: <br>dataset['sentimento'] = np.where(dataset['stars'] >= 4, 'bom', 'ruim') <br>Quanto aos valores do campo sentimento, o referido comando atribuirá o valor",
+        "alternativas": ["a) bom, para stars entre 2 e 5", 
+        "b) bom, para stars 4 e 5", 
+        "c) bom, para stars 3 e 4", 
+        "d) ruim, para stars 4 e 5",
+        "e) ruim, para stars entre 1 e 4"],
+        "correta": "b) bom, para stars 4 e 5",
+        "explicacao": "O comando np.where(dataset['stars'] >= 4, 'bom', 'ruim') atribuirá o valor 'bom' ao campo sentimento quando o valor do campo stars for maior ou igual a 4, e 'ruim' caso contrário. Portanto, a opção correta é a letra: b) bom, para stars 4 e 5. Isso significa que apenas quando stars for igual a 4 ou 5, o campo sentimento receberá o valor 'bom'."
+      },
+      {
+        "pergunta": "(CESGRANRIO – TRANSPETRO – 2023) Pilhas podem ser implementadas em Python por meio de listas em que o último elemento é o topo da pilha, como no exemplo abaixo: <br>pilha01 = ['a4', 'a3', 'a2', 'a1'] # o elemento 'a1' está no topo da pilha <br>pilha02 = ['b2', 'b1'] # o elemento 'b1' está no topo da pilha <br>Considere uma função Python, chamada unifica, que recebe duas pilhas como parâmetros e retorna uma terceira, que é o resultado da intercalação dos elementos das duas pilhas recebidas como parâmetros. Um programa Python chamou essa função unifica, passando como parâmetros as duas pilhas do exemplo acima (pilha01 e pilha02). O resultado da intercalação foi a pilha <br>['a4', 'a3', 'b2', 'a2', 'b1', 'a1'] <br>Qual implementação da função unifica realiza o que foi descrito acima?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_101a.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_101b.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_101c.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_101d.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_101e.png' alt='imagem da questão'>"],
+        "correta": "d) <img src='../dados/imgs/questao_desenvolvimento_101d.png' alt='imagem da questão'>",
+        "explicacao": "Para entender as pilhas em questão, é importante notar que, como descrito, estamos lidando com pilhas em que o último elemento inserido é o topo da pilha. Ou seja, as operações de inserção e remoção de elementos ocorrem sempre no final da lista, simulando o comportamento de uma pilha. <br>Vamos agora a uma rápida análise de cada implementação: <br>a) Esta implementação começa esvaziando a primeira pilha (p1) e depois esvaziando a segunda pilha (p2), adicionando os elementos à terceira pilha (p3). Isso não realiza a intercalação dos elementos das pilhas p1 e p2 como descrito no problema. <br>b) Nesta implementação, os elementos são retirados das pilhas p1 e p2 alternadamente e adicionados à pilha p3. No entanto, isso não garante a intercalação correta dos elementos das duas pilhas, pois pode ocorrer que uma das pilhas seja esvaziada antes da outra. <br>c) Aqui, os elementos são retirados das pilhas p1 e p2 alternadamente e adicionados à pilha p3. Em seguida, os elementos são retirados de p3 e adicionados à pilha p4. No entanto, essa abordagem adiciona os elementos em ordem reversa, o que não é o comportamento esperado. <br>d) Nesta implementação, os elementos são retirados das pilhas p1 e p2 em um loop até que ambas estejam vazias, intercalando-os corretamente na pilha p3. Depois, os elementos são retirados de p3 e adicionados à pilha p4, invertendo a ordem para corresponder à pilha esperada. Esta implementação realiza a intercalação correta dos elementos das duas pilhas. <br>e) Esta implementação tem erros de sintaxe e lógica. Além disso, não segue a lógica correta para intercalar os elementos das pilhas."
+      },
+      {
+        "pergunta": "(CESGRANRIO – CEF – 2021) Duas pilhas, p1 e p2, foram implementadas em Python, por meio de listas em que o último elemento da lista é o topo da pilha. As configurações iniciais dessas pilhas são as seguintes: <br>p1=[50,40,30,20,10] <br>p2=[ ] <br>Qual função irá transferir os elementos de p1 para p2, de modo que p1 passe a ser uma pilha vazia, e p2 passe a ter a mesma configuração que p1 tinha, antes da chamada da função?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_102a.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_102b.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_102c.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_102d.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_102e.png' alt='imagem da questão'>"],
+        "correta": "d) <img src='../dados/imgs/questao_desenvolvimento_102e.png' alt='imagem da questão'>",
+        "explicacao": "A função correta para transferir os elementos da pilha p1 para a pilha p2, de modo que p1 passe a ser uma pilha vazia e p2 tenha a mesma configuração que p1 tinha antes da chamada da função, é a letra B.<br><img src='../dados/imgs/questao_desenvolvimento_102f.png' alt='imagem da questão'><br>Inicialmente, a função verifica se p1 está vazia. Se estiver, retorna imediatamente. Caso contrário, obtém o último elemento de p1. Após, remove o último elemento de p1 usando del. Chama recursivamente a função fb até que p1 esteja vazia. E então adiciona o elemento removido de p1 em p2."
+      },
+      {
+        "pergunta": "(CESGRANRIO – UNIRIO – 2019) Um programador tentou executar o programa a seguir em um interpretador Python<br><img src='../dados/imgs/questao_desenvolvimento_103.png' alt='imagem da questão'><br>O que aconteceu?",
+        "alternativas": ["a) Houve um erro de sintaxe.", 
+        "b) Houve um erro na execução.", 
+        "c) Imprimiu o número 7.", 
+        "d) Imprimiu o número 12.",
+        "e) Imprimiu o número 17."],
+        "correta": "d) Imprimiu o número 12.",
+        "explicacao": "A função f(x) é definida, e dentro dela, outra função interna g(y) é definida. Dentro da função g(y), a variável z é calculada como a soma dos números de 0 a x - 1 usando a função sum(range(x)). Em seguida, z é somado com y e o resultado é retornado. Fora da função f(x), a função f é chamada com o argumento 5, resultando em k sendo atribuído à função interna g com x = 5. Então, k é chamada com o argumento 2, o que resulta em z sendo calculado como a soma dos números de 0 a 4 (5 excluído), ou seja, 0 + 1 + 2 + 3 + 4 = 10. Depois, 10 + 2 = 12. O número 12 é impresso."
+      },
+      {
+        "pergunta": "(CESGRANRIO – UNIRIO – 2019) O código a seguir exibe parte de um programa Python que tem por objetivo retirar um elemento de uma pilha (variável stack) de strings e exibir no console o valor do elemento retirado.<br><img src='../dados/imgs/questao_desenvolvimento_104.png' alt='imagem da questão'><br>A pilha foi concebida de modo que o seu topo é o primeiro elemento de uma lista (variável stack). Qual versão da função pop(s) fará com que o programa acima alcance o seu objetivo?",
+        "alternativas": ["a) <img src='../dados/imgs/questao_desenvolvimento_105a.png' alt='imagem da questão'>", 
+        "b) <img src='../dados/imgs/questao_desenvolvimento_105b.png' alt='imagem da questão'>", 
+        "c) <img src='../dados/imgs/questao_desenvolvimento_105c.png' alt='imagem da questão'>", 
+        "d) <img src='../dados/imgs/questao_desenvolvimento_105d.png' alt='imagem da questão'>",
+        "e) <img src='../dados/imgs/questao_desenvolvimento_105e.png' alt='imagem da questão'>"],
+        "correta": "a) <img src='../dados/imgs/questao_desenvolvimento_105a.png' alt='imagem da questão'>",
+        "explicacao": "A função pop(s) deve retirar o elemento do topo da pilha e retorná-lo. Vamos analisar cada opção: <br>a) def pop(s): return s.pop() <br>Esta opção está correta, pois s.pop() remove e retorna o último elemento da lista, que é o topo da pilha. <br>b) def pop(s): temp=s[0] s.remove(s[0]) return temp <br>Esta opção também está correta. Ela armazena o primeiro elemento da lista em temp, remove esse elemento da lista e, em seguida, retorna temp. <br>c) def pop(s): return s.pop(-1) <br>Esta opção está incorreta. s.pop(-1) remove e retorna o último elemento da lista, mas o último elemento da lista é o topo da pilha, não o primeiro. <br>d) def pop(s): temp=s[0] s=s[1:] return temp <br>Esta opção está incorreta. Embora temp=s[0] armazene o topo da pilha em temp, a atribuição s=s[1:] não altera a lista original stack, então a pilha permanece inalterada.<br>e) def pop(s): temp=s[-1] s=s[-1:1:-1] return temp <br>Esta opção está incorreta. s=s[-1:1:-1] está criando uma sublista invertida de s, mas não está removendo o elemento do topo da pilha original."
+      },
+      {
+        "pergunta": "(CESGRANRIO – UNIRIO – 2019) Seja o seguinte programa Python, armazenado no arquivo P2.py:<br><img src='../dados/imgs/questao_desenvolvimento_106.png' alt='imagem da questão'><br>O que será exibido pelo comando print(v3) quando esse programa for executado por meio do IDLE?",
+        "alternativas": ["a) ['Ri de Janeir']", 
+        "b) ['']", 
+        "c) ['rienaJ ed ']", 
+        "d) ['Rio de Janeiro']",
+        "e) ['orienaJ ed oiR']"],
+        "correta": "a) ['Ri de Janeir']",
+        "explicacao": "Vamos analisar o código passo a passo: <br>1. v1='Rio de Janeiro': A variável v1 recebe a string 'Rio de Janeiro'. <br>2. v2=v1.split('o'): A string 'Rio de Janeiro' é dividida sempre que 'o' é encontrado, resultando em uma lista v2 com os elementos ['Ri', ' de Janeir']. <br>3. v3=[v2[0]+v2[1][::1]+v2[2][::]]: Na lista v2, v2[0] é 'Ri', v2[1] é ' de Janeir'. <br>v2[1][::1] retorna v2[1] de forma inalterada, ou seja, ' de Janeir'. <br>v2[2][::] retorna v2[2] de forma inalterada, ou seja, ''. <br>Portanto, v3 será uma lista com o único elemento 'Ri de Janeir'. <br>4. print(v3): O comando print exibe o conteúdo de v3. <br>Assim, a resposta correta é: a) ['Ri de Janeir']"
+      },
+      {
+        "pergunta": "(CESGRANRIO – UNIRIO – 2019) Considere-se uma lista L, criada em Python, da seguinte forma: <br>L=[-20,-10,0,10,20,30] <br>O comando print(L[-1::-2]) apresentará o resultado",
+        "alternativas": ["a) [30, 10, -10]", 
+        "b) [30, 20]", 
+        "c) [-20, 10]", 
+        "d) [30]",
+        "e) [20]"],
+        "correta": "a) [30, 10, -10]",
+        "explicacao": "O comando L[-1::-2] em Python cria uma nova lista que é uma fatia de L, começando do último elemento (-1) até o primeiro elemento, com um passo de -2. Isso significa que ele começa do último elemento, depois pula um elemento e seleciona o próximo, pula outro elemento e seleciona o próximo, e assim por diante. <br>Vamos analisar passo a passo: <br>1. O último elemento de L é 30. <br>2. Em seguida, o próximo elemento será o terceiro elemento a partir do final, que é 20. <br>3. Depois, o próximo elemento é o quinto elemento a partir do final, que é -10. <br>4. Como não há mais elementos disponíveis para selecionar, a lista resultante é [30, 20, -10]. <br>Portanto, a resposta correta é: a) [30, 20, -10]"
+      },
+      {
+        "pergunta": "(CESGRANRIO – UNIRIO – 2019) Considere-se o código Python abaixo.<br><img src='../dados/imgs/questao_desenvolvimento_107.png' alt='imagem da questão'><br>O que será impresso?",
+        "alternativas": ["a) 2", 
+        "b) 8", 
+        "c) 13", 
+        "d) 16",
+        "e) -3"],
+        "correta": "b) 8",
+        "explicacao": "O código define uma função chamada checa_lista que recebe uma lista como entrada e retorna o maior elemento dessa lista. Aqui está uma análise passo a passo do código. O código Python define uma função chamada checa_lista que recebe uma lista como entrada e retorna o maior elemento dessa lista. Inicialmente, a variável elem é definida como o primeiro elemento da lista. Em seguida, um loop percorre cada elemento da lista, comparando-o com elem. Se um elemento for maior que elem, elem é atualizado para ser igual a esse elemento. Após percorrer toda a lista, a função retorna o maior elemento encontrado da lista [4, 4, 8, -3], que é 8."
+      },
+      {
+        "pergunta": "(CESGRANRIO – UNIRIO – 2016) Considere o seguinte código em Python.<br><img src='../dados/imgs/questao_desenvolvimento_108.png' alt='imagem da questão'><br>A saída na tela após a execução será",
+        "alternativas": ["a) Fulano m", 
+        "b) Fulano 2500.0", 
+        "c) Fulano de Tal m", 
+        "d) Fulano de Tal 2500.0",
+        "e) Fulano de Tal m 2500.0"],
+        "correta": "b) Fulano 2500.0",
+        "explicacao": "Esse código Python define uma classe chamada 'Empregado' com três atributos: nome, sexo e salario. O método __init__ é um método especial em Python usado para inicializar os atributos de um objeto quando ele é criado. No caso, ele recebe o nome, sexo e salario como parâmetros e atribui esses valores aos atributos correspondentes do objeto. Depois, um objeto da classe 'Empregado' é criado com o nome 'Fulano de Tal', sexo 'm' e salario de 2500.00. Em seguida, o comando print exibe o nome do empregado (Fulano.nome[0:6]), que é 'Fulano', seguido pelo valor do salário (Fulano.salario), que é 2500.0."
+      },
+      {
+        "pergunta": "(CESPE – DPE RO – 2022) Na linguagem Python, são consideradas sequências mutáveis as",
+        "alternativas": ["a) strings", 
+        "b) cadeias", 
+        "c) tuplas", 
+        "d) listas",
+        "e) ranges"],
+        "correta": "d) listas",
+        "explicacao": "A lista é mutável, o que significa que podemos alterar, adicionar e remover itens em uma lista após ela ter sido criada. Portanto, as listas são consideradas sequências mutáveis."
+      },
+      {
+        "pergunta": "(CEBRASPE – PC PB – 2022) Na linguagem Python, o tipo de uma variável em tempo de execução é definido pelo interpretador pelo recurso denominado",
+        "alternativas": ["a) tipagem dinâmica.", 
+        "b) modo interativo.", 
+        "c) sintaxe.", 
+        "d) interpretação bytecode.",
+        "e) empacotamento."],
+        "correta": "a) tipagem dinâmica.",
+        "explicacao": "Tipagem dinâmica é uma característica de determinadas linguagens de programação, que não exigem declarações de tipos de dados, pois são capazes de escolher que tipo utilizar dinamicamente para cada variável, podendo alterá-lo durante a compilação ou a execução do programa."
+      },
+      {
+        "pergunta": "(CESPE – PC PB– 2022) Python é uma linguagem procedural que utiliza quatro tipos de dados predefinidos para lidar com coleções: conjuntos, dicionários, listas e tuplas. A respeito desses tipos de dados, julgue os itens a seguir. <br>I O conjunto permite o armazenamento de uma tupla, mas não o de uma lista. <br>II A tupla é idêntica à lista, exceto pela forma mais simples com que sua declaração é realizada. <br>III A lista é um tipo de dados variável que permite a alteração de seus elementos após a sua criação. <br>Assinale a opção correta.",
+        "alternativas": ["a) Apenas o item I está certo.", 
+        "b) Todos os itens estão certos.", 
+        "c) Apenas o item II está certo.", 
+        "d) Apenas os itens I e III estão certos.",
+        "e) Apenas os itens II e III estão certos."],
+        "correta": "d) Apenas os itens I e III estão certos.",
+        "explicacao": "Pessoal, vamos começar pelo erro do item II: Uma tupla é uma estrutura bastante similar a uma lista, com uma diferença especial: os elementos inseridos em uma tupla não podem ser alterados, o que não ocorre em uma lista, já que nesta podem ser alterados livremente. Ademais, vejamos o item I: conjunto permite o armazenamento de uma tupla, mas não o de uma lista. Está correto o item I, porque os elementos de um conjunto não são armazenados em uma ordem específica além disso, conjuntos não contém elementos repetidos. Portanto, conjuntos são diferentes de listas. Por fim, o item III está correto, é possível a alteração dos elementos de uma lista."
+      },
+      {
+        "pergunta": "(CEBRASPE – (CODEVASF– 2021) Na linguagem Python, as listas são coleções de qualquer tipo de objetos, com exceção das próprias listas, e seus elementos são alteráveis.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, lista é uma coleção ordenada e mutável. Permite membros duplicados. Portanto, o correto seria dizer: Na linguagem Python, as listas são coleções de qualquer tipo de objetos, incluindo as próprias listas, e seus elementos são alteráveis."
+      },
+      {
+        "pergunta": "(CEBRASPE – SERPRO– 2021) As tuplas, embora sejam semelhantes às listas, estão limitadas a, no máximo, cinco níveis.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Primeiro lembrete: TUPLAS SÃO IMUTÁVEIS, listas são mutáveis. E diferentemente do que diz a questão não há a limitação de no máximo, cinco níveis nas tuplas."
+      },
+      {
+        "pergunta": "(CEBRASPE – SERPRO– 2021) Listas são coleções alteráveis de qualquer tipo de objeto — como, por exemplo, outras listas — capazes de gerar um efeito top-down sem limite de níveis.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! Perfeito! As listas são MUTÁVEIS, ou ALTERÁVEIS! E podem conter qualquer tipo de objeto, incluindo outras listas, sem limite de níveis."
+      },
+      {
+        "pergunta": "(CEBRASPE – PC DF– 2021) Com relação a mineração de dados, aprendizado de máquina e aplicações Python, julgue o item a seguir. <br>Uma das aplicações de Python é o aprendizado de máquina, que pode ser exemplificado por um programa de computador que aprende com a experiência de detectar imagens de armas e de explosivos em vídeos, tendo seu desempenho medido e melhorado por meio dos erros e de acertos decorrentes da experiência de detecção.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Vejamos o que diz a própria banca: O exemplo apresentado enquadra-se na definição atual de aprendizado de máquina. “O que é aprendizado de máquina? Duas definições de aprendizado de máquina são oferecidas. Arthur Samuel o descreveu como: “o campo de estudo que dá aos computadores a capacidade de aprender sem serem explicitamente programados”. Essa é uma definição mais antiga e informal. Na definição mais moderna, “um programa de computador aprende com a experiência E com relação a alguma classe de tarefas T e medida de desempenho P, se seu desempenho nas tarefas em T, conforme medido por P, melhora com a experiência E. Por exemplo, jogar damas. E = a experiência de jogar muitos jogos de damas T = a tarefa de jogar damas. P = a probabilidade de o programa vencer o próximo jogo.”."
+      },
+      {
+        "pergunta": "(CEBRASPE – BANESE– 2021) No que se refere ao pacote NumPy do Python, julgue o item subsequente. O código a seguir retorna o valor do desvio padrão amostral do conjunto de dados {1,2,2,3,5} <br>import numpy <br>x = numpy.array([1,2,2,3,5]) <br>numpy.std(x,ddof=1)",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pessoal, o código apresentado pela questão importa o pacote numpy, cria uma variável x que recebe o array [1, 2, 2, 3, 5]. Por fim, o método std de numpy retorna o desvio padrão amostral do conjunto dado (numpy.std(x,ddof=1))."
+      },
+      {
+        "pergunta": "(CEBRASPE – SEED PR– 2021) Em Python, quando mais de um operador aparece em uma expressão, a ordem de avaliação depende das regras de precedência de cada linguagem. Assim, ao programar em Python, além de observar essas regras, é preciso considerar, ainda, a forma como a linguagem representa seus operadores, conforme demonstrado nos comandos a seguir. <br>x=7*3**2%4 <br>print (x) <br>Assinale a opção que corresponde à saída que o compilador Python apresentará para os comandos em questão.",
+        "alternativas": ["a) 1", 
+        "b) 3", 
+        "c) 7", 
+        "d) 15",
+        "e) 15.75"],
+        "correta": "b) 3",
+        "explicacao": "Pessoal, vamos “traduzir” essa expressão. ** Exponenciação; % Módulo. Temos aqui um (7*(3**2))%4) Primeiro: x = 7*9%4 resolvemos o 3 elevado ao quadrado. Depois, x= 63%4 multiplicamos nove por 7. Por fim, só resta o módulo da divisão. x= 3, já que 4*15 é 60 e deixa resto 3."
+      },
+      {
+        "pergunta": "(CEBRASPE – SEED PR– 2021) Na linguagem de programação Python, existem 3 estruturas para armazenar dados indexados. A estrutura cujos valores são imutáveis depois de sua criação é conhecida como",
+        "alternativas": ["a) lista", 
+        "b) operador", 
+        "c) tupla", 
+        "d) classe",
+        "e) dicionário"],
+        "correta": "c) tupla",
+        "explicacao": "Tupla é uma Lista imutável. O que diferencia a Estrutura de Dados Lista da Estrutura de Dados Tupla é que a primeira pode ter elementos adicionados a qualquer momento. Vamos relembrar nossa tabela!"
+      },
+      {
+        "pergunta": "(CEBRASPE – PF– 2018) Considere os seguintes comandos na programação em Python. <br>a = ' Hello, World! ' <br>print(a.strip()) <br>Esses comandos, quando executados, apresentarão o resultado a seguir. <br>a[0]=Hello <br>a[1]=World!",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, errada questão! Na verdade, vai apresentar Hello, World!. Strip Remove espaços em branco (ou caracteres dentro do parêntese) do início/fim da string."
+      },
+      {
+        "pergunta": "(CEBRASPE – PF– 2018) Considere o programa a seguir, na linguagem Python.<br><img src='../dados/imgs/questao_desenvolvimento_109.png' alt='imagem da questão'><br>A sintaxe do programa está correta e, quando executado, ele apresentará o seguinte resultado. <br>PF",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, na verdade há três erros na questão. Vamos imediatamente corrigi-los. Na primeira linha o comando deveria ser letras = ['P', 'F'] (com apenas um operador = ). Ademais, deveria ser usado o dois pontos no for, e não deve-se usar colchetes para indentação da função for. Portanto, o correto seria: <br>letras = ['P', 'F'] <br>for x in letras: <br> print(x)"
+      },
+      {
+        "pergunta": "(CESPE – 2013 – MPOG – Analista de Sistemas) Em Python, o comando int('1') cria um objeto do tipo int, que recebe 1 como parâmetro no seu construtor.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Essa é uma função de casting! Ela converte variáveis do tipo inteiro, ponto flutuante ou string em um inteiro. No caso, ele está recebendo um número como string (por conta das aspas) e convertendo em um inteiro. Esse número serve de parâmetro para o seu construtor (que é um método que cria um objeto, mas vocês não precisam saber disso)."
+      },
+      {
+        "pergunta": "(CESPE – 2011 – ECT – Analista de Sistemas) A linguagem Python e seu interpretador estão disponíveis para as mais diversas plataformas. Para que seja usado em determinado sistema operacional não suportado, é possível gerar o Python a partir do programa fonte utilizando um compilador C. Nesse caso, o código fonte é traduzido para o formato bytecode, que é multiplataforma e pode ser distribuído de forma independente.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Essa é uma função de casting! Ela converte variáveis do tipo inteiro, ponto flutuante ou string em um inteiro. No caso, ele está recebendo um número como string (por conta das aspas) e convertendo em um inteiro. Esse número serve de parâmetro para o seu construtor (que é um método que cria um objeto, mas vocês não precisam saber disso)."
+      },
+      {
+        "pergunta": "(CESPE – 2008 – SERPRO – Analista de Sistemas) Python é uma linguagem livre de alto nível, orientada a objetos e de difícil leitura, pois não permite indentação de linhas de código.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Ela realmente é de alto nível, orientada a objetos e de fácil leitura. Além disso, permite indentação de linhas de código."
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2004 – SECAD/TO – Analista de Sistemas) Um programador de Python recebeu a tarefa de criar uma função chamada calcular que recebe dois parâmetros. Para executar sua atividade, ele deve utilizar a expressão:",
+        "alternativas": ["a) def calcular (a,b):", 
+        "b) function calcular (a,b):", 
+        "c) import calcular (a,b):", 
+        "d) procedure calcular (a,b):",
+        "e) sub calcular (a,b):"],
+        "correta": "a) def calcular (a,b):",
+        "explicacao": "Uma função é definida por meio da palavra-chave def"
+      },
+      {
+        "pergunta": "(FGV – TCU – 2022) Considere o código Python a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_110.png' alt='imagem da questão'><br>A execução desse código na IDLE Shell produz, na ordem e exclusivamente, os números:",
+        "alternativas": ["a) 6,1", 
+        "b) 5, 3, 1", 
+        "c) 6, 4, 2", 
+        "d) 1, 3, 5",
+        "e) 2, 4, 6"],
+        "correta": "c) 6, 4, 2",
+        "explicacao": "Pessoal, precisamos entender o que a função faz. xpto consiste em uma função com um for que percorre S. Caso o valor k da lista S seja par (2, 4, 6), então ele cria uma lista (S) com os valores pares (2, 4, 6). Veja que o retorno da função é exatamente a lista gerada pelo yield(S[k]). Agora vamos para o código principal. Após a criação da lista S=[1,2,3,4,5,6], temos for x in xpto(S[::-1]): nesse ponto devemos ficar atentos ao -1. O -1 inverte a lista. Enviando para xpto a lista [6,5,4,3,2,1]. Assim, quando passar pela função xpto, teremos como resultado apenas os valores pares de [6,5,4,3,2,1], ou seja, 6,4,2. Portanto o gabarito é a letra c."
+      },
+      {
+        "pergunta": "(FGV – PC AM– 2022) Considere o código Python a seguir. <br>L=[0,1,1,2,3,5,8,13,21] <br>for k in range(0,len(L),2): <br>print (L[k]) <br>Assinale o resultado exibido pela execução desse código, na IDLE Shell 3.9.9.",
+        "alternativas": ["a) 1, 2, 5, 13", 
+        "b) 0, 1, 3, 8, 21, 1, 2, 5, 13, 21", 
+        "c) 1, 3, 8, 21, 1, 2, 5, 13, 21", 
+        "d) 0, 1, 3, 8, 21",
+        "e) 0, 1, 3, 8"],
+        "correta": "d) 0, 1, 3, 8, 21",
+        "explicacao": "A questão consiste em um for que percorre a lista L e avança de 2 em 2 posições (for k in range(0,len(L),2):). Ele percorre sempre de 2 em 2 posições, portanto, a variável k procurará os valores das posições pares: Posições 0,2,4,6,8. Tenham em mente que o valor da posição 0 é 0, da posição 1 é 1, da posição 2 é 1, da posição 3 é 2 e assim por diante, veja: L=[0,1,1,2,3,5,8,13,21]. Se for necessário, desenhe as listas (uma em cima da outra) POSIÇÕES = [0,1,2,3,4,5,6,7,8,9] LISTA = [0,1,1,2,3,5,8,13,21]. Assim, os valores das posições pares são: 0,1,3,8,21."
+      },
+      {
+        "pergunta": "(FGV – SEFAZ AM– 2022) Analise o código a seguir em linguagem de programação Python:<br><img src='../dados/imgs/questao_desenvolvimento_111.png' alt='imagem da questão'><br>Ao executar esse script em um terminal, será escrito na saída padrão",
+        "alternativas": ["a) [9, 5, 31, 42, 20, 56]", 
+        "b) [8, 4, 30, 41, 19, 55]", 
+        "c) [56, 20, 42, 31, 5, 9]", 
+        "d) [56, 42, 31, 20, 9, 5]",
+        "e) [5, 9, 20, 31, 42, 56]"],
+        "correta": "e) [5, 9, 20, 31, 42, 56]",
+        "explicacao": "Pessoal, o código da questão basicamente ordena um array. Dessa forma, a saída será o array ordenado: [5, 9, 20, 31, 42, 56]."
+      },
+      {
+        "pergunta": "( FGV – MPE GO– 2022) Considere o código Python a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_112.png' alt='imagem da questão'><br>Assinale o que acontece quando esse script é executada na IDLE Shell 3.9.9.",
+        "alternativas": ["a) Erro de compilação, “name 'n ' is not defined”", 
+        "b) Erro de compilação, “name 'N' is not defined”", 
+        "c) Executa e produz resultados Corretas com quatro linhas.", 
+        "d) Executa, mas produz erro de execução na quinta chamada da função X",
+        "e) Executa, mas calcula erradamente o fatorial de 4."],
+        "correta": "b) Erro de compilação, “name 'N' is not defined”",
+        "explicacao": "Pessoal, vocês lembram que python é uma linguagem case sensitive? O erro neste caso será NameError: name 'N' is not defined. Porque na definição temos def X(n), depois usa-se o N (maiúsculo)."
+      },
+      {
+        "pergunta": "(FGV – MPE GO– 2022) Assinale a lista de números produzida pela execução, na IDLE Shell 3.9.9, do código Python a seguir. <br>for x in range(-1, -10, -1): <br>print (x)",
+        "alternativas": ["a) -1 -2 -3 -4 -5 -6 -7 -8 -9", 
+        "b) -9 -8 -7 -6 -5 -4 -3 -2 -1", 
+        "c) 0 -1 -2 -3 -4 -5 -6 -7 -8 -9", 
+        "d) 0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10",
+        "e) -1 -2 -3 -4 -5 -6 -7 -8 -9 -10"],
+        "correta": "a) -1 -2 -3 -4 -5 -6 -7 -8 -9",
+        "explicacao": "Pessoal, as bancas gostam muito de índices negativos, para dificultar um pouco. No caso da questão, é gerada uma sequência de números negativos iniciando em -1 e parando antes do -10 (ou seja, o for para no -9). O For é incrementado de -1 em -1 formando a sequência -1 -2 -3 -4 -5 -6 -7 -8 -9."
+      },
+      {
+        "pergunta": "(FGV – TJDFT– 2022) Analise o código Python 3.9 a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_113.png' alt='imagem da questão'><br>o trecho tracejado na segunda linha deve ser substituído por:",
+        "alternativas": ["a) __init__(self, xaltura, xlargura):", 
+        "b) __init__(xaltura, xlargura):", 
+        "c) init (xaltura, xlargura):", 
+        "d) new (self, args[xaltura, xlargura]):",
+        "e) new (self, xaltura, xlargura):"],
+        "correta": "a) __init__(self, xaltura, xlargura):",
+        "explicacao": "Pessoal, utiliza-se a função __init__() para atribuir valores às propriedades do objeto. Sendo assim ficamos apenas com as opções a e b. Além de init, é necessário usar o self, que é uma referência à instância atual da classe. Portanto, o gabarito é a letra A."
+      },
+      {
+        "pergunta": "(FGV – MPE SC– 2022) Analise o código Python a seguir. <br>x1 = {'A', 'B', 'C'} <br>x2 = ['AA', 'BB', 'CC'] <br>x1.add('B') <br>x2.append('BB') <br>x2.append(x1) <br>print (x2) <br>Dado que os elementos de x1 podem ser exibidos em ordem aleatória, a linha que possivelmente é produzida pelo comando print na execução do código acima é:",
+        "alternativas": ["a) ['AA', 'BB', 'CC', 'BB', {'C', 'A', 'B'}]", 
+        "b) ['AA', 'BB', 'CC', 'BB', 'C', 'A', 'B', 'B']", 
+        "c) ['AA', 'BB', 'CC', 'BB', 'C', 'A', 'B']", 
+        "d) ['AA', 'BB', 'CC', ['BB'], {'B'}]",
+        "e) {'AA', 'BB', 'CC', 'BB', 'C', 'A', 'B'}"],
+        "correta": "a) ['AA', 'BB', 'CC', 'BB', {'C', 'A', 'B'}]",
+        "explicacao": "Pessoal, primeiramente devemos desconsiderar x1 já que o comando da questão diz que os elementos de x1 podem ser exibidos em ordem aleatória. Vejamos então a ordem de x2. Inicialmente temos um ['AA', 'BB', 'CC'] que consiste no x2 original. Após, teremos BB (devido ao x2.append ('BB')). Portanto ficamos com 'AA', 'BB', 'CC', 'BB'. Dessa forma ficamos entre as opções a,b, c e e. Porém, depois do x2 há um x1 (x2.append(x1)). Dessa forma, podemos ter um{'A', 'B', 'C'} em uma sequência aleatória – como diz o comando da questão. A única opção que possui um {'A', 'B', 'C'} em sequência aleatória é a letra A."
+      },
+      {
+        "pergunta": "(FGV – MPE SC– 2022) Analise o código Python a seguir. <br>x = 0 <br>y = 20 <br>try: <br>  print (y/x) <br>except: <br>  print('Deu erro!') <br>else: <br>  print('Ok') <br>finally: <br>  print ('The end') <br>A saída produzida pela execução desse trecho é: ",
+        "alternativas": ["a) None <br>The end", 
+        "b) Deu erro! <br>The end", 
+        "c) Deu erro! <br>Ok", 
+        "d) Ok <br>The end",
+        "e) None <br>Ok <br>The end"],
+        "correta": "b) Deu erro! <br>The end",
+        "explicacao": "Pessoal, vamos relembrar os conceitos de if, else, finally. finally é usada em blocos try...except. Ele define um bloco de código para ser executado quando o bloco try...except...else for final. O bloco finally será executado independentemente de o bloco try gerar um erro ou não. O foco é esse! Finally será executado independentemente de o bloco try gerar um erro ou não. Portanto, sabemos que vai imprimir o print 'The end', já que, vai entrar no finally. Além disso, há um erro, de divisão por zero (ZeroDivisionError: division by zero), dessa forma, também irá imprimir 'Deu erro!'. O resultado será Deu erro! The end."
+      },
+      {
+        "pergunta": "(FGV – MPE SC– 2022) Analise o código Python a seguir. <br>def xpto(L): <br>return (L[::-1]) <br>A expressão xpto([1,2,3]) retorna:",
+        "alternativas": ["a) []", 
+        "b) [1]", 
+        "c) [3]", 
+        "d) [1,2,3]",
+        "e) [3,2,1]"],
+        "correta": "e) [3,2,1]",
+        "explicacao": "Pessoal, veja como as bancas gostam de inverter listas! Novamente temos L[::-1] que consiste no comando que inverte a lista passada. Dessa forma, sabemos que o resultado será [3, 2, 1]."
+      },
+      {
+        "pergunta": "(FGV – MPE SC– 2022) Analise o código Python a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_114.png' alt='imagem da questão'><br>No resultado produzido pela execução do código acima, a quinta linha contém exatamente:",
+        "alternativas": ["a) [0, 1, 1, 2, 2, 3]", 
+        "b) [0, 1, 1, 2, 3, 5]", 
+        "c) [0, 1, 2, 3, 4, 5]", 
+        "d) [0, 1, 3, 5, 7, 9]",
+        "e) [1, 2, 3, 4, 5, 6]"],
+        "correta": "b) [0, 1, 1, 2, 3, 5]",
+        "explicacao": "Pessoal, essa questão apresenta a sequência de Fibonacci. Na quinta linha temos o resultado [0, 1, 1, 2, 3, 5]. As iterações anteriores são: [0, 1]; [0, 1, 1]; [0, 1, 1, 2]; [0, 1, 1, 2, 3]; [0, 1, 1, 2, 3, 5]."
+      },
+      {
+        "pergunta": "(FGV – IMBEL– 2021) Analise o código Python a seguir. <br>x = [1,2,3,4,5] <br>print (x[::-1]) <br>Assinale a opção que indica a saída produzida pela execução desse código.",
+        "alternativas": ["a) [1,2,3,4,5]", 
+        "b) 1", 
+        "c) [5,1]", 
+        "d) 5",
+        "e) [5,4,3,2,1]"],
+        "correta": "e) [5,4,3,2,1]",
+        "explicacao": "Pessoal, novamente cobrança da inversão de lista. x[::-1] retorna o inverso da lista passada. Importante, no caso da questão a lista é denominada x, mas pode ter qualquer nome. As bancas amam! Resposta: e) [5,4,3,2,1]."
+      },
+      {
+        "pergunta": "(FGV – IMBEL– 2021) Analise o código Python a seguir. <br>x = [1,2,3,4,5] <br>print (x[-1]) <br>Assinale a opção que indica a saída produzida pela execução desse código.",
+        "alternativas": ["a) [1,2,3,4,5]", 
+        "b) 1", 
+        "c) [5,1]", 
+        "d) 5",
+        "e) [5,4,3,2,1]"],
+        "correta": "d) 5",
+        "explicacao": "Pessoal, (x[-1]) pega o valor da posição 1 do fim da lista para o início. E nesse caso a posição -1 é o valor 5. Portanto, nosso gabarito é a letra D."
+      },
+      {
+        "pergunta": "(FGV – TCE-AM– 2021) Considere o código Python, versão 2.7.1, na qual o comando print não requer parênteses.<br><img src='../dados/imgs/questao_desenvolvimento_115.png' alt='imagem da questão'><br>A execução desse código:",
+        "alternativas": ["a) não tem efeito, pois nenhum comando print é acionado;", 
+        "b) provoca a exibição do número 10 na saída;", 
+        "c) provoca a exibição dos números de 1 até 10 na saída;", 
+        "d) provoca um erro de compilação;",
+        "e) provoca um erro de execução"],
+        "correta": "c) provoca a exibição dos números de 1 até 10 na saída;",
+        "explicacao": "Questão um pouco polêmica, porém a FGV claramente diz em seu enunciado: versão 2.7.1, na qual o comando print não requer parênteses. Ok! Já que ela disse, vamos considerar que, neste caso, o comando print não requer parênteses! Porque na Versão 2.7.1, de fato, os códigos Python não precisam dos parênteses para o print. Já, na Versão 3 precisa dos parênteses! Desconsiderando isso, o for da função teste gera uma lista sequencial (1, n+1), e o segundo for apresentar a chamada da função teste com 10 elementos, portanto, a execução desse código provoca a exibição dos números de 1 até 10 na saída."
+      },
+      {
+        "pergunta": "(FGV – TJ RO– 2021) Analise o código Python 2.7 a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_116.png' alt='imagem da questão'><br>O valor exibido pelo comando print é:",
+        "alternativas": ["a) 0", 
+        "b) 1", 
+        "c) 5", 
+        "d) 10",
+        "e) 50"],
+        "correta": "c) 5",
+        "explicacao": "Pessoal, o while irá executar até que n1 != n2, ou seja, n1 diferente de n2. Dessa forma, ele vai realizar as seguintes operações: 50-5 =45, 45-5=40, 40 -5 = 35 ... até chegar a 5 que é o valor de retorno. Portanto, gabarito letra c."
+      },
+      {
+        "pergunta": "(FGV – BANESTES– 2021) Considere o código Python 2.7 a seguir:<br><img src='../dados/imgs/questao_desenvolvimento_117.png' alt='imagem da questão'><br>O resultado da execução desse código é:",
+        "alternativas": ["a) [1, 4, 9, 16, 25, 36, 49, 64]", 
+        "b) [1, 4, 9, 16, 25, 36, 49, 64, 81]", 
+        "c) [20, 1, 4, 9, 16, 25, 36, 49, 64]", 
+        "d) [20, 1, 4, 9, 16, 25, 36, 49, 64, 81]",
+        "e) [20, 4, 9, 16, 25, 36, 49, 64, 81]"],
+        "correta": "d) [20, 1, 4, 9, 16, 25, 36, 49, 64, 81]",
+        "explicacao": "Pessoal, é necessário saber que a função principal do código consiste em inserir um elemento no final de uma lista de 10 elementos, perceba: if len(L) >= n aqui, podemos observar que se o tamanho da lista for maior ou igual a n (que vale 10) vai encerrar o Loop e retornar L (a lista). Daí sabemos que a lista terá dez números, então desconsideramos as alternativas com mais ou menos que dez elementos. Nisso, fica apenas a letra D. Mas vamos confirmar nosso gabarito. O primeiro valor é 20 passado no print (ABC([20],10)), os demais serão 1,4,9,16,25,36,49,64,81."
+      },
+      {
+        "pergunta": "(FGV – FunSaúde CE– 2021) Observe o código Python v2.7.<br><img src='../dados/imgs/questao_desenvolvimento_118.png' alt='imagem da questão'><br>Assinale o valor retornado para F (48,36).",
+        "alternativas": ["a) 1", 
+        "b) 12", 
+        "c) 24", 
+        "d) 36",
+        "e) 48"],
+        "correta": "b) 12",
+        "explicacao": "O código consiste em um loop seguido de um condicional. O loop while roda enquanto a variável a tiver um valor diferente de b, assim, resolve-se a condicional. Como 48 é diferente de 36, entramos no condicional, se 48>36 então, a vai receber a – b. a = 46 e b = 36. A vai receber = 12 e retorna esse valor que será impresso. Assim, nosso gabarito é a letra b."
+      },
+      {
+        "pergunta": "(FGV – BANESTES– 2021) Considere o código Python a seguir. def F(a, b, c): for k in range(a,b): print k ** c Dado que uma execução da função F exibiu os números 16, 9, 4, 1, 0, 1, é Correta afirmar que os valores dos parâmetros a, b, c empregados foram, respectivamente:",
+        "alternativas": ["a) -4, 1, 2;", 
+        "b) -4, 2, 2;", 
+        "c) -4, 0, 4;", 
+        "d) 4, -1, 1;",
+        "e) 4, 2, 2."],
+        "correta": "b) -4, 2, 2;",
+        "explicacao": "Pessoal, nessa questão precisamos saber qual intervalo de valores gera a sequência 16, 9, 4, 1, 0, 1. Sabendo que a função consiste em três valores: a, b e c que em que um valor k é elevado a c. Para gerar 16, 9, 4 precisamos de valores elevado ao quadrado, concordam? 4², 3² e 2² ... Portanto b = 2. Daí eliminamos quase todas as alternativas exceto b e e. Há um erro sutil na letra E. O start (4), primeiro valor, é maior que o stop (2). Por isso, nosso gabarito é a letra B."
+      },
+      {
+        "pergunta": "(FGV – BANESTES– 2021) Considere o código Python 2.7 a seguir.<br>L=[6,5,4,3,2,1]<br>for k in range(-3,3):<br>print L[k]<br>A execução desse código exibe os números:",
+        "alternativas": ["a) 1 1 1 6 5 4;", 
+        "b) 1 2 3 4 5 6;", 
+        "c) 3 2 1 6 5 4;", 
+        "d) 6 5 4 3 2 1;",
+        "e) 6 5 4 6 5 4."],
+        "correta": "c) 3 2 1 6 5 4;",
+        "explicacao": "Pessoal, o for pega os 3 valores – do fim para o início (pega 3,2,1) e depois os três primeiros (pega 6,5,4). Nosso gabarito é 3 2 1 6 5 4."
+      },
+      {
+        "pergunta": "(FGV – IMBEL– 2021) Analise o script Python 3.8 exibido a seguir. <br>L=['A','E','I','O','U'] <br>for k in range(-1, -5, -1): <br>print (L[k+1]) <br>Assinale a saída produzida pela execução desse código.",
+        "alternativas": ["a) A E I O U", 
+        "b) A E I U", 
+        "c) A U O I", 
+        "d) U A E I",
+        "e) U O I E A"],
+        "correta": "c) A U O I",
+        "explicacao": "Mais uma questão com valores negativos! Vejamos o que ela faz! range(-1, -5, -1). Na verdade, o print pega os índices, nessa sequência: -1 + 1 = 0; -2 + 1 = -1; -3 + 1 = -2; -4 + 1 = -3. Então vai pegar: L[0] = A, L[-1] = U, L[-2] = O , L[-3] = I. Lembrando que os valores negativos iniciam do fim da lista!"
+      },
+      {
+        "pergunta": "(FGV – IMBEL– 2021) Analise o script Python 3.8 exibido a seguir. <br>L=['A','E','I','O','U'] <br>for k in range(0,len(L)): <br>print (L[4-k]) <br>Assinale a saída produzida pela execução desse código.",
+        "alternativas": ["a) A E I O U", 
+        "b) A E I O", 
+        "c) E I O U", 
+        "d) U O I E",
+        "e) U O I E A"],
+        "correta": "e) U O I E A",
+        "explicacao": "Pessoal, vamos ver quais valores o print está pegando: <br>L[4-0] = L[4] = U <br>L[4-1] = L[3] = O <br>L[4-2] = L[2] = I <br>L[4-3] = L[1] = E <br>L[4-4] = L[0] = A"
+      },
+      {
+        "pergunta": "(FGV – DPE RJ– 2019) Analise o código Python 2.7 a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_119.png' alt='imagem da questão'><br>O conjunto de palavras exibidas pela execução desse código, na ordem, é:",
+        "alternativas": ["a) banana;", 
+        "b) laranja, manga;", 
+        "c) uva, laranja;", 
+        "d) banana, laranja, manga;",
+        "e) banana, laranja, manga;"],
+        "correta": "c) uva, laranja;",
+        "explicacao": "Inicialmente você deve observar que seu array terá apenas dois elementos, porque a função range está pulando de -2 em -2 elementos – e há 4 elementos no array. O primeiro elemento é o -1, ou seja, uva. O segundo e ultimo será o -3, laranja. Gabarito letra C."
+      },
+      {
+        "pergunta": "(FGV – MPE AL– 2018) Analise o código Python 2.7 a seguir. <br>L1=[] <br>L2=[1,2,3,4] <br>for k in range(3, -4,-1): <br>  L1.append(L2[k]) <br>for x in L: <br>  print x <br>Esse programa causa",
+        "alternativas": ["a) erro de sintaxe.", 
+        "b) erro de execução.", 
+        "c) a exibição dos valores 4,3,2,1,4,3,2 nessa ordem.", 
+        "d) a exibição do valor 4, somente.",
+        "e) a exibição dos valores 4,3,2,1 nessa ordem."],
+        "correta": "b) erro de execução.",
+        "explicacao": "Pessoal, ocorrerá um erro de execução, porque a variável L não foi definida (for x in L), veja: NameError: name 'L' is not defined. Se fosse inserido L1 ou L2 no local que foi inserido L, executaria perfeitamente."
+      },
+      {
+        "pergunta": "(FGV - 2015 – CM/Caruaru - Analista Legislativo - Informática) Analise o código Python a seguir. <br>L1=[10,20,30] <br>L2=[40,50] <br>L1.append(L2) <br>print L1 <br>Assinale a opção que descreve corretamente o que acontece quando esse programa é executado no Python 2.7:",
+        "alternativas": ["a) Produz uma mensagem de erro, porque tenta executar uma operação inválida.", 
+        "b) Exibe “[10, 20, 30, [40, 50]]”.", 
+        "c) Exibe “[10, 20, 30, 40, 50]”.", 
+        "d) Exibe “[10, 20, 30], [40, 50]”.",
+        "e) Exibe “[]”."],
+        "correta": "b) Exibe “[10, 20, 30, [40, 50]]”.",
+        "explicacao": "O comando append inclui o valor da variável L2 na posição final do vetor L1. Como o conteúdo da variável L2 é uma lista de tamanho 2 [40,50], ele que será incluído na 4ª posição de L1. Professor, porque a resposta não é letra C? Muito bem observado, padawan! O método append inclui a lista L2 como se fosse só um elemento, isto é, a lista final tem 4 elementos ao invés de 5, pois L2 é tratado como se fosse uma coisa só!"
+      },
+      {
+        "pergunta": "(FGV - 2015 – TJ/BA - Analista Judiciário) Analise o trecho de programa Python, na versão 2.7, apresentado a seguir. L=[1,2,3,4,5,6,7,8] print L[::-1] Ao ser executado, o resultado exibido é:",
+        "alternativas": ["a) [1, 2, 3, 4, 5, 6, 7, 8]", 
+        "b) [8]", 
+        "c) []", 
+        "d) [8, 7, 6, 5, 4, 3, 2, 1]",
+        "e) [1]"],
+        "correta": "d) [8, 7, 6, 5, 4, 3, 2, 1]",
+        "explicacao": "O operador de acesso a itens em coleções (listas, sets, tuplas) usam três argumentos: <br>L[Start:Stop:Step] <br>Start - primeira posição a ser acessada: <br>Pode ser: (1) valor positivo - posição inicial de acesso (por exemplo, 0 é a primeira, 1 é a segunda); (2) valor negativo - posição a partir do final do array (por exemplo, -1 é a última posição, -2 é a penúltima); (3) não fornecido - primeira posição do array (posição 0). <br>Stop - última posição a ser acessada: <br>Pode ser: (1) valor positivo - posição de acesso (por exemplo, 0 é a primeira, 1 é a segunda); (2) valor negativo - posição a partir do final do array (por exemplo, -1 é a última posição, -2 é a penúltima); (3) não fornecido - última posição do array (posição -1). <br>Step - valor do incremento no acesso: <br>Pode ser: (1) número positivo - ordem direta de incremento em incremento; (2) número negativo - ordem inversa de incremento em incremento; (3) não fornecido - ordem de 1 em 1. Quando só step é fornecido e ele é negativo, ele acessa a coleção de forma invertida a partir do último elemento. <br>Dessa forma, o acesso L[::-1] acessará da primeira até a última posição do array em ordem inversa, ou seja, [8, 7, 6, 5, 4, 3, 2, 1]."
+      },
+      {
+        "pergunta": "(FGV – 2014 – MPE/AL) Analise o código Python 2.7 a seguir. <br>L = [10, 12, 14, 16] <br>for k in range(4, -5, -1): <br>print L[k] <br>Esse programa causa:",
+        "alternativas": ["a) erro de sintaxe.", 
+        "b) erro de execução.", 
+        "c) a exibição de 4 valores, 16,14,12,10, nessa ordem.", 
+        "d) a exibição de 8 valores, 16,14,12,10,16,14,12,10, nessa ordem.",
+        "e) a exibição do valor 16, somente."],
+        "correta": "a) erro de sintaxe.",
+        "explicacao": "A questão é fácil de responder porque ela possui erro de sintaxe! A sintaxe exige que o bloco for tenha um corpo, e o corpo precisa seguir o ':' ou estar dentro de um bloco indentado abaixo do 'for'. Perceba que não acontece nenhum dos dois casos na questão: não existe nada depois do ':', nem existe comando indentado abaixo do 'for'. E mesmo que estivesse corretamente indentado, ainda haveria um erro de execução porque o range(4, -5, -1) percorre de 4 a -4 em passos de -1 e não teria como imprimir L[4] porque esse valor sequer existe, L só vai de 0 a 3."
+      },
+      {
+        "pergunta": "(FCC – PGE AM– 2022)Em um programa escrito em Python, uma série de dados foram inseridos no array cargos, por meio da instrução abaixo. <br>cargos = ['Advogado','Promotor', 'Procurador', 'Juiz', 'Desembargador', 'Ministro']; <br>Para colocar estes dados em ordem alfabética decrescente em um novo array chamado cargos_ordenados utiliza-se a instrução:",
+        "alternativas": ["a) for cargos_ordenados in cargos reverse True;", 
+        "b) cargos_ordenados = sorted(cargos,reverse=True);", 
+        "c) while cargos: cargos_ordenados = cargos--;", 
+        "d) cargos_ordenados = descending(cargos);",
+        "e) cargos_ordenados = ordered(cargos, descending=True);"],
+        "correta": "b) cargos_ordenados = sorted(cargos,reverse=True);",
+        "explicacao": "Pessoal, sort() ordena a lista, no caso, a lista 'cargos'. A opção reverse=True Inverte a ordem da lista. Portanto nosso gabarito é a Letra B. O resultado da execução da letra B é: ['Promotor', 'Procurador', 'Ministro', 'Juiz', 'Desembargador', 'Advogado']. As demais alternativas geram erros e não existem."
+      },
+      {
+        "pergunta": "(FCC – TRF 4 – 2019) Considerando que em um programa Python em condições ideais há um array criado pelo comando nomes = ['Maria', 'Pedro', 'João'], para exibir os valores contidos nesse array utiliza-se",
+        "alternativas": ["a) for x in nomes: out.print(x)", 
+        "b) while x in nomes: print(x)", 
+        "c) foreach x in nomes: print(x)", 
+        "d) foreach x in nomes: system.println(x)",
+        "e) for x in nomes: print(x)"],
+        "correta": "e) for x in nomes: print(x)",
+        "explicacao": "Pessoal, fizemos vários exemplos e questões usando o for e o print dos arrays. O Correta é for x in nomes: print(x)."
+      },
+      {
+        "pergunta": "(FCC – TRF 4– 2019) Considere o código Python abaixo.<br><img src='../dados/imgs/questao_desenvolvimento_120.png' alt='imagem da questão'><br>Para que o código exiba na tela o valor True se o item buscado no vetor por meio da função oper for encontrado, a lacuna I deve ser corretamente preenchida por",
+        "alternativas": ["a) while pos < l and not x:", 
+        "b) while pos < len(l) && x:", 
+        "c) while pos < len(l) and not found(x):", 
+        "d) while (pos < len(l) && not(x)):",
+        "e) while pos < len(l) and not x:"],
+        "correta": "e) while pos < len(l) and not x:",
+        "explicacao": "A função 'oper' irá retornar 'True' se o valor for encontrado no vetor ou 'False' caso não encontrado. Assim, é necessário que a lacuna I seja preenchida por uma estrutura de repetição while para percorrer o vetor além do 'and not x' para verificar se o item buscado no vetor por meio da função 'oper' foi encontrado."
+      },
+      {
+        "pergunta": "(FCC – TJ MA– 2019) Considere o programa Python abaixo: <br>numero1 = int(input('Informe o número de Processos: ')) <br>numero2 = int(input('Informe o número de Juízes: ')) <br>.. <br>I <br>.. <br>resultado = numero1 / numero2 <br>print('Há ',resultado, ' processos a serem julgados por cada Juiz') <br>.. <br>II <br>.. <br>print('Não é possível divisão por zero') <br>Para tratar a exceção que será lançada se o valor contido na variável numero2 for zero, as lacunas I e II deverão ser corretamente preenchidas por:",
+        "alternativas": ["a) try: e catch ArithymeticException:", 
+        "b) throw e catch (ZeroDivisionException $e)", 
+        "c) try e catch(ArithmeticException ex)", 
+        "d) throw: e catch(err)",
+        "e) try: e except ZeroDivisionError:"],
+        "correta": "e) try: e except ZeroDivisionError:",
+        "explicacao": "Pessoal, de imediato podemos eliminar as opções que não possuem o try. Portanto ficamos apenas com a, c e e. A questão deu a dica: 'Não é possível divisão por zero'. Daí podemos verificar que o gabarito é a letra E porque há uma divisão no try (resultado = numero1 / numero2)."
+      },
+      {
+        "pergunta": "(FCC – TJ MA– 2019) Considere o programa Python abaixo:<br><img src='../dados/imgs/questao_desenvolvimento_121.png' alt='imagem da questão'><br>Para que o programa seja executado corretamente, em condições ideais, a indicação I deve ser substituída por:",
+        "alternativas": ["a) private exibir_processos(pro):", 
+        "b) public exibir_processos(pro):", 
+        "c) function exibir_processos(pro):", 
+        "d) definition exibir_processos(pro):",
+        "e) def exibir_processos(pro):"],
+        "correta": "e) def exibir_processos(pro):",
+        "explicacao": "Pessoal, fizemos várias questões com definição de funções, vamos relembrar? Para criar uma função, utiliza-se a palavra-chave def. Daí já conseguimos saber que o nosso gabarito é a letra E."
+      },
+      {
+        "pergunta": "(FCC – MPE PE– 2018) Considere o fragmento de código Python abaixo.<br><img src='../dados/imgs/questao_desenvolvimento_122.png' alt='imagem da questão'><br>Para que o código seja compilado e executado corretamente, a lacuna I deverá ser preenchida com",
+        "alternativas": ["a) __init__(self, nome, renda):", 
+        "b) function __init(self, nome, renda):", 
+        "c) def __construct(self, nome, renda):", 
+        "d) def __init__(self, nome, renda):",
+        "e) Cliente(self, nome, renda):"],
+        "correta": "d) def __init__(self, nome, renda):",
+        "explicacao": "Pessoal, todas as classes possuem uma função chamada __init__(), que sempre é executada quando a classe está sendo iniciada. Para que o código seja compilado e executado corretamente devemos utilizar def __init__(self, nome, renda):."
+      },
+      {
+        "pergunta": "(FCC – TRE SP– 2017) Considere o programa Python, abaixo. <br>import ..I.. as b <br>import matplotlib.pyplot as a <br>x = b.linspace(0, 3, 20) <br>y = b.linspace(0, 9, 20) <br>a.plot(x, y) <br>a.plot(x, y, 'o') <br>a.show() <br>A lacuna I deve ser preenchida corretamente com",
+        "alternativas": ["a) numpy", 
+        "b) matrix", 
+        "c) mathlab", 
+        "d) numberplot",
+        "e) array"],
+        "correta": "a) numpy",
+        "explicacao": "Pessoal, NumPy é uma biblioteca Python usada para trabalhar com arrays. Ela possui funções para trabalhar no domínio da álgebra linear, transformada de Fourier e matrizes. NumPy significa Python Numérico. Para usar a linspace() é necessário importar a biblioteca NumPy."
+      },
+      {
+        "pergunta": "(FCC – PRODATER– 2016) Em Python existe um conjunto de métodos disponíveis para se trabalhar com objetos do tipo lista. Considere o trecho de programa abaixo que faz uso desses métodos. <br>a = [99.15, 323, 323, 2, 12.5] <br>a.insert(2, -5) <br>a.append(323) <br>a.index(323) <br>a.remove(323) <br>a.reverse() <br>Ao executar este trecho de programa, o conteúdo final da lista a será:",
+        "alternativas": ["a) [99.15, −5, 323, 2, 12.5, 323]", 
+        "b) [−5, 2, 12.5, 99.15, 323, 323]", 
+        "c) [323, 12.5, 2, 323, −5, 99.15]", 
+        "d) [99.15, −5, 323, 323, 12.5, 2]", 
+        "e) [323, 323, 99.15, 12.5, 2, −5]"],
+        "correta": "c) [323, 12.5, 2, 323, −5, 99.15]",
+        "explicacao": "Pessoal, vejamos o que cada operação gera na lista a: <br>a.insert(2, -5) # [99.15, 323, -5, 323, 2, 12.5] <br>a.append(323) # [99.15, 323, -5, 323, 2, 12.5, 323] <br>a.index(323) # [99.15, 323, -5, 323, 2, 12.5, 323] (não faz nada) <br>a.remove(323) # [99.15, -5, 323, 2, 12.5, 323] (removeu o primeiro 323) <br>a.reverse() # [323, 12.5, 2, 323, -5, 99.15] (inverteu a lista)"
+      },
+      {
+        "pergunta": "(FCC – SEMF Teresina– 2016) Considere o programa abaixo, criado na linguagem Python. <br>a = ['ARSETE', 'PRODATER', 'SEMEST', 'STRANS', 'SEMAE'] <br>... <br>I... <br>print i, a[i] <br>Considere a saída gerada pelo programa: <br>0 ARSETE <br>1 PRODATER <br>2 SEMEST <br>3 STRANS <br>4 SEMAE <br>Na lacuna I deve estar o comando:",
+        "alternativas": ["a) for i in len(a):", 
+        "b) foreach a as &value(a)):", 
+        "c) while i<range(len(a))", 
+        "d) for i in range(len(a)):",
+        "e) for i in range(a):"],
+        "correta": "d) for i in range(len(a)):",
+        "explicacao": "Pessoal, o Correta a se usar quando é necessário percorrer o array é a letra d: for i in range(len(a)):"
+      },
+      {
+        "pergunta": "(FCC – PGM Teresina– 2016) Considere o código-fonte abaixo, criado na linguagem Python.<br><img src='../dados/imgs/questao_desenvolvimento_123.png' alt='imagem da questão'><br>O valor final contido na posição de índice 6 de op é",
+        "alternativas": ["a) 1", 
+        "b) 8", 
+        "c) 5", 
+        "d) 6",
+        "e) 13"],
+        "correta": "b) 8",
+        "explicacao": "Pessoal, é apresentado um código que gera a sequência de Fibonacci – muito cobrado em provas principalmente quando se fala em Python! A sequencia gerada é: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89. A posição 6 consiste do valor = 8, nosso gabarito."
+      },
+      {
+        "pergunta": "(FCC – CNMP– 2015) Considere os fragmentos de programas Phyton a seguir:<br><img src='../dados/imgs/questao_desenvolvimento_124.png' alt='imagem da questão'><br>É correto afirmar que",
+        "alternativas": ["a) o Fragmento 1 está in Correta, pois laços não podem ter uma cláusula else.", 
+        "b) no Fragmento 2, a instrução for está incorreta, pois ela não pode iterar sobre a.", 
+        "c) o Fragmento 1 está in Correta, pois não é possível iterar sobre sequências numéricas utilizando a função range.", 
+        "d) no Fragmento 1 é verificado se o quociente da divisão de n por x corresponde a 0.",
+        "e) os dois fragmentos de código estão Corretas."],
+        "correta": "e) os dois fragmentos de código estão Corretas.",
+        "explicacao": "Pessoal, ambos fragmentos estão perfeitos."
+      },
+      {
+        "pergunta": "(FCC – TRT/MG - Técnico Judiciário - Tecnologia Da Informação) Considere o código fonte Python abaixo.<br><img src='../dados/imgs/questao_desenvolvimento_125.png' alt='imagem da questão'><br>Para que seja exibido [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] a lacuna 'I' precisa ser preenchida corretamente com:",
+        "alternativas": ["a) resultado.add(a) <br>  a, b = b, a+b", 
+        "b) resultado.insert(a) <br>  a, b = b, a+b", 
+        "c) resultado.append(a) <br>  a, b = b, a+b", 
+        "d) resultado.add(a) <br>  a, b = a, a+b",
+        "e) resultado.append(a) <br>  a, b = a+b, b"],
+        "correta": "c) resultado.append(a) <br>  a, b = b, a+b",
+        "explicacao": "Primeiro temos que saber que o Correta a ser utilizado é o append, pois queremos inserir valores a cada iteração sem perder os anteriores. Então, ficamos entre a letra (c) e (e). Em (c), temos a, b = b, a+b equivale a a = b e b = a+b; e em (e), temos que a, b = a+b, b equivale a a = a+b e b = b. Vamos testar a letra (e)! Antes de entrar na estrutura de repetição while, nós temos que: <br>a = 0 <br>b = 1 <br>Depois, temos que: <br>a = a + b <br>b = b <br>Note que – se antes b = 1 e depois b = b – então b nunca vai mudar, b sempre será 1. Como antes a = 0 e depois a = a + b, então a sempre aumentará em uma unidade. Logo, resultado em uma sequência [1, 2, 3, 4, 5, 6, 8, 9, ...]. Dessa forma, a resposta é (c)! Notem que ele se trata de uma Sequência de Fibonacci. <br>1ª iteração: resultado = [0]; a = 1; b = 1; <br>2ª iteração: resultado = [0, 1]; a = 1; b = 2; <br>3ª iteração: resultado = [0, 1, 1]; a = 2; b = 3; <br>4ª iteração: resultado = [0, 1, 1, 2]; a = 3; b = 5; <br>5ª iteração: resultado = [0, 1, 1, 2, 3]; a = 5; b = 8; <br>6ª iteração: resultado = [0, 1, 1, 2, 3, 5]; a = 8; b = 13; <br>7ª iteração: resultado = [0, 1, 1, 2, 3, 5, 8]; a = 13; b = 21; <br>8ª iteração: resultado = [0, 1, 1, 2, 3, 5, 8, 13]; a = 21; b = 34; <br>9ª iteração: resultado = [0, 1, 1, 2, 3, 5, 8, 13, 21]; a = 34; b = 55; <br>10ª iteração: resultado = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]; a = 55; b = 89; <br>11ª iteração: resultado = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]; a = 89; b = 144; <br>12ª iteração: resultado = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]; a = 144; b = 233;"
+      },
+      {
+        "pergunta": "(FCC – 2012 – MPE/PE – Analista de Sistemas) Em Python, os métodos de lista permitem utilizar listas como pilhas, onde o item adicionado por último é o primeiro a ser recuperado. Para adicionar um item ao topo da pilha, e para recuperar um item do topo da pilha utilizam-se, respectivamente os métodos:",
+        "alternativas": ["a) append() e pop().", 
+        "b) insert() e top().", 
+        "c) addTop() e pop().", 
+        "d) add() e get().",
+        "e) addItem() e top()."],
+        "correta": "a) append() e pop().",
+        "explicacao": "append( ) é utilizado para adicionar um elemento no final de uma lista ou no topo de uma pilha; pop( ) é utilizado para recuperar um item de uma lista ou do topo de uma pilha."
+      },
+      {
+        "pergunta": "(FCC – 2012 – TRE/CE – Analista de Sistemas) Sobre Python é Correta afirmar:",
+        "alternativas": ["a) é uma linguagem compilada, ou seja, o código-fonte de um programa é lido pelo compilador, que cria um arquivo binário, executável diretamente pelo hardware.", 
+        "b) é uma linguagem fortemente tipada, ou seja, é preciso declarar variáveis e seus tipos.", 
+        "c) suporta funcionalidades comuns na orientação a objetos: herança, herança múltipla, polimorfismo, reflexão e introspecção.", 
+        "d) uma lista em Python é um conjunto de valores acessados por um índice numérico, inteiro, começando em 1. Assim como em outras linguagens, a lista pode armazenar apenas valores de um mesmo tipo.", 
+        "e) uma String Python é uma sequência imutável, alocada estaticamente, com restrição de tamanho."],
+        "correta": "c) suporta funcionalidades comuns na orientação a objetos: herança, herança múltipla, polimorfismo, reflexão e introspecção.",
+        "explicacao": "(a) Errado, é uma linguagem interpretada; (b) Errado, ele realmente possui tipagem forte, mas não precisa declarar variáveis e seus tipos; (c) Correta, ele realmente suporta funcionalidades comuns da orientação a objetos como herança simples e múltipla, polimorfismo, reflexão e introspecção; (d) Errado, a lista pode armazenar valores de tipos diferentes e começa em zero; (e) Errado, ela não possui restrição de tamanho."
+      },
+      {
+        "pergunta": "(IESES - 2015 - IFC-SC - Programação Web e Dispositivos Móveis) Sobre listas em Python 3.1.5:",
+        "alternativas": ["a) list.remove(a) remove o primeiro item da lista cujo valor é a.", 
+        "b) list.pop(a) adiciona um item de valor a ao início da lista.", 
+        "c) list.append(a) adiciona um item à lista cujo índice será a.", 
+        "d) list.index(a) retorna o valor do item cujo índice é a."],
+        "correta": "a) list.remove(a) remove o primeiro item da lista cujo valor é a.",
+        "explicacao": "(a) Correta, remove o primeiro item da lista cujo valor é a; (b) Errado, pop() remove e retorna o último item da lista; (c) Errado, append() adiciona um item ao final da lista; (d) Errado, index() retorna o índice do primeiro item cujo valor é a."
+      },
+      {
+        "pergunta": "(IESES - 2015 - IFC-SC - Programação Web e Dispositivos Móveis) O conjunto Correta de palavras reservadas para a construção de uma estrutura de controle em Python 3.4.3 é:",
+        "alternativas": ["a) “if”, “elsif” e “else”.", 
+        "b) “if”, “else if” e “else”.", 
+        "c) Somente “if”; o restante da estrutura de controle (“senão se” e “senão”) é realizado simplesmente com indentação.", 
+        "d) “if”, “elif” e “else”."],
+        "correta": "d) “if”, “elif” e “else”.",
+        "explicacao": "A estrutura correta completa é: if, elif e else."
+      },
+      {
+        "pergunta": "(UERJ - UERJ - Analista De Sistemas - Grid) Considere o trecho do programa Python abaixo:<br><img src='../dados/imgs/questao_desenvolvimento_126.png' alt='imagem da questão'><br>O valor impresso ao executarmos o programa é:",
+        "alternativas": ["a) 5", 
+        "b) 10", 
+        "c) 15", 
+        "d) 25"],
+        "correta": "a) 5",
+        "explicacao": "Primeiro, uma observação: as variáveis possuem escopos diferentes. Há duas ocorrências de “x” no código-fonte, mas uma está dentro do escopo local da função dobra( ) e o outro está fora (escopo global). Dito isso, se x = 5, temos que dobra(5). Logo, dentro do escopo dessa função, ele é recebido como y. Então, x = y + y = 5 + 5 = 10. Depois, chama-se a função dobra(x) novamente, mas – dentro desse escopo – x continua igual a 5. <br>Logo, repetiremos o que acabamos de fazer: x = y + y = 5 + 5 = 10. Por fim, imprime-se x. Ora, o x impresso aqui tem escopo global e, não, local. Logo, ele terá valor = 5."
+      },
+      {
+        "pergunta": "(UERJ - UERJ - Analista De Sistemas) A linguagem Python possui a seguinte característica:",
+        "alternativas": ["a) é uma linguagem compilada.", 
+        "b) exige declaração de código.", 
+        "c) a tupla é um tipo mutável.", 
+        "d) é orientada a objetos."],
+        "correta": "d) é orientada a objetos.",
+        "explicacao": "(a) Errado, é uma linguagem interpretada; (b) Errado, não sei o que a questão quis dizer com declaração de código. Se for declaração de tipo, então não exige; (c) Errado, a tupla é equivalente a uma lista, porém imutável; (d) Correta, é realmente orientada a objetos."
+      },
+      {
+        "pergunta": "(CETAP – 2010 – AL/RR – Analista de Sistemas) Sobre a linguagem de programação PYTHON, marque a alternativa INCORRETA.",
+        "alternativas": ["a) Python suporta a maioria das técnicas da programação orientada a objetos.", 
+        "b) Python suporta e faz uso constante de tratamento de exceções como uma forma de testar condições de erro e outros eventos inesperados no programa.", 
+        "c) As funções são definidas em Phyton utilizando a palavra chave def.", 
+        "d) A separação de blocos de código em Phyton é feita utilizando a indentação de código.", 
+        "e) O operador lógico de conjunção ('e', como em a e b) é &&."],
+        "correta": "e) O operador lógico de conjunção ('e', como em a e b) é &&.",
+        "explicacao": "(a) Correta, ele realmente suporta a maioria das técnicas da programação orientada a objetos; (b) Correta, ele realmente suporta e faz uso constante de tratamento de exceções como uma forma de testar condições de erro e outros eventos inesperados no programa. Caso haja algum erro, o programa não é interrompido – o erro é tratado sem interromper o programa; (c) Correta, funções são definidas por meio da palavra-chave def; (d) Correta, a separação de blocos se dá por meio da indentação – ignorem o nome errado: é Python e, não, Phyton; (e) Errado, o operador lógico de conjunção é and e, não, &&."
+      },
+      {
+        "pergunta": "(CESGRANRIO – 2004 – SECAD/TO – Analista de Sistemas) Um programador de Python recebeu a tarefa de criar uma função chamada calcular que recebe dois parâmetros. Para executar sua atividade, ele deve utilizar a expressão:",
+        "alternativas": ["a) def calcular (a,b):", 
+        "b) function calcular (a,b):", 
+        "c) import calcular (a,b):", 
+        "d) procedure calcular (a,b):",
+        "e) sub calcular (a,b):"],
+        "correta": "a) def calcular (a,b):",
+        "explicacao": "Uma função é definida por meio da palavra-chave def."
+      },
+      {
+        "pergunta": "(UNIRIO – 2014 – UNIRIO) Sobre o comando range para construção de listas na linguagem Python, é CORRETA afirmar que:",
+        "alternativas": ["a) range(4,6) gera a lista [4,5].", 
+        "b) range(5) gera a lista [1,2,3,4,5].", 
+        "c) range(4,6) gera a lista [4,5,6,7,8,9].", 
+        "d) range(5,1) gera a lista [5].",
+        "e) range(5,1,-2) gera a lista [4,5]."],
+        "correta": "a) range(4,6) gera a lista [4,5].",
+        "explicacao": "(a) Correta, range(4,6) retorna a lista [4, 5] porque não inclui o valor de índice [6]; (b) Errado, range(5) retorna a lista [0, 1, 2, 3, 4]; (c) Errado, já vimos que range(4,6) retorna a lista [4, 5]; (d) Errado, range(5,1) retorna [ ] porque o step padrão é 1 e o stop é menor que o start; (e) Errado, range(5,1,-2) retorna [5, 3] porque o step é negativo."
+      },
+      {
+        "pergunta": "(QUADRIX – 2018 – COREN/RS) No que se refere à linguagem de programação Python, assinale a alternativa correta.",
+        "alternativas": ["a) A Python é uma linguagem de alto nível e robusta. Ela possui seu próprio framework e é incompatível com frameworks de terceiros.", 
+        "b) A Python utiliza a duck typing (tipagem dinâmica), que nada mais é do que definir um tipo para a variável, com as operações que podem ser aplicadas, antes mesmo de ela ter sido criada, com base em conhecimento prévio do programa. Esta tarefa é executada pelo interpretador.", 
+        "c) O caractere “/” marca o início de comentário. Qualquer texto depois do “/”será ignorado até o fim da linha.", 
+        "d) A Python permite que os conteúdos das variáveis sejam sempre alterados, não existindo, dessa forma, tipos imutáveis.",
+        "e) Pode ser utilizada como linguagem principal no desenvolvimento de sistemas e também pode ser utilizada como linguagem script em vários softwares."],
+        "correta": "e) Pode ser utilizada como linguagem principal no desenvolvimento de sistemas e também pode ser utilizada como linguagem script em vários softwares.",
+        "explicacao": "(a) Errado, ela realmente é uma linguagem de alto nível e robusta, mas seu framework (coleção de pacotes e módulos de extensão) é totalmente compatível com frameworks de terceiros; (b) Errado, ela realmente utiliza Duck Typing, mas não é necessário definir um tipo para variável antes de ela ser criada – isso pode ser inferido pelo interpretador; (c) Errado, comentários são inicializados por meio do caractere “#” e, não, “/”; (d) Errado, tipos podem ser mutáveis ou imutáveis; (e) Correta, além de ser utilizado como linguagem principal no desenvolvimento de sistemas, o Python também é muito utilizado como linguagem script em vários softwares."
+      },
+      {
+        "pergunta": "(IFPI – 2012 – IFPI) Com relação à linguagem de programação Python, é INCORRETA a afirmação:",
+        "alternativas": ["a) Disponibiliza o conceito de herança múltipla, ou seja, uma classe pode ter mais de uma classe pai.", 
+        "b) A sintaxe Python permite o uso de somente uma instrução por linha de código. Para que seja possível colocar mais de uma, é necessário separá-las com um “;”, entretanto, essa prática é desaconselhada, visto que sua utilização prejudica a legibilidade do código.", 
+        "c) Os comentários são iniciados com um caractere “#”. Para fazer comentários com múltiplas linhas, utilizam-se os caracteres “#”, para o início, e “#*” para o final.", 
+        "d) Diferentemente de outras linguagens de programação que utilizam elementos léxicos para definir os blocos de código, a própria endentação do código é usada, em Python, para essa função.", 
+        "e) Em Python, os nomes de variáveis, funções, módulos e classes são conhecidos como identificadores. O identificador _quantidade é Correta em Python."],
+        "correta": "c) Os comentários são iniciados com um caractere “#”. Para fazer comentários com múltiplas linhas, utilizam-se os caracteres “#”, para o início, e “#*” para o final.",
+        "explicacao": "(a) Correta, ele realmente possui herança múltipla, isto é, uma classe com mais de um pai; (b) Correta, Python deve ser bastante legível. É possível inserir ponto-e-vírgula para separar instruções em uma mesma linha, mas prejudica a visibilidade – o ideal mesmo é deixar somente uma instrução por linha; (c) Errado, para comentários de mais de uma linha, utiliza-se três aspas simples ou duplas; (d) Correta, a indentação delimita blocos de código; (e) Correta, esse é um identificador válido."
       }
-
-
-
-
     ],
 
     ">>>>>>> apenas para pegar imagem <<<<<<<": [
