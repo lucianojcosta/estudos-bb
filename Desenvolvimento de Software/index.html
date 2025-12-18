@@ -3741,7 +3741,7 @@
 
             <p>Uma função é um bloco de código que só é executado quando é chamado. Você pode passar
             dados, conhecidos como parâmetros, para uma função. Essa função pode retornar dados como
-            resultado. Para criar uma função, utiliza-se a palavra-chave <span class="amarelocodigo">def</span>:</p>
+            resultado. Para criar uma função, utiliza-se a palavra-chave <strong>def</strong>:</p>
             
             <div class="tabelaEditorCodigo">
                 <table>
@@ -3750,7 +3750,9 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao():</td>
+                            <td class="umtab"><span class="amarelocodigo">def</span> <span class="azulcodigo">minhafuncao</span>():</td>
+                        </tr>
+                        <tr>
                             <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">"Olá Mundo!"</span>)</td>
                         </tr>
                     </tbody>
@@ -3766,7 +3768,7 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab">minhafuncao()</td>
+                            <td class="umtab"><span class="azulcodigo">minhafuncao</span>()</td>
                         </tr>
                     </tbody>
                 </table>
@@ -3775,7 +3777,7 @@
             <p>As informações podem ser passadas para funções como argumentos. Os argumentos são
             especificados após o nome da função, dentro dos parênteses. Você pode adicionar quantos
             argumentos quiser, basta separá-los com uma vírgula. O exemplo a seguir tem uma função com
-            um argumento (<span class="laranjacodigo">nome</span>). Quando a função é chamada, passamos um primeiro nome, que é usado
+            um argumento (<strong>nome</strong>). Quando a função é chamada, passamos um primeiro nome, que é usado
             dentro da função para imprimir o nome completo:</p>
             
             <div class="tabelaEditorCodigo">
@@ -3785,12 +3787,19 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao(<span class="laranjacodigo">nome</span>):</td>
-                            <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">"Prof. "</span> + <span class="laranjacodigo">nome</span>)</td>
-                            <td class="umtab">minhafuncao(<span class="laranjacodigo">"Diego Carvalho"</span>)</td>
-                            <td class="umtab">minhafuncao(<span class="laranjacodigo">"Raphael Lacerda"</span>)</td>
-                            <td class="umtab">minhafuncao(<span class="laranjacodigo">"Paolla Ramos"</span>)</td>
-                            </td>
+                            <td class="umtab"><span class="amarelocodigo">def</span> <span class="azulcodigo">minhafuncao</span>(<span class="laranjacodigo">nome</span>):</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">"Prof. "</span> <span class="rosacodigo">+</span> <span class="laranjacodigo">nome</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">minhafuncao</span>(<span class="laranjacodigo">"Diego Carvalho"</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">minhafuncao</span>(<span class="laranjacodigo">"Raphael Lacerda"</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">minhafuncao</span>(<span class="laranjacodigo">"Paolla Ramos"</span>)</td>
                         </tr>
                     </tbody>
                 </table>
@@ -3800,10 +3809,10 @@
             que, se sua função espera 2 argumentos, você deve chamar a função com 2 argumentos, nem
             mais, nem menos. Além disso, se você tentar chamar a função com mais ou menos argumentos,
             receberá um erro. No caso da função do exemplo, se passar um argumento a menos, receberá o
-            erro: <span class="rosacodigo">missing 1 required positional argument</span>, por outro lado, se inserir dois argumentos quando
-            era necessário um, receberá o seguinte erro: <span class="rosacodigo">takes 1 positional argument but 2 were given</span>.</p>
+            erro: <strong>missing 1 required positional argument</strong>, por outro lado, se inserir dois argumentos quando
+            era necessário um, receberá o seguinte erro: <strong>takes 1 positional argument but 2 were given</strong>.</p>
             
-            <p>Se você não souber quantos argumentos serão passados para sua função, adicione um <span class="laranjacodigo">*</span>antes do
+            <p>Se você não souber quantos argumentos serão passados para sua função, adicione um <strong>*</strong> antes do
             nome do parâmetro na definição da função. Dessa forma, a função receberá uma tupla de
             argumentos. Vejamos um exemplo:</p>
             
@@ -3814,16 +3823,20 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao (<span class="laranjacodigo">*</span>professores):</td>
-                            <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">professores[1]</span> + <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)</td>
-                            <td class="umtab">minhafuncao(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>)</td>
+                            <td class="umtab"><span class="amarelocodigo">def</span> <span class="azulcodigo">minhafuncao</span>(<span class="rosacodigo">*</span>professores):</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">professores[1]</span> <span class="rosacodigo">+</span> <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">minhafuncao</span>(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>)</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             
-            <p>No exemplo anterior, será impresso <span class="laranjacodigo">Raphael Lacerda</span> é professor de TI do Estratégia. A tupla
-            professores possui dois valores: (<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>). A posição 0 refere-se a
+            <p>No exemplo anterior, será impresso <strong>Raphael Lacerda</strong> é professor de TI do Estratégia. A tupla
+            professores possui dois valores: (<strong>"Diego Carvalho"</strong>, <strong>"Raphael Lacerda"</strong>). A posição 0 refere-se a
             Diego Carvalho e a posição 1 refere-se a Raphael Lacerda. Vejamos agora como passar
             argumentos na função usando chave-valor. Desta forma, a ordem dos argumentos não importa.</p>
             
@@ -3834,20 +3847,24 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao (<span class="laranjacodigo">prof1</span>, <span class="laranjacodigo">prof2</span>, <span class="laranjacodigo">prof3</span>):</td>
-                            <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">prof1</span> + <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)</td>
-                            <td class="umtab">minhafuncao(<span class="laranjacodigo">prof1 = "Diego Carvalho"</span>, <span class="laranjacodigo">prof2 = "Raphael Lacerda"</span>, <span class="laranjacodigo">prof3 = "Paolla Ramos"</span>)</td>
+                            <td class="umtab"><span class="amarelocodigo">def</span> <span class="azulcodigo">minhafuncao</span> (<span class="laranjacodigo">prof1</span>, <span class="laranjacodigo">prof2</span>, <span class="laranjacodigo">prof3</span>):</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">prof1</span> <span class="rosacodigo">+</span> <span class="laranjacodigo">" é um professor de TI do Estratégia"</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">minhafuncao</span>(<span class="laranjacodigo">prof1 <span class="rosacodigo">=</span> "Diego Carvalho"</span>, <span class="laranjacodigo">prof2 <span class="rosacodigo">=</span> "Raphael Lacerda"</span>, <span class="laranjacodigo">prof3 <span class="rosacodigo">=</span> "Paolla Ramos"</span>)</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             
             <p>Se você não souber quantos argumentos de palavra-chave serão passados para sua função,
-            adicione dois asteriscos: <span class="laranjacodigo">**</span> antes do nome do parâmetro na definição da função. Desta forma a
+            adicione dois asteriscos: <strong>**</strong> antes do nome do parâmetro na definição da função. Desta forma a
             função receberá um dicionário de argumentos.</p>
             
             <p>Outra forma de passar argumentos é enviando uma função. Você pode enviar qualquer tipo de 
-            dado de argumento para uma função (<span class="laranjacodigo">string</span>, <span class="laranjacodigo">número</span>, <span class="laranjacodigo">lista</span>, <span class="laranjacodigo">dicionário</span> etc.), e ele será tratado
+            dado de argumento para uma função (<strong>string</strong>, <strong>número</strong>, <strong>lista</strong>, <strong>dicionário</strong> etc.), e ele será tratado
             como o mesmo tipo de dado dentro dela. Por exemplo, se você enviar uma lista como argumento,
             ela ainda será uma lista quando chegar à função:</p>
             
@@ -3858,17 +3875,25 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="amarelocodigo">def</span> minhafuncao(<span class="laranjacodigo">professores</span>):
+                            <td class="umtab"><span class="amarelocodigo">def</span> <span class="azulcodigo">minhafuncao</span>(<span class="laranjacodigo">professores</span>):
+                        </tr>
+                        <tr>
                             <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">for</span> <span class="laranjacodigo">x</span> <span class="rosacodigo">in</span> <span class="laranjacodigo">professores</span>:</td>
+                        </tr>
+                        <tr>
                             <td class="trestab">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">print</span>(<span class="laranjacodigo">x</span>)</td>
+                        </tr>
+                        <tr>
                             <td class="umtab">listadeprofessores(<span class="laranjacodigo">"Diego Carvalho"</span>, <span class="laranjacodigo">"Raphael Lacerda"</span>, <span class="laranjacodigo">"Paolla Ramos"</span>)</td>
-                            <td class="umtab">minhafuncao(<span class="laranjacodigo">listadeprofessores</span>)</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="azulcodigo">minhafuncao</span>(<span class="laranjacodigo">listadeprofessores</span>)</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             
-            <p>Para permitir que uma função retorne um valor, use a instrução <span class="verdecodigo">return</span></p>
+            <p>Para permitir que uma função retorne um valor, use a instrução <strong>return</strong></p>
             
             <div class="tabelaEditorCodigo">
                 <table>
@@ -3877,11 +3902,19 @@
                             <td class="linhaEditorCodigo">Python</td>
                         </tr>
                         <tr>
-                            <td class="umtab"><span class="amarelocodigo">def</span> funcao(<span class="laranjacodigo">x</span>):</td>
-                            <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="verdecodigo">return</span> <span class="laranjacodigo">5</span> * <span class="laranjacodigo">x</span></td>
-                            <td class="umtab"><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">3</span>)) <span class="rosacodigo">#</span> imprime 15</td>
-                            <td class="umtab"><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">5</span>)) <span class="rosacodigo">#</span> imprime 25</td>
-                            <td class="umtab"><span class="azulcodigo">print</span>(funcao(<span class="laranjacodigo">9</span>)) <span class="rosacodigo">#</span> imprime 45</td>
+                            <td class="umtab"><span class="amarelocodigo">def</span> <span>funcao</span>(<span class="laranjacodigo">x</span>):</td>
+                        </tr>
+                        <tr>
+                            <td class="doistab">&nbsp;&nbsp;&nbsp;&nbsp;<span class="roxocodigo">return</span> <span class="laranjacodigo">5</span> * <span class="laranjacodigo">x</span></td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">print</span>(<span>funcao</span>(<span class="laranjacodigo">3</span>)) <span class="rosacodigo">#</span> imprime 15</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">print</span>(<span>funcao</span>(<span class="laranjacodigo">5</span>)) <span class="rosacodigo">#</span> imprime 25</td>
+                        </tr>
+                        <tr>
+                            <td class="umtab"><span class="verdecodigo">print</span>(<span>funcao</span>(<span class="laranjacodigo">9</span>)) <span class="rosacodigo">#</span> imprime 45</td>
                         </tr>
                     </tbody>
                 </table>
@@ -3895,59 +3928,6 @@
             função que nunca termina, ou uma que usa quantidades excessivas de memória ou poder do
             processador. No entanto, quando escrita corretamente, a recursão pode ser uma abordagem de
             programação muito eficiente e matematicamente elegante.</p>            
-            
-
-            <h4>Lambda (funções anônimas)</h4>
-            <div class="tabelaEditorCodigo">
-                <table>
-                <tbody>
-                    <tr class="cabecalhoEditorCodigo">
-                    <td class="linhaEditorCodigo">Python</td>
-                    </tr>
-                    <tr>
-                    <td class="umtab">dobro <span class="rosacodigo">=</span> <span class="amarelocodigo">lambda</span> x<span class="rosacodigo">:</span> x <span class="rosacodigo">*</span> <span class="roxocodigo">2</span></td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"><span class="verdecodigo">print</span>(dobro(<span class="roxocodigo">5</span>)) <span class="verdecodigo"># 10</span></td>
-                    </tr>
-                </tbody>
-                </table>
-            </div>
-
-            <h3>Classes e Objetos</h3>
-            <div class="tabelaEditorCodigo">
-                <table>
-                <tbody>
-                    <tr class="cabecalhoEditorCodigo">
-                    <td class="linhaEditorCodigo">Python</td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"><span class="amarelocodigo">class</span> Pessoa<span class="rosacodigo">:</span></td>
-                    </tr>
-                    <tr>
-                    <td class="doistab"><span class="amarelocodigo">def</span> __init__(self, nome, idade)<span class="rosacodigo">:</span></td>
-                    </tr>
-                    <tr>
-                    <td class="tresstab">self.nome <span class="rosacodigo">=</span> nome</td>
-                    </tr>
-                    <tr>
-                    <td class="tresstab">self.idade <span class="rosacodigo">=</span> idade</td>
-                    </tr>
-                    <tr>
-                    <td class="doistab"><span class="amarelocodigo">def</span> apresentar(self)<span class="rosacodigo">:</span></td>
-                    </tr>
-                    <tr>
-                    <td class="tresstab"><span class="amarelocodigo">return</span> <span class="verdelevecodigo">f"Meu nome é {self.nome} e tenho {self.idade} anos."</span></td>
-                    </tr>
-                    <tr>
-                    <td class="umtab">p <span class="rosacodigo">=</span> Pessoa(<span class="verdelevecodigo">"Carlos"</span>, <span class="roxocodigo">30</span>)</td>
-                    </tr>
-                    <tr>
-                    <td class="umtab"><span class="verdecodigo">print</span>(p.apresentar())</td>
-                    </tr>
-                </tbody>
-                </table>
-            </div>
 
             <h3>Automação com Python</h3>
             <ul>
