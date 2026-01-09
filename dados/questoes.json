@@ -8550,24 +8550,647 @@
 
     "portugues": [
       {
-        "pergunta": "Colocar aqui a pergunta de Português",
-        "alternativas": ["a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "Colocar aqui o comentário da questão."
+        "pergunta": "(PREF. CARIACICA–ES / 2020) Assinale a alternativa que apresenta uma palavra que NÃO tenha um dígrafo consonantal, ou seja, duas letras que, juntas, representam um som de consoante.",
+        "alternativas": [
+          "a) Esquecer.",
+          "b) Trabalhar.",
+          "c) Sorriso.",
+          "d) Principalmente."
+        ],
+        "correta": "d) Principalmente.",
+        "explicacao": "Em 'Principalmente' temos encontro consonantal 'PR' e dígrafo nasal em 'en', mas não há dígrafo consonantal. As demais têm: Esquecer (qu), Trabalhar (lh), Sorriso (rr)."
       },
       {
-        "pergunta": "Colocar aqui a pergunta de Português",
-        "alternativas": ["a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "Colocar aqui o comentário da questão."
+        "pergunta": "(PREF. DE GRAMADO / 2019) Considerando o emprego do vocábulo 'perenes', julgue o item a seguir. O vocábulo é uma paroxítona e pode ser classificado como polissílabo.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "'Perenes' é paroxítona trissílaba (pe-re-nes). Polissílabas possuem quatro ou mais sílabas."
+      },
+      {
+        "pergunta": "(PREF. CARIACICA–ES / 2020) Tendo em vistas as regras de acentuação gráfica da Língua Portuguesa, julgue o item a seguir. 'Será que têm bagagem suficiente para criticar?' – 'será' recebe acento por se tratar de uma oxítona terminada em 'a'.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "'Será' é oxítona terminada em 'a', portanto acentuada."
+      },
+      {
+        "pergunta": "(TCE RJ / AUDITOR / 2021) O emprego de acento agudo nas palavras 'elétricos', 'pálidas' e 'móveis' justifica-se pela mesma regra de acentuação gráfica.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "'Elétricos' e 'pálidas' são proparoxítonas; 'móveis' é paroxítona terminada em ditongo. Regras diferentes."
+      },
+      {
+        "pergunta": "(PREF. CARIACICA–ES / 2020) Tendo em vistas as regras de acentuação gráfica da Língua Portuguesa, julgue o item a seguir. 'É incrível e, ao mesmo tempo, muito preocupante.' – o termo em destaque recebe o acento por corresponder a uma paroxítona terminada em 'L'.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "'Incrível' é paroxítona terminada em 'L', acentuada pela regra geral das paroxítonas."
+      },
+      {
+        "pergunta": "(IF-MS / 2019) As palavras cérebro, ergométrica, evidências são acentuados porque são proparoxítonos.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "'Evidências' é paroxítona terminada em ditongo, não proparoxítona."
+      },
+      {
+        "pergunta": "(DPE-SC / 2018) Entre as alternativas a seguir, assinale aquela em que as duas palavras, retiradas do texto, são acentuadas graficamente por causa de regras diferentes.",
+        "alternativas": [
+          "a) única – política.",
+          "b) atlântico – doméstico.",
+          "c) três – até.",
+          "d) além – também.",
+          "e) saúde – país."
+        ],
+        "correta": "c) três – até.",
+        "explicacao": "'Três' é monossílabo tônico terminado em 'e'; 'até' é oxítona terminada em 'e'. Regras diferentes."
+      },
+      {
+        "pergunta": "(CIESP / 2021) A alternativa em que todas as palavras obedecem a mesma norma de acentuação gráfica é:",
+        "alternativas": [
+          "a) saúde - solúvel - saída.",
+          "b) café - você - corrói.",
+          "c) pátria - indícios - critério.",
+          "d) pólo - álbum - táxi."
+        ],
+        "correta": "c) pátria - indícios - critério.",
+        "explicacao": "Todas são paroxítonas terminadas em ditongo."
+      },
+      {
+        "pergunta": "(CRMV-AM / 2020) As palavras 'pássaros', 'aquático' e 'poluídas' são acentuadas de acordo com a mesma regra de acentuação gráfica.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "'Pássaros' e 'aquático' são proparoxítonas; 'poluídas' é acentuada pela regra do hiato."
+      },
+      {
+        "pergunta": "(FURB-SC / 2021) Assinale a alternativa que completa correta e respectivamente as lacunas do texto: ... ainda ______ muito o que avançar. ... pesquisas ______ a educação inclusiva ... mas ______ a perspectiva ... todos os estudantes ... ______ o direito de solicitar assistência.",
+        "alternativas": [
+          "a) têm – sob – sobre – tem",
+          "b) tem – sobre – sobre – tem",
+          "c) têm – sob – sob – têm",
+          "d) tem – sobre – sob – têm",
+          "e) tem – sob – sob – tem"
+        ],
+        "correta": "d) tem – sobre – sob – têm",
+        "explicacao": "'tem' (singular), 'sobre' (a respeito de), 'sob' (influenciado por), 'têm' (plural com acento diferencial)."
+      },
+      {
+        "pergunta": "(MPE-GO / 2019) 'Tem' é o verbo ter no plural e 'têm' é o verbo ter no singular.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "É o contrário: 'têm' é plural, 'tem' é singular."
+      },
+      {
+        "pergunta": "(DPE-DF / 2022) Conforme as regras oficiais de grafia, 'Coexistem' poderia ser grafado alternativamente como Co-existem.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "O prefixo 'co' não leva hífen, exceto quando a palavra seguinte começa com 'h' ou a mesma vogal (ex.: co-herdeiro)."
+      },
+      {
+        "pergunta": "(FURB-SC / 2021) A exemplo de 'Pós-Graduação', cujo prefixo sempre exige hífen, assinale a alternativa com outro prefixo ou falso prefixo que sempre exige hífen:",
+        "alternativas": [
+          "a) co",
+          "b) ex",
+          "c) bio",
+          "d) geo",
+          "e) hidro"
+        ],
+        "correta": "b) ex",
+        "explicacao": "O prefixo 'ex' sempre exige hífen (ex.: ex-presidente, ex-aluno)."
+      },
+      {
+        "pergunta": "(SEED-PR / 2021) Assinale a opção em que a palavra apresentada está de acordo com a atual ortografia oficial da língua portuguesa.",
+        "alternativas": [
+          "a) seminternato",
+          "b) hipersensibilidade",
+          "c) contra-regra",
+          "d) mão-de-obra",
+          "e) autoanálise"
+        ],
+        "correta": "e) autoanálise",
+        "explicacao": "'Autoanálise' segue a regra: prefixo terminado em vogal + palavra começando com vogal diferente = sem hífen."
+      },
+      {
+        "pergunta": "(PC-GO / 2016) O emprego do hífen no vocábulo 'bem-estar' justifica-se pela mesma regra ortográfica que justifica a grafia do antônimo desse vocábulo: mal-estar.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "Ambos seguem a regra: 'bem' e 'mal' com hífen antes de palavra começada por vogal ou 'h'."
+      },
+      {
+        "pergunta": "(PM-BA / 2020) Observe a charge e assinale a alternativa que preencha correta e respectivamente as lacunas do enunciado. A fala do personagem da esquerda diz respeito ao sinal de ______ que foi abolido com o novo acordo ortográfico, assim como também o ______ das palavras destacadas na fala do personagem da direita.",
+        "alternativas": [
+          "a) dois pontos / travessão.",
+          "b) trema / hífen.",
+          "c) reticências / traço.",
+          "d) dois pontos / hífen.",
+          "e) reticências / travessão."
+        ],
+        "correta": "b) trema / hífen.",
+        "explicacao": "O trema foi abolido; 'mandachuva' e 'antissocial' perderam o hífen."
+      },
+      {
+        "pergunta": "(TRE-PA / 2020) Quanto às regras de ortografia, assinale a alternativa em que há uma palavra grafada incorretamente.",
+        "alternativas": [
+          "a) super-homem, sobrenatural, cosseno.",
+          "b) cooperador, coexistente, agroindustrial.",
+          "c) anti-inflacionário, pan-americano, autoescola.",
+          "d) girassol, hiper-ativo, recém-casado."
+        ],
+        "correta": "d) girassol, hiper-ativo, recém-casado.",
+        "explicacao": "O correto é 'hiperativo' (sem hífen), pois 'hiper' termina em 'r' e 'ativo' começa com vogal."
+      },
+      {
+        "pergunta": "(PREF. MANAUS / 2022) Assinale a palavra abaixo que está corretamente grafada com o sufixo -escer.",
+        "alternativas": [
+          "A) decrescer.",
+          "B) aparecer.",
+          "C) enriquecer.",
+          "D) amanhecer.",
+          "E) enlouquecer."
+        ],
+        "correta": "A) decrescer.",
+        "explicacao": "'Decrescer' segue a grafia de 'crescer' com 'sc'. As demais são com 'c'."
+      },
+      {
+        "pergunta": "(TJ-SP / 2019) A exemplo de 'intervenção' – grafada com 'ç' – e de 'autocontrole' – grafado sem hífen –, estão correta e respectivamente grafados, em conformidade com a ortografia oficial, os termos:",
+        "alternativas": [
+          "a) pretenção e autohemoterapia.",
+          "b) intenção e autoobservação.",
+          "c) compreensão e autoterapia.",
+          "d) propensão e autofecundação.",
+          "e) isenção e autodefesa."
+        ],
+        "correta": "e) isenção e autodefesa.",
+        "explicacao": "'Isenção' é com 'ç'; 'autodefesa' sem hífen (vogais diferentes)."
+      },
+      {
+        "pergunta": "(PREF. IRATI-SC / 2021) Marque a alternativa que apresenta todas as palavras escritas corretamente.",
+        "alternativas": [
+          "a) giboia, jiló, jipe, hoje.",
+          "b) jiboia, giló, jipe, hoje.",
+          "c) jiboia, jiló, gipe, hoge.",
+          "d) jiboia, jiló, jipe, hoje.",
+          "e) giboia, jiló, jipe, hoge."
+        ],
+        "correta": "d) jiboia, jiló, jipe, hoje.",
+        "explicacao": "Palavras de origem indígena ('jiboia', 'jiló') e adaptações ('jipe') com 'j'; 'hoje' com 'j'."
+      },
+      {
+        "pergunta": "(ALEPI / 2020) Há apenas uma palavra escrita INCORRETAMENTE na sequência:",
+        "alternativas": [
+          "a) vazio – vasilhame – vassoura – vaso – crasso.",
+          "b) hélice – humedecido – húmido – húmus – herbáceo.",
+          "c) nascer – desfalescer – adolescência – piscina – abstenção.",
+          "d) gesto – jeito – jocoso – jenipapo – asilado – abalizado.",
+          "e) exceção – excetuar – exceto – estender – extensão."
+        ],
+        "correta": "c) nascer – desfalescer – adolescência – piscina – abstenção.",
+        "explicacao": "A forma correta é 'desfalecer' (com 'c'), não 'desfalescer'."
+      },
+      {
+        "pergunta": "(TRE-PA / 2020) Acerca das regras de ortografia, assinale a alternativa incorreta.",
+        "alternativas": [
+          "a) 'Há muitos tipos de agressão e é um problema contínuo e social.' A palavra em destaque é grafada com 'ss' pois é substantivo derivado de verbo terminado em 'gredir'.",
+          "b) 'Sempre que possível, faça uma limpeza interior.' A palavra em destaque é grafada com 'z' pois é um substantivo abstrato derivado de adjetivo.",
+          "c) 'Sejam todos bem vindos ao grande espetáculo da noite!' A palavra em destaque é grafada sem hífen desde a alteração do Novo Acordo Ortográfico.",
+          "d) 'É possível que os noivos viajem e façam a viagem de seus sonhos.' Os vocábulos em destaque são grafados com 'j' e 'g' porque são compostos por um verbo e um substantivo, respectivamente."
+        ],
+        "correta": "c) 'Sejam todos bem vindos ao grande espetáculo da noite!' A palavra em destaque é grafada sem hífen desde a alteração do Novo Acordo Ortográfico.",
+        "explicacao": "O correto é 'bem-vindo' (com hífen), pois 'bem' prefixado exige hífen, exceto em derivados de 'querer' e 'fazer'."
+      },
+      {
+        "pergunta": "(MPE-PA / 2022) Em 'Esse artigo bem que poderia ser chamado Lágrimas por Bucha. O que aconteceu na cidade situada nos arredores de Kiev é inominável.' ('1º§) o uso da letra maiúscula pode ser indicado como:",
+        "alternativas": [
+          "A) Parcialmente correto.",
+          "B) Completamente correto.",
+          "C) Completamente incorreto.",
+          "D) Facultativo em todas as ocorrências."
+        ],
+        "correta": "B) Completamente correto.",
+        "explicacao": "'Lágrimas' (título), 'Bucha' e 'Kiev' (nomes próprios) justificam o uso de maiúsculas."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BANCO DA AMAZÔNIA / 2021) No texto, foram empregadas as palavras aí (l. 31) e ótimo (l. 35), ambas acentuadas graficamente. Duas outras palavras corretamente acentuadas pelos mesmos motivos que aí e ótimo são, respectivamente,",
+        "alternativas": [
+          "A) juiz e ébano",
+          "B) lcaral e ritmo",
+          "C) caquis e incrédulo",
+          "D) país e sonâmbulo",
+          "E) abacaxi e econômia"
+        ],
+        "correta": "D) país e sonâmbulo",
+        "explicacao": "'aí' é hiato acentuado (pa-ís); 'ótimo' é proparoxítona (so-nâm-bu-lo)."
+      },
+      {
+        "pergunta": "(CESGRANRIO/UNIRIO/ 2019) A presença ou ausência de acento gráfico nem sempre se repete quando uma palavra está no singular ou no plural. Quanto ao emprego do acento gráfico, a seguinte palavra se altera quando vai para o plural:",
+        "alternativas": [
+          "A) item",
+          "B) viúva",
+          "C) açúcar",
+          "D) fiel",
+          "E) técnica."
+        ],
+        "correta": "D) fiel",
+        "explicacao": "'Fiel' no plural vira 'fiéis', oxítona terminada em ditongo aberto, acentuada."
+      },
+      {
+        "pergunta": "(CESGRANRIO/LIQUIGÁS / 2018) A palavra 'típica' é acentuada. Pela mesma regra, também se acentuam as palavras",
+        "alternativas": [
+          "A) rúbrica e túnica",
+          "B) íberos e íntimos",
+          "C) diagnóstico e protótipo",
+          "D) étnico e filântropo",
+          "E) ínterim e ávaro."
+        ],
+        "correta": "C) diagnóstico e protótipo",
+        "explicacao": "'Típica', 'diagnóstico' e 'protótipo' são proparoxítonas (todas acentuadas)."
+      },
+      {
+        "pergunta": "(CESGRANRIO/TRANSPETRO/ 2018) A palavra 'tecnológicos', recebe acento gráfico, de acordo com as regras da norma-padrão da língua portuguesa. O grupo em que todas as palavras devem ser acentuadas pela mesma regra é",
+        "alternativas": [
+          "A) fácil, orgânico, vítimas",
+          "B) satélites, altíssimos, vítimas",
+          "C) fotossíntese, atraídos, domínio",
+          "D) saúde, possível, biológicos",
+          "E) vulneráveis, luminárias, incontável."
+        ],
+        "correta": "B) satélites, altíssimos, vítimas",
+        "explicacao": "'Tecnológicos', 'satélites', 'altíssimos' e 'vítimas' são proparoxítonas (todas acentuadas)."
+      },
+      {
+        "pergunta": "(CESGRANRIO / IBGE / 2016) Todas as palavras do grupo devem receber corretamente acentuação gráfica em:",
+        "alternativas": [
+          "A) tranquilo, paciente, poético",
+          "B) juri, nautico, inevitável",
+          "C) heroico, político, item",
+          "D) consciente, gratuito, fácil",
+          "E) presente, países, inflamavel"
+        ],
+        "correta": "B) juri, nautico, inevitável",
+        "explicacao": "Correções: júri, náutico, inevitável (proparoxítonas ou regra geral paroxítonas)."
+      },
+      {
+        "pergunta": "(CESGRANRIO / UNIRIO / 2016) Das palavras acentuadas história, camponês, construísse e impossível, quais recebem acento em razão da mesma norma ortográfica?",
+        "alternativas": [
+          "A) Apenas duas, história e construísse, por serem paroxítonas terminadas em vogal.",
+          "B) Apenas duas, construísse e impossível, por terem a mesma vogal tônica",
+          "C) Três delas, história, construísse e impossível, por serem proparoxítonas",
+          "D) Apenas duas, história e camponês, por serem substantivos.",
+          "E) Nenhuma delas, pois as quatro palavras recebem acento em razão de normas ortográficas diferentes."
+        ],
+        "correta": "E) Nenhuma delas, pois as quatro palavras recebem acento em razão de normas ortográficas diferentes.",
+        "explicacao": "História (paroxítona ditongo), camponês (oxítona em 'ês'), construísse (hiato), impossível (paroxítona em 'l')."
+      },
+      {
+        "pergunta": "(CESGRANRIO / ANP / 2016) O grupo de palavras que obedecem às normas de acentuação da Língua Portuguesa é",
+        "alternativas": [
+          "A) raízes, difícil, século",
+          "B) rúbrica, saúva, amavel",
+          "C) também, possível, êxito",
+          "D) ídolo, parabéns, ciencia",
+          "E) indústria, saúde, ninguém"
+        ],
+        "correta": "C) também, possível, êxito",
+        "explicacao": "Também (oxítona em 'em'), possível (paroxítona em 'l'), êxito (proparoxítona)."
+      },
+      {
+        "pergunta": "(CESGRANRIO / ANP / 2016) Das palavras acentuadas reúne, países, águas, última e vêm, as duas que recebem acento por seguirem a mesma norma ortográfica são:",
+        "alternativas": [
+          "A) águas e vêm",
+          "B) última e vêm",
+          "C) reúne e águas",
+          "D) reúne e países",
+          "E) países e última"
+        ],
+        "correta": "D) reúne e países",
+        "explicacao": "'Reúne' e 'países' são acentuadas pela regra do hiato (i/u tônico na segunda vogal)."
+      },
+      {
+        "pergunta": "(CESGRANRIO / PETROBRAS / 2015) No trecho 'Em um plano, temos o tão celebrado ‘futebol-arte’ glorificado como a forma genuína de nosso suposto estilo de jogo', a palavra destacada é acentuada graficamente pelo mesmo motivo pelo qual se acentua a palavra",
+        "alternativas": [
+          "A) além",
+          "B) declínio",
+          "C) ídolo",
+          "D) países",
+          "E) viés"
+        ],
+        "correta": "D) países",
+        "explicacao": "'Genuína' e 'países' são acentuadas pela regra do hiato (i/u tônico na segunda vogal)."
+      },
+      {
+        "pergunta": "(CESGRANRIO / LIQUIGÁS / 2014) A palavra acentuada pela mesma regra que se verifica na palavra símbolos é",
+        "alternativas": [
+          "A) já",
+          "B) está",
+          "C) respeitável",
+          "D) esferográfica",
+          "E) desenvolverá"
+        ],
+        "correta": "D) esferográfica",
+        "explicacao": "'Símbolos' e 'esferográfica' são proparoxítonas (todas acentuadas)."
+      },
+      {
+        "pergunta": "(CESGRANRIO/UNIRIO/ 2019) A palavra 'saíam' contém hiato acentuado. Deve também ser acentuado o hiato de",
+        "alternativas": [
+          "A) juizes",
+          "B) rainha",
+          "C) coroo",
+          "D) veem",
+          "E) suada."
+        ],
+        "correta": "A) juizes",
+        "explicacao": "'Saíam' e 'juízes' são acentuadas pela regra do hiato (i/u tônico). As demais não são acentuadas (rainha - exceção NH; coroo, veem - vogais repetidas; suada - 'a' não é i/u)."
+      },
+      {
+        "pergunta": "(CESGRANRIO/ LIQUIGÁS/ 2018) A palavra que precisa ser acentuada graficamente para estar correta quanto às normas em vigor está destacada na seguinte frase:",
+        "alternativas": [
+          "A) Todo escritor de novela tem o desejo de criar um personagem inesquecível.",
+          "B) Os telespectadores veem as novelas como um espelho da realidade.",
+          "C) Alguns novelistas gostam de superpor temas sociais com temas políticos.",
+          "D) Para decorar o texto antes de gravar, cada ator rele sua fala várias vezes.",
+          "E) Alguns atores de novela constroem seus personagens fazendo pesquisa."
+        ],
+        "correta": "D) Para decorar o texto antes de gravar, cada ator rele sua fala várias vezes.",
+        "explicacao": "O correto é 'relê' (oxítona terminada em 'e'), acentuada."
+      },
+      {
+        "pergunta": "(CESGRANRIO / LIQUIGÁS / 2014) A palavra que precisa ser acentuada graficamente para estar correta quanto às normas em vigor está destacada na seguinte frase:",
+        "alternativas": [
+          "A) Todo torcedor tem um sentimento especial em relação à seleção.",
+          "B) Muita gente do exterior vem ao Brasil para ver a Copa do Mundo.",
+          "C) Há árbitros que costumam supor que são os principais artistas do espetáculo.",
+          "D) Alguns jogadores dizem nas entrevistas que eles sempre se doam nos jogos.",
+          "E) Os jornalistas de emissoras diferentes também se reunem ao final do trabalho."
+        ],
+        "correta": "E) Os jornalistas de emissoras diferentes também se reunem ao final do trabalho.",
+        "explicacao": "O correto é 'reúnem' (hiato acentuado: i tônico)."
+      },
+      {
+        "pergunta": "(CESGRANRIO/LIQUIGÁS/2018) Assim como a palavra desfecho se escreve com ch, a seguinte dupla de palavras se escreve corretamente com esse dígrafo:",
+        "alternativas": [
+          "A) tóchico ; fichinha",
+          "B) coachar ; achatar",
+          "C) cheirosa ; inchado",
+          "D) machismo ; chaveco",
+          "E) cocheira ; deichar."
+        ],
+        "correta": "C) cheirosa ; inchado",
+        "explicacao": "Ambas têm dígrafo 'ch'. As demais têm correção: tóxico, coaxar, xaveco, deixar."
+      },
+      {
+        "pergunta": "(CESGRANRIO/Banco da Amazônia/ 2018) Na língua escrita, há situações em que algumas palavras e locações oferecem maior dificuldade, pois podem ser grafadas junto ou separadamente. A frase em que a expressão em negrito está corretamente grafada é:",
+        "alternativas": [
+          "A) Não mereço ter sucesso, tão pouco ser feliz.",
+          "B) Nada nos resta se não a angústia de nos saber sabotados.",
+          "C) Procuramos um psicólogo a fim de evitarmos maior sofrimento.",
+          "D) Escolhemos a droga, com tudo trata-se de uma opção destrutiva.",
+          "E) Conversávamos a cerca de nossas dificuldades com os sentimentos."
+        ],
+        "correta": "C) Procuramos um psicólogo a fim de evitarmos maior sofrimento.",
+        "explicacao": "'A fim de' (finalidade) é a forma correta. Demais: tampouco, senão, contudo, acerca."
+      },
+      {
+        "pergunta": "(CESGRANRIO/TRANSPETRO / 2018) Obedecem às regras ortográficas da língua portuguesa as palavras",
+        "alternativas": [
+          "A) admissão, paralisação, impasse",
+          "B) bambusal, autorização, inspiração",
+          "C) concessão, extresse, enxaqueca",
+          "D) banalisação, reexame, desenlace",
+          "E) desorganização, abstração, cassação."
+        ],
+        "correta": "A) admissão, paralisação, impasse",
+        "explicacao": "Todas corretas. Demais têm erros: bambuZal, conCessão/eStresse, banaliZação, desorganização."
+      },
+      {
+        "pergunta": "(CESGRANRIO/TRANSPETRO / 2018) Em conformidade com o Acordo Ortográfico da Língua Portuguesa vigente, atendem às regras de acentuação todas as palavras em:",
+        "alternativas": [
+          "A) andróide, odisseia, residência",
+          "B) arguição, refém, mausoléu",
+          "C) desbloqueio, pêlo, escarcéu",
+          "D) feiúra, enjoo, maniqueísmo",
+          "E) sutil, assembléia, arremesso."
+        ],
+        "correta": "B) arguição, refém, mausoléu",
+        "explicacao": "Todas acentuadas corretamente. Demais: androide (sem acento), pêlo > pelo, feiúra > feiura, assembleia (sem acento)."
+      },
+      {
+        "pergunta": "(CESGRANRIO/LIQUIGÁS/ 2018) A seguinte frase está totalmente escrita de acordo com as normas da ortografia vigente:",
+        "alternativas": [
+          "A) Ele ficou paralizado diante daquela notícia.",
+          "B) Não quero que haja nenhuma excessão.",
+          "C) Não sei por que eles não vem nos visitar.",
+          "D) Para reivindicar o serviço, é preciso suavizar o preço.",
+          "E) Depois de adivinhar o resultado do jogo, ele foi ao cabelefeiro."
+        ],
+        "correta": "D) Para reivindicar o serviço, é preciso suavizar o preço.",
+        "explicacao": "Todas corretas. Demais: paraliSado, exceção, vêm, adivinhar/cabeleireiro."
+      },
+      {
+        "pergunta": "(CESGRANRIO / PETROBRAS / 2017) A palavra ou a expressão destacada aparece corretamente grafada, de acordo com a norma-padrão da língua portuguesa, em:",
+        "alternativas": [
+          "A) O preço dos combustíveis vem aumentando, mas a indústria automobilística desconhece o porque do crescimento da frota veicular nas cidades.",
+          "B) Os poluentes derivados dos combustíveis fósseis são substâncias prejudiciais por que causam danos aos seres vivos e ao meio ambiente.",
+          "C) Os cidadãos deveriam saber os riscos de um apagão para conhecerem melhor o porquê da necessidade de economizar energia.",
+          "D) A fabricação de veículos movidos a combustão explica por quê aumentou significativamente a poluição nas grandes cidades.",
+          "E) Seria impossível falar de energia sem associar o meio ambiente ao tema, porquê toda a energia produzida é resultado da utilização das forças oferecidas pela natureza."
+        ],
+        "correta": "C) Os cidadãos deveriam saber os riscos de um apagão para conhecerem melhor o porquê da necessidade de economizar energia.",
+        "explicacao": "'O porquê' é substantivo (motivo). Demais: o porquê, porque, por que, porque."
+      },
+      {
+        "pergunta": "(CESGRANRIO / IBGE / 2016) No trecho 'em áreas costeiras, onde restam apenas cerca de 10% da vegetação nativa original', a palavra destacada foi empregada de acordo com as exigências da norma-padrão da Língua Portuguesa. Do mesmo modo, o emprego de onde atende a essas exigências em:",
+        "alternativas": [
+          "A) Alguns estudos parecem atender a uma preocupação bastante pertinente onde se podem traçar estratégias de proteção ambiental.",
+          "B) A dependência de biomassa ocorre porque não há oferta de fontes industriais de energia nas regiões onde as populações mais pobres vivem.",
+          "C) É preciso combater o desmatamento, onde fica evidente o processo de destruição da natureza para a criação de gado.",
+          "D) Os anos de 2009 a 2011 correspondem ao período onde a pesquisa foi realizada por meio de entrevistas em vários estados do Nordeste.",
+          "E) Esses estudos devem ser complementados por estratégias onde possa ser evitado o desmatamento provocado pelo uso doméstico da madeira."
+        ],
+        "correta": "B) A dependência de biomassa ocorre porque não há oferta de fontes industriais de energia nas regiões onde as populações mais pobres vivem.",
+        "explicacao": "'Onde' retoma lugar físico ('regiões'). Nas demais, retoma ideia abstrata (preocupação, desmatamento, período, estratégias)."
+      },
+      {
+        "pergunta": "(CESGRANRIO / UNIRIO / 2016) Assim como análise, também se escreve corretamente com s o substantivo",
+        "alternativas": [
+          "A) valise",
+          "B) linse",
+          "C) esato",
+          "D) maselas",
+          "E) cansela"
+        ],
+        "correta": "A) valise",
+        "explicacao": "'Análise' e 'valise' têm 's' entre vogais com som de 'z'. Demais: linCe, eXato, mazelas, canCela."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BANCO DA AMAZÔNIA / 2016) A palavra ou expressão em destaque está grafada corretamente e de acordo com a norma-padrão em:",
+        "alternativas": [
+          "A) A agricultura familiar é importante por que preserva os alimentos tradicionais.",
+          "B) A Agricultura Familiar é importante por quê?",
+          "C) A Agricultura Familiar apresenta importante função porquê garante a segurança alimentar.",
+          "D) O Texto I esclarece o motivo porque a Agricultura Familiar contribui para o uso sustentável dos recursos naturais.",
+          "E) O Texto I expõe o porque de a Agricultura Familiar ser importante para o país."
+        ],
+        "correta": "B) A Agricultura Familiar é importante por quê?",
+        "explicacao": "'Por quê' em final de frase interrogativa. Demais: porque, porque, por que, o porquê."
+      },
+      {
+        "pergunta": "(CESGRANRIO / IBGE / 2016) Todas as palavras estão grafadas corretamente em",
+        "alternativas": [
+          "A) locomoção, interessão",
+          "B) abolissão, estagnação",
+          "C) comissão, excurção",
+          "D) abreviação, obseção",
+          "E) aclamação, emissão"
+        ],
+        "correta": "E) aclamação, emissão",
+        "explicacao": "Todas corretas. Demais: interseção, abolição, excursão, obsessão."
+      },
+      {
+        "pergunta": "(CESGRANRIO / IBGE / 2016) Todas as palavras estão corretamente grafadas em:",
+        "alternativas": [
+          "A) êxito, estensão, machucado",
+          "B) começo, salça, sussego",
+          "C) enxova, pesquisa, paralizia",
+          "D) consciência, açucena, cansaço",
+          "E) dicipilina, sucesso, ricaço"
+        ],
+        "correta": "D) consciência, açucena, cansaço",
+        "explicacao": "Todas corretas. Demais: eXtensão, salSa, sOssego, enCHova, paralíSia, diSciplina."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BANCO DO BRASIL / ESCRITURÁRIO - PROVA A / 2021) O grupo de palavras que atende às exigências relativas ao emprego ou não do hífen, segundo o Vocabulário Ortográfico da Língua Portuguesa, é",
+        "alternativas": [
+          "A) extra-escolar / médico-cirurgião",
+          "B) bem-educado / vagalume",
+          "C) portarretratos / dia a dia",
+          "D) arco-fris / contra-regra",
+          "E) subutilizar / sub-reitor"
+        ],
+        "correta": "E) subutilizar / sub-reitor",
+        "explicacao": "'Subutilizar' (sem hífen), 'sub-reitor' (com hífen antes de 'r'). Demais: extrasecolar, vaga-lume, porta-retratos, contrarregra."
+      },
+      {
+        "pergunta": "(CESGRANRIO/UNIRIO/ 2019) Assim como ocorre com a palavra quebra-mar, emprega-se obrigatoriamente o hífen, de acordo com o sistema ortográfico vigente, em",
+        "alternativas": [
+          "A) casa-comercial",
+          "B) linha-de-passe",
+          "C) peixe-espada",
+          "D) pedra-fundamental",
+          "E) sala-de-jantar."
+        ],
+        "correta": "C) peixe-espada",
+        "explicacao": "'Peixe-espada' é composto sem elemento de ligação, com hífen. Demais: casa comercial, linha de passe, pedra fundamental, sala de jantar (sem hífen)."
+      },
+      {
+        "pergunta": "(CESGRANRIO - PNMO (ELETRONUCLEAR)/ELETRONUCLEAR/Especialista em Proteção Radiológica/2022) A frase que tem a palavra ou expressão em destaque empregada de acordo com o que prevê a norma escrita padrão é",
+        "alternativas": [
+          "A) Perguntam-me porque Maria José era tão querida.",
+          "B) O céu é aonde Maria José deve estar agora.",
+          "C) Apresentou-me a muitos autores, por isso tornei-me um leitor voraz.",
+          "D) Mau ela se foi, já sinto sua falta.",
+          "E) Perdi quem me protegeu a um ano."
+        ],
+        "correta": "C) Apresentou-me a muitos autores, por isso tornei-me um leitor voraz.",
+        "explicacao": "Correta. Demais: por que, onde, mal, há."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BANCO DA AMAZÔNIA / 2021) A frase em que a palavra ou expressão destacada respeita as regras ortográficas e gramaticais da norma padrão é:",
+        "alternativas": [
+          "A) As crianças querem estar aonde a fantasia está.",
+          "B) Queremos saber por que a ideia de eternidade nos fascina.",
+          "C) O gosto adocicado do chicle mau acaba e queremos outro.",
+          "D) Nada como balas e chicletes durante uma seção de cinema.",
+          "E) A ideia de viver para sempre persegue o homem a séculos."
+        ],
+        "correta": "B) Queremos saber por que a ideia de eternidade nos fascina.",
+        "explicacao": "'Por que' separado (interrogativo). Demais: onde, mal, sessão, há."
+      },
+      {
+        "pergunta": "(CESGRANRIO - ATA (AgeRIO)/AgeRIO/2023) No trecho 'metade das chuvas na região é resultado da umidade produzida pela evapotranspiração (a transpiração das árvores)', a palavra destacada é derivada do verbo transpirar, com o acréscimo do sufixo 'ção'. O grupo em que todos os verbos também formam substantivos pelo acréscimo do sufixo 'ção' é:",
+        "alternativas": [
+          "A) ceder, conservar, repercutir",
+          "B) conceder, transgredir, poluir",
+          "C) evaporar, inserir, preservar",
+          "D) renovar, devastar, admitir",
+          "E) transmitir, permitir, introduzir"
+        ],
+        "correta": "C) evaporar, inserir, preservar",
+        "explicacao": "Formam: evaporação, inserção, preservação. Demais: cessão/conservação/repercussão; concessão/transgressão/poluição; renovação/devastação/admissão; transmissão/permissão/introdução (alguns não com 'ção' exatamente)."
+      },
+      {
+        "pergunta": "(TELEBRÁS / 2022) Mantendo-se a correção gramatical e os sentidos originais do texto, o trecho 'As tecnologias da comunicação foram utilizadas para coordenar a ajuda' poderia ser descrito da seguinte forma: Usaram-se as tecnologias da comunicação afim de coordenar a ajuda.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "O correto é 'a fim de' (separado), indicando finalidade."
+      },
+      {
+        "pergunta": "(SEPLAG-RECIFE / 2019) Está clara e correta a redação deste livre comentário sobre o texto: Na antiguidade clássica, onde o intento da pintura realista prevalencia, mesmo assim ela não alcançava ser tão fotográfica.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "'Onde' deve ser usado para lugar físico, não para tempo; 'prevalecia' é com 'c'."
+      },
+      {
+        "pergunta": "(ITAIPU BINACIONAL / 2019) Mas, afinal, quais os motivos por ______ da decisão de pais que não vacinaram os filhos? 'As vacinas acabam sendo vítimas de seu próprio sucesso. A cultura do ser humano é de se vacinar quando há um risco ______, quando ele não ______ esse risco, não trata com prioridade, o que é um equívoco'. Para Kfouri, o público que deixa de vacinar seus filhos por medo das reações é uma parcela ______, que não impacta os índices de cobertura. Assinale a alternativa que preenche corretamente as lacunas acima, na ordem em que aparecem no texto.",
+        "alternativas": [
+          "a) traz – eminente – enxerga – despresível.",
+          "b) trás – eminente – encherga – desprezível.",
+          "c) traz – iminente – encherga – despresível.",
+          "d) trás – iminente – enxerga – desprezível.",
+          "e) tráz – eminente – encherga – desprezível."
+        ],
+        "correta": "d) trás – iminente – enxerga – desprezível.",
+        "explicacao": "'trás' (lugar), 'iminente' (próximo a ocorrer), 'enxerga' (com x), 'desprezível' (com z)."
+      },
+      {
+        "pergunta": "(MPE-GO / 2019) Trate de arrumar a mesa que você quebrou e costurar a calça que você rasgou, do contrário não sairá de casa. As palavras destacadas podem ser substituídas por:",
+        "alternativas": [
+          "a) concertar, coser e se não.",
+          "b) consertar, coser e senão.",
+          "c) consertar, cozer e senão.",
+          "d) concertar, cozer e senão.",
+          "e) consertar, cozer e se não."
+        ],
+        "correta": "b) consertar, coser e senão.",
+        "explicacao": "'Consertar' (reparar), 'coser' (costurar), 'senão' (do contrário)."
+      },
+      {
+        "pergunta": "(TRT 4ª REGIÃO / 2022 - Adaptado) Está inteiramente adequado o emprego do elemento sublinhado na frase: Tomou proporções gigantescas o crescimento econômico porque foi marcado o período dos últimos quinhentos anos.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "O correto é 'por que' (pelo qual), não 'porque'."
       }
     ],
 
