@@ -401,3 +401,18 @@ div.tabelaExplica > table > tbody > tr > td.destaque {
     text-align: center;
     }
 }
+
+ul, ol {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.example {
+    font-style: italic;
+    color: #2c3e50;
+    margin-left: 15px;
+}
