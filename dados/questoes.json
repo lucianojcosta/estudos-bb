@@ -9191,6 +9191,191 @@
         ],
         "correta": "Errado",
         "explicacao": "O correto é 'por que' (pelo qual), não 'porque'."
+      },
+      {
+        "pergunta": "(TRF 1ª REGIÃO / 2017) Haveria prejuízo gramatical para o texto caso a palavra \"procedimentos-padrão\" fosse alterada para \"procedimentos-padrões\".",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "Há duas regras válidas: flexionar os dois substantivos (regra geral) ou flexionar só o primeiro (regra de delimitação)."
+      },
+      {
+        "pergunta": "(PREF. FRECHEIRINHA (CE) / PROFESSOR / 2021) Está errado o aumentativo de um dos substantivos. Assinale-o.",
+        "alternativas": [
+          "a) amigo – amigalhão",
+          "b) gato – gatarrão",
+          "c) ladrão – ladravaz",
+          "d) mão – manopla",
+          "e) pata – pataca"
+        ],
+        "correta": "e) pata – pataca",
+        "explicacao": "O aumentativo correto de 'pata' é 'patorra' (sufixo -orra). 'Pataca' é incorreto."
+      },
+      {
+        "pergunta": "(PREF. MANAUS / 2022) Entre os cinco adjetivos sublinhados, aqueles que mostram valor de opinião, são",
+        "alternativas": [
+          "a) saudável / dignas",
+          "b) idosa / sociais",
+          "c) públicas / dignas",
+          "d) sociais / públicas",
+          "e) idosa / saudável"
+        ],
+        "correta": "a) saudável / dignas",
+        "explicacao": "\"Saúde\" e \"dignidade\" são julgamentos valorativos/subjetivos. Os outros são classificações objetivas."
+      },
+      {
+        "pergunta": "(TCE PB / 2018) <i>Maus hábitos cotidianos muitas vezes são, na verdade, práticas antiéticas e até ilegais, que devem, sim, ser combatidas.</i><br> Os termos \"antiéticas\", \"ilegais\" e \"combatidas\" qualificam a palavra \"práticas\".",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "\"antiéticas\" e \"ilegais\" são adjetivos, mas \"combatidas\" é particípio (verbo em voz passiva)."
+      },
+      {
+        "pergunta": "(TRT 9ª Região / 2022) Alterada a ordem do adjetivo na expressão, observa-se, de modo mais significativo, a mudança de sentido em:",
+        "alternativas": [
+          "a) necessária reflexão",
+          "b) interesses alheios",
+          "c) vantagens fantásticas",
+          "d) verdadeiro produto",
+          "e) falsas notícias"
+        ],
+        "correta": "d) verdadeiro produto",
+        "explicacao": "\"verdadeiro produto\" = produto certo/ideal. \"produto verdadeiro\" = genuíno, não falsificado."
+      },
+      {
+        "pergunta": "(PGE-PE / ANALISTA JUDICIÁRIO / 2019) </i>A própria palavra “crise” é bem mais a expressão de um movimento do espírito que de um juízo fundado em argumentos extraídos da razão ou da experiência.</i> <br> Os sentidos e a correção gramatical do texto seriam mantidos se fosse inserido o vocábulo \"do\" imediatamente após a palavra \"espírito\".",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Certo",
+        "explicacao": "Em estruturas comparativas, o \"do\" (contração de de+o) é facultativo."
+      },
+      {
+        "pergunta": "(DPE-RS / 2022) <i>O direito, o processo decisório e os julgamentos são eminentemente de natureza humana e dependem do ser humano para serem bem realizados. Assim, mesmo que os avanços tecnológicos sejam inevitáveis, todas as inovações eletrônicas e virtuais devem sempre ser implementadas com parcimônia e vistas com muito cuidado, não apenas para sempre permitirem o exercício de direitos e garantias, mas também para não restringirem — e, sim, ampliarem — o acesso à justiça e, sobretudo, para manterem a insubstituível humanidade da justiça.</i> <br>No último parágrafo do texto, o emprego dos vocábulos \"muito\" e \"sempre\" enfatizam a opinião expressa pelo autor.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "\"muito\" é pronome indefinido (modifica substantivo), não advérbio. Advérbio não modifica substantivo."
+      },
+      {
+        "pergunta": "(TCE-RJ / 2022) Agora, novas melhorias na IA, viabilizadas por operações massivas de coleta de dados, aperfeiçoadas ao máximo por grupos digitais, contribuíram para a retomada de uma velha corrente positivista do pensamento político. Extremamente tecnocrata em seu âmago, essa corrente sustenta que a democracia talvez tenha tido sua época, mas que hoje, com tantos dados à nossa disposição, afinal estamos prestes a automatizar e simplificar muitas daquelas imperfeições que teriam sido — deliberadamente — incorporadas ao sistema político. <br>Com relação a aspectos linguísticos do texto CB1A1-I, julgue o seguinte item. <br>No segundo período do terceiro parágrafo, a forma pronominal \"sua\" tem como referente o termo \"essa corrente\".",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "\"sua\" refere-se a \"democracia\" (concorda com \"época\"), não a \"corrente\"."
+      },
+      {
+        "pergunta": "(SEFAZ-RS / 2018) Mesmo agora, quando já diviso a brumosa porta da casa dos setenta, um convite à viagem tem ainda o poder de incendiar-me a fantasia. <br> Com relação ao trecho \"incendiar-me a fantasia\", é correto interpretar a partícula \"me\" como o possuidor de \"fantasia\".",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Certo",
+        "explicacao": "O pronome oblíquo \"me\" tem valor possessivo: \"minha fantasia\"."
+      },
+      {
+        "pergunta": "(MPE-GO / 2022 - Adaptada) “Este livro é sobre uma das ideias mais importantes da humanidade – a ideia do alfabeto – e a sua forma mais difundida: o sistema de letras que você está lendo neste momento.” <br>Analise a afirmação sobre o elemento sublinhado nesse pequeno fragmento do texto 1: <br>O demonstrativo \"neste\" indica o momento em que foi escrito o texto.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "\"neste\" indica o momento da leitura, não da escrita."
+      },
+      {
+        "pergunta": "(STM / 2018) Aqui, neste escritório onde a verdade não pode ser mais do que uma cara sobreposta às infinitas máscaras variantes, estão os costumados dicionários da língua e vocabulários, os Morais e Aurélios, os Morenos e Torrinhas, algumas gramáticas, o Manual do Perfeito Revisor, vademeco de ofício [...]. <br>Na linha 1, o emprego de “neste” decorre da presença do vocábulo “Aqui”, de modo que sua substituição por nesse resultaria em incorreção gramatical.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Certo",
+        "explicacao": "\"neste\" refere-se ao escritório do autor (próximo de quem fala). \"nesse\" seria para algo próximo do ouvinte."
+      },
+      {
+        "pergunta": "(PGE-AM / 2022) Saberia Rubião que o nosso Quincas Borba trazia aquele grãozinho de sandice, <u>que</u> um médico supôs achar <u>lhe</u>? (2º parágrafo).<br> Os pronomes sublinhados referem-se, respectivamente, a",
+        "alternativas": [
+          "a) um médico e grãozinho de sandice",
+          "b) Quincas Borba e Rubião",
+          "c) Quincas Borba e grãozinho de sandice",
+          "d) grãozinho de sandice e Rubião",
+          "e) grãozinho de sandice e Quincas Borba"
+        ],
+        "correta": "e) grãozinho de sandice e Quincas Borba",
+        "explicacao": "\"que\" retoma \"grãozinho\". \"lhe\" retoma \"Quincas Borba\"."
+      },
+      {
+        "pergunta": "(MP-CE / CARGOS DE NÍVEL SUPERIOR / 2020) Nas Américas, estima-se que 77 milhões de pessoas sofram um episódio de doenças transmitidas por alimentos a cada ano — metade delas são crianças com menos de 5 anos de idade. Os dados disponíveis indicam que as doenças transmitidas por alimentos geram de US$ 700 mil a US$ 19 milhões em custos anuais de saúde nos países do Caribe e mais de US$ 77 milhões nos Estados Unidos da América. <br>A substituição da expressão \"metade delas\" por \"cuja metade\" manteria a correção gramatical e a coesão do texto.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "\"cujo\" precisa ligar possuidor e coisa possuída. Aqui ficaria solto, gerando ambiguidade."
+      },
+      {
+        "pergunta": "(DPE-RO / 2022) Com a derrota de Hitler em 1945 e, portanto, o fim da Segunda Guerra Mundial, da qual o Brasil participou contra as ditaduras nazifascistas — devido à entrada dos Estados Unidos da América no conflito, liderando e coordenando os esforços de guerra dos países do Eixo dos Aliados —, o mundo foi tomado pelas ideias democráticas, e o regime autoritário do Estado Novo (iniciado em 1937) já não se podia manter <br>A substituição de \"da qual\" por \"cuja\" preservaria a correção e o sentido.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "\"cuja\" não admite artigo. Ficaria \"cuja o Brasil\", erro de concordância e estrutura."
+      },
+      {
+        "pergunta": "(SEFAZ-AL / AUDITOR FISCAL / 2020) Tem meia dúzia de atendentes, conheço dois ou três pelo nome, e o dono do lugar é sempre simpático comigo. Sabe que gosto do seu negócio, que, se me mudasse de novo para lá, seria seu freguês. Mas também sei que me vê como um tipo que há vinte anos vive na capital, que a essa altura é mais metropolitano que interiorano, um cara talvez meio esquisito, ou apenas ridículo, que se interessa por coisas de que não precisa, coisas das quais não entende. <br>A substituição de \"das quais\" por \"que\" preservaria sentido e correção.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "Muda o sentido: \"entender de\" = dominar conhecimento; \"entender\" = compreender algo."
+      },
+      {
+        "pergunta": "(IBAMA / 2022) Assim como cidadania e cultura formam um par integrado de significações, cultura e territorialidade são, de certo modo, sinônimos. A cultura, forma de comunicação do indivíduo e do grupo com o universo, é herança, mas também um reaprendizado das relações profundas entre o ser humano e o seu meio, um resultado obtido por intermédio do próprio processo de viver. Incluindo o processo produtivo e as práticas sociais, a cultura é o que nos dá a consciência de pertencer a um grupo, do qual é o cimento. É por isso que as migrações agridem o indivíduo, roubando-lhe parte do ser, obrigando-o a uma nova e dura adaptação em seu novo lugar. Desterritorialização é frequentemente outra palavra para significar alienação, estranhamento, que são, também, desculturização. <br>Em \"roubando-lhe parte do ser\", a forma pronominal \"lhe\" transmite ideia de posse.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Certo",
+        "explicacao": "O \"lhe\" tem valor possessivo: roubando parte dele/do indivíduo."
+      },
+      {
+        "pergunta": "(SEDF / 2017) ...Ver você me deu muito prazer/...A menina está muito engraçadinha. <br> A palavra \"muito\" que acompanha \"prazer\" e \"engraçadinha\" é, morfossintaticamente, um advérbio.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "Em \"muito prazer\", \"muito\" é pronome indefinido (modifica substantivo). Só em \"muito engraçadinha\" é advérbio."
+      },
+      {
+        "pergunta": "(TJ-PB / 2022) “As intervenções autorizadas são a minoria, apesar de a gravidez nessa idade apresentar alto risco à saúde da gestante e de o aborto legal ser previsto em lei nos casos de estupro, o que automaticamente inclui meninas engravidadas antes de completar 14 anos.” <br>No período apresentado, há quantos artigos?",
+        "alternativas": [
+          "a) cinco artigos",
+          "b) seis artigos",
+          "c) sete artigos",
+          "d) oito artigos"
+        ],
+        "correta": "c) sete artigos",
+        "explicacao": "São artigos: As, a, a, à (a+a), (d)a, o, (n)os. Total = 7."
+      },
+      {
+        "pergunta": "(PRF / POLICIAL / 2019) Mas e antes dos sensores, como é que se fazia? Imagino que algum funcionário trepava na antena mais alta no topo do maior arranha-céu e, ao constatar a falência da luz solar, acionava um interruptor, e a cidade toda se iluminava. <br> A substituição de \"a cidade toda\" por \"toda cidade\" preservaria os sentidos e a correção gramatical do período.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "\"a cidade toda\" = a cidade inteira. \"toda cidade\" = todas as cidades (genérico)."
+      },
+      {
+        "pergunta": "(CÂMARA TABOÃO DA SERRA-SP / 2022) Assinale a alternativa que apresenta um numeral:",
+        "alternativas": [
+          "a) Eu estava triste, até que <u>um</u> certo alguém cruzou o meu caminho.",
+          "b) <u>Uma</u> boa educação é importante para formar o caráter do indivíduo.",
+          "c) Foi <u>um</u> presente te encontrar!",
+          "d) Fui à livraria e comprei somente <u>um</u> livro, embora eu quisesse comprar mais.",
+          "e) Hoje faz <u>um</u> lindo dia!"
+        ],
+        "correta": "d) Fui à livraria e comprei somente um livro, embora eu quisesse comprar mais.",
+        "explicacao": "Aqui \"um\" indica quantidade exata (numeral). Nas outras, é artigo indefinido."
+      },
+      {
+        "pergunta": "(CRM-V-MA / 2022) Considerei, por fim, que assim é o amor, oh! minha amada; de tudo que ele suscita e esplende e estremece e delira em mim existem apenas meus olhos recebendo a luz de teu olhar. Ele me cobre de glórias e me faz magnífico. Considerando as ideias, os sentidos e os aspectos linguísticos do texto apresentado, julgue o item. <br>No texto, o termo “oh!” (linha 11), pertencente à classe das interjeições, exprime surpresa e admiração por parte do autor.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Errado",
+        "explicacao": "\"oh!\" é interjeição de admiração, mas não de surpresa."
+      },
+      {
+        "pergunta": "(TRT 4ª Região / 2022) Aonde <u>o</u> homem ia, <u>o</u> peixinho <u>o</u> acompanhava <u>a</u> trote, que nem um cachorrinho. (1º parágrafo) <br>Considerando o contexto, os termos sublinhados constituem, respectivamente,",
+        "alternativas": [
+          "a) um pronome, um artigo, um artigo e uma preposição",
+          "b) uma preposição, um pronome, um pronome e um artigo",
+          "c) um pronome, um pronome, um pronome e um artigo",
+          "d) um artigo, um artigo, um artigo e uma preposição",
+          "e) um artigo, um artigo, um pronome e uma preposição"
+        ],
+        "correta": "e) um artigo, um artigo, um pronome e uma preposição",
+        "explicacao": "o homem = artigo; o peixinho = artigo; o acompanhava = pronome; a trote = preposição."
+      },
+      {
+        "pergunta": "(PREF. PIRACICABA-SP / PROFESSOR / 2020) Aonde o homem ia, o peixinho o acompanhava a trote, que nem um cachorrinho. (1º parágrafo) Considerando o contexto, os termos sublinhados constituem, respectivamente,",
+        "alternativas": [
+          "a) dúvida e de afirmação",
+          "b) tempo e de modo",
+          "c) inclusão e de intensidade",
+          "d) intensidade e de modo",
+          "e) inclusão e de negação"
+        ],
+        "correta": "c) inclusão e de intensidade",
+        "explicacao": "\"até\" tem valor de inclusão. \"mais\" intensifica o adjetivo \"básico\"."
       }
     ],
 
