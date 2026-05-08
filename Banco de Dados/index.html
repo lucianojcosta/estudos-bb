@@ -1077,14 +1077,89 @@
             <p><strong>Esquema Final</strong></p>
             <p><img src="img/BD-DW-ESQUEMAFINAL.png" alt="Esquema final do Data Warehouse"></p>
 
-
-
-
-
-
-
         </section>
 
+        <section>
+
+            <!-- AULA 06 -->
+
+            <h2>Aula 06 - Data Warehouse</h2>
+
+            <h3>O que é Modelagem Dimensional?</h3>
+            <p>A <strong>Modelagem Dimensional</strong> é uma técnica de organização de dados voltada para a análise, amplamente utilizada em <strong>Data Warehouses (DW)</strong>. Diferente da modelagem relacional comum (OLTP), ela estrutura as informações em torno de um processo de negócio para facilitar consultas rápidas e de alto desempenho, apoiando a tomada de decisões gerenciais.</p>
+
+            <div class="highlight">
+                <strong>Conceito Chave:</strong> Enquanto os bancos tradicionais (OLTP) focam em registrar transações (inserir/alterar), os bancos dimensionais (OLAP) focam na consulta e análise de grandes volumes de dados históricos.
+            </div>
+
+            <h3>Tabela Fato vs. Tabela Dimensão</h3>
+            <p>A base da modelagem dimensional são esses dois pilares que se complementam:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Tabela Fato</th>
+                        <th>Tabela Dimensão</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Conteúdo</strong></td>
+                        <td>Armazena medidas quantitativas (métricas).</td>
+                        <td>Armazena atributos descritivos e qualitativos.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Responde a...</strong></td>
+                        <td>"Quanto?" (ex: valor da venda, quantidade).</td>
+                        <td>"Quem, onde, quando e o quê?".</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Estrutura</strong></td>
+                        <td>Contém chaves estrangeiras (FK) para as dimensões.</td>
+                        <td>Geralmente desnormalizada (muitos detalhes em uma tabela só).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Volume</strong></td>
+                        <td>Muitíssimo grande em número de linhas.</td>
+                        <td>Menor em linhas, mas larga em colunas descritivas.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Esquemas de Modelagem: Estrela vs. Floco de Neve</h3>
+            <p>Esses esquemas definem como as tabelas de dimensões são organizadas fisicamente:</p>
+
+            <ul>
+                <li><strong>Esquema Estrela (Star Schema):</strong> A Tabela Fato fica no centro e se conecta a dimensões <strong>desnormalizadas</strong>. É otimizado para performance, exigindo menos "junções" (joins) nas consultas.</li>
+                <li><strong>Esquema Floco de Neve (Snowflake Schema):</strong> As dimensões são <strong>normalizadas</strong> (divididas em subdimensões para economizar espaço). Isso pode tornar as consultas mais lentas, mas facilita a manutenção de hierarquias.</li>
+            </ul>
+
+            <h3>Operações OLAP: Navegando nos Dados</h3>
+            <p>Para analisar o <strong>Cubo de Dados</strong>, utilizamos operações que mudam a perspectiva da visualização:</p>
+
+            <div class="concept-box">
+                <ul>
+                    <li><strong>Drill-Down:</strong> Aumenta o nível de detalhe (ex: descer de "Ano" para "Mês").</li>
+                    <li><strong>Roll-Up:</strong> Resume os dados, subindo na hierarquia (ex: de "Cidade" para "Estado").</li>
+                    <li><strong>Slice:</strong> "Fatiar" os dados, fixando uma única dimensão.</li>
+                    <li><strong>Dice:</strong> Extrai um subcubo ao filtrar duas ou mais dimensões simultaneamente.</li>
+                    <li><strong>Pivot (Rotação):</strong> Gira o cubo para ver os dados sob um novo ângulo.</li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <strong>Dica para Concursos:</strong> A dimensão <strong>Tempo</strong> é obrigatória em qualquer Data Warehouse, pois toda análise depende de um período histórico.
+            </div>
+
+            <h3>Principais Explicações para sua Revisão:</h3>
+            <ul>
+                <li><strong>Granularidade:</strong> Define o nível de detalhe da tabela fato. Para garantir flexibilidade, deve-se buscar a menor granularidade possível (ex: registrar o item da venda individualmente).</li>
+                <li><strong>Medidas Semi-Aditivas:</strong> São valores que podem ser somados em algumas dimensões, mas não no tempo. O exemplo clássico é o <strong>saldo de estoque</strong>: somar o estoque de segunda com o de terça não dá o estoque total atual.</li>
+                <li><strong>Dimensão Degenerada:</strong> Ocorre quando um atributo de dimensão (como o número da nota fiscal) é armazenado diretamente na tabela fato, sem precisar de uma tabela dimensão separada.</li>
+            </ul>
+
+        </section>
 
         <section>
 

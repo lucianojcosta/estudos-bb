@@ -30,7 +30,7 @@ a:hover {
 
 div#BoxMaterias {
     background-color: rgb(241, 240, 240);
-    width: 50%;
+    width: 60%;
     flex: auto;
     border-radius: 7px;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.03);
@@ -50,7 +50,7 @@ div.AreaDeConhecimentos {
 }
 
 div.Materias {
-    height: 150px;
+    height: 100px;
     width: 150px;
     padding: 10px;
     margin: 10px;
@@ -59,6 +59,7 @@ div.Materias {
     align-content: center;
     border-radius: 7px;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.03);
+    background-color: lightyellow;
 }
 
 div#Tranquila {
