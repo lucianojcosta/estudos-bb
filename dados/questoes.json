@@ -4018,6 +4018,63 @@
         "explicacao": "Não é remoção, é carregamento."
       },
       {
+        "pergunta": "(CEGÁS) Data Warehouse é um depósito de dados digitais, orientado por assunto que transforma dados operacionais em informações voltadas ao suporte à tomada de decisões estratégicas.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeita."
+      },
+      {
+        "pergunta": "(MEC - 2009) No que diz respeito ao desenvolvimento de sistemas de informação e da análise de negócios, analise a citação a seguir.<br>'É um conjunto integrado de dados, extraídos de bancos de dados operacionais, históricos, externos e selecionados, editados e padronizados para recuperação e análise, para fornecer inteligência empresarial e nos negócios no processo de tomada de decisões gerenciais'.<br>Essa citação representa o conceito de:",
+        "alternativas": ["a) Data Mart.", 
+        "b) Data Mining.",
+        "c) Data Business.",
+        "d) Data Warehouse.", 
+        "e) Data Lake."],
+        "correta": "d) Data Warehouse.",
+        "explicacao": "A descrição dada na questão corresponde ao conceito de Data Warehouse."
+      },
+      {
+        "pergunta": "(MPE/AC) Considere a seguinte definição: 'Uma coleção de dados não-voláteris, integrados, orientados a um determinado tema e utilizados no apoio de processos de tomada de decisão. Geralmente contém componentes complementares como facilidades de extração, mineração e transformação de informação e ferramentas analíticas.'<br>Essa é a definição de:",
+        "alternativas": ["a) Planilha.", 
+        "b) Middleware.",
+        "c) Data Warehouse.",
+        "d) DBMS (Data Base Management System).", 
+        "e) Groupware."],
+        "correta": "c) Data Warehouse.",
+        "explicacao": "A descrição dada na questão corresponde ao conceito de Data Warehouse."
+      },
+      {
+        "pergunta": "(MF) Um conjunto de dados produzido para oferecer suporte à tomada de decisões, sendo um repositório de dados de interesse aos gerentes, é um:",
+        "alternativas": ["a) Management dataset.", 
+        "b) Data Warehouse.",
+        "c) Data Center.",
+        "d) Major warehouse.", 
+        "e) Data wareset."],
+        "correta": "b) Data Warehouse.",
+        "explicacao": "A descrição dada na questão corresponde ao conceito de Data Warehouse."
+      },
+      {
+        "pergunta": "(Petrobrás) Um conjunto de dados produzido para oferecer suporte à tomada de decisões, sendo um repositório de dados de interesse aos gerentes, é um:",
+        "alternativas": ["a) Management dataset.", 
+        "b) Data Warehouse.",
+        "c) Data Center.",
+        "d) Major warehouse.", 
+        "e) Data wareset."],
+        "correta": "b) Data Warehouse.",
+        "explicacao": "A descrição dada na questão corresponde ao conceito de Data Warehouse."
+      },
+      {
+        "pergunta": "(BAHIAGÁS) Com relação aos sistemas de Data Warehouse, assinale a alternativa correta.",
+        "alternativas": ["a) Um Data Warehouse deve ser orientado a produto, integrado, volátil e invariável com o tempo.", 
+        "b) Um Data Warehouse armazena dados históricos usados no processo de tomada de decisão. Este sistema integra os dados corporativos de uma empresa em um único repositório.",
+        "c) Dados de um Data Warehouse provém de uma única fonte, não sendo necessária a paadronização para uniformizar nomes ou unidades de medida.",
+        "d) Um Data Warehouse deve ser orientado a departamento, integrado, volátil e invariável com o tempo.", 
+        "e) Um Data Warehouse cria uma visão distribuída de um banco de dados centralizado. Este tipo de sistema não permite que os usuários finais executem consultas sobre sua base de dados."],
+        "correta": "b) Um Data Warehouse armazena dados históricos usados no processo de tomada de decisão. Este sistema integra os dados corporativos de uma empresa em um único repositório.",
+        "explicacao": "A alternativa correta é a letra b, pois um Data Warehouse armazena dados históricos usados no processo de tomada de decisão e integra os dados corporativos de uma empresa em um único repositório."
+      },
+      {
         "pergunta": "(FCC/Pref. PI/2016) O processo ETL é uma etapa importante no projeto de um Data Warehouse. No processo ETL,",
         "alternativas": ["a) somente é possível realizar a carga periódica de dados no Data Warehouse uma vez a cada semana.", 
         "b) a fase de transformação de dados envolve apenas alterações nos tipos vindos do ambiente operacional.",
@@ -4058,7 +4115,7 @@
         "explicacao": "ETL é o processo de Extração, Transformação e Carregamento."
       },
       {
-        "pergunta": "(Cespe/2018) Uma ferramenta de ETL deve ser capaz de extrair dados de fontes heterogêneas, copiá-los para uma área de transição, onde possam ser convertidos conforme o padrão estabelecidade, e, ainda, realizar limpeza e correção nesses dados, de acordo com regras preestabelecidas.",
+        "pergunta": "(Cespe/2018) Uma ferramenta de ETL deve ser capaz de extrair dados de fontes heterogêneas, copiá-los para uma área de transição, onde possam ser convertidos conforme o padrão estabelecido, e, ainda, realizar limpeza e correção nesses dados, de acordo com regras preestabelecidas.",
         "alternativas": ["Certo", 
         "Errado"],
         "correta": "Certo",
@@ -4200,6 +4257,111 @@
         "explicacao": "Opa! Ambas empregam – em geral – bancos de dados multidimensionais com baixo grau de normalização (alta redundância de dados)."
       },
       {
+        "pergunta": "(CESPE / SERPRO - 2013) Sistemas de apoio à decisão são sistemas que, substituindo a intervenção humana, tomam decisão em situações críticas que envolvem o processamento de grande volume de informações em paralelo.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não substitui a intervenção humana e não toma decisão sozinha."
+      },
+      {
+        "pergunta": "(Quadrix / CFO/DF - 2017) Os sistemas de apoio à decisão utilizam uma coleção de dados relativos a uma empresa. A essa coleção dá-se o nome de Data Warehouse.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Corretíssima."
+      },
+      {
+        "pergunta": "(CESPE / ANTT - 2013) Uma solução de business intelligence, usualmente, provê as seguintes capacidades: memória da organização, integração da informação, criação de insights e apresentação dos dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Corretíssima."
+      },
+      {
+        "pergunta": "(CESGRANRIO / MPE-AP / 2010) Em um sistema de BI, a coleção de ferramentas utilizada como componente para manipular, minerar e analisar os dados no DW (Data Warehouse) denomina-se:",
+        "alternativas": ["a) OLAP (Online Analytical Processing).",
+        "b) BPM (Business Performance Management).",
+        "c) Análise de Negócio.",
+        "d) Dashboard.",
+        "e) Processamento de Transações."],
+        "correta": "c) Análise de Negócio.",
+        "explicacao": "Estará sendo utilizado a análise de negócio."
+      },
+      {
+        "pergunta": "(TCE/PA – 2016) Um Data Mart é:",
+        "alternativas": ["a) uma técnica de mineração de dados para a extração de conhecimento das bases de dados de uma organização.",
+        "b) um grande data warehouse que consolida todas as informações de uma organização a serem tratadas e organizadas.",
+        "c) um sistema para a monitoração e processamento das funções básicas e rotineiras de uma organização.",
+        "d) um conjunto de metadados para a análise e monitoração de um data warehouse organizacional.",
+        "e) um pequeno data warehouse que dá suporte à decisão para uma específica unidade de negócio."],
+        "correta": "e) um pequeno data warehouse que dá suporte à decisão para uma específica unidade de negócio.",
+        "explicacao": "Alternativa e) correta. Data Mart é um pequeno Data Warehouse que dá suporte à decisão para uma específica unidade de negócio, ou seja, tem um escopo departamental. Ele é um subconjunto do Data Warehouse, que é um grande banco de dados multidimensional que consolida todas as informações de uma organização a serem tratadas e organizadas."
+      },
+      {
+        "pergunta": "(TRT/SE – 2016) Considere, por hipótese, que o Tribunal Regional do Trabalho da 20a Região tenha optado pela implementação de um DW (Data Warehouse) que inicia com a extração, transformação e integração dos dados para vários DMs (Data Marts) antes que seja definida uma infraestrutura corporativa para o DW. Esta implementação:",
+        "alternativas": ["a) é conhecida como top down.",
+        "b) permite um retorno de investimento apenas em longo prazo, ou seja, um slower pay back.",
+        "c) tem como objetivo a construção de um sistema OLAP incremental a partir de DMs independentes.",
+        "d) não garante padronização dos metadados, podendo criar inconsistências de dados entre os DMs.",
+        "e) tem como vantagem a criação de legamarts ou DMs legados que facilitam e agilizam futuras integrações."],
+        "correta": "d) não garante padronização dos metadados, podendo criar inconsistências de dados entre os DMs.",
+        "explicacao": "Alternativa d) correta. Quando se implementa um DW com DMs independentes, não há padronização dos metadados entre os DMs, o que pode gerar inconsistências de dados."
+      },
+      {
+        "pergunta": "(CESPE / SEPLAN-RR - 2023) Em contraste com os modelos relacionais, os modelos dimensionais, ou modelos de dados dimensionais kimball — modelos de dados baseados na técnica desenvolvida por Ralph Kimball —, são estruturas normalizadas projetadas para recuperar dados de um data warehouse.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Alternativa Errada. Os modelos dimensionais, ou modelos de dados dimensionais Kimball, são estruturas desnormalizadas projetadas para recuperar dados de um data warehouse."
+      },
+      {
+        "pergunta": "(CESPE / CNMP - 2023) Em data warehouse, o conceito de granularidade refere-se ao nível de detalhe ou resumo existente em uma unidade de dados, de forma que, quanto mais detalhes, mais alto o nível de granularidade.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Alternativa Errada. Quanto mais detalhes, menor o nível de granularidade. Quanto mais resumo, maior o nível de granularidade."
+      },
+      {
+        "pergunta": "(FGV / TJ-RN - 2023) A gestão do TJRN é apoiada por sistemas de informações digitais que estão em produção há mais de dez anos abrangendo diversos contextos, como gestão de pessoal, gestão orçamentária, pedidos de serviço, controle de viaturas etc. Para apoiar a tomada de decisão de alto nível do Tribunal, é necessário o desenvolvimento de um banco de dados analítico que seja orientado a assunto, não volátil e histórico, integrando dados estruturados dos diversos sistemas e contextos. O banco de dados a ser desenvolvido é um Data:",
+        "alternativas": ["a) Lake;",
+        "b) Mart;",
+        "c) Graph;",
+        "d) Mining;",
+        "e) Warehouse."],
+        "correta": "e) Warehouse.",
+        "explicacao": "Alternativa e) correta. Um Data Warehouse é um banco de dados analítico que é orientado a assunto, não volátil e histórico, integrando dados estruturados dos diversos sistemas e contextos."
+      },
+      {
+        "pergunta": "(FGV / CGE-SC - 2023) Avalie se os componentes de um Data Warehouse incluem:<br>I. Sistemas de origem.<br>II. Infraestrutura de ETL (Extraction-transformation-load).<br>III. Data Warehouse.<br>IV. Aplicações de Front-end para o usuário final.<br>Estão corretos os itens",
+        "alternativas": ["a) I e II, apenas.",
+        "b) III e IV, apenas.",
+        "c) I, II e III, apenas.",
+        "d) II, III e IV, apenas.",
+        "e) I, II, III e IV."],
+        "correta": "e) I, II, III e IV.",
+        "explicacao": "Alternativa e) correta. Os componentes de um Data Warehouse incluem: I. Sistemas de origem; II. Infraestrutura de ETL (Extraction-transformation-load); III. Data Warehouse; IV. Aplicações de Front-end para o usuário final."
+      },
+      {
+        "pergunta": "(FGV / CGE-SC - 2023) Assinale a opção que apresenta uma diferença funcional entre um banco de dados planejado para lidar com informações transacionais (operações do dia a dia da empresa) e um Data Warehouse.",
+        "alternativas": ["a) A finalidade de um banco de dados transacional é ser orientado para uma aplicação de negócio, e a de um Data Warehouse é ser orientado para um assunto de análise.",
+        "b) Um Data Warehouse é usado por todos os tipos de colaboradores em uma empresa, e um banco de dados transacional é usado apenas por gestores.",
+        "c) Um Data Warehouse deve ser orientado para uma aplicação de negócio, e um banco de dados transacional deve ser orientado para um assunto de análise.",
+        "d) A finalidade de um banco de dados transacional e de um Data Warehouse é a mesma: ser orientada para um assunto específico de análise.",
+        "e) Um Data Warehouse e um banco de dados transacional são igualmente utilizados por todos os colaboradores em uma empresa no nível operacional."],
+        "correta": "a) A finalidade de um banco de dados transacional é ser orientado para uma aplicação de negócio, e a de um Data Warehouse é ser orientado para um assunto de análise.",
+        "explicacao": "Alternativa a) correta. Um banco de dados transacional é orientado para uma aplicação de negócio, enquanto um Data Warehouse é orientado para um assunto de análise."
+      },
+      {
+        "pergunta": "(FGV / Receita Federal - 2023) A análise de dados prescritiva é uma técnica de análise de dados que:",
+        "alternativas": ["a) se concentra na descrição de dados passados e presentes, com o objetivo de encontrar tendências e padrões que possam ser usados para prever eventos futuros.",
+        "b) usa modelos matemáticos e estatísticos para identificar a melhor solução possível para um determinado problema.",
+        "c) se concentra em identificar as causas subjacentes de um problema e em encontrar maneiras de corrigi-las.",
+        "d) usa algoritmos de aprendizado de máquina para identificar padrões e tendências em grandes conjuntos de dados.",
+        "e) usa modelos de aprendizado profundo para identificar padrões em dados não estruturados."],
+        "correta": "b) usa modelos matemáticos e estatísticos para identificar a melhor solução possível para um determinado problema.",
+        "explicacao": "Alternativa b) correta. A análise prescritiva usa modelos matemáticos e estatísticos para identificar a melhor solução possível para um determinado problema."
+      },
+      {
         "pergunta": "(CESPE / ANTAQ - 2009) Aplicações de business intelligence (BI) oferecem visões históricas e atuais de operações de negócios empregando unicamente dados operacionais.",
         "alternativas": ["Certo",
         "Errado"],
@@ -4256,6 +4418,633 @@
         "e) Banco de Dados Distribuído."],
         "correta": "b) Data Warehouse;",
         "explicacao": "Acho que já ficou claro como é importante a definição de Bill Inmon: Data Warehouse é uma coleção de dados orientados por assunto, integrados, variáveis com o tempo e não-voláteis, para dar suporte ao processo de tomada de decisão."
+      },
+      {
+        "pergunta": "(CGU - 2022) Uma organização deseja implementar um pipeline de dados e está avaliando a opção mais adequada para o seu contexto de operação. Em torno de 40% dos dados consumidos pela organização se encontram em planilhas eletrônicas que contêm dados sensíveis, produzidas semanalmente por suas unidades de negócio. Os outros 60% dos dados se encontram em alguns bancos de dados relacionais de sistemas de produção da organização. O tamanho da base é de moderado a pequeno, mas existe a necessidade de conformidade com normas de privacidade e confidencialidade dos dados. O objetivo do pipeline é fornecer insumos para um departamento que realiza análises de dados com métodos não supervisionados de aprendizagem de máquina para elaborar relatórios periódicos mensais. A organização está avaliando a construção de um Armazém de Dados (ETL) ou de um Lago de Dados (ELT). <br>A proposta de modelo adequada e corretamente justificada é:",
+        "alternativas": [
+          "a) Armazém de Dados. Ambos os modelos são adequados, mas Lago de Dados tem maior latência até a carga (L) e custo maior;",
+          "b) Armazém de Dados. Esse modelo possui menor latência até a carga (L) e, ao contrário do Lago de Dados, opera de forma eficiente com dados relacionais;",
+          "c) Armazém de Dados. O processo ETL é mais adequado para o tratamento dos dados sensíveis e os casos de uso são bem conhecidos;",
+          "d) Lago de Dados. Esse modelo possui menor latência até a carga (L) e permite a extração de dados semiestruturados e não estruturados;",
+          "e) Lago de Dados. Esse modelo não necessita de hardware especializado e, ao contrário do Armazém de Dados, possibilita tarefas de aprendizado de máquina."
+        ],
+        "correta": "c) Armazém de Dados. O processo ETL é mais adequado para o tratamento dos dados sensíveis e os casos de uso são bem conhecidos;",
+        "explicacao": "A alternativa C é a correta porque a organização trabalha com dados sensíveis e em volume moderado a pequeno, além de ter casos de uso bem definidos (relatórios mensais com métodos não supervisionados). O modelo ETL (Armazém de Dados) permite maior controle sobre a qualidade e privacidade dos dados antes do carregamento, garantindo conformidade com as normas de privacidade. Embora o Lago de Dados (ELT) seja mais flexível para dados semiestruturados, o contexto exige tratamento prévio dos dados sensíveis, o que torna o Armazém de Dados mais adequado."
+      },
+      {
+        "pergunta": "(CESPE / TELEBRÁS - 2021) Na situação hipotética em questão, para transformar os dados brutos em informações estratégicas para a tomada de decisão, deveriam ser utilizadas ferramentas de BI. Tais ferramentas podem ser divididas nas seguintes etapas: coleta, análise, visualização de dados e tomada de decisão. Na etapa da coleta, normalmente, usa-se o método de extração, transformação e carregamento.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "A afirmação está correta pois descreve precisamente o ciclo de BI e o papel do ETL na etapa de coleta de dados. O processo de Extração, Transformação e Carregamento (ETL) é de fato o método tradicionalmente utilizado para coletar dados de fontes diversas e prepará-los para análise em ferramentas de BI."
+      },
+      {
+        "pergunta": "(CESPE / TELEBRÁS - 2021) Em situações semelhantes àquela em apreço, as técnicas de um sistema de BI objetivam aumentar a agilidade e assertividade na tomada de decisões, com a definição de regras para a formatação adequada dos dados, visando a transformação desses dados em armazéns estruturados de informações, considerando a origem deles.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A afirmação está incorreta. Ele não considera a origem deles."
+      },
+      {
+        "pergunta": "(CESPE / TELEBRÁS - 2021) Na situação hipotética em tela, considerando as bases de dados antigas e novas, seria uma ótima prática a utilização dos conceitos de data warehouse e data mining para, por exemplo, automatizar a análise de currículos de acordo com as competências dos empregados.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "A afirmação está correta. Data warehouses são projetados para integrar dados de múltiplas fontes (incluindo bases antigas e novas) e data mining permite extrair padrões e conhecimentos desses dados. A análise automatizada de currículos por competências é uma aplicação perfeitamente adequada dessas tecnologias."
+      },
+      {
+        "pergunta": "(CESPE / SEFAZ-CE - 2021) Comparado ao ETL, o ELT apresenta vantagens como tempos menores de carregamento e de transformação de dados, e, consequentemente, menor custo de manutenção.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "A afirmação está correta. No modelo ELT (Extract, Load, Transform), os dados são carregados primeiro no destino e depois transformados, aproveitando a capacidade de processamento do ambiente de destino. Isso reduz o tempo de carregamento inicial e pode diminuir custos de manutenção por utilizar a infraestrutura do destino para as transformações, ao contrário do ETL tradicional que requer uma área de staging intermediária."
+      },
+      {
+        "pergunta": "(CESPE / SEFAZ-CE - 2021) Faz parte do rol de objetivos do BI permitir acesso interativo aos dados e fornecer aos analistas de negócios, por meio da manipulação desses dados, a capacidade de realizar a análise adequada.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "A afirmação está correta. Um dos principais objetivos do Business Intelligence é justamente proporcionar acesso interativo aos dados e capacitar os analistas de negócios a manipulá-los para realizar análises que apoiem a tomada de decisão."
+      },
+      {
+        "pergunta": "(CESPE / TCE-RJ - 2021) Enquanto os depósitos de dados e seus subconjuntos Data Marts são bancos estáticos, ou seja, não mais sofrem mudanças depois de agrupados, formatados e armazenados seus dados em um repositório, os bancos de dados típicos mudam constantemente, sendo dinâmicos por natureza.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "A afirmação está correta porque os dados de um Data Warehouse ou Data Mart são geralmente considerados não-voláteis, ou seja, eles não são alterados após serem carregados."
+      },
+      {
+        "pergunta": "(FGV / TJDFT - Análise de Sistemas - 2022) Lino precisa preparar um grande volume de dados para minerar realizando operações de limpeza, adequação de formato, exclusão de brancos e inclusão de novos atributos derivados. Para realizar o pré-processamento dos dados, Lino deve usar uma ferramenta do tipo:",
+        "alternativas": [
+          "a) ETL;",
+          "b) OLAP;",
+          "c) Apriori;",
+          "d) Data Mart;",
+          "e) Data Lake."
+        ],
+        "correta": "a) ETL;",
+        "explicacao": "A alternativa correta é a letra A. As operações descritas (limpeza, adequação de formato, exclusão de brancos e inclusão de atributos derivados) são exatamente as funções típicas da fase de transformação em processos ETL (Extract, Transform, Load), que prepara os dados para análise e mineração."
+      },
+      {
+        "pergunta": "(FGV / MPE-AL - 2018) No âmbito da utilização de bancos de dados no papel de “data warehouse”, é usualmente aceitável que as tabelas não estejam plenamente normalizadas. Assinale a opção que mostra porque essa característica, embora indesejada, é admitida:",
+        "alternativas": [
+          "a) As dependências funcionais tornam-se obsoletas.",
+          "b) As operações de insert/update não estão mais sujeitas ao controle de concorrência.",
+          "c) Facilita os processos de ETL.",
+          "d) Não é possível criar bancos de dados históricos normalizados.",
+          "e) Simplifica as consultas e melhora o tempo de resposta."
+        ],
+        "correta": "e) Simplifica as consultas e melhora o tempo de resposta.",
+        "explicacao": "A alternativa correta é a letra E. Em data warehouses, a desnormalização (não plena normalização) é admitida porque o objetivo principal é otimizar consultas analíticas, simplificando-as e melhorando o tempo de resposta, em vez de otimizar operações de inserção/atualização como em bancos transacionais."
+      },
+      {
+        "pergunta": "(FGV / IBGE - 2017) Pedro foi contratado para desenvolver uma solução de integração de dados a partir de diversas fontes heterogêneas com o objetivo de apoiar a análise de informações. A solução deve ter as seguintes características: Não-volátil, Histórico, Orientado a Assunto e Variante no Tempo. Para isso, Pedro deve desenvolver um:",
+        "alternativas": [
+          "a) Sistema de Informação Transacional;",
+          "b) Data Warehouse;",
+          "c) Otimizador de Consultas;",
+          "d) Sistema Gerenciador de Banco de Dados;",
+          "e) Banco de Dados Distribuído."
+        ],
+        "correta": "b) Data Warehouse;",
+        "explicacao": "A alternativa correta é a letra B. As características mencionadas (não-volátil, histórico, orientado a assunto e variante no tempo) são exatamente as quatro propriedades fundamentais que definem um Data Warehouse segundo Inmon e Kimball."
+      },
+      {
+        "pergunta": "(FCC / SEFAZ-BA - 2019) Nos sistemas transacionais, os dados sofrem diversas alterações como inclusão, alteração e exclusão. Antes de serem carregados no ambiente de um Data Warehouse, os dados são filtrados e limpos, de forma a gerarem informação útil. Após esta etapa, esses dados:",
+        "alternativas": [
+          "a) ficam disponíveis para a mineração em tempo real, pois tais dados são constantemente atualizados a partir da chave de tempo que indica o dia em que foram extraídos dos sistemas transacionais.",
+          "b) podem sofrer operações de consulta, mas, devido a sua não volatilidade, não podem ser alterados, não havendo necessidade de bloqueio por concorrência de usuários ao seu acesso.",
+          "c) são reunidos a partir de diversas fontes de dados, o que facilita muito o trabalho do analista, embora este tenha que lidar com a grande redundância das informações.",
+          "d) ficam ordenados pela data da extração do sistema transacional, sendo necessárias técnicas de data mining para fazer a sua recuperação orientada por assunto.",
+          "e) são classificados somente pelo assunto principal de interesse da organização. Por exemplo, em uma organização de arrecadação de impostos, os dados são organizados pelo cadastro de contribuintes que possuem impostos a recolher."
+        ],
+        "correta": "b) podem sofrer operações de consulta, mas, devido a sua não volatilidade, não podem ser alterados, não havendo necessidade de bloqueio por concorrência de usuários ao seu acesso.",
+        "explicacao": "A alternativa correta é a letra B. Esta afirmação descreve corretamente a característica de não-volatilidade do Data Warehouse: os dados podem ser consultados mas não são alterados ou excluídos pelos usuários, e por serem somente leitura, não há necessidade de mecanismos complexos de bloqueio por concorrência."
+      },
+      {
+        "pergunta": "(FCC / DPE - AM - 2018) Sobre o processo de ETL, aplicado a data warehouse, é correto afirmar que:",
+        "alternativas": [
+          "a) a fase de extração de dados consiste em obter os dados do servidor do data warehouse.",
+          "b) a fase de transformação consiste em realizar modificações nos dados carregados, adequando seus valores ao modelo definido para o data warehouse.",
+          "c) as fases de extração e carga de dados são realizadas de forma simultânea.",
+          "d) a fase de carga de dados visa eliminar valores nulos contidos nos bancos de dados transacionais da empresa.",
+          "e) a fase de carga de dados consiste em inserir os dados transformados nos bancos de dados transacionais da empresa."
+        ],
+        "correta": "b) a fase de transformação consiste em realizar modificações nos dados carregados, adequando seus valores ao modelo definido para o data warehouse.",
+        "explicacao": "A alternativa correta é a letra B. A fase de transformação no processo ETL é exatamente onde os dados extraídos são modificados, limpos, padronizados e adequados ao modelo do data warehouse. As demais alternativas contêm erros conceituais: extração obtém dados das fontes, não do DW (a); as fases são sequenciais (c); carga insere no DW, não elimina nulos (d); e os dados são carregados no DW, não nos bancos transacionais (e)."
+      },
+      {
+        "pergunta": "(SEDF) Diferentemente da estrutura relacional, a estrutura multidimensional oferece baixa redundância de dados e suporte a normalização até a segunda forma normal.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A estrutura multidimensional é caracterizada por alta redundância de dados e baixa normalização, o que é uma escolha deliberada para otimizar consultas analíticas em data warehouses."
+      },
+      {
+        "pergunta": "(INMETRO) A modelagem multidimensional é uma técnica de concepção e visualização de um modelo de dados de um conjunto de medidas que descrevem aspectos comuns de negócios. Um modelo multidimensional é formado por três elementos básicos. Assinale-os:",
+        "alternativas": [
+          "a) Esquema, fatos e itens.",
+          "b) Fatos, dimensões e itens.",
+          "c) Medidas, esquema e fatos.",
+          "d) Fatos, dimensões e medidas.",
+          "e) Dimensões, medidas e esquema."
+        ],
+        "correta": "d) Fatos, dimensões e medidas.",
+        "explicacao": "Um modelo multidimensional é formado por três elementos básicos: fatos (fact), dimensões (dimension) e medidas (measure). Esses elementos são fundamentais para a construção de data warehouses multidimensionais."
+      },
+      {
+        "pergunta": "(SEDF) Ao se modelar uma tabela-fato, deve-se considerar que a chave primária é composta e que a dimensão tempo sempre será parte integrante dessa chave.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "Ao modelar uma tabela-fato, é fundamental que a chave primária seja composta, pois ela é formada pela combinação das chaves primárias das dimensões relacionadas. A dimensão tempo é sempre parte integrante da chave primária de uma tabela-fato, pois permite a análise temporal dos dados."
+      },
+      {
+        "pergunta": "(HCPA) Em um modelo dimensional, a tabela fatos armazena:",
+        "alternativas": [
+          "a) estatísticas sobre os metadados.",
+          "b) as restrições de domínio do negócio.",
+          "c) descrições textuais das dimensões.",
+          "d) medições numéricas do negócio",
+          "e) o tempo de processamento das transações."
+        ],
+        "correta": "d) medições numéricas do negócio",
+        "explicacao": "A tabela fatos em um modelo dimensional armazena medições numéricas do negócio, como valores de vendas, quantidades, custos, etc. As demais alternativas descrevem elementos de dimensões ou metadados."
+      },
+      {
+        "pergunta": "(TCE/SC) Um modelo dimensional é composto por uma tabela com uma chave simples, denominada tabela de fatos, e um conjunto de tabelas maiores, que contém chaves compostas, conhecidas como tabelas de dimensão.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "Em um modelo dimensional, a tabela de fatos geralmente possui uma chave composta, formada pela combinação das chaves primárias das tabelas de dimensão. As tabelas de dimensão, por sua vez, possuem chaves simples. Portanto, a afirmação está incorreta."
+      },
+      {
+        "pergunta": "(AGERGS - 2022) Podemos afimar que uma tabela factless é:",
+        "alternativas": [
+          "a) São tabelas fato comuns, com métricas e atributos que referenciam determinadas dimensões.",
+          "b) As tabelas de fato sem fato são encontradas na modelagem de um data warehouse, elas não possuem nenhuma medida e contém apenas chaves estrangeiras para as dimensões.",
+          "c) São tabelas snapshots, que acumulam e descrevem as atividades de negócio do início ao fim.",
+          "d) Tabelas Factless são conhecidas como aggregate table, armazenam e pré-calculam as informações, são alimentadas por uma tabela intermediária.",
+          "e) São tabelas excluídas de um modelo multidimensional e armazenada como backup em um stagin área."
+        ],
+        "correta": "b) As tabelas de fato sem fato são encontradas na modelagem de um data warehouse, elas não possuem nenhuma medida e contém apenas chaves estrangeiras para as dimensões.",
+        "explicacao": "Uma tabela factless é uma tabela de fatos que não possui medidas, apenas chaves estrangeiras para as dimensões. Ela é usada quando não há necessidade de armazenar métricas numéricas."
+      },
+      {
+        "pergunta": "(CESGRANRIO / IPEA - 2024) Um analista de dados está desenvolvendo um data warehouse para uma empresa de varejo. Ele precisa decidir se informações sobre uma venda devem ser armazenadas em uma tabela fato ou em uma tabela dimensão. Considerando-se as características de modelagem dimensional, uma informação que deve ser armazenada em uma tabela dimensão é a(o)",
+        "alternativas": [
+          "a) data da venda",
+          "b) quantidade de produtos vendidos",
+          "c) custo total dos produtos vendidos",
+          "d) imposto total pago pela venda",
+          "e) valor total da venda"
+        ],
+        "correta": "a) data da venda",
+        "explicacao": "A data da venda é uma característica descritiva que contextualiza a transação e deve ser armazenada em uma tabela dimensão, pois fornece informações que ajudam a analisar as vendas em diferentes períodos."
+      },
+      {
+        "pergunta": "(CESGRANRIO / CEF - 2024) A modelagem conceitual de um Data Warehouse (DW) pressupõe a definição de fatos e dimensões. A dimensão que sempre está presente em qualquer DW é a dimensão de",
+        "alternativas": [
+          "a) cliente",
+          "b) geolocalização",
+          "c) movimentação",
+          "d) produto",
+          "e) tempo"
+        ],
+        "correta": "e) tempo",
+        "explicacao": "A dimensão tempo é essencial e obrigatória em qualquer Data Warehouse, pois a análise temporal (por data, mês, trimestre, ano etc.) é fundamental para a maioria das análises de negócios."
+      },
+      {
+        "pergunta": "Considere que um dos estados do Brasil resolveu executar obras de infraestrutura em um de seus principais rios. Esse rio percorre um trajeto desde a serra até o mar, passando por 15 municípios desse estado. Todo o percurso do rio foi segmentado em trechos que recebem as obras. Cada trecho pode ter uma ou mais obras, uma obra é realizada em apenas um trecho e em apenas um município. As obras em questão podem demorar de seis meses a dois anos. Mensalmente, todas as obras são avaliadas quanto ao seu valor executado (no mês) comparado ao respectivo valor orçado (para despesas no mesmo mês). Foram criadas quatro tabelas segundo o modelo relacional de dados (as chaves primárias estão sublinhadas; as chaves estrangeiras estão indicadas pelo sinal @ no início do nome do atributo): <br>OBRA (ID-obra, @município, @trecho, @mês, valor-orçado, valor-executado); <br>MUNICÍPIO (ID-município, nome, quantidade-habitantes, IDH); <br>TRECHO (ID-trecho, extensão-em-km); <br>TEMPO (ID-mês, mês-calendário, ano-calendário). <br>Considere ainda os domínios de alguns atributos: <br>MUNICÍPIO.quantidade-habitantes [1.000,10.000.000]; <br>TRECHO.extensão-em-km [10,1.000]; <br>TEMPO.mês-calendário [1, 12]. <br>Por fim, considere as seguintes dependências funcionais (em que a notação A → B indica que A determina B): <br>ID-município → quantidade-habitantes; <br>nome → IDH. <br>O modelo de dados apresentado com quatro tabelas, que implementa um modelo dimensional,",
+        "alternativas": [
+          "a) está incorreto pois OBRA.mês deveria apontar para TEMPO.mês-calendário.",
+          "b) não permite o drill down por município para os valores executado e orçado.",
+          "c) possui a tabela TRECHO que representa uma dimensão não aditiva.",
+          "d) possui uma tabela fato (OBRA).",
+          "e) é do tipo floco de neve."
+        ],
+        "correta": "d) possui uma tabela fato (OBRA).",
+        "explicacao": "A tabela OBRA é a tabela fato, pois contém as medidas (valores orçados e executados) que são analisadas em relação às dimensões como município, trecho e tempo."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BNDES - 2024) Um dos indicadores mais utilizados para avaliação de políticas públicas em municípios brasileiros na área da saúde é a taxa de mortalidade infantil. Para essas políticas, também é importante acompanhar a quantidade de leitos hospitalares disponíveis. Considere três tabelas que representam um modelo dimensional: <br>MUNICÍPIO (ID-município, @UF, @mês, taxa-mortalidade-infantil, qtd-leitos); <br>TEMPO (ID-mês, mês-calendário, ano-calendário); <br>ESTADO (sigla, nome, região). <br>Esse modelo dimensional permite apresentar de um estado da federação, em um dos meses cadastrados, a",
+        "alternativas": [
+          "a) divisão da quantidade de leitos pela taxa de mortalidade infantil.",
+          "b) divisão da taxa de mortalidade infantil pela quantidade de leitos.",
+          "c) média da taxa de mortalidade infantil.",
+          "d) soma da taxa de mortalidade infantil.",
+          "e) soma da quantidade de leitos."
+        ],
+        "correta": "e) soma da quantidade de leitos.",
+        "explicacao": "A tabela MUNICÍPIO possui os indicadores taxa de mortalidade infantil e quantidade de leitos, relacionados a cada município por UF (unidade federativa) e mês. As tabelas ESTADO e TEMPO funcionam como dimensões que permitem agregar ou filtrar os dados por estado e por tempo (mês/ano). Com esse modelo, é possível: filtrar os dados por estado (UF) e por mês; agregar valores de quantidade de leitos (soma); calcular média de taxas, que são medidas relativas. <br>A taxa de mortalidade infantil é uma média por município (e não somável diretamente), portanto a soma da taxa de mortalidade infantil (letra D) não faria sentido analítico. Já a quantidade de leitos hospitalares é um valor absoluto e somável, portanto, é viável calcular a soma da quantidade de leitos por estado e mês, com base nos dados da tabela MUNICÍPIO."
+      },
+      {
+        "pergunta": "(CESGRANRIO / CNU - 2024) Em um esforço para melhorar a análise e a tomada de decisão no setor agrícola, um órgão governamental brasileiro implementou um sistema OLAP para monitorar a produção agrícola nacional. O cubo OLAP foi estruturado para incluir as dimensões Tempo (Ano, Mês), Produto (Tipo de Cultura, Variedade) e Região (Estado, Cidade), com medidas de Área Plantada (hectares) e Produção (toneladas). Em um certo momento de sua análise, um analista estava vendo a produção total de soja do estado de Mato Grosso em 2023, mas decidiu que desejava ver apenas a produção da cidade de Sorriso, também em 2023. Considerando-se esse contexto, qual sequência de operações OLAP o analista deverá realizar para, a partir da visão em que estava, obter a visão desejada?",
+        "alternativas": [
+          "a) Drill Down em Região de Estado para Cidade, Pivot em Cidade para Sorriso.",
+          "b) Drill Down em Região de Estado para Cidade, Slice em Cidade para Sorriso.",
+          "c) Pivot em Região de Estado para Cidade, Drill Down em Cidade para Sorriso.",
+          "d) Pivot em Região de Estado para Cidade, Slice em Cidade para Sorriso.",
+          "e) Slice em Região de Estado para Cidade, Drill Down em Cidade para Sorriso."
+        ],
+        "correta": "b) Drill Down em Região de Estado para Cidade, Slice em Cidade para Sorriso.",
+        "explicacao": "O analista precisa detalhar a hierarquia geográfica de estado para cidade (Drill Down) e depois filtrar os dados para uma cidade específica (Slice)."
+      },
+      {
+        "pergunta": "(CESGRANRIO / AgeRIO - 2023) Ao usar um cubo de dados OLAP, que permitia estudar todos os projetos de sua organização governamental, um colaborador iniciou analisando os projetos por Custo Total, Município e Mês. Percebendo que eram muitos dados, decidiu passar a olhar por Custo Total, Município e Ano. Esses dados, porém, mostravam muita diferença entre o governo atual e o antigo. Devido a isso, o colaborador resolveu pegar apenas os últimos 3 anos. Qual sequência correta das operações OLAP ele realizou?",
+        "alternativas": [
+          "a) Drill down, Roll up",
+          "b) Drill down, Slice",
+          "c) Roll up, Drill Down",
+          "d) Roll up, Slice",
+          "e) Slice, Roll up"
+        ],
+        "correta": "d) Roll up, Slice",
+        "explicacao": "O colaborador fez um Roll up ao resumir os dados de Mês para Ano e, em seguida, utilizou a operação Slice para filtrar os últimos 3 anos, focando em um subconjunto específico de dados."
+      },
+      {
+        "pergunta": "(CESGRANRIO / TRANSPETRO - 2023) Em sistemas de Business Intelligence (BI), o OLAP (Processamento Analítico Online) é uma tecnologia que permite a análise multidimensional de dados, possibilitando insights valiosos para a tomada de decisões estratégicas. Sobre essa tecnologia, verifica-se que a operação de",
+        "alternativas": [
+          "a) “Slice” permite a visualização de um subconjunto de dados de um cubo OLAP, por meio da seleção de um ou mais membros de uma dimensão específica.",
+          "b) “Roll-Up” permite a criação de agregações de dados em níveis hierárquicos mais baixos.",
+          "c) “Pivot” permite a criação de novas dimensões com base nas existentes em um cubo OLAP.",
+          "d) “Drill-Through” permite a criação de agregações de dados em níveis hierárquicos mais altos.",
+          "e) “Drill-Down” permite mover-se de visualização de informações resumidas e agregadas para visualização de níveis mais detalhados."
+        ],
+        "correta": "e) “Drill-Down” permite mover-se de visualização de informações resumidas e agregadas para visualização de níveis mais detalhados.",
+        "explicacao": "O Drill-Down é a operação que permite navegar do resumo para o detalhe explorando níveis hierárquicos mais baixos, como de 'ano' para 'trimestre'."
+      },
+      {
+        "pergunta": "(CESGRANRIO / TRANSPETRO - 2023) Ferramentas OLAP fornecem apoio computacional ao processamento analítico, para tomada de decisão em uma arquitetura de BI. Tal apoio ocorre por meio da implementação de operadores específicos. Entre os principais tipos de operadores específicos de OLAP em data warehouses, incluem-se operadores de",
+        "alternativas": [
+          "a) álgebra relacional",
+          "b) cálculo relacional",
+          "c) upload e de download",
+          "d) agregação, de drill-down e de roll-up",
+          "e) junção interna ou externa e de agrupamentos"
+        ],
+        "correta": "d) agregação, de drill-down e de roll-up",
+        "explicacao": "Os operadores de OLAP incluem a agregação, que resume dados, o drill-down, que permite detalhar informações, e o roll-up, que agrega dados em níveis superiores. Esses operadores são essenciais para análise em data warehouses."
+      },
+      {
+        "pergunta": "(CESGRANRIO / AgeRIO - 2023) Ao construir um modelo de dados usando a modelagem dimensional para um Data Warehouse, seguindo um modelo estrela, um engenheiro de dados encontrou uma dimensão que se encaixava perfeitamente no conceito de dimensão degenerada, de apenas um atributo. Qual é a maneira correta de tratar uma dimensão degenerada?",
+        "alternativas": [
+          "a) Criar uma tabela dimensão com o produto cartesiano de todas as dimensões degeneradas.",
+          "b) Eliminar a dimensão do modelo estrela.",
+          "c) Incluí-la como uma coluna na tabela fato.",
+          "d) Mantê-la como uma tabela dimensão e usar o atributo como chave.",
+          "e) Mantê-la como uma tabela dimensão e usar uma chave artificial."
+        ],
+        "correta": "c) Incluí-la como uma coluna na tabela fato.",
+        "explicacao": "A dimensão degenerada, que possui apenas um atributo, deve ser incluída como uma coluna na tabela fato, pois isso simplifica o modelo e evita a criação de tabelas desnecessárias, mantendo a eficiência do Data Warehouse."
+      },
+      {
+        "pergunta": "(CESGRANRIO / TRANSPETRO - 2023) Comparando-se os esquemas estrela (star) e floco de neve (snow flake) em data warehouses (DW), constata-se que",
+        "alternativas": [
+          "a) o esquema estrela é normalizado, enquanto o esquema floco de neve é desnormalizado.",
+          "b) o esquema estrela utiliza mais junções na execução de consultas, tornando-as mais lentas quando comparadas às consultas em um esquema floco de neve.",
+          "c) o esquema estrela é desnormalizado e, geralmente, oferece um desempenho de consulta mais rápido, enquanto o esquema floco de neve é normalizado, resultando em mais junções durante as consultas.",
+          "d) ambos os esquemas favorecem o desempenho das consultas em detrimento da normalização dos dados.",
+          "e) ambos os esquemas têm a mesma estrutura e a mesma abordagem quanto à normalização de dados e ao desempenho de consulta."
+        ],
+        "correta": "c) o esquema estrela é desnormalizado e, geralmente, oferece um desempenho de consulta mais rápido, enquanto o esquema floco de neve é normalizado, resultando em mais junções durante as consultas.",
+        "explicacao": "O esquema estrela é desnormalizado, o que facilita e acelera as consultas, enquanto o esquema floco de neve é normalizado, resultando em mais junções durante as consultas, o que pode impactar o desempenho."
+      },
+      {
+        "pergunta": "(CESGRANRIO / ELETRONUCLEAR - 2022) As bases de dados multidimensionais são projetadas para serem otimizadas para as operações de",
+        "alternativas": [
+          "a) consulta a fatos e dimensões",
+          "b) inclusão, remoção e atualização de dimensões",
+          "c) inclusão, remoção e atualização de dimensões e consulta a fatos",
+          "d) inclusão, remoção e atualização de fatos",
+          "e) inclusão, remoção e atualização de fatos e consulta a dimensões"
+        ],
+        "correta": "a) consulta a fatos e dimensões",
+        "explicacao": "As bases de dados multidimensionais são otimizadas para operações de consulta a fatos e dimensões, permitindo análises rápidas e eficientes em ambientes de Business Intelligence. Essa estrutura facilita a visualização e a interpretação dos dados."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Ao desenvolver um Data Warehouse para o Banco W, um programador decidiu criar um modelo conceitual com base no modelo estrela para cada fato analisado. Ao criar a primeira tabela fato, relativa ao valor e ao prazo de empréstimos, foram identificadas as seguintes dimensões, com os seus atributos descritos em parênteses: tempo (dia, mês e ano), agência (estado, cidade, bairro e número da agência), produto (nome do produto e juros do produto) e cliente (conta e nome do cliente). Segundo as regras e as práticas da modelagem dimensional, e usando a granularidade mais baixa, que atributos devem constar da tabela fato?",
+        "alternativas": [
+          "a) fato_id, dia, mes, ano, estado, cidade, bairro, numero_agencia, nome_produto, juros_mensais_produto, conta_cliente, nome_cliente, valor_emprestimo, prazo_emprestimo",
+          "b) fato_id, emprestimo_id, valor_emprestimo, prazo_emprestimo",
+          "c) fato_id, tempo_id, agencia_id, produto_id, cliente_id, emprestimo_id",
+          "d) fato_id, tempo_id, agencia_id, produto_id, cliente_id, dia, mes, ano, estado, cidade, bairro, numero_agencia, nome_produto, juros_mensais_produto, conta_cliente, nome_cliente, valor_emprestimo, prazo_emprestimo",
+          "e) fato_id, tempo_id, agencia_id, produto_id, cliente_id, valor_emprestimo, prazo_emprestimo"
+        ],
+        "correta": "e) fato_id, tempo_id, agencia_id, produto_id, cliente_id, valor_emprestimo, prazo_emprestimo",
+        "explicacao": "Esta alternativa apresenta a tabela fato de forma adequada, incluindo as chaves das dimensões e as medidas essenciais (valor e prazo de empréstimo), alinhando-se às práticas de modelagem dimensional."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2021) Uma empresa precisa implementar um sistema Big Data para controlar a movimentação dos produtos que a empresa oferece. Esse sistema precisa estar com a configuração de dados como sendo um fato, que seria um evento de ocorrência, como, por exemplo: as compras de um determinado insumo, em um determinado fornecedor e em um determinado instante. Para tal finalidade, esse sistema a ser implementado deverá estar organizado segundo a configuração de",
+        "alternativas": [
+          "a) Cubo de dados",
+          "b) Tuplas estáticas",
+          "c) Matriz de ocorrência",
+          "d) Documentos lineares",
+          "e) Subconjunto de atributos"
+        ],
+        "correta": "a) Cubo de dados",
+        "explicacao": "O cubo de dados é uma estrutura multidimensional que permite a análise de dados em diferentes perspectivas, facilitando a visualização de eventos como compras de insumos, fornecedores e tempos específicos. Essa configuração é ideal para sistemas de Big Data."
+      },
+      {
+        "pergunta": "(CESGRANRIO / UNIRIO - 2019) Um desenvolvedor recebeu a incumbência de construir uma Data Warehouse sobre as vendas da empresa. Para isso, teve acesso a um banco de dados relacional que incluía as seguintes tabelas, onde as chaves primárias estão sublinhadas: <br>ITEMDEVENDA(itemid,vendaid,produtoid,quantidade,desconto,valorvendido); <br>VENDA(vendaid,vendedorid,cpfcliente,valortotal,valorimposto,data,hora); <br>PRODUTO(produtoid,fabricanteid,nomeproduto,valorunitario); <br>CLIENTE(cpfcliente,nomecliente,idadecliente,enderecocliente,telefonecliente); <br>VENDEDOR(vendedorid,CPFvendedor,nomevendedor); <br>LOJA(lojaid,nomeloja,enderecoloja,cidadeid); <br>CIDADE(cidadeid,nomecidade); <br>FABRICANTE(fabricanteid,nomefabricante). <br>Os diretores desejam estudar relatórios sobre a venda de produtos, como a quantidade de cada produto vendido em um dia, semana ou mês, ou que produtos são vendidos juntos. Para garantir a menor granularidade possível no modelo dimensional e alta flexibilidade nas consultas, em um modelo Estrela, a tabela fato deve registrar em cada linha o(a)",
+        "alternativas": [
+          "a) valor agregado de cada venda por dia",
+          "b) agregado de cada venda de produto por dia, semana ou mês",
+          "c) agregado de venda de cada produto por dia",
+          "d) equivalente ao item de venda",
+          "e) quantidade de produtos vendidos por fabricante"
+        ],
+        "correta": "d) equivalente ao item de venda",
+        "explicacao": "A tabela fato deve registrar o equivalente ao item de venda, pois isso permite uma análise detalhada de cada transação, essencial para um modelo estrela."
+      },
+      {
+        "pergunta": "(CESGRANRIO / PETROBRAS - 2018) Em relação ao uso de modelos de dados em data warehouses, Inmon (2005) declara que o modelo de dados por trás do modelo relacional é em um nível razoavelmente alto de abstração, enquanto o modelo de processo por trás do modelo multidimensional não é de nenhuma forma abstrato. Nesse contexto, o modelo",
+        "alternativas": [
+          "a) multidimensional deve ser adotado também para as aplicações de processamento de transações da empresa, pela sua forma otimizada.",
+          "b) multidimensional é altamente eficiente, podendo, por meio de um modelo único, servir a todas as comunidades de usuários dentro de uma empresa.",
+          "c) relacional é adequado para o acesso de um usuário ou comunidade de usuários únicos, por causa de suas otimizações inerentes.",
+          "d) relacional é altamente flexível, mas não tem o desempenho otimizado para nenhum usuário.",
+          "e) relacional é mais adequado aos data marts, nos níveis de departamento ou subdepartamento, onde os dados têm escopo menor."
+        ],
+        "correta": "d) relacional é altamente flexível, mas não tem o desempenho otimizado para nenhum usuário.",
+        "explicacao": "O modelo relacional, embora flexível, não oferece desempenho otimizado para usuários em ambientes de data warehouse, onde a eficiência é crucial. Isso se deve à sua estrutura que prioriza a normalização e pode impactar a velocidade de consulta."
+      },
+      {
+        "pergunta": "(CESGRANRIO / PETROBRAS - 2018) Ao construir um modelo de dados para um data warehouse de sua empresa, um desenvolvedor viu-se às voltas com três tabelas relacionais: venda, cliente e vendedor. Ao fazer uma transformação para o modelo estrela, ele deve organizar:",
+        "alternativas": [
+          "a) venda, como tabela fato; cliente e vendedor, como tabelas dimensão",
+          "b) cliente e vendedor, como tabelas fato; venda, como tabela dimensão",
+          "c) cliente, como tabela fato; venda e vendedor, como tabelas dimensão",
+          "d) vendedor e venda, como tabelas fato; cliente, como tabela dimensão",
+          "e) vendedor, como tabela fato; cliente e venda, como tabelas dimensão"
+        ],
+        "correta": "a) venda, como tabela fato; cliente e vendedor, como tabelas dimensão",
+        "explicacao": "A tabela de venda representa os eventos ou transações que ocorrem, caracterizando-se como a tabela fato. As tabelas de cliente e vendedor contêm informações descritivas e categóricas, funcionando como tabelas dimensão que contextualizam as vendas."
+      },
+      {
+        "pergunta": "(CESGRANRIO / TRANSPETRO - 2018) Seja o modelo dimensional de dados a seguir representado, onde a tabela “Venda” é a tabela de fatos, e as demais tabelas representam dimensões. Nesse esquema, os atributos das tabelas foram omitidos. Nesse caso, qual o modelo multidimensional adotado?<br><img src='../dados/imgs/questao_bancodedados_13.png' alt='imagem da questão'><br>",
+        "alternativas": [
+          "a) Estrela, com a aplicação da 3ª forma normal em tabelas de dimensão de primeiro nível, eleitas por um critério de desempenho.",
+          "b) Estrela, com uma tabela de fatos central e tabelas de relacionamento ligadas a ela, mesmo que indiretamente.",
+          "c) Estrela, pela conjugação da dimensão “Tempo” com as demais dimensões, que a princípio deveriam ser modeladas em separado.",
+          "d) Floco de neve, especializando tabelas de dimensão por decomposição hierárquica.",
+          "e) Floco de neve, otimizando o desempenho do acesso aos dados pela decomposição de dimensões indexadas."
+        ],
+        "correta": "d) Floco de neve, especializando tabelas de dimensão por decomposição hierárquica.",
+        "explicacao": "Como a dimensão Região está conectada a Local (e não diretamente à Fato), há uma normalização hierárquica característica do modelo floco de neve."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BB - 2018) Um desenvolvedor precisava construir um modelo estrela para produzir um data warehouse sobre as transferências eletrônicas disponíveis (TED) feitas pelos correntistas do banco. Que tabelas seriam adequadas para representar as dimensões desse modelo?",
+        "alternativas": [
+          "a) data, correntista, valor, banco destino",
+          "b) data, correntista, valor, cpf destino",
+          "c) correntista, valor, banco destino, cpf destino",
+          "d) data, valor, banco destino, cpf destino",
+          "e) data, correntista, banco destino, cpf destino"
+        ],
+        "correta": "e) data, correntista, banco destino, cpf destino",
+        "explicacao": "As tabelas 'data', 'correntista', 'banco destino' e 'cpf destino' são dimensões que permitem análises detalhadas das transferências, sendo 'data' crucial para a temporalidade."
+      },
+      {
+        "pergunta": "(CESGRANRIO / LIQUIGÁS - 2018) Em um banco de dados multidimensional, os fatos aditivos",
+        "alternativas": [
+          "a) não podem ser somados em nenhuma dimensão.",
+          "b) podem ser somados apenas para um nível superior de uma dimensão, caso haja hierarquia na dimensão.",
+          "c) podem ser somados em apenas algumas dimensões.",
+          "d) podem ser somados em todas as dimensões.",
+          "e) só não podem ser somados na dimensão temporal."
+        ],
+        "correta": "d) podem ser somados em todas as dimensões.",
+        "explicacao": "Fatos aditivos são aqueles que mantêm sentido matemático ao serem somados através de qualquer dimensão do modelo."
+      },
+      {
+        "pergunta": "(CESGRANRIO / LIQUIGÁS - 2018) Um banco de dados multidimensional em uma empresa",
+        "alternativas": [
+          "a) é semelhante a um banco de dados relacional, exceto por não possuir FKs (chaves estrangeiras).",
+          "b) é semelhante a um banco de dados relacional onde cada tabela tem uma coluna adicional para representar a dimensão temporal.",
+          "c) alimenta com seus dados os bancos de dados transacionais necessários para o negócio.",
+          "d) permite apenas consultas predefinidas aos dados armazenados.",
+          "e) tem seus dados oriundos de bancos de dados transacionais."
+        ],
+        "correta": "e) tem seus dados oriundos de bancos de dados transacionais.",
+        "explicacao": "Os dados de bancos multidimensionais (como os usados em data warehouses) são provenientes de bancos transacionais por meio de processos de ETL."
+      },
+      {
+        "pergunta": "(TRT/SE) São modelos fortemente associados à estrutura de um banco de dados multidimensional:",
+        "alternativas": [
+          "a) lineup e snowflake.",
+          "b) anel e estrela.",
+          "c) estrela e snowflake.",
+          "d) anel e workflow.",
+          "e) lineup e coroa."
+        ],
+        "correta": "c) estrela e snowflake.",
+        "explicacao": "Os modelos estrela e snowflake são os mais comuns em bancos de dados multidimensionais, pois representam a estrutura de dimensões e fatos de forma eficiente."
+      },
+      {
+        "pergunta": "(UPE) O modelo dimensional de um data warehouse, no qual todas as tabelas relacionam-se diretamente com a tabela de fatos, de forma que as tabelas dimensionais devem conter todas as descrições que são necessárias para se definir uma classe, é denominado de:",
+        "alternativas": [
+          "a) Floco de neve.",
+          "b) Estrela.",
+          "c) Barramento.",
+          "d) Árvore.",
+          "e) Anel."
+        ],
+        "correta": "b) Estrela.",
+        "explicacao": "O modelo estrela é aquele em que todas as tabelas dimensionais se conectam diretamente à tabela de fatos, e cada tabela dimensional contém todas as descrições necessárias para definir uma classe."
+      },
+      {
+        "pergunta": "(TCE/AL) A organização dos data warehouse em tabela de fato e tabelas de dimensão relacionadas, é característica:",
+        "alternativas": [
+          "a) do esquema estrela.",
+          "b) da mineração de dados.",
+          "c) do roll-up.",
+          "d) do processador analítico on-line.",
+          "e) do drill-down."
+        ],
+        "correta": "a) do esquema estrela.",
+        "explicacao": "O esquema estrela é o modelo mais comum em data warehouses, onde a tabela de fatos está centralizada e conectada diretamente às tabelas dimensionais."
+      },
+      {
+        "pergunta": "(TRT/MS) Uma das formas de apresentação de um banco de dados multidimensional é através do modelo estrela. No centro de um modelo estrela encontra-se a tabela de:",
+        "alternativas": [
+          "a) dimensão e, ao seu redor, as tabelas de fatos.",
+          "b) dimensão, cuja chave primária deve ser composta.",
+          "c) núcleo e, ao seu redor, as tabelas de nível.",
+          "d) fatos, cuja chave primária deve ser simples.",
+          "e) fatos e, ao seu redor, as tabelas de dimensões."
+        ],
+        "correta": "e) fatos e, ao seu redor, as tabelas de dimensões.",
+        "explicacao": "No modelo estrela, a tabela central (fato) está conectada diretamente às tabelas dimensionais."
+      },
+      {
+        "pergunta": "(PREVIC) Os esquemas em estrela e em flocos de neve são dois modelos multidimensionais comuns. Dadas as suas características, o modelo em flocos de neve aumenta a redundância de dados e, por isso, aumenta o espaço utilizado em disco.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "O modelo floco de neve não aumenta a redundância de dados. Pelo contrário, ele normaliza as tabelas dimensionais, reduzindo a redundância e o espaço ocupado em disco."
+      },
+      {
+        "pergunta": "(UPE) Um dos esquemas multidimensionais mais comuns é o esquema floco de neve. Nesse esquema,",
+        "alternativas": [
+          "a) existem apenas tabelas de fatos, sendo que cada tupla representa um fato registrado.",
+          "b) existem apenas uma tabela de dimensões e tantas tabelas de fatos quanto as que foram necessárias para identificar cada uma das dimensões existentes.",
+          "c) existem uma tabela de fatos e várias tabelas de dimensões, sendo estas últimas organizadas em hierarquias e normalizadas.",
+          "d) existem diversas tabelas de fatos e de dimensões, estando todas desnormalizadas para melhor desempenho.",
+          "e) não podem existir mais de 3 tabelas de dimensões, pois, se assim fosse, deixaria de ser esquema floco de neve e passaria a ser esquema estrela."
+        ],
+        "correta": "c) existem uma tabela de fatos e várias tabelas de dimensões, sendo estas últimas organizadas em hierarquias e normalizadas.",
+        "explicacao": "No esquema floco de neve, as tabelas dimensionais são normalizadas e organizadas em hierarquias, o que diferencia do esquema estrela."
+      },
+      {
+        "pergunta": "(SUFRAMA) No projeto de um esquema estrela, é necessário fazer algumas suposições a respeito do comportamento do usuário no que se refere às consultas realizadas ao sistema.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "No projeto de um esquema estrela, é necessário fazer algumas suposições a respeito do comportamento do usuário no que se refere às consultas realizadas ao sistema."
+      },
+      {
+        "pergunta": "(TCE/RJ – 2022) Uma constelação de fatos é um conjunto de conceitos que compartilham entre si as suas tabelas de fatos.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "Uma constelação de fatos é um conjunto de tabelas de fatos que compartilham entre si as suas tabelas dimensionais."
+      },
+      {
+        "pergunta": "(SERPRO) É comum o armazenamento maior de dados para OLAP, em relação a OLTP (On-Line Transaction Processing), com a finalidade de se manter histórico para análise.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "OLAP (Online Analytical Processing) armazena dados históricos para análise, enquanto OLTP (Online Transaction Processing) é voltado para transações em tempo real."
+      },
+      {
+        "pergunta": "(CODEMIG) O recurso que permite aos gerentes e diretores nas empresas terem acesso dinâmico a informações armazenadas nos diversos sistemas das empresas, podendo realizar cruzamentos e análises de informações em tempo real é chamado:",
+        "alternativas": [
+          "a) OLTP.",
+          "b) OLAP.",
+          "c) REALTIME.",
+          "d) OLT."
+        ],
+        "correta": "b) OLAP.",
+        "explicacao": "OLAP (Online Analytical Processing) é o recurso que permite acesso dinâmico a informações armazenadas em diversos sistemas, permitindo cruzamentos e análises em tempo real."
+      },
+      {
+        "pergunta": "(SINESP) A abordagem relacional para multidimensionalidade, que permite operações multidimensionais sobre dados relacionais é conhecida como:",
+        "alternativas": [
+          "a) DOLAP.",
+          "b) HOLAP.",
+          "c) BOLAP.",
+          "d) ROLAP.",
+          "e) IOLAP."
+        ],
+        "correta": "d) ROLAP.",
+        "explicacao": "ROLAP (Relational Online Analytical Processing) é a abordagem relacional para multidimensionalidade, que permite operações multidimensionais sobre dados relacionais."
+      },
+      {
+        "pergunta": "(PGE/RJ) MOLAP é: dw Cubos de dados Dados proprietários Cria e armazena REQUISIÇÃO usuário MDDB molap",
+        "alternativas": [
+          "a) utilizado para análise de segurança e usabilidade de dados em bancos relacionais.",
+          "b) um instrumento utilizado no tuning de bancos de dados.",
+          "c) uma ferramenta de monitoração de redes de computadores.",
+          "d) uma ferramenta de proteção de redes de computadores.",
+          "e) um mecanismo utilizado no âmbito dos bancos de dados."
+        ],
+        "correta": "e) um mecanismo utilizado no âmbito dos bancos de dados.",
+        "explicacao": "MOLAP (Multidimensional Online Analytical Processing) é um mecanismo utilizado no âmbito dos bancos de dados para análise multidimensional."
+      },
+      {
+        "pergunta": "(CREA/AC) O tipo de processamento analítico on-line, adequado para dados referentes a um assunto em especial, tipo Data Marts, no qual os dados são mais específicos e o aplicativo será direcionado na análise com dimensionalidade limitada e pouco detalhamento das informações, que trabalha exclusivamente com a tecnologia multidimensional, com acesso direto ao servidor, sem transferir dados para desktops, e que fornece uma resposta rápida para praticamente qualquer consulta é o:",
+        "alternativas": [
+          "a) DOLAP.",
+          "b) HOLAP.",
+          "c) MOLAP.",
+          "d) OLTP.",
+          "e) ROLAP."
+        ],
+        "correta": "c) MOLAP.",
+        "explicacao": "MOLAP (Multidimensional Online Analytical Processing) é o tipo de processamento analítico on-line adequado para dados referentes a um assunto em especial, tipo Data Marts, no qual os dados são mais específicos e o aplicativo será direcionado na análise com dimensionalidade limitada e pouco detalhamento das informações, que trabalha exclusivamente com a tecnologia multidimensional, com acesso direto ao servidor, sem transferir dados para desktops, e que fornece uma resposta rápida para praticamente qualquer consulta."
+      },
+      {
+        "pergunta": "(MEC) O banco de dados de um MOLAP possui um SGDB multidimensional, ou seja, permite armazenamento de dados nas células de um array multidimensional.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "O banco de dados de um MOLAP (Multidimensional Online Analytical Processing) possui um SGDB multidimensional, ou seja, permite armazenamento de dados nas células de um array multidimensional."
+      },
+      {
+        "pergunta": "(CRM/MG) Uma funcionalidade típica em um sistema de Data Warehouse permite a visualização dos dados em várias dimensões diferentes. Assinale a alternativa que apresenta a funcionalidade pré-programada que permite níveis diferentes de detalhe dos dados não revelados.",
+        "alternativas": [
+          "a) Roll-up",
+          "b) Drill-down",
+          "c) Pivô",
+          "d) Slice"
+        ],
+        "correta": "b) Drill-down",
+        "explicacao": "Drill-down é a funcionalidade que permite aumentar o grau de granularidade, ou seja, diminuir o nível de detalhamento da informação."
+      },
+      {
+        "pergunta": "(EBSERH) Quando um usuário visualiza dados em um modelo OLAP e aumenta o grau de granularidade, diminuindo o nível de detalhamento da informação, ele está usando a funcionalidade:",
+        "alternativas": [
+          "a) slice",
+          "b) dice",
+          "c) drill-up",
+          "d) pivot"
+        ],
+        "correta": "c) drill-up",
+        "explicacao": "Drill-up é a funcionalidade que permite diminuir o grau de granularidade, ou seja, aumentar o nível de detalhamento da informação."
+      },
+      {
+        "pergunta": "(INMETRO) OLAP (Online Analytical Procesing), o conjunto de ferramentas que possibilita efetuar a exploração dos dados de um Data Warehouse, utiliza quatro tipos de operação para analisar dados. Uma dessas operações ocorre quando o usuário passa de uma informação contida em uma dimensão para outra dimensão. Trata-se de:",
+        "alternativas": [
+          "a) Roll Up",
+          "b) Drill Down",
+          "c) Drill Across",
+          "d) Slice and Dice",
+          "e) Drill Through"
+        ],
+        "correta": "e) Drill Through",
+        "explicacao": "Drill Through é a funcionalidade que permite ao usuário navegar de uma dimensão para outra, acessando dados mais detalhados em uma dimensão diferente."
+      },
+      {
+        "pergunta": "(MDA) Entre as ferramentas OLAP, duas operações são utilizadas para realizar navegação por meio de dados na visualização de um cubo. Uma é a operação que corta o cubo, mas mantém a mesma perspectiva de visualização de dados, enquanto outra representa a extração de um “subcubo” e muda a perspectiva de visão. Essas operações são denominadas, respectivamente:",
+        "alternativas": [
+          "a) dice e join",
+          "b) slice e dice",
+          "c) raster e slice",
+          "d) join e stream",
+          "e) stream e raster"
+        ],
+        "correta": "b) slice e dice",
+        "explicacao": "Slice é a operação que corta o cubo mantendo a mesma perspectiva de visualização de dados, enquanto Dice é a operação que extrai um subcubo e muda a perspectiva de visão."
       }
     ],
     
@@ -8570,7 +9359,7 @@
         "explicacao": "'Perenes' é paroxítona trissílaba (pe-re-nes). Polissílabas possuem quatro ou mais sílabas."
       },
       {
-        "pergunta": "(PREF. CARIACICA–ES / 2020) Tendo em vistas as regras de acentuação gráfica da Língua Portuguesa, julgue o item a seguir. 'Será que têm bagagem suficiente para criticar?' – 'será' recebe acento por se tratar de uma oxítona terminada em 'a'.",
+        "pergunta": "(PREF. CARIACICA–ES / 2020) Tendo em vistas as regras de acentuação gráfica da Língua Portuguesa, julgue o item a seguir. <br>'Será que têm bagagem suficiente para criticar?' – 'será' recebe acento por se tratar de uma oxítona terminada em 'a'.",
         "alternativas": [
           "Certo",
           "Errado"
@@ -8588,22 +9377,13 @@
         "explicacao": "'Elétricos' e 'pálidas' são proparoxítonas; 'móveis' é paroxítona terminada em ditongo. Regras diferentes."
       },
       {
-        "pergunta": "(PREF. CARIACICA–ES / 2020) Tendo em vistas as regras de acentuação gráfica da Língua Portuguesa, julgue o item a seguir. 'É incrível e, ao mesmo tempo, muito preocupante.' – o termo em destaque recebe o acento por corresponder a uma paroxítona terminada em 'L'.",
+        "pergunta": "(PREF. CARIACICA–ES / 2020) Tendo em vistas as regras de acentuação gráfica da Língua Portuguesa, julgue o item a seguir. <br>'É <b>incrível</b> e, ao mesmo tempo, muito preocupante.' – o termo em destaque recebe o acento por corresponder a uma paroxítona terminada em 'L'.",
         "alternativas": [
           "Certo",
           "Errado"
         ],
         "correta": "Certo",
         "explicacao": "'Incrível' é paroxítona terminada em 'L', acentuada pela regra geral das paroxítonas."
-      },
-      {
-        "pergunta": "(IF-MS / 2019) As palavras cérebro, ergométrica, evidências são acentuados porque são proparoxítonos.",
-        "alternativas": [
-          "Certo",
-          "Errado"
-        ],
-        "correta": "Errado",
-        "explicacao": "'Evidências' é paroxítona terminada em ditongo, não proparoxítona."
       },
       {
         "pergunta": "(DPE-SC / 2018) Entre as alternativas a seguir, assinale aquela em que as duas palavras, retiradas do texto, são acentuadas graficamente por causa de regras diferentes.",
@@ -8614,8 +9394,17 @@
           "d) além – também.",
           "e) saúde – país."
         ],
-        "correta": "c) três – até.",
-        "explicacao": "'Três' é monossílabo tônico terminado em 'e'; 'até' é oxítona terminada em 'e'. Regras diferentes."
+        "correta": "e) saúde – país.",
+        "explicacao": "Vejamos as justificativas para a acentuação de cada par: <br>a) Ú-NI-CA / PO-LÍ-TI-CA. (todas as proparoxítonas são acentuadas) <br>b) A-TLÂN-TI-CO / DO-MÉS-TI-CO. (todas as proparoxítonas são acentuadas) <br>c) TRÊS / A-TÉ. (Três recebe acento por ser monossílabo tônico terminado e E; por outro lado, até recebe acento por ser oxítona terminada em E. São regras diferentes.) <br>d) A-LÉM / TAM-BÉM. (Acentuam as oxítonas terminadas em A(s), E(s), O(s), Em, Ens <br>e) SA-Ú-DE/ PA-ÍS. (Regra do Hiato: Acentua-se I ou U tônico, sozinho ou seguido de S, formando hiato com sílaba anterior. Veremos o detalhamento dessa regra adiante). Gabarito letra C."
+      },
+      {
+        "pergunta": "(IF-MS / 2019) As palavras cérebro, ergométrica, evidências são acentuados porque são proparoxítonos.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "E-VI-DÊN-CIAS é uma paroxítona terminada em ditongo, não uma proparoxítona."
       },
       {
         "pergunta": "(CIESP / 2021) A alternativa em que todas as palavras obedecem a mesma norma de acentuação gráfica é:",
@@ -8626,7 +9415,7 @@
           "d) pólo - álbum - táxi."
         ],
         "correta": "c) pátria - indícios - critério.",
-        "explicacao": "Todas são paroxítonas terminadas em ditongo."
+        "explicacao": "Vejamos cada alternativa: <br>a) SA-Ú-DE e SA-Í-DA são acentuadas por apresentarem hiato na sílaba tônica e a palavra SO-LÚ-VEL é acentuada por ser paroxítona terminada em L. <br>b) CA-FÉ e VO-CÊ são acentuadas por serem oxítonas terminadas em 'e'. A palavra COR-RÓI é acentuada por ser oxítona terminada em ditongo aberto. <br>c) Todas as palavras são acentuadas por serem paroxítonas terminadas em ditongo. <br>d) A palavra POLO não recebe mais acento depois do Acordo Ortográfico. As palavras ÁL-BUM e TÁ-XI são acentuadas por serem paroxítonas."
       },
       {
         "pergunta": "(CRMV-AM / 2020) As palavras 'pássaros', 'aquático' e 'poluídas' são acentuadas de acordo com a mesma regra de acentuação gráfica.",
@@ -8635,10 +9424,10 @@
           "Errado"
         ],
         "correta": "Errado",
-        "explicacao": "'Pássaros' e 'aquático' são proparoxítonas; 'poluídas' é acentuada pela regra do hiato."
+        "explicacao": "pás-sa-ros e a-quá-ti-co são acentuadas por serem proparoxítonas; po-lu-í-das é acentuada pela regra do hiato. Questão incorreta."
       },
       {
-        "pergunta": "(FURB-SC / 2021) Assinale a alternativa que completa correta e respectivamente as lacunas do texto: ... ainda ______ muito o que avançar. ... pesquisas ______ a educação inclusiva ... mas ______ a perspectiva ... todos os estudantes ... ______ o direito de solicitar assistência.",
+        "pergunta": "(FURB-SC / 2021) Em um país onde, de acordo com dados do Censo da Educação Superior de 2018, apenas 0,5% dos 8,45 milhões de estudantes possuem alguma deficiência, o assunto da inclusão social dessas pessoas no ambiente acadêmico ainda _____ muito o que avançar. Na Universidade Regional de Blumenau, a professora do Programa de Pós-Graduação em Educação, Andrea Soares Wuo, coordena pesquisas _____ a educação inclusiva dos estudantes, mas _____ a perspectiva das próprias pessoas com deficiência, e não apenas a partir da visão de professores ou da família dos estudantes. [...] <br>Na FURB, todos os estudantes com algum tipo de deficiência, seja ela física, auditiva, visual, intelectual ou múltipla _____ o direito de solicitar assistência dentro da Universidade. Para isso, basta sinalizar a condição no momento da matrícula e procurar a Coordenadoria de Assuntos Estudantis (CAE) da FURB. <br>Segundo a coordenadora da CAE, Lucymara Valentini Borges, entre os projetos e programas da coordenadoria, está o serviço de Atendimento Educacional Especializado (AEE), que proporciona aos estudantes com deficiência professores especializados, intérpretes de libras e profissionais de apoio. A FURB, através desse atendimento, analisa as demandas de cada aluno e faz adaptações, de materiais até o mobiliário. <br>Assinale a alternativa que completa correta e respectivamente as lacunas do texto:",
         "alternativas": [
           "a) têm – sob – sobre – tem",
           "b) tem – sobre – sobre – tem",
@@ -8647,7 +9436,7 @@
           "e) tem – sob – sob – tem"
         ],
         "correta": "d) tem – sobre – sob – têm",
-        "explicacao": "'tem' (singular), 'sobre' (a respeito de), 'sob' (influenciado por), 'têm' (plural com acento diferencial)."
+        "explicacao": "Vejamos cada trecho: <br>'... o assunto da inclusão social dessas pessoas no ambiente acadêmico ainda TEM (sem acento diferencial, pois o verbo está no singular) muito o que avançar...' <br>'... Andrea Soares Wuo, coordena pesquisas SOBRE a educação inclusiva dos estudantes (preposição que indica 'a respeito de').' <br>'... mas SOB a perspectiva das próprias pessoas com deficiência (preposição que indica 'influenciado por').' <br>'... todos os estudantes com algum tipo de deficiência, ... TÊM o direito de solicitar assistência (verbo com acento circunflexo diferencial que indica plural).'"
       },
       {
         "pergunta": "(MPE-GO / 2019) 'Tem' é o verbo ter no plural e 'têm' é o verbo ter no singular.",
@@ -8659,13 +9448,13 @@
         "explicacao": "É o contrário: 'têm' é plural, 'tem' é singular."
       },
       {
-        "pergunta": "(DPE-DF / 2022) Conforme as regras oficiais de grafia, 'Coexistem' poderia ser grafado alternativamente como Co-existem.",
+        "pergunta": "(DPE-DF / 2022) ...Em termos espirituais, existe a possibilidade de Franz Kafka ter sentido seus dons proféticos como uma visitação de culpa, de que a capacidade de antever o tivesse exposto demais às suas emoções. K. torna-se o cúmplice, perplexo, porém quase impaciente, do crime perpetrado contra ele. Coexistem, em todos os suicídios, a apologia e a aquiescência. <br>Conforme as regras oficiais de grafia, “Coexistem” poderia ser grafado alternativamente como Co-existem.",
         "alternativas": [
           "Certo",
           "Errado"
         ],
         "correta": "Errado",
-        "explicacao": "O prefixo 'co' não leva hífen, exceto quando a palavra seguinte começa com 'h' ou a mesma vogal (ex.: co-herdeiro)."
+        "explicacao": "O prefixo “co” é utilizado sempre sem hífen, como percebemos nas palavras “cooperar”, “coabitar”, “coagir”. Questão incorreta."
       },
       {
         "pergunta": "(FURB-SC / 2021) A exemplo de 'Pós-Graduação', cujo prefixo sempre exige hífen, assinale a alternativa com outro prefixo ou falso prefixo que sempre exige hífen:",
@@ -8677,7 +9466,7 @@
           "e) hidro"
         ],
         "correta": "b) ex",
-        "explicacao": "O prefixo 'ex' sempre exige hífen (ex.: ex-presidente, ex-aluno)."
+        "explicacao": "O prefixo 'co' se une a palavra seguinte sem a utilização de hífen. Ex.: coautor, cofundador. Caso a palavra que se une a esse prefixo seja iniciada pela letra 'r', então esta letra deverá ser repetida, ex.: corréu, correlação etc. <br>O falso prefixo 'bio' deve ser separado com hífen do segundo elemento apenas quando este for escrito com letra inicial 'o' ou 'h'. Ex.: bio-óleo, bio-hidrogênio, biogenética, biossegurança, biorreator. <br>O falso prefixo 'geo' deve ser separado com hífen do segundo elemento apenas quando este for escrito com letra inicial 'o' ou 'h'. Ex.: geo-história, geo-observação, geobiologia, geociência, georregião, geossitema etc. <br>O falso prefixo 'hidro' deve ser separado com hífen do segundo elemento apenas quando este for escrito com letra inicial 'o' ou 'h'. Ex.: hidro-halogenação, hidro-oforia, hidromassagem, hidrossolúvel, hidrorrepelente etc. <br>O prefixo 'ex' sempre exige a presença de hífen, como em 'ex-prefeito', 'ex-esposa', 'ex-aluno' etc. <br>Gabarito letra B."
       },
       {
         "pergunta": "(SEED-PR / 2021) Assinale a opção em que a palavra apresentada está de acordo com a atual ortografia oficial da língua portuguesa.",
@@ -8689,7 +9478,7 @@
           "e) autoanálise"
         ],
         "correta": "e) autoanálise",
-        "explicacao": "'Autoanálise' segue a regra: prefixo terminado em vogal + palavra começando com vogal diferente = sem hífen."
+        "explicacao": "Vejamos cada alternativa: a) Palavras formadas com o prefixo 'semi' devem ser escritas com hífen quando o segundo elemento for iniciado com a letra 'i'. O correto é: semi-internato. b) Palavras formadas com o prefixo 'hiper' devem ser escritas com hífen apenas quando o segundo elemento for iniciado com as letras 'r' ou 'h'. O correto é: hipersensibilidade. c) Palavras formadas com o prefixo 'contra' devem ser escritas com hífen apenas quando o segundo elemento for iniciado com as letras 'a' ou 'h'. O correto é: contrarregra. d) Palavras compostas com a presença de preposição perderam o hífen. O correto é: mão de obra. e) CORRETO. Palavras formadas com o prefixo 'auto' devem ser escritas com hífen quando o segundo elemento for iniciado com as letras 'o' ou 'h'. Se o segundo elemento que forma a palavra for iniciado por 'r' ou 's' essas consoantes devem ser 'dobradas', como autorretrato, autossuficiente etc. Gabarito letra E."
       },
       {
         "pergunta": "(PC-GO / 2016) O emprego do hífen no vocábulo 'bem-estar' justifica-se pela mesma regra ortográfica que justifica a grafia do antônimo desse vocábulo: mal-estar.",
@@ -8698,10 +9487,10 @@
           "Errado"
         ],
         "correta": "Certo",
-        "explicacao": "Ambos seguem a regra: 'bem' e 'mal' com hífen antes de palavra começada por vogal ou 'h'."
+        "explicacao": "Os advérbios “bem” e “mal”, se usados como prefixo, pedem hífen quando a próxima palavra é iniciada por vogal (ou H, porque tem som de vogal). Essa é a regra que justifica “bem-estar” e “mal-estar e faz o item estar correto. <br>No caso de “mal”, não há hífen quando a palavra seguinte for iniciada por consoante: malcriado, malfeito. Questão correta."
       },
       {
-        "pergunta": "(PM-BA / 2020) Observe a charge e assinale a alternativa que preencha correta e respectivamente as lacunas do enunciado. A fala do personagem da esquerda diz respeito ao sinal de ______ que foi abolido com o novo acordo ortográfico, assim como também o ______ das palavras destacadas na fala do personagem da direita.",
+        "pergunta": "(PM-BA / 2020) Observe a charge e assinale a alternativa que preencha correta e respectivamente as lacunas do enunciado.<img src='../dados/imgs/questao_portugues_1.png' alt='imagem da questão'> A fala do personagem da esquerda diz respeito ao sinal de ______ que foi abolido com o novo acordo ortográfico, assim como também o ______ das palavras destacadas na fala do personagem da direita.",
         "alternativas": [
           "a) dois pontos / travessão.",
           "b) trema / hífen.",
@@ -8710,7 +9499,7 @@
           "e) reticências / travessão."
         ],
         "correta": "b) trema / hífen.",
-        "explicacao": "O trema foi abolido; 'mandachuva' e 'antissocial' perderam o hífen."
+        "explicacao": "Os dois pontos na horizontal eram chamados de 'trema', marcava a pronúncia de ditongos como em 'linguiça', 'equidade', 'iníquo'. Foi extinto. <br>O hífen permanece, mas a palavra 'mandachuva' não é grafada com hífen porque perdeu a noção de composição; 'antissocial' traz um prefixo terminado em 'i' e a palavra derivada começa em 's', portanto não há hífen e o S deve ser duplicado. Gabarito letra B."
       },
       {
         "pergunta": "(TRE-PA / 2020) Quanto às regras de ortografia, assinale a alternativa em que há uma palavra grafada incorretamente.",
@@ -8721,19 +9510,19 @@
           "d) girassol, hiper-ativo, recém-casado."
         ],
         "correta": "d) girassol, hiper-ativo, recém-casado.",
-        "explicacao": "O correto é 'hiperativo' (sem hífen), pois 'hiper' termina em 'r' e 'ativo' começa com vogal."
+        "explicacao": "Regra geral na união de prefixos. Só devemos usar hífen para separar letras iguais, como: micro-ondas; super-resistente. Se, após a vogal que termina o prefixo, tivermos R ou S, esta consoante se duplica: COSSENO, MINISSAIA, ULTRASSOM, CONTRARREGRA. <br>O prefixo 'co' se une sempre sem hífen. Palavras com H são separadas do prefixo com hífen. Por isso, estão corretas super-homem, sobrenatural, cosseno, cooperador, coexistente, agroindustrial, anti-inflacionário, autoescola. Então, a grafia correta deveria ser 'hipeRAtivo'. <br>Com o prefixo recém, sempre há hífen: recém-casado. Girassol é palavra composta por justaposição, não tem prefixo e não cai nessa regra de vogais iguais ou diferentes. Gabarito letra D."
       },
       {
-        "pergunta": "(PREF. MANAUS / 2022) Assinale a palavra abaixo que está corretamente grafada com o sufixo -escer.",
+        "pergunta": "“As grandes doenças da alma, bem como aquelas do corpo, renovam o homem; e as convalescências espirituais não são menos agradáveis nem menos miraculosas do que as físicas.” Nessa frase aparece o termo convalescência corretamente grafado (com -escer e não com -ecer). Assinale a palavra abaixo que está corretamente grafada com esse mesmo sufixo.",
         "alternativas": [
           "A) decrescer.",
-          "B) aparecer.",
-          "C) enriquecer.",
-          "D) amanhecer.",
-          "E) enlouquecer."
+          "B) aparescer.",
+          "C) enriquescer.",
+          "D) amanhescer.",
+          "E) enlouquescer."
         ],
         "correta": "A) decrescer.",
-        "explicacao": "'Decrescer' segue a grafia de 'crescer' com 'sc'. As demais são com 'c'."
+        "explicacao": "A grafia de 'decrescer' segue a de 'crescer', com SC. Corrigindo as demais: (B) aparecer. (C) enriquecer. (D) amanhecer. (E) enlouquecer."
       },
       {
         "pergunta": "(TJ-SP / 2019) A exemplo de 'intervenção' – grafada com 'ç' – e de 'autocontrole' – grafado sem hífen –, estão correta e respectivamente grafados, em conformidade com a ortografia oficial, os termos:",
@@ -8745,7 +9534,7 @@
           "e) isenção e autodefesa."
         ],
         "correta": "e) isenção e autodefesa.",
-        "explicacao": "'Isenção' é com 'ç'; 'autodefesa' sem hífen (vogais diferentes)."
+        "explicacao": "As grafias corretas são pretensão, auto-hemoterapia (palavras com H pedem hífen), intenção, auto-observação (regra geral: emprega-se hífen para separar letras iguais na união de prefixos, letras diferentes não são separadas por hífen), compreensão, autoterapia, propensão, autofecundação, isenção e autodefesa. Gabarito letra E."
       },
       {
         "pergunta": "(PREF. IRATI-SC / 2021) Marque a alternativa que apresenta todas as palavras escritas corretamente.",
@@ -8757,7 +9546,7 @@
           "e) giboia, jiló, jipe, hoge."
         ],
         "correta": "d) jiboia, jiló, jipe, hoje.",
-        "explicacao": "Palavras de origem indígena ('jiboia', 'jiló') e adaptações ('jipe') com 'j'; 'hoje' com 'j'."
+        "explicacao": "Escrevem-se com J palavras de origem indígena como 'jiboia' (que, com o Novo Acordo Ortográfico, perdeu o acento na posição paroxítona) e 'jiló'. Também são escritas com J as palavras 'jipe' (adequação para a língua portuguesa da palavra inglesa jeep) e 'hoje' (palavra de origem latina - hoc die)."
       },
       {
         "pergunta": "(ALEPI / 2020) Há apenas uma palavra escrita INCORRETAMENTE na sequência:",
@@ -8774,13 +9563,13 @@
       {
         "pergunta": "(TRE-PA / 2020) Acerca das regras de ortografia, assinale a alternativa incorreta.",
         "alternativas": [
-          "a) 'Há muitos tipos de agressão e é um problema contínuo e social.' A palavra em destaque é grafada com 'ss' pois é substantivo derivado de verbo terminado em 'gredir'.",
-          "b) 'Sempre que possível, faça uma limpeza interior.' A palavra em destaque é grafada com 'z' pois é um substantivo abstrato derivado de adjetivo.",
-          "c) 'Sejam todos bem vindos ao grande espetáculo da noite!' A palavra em destaque é grafada sem hífen desde a alteração do Novo Acordo Ortográfico.",
-          "d) 'É possível que os noivos viajem e façam a viagem de seus sonhos.' Os vocábulos em destaque são grafados com 'j' e 'g' porque são compostos por um verbo e um substantivo, respectivamente."
+          "a) 'Há muitos tipos de <b>agressão</b> e é um problema contínuo e social.' A palavra em destaque é grafada com 'ss' pois é substantivo derivado de verbo terminado em 'gredir'.",
+          "b) 'Sempre que possível, faça uma <b>limpeza</b> interior.' A palavra em destaque é grafada com 'z' pois é um substantivo abstrato derivado de adjetivo.",
+          "c) 'Sejam todos <b>bem vindos</b> ao grande espetáculo da noite!' A palavra em destaque é grafada sem hífen desde a alteração do Novo Acordo Ortográfico.",
+          "d) 'É possível que os noivos <b>viajem</b> e façam a <b>viagem</b> de seus sonhos.' Os vocábulos em destaque são grafados com 'j' e 'g' porque são compostos por um verbo e um substantivo, respectivamente."
         ],
         "correta": "c) 'Sejam todos bem vindos ao grande espetáculo da noite!' A palavra em destaque é grafada sem hífen desde a alteração do Novo Acordo Ortográfico.",
-        "explicacao": "O correto é 'bem-vindo' (com hífen), pois 'bem' prefixado exige hífen, exceto em derivados de 'querer' e 'fazer'."
+        "explicacao": "O único erro está em 'bem-vindo', que é ainda grafada com hífen. O 'bem', usado como prefixo, se une às palavras sempre com hífen, salvo em raríssimos casos em que a palavra derivada de querer ou fazer (benfeitor, benquisto). Todas as demais trazem afirmativas literais e corretas sobre ortografia."
       },
       {
         "pergunta": "(MPE-PA / 2022) Em 'Esse artigo bem que poderia ser chamado Lágrimas por Bucha. O que aconteceu na cidade situada nos arredores de Kiev é inominável.' ('1º§) o uso da letra maiúscula pode ser indicado como:",
@@ -8794,19 +9583,61 @@
         "explicacao": "'Lágrimas' (título), 'Bucha' e 'Kiev' (nomes próprios) justificam o uso de maiúsculas."
       },
       {
-        "pergunta": "(CESGRANRIO / BANCO DA AMAZÔNIA / 2021) No texto, foram empregadas as palavras aí (l. 31) e ótimo (l. 35), ambas acentuadas graficamente. Duas outras palavras corretamente acentuadas pelos mesmos motivos que aí e ótimo são, respectivamente,",
+        "pergunta": "(TELEBRÁS / 2022) A importância das telecomunicações ficou evidente nos dias que se seguiram ao terremoto que devastou o Haiti, em janeiro de 2010. As tecnologias da comunicação foram utilizadas para coordenar a ajuda, otimizar os recursos e fornecer informações sobre as vítimas, das quais se precisava desesperadamente. A União Internacional das Telecomunicações (UIT) e os seus parceiros comerciais forneceram inúmeros terminais satélites e colaboraram no fornecimento de sistemas de comunicação sem fio, facilitando as operações de socorro e limpeza. <br>Mantendo-se a correção gramatical e os sentidos originais do texto, o trecho “As tecnologias da comunicação foram utilizadas para coordenar a ajuda” poderia ser reescrito da seguinte forma: Usaram-se as tecnologias da comunicação afim de coordenar a ajuda.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "No original, temos a preposição “para”, indicativa de finalidade; então, a forma equivalente é “a fim de”, escrita SE PA RA DA MEN TE."
+      },
+      {
+        "pergunta": "(SEPLAG-RECIFE / 2019) Está clara e correta a redação deste livre comentário sobre o texto: <br>Na antiguidade clássica, onde o intento da pintura realista prevalescia, mesmo assim ela não alcançava ser tão fotográfica.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "“Onde” se usa para lugar físico, não para ideia de tempo. A grafia correta é “prevaleCia”. Questão incorreta."
+      },
+      {
+        "pergunta": "(ITAIPU BINACIONAL / 2019) Mas, afinal, quais os motivos por ________ da decisão de pais que não vacinaram os filhos? <br>“As vacinas acabam sendo vítimas de seu próprio sucesso. A cultura do ser humano é de se vacinar quando há um risco ________, quando ele não ________ esse risco, não trata com prioridade, o que é um equívoco”. <br>Para Kfouri, o público que deixa de vacinar seus filhos por medo das reações é uma parcela ________, que não impacta os índices de cobertura. <br>Assinale a alternativa que preenche corretamente as lacunas acima, na ordem em que aparecem no texto.",
+        "alternativas": [
+          "A) traz – eminente – enxerga – despresível.",
+          "B) trás – eminente – encherga – desprezível.",
+          "C) traz – iminente – encherga – despresível.",
+          "D) trás – iminente – enxerga – desprezível.",
+          "E) tráz – eminente – encherga – desprezível."
+        ],
+        "correta": "D) trás – iminente – enxerga – desprezível.",
+        "explicacao": "“Traz” é forma do verbo “trazer”: ele traz boas notícias. A forma correta na primeira lacuna é “trás”, oposto de “frente”. Na segunda lacuna, a palavra adequada é “iminente”, algo imediato, prestes a ocorrer. “Eminente” significa excelso, destacado, importante. Enxergar é com X e Desprezível com Z."
+      },
+      {
+        "pergunta": "(MPE-GO / 2019) Trate de <b><u>arrumar</u></b> a mesa que você quebrou e <b><u>costurar</u></b> a calça que você rasgou, <b><u>do contrário</u></b> não sairá de casa. As palavras destacadas podem ser substituídas por:",
+        "alternativas": [
+          "a) concertar, coser e se não.",
+          "b) consertar, coser e senão.",
+          "c) consertar, cozer e senão.",
+          "d) concertar, cozer e senão.",
+          "e) consertar, cozer e se não."
+        ],
+        "correta": "b) consertar, coser e senão.",
+        "explicacao": "Questão ótima para melhorar nosso vocabulário. O “senão” que indica “do contrário” é junto: saia, senão (do contrário) chamarei a polícia. Consertar com S é reparar. O concerto de música é que se grafa com C. CoZer com Z é cozinhar; CoSer com S é costurar. Gabarito letra B."
+      },
+      {
+        "pergunta": "(CESGRANRIO / BANCO DA AMAZÔNIA / 2021) No texto, foram empregadas as palavras <b>aí</b> (l. 31) e <b>ótimo</b> (l. 35), ambas acentuadas graficamente. Duas outras palavras corretamente acentuadas pelos mesmos motivos que aí e ótimo são, respectivamente,",
         "alternativas": [
           "A) juiz e ébano",
-          "B) lcaral e ritmo",
-          "C) caquis e incrédulo",
+          "B) lcaraí e rítmo",
+          "C) caquís e incrédulo",
           "D) país e sonâmbulo",
-          "E) abacaxi e econômia"
+          "E) abacaxí e econômia"
         ],
         "correta": "D) país e sonâmbulo",
         "explicacao": "'aí' é hiato acentuado (pa-ís); 'ótimo' é proparoxítona (so-nâm-bu-lo)."
       },
       {
-        "pergunta": "(CESGRANRIO/UNIRIO/ 2019) A presença ou ausência de acento gráfico nem sempre se repete quando uma palavra está no singular ou no plural. Quanto ao emprego do acento gráfico, a seguinte palavra se altera quando vai para o plural:",
+        "pergunta": "(CESGRANRIO/UNIRIO/ 2019) A presença ou ausência de acento gráfico nem sempre se repete quando uma palavra está no singular ou no plural. <br>Quanto ao emprego do acento gráfico, a seguinte palavra se altera quando vai para o plural:",
         "alternativas": [
           "A) item",
           "B) viúva",
@@ -8844,11 +9675,11 @@
       {
         "pergunta": "(CESGRANRIO / IBGE / 2016) Todas as palavras do grupo devem receber corretamente acentuação gráfica em:",
         "alternativas": [
-          "A) tranquilo, paciente, poético",
-          "B) juri, nautico, inevitável",
-          "C) heroico, político, item",
-          "D) consciente, gratuito, fácil",
-          "E) presente, países, inflamavel"
+          "A) tranquilo, paciente, poetico",
+          "B) juri, nautico, inevitavel",
+          "C) heroico, politico, item",
+          "D) consciente, gratuito, facil",
+          "E) presente, paises, inflamavel"
         ],
         "correta": "B) juri, nautico, inevitável",
         "explicacao": "Correções: júri, náutico, inevitável (proparoxítonas ou regra geral paroxítonas)."
@@ -8868,14 +9699,14 @@
       {
         "pergunta": "(CESGRANRIO / ANP / 2016) O grupo de palavras que obedecem às normas de acentuação da Língua Portuguesa é",
         "alternativas": [
-          "A) raízes, difícil, século",
+          "A) raizes, dificil, século",
           "B) rúbrica, saúva, amavel",
           "C) também, possível, êxito",
-          "D) ídolo, parabéns, ciencia",
-          "E) indústria, saúde, ninguém"
+          "D) idolo, parabéns, ciencia",
+          "E) indústria, saude, ninguem"
         ],
         "correta": "C) também, possível, êxito",
-        "explicacao": "Também (oxítona em 'em'), possível (paroxítona em 'l'), êxito (proparoxítona)."
+        "explicacao": "Raízes, Saúva e Saúde são acentuadas pela regra do hiato. <br>Difícil, amável e possível recebem acento por serem paroxítonas terminadas em L, dentro da regra geral. <br>Ídolo, Século e Êxito recebem acento por serem proparoxítonas. <br>Ninguém, Também e Parabéns recebem acento por serem oxítonas terminadas em EM, Ens. RuBRIca não recebe acento, pois é paroxítona terminada em A. Gabarito letra C."
       },
       {
         "pergunta": "(CESGRANRIO / ANP / 2016) Das palavras acentuadas reúne, países, águas, última e vêm, as duas que recebem acento por seguirem a mesma norma ortográfica são:",
@@ -8887,10 +9718,10 @@
           "E) países e última"
         ],
         "correta": "D) reúne e países",
-        "explicacao": "'Reúne' e 'países' são acentuadas pela regra do hiato (i/u tônico na segunda vogal)."
+        "explicacao": "Re-ú-ne e Pa-í-ses recebem acento pela regra do hiato (Acentua-se I ou U tônico, sozinho ou seguido de S, na segunda letra de um hiato). <br>Última recebe acento por ser proparoxítona. <br>Águas recebe acento por ser paroxítona terminada em ditongo. <br>Vêm recebe acento pela regra do acento diferencial de número. <br>Gabarito letra D."
       },
       {
-        "pergunta": "(CESGRANRIO / PETROBRAS / 2015) No trecho 'Em um plano, temos o tão celebrado ‘futebol-arte’ glorificado como a forma genuína de nosso suposto estilo de jogo', a palavra destacada é acentuada graficamente pelo mesmo motivo pelo qual se acentua a palavra",
+        "pergunta": "(CESGRANRIO / PETROBRAS / 2015) No trecho 'Em um plano, temos o tão celebrado ‘futebol-arte’ glorificado como a forma <u>genuína</u> de nosso suposto estilo de jogo', a palavra destacada é acentuada graficamente pelo mesmo motivo pelo qual se acentua a palavra",
         "alternativas": [
           "A) além",
           "B) declínio",
@@ -8899,10 +9730,10 @@
           "E) viés"
         ],
         "correta": "D) países",
-        "explicacao": "'Genuína' e 'países' são acentuadas pela regra do hiato (i/u tônico na segunda vogal)."
+        "explicacao": "Ge-nu-í-na e Pa-í-ses são acentuadas pela regra do hiato (Acentua-se I ou U tônico, sozinho ou seguido de S, na segunda letra de um hiato). Vejamos as demais justificativas: Além e Viés- acentuam-se as oxítonas terminadas em A(s), E(s), O(s), Em, Ens Ídolo – todas as proparoxítonas são acentuadas. Declínio - paroxítona terminada em ditongo. Gabarito letra D."
       },
       {
-        "pergunta": "(CESGRANRIO / LIQUIGÁS / 2014) A palavra acentuada pela mesma regra que se verifica na palavra símbolos é",
+        "pergunta": "(CESGRANRIO / LIQUIGÁS / 2014) A palavra acentuada pela mesma regra que se verifica na palavra <u>símbolos</u> é",
         "alternativas": [
           "A) já",
           "B) está",
@@ -8911,7 +9742,19 @@
           "E) desenvolverá"
         ],
         "correta": "D) esferográfica",
-        "explicacao": "'Símbolos' e 'esferográfica' são proparoxítonas (todas acentuadas)."
+        "explicacao": "Sím-bo-los e es-fe-ro-grá-fi-ca recebem acento porque todas as proparoxítonas são acentuadas. Es-tá e de-sen-vol-ve-rá – Acentuam-se as oxítonas terminadas em A(s), E(s), O(s), <br>Em, Ens. Já – Acentuam-se os monossílabos tônicos terminados em A(s), E(s), O(s). <br>Res-pei-tá-vel- Acentuam-se as paroxítonas terminadas em L. <br>Gabarito letra D."
+      },
+      {
+        "pergunta": "(CESGRANRIO/UNIRIO/ 2019) A presença ou ausência de acento gráfico nem sempre se repete quando uma palavra está no singular ou no plural. <br>Quanto ao emprego do acento gráfico, a seguinte palavra se altera quando vai para o plural:",
+        "alternativas": [
+          "A) item",
+          "B) viúva",
+          "C) açúcar",
+          "D) fiel",
+          "E) técnica."
+        ],
+        "correta": "D) fiel",
+        "explicacao": "Analisando o plural das palavras e as regras de acentuação: <br>a) [i-tENS]: essa palavra é uma paroxítona terminada em 'ENS', ou seja, a regra geral fala que 'todas as paroxítonas são acentuadas, exceto aquelas terminadas em A, E, O, EM, ENS'. Não devemos acentuar essa palavra. Incorreta. <br>b) [vi-Ú-vas]: é acentuada pela regra do hiato (acentua-se 'i' ou 'u' tônico, sozinho ou seguido de 'S', na segunda letra de um hiato), porém a palavra não foi alterada no que se refere ao aspecto da acentuação. Incorreta. <br>c) [a-ÇÚ-ca-res]: essa palavra é uma proparoxítona e todas elas são acentuadas, ou seja, o plural não altera a palavra no que se refere à acentuação. Incorreta. <br>d) [fi-ÉIs]: de fato, o plural da palavra 'fiel' modifica a questão da acentuação, uma vez que temos uma 'oxítona terminada em ditongo aberto' (segunda regra das oxítonas). Alternativa correta. <br>e) [téc-ni-cas]: essa palavra é uma proparoxítona e todas elas são acentuadas, ou seja, o plural não altera a palavra no que se refere à acentuação. Incorreta. <br>Gabarito letra D."
       },
       {
         "pergunta": "(CESGRANRIO/UNIRIO/ 2019) A palavra 'saíam' contém hiato acentuado. Deve também ser acentuado o hiato de",
@@ -8928,26 +9771,26 @@
       {
         "pergunta": "(CESGRANRIO/ LIQUIGÁS/ 2018) A palavra que precisa ser acentuada graficamente para estar correta quanto às normas em vigor está destacada na seguinte frase:",
         "alternativas": [
-          "A) Todo escritor de novela tem o desejo de criar um personagem inesquecível.",
-          "B) Os telespectadores veem as novelas como um espelho da realidade.",
-          "C) Alguns novelistas gostam de superpor temas sociais com temas políticos.",
-          "D) Para decorar o texto antes de gravar, cada ator rele sua fala várias vezes.",
-          "E) Alguns atores de novela constroem seus personagens fazendo pesquisa."
+          "A) Todo escritor de novela <u>tem</u> o desejo de criar um personagem inesquecível.",
+          "B) Os telespectadores <u>veem</u> as novelas como um espelho da realidade.",
+          "C) Alguns novelistas gostam de <u>superpor</u> temas sociais com temas políticos.",
+          "D) Para decorar o texto antes de gravar, cada ator <u>rele</u> sua fala várias vezes.",
+          "E) Alguns atores de novela <u>constroem</u> seus personagens fazendo pesquisa."
         ],
-        "correta": "D) Para decorar o texto antes de gravar, cada ator rele sua fala várias vezes.",
-        "explicacao": "O correto é 'relê' (oxítona terminada em 'e'), acentuada."
+        "correta": "D) Para decorar o texto antes de gravar, cada ator <u>rele</u> sua fala várias vezes.",
+        "explicacao": "Cuidado, pois a questão pede o item incorreto, ou seja, qual palavra precisar ser acentuada, mas não foi. a) Usamos o acento diferencial '^' na palavra 'tem' apenas quando o sujeito desse verbo está no plural (Ex. Os meninos TÊM medo desse filme), mas tal aspecto não ocorre aqui, uma vez que o núcleo do sujeito está no singular 'escritor'. Correta. b) Os hiatos com vogais repetidas não são mais acentuados: a grafia correta é: veem, creem, leem, deem, coroo, etc. Correta. c) A palavra 'superpor' não é acentuada. Cuidado, pois não estamos analisando aqui a forma verbal 'pôr', nem a preposição 'por'. A grafia é sem acento. Correta. d) Aqui temos o verbo 'reler' (Ex. João RELÊ o capítulo do livro) e, nesse caso, a forma verbal deve ser acentuada, pois é oxítona terminada em E. Incorreta. e) A forma verbal 'constroem' (3ª pessoa do plural) também não é acentuada, ou seja, não é um caso de acento diferencial e a forma está correta concordando com o sujeito no plural 'Alguns atores de novela'. Temos paroxítona terminada em 'EM', por isso não há acento. Correta. Gabarito letra D."
       },
       {
         "pergunta": "(CESGRANRIO / LIQUIGÁS / 2014) A palavra que precisa ser acentuada graficamente para estar correta quanto às normas em vigor está destacada na seguinte frase:",
         "alternativas": [
-          "A) Todo torcedor tem um sentimento especial em relação à seleção.",
-          "B) Muita gente do exterior vem ao Brasil para ver a Copa do Mundo.",
-          "C) Há árbitros que costumam supor que são os principais artistas do espetáculo.",
-          "D) Alguns jogadores dizem nas entrevistas que eles sempre se doam nos jogos.",
-          "E) Os jornalistas de emissoras diferentes também se reunem ao final do trabalho."
+          "A) Todo torcedor <u>tem</u> um sentimento especial em relação à seleção.",
+          "B) Muita gente do exterior <u>vem</u> ao Brasil para ver a Copa do Mundo.",
+          "C) Há árbitros que costumam <u>supor</u> que são os principais artistas do espetáculo.",
+          "D) Alguns jogadores dizem nas entrevistas que eles sempre se <u>doam</u> nos jogos.",
+          "E) Os jornalistas de emissoras diferentes também se <u>reunem</u> ao final do trabalho."
         ],
-        "correta": "E) Os jornalistas de emissoras diferentes também se reunem ao final do trabalho.",
-        "explicacao": "O correto é 'reúnem' (hiato acentuado: i tônico)."
+        "correta": "E) Os jornalistas de emissoras diferentes também se <u>reunem</u> ao final do trabalho.",
+        "explicacao": "Re-ú-nem recebe acento pela regra do hiato (Acentua-se I ou U tônico, sozinho ou seguido de S, na segunda letra de um hiato). Tem e Vem só devem receber acento quando o sujeito estiver na terceira pessoa do plural: Ele tem/vem x Eles têm/vêm. Gabarito letra E."
       },
       {
         "pergunta": "(CESGRANRIO/LIQUIGÁS/2018) Assim como a palavra desfecho se escreve com ch, a seguinte dupla de palavras se escreve corretamente com esse dígrafo:",
@@ -8959,31 +9802,31 @@
           "E) cocheira ; deichar."
         ],
         "correta": "C) cheirosa ; inchado",
-        "explicacao": "Ambas têm dígrafo 'ch'. As demais têm correção: tóxico, coaxar, xaveco, deixar."
+        "explicacao": "Questão bastante direta da banca que cobrava o reconhecimento da grafia correta das palavras. OBS: Lembre-se que o dígrafo ocorre quando temos duas letras formando um único som (Ex. 'CH' com som de 'X'). Fazendo as correções ortográficas: A) tóXico B) coaXar D) Xaveco E) deiXar Nosso gabarito é a letra C."
       },
       {
         "pergunta": "(CESGRANRIO/Banco da Amazônia/ 2018) Na língua escrita, há situações em que algumas palavras e locações oferecem maior dificuldade, pois podem ser grafadas junto ou separadamente. A frase em que a expressão em negrito está corretamente grafada é:",
         "alternativas": [
-          "A) Não mereço ter sucesso, tão pouco ser feliz.",
-          "B) Nada nos resta se não a angústia de nos saber sabotados.",
-          "C) Procuramos um psicólogo a fim de evitarmos maior sofrimento.",
-          "D) Escolhemos a droga, com tudo trata-se de uma opção destrutiva.",
-          "E) Conversávamos a cerca de nossas dificuldades com os sentimentos."
+          "A) Não mereço ter sucesso, <b><u>tão pouco</u></b> ser feliz.",
+          "B) Nada nos resta <b><u>se não</u></b> a angústia de nos saber sabotados.",
+          "C) Procuramos um psicólogo <b><u>a fim</u></b> de evitarmos maior sofrimento.",
+          "D) Escolhemos a droga, <b><u>com tudo</u></b> trata-se de uma opção destrutiva.",
+          "E) Conversávamos <b><u>a cerca</u></b> de nossas dificuldades com os sentimentos."
         ],
         "correta": "C) Procuramos um psicólogo a fim de evitarmos maior sofrimento.",
-        "explicacao": "'A fim de' (finalidade) é a forma correta. Demais: tampouco, senão, contudo, acerca."
+        "explicacao": "a) A forma correta é '<u>TAMPOUCO</u>', <u>advérbio</u> que traz consigo a ideia '<u>também não</u>', ou seja, não devemos usar 'tão pouco', pois não há uma ideia de quantidade. Incorreta. <br>b) A forma correta é '<u>SENÃO</u>' cujo sentido é de '<u>A NÃO SER</u>' (Ex. Nada nos resta <u>A NÃO SER</u> a angústia). Incorreta. <br>c) A forma '<u>A FIM DE</u>' forma está correta, pois temos a ideia de <u>finalidade/propósito</u>. Lembre-se que o '<u>afim</u>' é usado apenas para projetar a ideia de '<u>semelhante/correlato</u>' (Ex. Matemática e estatística são matérias AFINS). Alternativa correta. <br>d) A forma correta é '<u>CONTUDO</u>', ou seja, uma <u>conjunção adversativa</u> que traz consigo a <u>ideia de oposição/contraste</u> e não '<u>COM TUDO</u>'. Incorreta. <br>e) A forma correta é '<u>ACERCA</u>', ou seja, um termo que traz consigo a <u>ideia de assunto</u> (Ex. Falamos <u>SOBRE/ACERCA</u> do novo curso) <br>Gabarito letra C."
       },
       {
         "pergunta": "(CESGRANRIO/TRANSPETRO / 2018) Obedecem às regras ortográficas da língua portuguesa as palavras",
         "alternativas": [
           "A) admissão, paralisação, impasse",
           "B) bambusal, autorização, inspiração",
-          "C) concessão, extresse, enxaqueca",
+          "C) consessão, extresse, enxaqueca",
           "D) banalisação, reexame, desenlace",
-          "E) desorganização, abstração, cassação."
+          "E) desorganisação, abstração, cassação."
         ],
         "correta": "A) admissão, paralisação, impasse",
-        "explicacao": "Todas corretas. Demais têm erros: bambuZal, conCessão/eStresse, banaliZação, desorganização."
+        "explicacao": "Mais uma questão bastante direta da banca que cobrava o reconhecimento da grafia correta das palavras. Corrigindo as outras alternativas: b) bambuZal c) conCessão/eStresse d) banaliZação e) desorganiZação. Nosso gabarito é a letra A."
       },
       {
         "pergunta": "(CESGRANRIO/TRANSPETRO / 2018) Em conformidade com o Acordo Ortográfico da Língua Portuguesa vigente, atendem às regras de acentuação todas as palavras em:",
@@ -8995,7 +9838,7 @@
           "E) sutil, assembléia, arremesso."
         ],
         "correta": "B) arguição, refém, mausoléu",
-        "explicacao": "Todas acentuadas corretamente. Demais: androide (sem acento), pêlo > pelo, feiúra > feiura, assembleia (sem acento)."
+        "explicacao": "Analisando os erros de cada alternativa: <br>a) A forma correta é 'androide' (sem acento), pois, de acordo com a nova ortografia, as paroxítonas que tragam ditongo aberto OI/EI não são acentuadas (Ex. heroico, assembleia, ideia). Incorreta. <br>b) Todas as palavras estão corretas, ou seja, não há problemas no que se refere à grafia ou à acentuação. Alternativa correta. <br>c) A partir do Novo Acordo Ortográfico, a palavra 'pelo' (característica presente em muitos animais; pelagem) não recebe mais o acento circunflexo. Incorreta. <br>d) Cuidado, pois aqui temos uma exceção: “i” ou “u” antecedido de ditongo, se a palavra não for oxítona (Ex. bocaiuva, feiura, Sauipe). Incorreta. <br>e) Temos o mesmo erro do item A, ou seja, as paroxítonas que tragam ditongo aberto não são acentuadas. Incorreta. Gabarito letra B."
       },
       {
         "pergunta": "(CESGRANRIO/LIQUIGÁS/ 2018) A seguinte frase está totalmente escrita de acordo com as normas da ortografia vigente:",
@@ -9004,25 +9847,25 @@
           "B) Não quero que haja nenhuma excessão.",
           "C) Não sei por que eles não vem nos visitar.",
           "D) Para reivindicar o serviço, é preciso suavizar o preço.",
-          "E) Depois de adivinhar o resultado do jogo, ele foi ao cabelefeiro."
+          "E) Depois de advinhar o resultado do jogo, ele foi ao cabelereiro."
         ],
         "correta": "D) Para reivindicar o serviço, é preciso suavizar o preço.",
-        "explicacao": "Todas corretas. Demais: paraliSado, exceção, vêm, adivinhar/cabeleireiro."
+        "explicacao": "DICA: Uma curiosidade é notar que a banca CESGRANRIO tem uma tendência em cobrar questões diretas sobre a grafia correta de uma palavra, ou seja, trocando 's' por 'z' por exemplo. Seria interessante sempre anotar esses casos, pois a banca pode cobrar as mesmas palavras em alguma questão. Analisando os erros de cada alternativa. a) A forma correta é 'paraliSado' (com a letra 's'). Incorreta. b) A forma correta é 'exceÇão' (com a letra 'ç'). Incorreta. c) A forma verbal correta é 'VÊM', com o acento diferencial marcando o plural 'ELES não VÊM...'. Incorreta. d) Essa frase não apresenta problemas no que tange à grafia. Alternativa correta. e) As formas corretas são 'adivinhar' (faltou a letra 'i') e 'cabeleireiro' (falou a letra 'i'). Incorreta."
       },
       {
         "pergunta": "(CESGRANRIO / PETROBRAS / 2017) A palavra ou a expressão destacada aparece corretamente grafada, de acordo com a norma-padrão da língua portuguesa, em:",
         "alternativas": [
-          "A) O preço dos combustíveis vem aumentando, mas a indústria automobilística desconhece o porque do crescimento da frota veicular nas cidades.",
-          "B) Os poluentes derivados dos combustíveis fósseis são substâncias prejudiciais por que causam danos aos seres vivos e ao meio ambiente.",
-          "C) Os cidadãos deveriam saber os riscos de um apagão para conhecerem melhor o porquê da necessidade de economizar energia.",
-          "D) A fabricação de veículos movidos a combustão explica por quê aumentou significativamente a poluição nas grandes cidades.",
-          "E) Seria impossível falar de energia sem associar o meio ambiente ao tema, porquê toda a energia produzida é resultado da utilização das forças oferecidas pela natureza."
+          "A) O preço dos combustíveis vem aumentando, mas a indústria automobilística desconhece o <u>porque</u> do crescimento da frota veicular nas cidades.",
+          "B) Os poluentes derivados dos combustíveis fósseis são substâncias prejudiciais <u>por que</u> causam danos aos seres vivos e ao meio ambiente.",
+          "C) Os cidadãos deveriam saber os riscos de um apagão para conhecerem melhor o <u>porquê</u> da necessidade de economizar energia.",
+          "D) A fabricação de veículos movidos a combustão explica <u>por quê</u> aumentou significativamente a poluição nas grandes cidades.",
+          "E) Seria impossível falar de energia sem associar o meio ambiente ao tema, <u>porquê</u> toda a energia produzida é resultado da utilização das forças oferecidas pela natureza."
         ],
         "correta": "C) Os cidadãos deveriam saber os riscos de um apagão para conhecerem melhor o porquê da necessidade de economizar energia.",
-        "explicacao": "'O porquê' é substantivo (motivo). Demais: o porquê, porque, por que, porque."
+        "explicacao": "a) Incorreto. Forma correta: “o porquê”, substantivo. <br>b) Incorreto. Forma correta: “porque”, conjunção. <br>c) Correto. Aqui temos substantivo, por isso veio acentuado e está precedido de artigo. <br>d) Incorreto. Forma correta: “por que”, no sentido de “por qual motivo”. <br>e) Incorreto. Forma correta: “porque”, conjunção. <br>Gabarito letra C."
       },
       {
-        "pergunta": "(CESGRANRIO / IBGE / 2016) No trecho 'em áreas costeiras, onde restam apenas cerca de 10% da vegetação nativa original', a palavra destacada foi empregada de acordo com as exigências da norma-padrão da Língua Portuguesa. Do mesmo modo, o emprego de onde atende a essas exigências em:",
+        "pergunta": "(CESGRANRIO / IBGE / 2016) No trecho 'em áreas costeiras, <u>onde</u> restam apenas cerca de 10% da vegetação nativa original', a palavra destacada foi empregada de acordo com as exigências da norma-padrão da Língua Portuguesa. Do mesmo modo, o emprego de <u>onde</u> atende a essas exigências em:",
         "alternativas": [
           "A) Alguns estudos parecem atender a uma preocupação bastante pertinente onde se podem traçar estratégias de proteção ambiental.",
           "B) A dependência de biomassa ocorre porque não há oferta de fontes industriais de energia nas regiões onde as populações mais pobres vivem.",
@@ -9031,7 +9874,7 @@
           "E) Esses estudos devem ser complementados por estratégias onde possa ser evitado o desmatamento provocado pelo uso doméstico da madeira."
         ],
         "correta": "B) A dependência de biomassa ocorre porque não há oferta de fontes industriais de energia nas regiões onde as populações mais pobres vivem.",
-        "explicacao": "'Onde' retoma lugar físico ('regiões'). Nas demais, retoma ideia abstrata (preocupação, desmatamento, período, estratégias)."
+        "explicacao": "A regra básica é: use “onde” para retomar a ideia de um lugar físico. No enunciado, retoma “áreas costeiras”. O mesmo ocorre em “regiões onde as populações mais pobres vivem”, alternativa em que o “onde” retoma “regiões”. <br>Nas demais alternativas, “onde” não se refere a lugares físicos, pois retoma “preocupação”, “desmatamento”, “período” e “estratégias”. Então, o uso não segue a regra. Gabarito letra B."
       },
       {
         "pergunta": "(CESGRANRIO / UNIRIO / 2016) Assim como análise, também se escreve corretamente com s o substantivo",
@@ -9048,26 +9891,26 @@
       {
         "pergunta": "(CESGRANRIO / BANCO DA AMAZÔNIA / 2016) A palavra ou expressão em destaque está grafada corretamente e de acordo com a norma-padrão em:",
         "alternativas": [
-          "A) A agricultura familiar é importante por que preserva os alimentos tradicionais.",
-          "B) A Agricultura Familiar é importante por quê?",
-          "C) A Agricultura Familiar apresenta importante função porquê garante a segurança alimentar.",
-          "D) O Texto I esclarece o motivo porque a Agricultura Familiar contribui para o uso sustentável dos recursos naturais.",
-          "E) O Texto I expõe o porque de a Agricultura Familiar ser importante para o país."
+          "A) A agricultura familiar é importante <u>por que</u> preserva os alimentos tradicionais.",
+          "B) A Agricultura Familiar é importante <u>por quê</u>?",
+          "C) A Agricultura Familiar apresenta importante função <u>porquê</u> garante a segurança alimentar.",
+          "D) O Texto I esclarece o motivo <u>porque</u> a Agricultura Familiar contribui para o uso sustentável dos recursos naturais.",
+          "E) O Texto I expõe o <u>porque</u> de a Agricultura Familiar ser importante para o país."
         ],
         "correta": "B) A Agricultura Familiar é importante por quê?",
-        "explicacao": "'Por quê' em final de frase interrogativa. Demais: porque, porque, por que, o porquê."
+        "explicacao": "Em A e C, temos “porque” conjunção, junto e sem acento. <br>Em D, a grafia correta seria “por que” (o motivo pelo qual). <br>Em E, temos substantivo “o porquê”, que deve ser acentuado e normalmente vem precedido de artigo. <br>Em B, temos uma interrogativa direta. Como está antes de pontuação final do período, será acentuado: “por quê”. <br>Gabarito letra B."
       },
       {
         "pergunta": "(CESGRANRIO / IBGE / 2016) Todas as palavras estão grafadas corretamente em",
         "alternativas": [
-          "A) locomoção, interessão",
+          "A) locomoção, intersessão",
           "B) abolissão, estagnação",
           "C) comissão, excurção",
           "D) abreviação, obseção",
           "E) aclamação, emissão"
         ],
         "correta": "E) aclamação, emissão",
-        "explicacao": "Todas corretas. Demais: interseção, abolição, excursão, obsessão."
+        "explicacao": "Há muitas regras de ortografia, mas elas não justificam a grafia de muitas palavras. Então, é muito mais produtivo estudar ortografia pela memória visual e pela leitura do que tentar decorar regras e exceções. Vamos trabalhar desta forma: veremos a grafia correta das palavras e você deve sempre anotar aquela palavra cuja grafia você não conhecia. <br>Vejamos as grafias corretas: <br>a) locomoção, interseÇão <br>b) aboliÇão, estagnação <br>c) comissão, excurSão <br>d) abreviação, obsessão (cuidado, obCecado é com C) <br>e) aclamação, emissão Gabarito letra E."
       },
       {
         "pergunta": "(CESGRANRIO / IBGE / 2016) Todas as palavras estão corretamente grafadas em:",
@@ -9079,7 +9922,7 @@
           "E) dicipilina, sucesso, ricaço"
         ],
         "correta": "D) consciência, açucena, cansaço",
-        "explicacao": "Todas corretas. Demais: eXtensão, salSa, sOssego, enCHova, paralíSia, diSciplina."
+        "explicacao": "Façamos as correções: <br>a) êxito, eXtensão (cuidado: o verbo é “estender”), machucado <br>b) começo, salSa, sOssego <br>c) enCHova, pesquisa, paraliSia <br>d) consciência, açucena, cansaço <br>e) diSciplina, sucesso, ricaço Gabarito letra D."
       },
       {
         "pergunta": "(CESGRANRIO / BANCO DO BRASIL / ESCRITURÁRIO - PROVA A / 2021) O grupo de palavras que atende às exigências relativas ao emprego ou não do hífen, segundo o Vocabulário Ortográfico da Língua Portuguesa, é",
@@ -9087,14 +9930,14 @@
           "A) extra-escolar / médico-cirurgião",
           "B) bem-educado / vagalume",
           "C) portarretratos / dia a dia",
-          "D) arco-fris / contra-regra",
+          "D) arco-íris / contra-regra",
           "E) subutilizar / sub-reitor"
         ],
         "correta": "E) subutilizar / sub-reitor",
-        "explicacao": "'Subutilizar' (sem hífen), 'sub-reitor' (com hífen antes de 'r'). Demais: extrasecolar, vaga-lume, porta-retratos, contrarregra."
+        "explicacao": "Uma dúvida que muitos têm: porta-retratos não tem R dobrado porque é uma palavra composta, 'porta' é um verbo na composição. Em 'contrarregra', temos R dobrado porque 'contra' é um prefixo e a palavra seguinte começa com R. Médico-cirurgião; vaga-lume; arco-íris; bem-educado são palavras compostas, por isso o hífen deve ser utilizado."
       },
       {
-        "pergunta": "(CESGRANRIO/UNIRIO/ 2019) Assim como ocorre com a palavra quebra-mar, emprega-se obrigatoriamente o hífen, de acordo com o sistema ortográfico vigente, em",
+        "pergunta": "(CESGRANRIO/UNIRIO/ 2019) Assim como ocorre com a palavra <b><u>quebra-mar</u></b>, emprega-se obrigatoriamente o hífen, de acordo com o sistema ortográfico vigente, em",
         "alternativas": [
           "A) casa-comercial",
           "B) linha-de-passe",
@@ -9103,100 +9946,43 @@
           "E) sala-de-jantar."
         ],
         "correta": "C) peixe-espada",
-        "explicacao": "'Peixe-espada' é composto sem elemento de ligação, com hífen. Demais: casa comercial, linha de passe, pedra fundamental, sala de jantar (sem hífen)."
+        "explicacao": "Não se usa hífen entre palavras compostas com elemento de ligação, ou seja, já podemos eliminar as alternativas B e E, uma vez que as formas corretas são 'linha de passe' e 'sala de jantar'. Os termos 'casa comercial' e 'pedra fundamental' não apresentam hífen, pois não são palavras compostas. Eliminamos as letras A e D. Por fim, temos o termo composto 'peixe-espada' (tipo específico de peixe) e usamos o hífen na união de duas palavras que formam uma unidade de sentido particular, formando um substantivo composto."
       },
       {
         "pergunta": "(CESGRANRIO - PNMO (ELETRONUCLEAR)/ELETRONUCLEAR/Especialista em Proteção Radiológica/2022) A frase que tem a palavra ou expressão em destaque empregada de acordo com o que prevê a norma escrita padrão é",
         "alternativas": [
-          "A) Perguntam-me porque Maria José era tão querida.",
-          "B) O céu é aonde Maria José deve estar agora.",
-          "C) Apresentou-me a muitos autores, por isso tornei-me um leitor voraz.",
-          "D) Mau ela se foi, já sinto sua falta.",
-          "E) Perdi quem me protegeu a um ano."
+          "A) Perguntam-me <b><u>porque</u></b> Maria José era tão querida.",
+          "B) O céu é <b><u>aonde</u></b> Maria José deve estar agora.",
+          "C) Apresentou-me a muitos autores, <b><u>por isso</u></b> tornei-me um leitor voraz.",
+          "D) <b><u>Mau</u></b> ela se foi, já sinto sua falta.",
+          "E) Perdi quem me protegeu <b><u>a</u></b> um ano."
         ],
         "correta": "C) Apresentou-me a muitos autores, por isso tornei-me um leitor voraz.",
         "explicacao": "Correta. Demais: por que, onde, mal, há."
       },
       {
-        "pergunta": "(CESGRANRIO / BANCO DA AMAZÔNIA / 2021) A frase em que a palavra ou expressão destacada respeita as regras ortográficas e gramaticais da norma padrão é:",
-        "alternativas": [
-          "A) As crianças querem estar aonde a fantasia está.",
-          "B) Queremos saber por que a ideia de eternidade nos fascina.",
-          "C) O gosto adocicado do chicle mau acaba e queremos outro.",
-          "D) Nada como balas e chicletes durante uma seção de cinema.",
-          "E) A ideia de viver para sempre persegue o homem a séculos."
-        ],
-        "correta": "B) Queremos saber por que a ideia de eternidade nos fascina.",
-        "explicacao": "'Por que' separado (interrogativo). Demais: onde, mal, sessão, há."
+        "pergunta": "(CRMV-DF / AGENT ADMINISTRATIVO / 2022) <br>É a infelicidade como algo real e concreto, alguma coisa que podemos acompanhar com os olhos ali, desfilando pelas ruas, um ser que podemos tocar ao estender a mão. <br>Analise a afirmativa a seguir: <br>A palavra “ser” está empregada como substantivo.",
+        "alternativas": ["Certo", "Errado"],
+        "correta": "Certo",
+        "explicacao": "Lembre-se da regra: o artigo ('um') tem o poder de substantivar qualquer classe: 'ser', a princípio é verbo."
       },
       {
-        "pergunta": "(CESGRANRIO - ATA (AgeRIO)/AgeRIO/2023) No trecho 'metade das chuvas na região é resultado da umidade produzida pela evapotranspiração (a transpiração das árvores)', a palavra destacada é derivada do verbo transpirar, com o acréscimo do sufixo 'ção'. O grupo em que todos os verbos também formam substantivos pelo acréscimo do sufixo 'ção' é:",
+        "pergunta": "(CÂMARA DE LAGOA DE ITAENGA-PE / 2022) Os substantivos terminados em -ão presentes no excerto “Através da arte o ser humano expressa ideias, emoções, percepções e sensações.” (6º parágrafo) fazem plural apenas com a terminação em - ões, como se contata. Assinale a alternativa em que o vocábulo abaixo admite só duas possibilidades de formação de plural:",
         "alternativas": [
-          "A) ceder, conservar, repercutir",
-          "B) conceder, transgredir, poluir",
-          "C) evaporar, inserir, preservar",
-          "D) renovar, devastar, admitir",
-          "E) transmitir, permitir, introduzir"
+          "a) aldeão.",
+          "b) ermitão.",
+          "c) tabelião.",
+          "d) capelão.",
+          "e) charlatão."
         ],
-        "correta": "C) evaporar, inserir, preservar",
-        "explicacao": "Formam: evaporação, inserção, preservação. Demais: cessão/conservação/repercussão; concessão/transgressão/poluição; renovação/devastação/admissão; transmissão/permissão/introdução (alguns não com 'ção' exatamente)."
-      },
-      {
-        "pergunta": "(TELEBRÁS / 2022) Mantendo-se a correção gramatical e os sentidos originais do texto, o trecho 'As tecnologias da comunicação foram utilizadas para coordenar a ajuda' poderia ser descrito da seguinte forma: Usaram-se as tecnologias da comunicação afim de coordenar a ajuda.",
-        "alternativas": [
-          "Certo",
-          "Errado"
-        ],
-        "correta": "Errado",
-        "explicacao": "O correto é 'a fim de' (separado), indicando finalidade."
-      },
-      {
-        "pergunta": "(SEPLAG-RECIFE / 2019) Está clara e correta a redação deste livre comentário sobre o texto: Na antiguidade clássica, onde o intento da pintura realista prevalencia, mesmo assim ela não alcançava ser tão fotográfica.",
-        "alternativas": [
-          "Certo",
-          "Errado"
-        ],
-        "correta": "Errado",
-        "explicacao": "'Onde' deve ser usado para lugar físico, não para tempo; 'prevalecia' é com 'c'."
-      },
-      {
-        "pergunta": "(ITAIPU BINACIONAL / 2019) Mas, afinal, quais os motivos por ______ da decisão de pais que não vacinaram os filhos? 'As vacinas acabam sendo vítimas de seu próprio sucesso. A cultura do ser humano é de se vacinar quando há um risco ______, quando ele não ______ esse risco, não trata com prioridade, o que é um equívoco'. Para Kfouri, o público que deixa de vacinar seus filhos por medo das reações é uma parcela ______, que não impacta os índices de cobertura. Assinale a alternativa que preenche corretamente as lacunas acima, na ordem em que aparecem no texto.",
-        "alternativas": [
-          "a) traz – eminente – enxerga – despresível.",
-          "b) trás – eminente – encherga – desprezível.",
-          "c) traz – iminente – encherga – despresível.",
-          "d) trás – iminente – enxerga – desprezível.",
-          "e) tráz – eminente – encherga – desprezível."
-        ],
-        "correta": "d) trás – iminente – enxerga – desprezível.",
-        "explicacao": "'trás' (lugar), 'iminente' (próximo a ocorrer), 'enxerga' (com x), 'desprezível' (com z)."
-      },
-      {
-        "pergunta": "(MPE-GO / 2019) Trate de arrumar a mesa que você quebrou e costurar a calça que você rasgou, do contrário não sairá de casa. As palavras destacadas podem ser substituídas por:",
-        "alternativas": [
-          "a) concertar, coser e se não.",
-          "b) consertar, coser e senão.",
-          "c) consertar, cozer e senão.",
-          "d) concertar, cozer e senão.",
-          "e) consertar, cozer e se não."
-        ],
-        "correta": "b) consertar, coser e senão.",
-        "explicacao": "'Consertar' (reparar), 'coser' (costurar), 'senão' (do contrário)."
-      },
-      {
-        "pergunta": "(TRT 4ª REGIÃO / 2022 - Adaptado) Está inteiramente adequado o emprego do elemento sublinhado na frase: Tomou proporções gigantescas o crescimento econômico porque foi marcado o período dos últimos quinhentos anos.",
-        "alternativas": [
-          "Certo",
-          "Errado"
-        ],
-        "correta": "Errado",
-        "explicacao": "O correto é 'por que' (pelo qual), não 'porque'."
+        "correta": "e) charlatão.",
+        "explicacao": "A questão pede o substantivo que admite plural de duas formas diferentes. De acordo com o VOLP (Vocabulário Ortográfico da Língua Portuguesa), capelão (capelães) possui apenas uma forma de plural; já ermitão (ermitãos, ermitões e ermitães), aldeão (aldeãos, aldeões e aldeães) e tabelião (tabeliães, tabeliões e tabeliãos) possuem três formas de plural. Assim, por exclusão, temos \"charlatão\", que apresenta apenas suas formas de plural (charlatães e charlatões)."
       },
       {
         "pergunta": "(TRF 1ª REGIÃO / 2017) Haveria prejuízo gramatical para o texto caso a palavra \"procedimentos-padrão\" fosse alterada para \"procedimentos-padrões\".",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "Há duas regras válidas: flexionar os dois substantivos (regra geral) ou flexionar só o primeiro (regra de delimitação)."
+        "explicacao": "Não haveria prejuízo para o texto caso se efetuasse a referida troca, pois há duas regras válidas: flexionar os dois substantivos pela regra geral, ou flexionar somente o primeiro pela regra específica de delimitação por tipo/finalidade/semelhança."
       },
       {
         "pergunta": "(PREF. FRECHEIRINHA (CE) / PROFESSOR / 2021) Está errado o aumentativo de um dos substantivos. Assinale-o.",
@@ -9211,7 +9997,7 @@
         "explicacao": "O aumentativo correto de 'pata' é 'patorra' (sufixo -orra). 'Pataca' é incorreto."
       },
       {
-        "pergunta": "(PREF. MANAUS / 2022) Entre os cinco adjetivos sublinhados, aqueles que mostram valor de opinião, são",
+        "pergunta": "(PREF. MANAUS / 2022) O artigo 9º do Estatuto do Idoso diz: <br>“É obrigação do Estado, garantir à pessoa idosa a proteção à vida e à saúde, mediante efetivação de políticas sociais públicas que permitam um envelhecimento saudável e em condições dignas.” <br>Entre os cinco adjetivos sublinhados, aqueles que mostram valor de opinião, são",
         "alternativas": [
           "a) saudável / dignas",
           "b) idosa / sociais",
@@ -9220,13 +10006,13 @@
           "e) idosa / saudável"
         ],
         "correta": "a) saudável / dignas",
-        "explicacao": "\"Saúde\" e \"dignidade\" são julgamentos valorativos/subjetivos. Os outros são classificações objetivas."
+        "explicacao": "Aqui, \"idoso\" é um adjetivo meramente classificatório, objetivo, não tem \"julgamento\" embutido, não traz subjetividade, valoração. Só a título de curiosidade: \"Para a Organização Mundial da Saúde (OMS), idoso é todo indivíduo com 60 anos ou mais. O mesmo entendimento está presente na Política Nacional do Idoso (instituída pela lei federal 8.842), de 1994, e no Estatuto do Idoso (lei 10.741), de 2003.\" O mesmo vale para \"sociais e públicas\" que apenas descrevem objetivamente a função das políticas. Uma política pode ser social, ser econômica, ser fiscal. Tudo isso é objetivo. Por outro lado, \"saudável\" e \"dignas\" são adjetivos valorativos, indicam julgamento, opinião. Pode-se de discutir o que é mais ou menos saudável ou digno para cada pessoa."
       },
       {
         "pergunta": "(TCE PB / 2018) <i>Maus hábitos cotidianos muitas vezes são, na verdade, práticas antiéticas e até ilegais, que devem, sim, ser combatidas.</i><br> Os termos \"antiéticas\", \"ilegais\" e \"combatidas\" qualificam a palavra \"práticas\".",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "\"antiéticas\" e \"ilegais\" são adjetivos, mas \"combatidas\" é particípio (verbo em voz passiva)."
+        "explicacao": "“antiéticas” e “ilegais” qualificam sim o substantivo “práticas”. Contudo, “combatidas” é um verbo numa frase em voz passiva: “devem ser combatidas” (ver aula de verbos), não é um adjetivo."
       },
       {
         "pergunta": "(TRT 9ª Região / 2022) Alterada a ordem do adjetivo na expressão, observa-se, de modo mais significativo, a mudança de sentido em:",
@@ -9238,46 +10024,46 @@
           "e) falsas notícias"
         ],
         "correta": "d) verdadeiro produto",
-        "explicacao": "\"verdadeiro produto\" = produto certo/ideal. \"produto verdadeiro\" = genuíno, não falsificado."
+        "explicacao": "A única alternativa em que se observa mudança de sentido é na letra (D): \"verdadeiro produto\" tem o sentido de \"produto certo\", \"o melhor produto\" (superior aos concorrentes); já \"produto verdadeiro\" denota que é genuíno, original, não falsificado. As demais alternativas não apresentam mudança de sentido quando há troca de posição da palavra. Portanto,"
       },
       {
-        "pergunta": "(PGE-PE / ANALISTA JUDICIÁRIO / 2019) </i>A própria palavra “crise” é bem mais a expressão de um movimento do espírito que de um juízo fundado em argumentos extraídos da razão ou da experiência.</i> <br> Os sentidos e a correção gramatical do texto seriam mantidos se fosse inserido o vocábulo \"do\" imediatamente após a palavra \"espírito\".",
+        "pergunta": "(PGE-PE / ANALISTA JUDICIÁRIO / 2019) A própria palavra “crise” é bem mais a expressão de um movimento do espírito que de um juízo fundado em argumentos extraídos da razão ou da experiência.<br> Os sentidos e a correção gramatical do texto seriam mantidos se fosse inserido o vocábulo \"do\" imediatamente após a palavra \"espírito\".",
         "alternativas": ["Certo", "Errado"],
         "correta": "Certo",
-        "explicacao": "Em estruturas comparativas, o \"do\" (contração de de+o) é facultativo."
+        "explicacao": "Sim, nas estruturas comparativas, o “do” é facultativo. <br>A própria palavra “crise” é bem mais a expressão de um movimento do espírito (do) que de um juízo fundado em argumentos extraídos da razão ou da experiência"
       },
       {
-        "pergunta": "(DPE-RS / 2022) <i>O direito, o processo decisório e os julgamentos são eminentemente de natureza humana e dependem do ser humano para serem bem realizados. Assim, mesmo que os avanços tecnológicos sejam inevitáveis, todas as inovações eletrônicas e virtuais devem sempre ser implementadas com parcimônia e vistas com muito cuidado, não apenas para sempre permitirem o exercício de direitos e garantias, mas também para não restringirem — e, sim, ampliarem — o acesso à justiça e, sobretudo, para manterem a insubstituível humanidade da justiça.</i> <br>No último parágrafo do texto, o emprego dos vocábulos \"muito\" e \"sempre\" enfatizam a opinião expressa pelo autor.",
+        "pergunta": "(DPE-RS / 2022) O direito, o processo decisório e os julgamentos são eminentemente de natureza humana e dependem do ser humano para serem bem realizados. Assim, mesmo que os avanços tecnológicos sejam inevitáveis, todas as inovações eletrônicas e virtuais devem sempre ser implementadas com parcimônia e vistas com <b><u>muito</u></b> cuidado, não apenas para <b><u>sempre</u></b> permitirem o exercício de direitos e garantias, mas também para não restringirem — e, sim, ampliarem — o acesso à justiça e, sobretudo, para manterem a insubstituível humanidade da justiça. <br>No último parágrafo do texto, o emprego dos vocábulos \"muito\" e \"sempre\" enfatizam a opinião expressa pelo autor.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "\"muito\" é pronome indefinido (modifica substantivo), não advérbio. Advérbio não modifica substantivo."
+        "explicacao": "Em “muito cuidado”, “muito” é pronome indefinido, pois modifica substantivo, com ideia de quantidade vaga, imprecisa. Por definição, advérbio é palavra invariável que modifica verbo (trabalho muito), adjetivo (muito bonito) ou outro advérbio (muito bem); não pode modificar substantivo. Questão incorreta."
       },
       {
         "pergunta": "(TCE-RJ / 2022) Agora, novas melhorias na IA, viabilizadas por operações massivas de coleta de dados, aperfeiçoadas ao máximo por grupos digitais, contribuíram para a retomada de uma velha corrente positivista do pensamento político. Extremamente tecnocrata em seu âmago, essa corrente sustenta que a democracia talvez tenha tido sua época, mas que hoje, com tantos dados à nossa disposição, afinal estamos prestes a automatizar e simplificar muitas daquelas imperfeições que teriam sido — deliberadamente — incorporadas ao sistema político. <br>Com relação a aspectos linguísticos do texto CB1A1-I, julgue o seguinte item. <br>No segundo período do terceiro parágrafo, a forma pronominal \"sua\" tem como referente o termo \"essa corrente\".",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "\"sua\" refere-se a \"democracia\" (concorda com \"época\"), não a \"corrente\"."
+        "explicacao": "a democracia talvez tenha tido sua época. Note que \"sua\", pronome pessoal, refere-se a \"democracia\" e está flexionado no feminino por causa do termo que o acompanha, \"época\". Questão incorreta."
       },
       {
         "pergunta": "(SEFAZ-RS / 2018) Mesmo agora, quando já diviso a brumosa porta da casa dos setenta, um convite à viagem tem ainda o poder de incendiar-me a fantasia. <br> Com relação ao trecho \"incendiar-me a fantasia\", é correto interpretar a partícula \"me\" como o possuidor de \"fantasia\".",
         "alternativas": ["Certo", "Errado"],
         "correta": "Certo",
-        "explicacao": "O pronome oblíquo \"me\" tem valor possessivo: \"minha fantasia\"."
+        "explicacao": "Aqui, temos exemplo clássico de pronome pessoal com sentido possessivo: Incendiar-me a fantasia equivale a “incendiar minha fantasia”."
       },
       {
-        "pergunta": "(MPE-GO / 2022 - Adaptada) “Este livro é sobre uma das ideias mais importantes da humanidade – a ideia do alfabeto – e a sua forma mais difundida: o sistema de letras que você está lendo neste momento.” <br>Analise a afirmação sobre o elemento sublinhado nesse pequeno fragmento do texto 1: <br>O demonstrativo \"neste\" indica o momento em que foi escrito o texto.",
+        "pergunta": "(MPE-GO / 2022 - Adaptada) “Este livro é sobre uma das ideias mais importantes da humanidade – a ideia do alfabeto – e a sua forma mais difundida: o sistema de letras que você está lendo <b>neste</b> momento.” <br>Analise a afirmação sobre o elemento sublinhado nesse pequeno fragmento do texto 1: <br>O demonstrativo \"<b>neste</b>\" indica o momento em que foi escrito o texto.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "\"neste\" indica o momento da leitura, não da escrita."
+        "explicacao": "Note que o pronome demonstrativo “neste” indica o momento em que o leitor está lendo o texto, e não em que foi escrito. Questão incorreta."
       },
       {
         "pergunta": "(STM / 2018) Aqui, neste escritório onde a verdade não pode ser mais do que uma cara sobreposta às infinitas máscaras variantes, estão os costumados dicionários da língua e vocabulários, os Morais e Aurélios, os Morenos e Torrinhas, algumas gramáticas, o Manual do Perfeito Revisor, vademeco de ofício [...]. <br>Na linha 1, o emprego de “neste” decorre da presença do vocábulo “Aqui”, de modo que sua substituição por nesse resultaria em incorreção gramatical.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Certo",
-        "explicacao": "\"neste\" refere-se ao escritório do autor (próximo de quem fala). \"nesse\" seria para algo próximo do ouvinte."
+        "explicacao": "O autor fala em primeira pessoa, em referência ao próprio escritório em que está, o escritório próximo. Então, a forma correta é “neste”. O pronome “nesse” faria referência a um escritório próximo de quem ouve. Questão correta."
       },
       {
-        "pergunta": "(PGE-AM / 2022) Saberia Rubião que o nosso Quincas Borba trazia aquele grãozinho de sandice, <u>que</u> um médico supôs achar <u>lhe</u>? (2º parágrafo).<br> Os pronomes sublinhados referem-se, respectivamente, a",
+        "pergunta": "(PGE-AM / 2022) Saberia Rubião que o nosso Quincas Borba trazia aquele grãozinho de sandice, <b><u>que</u></b> um médico supôs achar <b><u>lhe</u></b>? (2º parágrafo).<br>Os pronomes sublinhados referem-se, respectivamente, a",
         "alternativas": [
           "a) um médico e grãozinho de sandice",
           "b) Quincas Borba e Rubião",
@@ -9286,37 +10072,37 @@
           "e) grãozinho de sandice e Quincas Borba"
         ],
         "correta": "e) grãozinho de sandice e Quincas Borba",
-        "explicacao": "\"que\" retoma \"grãozinho\". \"lhe\" retoma \"Quincas Borba\"."
+        "explicacao": "O que o médico achou? Um grão de sandice. Em quem? No Quincas Borba. Então, podemos dizer que o pronome relativo \"que\" tem como antecedente o \"grãozinho de sandice\" e o \"lhe\" retoma \"Quincas Borba\". Gabarito letra E."
       },
       {
         "pergunta": "(MP-CE / CARGOS DE NÍVEL SUPERIOR / 2020) Nas Américas, estima-se que 77 milhões de pessoas sofram um episódio de doenças transmitidas por alimentos a cada ano — metade delas são crianças com menos de 5 anos de idade. Os dados disponíveis indicam que as doenças transmitidas por alimentos geram de US$ 700 mil a US$ 19 milhões em custos anuais de saúde nos países do Caribe e mais de US$ 77 milhões nos Estados Unidos da América. <br>A substituição da expressão \"metade delas\" por \"cuja metade\" manteria a correção gramatical e a coesão do texto.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "\"cujo\" precisa ligar possuidor e coisa possuída. Aqui ficaria solto, gerando ambiguidade."
+        "explicacao": "Por regra, o pronome “cujo” deve vir entre substantivos, ligando possuidor e coisa possuída; então, não pode ficar “solto” no texto, sem ligar esses dois elementos. Em “cuja metade”, fica a dúvida: metade do quê? Metade de quem? Então, o pronome não está bem utilizado. Poderia haver a leitura: metade do ano, metade dos alimentos, metade dos milhões...Questão incorreta."
       },
       {
         "pergunta": "(DPE-RO / 2022) Com a derrota de Hitler em 1945 e, portanto, o fim da Segunda Guerra Mundial, da qual o Brasil participou contra as ditaduras nazifascistas — devido à entrada dos Estados Unidos da América no conflito, liderando e coordenando os esforços de guerra dos países do Eixo dos Aliados —, o mundo foi tomado pelas ideias democráticas, e o regime autoritário do Estado Novo (iniciado em 1937) já não se podia manter <br>A substituição de \"da qual\" por \"cuja\" preservaria a correção e o sentido.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "\"cuja\" não admite artigo. Ficaria \"cuja o Brasil\", erro de concordância e estrutura."
+        "explicacao": "O pronome “cujo” e suas variações não admitem substituição direta por nenhum outro. Além disso, não admite artigo. Feita a substituição proposta pela banca, teríamos: “cuja o Brasil”, o que traz ainda erro de concordância no gênero. Questão incorreta."
       },
       {
-        "pergunta": "(SEFAZ-AL / AUDITOR FISCAL / 2020) Tem meia dúzia de atendentes, conheço dois ou três pelo nome, e o dono do lugar é sempre simpático comigo. Sabe que gosto do seu negócio, que, se me mudasse de novo para lá, seria seu freguês. Mas também sei que me vê como um tipo que há vinte anos vive na capital, que a essa altura é mais metropolitano que interiorano, um cara talvez meio esquisito, ou apenas ridículo, que se interessa por coisas de que não precisa, coisas das quais não entende. <br>A substituição de \"das quais\" por \"que\" preservaria sentido e correção.",
+        "pergunta": "(SEFAZ-AL / AUDITOR FISCAL / 2020) Tem meia dúzia de atendentes, conheço dois ou três pelo nome, e o dono do lugar é sempre simpático comigo. Sabe que gosto do seu negócio, que, se me mudasse de novo para lá, seria seu freguês. Mas também sei que me vê como um tipo que há vinte anos vive na capital, que a essa altura é mais metropolitano que interiorano, um cara talvez meio esquisito, ou apenas ridículo, que se interessa por coisas de que não precisa, coisas <b><u>das quais</u></b> não entende. <br>A substituição de \"das quais\" por \"que\" preservaria sentido e correção.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "Muda o sentido: \"entender de\" = dominar conhecimento; \"entender\" = compreender algo."
+        "explicacao": "Note que na reescritura, a preposição é suprimida e o pronome “as quais” é substituído por “que”: <br>Entender as coisas => as coisas que entende. <br>Gramaticalmente, é possível. <br>Contudo, ocorre mudança de sentido: <br>\"entender de alguma coisa\" é o mesmo que dominar um conhecimento, ser um especialista. <br>\"entender alguma coisa\" significa saber o que algo é, ser capaz de compreender o que é alguma coisa. <br>Perceba essa diferença. Por isso, a reescrita não é possível. Questão incorreta."
       },
       {
-        "pergunta": "(IBAMA / 2022) Assim como cidadania e cultura formam um par integrado de significações, cultura e territorialidade são, de certo modo, sinônimos. A cultura, forma de comunicação do indivíduo e do grupo com o universo, é herança, mas também um reaprendizado das relações profundas entre o ser humano e o seu meio, um resultado obtido por intermédio do próprio processo de viver. Incluindo o processo produtivo e as práticas sociais, a cultura é o que nos dá a consciência de pertencer a um grupo, do qual é o cimento. É por isso que as migrações agridem o indivíduo, roubando-lhe parte do ser, obrigando-o a uma nova e dura adaptação em seu novo lugar. Desterritorialização é frequentemente outra palavra para significar alienação, estranhamento, que são, também, desculturização. <br>Em \"roubando-lhe parte do ser\", a forma pronominal \"lhe\" transmite ideia de posse.",
+        "pergunta": "(IBAMA / 2022) Assim como cidadania e cultura formam um par integrado de significações, cultura e territorialidade são, de certo modo, sinônimos. A cultura, forma de comunicação do indivíduo e do grupo com o universo, é herança, mas também um reaprendizado das relações profundas entre o ser humano e o seu meio, um resultado obtido por intermédio do próprio processo de viver. Incluindo o processo produtivo e as práticas sociais, a cultura é o que nos dá a consciência de pertencer a um grupo, do qual é o cimento. É por isso que as migrações agridem o indivíduo, roubando-lhe parte do ser, obrigando-o a uma nova e dura adaptação em seu novo lugar. Desterritorialização é frequentemente outra palavra para significar alienação, estranhamento, que são, também, desculturização. <br>Em “roubando-lhe parte do ser”, a forma pronominal “lhe” transmite ideia de posse, indicando que as migrações roubam parte do ser dos indivíduos.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Certo",
-        "explicacao": "O \"lhe\" tem valor possessivo: roubando parte dele/do indivíduo."
+        "explicacao": "Exatamente, o pronome oblíquo átono foi usado com valor/sentido possessivo: roubando parte dele/do indivíduo. Questão correta."
       },
       {
-        "pergunta": "(SEDF / 2017) ...Ver você me deu muito prazer/...A menina está muito engraçadinha. <br> A palavra \"muito\" que acompanha \"prazer\" e \"engraçadinha\" é, morfossintaticamente, um advérbio.",
+        "pergunta": "(SEDF / 2017) ...Ver você me deu muito prazer/...A menina está muito engraçadinha. <br>Como modificadora das palavras “prazer” e “engraçadinha”, a palavra “muito” que as acompanha é, do ponto de vista morfossintático, um advérbio.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "Em \"muito prazer\", \"muito\" é pronome indefinido (modifica substantivo). Só em \"muito engraçadinha\" é advérbio."
+        "explicacao": "Observe: “muito prazer”. Aqui “muito” se refere a substantivo, é pronome indefinido, indica quantidade vaga, imprecisa. Já em “muito engraçadinha”, “muito” se refere ao adjetivo “engraçadinha”. O advérbio é a única classe que modifica adjetivo. Portanto, somente nesta segunda ocorrência temos advérbio. Questão incorreta."
       },
       {
         "pergunta": "(TJ-PB / 2022) “As intervenções autorizadas são a minoria, apesar de a gravidez nessa idade apresentar alto risco à saúde da gestante e de o aborto legal ser previsto em lei nos casos de estupro, o que automaticamente inclui meninas engravidadas antes de completar 14 anos.” <br>No período apresentado, há quantos artigos?",
@@ -9327,13 +10113,13 @@
           "d) oito artigos"
         ],
         "correta": "c) sete artigos",
-        "explicacao": "São artigos: As, a, a, à (a+a), (d)a, o, (n)os. Total = 7."
+        "explicacao": "São artigos, os termos sublinhados: <br>“<b><u>As</u></b> intervenções autorizadas são <b><u>a</u></b> minoria, apesar de <b><u>a</u></b> gravidez nessa idade apresentar alto risco <b><u>à</u></b> saúde d<b><u>a</u></b> gestante e de <b><u>o</u></b> aborto legal ser previsto em lei n<b><u>os</u></b> casos de estupro, o que automaticamente inclui meninas engravidadas antes de completar 14 anos.”. <br>Apenas um comentário sobre \"à saúde\": quando há o fenômeno da crase é porque temos um \"a\" preposição e um \"a\" artigo."
       },
       {
-        "pergunta": "(PRF / POLICIAL / 2019) Mas e antes dos sensores, como é que se fazia? Imagino que algum funcionário trepava na antena mais alta no topo do maior arranha-céu e, ao constatar a falência da luz solar, acionava um interruptor, e a cidade toda se iluminava. <br> A substituição de \"a cidade toda\" por \"toda cidade\" preservaria os sentidos e a correção gramatical do período.",
+        "pergunta": "Mas e antes dos sensores, como é que se fazia? Imagino que algum funcionário trepava na antena mais alta no topo do maior arranha-céu e, ao constatar a falência da luz solar, acionava um interruptor, e a cidade toda se iluminava. <br>A substituição da locução “a cidade toda” por toda cidade preservaria os sentidos e a correção gramatical do período.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "\"a cidade toda\" = a cidade inteira. \"toda cidade\" = todas as cidades (genérico)."
+        "explicacao": "O artigo faz toda a diferença no sentido: <br>“a cidade toda”— a cidade inteira, a cidade por completo. <br>“toda cidade”— todas as cidades, qualquer cidade."
       },
       {
         "pergunta": "(CÂMARA TABOÃO DA SERRA-SP / 2022) Assinale a alternativa que apresenta um numeral:",
@@ -9345,13 +10131,13 @@
           "e) Hoje faz <u>um</u> lindo dia!"
         ],
         "correta": "d) Fui à livraria e comprei somente um livro, embora eu quisesse comprar mais.",
-        "explicacao": "Aqui \"um\" indica quantidade exata (numeral). Nas outras, é artigo indefinido."
+        "explicacao": "Questão trata da diferença entre numeral e artigo indefinido. Quando há nítida indicação de quantidade, o termo é numeral; já, se há sentido de indeterminação, é um artigo indefinido. Assim, a única alternativa que traz o sentido de quantidade, ou seja, que é um numeral é a Letra (D)."
       },
       {
-        "pergunta": "(CRM-V-MA / 2022) Considerei, por fim, que assim é o amor, oh! minha amada; de tudo que ele suscita e esplende e estremece e delira em mim existem apenas meus olhos recebendo a luz de teu olhar. Ele me cobre de glórias e me faz magnífico. Considerando as ideias, os sentidos e os aspectos linguísticos do texto apresentado, julgue o item. <br>No texto, o termo “oh!” (linha 11), pertencente à classe das interjeições, exprime surpresa e admiração por parte do autor.",
+        "pergunta": "(CRMV-MA / 2022) Considerei, por fim, que assim é o amor, oh! minha amada; de tudo que ele suscita e esplende e estremece e delira em mim existem apenas meus olhos recebendo a luz de teu olhar. Ele me cobre de glórias e me faz magnífico. Considerando as ideias, os sentidos e os aspectos linguísticos do texto apresentado, julgue o item. No texto, o termo “oh!” (linha 11), pertencente à classe das interjeições, exprime surpresa e admiração por parte do autor.",
         "alternativas": ["Certo", "Errado"],
         "correta": "Errado",
-        "explicacao": "\"oh!\" é interjeição de admiração, mas não de surpresa."
+        "explicacao": "De fato, \"oh\" é uma interjeição, mas não exprime surpresa, apenas admiração."
       },
       {
         "pergunta": "(TRT 4ª Região / 2022) Aonde <u>o</u> homem ia, <u>o</u> peixinho <u>o</u> acompanhava <u>a</u> trote, que nem um cachorrinho. (1º parágrafo) <br>Considerando o contexto, os termos sublinhados constituem, respectivamente,",
@@ -9363,19 +10149,19 @@
           "e) um artigo, um artigo, um pronome e uma preposição"
         ],
         "correta": "e) um artigo, um artigo, um pronome e uma preposição",
-        "explicacao": "o homem = artigo; o peixinho = artigo; o acompanhava = pronome; a trote = preposição."
+        "explicacao": "Vejamos cada uma das ocorrências em separado <br><u>o</u> homem ia = artigo <br><u>o</u> peixinho = artigo <br><u>o</u> acompanhava = pronome oblíquo <br><u>a</u> trote = preposição."
       },
       {
-        "pergunta": "(PREF. PIRACICABA-SP / PROFESSOR / 2020) Aonde o homem ia, o peixinho o acompanhava a trote, que nem um cachorrinho. (1º parágrafo) Considerando o contexto, os termos sublinhados constituem, respectivamente,",
+        "pergunta": "(PREF. PIRACICABA-SP / PROFESSOR / 2020) Os termos destacados na frase “A rede pública carece de profissionais satisfatoriamente qualificados <b><u>até</u></b> para o <b><u>mais</u></b> básico, como o ensino de ciências; o que dizer então de alunos com gama tão variada de dificuldades.” expressam, respectivamente, circunstância de",
         "alternativas": [
-          "a) dúvida e de afirmação",
-          "b) tempo e de modo",
-          "c) inclusão e de intensidade",
-          "d) intensidade e de modo",
-          "e) inclusão e de negação"
+          "a) dúvida e de afirmação. ",
+          "b) tempo e de modo.",
+          "c) inclusão e de intensidade.",
+          "d) intensidade e de modo.",
+          "e) inclusão e de negação."
         ],
-        "correta": "c) inclusão e de intensidade",
-        "explicacao": "\"até\" tem valor de inclusão. \"mais\" intensifica o adjetivo \"básico\"."
+        "correta": "c) inclusão e de intensidade.",
+        "explicacao": "\"até/inclusive\" para o mais básico (sentido de inclusão); \"mais básico\" - aqui \"mais\" intensifica o adjetivo \"básico\"."
       }
     ],
 
