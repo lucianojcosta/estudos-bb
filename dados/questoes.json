@@ -10423,13 +10423,6 @@
         "explicacao": "Resolvemos esta mesma questão na aula anterior. Agora, iremos resolvê-la com a taxa de juros em regime de Juros Compostos.<br>Um ex-concurseiro contraiu um consignado de R$ 100.000,00.<br>Vamos calcular o Saldo Devedor deste empréstimo ao final do segundo mês, já que haverá o pagamento de uma parcela.<br>Iremos aplicar diretamente a fórmula do Montante em regime de Juros Compostos e calcular o Saldo Devedor ao final do segundo mês.<br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ<br>𝑀 = 100.000 × (1 + 0,03)²<br>𝑀 = 100.000 × 1,03²<br>𝑀 = 100.000 × 1,0609 → 𝑴 = 𝟏𝟎𝟔. 𝟎𝟗𝟎<br>Ao final do segundo mês, há um pagamento de R$ 46.000,00.<br>Sendo assim, o Saldo Devedor ao final do segundo mês será de 60.090 (106.090 − 46.000).<br>Os juros continuarão incidindo sobre este Saldo Devedor por mais três meses, uma vez que o pagamento da segundo parcela acontece ao final do quinto mês.<br>Vamos então aplicar novamente a fórmula do Montante em regime de Juros Compostos e calcular o Saldo Devedor ao final do quinto mês.<br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ<br>𝑀 = 60.090 × (1 + 0,03)³<br>Observe que o Capital desta fórmula é o valor de R$ 60.090,00, afinal é em cima desse valor que os Juros incidirão. E o tempo é igual a 3 meses, pois já estamos no mês 2 e queremoso valor do Saldo Devedor no mês 5. Continuando:<br>𝑀 = 60.090 × (1,03)³<br>𝑀 = 60.090 × 1,0927 → 𝑴 = 𝟔𝟓.𝟔𝟔𝟏,𝟗𝟔<br>Logo, para quitar este financiamento, o pagamento da segunda parcela, ao final do quinto mês, deverá ser de R$ 65.661,96."
       },
       {
-        "pergunta": "(CRO AC- 2019) Quanto a noções básicas de matemática financeira, finanças, orçamento e tributos, julgue o item.<br>Se determinado investidor tem R$ 25.000,00 de capital e quer comprar uma televisão que custa R$ 3.000,00, colocando seu capital a juros compostos de 6% ao mês por 2 meses, ao final do período, ele poderá comprar a televisão usando apenas os juros recebidos na aplicação",
-        "alternativas": ["Certo",
-        "Errado"],
-        "correta": "Certo",
-        "explicacao": "Vamos calcular o Montante resultante da aplicação de um Capital de R$ 25.000,00 submetido a uma Taxa de>br>Juros compostos de 6% ao mês por 2 meses. Em regime de Juros Compostos, o Montante é calculado pela seguinte equação:>br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ>br>Onde,>br>𝐶 = 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 = 25.000>br>𝑖 = 𝑇𝑎𝑥𝑎 𝑑𝑒 𝐽𝑢𝑟𝑜𝑠 = 6% 𝑎𝑜 𝑚ê𝑠 = 0,06>br>𝑡 = 𝑡𝑒𝑚𝑝𝑜 = 2 𝑚𝑒𝑠𝑒𝑠>br>Iremos substituir os valores e calcular o Montante.>br>𝑀 = 𝐶 × (1 + 𝑖)ᵗ>br>𝑀 = 25.000 × (1 + 0,06)²>br>𝑀 = 25.000 × 1,06²>br>𝑀 = 25.000 × 1,1236 → 𝑴 = 𝟐𝟖.𝟎𝟗𝟎>br>De posse do Montante e do Capital, calculamos os Juros.>br>Sabemos que os Juros são calculados pela diferença do Montante resultante menos o Capital aplicado.>br>𝐽 = 𝑀 − 𝐶>br>𝐽 = 28.090 − 25.000 → 𝑱 = 𝟑.𝟎𝟗𝟎>br>Ou seja, como a televisão custa R$ 3.000,00 e os Juros da aplicação são iguais a R$ 3.090,00, ele poderá (sim) comprar a televisão usando apenas os juros recebidos na aplicação."
-      },
-      {
         "pergunta": "(Inédita - 2022) João faz um investimento de R$ 10.000,00 a uma taxa de juros compostos de 12% a.a. com capitalizações bimestrais. <br>Após 4 meses, por estar passando por dificuldades financeiras, João resolve sacar R$ 1.904,00 e deixar o restante aplicado. <br>10 meses após o início do investimento, qual o valor aproximadamente que João terá na sua conta investimento?",
         "alternativas": ["a) R$ 8.500,27", 
         "b) R$ 9.020,27", 
@@ -10668,6 +10661,1156 @@
         "e) 50%"],
         "correta": "b) 41%",
         "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
+      },
+      {
+        "pergunta": "(PETROBRAS/2022) Julgue o item seguinte como CERTO ou ERRADO.<br>A seguinte afirmação é uma proposição: A quantidade de formigas no planeta Terra é maior que a quantidade de grãos de areia.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "A afirmação se enquadra na definição de proposição: é uma oração declarativa que pode ser atribuída um, e apenas um, dos dois possíveis valores lógicos: verdadeiro ou falso."
+      },
+      {
+        "pergunta": "(CRF-GO/2022) Julgue o item.<br>A frase “Dois mil mais vinte mais dois” não é uma proposição.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "A frase não é uma proposição por não apresentar sentido completo. Em outras palavras, não é uma proposição por não ser uma oração, uma vez que não há verbo."
+      },
+      {
+        "pergunta": "(CRO-SC/2023) Com relação a equações e inequações e estruturas lógicas, julgue o item.<br>“Pelé é o maior jogador de futebol de todos os tempos!” é uma proposição.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A frase é uma sentença exclamativa (apresenta ponto de exclamação). Não se trata, portanto, de uma proposição."
+      },
+      {
+        "pergunta": "(CREF 3/2023) A frase “Eu quebrei o vaso!” é uma proposição exclamativa.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "O conceito de 'proposição exclamativa' não existe, pois uma proposição não pode ser exclamativa. A frase é uma sentença exclamativa, e não uma proposição."
+      },
+      {
+        "pergunta": "(PETROBRAS/2022) Acerca de lógica matemática, julgue o item a seguir.<br>A frase “Saia daquí!” é uma proposição simples.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A frase é uma sentença imperativa (indica ordem), bem como uma sentença exclamativa. Não se trata, portanto, de uma proposição."
+      },
+      {
+        "pergunta": "(BNB/2018) A sentença “É justo que toda a população do país seja penalizada pelos erros de seus dirigentes?” é uma proposição lógica composta.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A sentença apresentada não é uma proposição lógica, pois trata-se de uma sentença interrogativa."
+      },
+      {
+        "pergunta": "(CRO-SC/2023) Com relação a equações e inequações e estruturas lógicas, julgue o item.<br>A inequação 61x2 −61x > 0 é uma proposição.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A inequação não é uma proposição, pois trata-se de uma sentença aberta. O valor lógico que poderia ser atribuído à sentença depende da determinação da variável."
+      },
+      {
+        "pergunta": "(ISS GRU/2019) Dentre as sentenças a seguir, aquela que é uma sentença aberta é",
+        "alternativas": [
+          "a) 3 · x + 4 – x – 3 – 2 · x = 0",
+          "b) 7 + 3 = 11",
+          "c) 0 · x = 5",
+          "d) 13 · x = 7",
+          "e) 43 – 1 = 42"
+        ],
+        "correta": "d) 13 · x = 7",
+        "explicacao": "Sentenças abertas são aquelas em que o valor lógico depende da determinação de uma variável. Na alternativa D, o valor lógico depende do valor atribuído a 'x'.<br>Alternativa A: desenvolve para 1 = 0 (proposição falsa).<br>Alternativa B: 7+3=11 é proposição falsa.<br>Alternativa C: desenvolve para 0=5 (proposição falsa).<br>Alternativa E: 43-1=42 é proposição verdadeira."
+      },
+      {
+        "pergunta": "(Pref. Irauçuba/2022) Considere as seguintes sentenças:<br>I. Ela foi a melhor aluna da turma em 2022.<br>II. Mario foi o diretor do Colégio Liceu em 2020.<br>III. x+y 2 é um número par.<br>É verdade que:",
+        "alternativas": [
+          "a) Todas as sentenças são abertas.",
+          "b) Apenas a sentença III é aberta.",
+          "c) Apenas as sentenças I e III são abertas.",
+          "d) Apenas a sentença I é aberta."
+        ],
+        "correta": "c) Apenas as sentenças I e III são abertas.",
+        "explicacao": "I: O pronome 'ela' funciona como variável, logo é sentença aberta.<br>II: Proposição, pois é uma oração declarativa com valor V ou F.<br>III: 'x' e 'y' são variáveis, logo é sentença aberta."
+      },
+      {
+        "pergunta": "(TJ CE/2008) A frase 'No ano de 2007, o índice de criminalidade da cidade caiu pela metade em relação ao ano de 2006' é uma sentença aberta.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "Não sabemos a qual cidade a frase se refere. Se atribuíssemos à 'variável cidade' um valor, poderíamos averiguar se é verdadeira ou falsa. Trata-se, portanto, de uma sentença aberta."
+      },
+      {
+        "pergunta": "(GOINFRA/2022) Proposição é toda oração declarativa que pode ser classificada como verdadeira ou falsa, ou seja, é todo encadeamento de termos, palavras ou símbolos que expressam um pensamento de sentido completo. Assim, qual das alternativas a seguir representa uma proposição?",
+        "alternativas": [
+          "a) Como está se saindo neste concurso?",
+          "b) Fique tranquilo, mas não esqueça de responder nenhuma pergunta.",
+          "c) A prova do concurso.",
+          "d) Você estudou diariamente para essa prova.",
+          "e) Não fique nervoso!"
+        ],
+        "correta": "d) Você estudou diariamente para essa prova.",
+        "explicacao": "a) Sentença interrogativa.<br>b) Sentença imperativa.<br>c) Não apresenta verbo, sem sentido completo.<br>e) Sentença imperativa e exclamativa.<br>d) É uma oração declarativa à qual pode ser atribuído um valor lógico (V ou F)."
+      },
+      {
+        "pergunta": "(Pref Irauçuba/2022) Das frases abaixo, assinale qual representa uma proposição:",
+        "alternativas": [
+          "a) Escreva uma redação dissertativa.",
+          "b) Existem tubarões em Pernambuco.",
+          "c) O jogo de ontem terminou empatado?",
+          "d) Que desenho lindo!"
+        ],
+        "correta": "b) Existem tubarões em Pernambuco.",
+        "explicacao": "a) Sentença imperativa.<br>c) Sentença interrogativa.<br>d) Sentença exclamativa.<br>b) Proposição: oração declarativa com o quantificador 'existe', passível de ser V ou F."
+      },
+      {
+        "pergunta": "(TRF1/2017) 'A maior prova de honestidade que realmente posso dar neste momento é dizer que continuarei sendo o cidadão desonesto que sempre fui.'<br>A partir da frase apresentada, conclui-se que, não sendo possível provar que o que é enunciado é falso, então o enunciador é, de fato, honesto.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A sentença é um paradoxo. Se for verdadeira, a pessoa é desonesta (falsa). Se for falsa, a pessoa é honesta (verdadeira). Chega-se a um absurdo, e não se pode afirmar que o enunciador é honesto."
+      },
+      {
+        "pergunta": "(BRDE/2023) Entre as alternativas abaixo, qual NÃO pode ser considerada uma proposição lógica?",
+        "alternativas": [
+          "a) Ana é balconista.",
+          "b) Paulo tem 5 gatos.",
+          "c) Porto Alegre é no Rio Grande do Sul.",
+          "d) 1 > 9",
+          "e) João é incrível."
+        ],
+        "correta": "e) João é incrível.",
+        "explicacao": "A frase carrega uma alta carga de subjetividade (opinião). Não é possível atribuir um valor lógico V ou F de modo objetivo. As demais alternativas são proposições."
+      },
+      {
+        "pergunta": "(CAU TO/2023) A respeito de estruturas lógicas, julgue o item.<br>A frase “A Terra é um geoide?” é opinativa e, portanto, não pode ser considerada uma proposição.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A frase é uma sentença interrogativa, e não por ser opinativa, que não pode ser considerada uma proposição."
+      },
+      {
+        "pergunta": "(CBM BA/2020) O conceito mais fundamental de lógica é a proposição. Dentre as afirmações abaixo, assinale a alternativa correta que apresenta uma proposição.",
+        "alternativas": [
+          "a) Façam silêncio.",
+          "b) Que cansaço!",
+          "c) Onde está meu chaveiro?",
+          "d) Um belo exemplo de vida.",
+          "e) Ainda é cedo."
+        ],
+        "correta": "e) Ainda é cedo.",
+        "explicacao": "a) Sentença imperativa.<br>b) Sentença exclamativa.<br>c) Sentença interrogativa.<br>d) Não apresenta verbo, sem sentido completo.<br>e) Apesar da subjetividade, é uma oração declarativa que pode ser julgada como V ou F."
+      },
+      {
+        "pergunta": "(Pref SJ Basílios/2023) Assinale a assertiva representada pelo princípio que afirma que uma proposição não pode ser verdadeira e falsa ao mesmo tempo.",
+        "alternativas": [
+          "a) Princípio do terceiro excluído.",
+          "b) Princípio da identidade.",
+          "c) Princípio da não contradição.",
+          "d) Princípio da ambiguidade.",
+          "e) Princípio da contagem."
+        ],
+        "correta": "c) Princípio da não contradição.",
+        "explicacao": "O princípio da não contradição afirma que uma proposição não pode ser verdadeira e falsa ao mesmo tempo."
+      },
+      {
+        "pergunta": "(Pref Palmeirante/2023) Assinale a assertiva que apresenta corretamente o princípio da lógica que afirma que uma proposição só pode ser verdadeira ou falsa, não se admitindo outra possibilidade.",
+        "alternativas": [
+          "a) Princípio da não contradição.",
+          "b) Princípio do terceiro excluído.",
+          "c) Princípio da identidade.",
+          "d) Princípio da negação."
+        ],
+        "correta": "b) Princípio do terceiro excluído.",
+        "explicacao": "Segundo o princípio do terceiro excluído, uma proposição ou é verdadeira ou é falsa, não se admitindo um terceiro valor."
+      },
+      {
+        "pergunta": "(CGIA SC/2020) A proposição p equivale à “Ana não dirige moto” e a proposição q equivale à “Heitor administra o mercado”. Assinale a alternativa que apresenta corretamente ~p e ~q, nesta ordem.",
+        "alternativas": [
+          "a) “Ana dirige apenas carro”; “Heitor não administra o mercado”.",
+          "b) “Ana dirige moto”; “Heitor administra a farmácia”.",
+          "c) “Ana administra o mercado”; “Heitor não dirige moto”.",
+          "d) “Ana dirige moto”; “Heitor não administra o mercado”.",
+          "e) “Ana não administra o mercado”; “Heitor dirige moto”."
+        ],
+        "correta": "d) “Ana dirige moto”; “Heitor não administra o mercado”.",
+        "explicacao": "~p (negação de p 'Ana não dirige moto'): remover o 'não' -> 'Ana dirige moto'.<br>~q (negação de q 'Heitor administra o mercado'): inserir o 'não' -> 'Heitor não administra o mercado'."
+      },
+      {
+        "pergunta": "(IDAM/2019) A negação de uma negação, na lógica proposicional, é equivalente a:",
+        "alternativas": [
+          "a) Uma verdade",
+          "b) Uma afirmação",
+          "c) Uma negação",
+          "d) Uma negação duas vezes mais forte"
+        ],
+        "correta": "b) Uma afirmação",
+        "explicacao": "Ao se negar uma sentença declarativa negativa (negação), obtém-se uma sentença declarativa afirmativa, ou uma 'afirmação'."
+      },
+      {
+        "pergunta": "(CRMIV RJ/2022) Em relação a estruturas lógicas e à lógica de argumentação, julgue o item a seguir.<br>A negação de “O canguru vermelho é o maior marsupial existente” é “O canguru vermelho é o menor marsupial existente”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "O uso do antônimo 'menor' não nega corretamente a proposição, pois não abarca todas as possibilidades (ex: o canguru pode ser de tamanho mediano). A negação correta seria: 'O canguru vermelho não é o maior marsupial existente'."
+      },
+      {
+        "pergunta": "(CRM SC/2022) Com relação a estruturas lógicas, julgue o item.<br>“Joinville é a cidade mais bonita do mundo” é a negação de “Florianópolis é a cidade mais bonita do mundo”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A negação de 'Florianópolis é a cidade mais bonita do mundo' é 'Florianópolis não é a cidade mais bonita do mundo'. A alteração da cidade não nega a proposição original."
+      },
+      {
+        "pergunta": "(Pref. Paraí/2019) A negação da proposição simples “Está quente em Paraí” é:",
+        "alternativas": [
+          "a) Está frio em Paraí.",
+          "b) Se está quente em Paraí então chove.",
+          "c) Está quente em Paraí ou frio.",
+          "d) Ou está quente em Paraí ou chove.",
+          "e) Não é verdade que está quente em Paraí."
+        ],
+        "correta": "e) Não é verdade que está quente em Paraí.",
+        "explicacao": "Evite o uso de antônimos. A forma correta e tradicional é incluir 'não é verdade que' no início da proposição. 'Frio' não é a única possibilidade de negação de 'quente'."
+      },
+      {
+        "pergunta": "(BNB/2022) A negação de “Não basta que juízes sejam equilibrados nos seus votos” está corretamente expressa em “Basta que juízes não sejam equilibrados nos seus votos”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "Para negar a proposição, nega-se a oração principal. A negação correta é 'Basta que juízes sejam equilibrados nos seus votos'. A sugestão nega a oração subordinada."
+      },
+      {
+        "pergunta": "(TCDF/2014) A negação da proposição “O tribunal entende que o réu tem culpa” pode ser expressa por “O tribunal entende que o réu não tem culpa”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "Para negar, nega-se a oração principal: 'O tribunal não entende que o réu tem culpa'. O item erra ao negar a oração subordinada."
+      },
+      {
+        "pergunta": "(INÉDITA) Acerca da lógica de proposições, julgue o item a seguir.<br>A proposição ~(~(~(~p))) sempre tem o valor lógico igual ao de ~p.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "Com quatro negações (número par), a proposição é equivalente a p, não a ~p."
+      },
+      {
+        "pergunta": "(Pref. Flores da Cunha/2022) Analise as sentenças abaixo:<br>I. Lucas é médico ou João é engenheiro.<br>II. João é alto e Paulo é professor.<br>III. Antônio é gaúcho ou Carlos é mecânico.<br>De acordo com as proposições acima, assinale a alternativa que representa corretamente uma proposição composta.",
+        "alternativas": [
+          "a) Apenas I.",
+          "b) Apenas II.",
+          "c) Apenas III.",
+          "d) Apenas I e II.",
+          "e) I, II e III."
+        ],
+        "correta": "e) I, II e III.",
+        "explicacao": "Todas as sentenças são proposições compostas, pois unem duas proposições simples por meio de conectivos ('ou' em I e III, 'e' em II)."
+      },
+      {
+        "pergunta": "(MGS/2022) Sejam as proposições lógicas simples:<br>p: Flávia gosta de sorvete de morango.<br>q: Jonathan gosta de milkshake.<br>A proposição lógica composta pΛ~q corresponde a:",
+        "alternativas": [
+          "a) Se Flávia gosta de sorvete de morango, então Jonathan não gosta de milkshake",
+          "b) Se Jonathan gosta de milkshake, então Flávia não gosta de sorvete de morango",
+          "c) Flávia gosta de sorvete de morango ou Jonathan não gosta de milkshake",
+          "d) Flávia gosta de sorvete de morango e Jonathan não gosta de milkshake"
+        ],
+        "correta": "d) Flávia gosta de sorvete de morango e Jonathan não gosta de milkshake",
+        "explicacao": "pΛ~q é a conjunção de 'p' e a negação de 'q', representada pelo conectivo 'e'."
+      },
+      {
+        "pergunta": "(Pref. S Parnaíba/2022) Considere a proposição A: p Λ ~q.<br>Para que a proposição A seja falsa,",
+        "alternativas": [
+          "a) basta que a proposição p seja verdadeira ou que a proposição q seja falsa.",
+          "b) basta que a proposição p seja falsa ou que a proposição q seja verdadeira.",
+          "c) é necessário que a proposição p seja verdadeira e que a proposição q seja falsa.",
+          "d) é necessário que a proposição p seja falsa e que a proposição q seja verdadeira."
+        ],
+        "correta": "b) basta que a proposição p seja falsa ou que a proposição q seja verdadeira.",
+        "explicacao": "pΛ~q é falsa quando não é o caso de p e ~q serem ambos verdadeiros. Isso ocorre se p é falso OU ~q é falso (ou seja, q é verdadeiro)."
+      },
+      {
+        "pergunta": "(CRO SC/2023) Considerando que a proposição “Sydney é a capital da Austrália” é falsa e que a proposição “A Austrália é localizada na Oceania” é verdadeira, julgue o item.<br>A proposição “Sydney não é a capital da Austrália e a Austrália não é localizada na Oceania” é verdadeira.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A proposição composta é ~sΛ~a. Dado s=F (~s=V) e a=V (~a=F), a conjunção é VΛF = Falsa."
+      },
+      {
+        "pergunta": "(IFMT/2022) Considere a proposição: “Adelaide namora, mas não consegue casar.”<br>Nessa proposição, o conectivo lógico é:",
+        "alternativas": [
+          "a) disjunção inclusiva.",
+          "b) bicondicional.",
+          "c) disjunção exclusiva.",
+          "d) condicional.",
+          "e) conjunção."
+        ],
+        "correta": "e) conjunção.",
+        "explicacao": "A palavra 'mas' é utilizada para representar uma conjunção. A proposição equivale a '[Adelaide namora] e [não consegue casar]'."
+      },
+      {
+        "pergunta": "(CM POA/2012) Considere a proposição: Paula é brasileira, entretanto não gosta de futebol. Nesta proposição, está presente o conetivo lógico denominado como:",
+        "alternativas": [
+          "a) bicondicional.",
+          "b) condicional.",
+          "c) conjunção.",
+          "d) disjunção inclusiva.",
+          "e) disjunção exclusiva."
+        ],
+        "correta": "c) conjunção.",
+        "explicacao": "A palavra 'entretanto' (assim como 'mas') é utilizada para representar uma conjunção. A proposição equivale a '[Paula é brasileira] e [não gosta de futebol]'."
+      },
+      {
+        "pergunta": "(AGRAER MS/2022) Considere as seguintes sentenças:<br> • p: Cachorros podem voar.<br> • q: Thiago é inteligente.<br>É correto afirmar que a sentença ~p∨~q é:",
+        "alternativas": [
+          "a) Cachorros não podem voar.",
+          "b) Thiago não é inteligente.",
+          "c) Cachorros podem voar e Thiago é inteligente.",
+          "d) Cachorros não podem voar ou Thiago não é inteligente.",
+          "e) Cachorros podem voar ou Thiago é inteligente."
+        ],
+        "correta": "d) Cachorros não podem voar ou Thiago não é inteligente.",
+        "explicacao": "~p: 'Cachorros não podem voar'. ~q: 'Thiago não é inteligente'. A disjunção inclusiva ~p∨~q une as duas."
+      },
+      {
+        "pergunta": "(MGS/2022) Maria, uma estudante dedicada, observou que o valor lógico de uma proposição “p” é falso e que o valor lógico de uma proposição “q” é verdadeiro. Dessa forma, Maria conseguiu afirmar, de forma correta, que o valor lógico da proposição composta é:",
+        "alternativas": [
+          "a) p∨q é verdade",
+          "b) p∧q é verdade",
+          "c) p→q é falso",
+          "d) p↔q é verdade"
+        ],
+        "correta": "a) p∨q é verdade",
+        "explicacao": "Com p=F e q=V, a disjunção inclusiva p∨q é F∨V = V."
+      },
+      {
+        "pergunta": "(Pref S Parnaíba/2022) Considere a proposição A: ¬p∨¬q.<br>Para que a proposição A seja falsa,",
+        "alternativas": [
+          "a) basta que uma das proposições, p ou q, seja verdadeira.",
+          "b) basta que uma das proposições, p ou q, seja falsa.",
+          "c) é necessário que ambas as proposições, p e q, sejam verdadeiras.",
+          "d) é necessário que ambas as proposições, p e q, sejam falsas."
+        ],
+        "correta": "c) é necessário que ambas as proposições, p e q, sejam verdadeiras.",
+        "explicacao": "~p∨~q é falsa apenas quando ~p e ~q são ambas falsas, ou seja, quando p e q são ambos verdadeiros."
+      },
+      {
+        "pergunta": "(CEFET MG/2021) Na afirmação “Gosto de pão ou de carne”, o uso do conectivo “ou” indica",
+        "alternativas": [
+          "a) exclusão e, com isso, essa pessoa gosta somente de carne.",
+          "b) exclusão e, com isso, essa pessoa não gosta nem de pão nem de carne.",
+          "c) exclusão e, por isso, deve-se entender que essa pessoa gosta só de pão e não gosta de carne.",
+          "d) inclusão e, por isso, significa que a pessoa gosta, com certeza, tanto de pão quanto de carne.",
+          "e) inclusão, significando que a pessoa pode gostar só de pão, só de carne ou pode gostar dos dois ao mesmo tempo."
+        ],
+        "correta": "e) inclusão, significando que a pessoa pode gostar só de pão, só de carne ou pode gostar dos dois ao mesmo tempo.",
+        "explicacao": "O conectivo 'ou' sozinho tem sentido de inclusão, permitindo uma ou ambas as possibilidades."
+      },
+      {
+        "pergunta": "(IFMA/2023) Considere as proposições compostas a seguir:<br>P: “Paulo vai ao IFMA e Paulo é carioca”;<br>Q: “Ou Paulo vai ao IFMA ou Paulo é carioca”.<br>Sabendo que as proposições P e Q têm o mesmo valor-verdade, ou seja, ambas são verdadeiras ou ambas são falsas, então, é correto afirmar que",
+        "alternativas": [
+          "a) Paulo vai ao IFMA.",
+          "b) Paulo é carioca.",
+          "c) Paulo não vai ao IFMA e Paulo não é carioca.",
+          "d) Paulo vai ao IFMA e Paulo não é carioca.",
+          "e) Paulo não vai ao IFMA e Paulo é carioca."
+        ],
+        "correta": "c) Paulo não vai ao IFMA e Paulo não é carioca.",
+        "explicacao": "p∧q e p∨q têm o mesmo valor lógico apenas na última linha da tabela, quando p e q são ambos falsos. Logo, ~p∧~q é verdadeiro."
+      },
+      {
+        "pergunta": "(CRM/V/2022) Admitindo que as proposições “Pedro é o pai de Anderson” e “Waldir é o pai de Pedro” são verdadeiras e que a proposição “Roseana é neta de Rodolfo” é falsa, julgue o item.<br>“Se Roseana é neta de Rodolfo, então Pedro é o pai de Anderson” é uma proposição falsa.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A condicional é r→p, com r=F e p=V, resultando em F→V = Verdadeiro, não Falso."
+      },
+      {
+        "pergunta": "(CRP 9/2022) Se é verdadeira a proposição “Se a psicologia não é o estudo da alma, então Poliana é psicóloga.”, então a proposição “Poliana é psicóloga.” é necessariamente verdadeira.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A condicional ~a→p é verdadeira em três casos: V→V, F→V, F→F. Portanto, p pode ser verdadeiro ou falso, não sendo necessariamente verdadeiro."
+      },
+      {
+        "pergunta": "(CRA PR/2022) Sendo p, q e r três proposições, julgue o item.<br>Se a proposição (pΛq)→r é falsa, então p e q são verdadeiras e r é falsa.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "(pΛq)→r é falsa apenas quando (pΛq) é V e r é F. (pΛq) é V apenas quando p e q são ambos V."
+      },
+      {
+        "pergunta": "(UNICAMP/2023) Considere falsa a seguinte afirmação:<br>Se eu almocei, então não estou com fome.<br>Com base nas informações apresentadas, é verdade que:",
+        "alternativas": [
+          "a) Eu não almocei.",
+          "b) Eu não estou com fome.",
+          "c) Eu não almocei e estou com fome.",
+          "d) Eu não almocei e não estou com fome.",
+          "e) Eu almocei e estou com fome."
+        ],
+        "correta": "e) Eu almocei e estou com fome.",
+        "explicacao": "a→~f é falsa apenas quando a=V e ~f=F, ou seja, a=V e f=V. Logo, a∧f (almocei e estou com fome) é verdadeiro."
+      },
+      {
+        "pergunta": "(Pref Betim/2022) Tendo-se como premissa que a proposição simples “agentes municipais são públicos” tenha valor falso, é CORRETO deduzir que o valor lógico da proposição “agentes municipais são públicos, logo devem ser concursados” é:",
+        "alternativas": [
+          "a) Falso.",
+          "b) Verdadeiro.",
+          "c) Inconclusivo.",
+          "d) Não se trata de uma proposição."
+        ],
+        "correta": "b) Verdadeiro.",
+        "explicacao": "A proposição é a condicional p→c (escrita como 'p, logo c'). Como p é Falso, a condicional é sempre verdadeira, independentemente do valor de c (F→V ou F→F)."
+      },
+      {
+        "pergunta": "(Pref Iraucuba/2022/adaptada) Considere a proposição a seguir.<br>“Quando Ana vai à escola de ônibus ou de carro, ela sempre leva um guarda-chuva e também dinheiro.”<br>Assinale a opção que expressa corretamente a proposição acima em linguagem da lógica formal, assumindo que:<br>P = “Ana vai à escola de ônibus”.<br>Q = “Ana vai à escola de carro”.<br>R = “Ana sempre leva um guarda-chuva”.<br>S = “Ana sempre leva dinheiro”.",
+        "alternativas": [
+          "a) PV(Q →(RAS))",
+          "b) (P→Q)VR",
+          "c) P→(QVR)",
+          "d) (PVQ)→(RAS)"
+        ],
+        "correta": "d) (PVQ)→(RAS)",
+        "explicacao": "A expressão 'Quando p, q' representa uma condicional. O antecedente é a disjunção PVQ e o consequente é a conjunção RAS."
+      },
+      {
+        "pergunta": "(CODHAB/2018) R: Se alguém estuda muitas horas sobre cálculo, então é aprovado em seu exame de cálculo.<br>Considerando a sentença apresentada acima, julgue o item que se segue.<br>A sentença R significa que estudar muitas horas sobre cálculo é condição necessária para ser aprovado em seu exame de cálculo.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "Na condicional e→a, 'e' (estudar) é a condição suficiente para 'a' (ser aprovado), não a necessária."
+      },
+      {
+        "pergunta": "(CEFET MG/2022) Considere a tirinha a seguir.<br><center>Disponível em http://clubes.obmep.org.br/blog/2021/07/a-filosofia-do-garfield/. Acesso em 20 fev. 2022.</center><br>Sobre a implicação lógica apresentada na tirinha, é correto afirmar que:",
+        "alternativas": [
+          "a) Existir é condição suficiente de pensar.",
+          "b) Pensar é condição suficiente de existir.",
+          "c) Pensar é condição necessária de existir.",
+          "d) Existir é condição necessária e suficiente de pensar.",
+          "e) Pensar é condição necessária e suficiente de existir."
+        ],
+        "correta": "b) Pensar é condição suficiente de existir.",
+        "explicacao": "A tirinha apresenta a condicional p→e (Penso, logo existo). 'Pensar' é condição suficiente para 'existir'."
+      },
+      {
+        "pergunta": "(PGE PE/2019) Se uma proposição na estrutura condicional — isto é, na forma p→q, em que p e q são proposições simples — for falsa, então o precedente será, necessariamente, falso.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A condicional é falsa apenas no caso V→F, onde o precedente (p) é verdadeiro, e não falso."
+      },
+      {
+        "pergunta": "(CM Maringá/2017) Uma proposição condicional tem valor falso se ambos, antecedente e consequente, forem falsos.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A condicional é falsa apenas no caso V→F. No caso F→F, a condicional é verdadeira."
+      },
+      {
+        "pergunta": "(CREF 3/2023) No que se refere à lógica proposicional, julgue o item.<br>A sentença “5+5=5 se, e somente se, 10+10=10” é verdadeira.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "p: '5+5=5' é Falsa. q: '10+10=10' é Falsa. A bicondicional p↔q é F↔F = Verdadeira."
+      },
+      {
+        "pergunta": "(CRA PR/2022) Sendo p, q e r três proposições, julgue o item.<br>Se p é uma proposição falsa, então p↔q é sempre verdadeira.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "Com p=Falso, p↔q será verdadeira se q também for Falso (F↔F=V), mas será falsa se q for Verdadeiro (F↔V=F). Portanto, não é sempre verdadeira."
+      },
+      {
+        "pergunta": "(MME/2013) A representação simbólica correta da proposição 'O homem é semelhante à mulher assim como o rato é semelhante ao elefante' é",
+        "alternativas": [
+          "a) P↔Q",
+          "b) P",
+          "c) PΛQ",
+          "d) PVQ",
+          "e) P→Q"
+        ],
+        "correta": "a) P↔Q",
+        "explicacao": "O conectivo 'assim como' une as duas proposições em uma bicondicional."
+      },
+      {
+        "pergunta": "(TRF1/2006/ADAPTADA) Se todos os nossos atos têm causa, então não há atos livres e se não há atos livres, então todos os nossos atos têm causa. Logo,",
+        "alternativas": [
+          "a) alguns atos não têm causa se não há atos livres.",
+          "b) todos os nossos atos têm causa se e somente se há atos livres.",
+          "c) todos os nossos atos têm causa se e somente se não há atos livres.",
+          "d) todos os nossos atos não têm causa se e somente se não há atos livres.",
+          "e) alguns atos são livres se e somente se todos os nossos atos têm causa."
+        ],
+        "correta": "c) todos os nossos atos têm causa se e somente se não há atos livres.",
+        "explicacao": "A frase é a bicondicional (p→q)∧(q→p), que é equivalente a p↔q, onde p='todos os nossos atos têm causa' e q='não há atos livres'."
+      },
+      {
+        "pergunta": "(IPE Saúde/2022) Considere que o valor lógico da sentença A é a falsidade, o valor lógico de B é a verdade e o valor lógico de C é a falsidade. Sobre isso, assinale V, se verdadeiro, ou F, se falso.<br>( ) (AΛB)→C<br>( ) (AVB)↔~C<br>( ) (~AVB)→C<br>A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+          "a) V – V – V.",
+          "b) V – V – F.",
+          "c) V – F – V.",
+          "d) F – V – F.",
+          "e) F – F – F."
+        ],
+        "correta": "b) V – V – F.",
+        "explicacao": "Com A=F, B=V, C=F:<br>1. (AΛB)→C = (FΛV)→F = F→F = V.<br>2. (AVB)↔~C = (FVV)↔~F = V↔V = V.<br>3. (~AVB)→C = (~FVV)→F = (VVV)→F = V→F = F."
+      },
+      {
+        "pergunta": "(DPE RS/2023) Sabe-se que a sentença:<br>“Se a camisa é preta e a calça é branca, então o cinto é marrom ou o sapato é marrom” é FALSA.<br>É correto afirmar que:",
+        "alternativas": [
+          "a) Se o cinto é marrom, então o sapato é marrom;",
+          "b) Se o sapato não é marrom, então a camisa não é preta;",
+          "c) Se a calça é branca, então o sapato é marrom;",
+          "d) Se a camisa é preta, então a calça não é branca;",
+          "e) Se a camisa é preta, então o cinto é marrom."
+        ],
+        "correta": "a) Se o cinto é marrom, então o sapato é marrom;",
+        "explicacao": "Para (pΛb)→(cVs) ser Falsa, (pΛb)=V e (cVs)=F. Logo p=V, b=V, c=F, s=F. A alternativa A é c→s = F→F = V (verdadeira)."
+      },
+      {
+        "pergunta": "(PM SP/2023) São logicamente verdadeiras as seguintes afirmações:<br>I. Eu sou casado ou eu não sou policial.<br>II. Eu não tenho filho e eu não sou casado.<br>A partir dessas informações, pode-se afirmar que",
+        "alternativas": [
+          "a) eu não sou casado, sou policial e não tenho filho.",
+          "b) eu não sou casado, não sou policial e não tenho filho.",
+          "c) eu sou casado, sou policial e tenho filho.",
+          "d) eu sou casado, não sou policial e tenho filho."
+        ],
+        "correta": "b) eu não sou casado, não sou policial e não tenho filho.",
+        "explicacao": "II: ~f∧~c é V, logo f=F e c=F.<br>I: c∨~p é V. Como c=F, ~p deve ser V, logo p=F.<br>Portanto, ~c=V, ~p=V, ~f=V."
+      },
+      {
+        "pergunta": "(PM BA/2020) Observe as duas proposições P e Q apresentadas a seguir.<br>P: Ana é engenheira.<br>Q: Bianca é arquiteta.<br>Considere que Ana é engenheira somente se Bianca é arquiteta e, assinale a alternativa correta.",
+        "alternativas": [
+          "a) Ana ser engenheira não implica Bianca ser arquiteta",
+          "b) Ana ser engenheira é condição suficiente para Bianca ser arquiteta",
+          "c) Uma condição necessária para Bianca ser arquiteta é Ana ser engenheira",
+          "d) Ana é engenheira se e somente se Bianca não é arquiteta",
+          "e) Uma condição necessária para Bianca ser arquiteta é Ana não ser engenheira"
+        ],
+        "correta": "b) Ana ser engenheira é condição suficiente para Bianca ser arquiteta",
+        "explicacao": "'P somente se Q' é o mesmo que P→Q. Na condicional P→Q, P é condição suficiente para Q."
+      },
+      {
+        "pergunta": "(FUNDATEC/PCRS/2026) São proposições as sentenças a seguir:<br>I. Brasília é a capital do Brasil.<br>II. 4 + 3 = 7.<br>III. Estude para ser aprovado!<br>IV. Todo número par é divisível por 2.<br>Quais estão corretas?",
+        "alternativas": [
+          "a) Apenas I e II.",
+          "b) Apenas I e IV.",
+          "c) Apenas II e III.",
+          "d) Apenas I, II e IV.",
+          "e) Apenas I, III e IV."
+        ],
+        "correta": "d) Apenas I, II e IV.",
+        "explicacao": "I: Proposição verdadeira.<br>II: Proposição verdadeira.<br>III: Sentença imperativa, não é proposição.<br>IV: Proposição verdadeira."
+      },
+      {
+        "pergunta": "(FUNATEC/Pref. V. do Mearim/2026) No estudo da Lógica Matemática, os princípios fundamentais garantem que proposições possam ser analisadas de forma precisa e sem contradições. Um desses princípios é o princípio da identidade, indispensável para a estabilidade do raciocínio lógico-formal. O princípio citado estabelece corretamente que:",
+        "alternativas": [
+          "a) Uma proposição lógica pode, em situações excepcionais, assumir valores lógicos distintos de verdadeiro ou falso.",
+          "b) Uma proposição lógica que é verdadeira permanece verdadeira, e uma proposição lógica que é falsa permanece falsa, enquanto se mantiverem as mesmas condições.",
+          "c) Toda proposição lógica deve assumir exclusivamente um dos valores verdadeiro ou falso, sendo vedada qualquer terceira possibilidade.",
+          "d) Uma proposição lógica não pode ser simultaneamente verdadeira e falsa, sob pena de violar a coerência do sistema lógico."
+        ],
+        "correta": "b) Uma proposição lógica que é verdadeira permanece verdadeira, e uma proposição lógica que é falsa permanece falsa, enquanto se mantiverem as mesmas condições.",
+        "explicacao": "O princípio da identidade afirma que uma proposição verdadeira é sempre verdadeira, e uma falsa é sempre falsa."
+      },
+      {
+        "pergunta": "(Instituto AVALIA/PCMS/2025) Em raciocínio lógico, uma proposição é uma sentença que pode ser classificada como verdadeira ou falsa, mas não como ambas simultaneamente. Qual das alternativas é uma proposição?",
+        "alternativas": [
+          "a) O céu é verde.",
+          "b) Feche a porta, por favor.",
+          "c) Parabéns pelo seu esforço!",
+          "d) Qual é o satélite natural do planeta Terra?",
+          "e) Eu sempre minto."
+        ],
+        "correta": "a) O céu é verde.",
+        "explicacao": "a) É uma oração declarativa que pode ser V ou F (no caso, F).<br>b) Sentença imperativa.<br>c) Sentença exclamativa.<br>d) Sentença interrogativa.<br>e) Paradoxo do mentiroso, não tem valor lógico único."
+      },
+      {
+        "pergunta": "(FGV/TJRS/2025) Com base no conceito lógico clássico de proposição, analise os itens a seguir.<br>I. Todo réu tem direito à ampla defesa e ao contraditório?<br>II. Apresente os documentos solicitados no prazo legal!<br>III. Testemunhas podem ser ouvidas sem a presença do juiz.<br>É proposição o que se indica em",
+        "alternativas": [
+          "a) I, II e III.",
+          "b) I e II, apenas.",
+          "c) I e III, apenas.",
+          "d) II e III, apenas.",
+          "e) III, apenas."
+        ],
+        "correta": "e) III, apenas.",
+        "explicacao": "I: Sentença interrogativa.<br>II: Sentença imperativa.<br>III: Proposição (oração declarativa)."
+      },
+      {
+        "pergunta": "(ABCP/Pref. Itanhandu/2025) Assinale a alternativa que, considerando-se o estudo do raciocínio lógico, representa uma sentença aberta:",
+        "alternativas": [
+          "a) Maria gosta de viajar e Antônio anda de bicicleta.",
+          "b) Eles saíram muito cedo da festa.",
+          "c) 7 + 2 > 5",
+          "d) Carlos é um excelente professor."
+        ],
+        "correta": "b) Eles saíram muito cedo da festa.",
+        "explicacao": "Sentença aberta é aquela cujo valor lógico depende de um elemento indefinido. O pronome 'eles' não determina de quem se trata."
+      },
+      {
+        "pergunta": "(QUADRIX/CORE SE/2025) Assinale a opção que apresenta uma proposição lógica.",
+        "alternativas": [
+          "a) Todo número primo é par.",
+          "b) A loira do banheiro existe?",
+          "c) Fujam da gangue do palhaço!",
+          "d) x – 37 > 1988.",
+          "e) Maradona é o maior jogador de futebol argentino de todos os tempos."
+        ],
+        "correta": "a) Todo número primo é par.",
+        "explicacao": "a) É uma proposição (falsa).<br>b) Interrogativa.<br>c) Exclamativa/Imperativa.<br>d) Sentença aberta (variável x).<br>e) Sentença subjetiva (juízo de valor)."
+      },
+      {
+        "pergunta": "(FUNDATEC/Pref. Porto Alegre/2025) Assinale a alternativa que apresenta uma proposição lógica.",
+        "alternativas": [
+          "a) A Alemanha é um país do continente americano.",
+          "b) Faça a lição de casa o mais rápido possível.",
+          "c) Ele possui uma coleção de moedas raras.",
+          "d) Existe vida fora da Terra?",
+          "e) Eu sou mentiroso."
+        ],
+        "correta": "a) A Alemanha é um país do continente americano.",
+        "explicacao": "a) Proposição (falsa).<br>b) Imperativa.<br>c) Sentença aberta (pronome 'ele').<br>d) Interrogativa.<br>e) Paradoxo (não tem valor lógico único)."
+      },
+      {
+        "pergunta": "(VUNESP/UNESP/2025) Das alternativas a seguir, assinale aquela que, corretamente, contém uma proposição lógica:",
+        "alternativas": [
+          "a) x + y = 1.",
+          "b) Você sabe o que é Lógica Matemática?",
+          "c) (∃ x ∈ ℝ) | x2 + 4 = 0.",
+          "d) Excelente!",
+          "e) x ≤ 12."
+        ],
+        "correta": "c) (∃ x ∈ ℝ) | x2 + 4 = 0.",
+        "explicacao": "O uso do quantificador existencial (∃) transforma a sentença aberta em uma proposição. As demais são sentenças abertas, interrogativas ou exclamativas."
+      },
+      {
+        "pergunta": "(CPCON UEPB/Pref. São Francisco-PB/2025) Considere as seguintes sentenças:<br>I – 1 < 0.<br>II – x = 5 ou x = 3.<br>III – x2 + 2x -1 = 0<br>IV – Existe um número real x que satisfaz x + 2 = 1.<br>São exemplos de proposições lógicas as sentenças apresentadas apenas em:",
+        "alternativas": [
+          "a) III e IV.",
+          "b) I, II e IV.",
+          "c) I, II e III.",
+          "d) II e III.",
+          "e) I e IV."
+        ],
+        "correta": "e) I e IV.",
+        "explicacao": "I: Proposição (falsa).<br>II: Sentença aberta (variável x).<br>III: Sentença aberta (variável x).<br>IV: Proposição (quantificador existencial)."
+      },
+      {
+        "pergunta": "(VUNESP/SEDUC SP/2025) Considere as seguintes sentenças:<br>I. √3 < 5<br>II. x2 + 5x = 0<br>III. existe x tal que x + 5 = 0.<br>IV. para todo x real, tem-se que x2 + 1 = 0.<br>É verdade que as sentenças apresentadas em",
+        "alternativas": [
+          "a) II e III são proposições lógicas.",
+          "b) I e IV são proposições lógicas.",
+          "c) I e III não são proposições lógicas.",
+          "d) I e II são proposições lógicas.",
+          "e) II e IV não são proposições lógicas."
+        ],
+        "correta": "b) I e IV são proposições lógicas.",
+        "explicacao": "I: Proposição (verdadeira).<br>II: Sentença aberta.<br>III: Proposição (quantificador existencial).<br>IV: Proposição (quantificador universal)."
+      },
+      {
+        "pergunta": "(CONSULPLAM/ISS BH/2024) Das frases a seguir, a única que representa uma proposição é:",
+        "alternativas": [
+          "a) Fernando pagou as flores.",
+          "b) Misael, por gentileza, venha até aqui.",
+          "c) Alguém viu as minhas chaves?",
+          "d) Não vou, não!",
+          "e) Que manhã maravilhosa!"
+        ],
+        "correta": "a) Fernando pagou as flores.",
+        "explicacao": "a) Proposição.<br>b) Imperativa.<br>c) Interrogativa.<br>d) Imperativa.<br>e) Exclamativa."
+      },
+      {
+        "pergunta": "(FUNDATEC/ISS Criciúma/2024) Assinale a proposição logicamente verdadeira.",
+        "alternativas": [
+          "a) Temos muito tempo para resolver a prova?",
+          "b) É proibido entrar.",
+          "c) A maior parte dos números primos são ímpares.",
+          "d) x + 6 = 8",
+          "e) O número –4 é maior do que –3."
+        ],
+        "correta": "c) A maior parte dos números primos são ímpares.",
+        "explicacao": "a) Interrogativa.<br>b) Imperativa.<br>c) Proposição verdadeira.<br>d) Sentença aberta.<br>e) Proposição falsa."
+      },
+      {
+        "pergunta": "(FUNDATEC/Pref. Criciúma/2024) Assinale a alternativa que apresenta uma proposição lógica.",
+        "alternativas": [
+          "a) x + 4 = 10.",
+          "b) Que dia é hoje?",
+          "c) 2 + 4 = 8.",
+          "d) Fale baixo.",
+          "e) O número 17 é um número primo?"
+        ],
+        "correta": "c) 2 + 4 = 8.",
+        "explicacao": "a) Sentença aberta.<br>b) Interrogativa.<br>c) Proposição (falsa).<br>d) Imperativa.<br>e) Interrogativa."
+      },
+      {
+        "pergunta": "(FUNDATEC/Pref. Criciúma/2024) Qual das sentenças a seguir é uma proposição lógica verdadeira?",
+        "alternativas": [
+          "a) O número 6 é primo.",
+          "b) A divisão de 8 por 2 tem como resultado 4.",
+          "c) Um quadrado é um polígono com 3 lados iguais.",
+          "d) A cidade do Rio de janeiro é a capital do Brasil.",
+          "e) Nunca pare de estudar."
+        ],
+        "correta": "b) A divisão de 8 por 2 tem como resultado 4.",
+        "explicacao": "a) Falsa (6 não é primo).<br>b) Verdadeira.<br>c) Falsa (quadrado tem 4 lados).<br>d) Falsa (capital é Brasília).<br>e) Imperativa (não é proposição)."
+      },
+      {
+        "pergunta": "(COPESE/UFT/2024) Na lógica proposicional clássica, só poderão ser consideradas verdadeiras proposições para as quais podemos atribuir um valor de verdade, isto é, podemos dizer que são verdadeiras ou falsas. Dessa forma, das frases a seguir, quantas podem ser consideradas como proposições lógicas?<br>I. Que Ferrari maravilhosa!<br>II. A água, em condições de atmosfera padrão, entra em ebulição a 100 graus Celsius.<br>III. Quantas horas são?<br>IV. O livro está sobre a mesa.<br>V. Feche a porta.<br>Assinale a alternativa CORRETA.",
+        "alternativas": [
+          "a) Apenas uma.",
+          "b) Apenas duas.",
+          "c) Três.",
+          "d) Quatro.",
+          "e) Todas as proposições."
+        ],
+        "correta": "b) Apenas duas.",
+        "explicacao": "I: Exclamativa.<br>II: Proposição.<br>III: Interrogativa.<br>IV: Proposição.<br>V: Imperativa."
+      },
+      {
+        "pergunta": "(FUNDATEC/PCRS/2026) Assinale a alternativa que apresenta uma proposição lógica simples.",
+        "alternativas": [
+          "a) 3x – 4 > 11.",
+          "b) Hoje é domingo.",
+          "c) As viaturas da polícia são brancas ou pretas.",
+          "d) O delegado é responsável pelo caso e pela apreensão.",
+          "e) Se um policial é escalado para um caso, então ele deve trabalhar no caso."
+        ],
+        "correta": "b) Hoje é domingo.",
+        "explicacao": "a) Sentença aberta.<br>b) Proposição simples.<br>c) Proposição composta ('ou').<br>d) Proposição composta ('e').<br>e) Proposição composta ('se...então')."
+      },
+      {
+        "pergunta": "(Legalle/Pref. Capão do Cipó/2025) Pode-se afirmar que as proposições podem ser simples, quando forem compostas de apenas uma sentença, e compostas, quando são compostas pela combinação de duas ou mais proposições simples. Assim, qual das alternativas apresenta uma proposição composta?",
+        "alternativas": [
+          "a) Capão do Cipó é um município pequeno, mas possui grandes áreas agrícolas.",
+          "b) A população de Capão do Cipó é composta por aproximadamente 4.000 habitantes.",
+          "c) A economia de Capão do Cipó é baseada principalmente na agricultura.",
+          "d) O clima predominante em Capão do Cipó é subtropical."
+        ],
+        "correta": "a) Capão do Cipó é um município pequeno, mas possui grandes áreas agrícolas.",
+        "explicacao": "a) Proposição composta (conectivo 'mas').<br>b) Simples.<br>c) Simples.<br>d) Simples."
+      },
+      {
+        "pergunta": "(CPCON UEPB/Pref. Nazarezinho/2025) Considerando a importância do estudo de proposições e conectivos lógicos, analise as assertivas a seguir.<br>I – Proposição é toda sentença declarativa, afirmativa, que expresse um pensamento de sentido completo cujo conteúdo pode ser tomado como verdadeiro (V), falso (F) ou indeterminado (I).<br>II – Uma proposição simples é aquela que não contém nenhuma outra proposição como parte integrante de si mesma.<br>III – O valor lógico de uma proposição será verdadeiro (V), se a proposição for verdadeira, ou falso (F), se a proposição for falsa.<br>IV – Fundamento elementar da lógica matemática, o “Princípio da Não-Contradição” estabelece que uma proposição pode ser verdadeira e falsa ao mesmo tempo.<br>É CORRETO o que se afirma apenas em:",
+        "alternativas": [
+          "a) I, II e III.",
+          "b) III e IV.",
+          "c) II e III.",
+          "d) I e IV.",
+          "e) I, II e IV."
+        ],
+        "correta": "c) II e III.",
+        "explicacao": "I: Errado, não existe valor 'indeterminado'.<br>II: Correto.<br>III: Correto.<br>IV: Errado, é o oposto."
+      },
+      {
+        "pergunta": "(FUNDATEC/Pref. Agudo/2026) Considerando o conceito de proposição simples, entendida como aquela que pode ser classificada como verdadeira ou falsa, mas não ambas simultaneamente, analise as assertivas abaixo:<br>I. O servidor Carlos tem mais de 10 anos de serviço público.<br>II. Todo servidor concursado tem estabilidade.<br>III. A gratificação por produtividade será paga este mês.<br>IV. Se o servidor faltar sem justificativa, ele será advertido.<br>V. O setor de protocolo funciona das 8h às 17h.<br>Quais proposições acima NÃO são simples?",
+        "alternativas": [
+          "a) Apenas IV.",
+          "b) Apenas I e III.",
+          "c) Apenas II e V.",
+          "d) Apenas III e IV.",
+          "e) Apenas I, II e III."
+        ],
+        "correta": "a) Apenas IV.",
+        "explicacao": "IV é uma proposição composta (condicional). As demais são proposições simples."
+      },
+      {
+        "pergunta": "(Instituto AOCP/MPE RS/2025) O raciocínio lógico-matemático é baseado em proposições que são sentenças declarativas ou enunciados verbais que, gramaticalmente, têm sentido completo. Então, a proposição 'Em Curitiba, ontem, o sol nasceu às 6h20min e se pôs às 18h28min' é do tipo",
+        "alternativas": [
+          "a) proposição simples e fechada.",
+          "b) proposição simples e aberta.",
+          "c) proposição composta e fechada.",
+          "d) proposição composta e aberta.",
+          "e) proposição simples."
+        ],
+        "correta": "c) proposição composta e fechada.",
+        "explicacao": "A proposição é composta (conectivo 'e') e fechada (sujeitos determinados, sem variáveis)."
+      },
+      {
+        "pergunta": "(FUNDATEC/Pref. Criciúma/2024) A negação da proposição “Kris estudou Português para o concurso” é:",
+        "alternativas": [
+          "a) Talvez Kris tenha estudado Português para o concurso.",
+          "b) Kris não estudou Português para o concurso.",
+          "c) Pode ser que Kris não tenha estudado Português para o concurso.",
+          "d) Talvez Kris não tenha estudado Português para o concurso.",
+          "e) Kris estudou Português, mas não para o concurso."
+        ],
+        "correta": "b) Kris não estudou Português para o concurso.",
+        "explicacao": "A negação é obtida inserindo o 'não' antes do verbo."
+      },
+      {
+        "pergunta": "(FUNDATEC/Pref. Restinga Sêca/2024) Assinale a alternativa que apresenta uma proposição simples.",
+        "alternativas": [
+          "a) Se Joana é loira então Marcos é moreno.",
+          "b) Ela é muito linda.",
+          "c) Será que Joana vai pular carnaval?",
+          "d) Joana não é loira.",
+          "e) Joana, pinte o cabelo, agora!"
+        ],
+        "correta": "d) Joana não é loira.",
+        "explicacao": "a) Composta.<br>b) Sentença aberta.<br>c) Interrogativa.<br>d) Simples.<br>e) Imperativa/Exclamativa."
+      },
+      {
+        "pergunta": "(CEBRASPE/ANA/2024) P1: Eu não tenho meios para contatar socorro.<br>A negação de P1 pode ser corretamente expressa por “Eu tenho meios para não contatar socorro”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A negação correta é 'Eu tenho meios para contatar socorro'. O item nega a oração subordinada, não a principal."
+      },
+      {
+        "pergunta": "(CEBRASPE/PCPE/2024) P: “Meu celular vale muito mais que o que me acusam de tentar roubar.”<br>A negação da proposição P pode ser expressa corretamente por:",
+        "alternativas": [
+          "a) “Meu celular vale muito menos que o que me acusam de tentar roubar.”.",
+          "b) “Meu celular não vale muito mais que o que me acusam de tentar roubar.”.",
+          "c) “Meu celular não vale pouco menos que o que não me acusam de não tentar não roubar.”.",
+          "d) “Meu celular vale pouco mais que o que me acusam de tentar roubar.”.",
+          "e) “Meu celular vale muito mais que o que não me acusam de tentar roubar.”."
+        ],
+        "correta": "b) “Meu celular não vale muito mais que o que me acusam de tentar roubar.”.",
+        "explicacao": "A negação é obtida negando-se o verbo da oração principal: 'Meu celular não vale muito mais...'"
+      },
+      {
+        "pergunta": "(QUADRIX/CRMV RJ/2022) Em relação a estruturas lógicas e à lógica de argumentação, julgue o item a seguir.<br>A negação de “O canguru vermelho é o maior marsupial existente” é “O canguru vermelho é o menor marsupial existente”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "O uso de antônimo é incorreto, pois não abarca todas as possibilidades (ex: tamanho mediano). A negação correta é 'não é o maior'."
+      },
+      {
+        "pergunta": "(QUADRIX/CRM SC/2022) Com relação a estruturas lógicas, julgue o item.<br>“Joinville é a cidade mais bonita do mundo” é a negação de “Florianópolis é a cidade mais bonita do mundo”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A negação é 'Florianópolis não é a cidade mais bonita do mundo'. A alteração da cidade não nega a proposição."
+      },
+      {
+        "pergunta": "(QUADRIX/CRECI 11/2022) Na aula de artes visuais, Bárbara aprendeu que as sete cores do arco-íris são: vermelho; laranja; amarelo; verde; azul; anil; e violeta. Na mesma aula, ela também aprendeu que o azul, o verde, o anil e o violeta são cores frias e que o vermelho, o laranja e o amarelo são cores quentes.<br>Com base nesse caso hipotético, julgue o item.<br>A negação da proposição “Azul é a cor mais quente” é “Azul é a cor mais fria”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "O uso de antônimo é incorreto. 'Azul não é a cor mais quente' é a negação correta."
+      },
+      {
+        "pergunta": "(CEBRASPE/MP TECSC/2022)<br>P1: Sou mau, e isso é bom.<br>P2: Nunca serei bom, e isso não é mau.<br>Dado o contexto em que se apresentam, as afirmações 'isso é bom', presente em P1, e 'isso não é mau', presente em P2, são proposições logicamente equivalentes.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A equivalência se baseia na negação por antônimo ('bom' vs 'mau'), o que é incorreto. A dupla negação ~(~p) não se aplica aqui."
+      },
+      {
+        "pergunta": "(CEBRASPE/MP TECSC/2022)<br>P: Não quero ser ninguém além de mim.<br>A negação da proposição P pode ser expressa por “quero ser alguém além de mim”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Certo",
+        "explicacao": "Na língua portuguesa, 'Não quero ser ninguém' tem sentido de 'Não quero ser alguém'. A negação é obtida removendo-se o 'não'."
+      },
+      {
+        "pergunta": "(CEBRASPE/MP TCESC/2022) “O fiador não toma uma decisão que não prejudica as finanças do devedor.” é uma maneira apropriada de negar a proposição “O fiador toma uma decisão que prejudica as finanças do devedor.”.",
+        "alternativas": [
+          "Certo",
+          "Errado"
+        ],
+        "correta": "Errado",
+        "explicacao": "A negação correta é 'O fiador não toma uma decisão que prejudica as finanças do devedor'. O item nega a oração subordinada."
+      },
+      {
+        "pergunta": "(FUNATEC/Pref. V. Mearim/2026) Dada duas proposições lógicas p e q, pode-se afirmar que elas são uma conjunção quando se apresentarem da seguinte forma:",
+        "alternativas": [
+          "a) p → q",
+          "b) p ∧ q",
+          "c) p ∨ q",
+          "d) p ↔ q"
+        ],
+        "correta": "b) p ∧ q",
+        "explicacao": "A conjunção é representada pelo símbolo '∧'."
+      },
+      {
+        "pergunta": "(FUNDATEC/CREF2/2026) Considerando as proposições abaixo, assinale a alternativa que corretamente interpreta a proposição composta a seguir:<br>p: 'Hoje está chovendo'.<br>q: 'Vou levar guarda-chuva'.<br>(¬p) V q",
+        "alternativas": [
+          "a) Hoje não está chovendo ou não vou levar guarda-chuva.",
+          "b) Se hoje não está chovendo, então vou levar guarda-chuva.",
+          "c) Hoje está chovendo e vou levar guarda-chuva.",
+          "d) Vou levar guarda-chuva se, e somente se, hoje não está chovendo.",
+          "e) Hoje não está chovendo ou vou levar guarda-chuva."
+        ],
+        "correta": "e) Hoje não está chovendo ou vou levar guarda-chuva.",
+        "explicacao": "(¬p) V q é a disjunção inclusiva de 'não p' e 'q'."
+      },
+      {
+        "pergunta": "(FUNDATEC/PCRS/2026) Considerando as proposições simples p e q, a proposição composta a seguir é verdadeira quando:<br>(p v q) ∧ ¬p",
+        "alternativas": [
+          "a) p é verdadeiro e q é verdadeiro.",
+          "b) p é verdadeiro e q é falso.",
+          "c) p é falso e q é verdadeiro.",
+          "d) p é falso e q é falso.",
+          "e) p é verdadeiro, independentemente de q."
+        ],
+        "correta": "c) p é falso e q é verdadeiro.",
+        "explicacao": "Para a conjunção ser V, ¬p=V (p=F) e (pVq)=V. Com p=F, (F V q)=V implica q=V."
+      },
+      {
+        "pergunta": "(FEPESE/Pref. Concórdia/2026) Considere a proposição composta: P: 'X ou Y', onde:<br>X: 'Paula é engenheira'.<br>Y: 'Se Roberto é advogado, então Lucas é médico.'<br>Sabe-se que a proposição P é falsa.<br>Com base nisso, é correto concluir que:",
+        "alternativas": [
+          "a) Paula não é engenheira; Roberto não é advogado; Lucas não é médico",
+          "b) Paula é engenheira; Roberto é advogado; Lucas não é médico",
+          "c) Paula é engenheira; Roberto não é advogado; Lucas é médico",
+          "d) Paula não é engenheira; Roberto é advogado; Lucas é médico",
+          "e) Paula não é engenheira; Roberto é advogado; Lucas não é médico"
+        ],
+        "correta": "e) Paula não é engenheira; Roberto é advogado; Lucas não é médico",
+        "explicacao": "P é falsa, logo X=F e Y=F.<br>X=F: ~X='Paula não é engenheira' é V.<br>Y=F: condicional r→l, para ser F, r=V e l=F. Logo, 'Roberto é advogado' (V) e 'Lucas não é médico' (V)."
+      },
+      {
+        "pergunta": "(FGV/ALEGO/2026) Considere como verdadeiras as afirmações:<br>• O carro é preto:<br>• A moto não é branca:<br>• A bicicleta é vermelha.<br>É correto concluir que",
+        "alternativas": [
+          "a) Se o carro é preto e a moto não é branca, então a bicicleta não é vermelha.",
+          "b) Se o carro não é preto ou a moto não é branca, então a bicicleta não é vermelha.",
+          "c) Se a bicicleta não é vermelha ou o carro é preto, então a moto é branca.",
+          "d) Se a bicicleta não é vermelha e o carro é preto, então a moto é branca.",
+          "e) Se a moto não é branca, então o carro não é preto e a bicicleta é vermelha."
+        ],
+        "correta": "d) Se a bicicleta não é vermelha e o carro é preto, então a moto é branca.",
+        "explicacao": "c=V, m=F, b=V.<br>d) (~b∧c)→m = (F∧V)→F = F→F = V (verdadeira). As demais resultam em Falso."
+      },
+      {
+        "pergunta": "(FGV/TJRS/2025) Considere a seguinte situação:<br>Um advogado informa ao seu cliente que seguirá defendendo seu caso se, e somente se, ele se comprometer a seguir à risca as suas orientações.<br>Se representarmos essa situação por meio das proposições lógicas 'o advogado defende o cliente' e 'o cliente segue as orientações', o conectivo lógico que descreve corretamente a relação entre elas é o de",
+        "alternativas": [
+          "a) negação.",
+          "b) condicionalidade.",
+          "c) disjunção.",
+          "d) bicondicionalidade.",
+          "e) conjunção."
+        ],
+        "correta": "d) bicondicionalidade.",
+        "explicacao": "A expressão 'se, e somente se' caracteriza o conectivo bicondicional (↔)."
+      },
+      {
+        "pergunta": "(IBGP/Pref. Monte Negro/2025) Considere a proposição: “Se Gilmar corre e Priscila treina, então Rafael nada.”<br>A representação simbólica para a proposição encontra-se CORRETAMENTE expressa em:",
+        "alternativas": [
+          "a) p → q",
+          "b) (p ∧ q) → r",
+          "c) (p ∨ q) → r",
+          "d) p ↔ q"
+        ],
+        "correta": "b) (p ∧ q) → r",
+        "explicacao": "p='Gilmar corre', q='Priscila treina', r='Rafael nada'. A frase é uma condicional cujo antecedente é a conjunção p∧q e o consequente é r."
+      },
+      {
+        "pergunta": "(IBFC/UPFB/2025) Quanto aos conceitos básicos sobre Conectivos Lógicos, analise as afirmativas abaixo.<br>I. Disjunção é verdadeira se pelo menos uma das proposições for falsa.<br>II. A negação de uma proposição inverte seu valor lógico.<br>III. Conjunção é verdadeira se ambas as proposições forem verdadeiras.<br>Estão corretas as afirmativas:",
+        "alternativas": [
+          "a) I apenas",
+          "b) I e II apenas",
+          "c) II e III apenas",
+          "d) I e III apenas",
+          "e) I, II e III"
+        ],
+        "correta": "c) II e III apenas",
+        "explicacao": "I: Errado, a disjunção é verdadeira se pelo menos uma for verdadeira.<br>II: Correto.<br>III: Correto."
+      },
+      {
+        "pergunta": "(Instituto AOCP/MPE RS/2025) As proposições são sentenças declarativas, não sendo exclamativas nem interrogativas, que podem ser classificadas como verdadeiras ou falsas. Dessa forma, a partir de duas proposições p e q, é possível formar uma nova proposição, denominada conjunção, representada por 'p e q', que também pode ser classificada como verdadeira ou falsa. Com base nessas informações e nos conhecimentos de raciocínio lógico-matemático, assinale a alternativa correta.",
+        "alternativas": [
+          "a) A conjunção 'p e q' será verdadeira se a proposição p for falsa e a proposição q for verdadeira.",
+          "b) A conjunção 'p e q' será verdadeira se somente uma das duas proposições, p ou q, for verdadeira.",
+          "c) A conjunção 'p e q' será verdadeira se ambas as proposições p e q forem falsas.",
+          "d) A conjunção 'p e q' será verdadeira se ambas as proposições p e q forem verdadeiras.",
+          "e) A conjunção 'p e q' será verdadeira se a proposição p for verdadeira e a proposição q for falsa."
+        ],
+        "correta": "d) A conjunção 'p e q' será verdadeira se ambas as proposições p e q forem verdadeiras.",
+        "explicacao": "A conjunção (p∧q) só é verdadeira quando p e q são ambos verdadeiros."
+      },
+      {
+        "pergunta": "(FUNATEC/Pref. J. Vieiras/2025) Observe a seguinte proposição lógica:<br>'Ou Maria é magra ou João é fraco.'<br>Na tabela verdade podemos considerar que o tipo de conectivo lógico presente na proposição apresentada, poderá receber as seguintes validades lógicas, exceto:",
+        "alternativas": [
+          "a) Se P é verdade e Q é Falso, então a proposição apresentada será falsa.",
+          "b) Se P é falso e Q é verdade, então a proposição apresentada será verdadeira.",
+          "c) Se P é falso e Q é falso, então a proposição apresentada será falsa.",
+          "d) Se P é verdade e Q é verdade, então a proposição apresentada será falsa."
+        ],
+        "correta": "a) Se P é verdade e Q é Falso, então a proposição apresentada será falsa.",
+        "explicacao": "A proposição é uma disjunção exclusiva (∨). V ∨ F = V (verdadeira), não falsa."
+      },
+      {
+        "pergunta": "(FUNDATEC/GHC/2025) Considere as seguintes proposições e assinale a alternativa correta.<br>p: 4³ = 12<br>q: 6 × 9 = 54<br>r: √121 = 11",
+        "alternativas": [
+          "a) p ∧ q = V",
+          "b) r → p = V",
+          "c) ~r ∧ q = V",
+          "d) r ↔ q = V",
+          "e) q → p = V"
+        ],
+        "correta": "d) r ↔ q = V",
+        "explicacao": "p=F, q=V, r=V.<br>d) r↔q = V↔V = V (verdadeira). As demais são Falsas."
+      },
+      {
+        "pergunta": "(FUNDATEC/GHC/2025) Em relação às operações lógicas com proposições, assinale a alternativa cujo valor lógico final seja verdadeiro.",
+        "alternativas": [
+          "a) Se o dobro de dois é quatro, então o triplo de cinco é cento e vinte e cinco.",
+          "b) Ou quatro mais dois é cinco ou sete vezes três é vinte.",
+          "c) O quadrado de dez é cem e o quádruplo de cinco é vinte e cinco.",
+          "d) Nove vezes cinco é trinta e cinco ou oito vezes quatro é trinta e seis.",
+          "e) O triplo de seis é dezenove se, e somente se, o quadrado de três é seis."
+        ],
+        "correta": "e) O triplo de seis é dezenove se, e somente se, o quadrado de três é seis.",
+        "explicacao": "a) V→F = F.<br>b) F∨F = F.<br>c) V∧F = F.<br>d) F∨F = F.<br>e) F↔F = V."
+      },
+      {
+        "pergunta": "(CPCON UEPB/Pref. Nazarezinho/2025) Considerando VL a sigla para valor lógico, analise a proposição composta P(p, q) para os casos de VL(p) = VL(q) = V e VL(p) = VL(q) = F, em que:<br>P(p, q) = (~(p ∧ q) ∨ (~p)) → (~p ∨ ~q)<br>Assinale a alternativa correspondente aos valores lógicos encontrados, respectivamente.",
+        "alternativas": [
+          "a) F e V.",
+          "b) V e F.",
+          "c) V e V.",
+          "d) F e F.",
+          "e) Indeterminado."
+        ],
+        "correta": "c) V e V.",
+        "explicacao": "Para p=V,q=V: (~(V) ∨ F) → (F ∨ F) = (F ∨ F) → F = F → F = V.<br>Para p=F,q=F: (~(F) ∨ V) → (V ∨ V) = (V ∨ V) → V = V → V = V."
+      },
+      {
+        "pergunta": "(Instituto AOCP/CODERN/2025) Considere a proposição condicional 'Se o alarme de incêndio dispara, então o protocolo de evacuação é ativado'. Sabendo que o protocolo de evacuação não foi ativado, pode-se concluir logicamente que",
+        "alternativas": [
+          "a) o alarme de incêndio disparou.",
+          "b) o protocolo de evacuação é opcional.",
+          "c) o alarme disparou e o protocolo não foi ativado.",
+          "d) o alarme de incêndio não disparou.",
+          "e) o alarme disparou e o protocolo foi ativado."
+        ],
+        "correta": "d) o alarme de incêndio não disparou.",
+        "explicacao": "Temos a condicional α→p verdadeira e ~p verdadeiro (p=F). Para α→p ser V com p=F, α deve ser F. Logo, ~α='o alarme não disparou' é V."
+      },
+      {
+        "pergunta": "(FEPESE/Pref. Brusque/2025) Sabe-se que:<br>Se eu estudar bastante, então tirarei uma boa nota.<br>Com base nessa afirmação, pode-se concluir corretamente que",
+        "alternativas": [
+          "a) Estudar bastante é condição suficiente para tirar uma boa nota.",
+          "b) Tirar uma boa nota é condição suficiente para estudar bastante.",
+          "c) Tirar uma boa nota implica que eu não estudei bastante.",
+          "d) Se eu tirar uma boa nota, então não estudei bastante.",
+          "e) Se eu não tirar uma boa nota, então estudei bastante."
+        ],
+        "correta": "a) Estudar bastante é condição suficiente para tirar uma boa nota.",
+        "explicacao": "Na condicional e→n, 'e' (estudar) é condição suficiente para 'n' (tirar boa nota)."
+      },
+      {
+        "pergunta": "(FUNDATEC/ISS Criciúma/2024) Assinale a alternativa que apresenta uma proposição lógica composta.",
+        "alternativas": [
+          "a) A música clássica é a música mais antiga do mundo.",
+          "b) O número 5 é primo e múltiplo de 1.120.",
+          "c) Ler é abrir a mente para a imaginação.",
+          "d) x + 5 = 84 – 79.",
+          "e) Quantas vagas há para o cargo de Técnico Administrativo e Ocupacional?"
+        ],
+        "correta": "b) O número 5 é primo e múltiplo de 1.120.",
+        "explicacao": "A proposição é composta pelo conectivo 'e' (conjunção)."
+      },
+      {
+        "pergunta": "(IBADE/PRODEST ES/2024) Considere as proposições a seguir:<br>p: 'O sol está brilhando'.<br>q: 'Está um dia ensolarado'.<br>Dessa forma, é correto afirmar que a proposição composta ~pV(pΛ~q) equivale a:",
+        "alternativas": [
+          "a) O sol não está brilhando ou o sol está brilhando e não está um dia ensolarado.",
+          "b) O sol está brilhando ou o sol está brilhando e não está um dia ensolarado.",
+          "c) O sol não está brilhando e o sol está brilhando ou não está um dia ensolarado.",
+          "d) O sol está brilhando e está um dia ensolarado.",
+          "e) O sol não está brilhando."
+        ],
+        "correta": "a) O sol não está brilhando ou o sol está brilhando e não está um dia ensolarado.",
+        "explicacao": "~p: 'Sol não está brilhando'. pΛ~q: 'Sol está brilhando e não está um dia ensolarado'. A proposição é a disjunção das duas."
+      },
+      {
+        "pergunta": "(FUNDATEC/ISS Criciúma/2024) Sejam as proposições lógicas p e q a seguir:<br>p: Eduardo é inteligente.<br>q: Eduardo é estudioso.<br>Assinale alternativa que representa, em linguagem simbólica, a proposição lógica composta: “Eduardo não é inteligente, então é estudioso”.",
+        "alternativas": [
+          "a) p ~ q.",
+          "b) p ~ q.",
+          "c) ~ p Λ q",
+          "d) ~ p V ~ q.",
+          "e) ~ p → q."
+        ],
+        "correta": "e) ~ p → q.",
+        "explicacao": "'Eduardo não é inteligente' é ~p. 'então' é o conectivo condicional (→). 'é estudioso' é q. Portanto, ~p→q."
+      },
+      {
+        "pergunta": "(Instituto AOCP/MGI/2024) Por trás de uma extensa quantidade de linhas de programação de certo equipamento, há um comando que, traduzido para a língua portuguesa, poderia ser lido como “Se o usuário apertar o botão verde, imprima”. Naturalmente, considerando esse único comando, pode-se dizer, logicamente, que tal sentença só é falsa no caso em que",
+        "alternativas": [
+          "a) o usuário não aperta o botão verde e o equipamento não imprime.",
+          "b) o usuário não aperta o botão verde e o equipamento imprime.",
+          "c) o usuário aperta o botão verde e o equipamento imprime.",
+          "d) o usuário aperta o botão verde e o equipamento não imprime.",
+          "e) o usuário aperta um botão vermelho e o equipamento imprime."
+        ],
+        "correta": "d) o usuário aperta o botão verde e o equipamento não imprime.",
+        "explicacao": "A condicional u→e é falsa apenas quando u=V e e=F, ou seja, aperta o verde (V) e não imprime (F)."
+      },
+      {
+        "pergunta": "(IBFC/Pref. Fortaleza/2024) Apresenta-se a seguinte Tabela-Verdade:<br>P Q P→Q<br>V V ?<br>V F ?<br>F V ?<br>F F ?<br>Assinale a alternativa que apresenta a sequência correta de cima para baixo dos valores da coluna P → Q nesta Tabela-Verdade.",
+        "alternativas": [
+          "a) F-F-V-V",
+          "b) V-V-F-F",
+          "c) F-V-F-V",
+          "d) V-F-F-F",
+          "e) V-F-V-V"
+        ],
+        "correta": "e) V-F-V-V",
+        "explicacao": "A condicional é falsa apenas no caso V→F. Logo, a sequência é V (V→V), F (V→F), V (F→V), V (F→F)."
       }
     ],
 
