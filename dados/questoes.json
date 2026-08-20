@@ -1605,7 +1605,7 @@
         "explicacao": "A letra “c” é nosso gabarito, e descreve perfeitamente a Letra de Câmbio (que não tem relação com moeda estrangeira)."
       },
       {
-        "pergunta": "(2018/CESGRANRIO - Técnico Científico (BASA)/Tecnologia da Informação/2018 O mercado financeiro capta recursos junto ao público, mediante a emissão de diversos títulos de crédito, diferenciados por características, tais como o tipo de emissor (bancos, entidades de crédito e financiamento, governos, etc.), formas de remuneração (renda fixa ou variável), dentre outras. Existe, por exemplo, um título de renda fixa, emitido pelas sociedades de crédito, financiamento e investimento (“financeiras”), destinado à captação de recursos que serão utilizados, sobretudo, no financiamento de operações de crédito entre financiadoras e comerciantes.<br>O título descrito acima é o(a)",
+        "pergunta": "(2018/CESGRANRIO - Técnico Científico (BASA)/Tecnologia da Informação/2018) O mercado financeiro capta recursos junto ao público, mediante a emissão de diversos títulos de crédito, diferenciados por características, tais como o tipo de emissor (bancos, entidades de crédito e financiamento, governos, etc.), formas de remuneração (renda fixa ou variável), dentre outras. Existe, por exemplo, um título de renda fixa, emitido pelas sociedades de crédito, financiamento e investimento (“financeiras”), destinado à captação de recursos que serão utilizados, sobretudo, no financiamento de operações de crédito entre financiadoras e comerciantes.<br>O título descrito acima é o(a)",
         "alternativas": ["a) certificado de depósito bancário (CDB)", 
         "b) título do Tesouro Nacional", 
         "c) letra financeira do Tesouro (LFT)", 
@@ -2896,7 +2896,7 @@
         "d) Auditabilidade, Conformidade, Independência e Distribuição;", 
         "e) Automação, Concorrência, Integridade e Distribuição."],
         "correta": "b) Atomicidade, Consistência, Isolamento e Durabilidade;",
-        "explicacao": "<br>[A] – Atomicidade <br>[C] – Consistência<br>[I] – Isolamento<br>[D] – Durabilidade"
+        "explicacao": "Vejamos quais seriam as propriedades de transações: <br>[A]tomicidade = As transações devem ser executadas de forma integral ou não devem ser executadas de modo algum. <br>[C]onsistência = Cada transação deve transformar o Banco de Dados de um estado consistente para outro estado igualmente consistente. <br>[I]solamento = É assegurado que as transações não sejam influenciadas pelas ações simultâneas umas das outras. <br>[D]urabilidade = Os efeitos de uma transação devem ser mantidos, mesmo diante de interrupções de energia ou ocorrência de erros."
       },
       {
         "pergunta": "(FGV / MPE-AL– 2018) O conjunto de programas responsável pelo gerenciamento de uma base de dados e que, entre outras funções, suporta uma linguagem de consulta, gera relatórios e disponibiliza uma interface para que os seus clientes possam incluir, alterar ou consultar dados, é chamado de:",
@@ -2906,7 +2906,7 @@
         "d) Sistema de Suporte à Decisão (SSD).", 
         "e) Sistema Gerenciador de Bancos de Dados (SGBD)."],
         "correta": "e) Sistema Gerenciador de Bancos de Dados (SGBD).",
-        "explicacao": "O conjunto de programas responsável pelo gerenciamento de uma base de dados é o Sistema Gerenciador de Bancos de Dados (SGBD)."
+        "explicacao": "Perceba que o conjunto de programas é o SGBD, presente na alternativa E. O banco de dados relacional é um conjunto de dados interrelacionados estruturados de acordo com o modelo relacional (será visto ainda nesta aula). Dicionários de dados são os metadados ou catálogo de dados que apresenta a descrição dos dados armazenados. Modelo Entidade Relacionamento é um modelo de dados de alto nível usado para descrever quais os dados serão armazenados no banco de dados usando elementos gráficos. Já os sistemas de suporte à decisão procuram tratar os dados para auxiliar na tomada de decisão."
       },
       {
         "pergunta": "(FGV / Prefeitura de Paulínia - SP – 2016) A execução de transações de bancos de dados deve observar um conjunto de propriedades, cuja finalidade é a manutenção da integridade dos dados armazenados nas tabelas. Assinale a opção que apresenta as propriedades usualmente implementadas nos sistemas gerenciadores de bancos de dados:",
@@ -3577,7 +3577,7 @@
         "explicacao": "(a) Correto, o retângulo representa uma entidade; (b) Errado, o cilindro representa um banco de dados; (c) Errado, o losango representa um relacionamento; (d) Errado, não existe esse símbolo no Diagrama Entidade-Relacionamento; (e) Errado, não existe esse símbolo no Diagrama EntidadeRelacionamento;"
       },
       {
-        "pergunta": "(CESPE / MEC – 2015) Considerando a figura apresentada, que ilustra um modelo entidaderelacionamento, julgue o item a seguir.<br><img src='../dados/imgs/questao_bancodedados_2.png' alt='imagem da questão'><br>O atributo Data está representado corretamente nesse modelo, que habilita o uso de atributo em relacionamentos.",
+        "pergunta": "(CESPE / MEC – 2015) Considerando a figura apresentada, que ilustra um modelo entidade-relacionamento, julgue o item a seguir.<br><img src='../dados/imgs/questao_bancodedados_2.png' alt='imagem da questão'><br>O atributo Data está representado corretamente nesse modelo, que habilita o uso de atributo em relacionamentos.",
         "alternativas": ["Certo", 
         "Errado"],
         "correta": "Certo",
@@ -5045,12 +5045,333 @@
         ],
         "correta": "b) slice e dice",
         "explicacao": "Slice é a operação que corta o cubo mantendo a mesma perspectiva de visualização de dados, enquanto Dice é a operação que extrai um subcubo e muda a perspectiva de visão."
+      },
+      {
+        "pergunta": "(Unifil - 2023 - Analista (Pref Faz RG)/Sistemas) Ao pesquisar os dados armazenados em um banco de dados de uma determinada empresa, foi descoberto que existem duas motos cadastradas com a mesma placa. Nesse caso, tem-se um problema de",
+        "alternativas": [
+          "a) redundância.",
+          "b) consistência",
+          "c) integridade.",
+          "d) atomicidade."
+        ],
+        "correta": "a) redundância.",
+        "explicacao": "A redundância ocorre quando há repetição desnecessária de informações no banco de dados. No caso mencionado, a mesma placa está sendo cadastrada mais de uma vez, o que representa redundância de dados. A resposta correta, portanto, é: A) redundância."
+      },
+      {
+        "pergunta": "(ÓRGÃO: )TJ-AP/2014 PROVA: ANALISTA JUDICIÁRIO - BANCO DE DADOS - DBA) A redundância controlada de dados em um sistema de banco de dados ocorre quando",
+        "alternativas": [
+          "a) um programa está ciente da múltipla representação de uma dada informação e garante o sincronismo entre as diversas representações.",
+          "b) a responsabilidade pela manutenção do sincronismo entre as múltiplas representações de uma dada informação é compartilhada entre o programa e o usuário.",
+          "c) os dados mais importantes são duplicados a cada backup do sistema, visando aumentar a garantia da recuperação da informação em caso de problemas.",
+          "d) a responsabilidade pela manutenção do sincronismo entre as múltiplas representações de uma dada informação é do usuário.",
+          "e) um programa está ciente da múltipla representação de uma dada informação, mas não garante o sincronismo entre as diversas representações."
+        ],
+        "correta": "a) um programa está ciente da múltipla representação de uma dada informação e garante o sincronismo entre as diversas representações.",
+        "explicacao": "Nesta questão vamos entender o que está sendo cobrado antes de avaliarmos as alternativas. Em primeiro lugar, precisamos lembrar que o SGBD vai controlar a redundância dentro do banco de dados. Esse controle é feito quando diferentes usuários compartilham a mesma informação. <br>Suponha uma tabela de endereços de clientes em um banco comercial. Todos os setores do banco podem fazer uso desta informação. A área de investimento pode mandar o extrato das suas aplicações, o setor de cartão de crédito pode enviar sua fatura e o relacionamento com o cliente pode te enviar um cartão de feliz aniversário. A importância deste ponto único de contato é verificada quando a cliente muda de endereço, a atualização da tabela vai ser efetiva para os diferentes usuários da informação. <br>Agora vamos analisar as alternativas, ao ler cada uma delas, podemos observar que no SGBD um programa deve estar ciente da múltipla representação de uma dada informação e garantir o sincronismo entre as diversas representações. Essa descrição está presente na alternativa A que é a nossa resposta."
+      },
+      {
+        "pergunta": "(CESGRANRIO - Esc BB/BB/Agente de Tecnologia/2023 TI - Banco de Dados - Definições e Propriedades do SGBD) Um Sistema Gerenciador de Banco de Dados (SGBD) é um software bastante utilizado em empresas que precisam armazenar, tratar e utilizar dados em geral. O SGBD é especializado em realizar atividades relacionadas aos dados. <br>Uma das várias funcionalidades que um SGBD pode executar é",
+        "alternativas": [
+          "a) alertar os administradores da infraestrutura de TI de uma empresa quando há vírus circulando na rede.",
+          "b) controlar que usuários podem ter acesso a que dados.",
+          "c) estimular os gestores de uma empresa a compartilhar dados em benefício de todos.",
+          "d) garantir a sequência de execução de programas, em especial quando há dependências de dados entre eles.",
+          "e) identificar que dados importantes ao processo decisório de uma empresa estão ausentes e deveriam ser coletados."
+        ],
+        "correta": "b) controlar que usuários podem ter acesso a que dados.",
+        "explicacao": "Uma das funcionalidades que um Sistema Gerenciador de Banco de Dados (SGBD) pode executar é: b) Controlar que usuários podem ter acesso a que dados. Os SGBDs são projetados para gerenciar o acesso, armazenamento, recuperação e manipulação de dados em um banco de dados. O controle de acesso é uma parte essencial desse gerenciamento, garantindo que usuários autorizados tenham acesso apropriado aos dados."
+      },
+      {
+        "pergunta": "(Gestor da Informação (Curitiba)/2019) O principal objetivo de um Sistema Gerenciador de Banco de Dados (SGBD) é:",
+        "alternativas": [
+          "a) criar a infraestrutura para a construção de um data warehouse.",
+          "b) armazenar e recuperar os dados de forma conveniente e eficiente.",
+          "c) organizar os dados para suportar operações de OLAP.",
+          "d) possibilitar a armazenagem distribuída dos dados.",
+          "e) facilitar a implementação de tecnologias de armazenagem em nuvem."
+        ],
+        "correta": "b) armazenar e recuperar os dados de forma conveniente e eficiente.",
+        "explicacao": "Vejam que, pelas definições acima apresentada um SGBD é definido como um sistema cujo objetivo é armazenar e recuperar dados de forma eficiente. Analisando as demais alternativas, elas não fazem sentido para definirem o principal objetivo do SGBD. Vamos deixar para apresentar os conceitos referente as palavras “data warehouse”, OLAP e computação na nuvem em outro momento, para não atrapalhar seu processo de aprendizado. <br>Mas professor, eu queria aprender agora ... ok! Então vamos nessa. <br>Data Warehouse (DW) é um repositório de dados utilizado para guardar dados analíticos. OLAP é um conjunto de ferramentas e definições que permitem acessar e trabalhar com os dados no DW. <br>O armazenamento distribuído dos dados é uma possibilidade dentre das funções do SGBD, mas não é seu principal objetivo. <br>A computação em nuvem é o fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, pela Internet (“a nuvem”) para oferecer inovações mais rápidas, recursos flexíveis e economias de escala. Você normalmente paga apenas pelos serviços de nuvem que usa, ajudando a reduzir os custos operacionais, a executar sua infraestrutura com mais eficiência e a escalonar conforme as necessidades da sua empresa mudam. <br>Assim, reforçando a nossa resposta encontra-se na alternativa B."
+      },
+      {
+        "pergunta": "(TCE-SC/2016 - Auditor Fiscal de Controle Externo - Informática) Com relação aos bancos de dados relacionais, julgue o próximo item. <br>O catálogo de um sistema de gerenciamento de banco de dados relacional armazena a descrição da estrutura do banco de dados e contém informações a respeito de cada arquivo, do tipo e formato de armazenamento de cada item de dado e das restrições relativas aos dados.",
+        "alternativas": ["Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perceba que a definição acima está de acordo com o termo dicionários de dados, catálogo de dados ou metadados presentes em um sistema de banco de dados. Lembre-se que essa separação entre a descrição dos dados e os dados propriamente dito é uma das características relevantes que foram apresentadas na evolução de sistemas de arquivos para a abordagem de banco de dados. Sendo assim, podemos afirmar que a questão está correta!"
+      },
+      {
+        "pergunta": "(FGV - AL (CAM DEP)/CAM DEP/Contador/2023) Uma transação ACID em banco de dados relacionais é uma sequência de operações que satisfaz às propriedades",
+        "alternativas": [
+        "a) atomicidade, consistência, isolamento e durabilidade.", 
+        "b) atomicidade, consistência, integridade e distributividade.", 
+        "c) atomicidade, confidencialidade, isolamento e durabilidade.", 
+        "d) autenticidade, consistência, integridade e distributividade.",
+        "e) autenticidade, confidencialidade, integridade e durabilidade."],
+        "correta": "a) atomicidade, consistência, isolamento e durabilidade.",
+        "explicacao": "As transações ACID referem-se a um conjunto de propriedades fundamentais que garantem a integridade e confiabilidade das operações em um banco de dados transacional. Cada letra em \"ACID\" representa uma dessas propriedades: <br>Atomicidade (Atomicity): Uma transação é considerada atômica se todas as suas operações forem executadas como uma unidade indivisível. Isso significa que todas as operações são realizadas com sucesso ou nenhuma delas é realizada. Se qualquer parte da transação falhar, as alterações feitas até o momento são revertidas. <br>Consistência (Consistency): A consistência garante que uma transação leve o banco de dados de um estado consistente para outro. Isso implica que as transações devem respeitar as regras e restrições do banco de dados, preservando a integridade dos dados. <br>Isolamento (Isolation): O isolamento garante que o resultado de uma transação seja invisível para outras transações até que a transação esteja concluída. Cada transação é executada como se fosse a única transação no sistema, evitando interferências de outras transações concorrentes. <br>Durabilidade (Durability): A durabilidade assegura que uma vez que uma transação é confirmada (completa), seus efeitos permanecem permanentes, mesmo em caso de falha do sistema. As alterações feitas por uma transação confirmada são persistentes e sobrevivem a reinicializações ou falhas do sistema. <br>Essas propriedades garantem a confiabilidade e integridade dos dados em um ambiente transacional, assegurando que as operações do banco de dados sejam executadas de maneira segura e consistente. Logo, teremos a nossa resposta na alternativa A."
+      },
+      {
+        "pergunta": "(FGV - Analista de Tecnologia da Informação (BANESTES)/Suporte e Infraestrutura/2018) As propriedades usualmente requeridas para transações em bancos de dados são identificadas pela sigla ACID. <br>Essas propriedades são:",
+        "alternativas": [
+        "a) assincronia, concorrência, integridade, durabilidade;", 
+        "b) assincronia, consistência, isolamento, distribuição;", 
+        "c) atomicidade, concorrência, integridade, durabilidade;", 
+        "d) atomicidade, conformidade, independência, distribuição;",
+        "e) atomicidade, consistência, isolamento, durabilidade."],
+        "correta": "e) atomicidade, consistência, isolamento, durabilidade.",
+        "explicacao": "Seguindo a lista de propriedade ou características de uma transação que acabamos de conhecer, podemos marcar a nossa resposta na alternativa E."
+      },
+      {
+        "pergunta": "(UFPB/2019 - Analista de Tecnologia da Informação) Os bancos de dados estão implícitos na vida da sociedade moderna. Assinale a alternativa que NÃO apresenta uma implicação adicional do uso de banco de dados.",
+        "alternativas": [
+        "a) Economias de escalas.", 
+        "b) Disponibilidade de informações atualizadas.", 
+        "c) Desenvolvimento de novos dispositivos.", 
+        "d) Flexibilidade.",
+        "e) Tempo reduzido para o desenvolvimento de aplicações."],
+        "correta": "c) Desenvolvimento de novos dispositivos.",
+        "explicacao": "Se pensarmos em dispositivos como componentes de hardware, percebemos que a utilização de um banco de dados não auxilia no desenvolvimento de um novo dispositivo. As demais alternativas apresentam benefícios na utilização para a abordagem de banco de dados. A economia de escala refere-se à possibilidade de expansão da quantidade de usuários do banco a um custo relativamente baixo. As informações centralizadas com redundância controlada permitem a disponibilização atualizada das mesmas. Quando você pensa no desenvolvimento de um novo sistema, o fato das informações estarem isoladas das aplicações facilita a vida dos desenvolvedores, reduzindo o tempo para construção das aplicações. Reforçando, temos nossa resposta na alternativa C."
+      },
+      {
+        "pergunta": "7. CETREDE - Fiscal Ambiental (Pref Itaitinga)/2019 Antigamente, os bancos de dados eram manuais. Atualmente com a difusão tecnológica a grande maioria dos bancos de dados são digitais. Eles compõem um conjunto estruturado de dados que obedecem a um modelo de dados e são armazenados em formato digital – em um hardware (geralmente, um servidor da rede – storage). NÃO é vantagem de um banco de dados,",
+        "alternativas": [
+        "a) maior volume de dados armazenado.", 
+        "b) ocupar maior espaço físico.", 
+        "c) maior velocidade de acesso aos dados.", 
+        "d) permite o compartilhamento de informações.",
+        "e) persistência dos dados: depois de muitos anos, ainda podem ser acessados."],
+        "correta": "b) ocupar maior espaço físico.",
+        "explicacao": "Sabemos que um banco de dados é uma coleção de dados sobre pessoas, coisas, lugares. Esses dados se relacionam entre si de forma que geram informação, ou seja, algo que tenha sentido para seus usuários. No passado, os bancos de dados eram manuais. Lembrem-se do exemplo da lista telefônica do Seu Zacarias. <br>Com o passar do tempo, a tecnologia foi avançando e foram surgindo bancos de dados digitais, que armazenam os dados em máquinas. Hoje em dia, a grande maioria das empresas em geral utilizam um sistema que registra de forma digital as suas operações. <br>Vamos analisar cada uma das alternativas: <br>a) ERRADA. Essa é uma vantagem de um banco de dados digital. Ele consegue armazenar um volume muito maior do que os bancos de dados manuais, que utilizavam papéis ou outros meios para armazenar as informações de forma manual. <br>b) CORRETA. Essa não é uma vantagem dos bancos de dados digitais. Na verdade, eles ocupam um espaço físico menor. Isso ocorre porque a organização dos dados nos arquivos de banco de dados é mais eficiente, e porque a redundância dos dados é reduzida. <br>c) ERRADA. Essa é uma vantagem dos bancos de dados digitais. Através de linguagens de consulta, o poder de processamento dos computadores permite acessar os dados de forma muito mais rápida que uma busca realizada manualmente. <br>d) ERRADA. Essa é outra vantagem dos bancos de dados. Com a internet, por exemplo, é possível compartilhar informações com outros usuários em qualquer lugar do mundo por meio de bancos de dados distribuídos. <br>e) ERRADA. Mais uma vantagem dos bancos de dados. Um caderno, por exemplo, pode ter suas páginas deterioradas com o tempo ou a tinta da caneta pode apagar. As mídias digitais, entretanto, permitem que a informação esteja acessível por quanto tempo for necessário. Claro que, para isso, devem ser utilizadas técnicas de backup e redundância dos dados. <br>Desta forma, podemos encontrar a nossa resposta para essa questão na alternativa B."
+      },
+      {
+        "pergunta": "VUNESP - 2022 - Analista Legislativo (ALESP)/Administrador de Banco de Dados Metadados constituem uma estrutura indispensável em bancos de dados, sendo correto afirmar que",
+        "alternativas": ["a) são automaticamente movidos para a memória principal do servidor a cada nova iniciação do sistema gerenciador de banco de dados.", 
+        "b) são excluídos do banco de dados a cada encerramento do sistema gerenciador de banco de dados.",
+        "c) armazenam todo o histórico de movimentações ocorridas no banco de dados (inserções, modificações e exclusões de registros).",
+        "d) não são necessários em bancos de dados que contenham número pequeno de tabelas (até dez tabelas).",
+        "e) devem conter informações sobre as estruturas componentes do banco de dados (por exemplo, as tabelas)"],
+        "correta": "e) devem conter informações sobre as estruturas componentes do banco de dados (por exemplo, as tabelas)",
+        "explicacao": "A afirmativa correta é: E) devem conter informações sobre as estruturas componentes do banco de dados (por exemplo, as tabelas). Metadados são dados que fornecem informações sobre os dados em um banco de dados. Eles descrevem a estrutura do banco de dados, incluindo informações sobre as tabelas, colunas, tipos de dados, restrições, relacionamentos, entre outros. Portanto, a opção E está correta ao mencionar que os metadados devem conter informações sobre as estruturas componentes do banco de dados, como as tabelas."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - AFM (Pref Fortaleza)/Pref Fortaleza/Ciência da Computação, Informática, Processamento de Dados/2023) Julgue o item a seguir, a respeito de arquitetura de dados, metadados e linguagens de bancos de dados. <br>Os metadados possibilitam uma visão integrada do ambiente de dados, pois explicitam os inter-relacionamentos existentes entre os dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. Os metadados desempenham um papel crucial na arquitetura de dados ao possibilitar uma visão integrada do ambiente de dados. Os metadados são informações que descrevem os dados, incluindo sua origem, significado, formato, restrições, relacionamentos e outros atributos. Eles fornecem um contexto essencial para a compreensão e o gerenciamento dos dados. <br>Ao explicitar os inter-relacionamentos existentes entre os dados, os metadados facilitam a compreensão da estrutura e das conexões dentro do ambiente de dados. Isso é particularmente útil em sistemas complexos com múltiplas fontes de dados, onde compreender como os dados se relacionam entre si é essencial para garantir uma visão unificada e consistente. <br>Em resumo, os metadados desempenham um papel fundamental ao fornecer informações sobre os dados, permitindo uma visão integrada e melhorando a eficácia do gerenciamento e da utilização dos recursos de dados em um sistema."
+      },
+      {
+        "pergunta": "(VUNESP - 2022 - Analista Legislativo (ALESP)/Web Designer) Considerando que as principais classificações sobre metadados definem seus tipos como descritivos, estruturais e administrativos, é correto afirmar que as informações constantes de metadados do tipo",
+        "alternativas": ["a) estrutural têm como função a recuperação e a identificação de dados.", 
+        "b) descritivo têm como função a recuperação e a identificação de dados.", 
+        "c) estrutural têm como função a recuperação e a identificação de dados.", 
+        "d) administrativo têm como função descrever a forma de se reconstituir um dado formado por diversos componentes.",
+        "e) descritivo têm como função fornecer informações sobre o ciclo de vida dos dados."],
+        "correta": "b) descritivo têm como função a recuperação e a identificação de dados.",
+        "explicacao": "Letra b) - PDF 00 de Banco de Dados (Bacen)"
+      },
+      {
+        "pergunta": "(Ano: 2019 - CRN - 3ª Região (SP e MS) - Assistente Técnico) No que se refere aos conceitos gerais de banco de dados, assinale a alternativa correta.",
+        "alternativas": ["a) Os dados, independentes ou não, de um banco de dados formam necessariamente uma informação.", 
+        "b) Os projetistas, também conhecidos como administradores do banco de dados (database administrators), são os usuários iniciantes ou paramétricos do sistema.", 
+        "c) Um banco de dados não representa um aspecto do mundo real.", 
+        "d) Uma planilha do Microsoft Excel ou uma lista de contatos (nome, telefone e e-mail) de uma agenda configuram um banco de dados.",
+        "e) A edição ou a alteração dos dados de um banco de dados é muito onerosa ao administrador, o que torna comum a prática de sua total exclusão."],
+        "correta": "d) Uma planilha do Microsoft Excel ou uma lista de contatos (nome, telefone e e-mail) de uma agenda configuram um banco de dados.",
+        "explicacao": "Vamos comentar cada uma das alternativas. <br>(A) Dados e informações são conceitos distintos. A informação precisa de contexto e significado, já o dado é apenas um fato registro (bruto). <br>(B) Os projetistas são conhecidos como administradores de dados. <br>(C) Todo banco de dados deve descrever alguma coisa do mundo real, podendo ser concreto ou abstrato. <br>(D) Falamos sobre isso no início da nossa aula. A lista telefônica do seu Zacarias é considerada um banco de dados, mesmo não sendo digital. <br>(E) Fazer alterações no banco de dados nem sempre é onerosa, alguns fatores podem permitir uma alteração rápida do registro."
+      },
+      {
+        "pergunta": "(Ano: 2018 Órgão: EBSERH Prova: Analista de Tecnologia da Informação) Com relação a banco de dados, julgue o item seguinte. <br>Após um banco de dados ser criado, o administrador executa uma série de tarefas para dar permissão de acesso aos usuários que necessitam ler e gravar informações na base de dados. A responsabilidade de gerir os acessos ao banco de dados é do sistema gerenciador de banco de dados (SGBD).",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Observe que neste texto podemos verificar explicitamente o benefício do sistema de gerenciamento de banco de dados. O administrador de banco de dados vai atribuir aos diversos usuários as permissões compatíveis com suas necessidades. Contudo, quem vai gerenciar o acesso, no sentido de autorizar o usuário a acessar o banco de dados e visualizar os dados, é o próprio SGBD. Desta forma, temos uma alternativa correta."
+      },
+      {
+        "pergunta": "3. ANO: 2010 ÓRGÃO: TCE-SP PROVA: AGENTE DA FISCALIZAÇÃO FINANCEIRA - PRODUÇÃO E BANCO DE DADOS Considerando que os dados constituem um dos bens mais valiosos de uma empresa, é necessário que haja um papel que tenha a responsabilidade central pelos dados, principalmente entendendo as necessidades empresariais nos altos níveis da organização. Tal papel é mais adequadamente desempenhado pela",
+        "alternativas": ["a) administração de banco de dados.", 
+        "b) administração de dados.", 
+        "c) alta administração da organização.", 
+        "d) análise de sistemas.",
+        "e) gerência de sistemas."],
+        "correta": "b) administração de dados.",
+        "explicacao": "Percebam que a questão trata da padronização dos dados corporativos. Entender a organização e sua relação com as informações de forma a gerenciar os dados de maneira eficiente é responsabilidade da equipe de administração de dados. Hoje em dia um termo muito utilizado para os dados que permeiam vários setores das empresas ou órgãos públicos é o conceito de dados mestres. Eles são armazenados em um repositório central e distribuídos aos diversos usuários."
+      },
+      {
+        "pergunta": "(VUNESP - 2022 - Analista (CM Olímpia)/Sistema) Considere a seguinte representação de um modelo hierárquico de dados:<img src='../dados/imgs/questao_bancodedados_14.png' alt='imagem da questão'><br>De acordo com essa figura, os itens indicados como I e II representam, respectivamente, registro",
+        "alternativas": ["a) principal e registro secundário.", 
+        "b) inicial e registro final.", 
+        "c) proprietário e registro membro.", 
+        "d) principal e registro auxiliar.",
+        "e) total e registro parcial."],
+        "correta": "a) letra A",
+        "explicacao": "Os principais tipos de registros representados no modelo hierárquico são: <br>Registro Proprietário: É o registro pai na hierarquia. Por exemplo, no contexto da empresa, o CEO seria o registro proprietário, pois não possui um registro pai. <br>Registro Membro: São os registros filhos na hierarquia, que estão abaixo do registro proprietário. No exemplo da empresa, os diretores seriam registros membros, pois possuem o CEO como registro pai. <br>Logo, temos a nossa resposta na alternativa C."
+      },
+      {
+        "pergunta": "(FUNDATEC - 2023 - Analista em Computação (PROCERGS)/Administração de Dados) Qual é a principal diferença entre os modelos de dados relacional e hierárquico?",
+        "alternativas": ["a) O modelo hierárquico usa uma estrutura em árvore para organizar os dados, enquanto o modelo relacional usa tabelas.", 
+        "b) O modelo hierárquico permite a criação de relacionamentos muitos para muitos, enquanto o modelo relacional só permite relacionamentos um para muitos.", 
+        "c) O modelo hierárquico é mais flexível em relação à adição de novos campos, enquanto o modelo relacional requer modificações na estrutura da tabela.", 
+        "d) O modelo relacional é mais eficiente em relação à busca de dados, enquanto o modelo hierárquico é mais eficiente em relação à inserção de novos dados.",
+        "e) O modelo hierárquico é mais utilizado em ambientes de grande escala, enquanto o modelo relacional é mais utilizado em ambientes menores e médios."],
+        "correta": "a) O modelo hierárquico usa uma estrutura em árvore para organizar os dados, enquanto o modelo relacional usa tabelas.",
+        "explicacao": "A principal diferença entre os modelos de dados relacional e hierárquico é: A) O modelo hierárquico usa uma estrutura em árvore para organizar os dados, enquanto o modelo relacional usa tabelas. <br>No modelo hierárquico, os dados são organizados em uma estrutura de árvore, onde cada nó pode ter vários nós filhos, representando uma relação pai-filho. Já no modelo relacional, os dados são organizados em tabelas bidimensionais, utilizando linhas e colunas para representar entidades e atributos. Portanto, a resposta correta é a opção A."
+      },
+      {
+        "pergunta": "(Analista (Pref Vila Velha)/Desenvolvimento/2020) Uma das estruturas de bancos de dados é a que tem o formato conhecido por “árvore”. Nessas estruturas, cada registro tem apenas um possuidor. Esse modelo é chamado:",
+        "alternativas": ["a) hierárquico.", 
+        "b) indexado.", 
+        "c) block chain.", 
+        "d) relacional.",
+        "e) sequencial."],
+        "correta": "a) hierárquico.",
+        "explicacao": "No modelo hierárquico, cada registro é definido como um nó numa estrutura em árvore, onde cada nó-pai pode ter vários filhos, mas cada nó-filho só pode ter um pai. Ou seja, percebemos um relacionamento 1-N. <br>Esse tipo de banco de dados permite que as referências entre os registros sejam automaticamente construídas por conta das ligações (links) presentes entre eles. Por outro lado, relações complexas são difíceis de se representar no modelo. <br>Desta forma, temos o gabarito da questão na alternativa A."
+      },
+      {
+        "pergunta": "Ano: 2019 Órgão: MPC-PA - Analista Ministerial – Tecnologia da Informação Assinale a opção que apresenta o modelo de dados caracterizado por organizar os dados em uma estrutura do tipo árvore, na qual cada registro tem um único “pai” e é classificado em uma ordem específica.",
+        "alternativas": ["a) híbrido", 
+        "b) de rede", 
+        "c) relacional", 
+        "d) hierárquico",
+        "e) orientado a objetos"],
+        "correta": "d) hierárquico",
+        "explicacao": "O modelo hierárquico organiza dados em uma estrutura de árvore, nele cada registro tem um único \"pai\" ou raiz. Registros \"irmãos\" são classificados em uma ordem específica. Essa ordem é usada como a ordem física para armazenar o banco de dados. Este modelo é bom para descrever muitas relações do mundo real. Contudo, possui limitações para descrever relacionamentos N-N entre os elementos de dados. Esse modelo foi usado principalmente pelos Sistemas de Gestão de Informações da IBM nos anos 60 e 70, mas são raramente vistos hoje devido a certas ineficiências operacionais. <br>Curiosidade: O modelo hierárquico foi implementado em um esforço conjunto da IBM e North American Rockwell em 1965. A IBM teve o Information Management System IMS (DL/1), largamente utilizado durante as décadas de 1970 e início da década de 1980"
+      },
+      {
+        "pergunta": "(Administrador de Rede (CM Piracicaba)/2019) Sobre o modelo hierárquico de bancos de dados, é correto afirmar que",
+        "alternativas": ["a) um registro não pode ser pai de mais de um registro filho.", 
+        "b) um registro pai pode ter relacionamento com, no máximo, 3 registros filhos..", 
+        "c) um registro do tipo raiz só pode ter relacionamento com um único registro filho.", 
+        "d) um registro do tipo raiz não participa como registro filho em qualquer relacionamento",
+        "e) o campo de um registro filho admite apenas tipos de dados inteiros."],
+        "correta": "d) um registro do tipo raiz não participa como registro filho em qualquer relacionamento",
+        "explicacao": "Vamos comentar cada uma das alternativas. (A) Um registro pode ser pai de vários registros, mas cada registro só pode ter um pai. (B) Mais uma vez, um registro pai pode ter relacionamento com vários filhos, não há limitação. (C) O registro raiz é o pai de todos ... logo, ele terá relacionamento com vários filhos. (D) Essa é a nossa resposta!! (E) Campos podem ter outros valores além de inteiros, por exemplo, valores textuais."
+      },
+      {
+        "pergunta": "(FAEPESUL - Assistente (CRC SC)/Suporte em Informática/2019) A definição correta para banco de dados relacionais é: ",
+        "alternativas": ["a) Um sistema que serve para criar uma relação de confiança, para acesso à internet.", 
+        "b) Um sistema que serve para armazenar arquivos dentro do computador.", 
+        "c) Um banco de dados que modela os dados de forma que eles sejam percebidos pelo usuário como tabelas.", 
+        "d) Um banco de dados onde cada informação é armazenada na forma de objetos.",
+        "e) Um banco de dados que não possui tabelas."],
+        "correta": "c) Um banco de dados que modela os dados de forma que eles sejam percebidos pelo usuário como tabelas.",
+        "explicacao": "As tabelas ou relações dos bancos de dados relacionais são formadas por linhas ou tuplas, que indicam cada registro da tabela, e colunas ou atributos, que identificam os campos da tabela. Cada atributo possui um domínio associado a ele, ou seja, um conjunto de valores que ele pode assumir. Assim, podemos marcar nossa resposta na alternativa C."
+      },
+      {
+        "pergunta": "(FGV - AJ (TJ RN)/TJ RN/Apoio Especializado/Análise de Suporte/2023) O modelo de banco de dados em que a associação entre dois registros é feita por meio do relacionamento entre um registro-pai e vários registros-filhos com cardinalidade 1:N, e a navegação é feita da raiz para as folhas, é o:",
+        "alternativas": ["a) em rede;", 
+        "b) otimizado;", 
+        "c) relacional;", 
+        "d) hierárquico;",
+        "e) orientado a objetos."],
+        "correta": "d) hierárquico;",
+        "explicacao": "O modelo de banco de dados em que a associação entre dois registros é feita por meio do relacionamento entre um registro-pai e vários registros-filhos com cardinalidade 1:N, e a navegação é feita da raiz para as folhas, é o: d) hierárquico."
+      },
+      {
+        "pergunta": "(ANO: 2017 ÓRGÃO: TST PROVA: TÉCNICO JUDICIÁRIO – PROGRAMAÇÃO) [57] Considere que um determinado tipo de banco de dados organiza os dados na forma de uma pirâmide, onde o registro principal no topo da pirâmide é chamado registro raiz. Os registros são organizados como pai e filho onde um registro filho sempre tem apenas um registro pai ao qual ele está ligado, como em uma árvore familiar normal. Em contrapartida, um registro pai pode ter mais de um registro filho a ele ligado. <br>Trata-se do Banco de Dados",
+        "alternativas": ["a) hierárquico.", 
+        "b) relacional.", 
+        "c) orientado a objeto.", 
+        "d) objeto-relacional.",
+        "e) de rede."],
+        "correta": "a) hierárquico.",
+        "explicacao": "Trata-se do modelo hierárquico de dados."
+      },
+      {
+        "pergunta": "(FGV - Analista Legislativo (ALESP)/Administração de Banco de Dados e Arquitetura de Dados/2002) Quando falamos em banco de dados é necessário deixar clara a distinção entre esquema de banco de dados e a instância no banco de dados. Esta distinção pode ser descrita da seguinte forma:",
+        "alternativas": ["a) Um conceito de um esquema de banco de dados corresponde, em linguagem de programação, à noção de definição das entidades e relacionamentos.", 
+        "b) A instância no banco de dados pode ser descrita como uma foto dos dados num determinado momento.", 
+        "c) O conceito de instância de relação corresponde, em linguagem de programação, à noção de definição de tipos.",
+        "d) O conteúdo de uma instância de relação não pode mudar com o tempo, quando esta relação for atualizada."],
+        "correta": "b) A instância no banco de dados pode ser descrita como uma foto dos dados num determinado momento.",
+        "explicacao": "Vamos comentar cada uma das alternativas: <br>a) Entidades e relacionamentos são conceitos associados à modelagem de dados. Em linguagem de programação, em especial nas linguagens orientadas a objetos, o esquema corresponde a classe. <br>b) Essa é a nossa resposta. Se você voltar ao esquema apresentado no início do tópico, verá do lado direito a palavra fotografia associada a ideia de instância do banco de dados. <br>c) A instância em linguagem de programação está associada a criação de objetos que tem como referência uma classe. <br>d) A instância muda toda vez que um dado é inserido, removido ou atualizado. Logo, ela muda com o tempo. O que não muda quando a relação é atualizada é o esquema."
+      },
+      {
+        "pergunta": "(Ano: 2019 Prefeitura de São Roque do Canaã - ES - Técnico em Processamento de Dados) A coleção de informações armazenadas de um banco de dados é chamada de:",
+        "alternativas": ["a) Parâmetros.", 
+        "b) Instância.", 
+        "c) Esquema.", 
+        "d) Arquitetura.",
+        "e) Projeto."],
+        "correta": "b) Instância.",
+        "explicacao": "Perceba que a coleção de informações de um banco de dados em um considerada uma instância, fotografia, extensão, estado ou ocorrências. Assim temos a nossa resposta na alternativa B."
+      },
+      {
+        "pergunta": "(Auditor Fiscal da Receita Estadual (SEFAZ RJ)/2011) Para que um sistema de informação possa ser útil e confiável, deve ser fundamentado na modelagem de dados, para posterior análise do processo. A modelagem de dados se baseia nos seguintes elementos:",
+        "alternativas": ["a) fluxos de dados, atributos e requisitos.", 
+        "b) fluxos de dados, diagramas e requisitos.", 
+        "c) classes de dados, métodos e componentes.", 
+        "d) objetos de dados, diagramas e componentes.",
+        "e) objetos de dados, atributos e relacionamentos."],
+        "correta": "e) objetos de dados, atributos e relacionamentos.",
+        "explicacao": "A modelagem de dados pede que tenhamos a perfeita noção dos dados que serão armazenados, ou seja dos objetos de dados, das características que esses dados possuem atributos descritores vão dar mais semântica aos dados armazenados e, por fim, precisamos especificar os relacionamentos. Logo, temos a resposta na alternativa E."
+      },
+      {
+        "pergunta": "(FGV - Analista (MPE MS)/Informática/Banco de Dados/2013) Um modelo de dados é uma descrição formal das estruturas de dados presentes em um banco de dados. Os dois níveis de abstração dos modelos de dados considerados em um projeto de banco de dados são:",
+        "alternativas": ["a) modelo conceitual e modelo lógico.", 
+        "b) modelo lógico e modelo físico.", 
+        "c) modelo conceitual e modelo físico.", 
+        "d) modelo de classes e modelo de entidades.",
+        "e) modelo de entidades e modelo de relacionamentos."],
+        "correta": "a) modelo conceitual e modelo lógico.",
+        "explicacao": "A provável intenção da FGV nesta questão é que você soubesse quais dois modelos possuem maior abstração de dados. Ela considerou que o modelo físico não abstrai informações para definir como os dados serão armazenados. Dessa forma, os modelos onde pode se perceber maior abstração de dados são o modelo conceitual e o lógico. <br>Relembrado o conceito de abstração de dados: “o sistema de banco de dados deve garantir uma visão totalmente abstrata do banco de dados para os diversos tipos de usuários, ou seja, a partir do grau de conhecimento sobre modelagem e da necessidade de entendimento, pode ser apresentado ao usuário uma estrutura mais simples, sem muita complexidade, que descreve apenas quais os dados são armazenados.” <br>Assim, temos a nossa resposta na alternativa A."
+      },
+      {
+        "pergunta": "(FGV - Analista de Sistemas (AL-MT)/Banco de Dados/2013) O modelo de dados abstrato que descreve a estrutura de um banco de dados de forma independente de um SGBD chama-se modelo",
+        "alternativas": ["a) lógico.", 
+        "b) conceitual.", 
+        "c) físico.", 
+        "d) algorítmico.",
+        "e) funcional."],
+        "correta": "b) conceitual.",
+        "explicacao": "Conforme apresentado acima, o modelo de dados conceitual se preocupa apenas em listar e organizar QUAIS os dados serão armazenados. Ele não se preocupa em descrever COMO, logo ele é independente de SGBD."
+      },
+      {
+        "pergunta": "(FGV - Analista (SAD PE)/Controle Interno/Tecnologia da Informação/2009) Modelagem de Dados é uma parte importante do desenho de um sistema de informação, que especifica as estruturas de dados e as regras necessárias para suportar uma área de negócios e que representa um conjunto de requerimentos de informações desse negócio. <br>A respeito dos modelos existentes, analise as afirmativas a seguir: <br>I. trata de regras de normalização das estruturas de dados, derivação de relacionamentos e de estruturas de agregação e generalização-especialização, restrição de domínio, de Integridade e de Implementação; <br>II. trata da análise das características e dos recursos necessários para armazenamento real e manipulação das estruturas de dados. <br>Os modelos I e II são conhecidos, respectivamente, por:",
+        "alternativas": ["a) conceitual e hierárquico.", 
+        "b) relacional e conceitual.", 
+        "c) hierárquico e lógico.", 
+        "d) físico e relacional.",
+        "e) lógico e físico."],
+        "correta": "e) lógico e físico.",
+        "explicacao": "Mais uma questão sobre os níveis de modelos de dados. Deste assunto introdutório de banco de dados, talvez, seja o assunto que a FGV mais gosta. Na descrição acima, temos duas afirmações. <br>I. Descreve o modelo de dados relacional, que é um modelo lógico. <br>II. Descreve o modelo de dados físico, que se preocupa com a organização de arquivos e métodos de acesso. Desta forma, temos a nossa resposta na alternativa E."
+      },
+      {
+        "pergunta": "(FGV - Analista Censitário (IBGE)/Geoprocessamento/2017) O projeto de um SGBD para emprego em SIG se divide em várias fases, de modo a prover os dados geográficos de forma eficiente para atender adequadamente às demandas próprias da aplicação. <br>Nesse contexto, é elaborado o Modelo Entidade-Relacionamento como resultado do(a):",
+        "alternativas": ["a) coleta e análise de requisitos;", 
+        "b) projeto conceitual;", 
+        "c) projeto lógico;", 
+        "d) projeto físico;",
+        "e) projeto executivo."],
+        "correta": "b) projeto conceitual;",
+        "explicacao": "Modelo conceitual (baseado em objetos)."
       }
     ],
     
 
+KKKKKKKKKKKKKKKK  - CONTINUAR DA QUESTÃO 1 - PÁGINA 65 DO ARQUIVO 00
 
 
+    ">>>>>>> apenas para copiar a pergunta imagem 2 <<<<<<<": [
+      {
+        "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_89.png' alt='imagem da questão'><br>",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "XXX"
+      },
+      {
+        "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>",
+        "alternativas": ["a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "XXXX"
+      }
+    ],
 
 
     "ingles": [
@@ -5277,6 +5598,59 @@
     ],
 
 
+
+    "fundamentosOrganizacaoGestaoEMarcosOperacionaisdoSUAS": [
+      {
+        "pergunta": "(FGV – 2026) O ordenamento jurídico brasileiro, a Assistência Social é consagrada como política pública de natureza não contributiva. Isso significa que ela:",
+        "alternativas": ["a) assegura benefícios e serviços, condicionando o acesso à comprovação de residência fixa.", 
+        "b) se estrutura para atender situações de vulnerabilidade social, sem exigir contrapartida do usuário.", 
+        "c) condiciona o acesso aos serviços ao prévio cadastramento do usuário em sistema oficial de proteção social.", 
+        "d) é financiada por recursos públicos, com acesso condicionado a critérios de elegibilidade.",
+        "e) admite a contribuição voluntária do usuário como condição para acesso a serviços socioassistenciais."],
+        "correta": "b) se estrutura para atender situações de vulnerabilidade social, sem exigir contrapartida do usuário.",
+        "explicacao": "A alternativa corretá é a letra B, pois de acordo com art. 203 da Constituição de 1988, a assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social. Além disso, a PNAS afirma que a assistência social é direito do cidadão e dever do Estado, garantindo proteção social a quem dela necessitar, sem exigir contribuição prévia e define explicitamente que a assistência social como política pública de proteção social não contributiva é destinada a prevenir e enfrentar situações de vulnerabilidade e risco social. As demais alternativas estão incorretas."
+      },
+      {
+        "pergunta": "(FGV – 2026) A Assistência Social é uma prática universal, embora sua expressão espontânea não se confunda com o seu reconhecimento como direito fundamental nem com a sua consequente institucionalização como política pública. Assinale a opção que apresenta um traço que identifica a Assistência Social como direito.",
+        "alternativas": ["a) Tem como objetivo atender necessidades imediatas, independentemente da origem do recurso empregado.", 
+        "b) Funciona como um mecanismo complementar às ações de caridade, voltado a resolver situações emergenciais.", 
+        "c) Reconhece o cidadão como sujeito que não depende da benevolência estatal para obter proteção social.", 
+        "d) É guiada por valores éticos voltados para a promoção da dignidade da pessoa humana em situações de vulnerabilidade.",
+        "e) Envolve ações destinadas ao amparo de pessoas em risco social, mobilizando diferentes atores na sua realização."],
+        "correta": "c) Reconhece o cidadão como sujeito que não depende da benevolência estatal para obter proteção social.",
+        "explicacao": "Perceba que o enunciado da questão traz pistas e palavras-chaves para acertarmos a resposta. Ele fala sobre um traço que identifica a assistência social como um direito. Assim, você deve procurar a alternativa que fala sobre direitos. Logo, a alternativa correta é a letra C, pois ela aborda sobre a proteção social, um dos objetivos da assistência social. O fato do cidadão não depender da benevolência estatal já sinaliza que este sujeito possui a proteção social como um direito, que deve ser efetivado pelo próprio Estado. As demais alternativas estão incorretas."
+      },
+      {
+        "pergunta": "(FGV – 2026) A superação das vulnerabilidades sociais, a Política Nacional de Assistência Social (PNAS) atribui papel central às famílias, sem que isso exima o Estado de seus deveres. Assinale a opção que indica uma concepção incompatível com a PNAS.",
+        "alternativas": ["a) Intervir com vistas à reorganização dos arranjos familiares e sua adequação às normas sociais vigentes.", 
+        "b) Valorizar a escuta qualificada e o planejamento conjunto como bases metodológicas para a atuação com as famílias.", 
+        "c) Promover a corresponsabilização da família e seu fortalecimento para o enfrentamento das desigualdades.", 
+        "d) Estimular o protagonismo das famílias e sua inserção em redes de apoio e acesso a políticas públicas.",
+        "e) Compreender a família como núcleo central de cuidado, proteção e socialização, além de portadora de direitos."],
+        "correta": "a) Intervir com vistas à reorganização dos arranjos familiares e sua adequação às normas sociais vigentes.",
+        "explicacao": "A alternativa corretá é a letra A, pois a PNAS não defende que os arranjos familiares sejam reorganizados, assim como não bjetiva a adequação das famílias às normas sociais vigentes. Essa Política defende que a família seja o núcleo central de atenção da assistência social, devendo ser protegida, fortalecida e apoiada pelo Estado para exercer suas funções de cuidado, proteção e socialização de seus membros. Assim, a centralidade na família é uma das diretrizes que estruturam a PNAS. As demais alternativas estão incorretas."
+      },
+      {
+        "pergunta": "(FGV – 2026) Relacione os princípios da Assistência Social aos respectivos exemplos ilustrativos. <br>1. Igualdade de direitos no acesso <br>2. Supremacia das necessidades sociais <br>3. Respeito à dignidade do cidadão <br>4. Universalização dos direitos sociais <br>( ) Um centro de referência atende qualquer pessoa em situação de necessidade que procure o serviço, ainda que não esteja vinculada a categorias específicas de beneficiários. <br>( ) Diante de recursos limitados, o gestor prioriza o atendimento de famílias em situação de extrema vulnerabilidade em detrimento de demandas menos urgentes. <br>( ) Durante o atendimento, o profissional evita exposição pública da situação do usuário, preserva sua privacidade e assegura tratamento respeitoso. <br>( ) Pessoas em condições sociais semelhantes recebem o mesmo tipo de atendimento e acesso aos benefícios, sem distinções baseadas em critérios arbitrários. <br>Assinale a opção que indica a relação correta, segundo a ordem apresentada.",
+        "alternativas": ["a) 1 – 3 – 2 – 4.", 
+        "b) 1 – 4 – 3 – 2.", 
+        "c) 4 – 2 – 3 – 1.", 
+        "d) 2 – 4 – 3 – 1.",
+        "e) 4 – 3 – 2 – 1."],
+        "correta": "c) 4 – 2 – 3 – 1.",
+        "explicacao": "Vamos comentar cada assertiva da questão... <br>( 4 ) Um centro de referência atende qualquer pessoa em situação de necessidade que procure o serviço, ainda que não esteja vinculada a categorias específicas de beneficiários. <br>Essa assertiva está relacionada à universalização dos direitos sociais, visto que este princípio da significa que todos os cidadãos devem ter acesso aos direitos sociais, sem discriminação, garantindo que as políticas públicas alcancem quem delas necessitar. <br>( 2 ) Diante de recursos limitados, o gestor prioriza o atendimento de famílias em situação de extrema vulnerabilidade em detrimento de demandas menos urgentes. <br>Essa assertiva está relacionada à supremacia das necessidades sociais, pois significa que as necessidades sociais dos usuários devem estar acima de interesses econômicos na organização das políticas públicas. <br>( 3 )Durante o atendimento, o profissional evita exposição pública da situação do usuário, preserva sua privacidade e assegura tratamento respeitoso. <br>A assertiva está relacionada ao respeito à dignidade do cidadão, pois significa que todas as pessoas atendidas pela assistência social devem ser tratadas com respeito, autonomia e reconhecimento de seus direitos, sem necessitar de passar por situações vexatórias ou de discriminação e estigmatização. <br>( 1 )Pessoas em condições sociais semelhantes recebem o mesmo tipo de atendimento e acesso aos benefícios, sem distinções baseadas em critérios arbitrários. <br>A assertiva corresponde à igualdade de direitos no acesso, a qual significa que todas as pessoas que necessitam da assistência social devem ter as mesmas oportunidades de acesso aos serviços, benefícios, programas e projetos, sem qualquer forma de discriminação. <br>Logo, a alternativa corretá da questão é a letra C."
+      },
+      {
+        "pergunta": "5. (FGV – 2025) A Constituição de 1988 e a Lei Orgânica de Assistência Social (1993) estabeleceram um arcabouço normativo e institucional ao determinar a responsabilização estatal pela Assistência Social, as finalidades, os objetivos e os públicos dessa política pública. <br>A esse respeito, associe o tipo de segurança à respectiva finalidade da Assistência Social. <br>1. Segurança de sobrevivência. <br>2. Segurança de acolhida. <br>3. Segurança de convívio. <br>( ) Garante que nenhuma pessoa permaneça em uma situação de abandono ou de ausência de acolhimento. <br>( ) Impede o isolamento e o abandono gerado pela ausência de relações e vínculos entre familiares e com a comunidade em que uma pessoa vive. <br>( ) Garante renda e condições materiais e de cuidados básicas para uma vida digna e de qualidade. <br>Assinale a opção que apresenta a associação correta, segundo a ordem apresentada.",
+        "alternativas": ["a) 1 – 2 – 3.", 
+        "b) 1 – 3 – 2.", 
+        "c) 2 – 1 – 3.", 
+        "d) 2 – 3 – 1.",
+        "e) 3 – 1 – 2."],
+        "correta": "d) 2 – 3 – 1.",
+        "explicacao": "Essa questão explora o entendimento dos eixos fundamentais da Assistência Social como direito garantido pela Constituição Federal de 1988 e pela LOAS. Reconhecer cada segurança é importante, pois elas orientam a organização dos serviços, benefícios e programas do SUAS (como o BPC, o PAIF e o PAEFI). <br>A correta associação demonstra compreensão de que a assistência não é só material (sobrevivência), mas também relacional (convivência) e protetiva (acolhida). <br>Vamos comentar cada assertiva: <br>1. Segurança de sobrevivência – É a segurança relacionada ao acesso à renda, alimentação, vestuário e condições mínimas para viver com dignidade. <br>2. Segurança de acolhida – É a segurança que garante que os sujeitos não permaneçam em situações de abandono, sem proteção, abrigo ou atendimento. <br>3. Segurança de convívio - Assegura o direito à convivência familiar e comunitária, prevenindo isolamento social dos sujeitos e suas famílias. <br>Portanto, a ordem correta é: 2 – 3 – 1. Assim, a alternativa D é o gabarito da questão"
+      }
+    ],
 
 
 
@@ -7197,7 +7571,7 @@
         "explicacao": "No Round-Robin, os processos são organizados em uma estrutura de dados. Fatias de tempo da CPU são locadas para cada um desses processos. No caso de um processo não terminar dentro da sua fatia de tempo, ele retorna ao fim da estrutura, e uma nova fatia de tempo é alocada para ele. Essa nova fatia está no começo da estrutura. Assim, a estrutura de dados precisa ser uma fila, já que permite que os processos sejam inseridos no final e removidos no início. Além disso, precisa ser circular, já que o processo sai do fim da fila e volta para o início. <br>Sobre as demais estruturas de dados: <br>• pilha: não serve, pois a inserção e a remoção dos elementos é sempre no final. <br>• árvore B: não é uma estrutura de dados linear. <br>• fila simples: não serve, pois o final não é ligado ao início. <br>• árvore binária: també, não é uma estrutura de dados linear."
       },
       {
-        "pergunta": "(FCC – 2013 – MPE-MA) Ana precisa utilizar uma estrutura de dados para gerenciar trabalhos de impressão em uma impressora compartilhada por vários computadores em uma rede. As regras dessa estrutura devem permitir que ostrabalhos sejam impressos na ordem em que forem enviados, ou seja, o primeiro a enviar um pedido de impressão deve ser o primeiro a ter sua solicitação atendida. Não deve ser permitido inserir pedidos de impressão no meio dos pedidos já realizados. <br>A estrutura de dados mais adequada para Ana utilizar é",
+        "pergunta": "(FCC – 2013 – MPE-MA) Ana precisa utilizar uma estrutura de dados para gerenciar trabalhos de impressão em uma impressora compartilhada por vários computadores em uma rede. As regras dessa estrutura devem permitir que os trabalhos sejam impressos na ordem em que forem enviados, ou seja, o primeiro a enviar um pedido de impressão deve ser o primeiro a ter sua solicitação atendida. Não deve ser permitido inserir pedidos de impressão no meio dos pedidos já realizados. <br>A estrutura de dados mais adequada para Ana utilizar é",
         "alternativas": ["a) pilha.", 
         "b) lista encadeada ordenada.", 
         "c) fila.", 
@@ -10750,18 +11124,6 @@
         "explicacao": "É necessário identificar as orações presentes em cada alternativa. Na letra D, existem duas orações: 'A sustentação depende da densidade do ar' (principal) e 'que as asas do avião garantem' (subordinada adjetiva). As demais alternativas apresentam apenas uma oração ou orações coordenadas."
       },
       {
-        "pergunta": "(CESGRANRIO/ UNIRIO / Pedagogo / 2016) A predominância de orações e períodos coordenados no primeiro parágrafo do texto",
-        "alternativas": [
-          "a) torna a contextualização da narrativa mais dinâmica.",
-          "b) contribui para a dispersão das imagens apresentadas.",
-          "c) insere um tom de mistério aos acontecimentos relatados.",
-          "d) foca a atenção do leitor apenas ao calor que fazia no Rio.",
-          "e) gera um encadeamento entre cenas que se excluem."
-        ],
-        "correta": "a) torna a contextualização da narrativa mais dinâmica.",
-        "explicacao": "A construção de períodos coordenados torna o texto mais interessante no que se refere à organização das ideias e cria, de certa forma, uma sequência lógica de informações. Ao contrário, a configuração das orações em períodos coordenados potencializa o aspecto de organização das imagens apresentadas."
-      },
-      {
         "pergunta": "(CESGRANRIO / Petrobrás / Advogado Júnior / 2015) No trecho 'as transformações em direção à sociedade da informação, em estágio avançado nos países industrializados', a expressão em destaque tem a função de completar o sentido da palavra <u>direção</u>, sendo, portanto, essencial à construção da frase.<br>A mesma função pode ser observada na expressão destacada em:",
         "alternativas": [
           "a) 'alcançando, de forma conceitualmente imprecisa, o universo vocabular do <u>cidadão</u>.'",
@@ -11758,18 +12120,6 @@
         "explicacao": "Ocorre crase pela fusão entre preposição e artigo: 'devido A' + 'A importância'. As demais: a) não há crase antes de verbo; b) facultativa antes de pronome possessivo adjetivo; c) 'modificou' é VTD, apenas artigo; e) não há artigo ('a novas situações')."
       },
       {
-        "pergunta": "(CESGRANRIO / TRANSPETRO / 2023) Ao ler os versos de Olavo Bilac, o 'quase' susto da narradora, mencionado no parágrafo 2, foi motivado pela",
-        "alternativas": [
-          "a) possibilidade de seus escritos não serem conhecidos.",
-          "b) falta de conhecimento sobre a localização do Lácio.",
-          "c) necessidade de aprender uma língua diferente.",
-          "d) surpresa com a postura pessimista do poeta.",
-          "e) abordagem da temática da morte."
-        ],
-        "correta": "a) possibilidade de seus escritos não serem conhecidos.",
-        "explicacao": "O narrador tomou susto por causa da palavra 'sepultura', à qual associou ideia de morte e um destino fatal para tudo, inclusive seus escritos: 'Se escrevia (e já escrevia) pequenos contos nessa língua, quer dizer que era a sepultura que esperava por esses meus escritos?'"
-      },
-      {
         "pergunta": "(CESGRANRIO - ATA (AgeRIO)/AgeRIO/2023) A palavra resiliência refere-se à capacidade de voltar ao estado natural, principalmente após alguma situação crítica e fora do comum. Ela é utilizada em várias áreas do conhecimento. Em 'De acordo com uma especialista em ciência e Amazônia, a hipótese de savanização precisa ser encarada com seriedade, porque a floresta amazônica tem <u>resiliência</u>' (parágrafo 6), o sentido dessa palavra no contexto é a(o)",
         "alternativas": [
           "a) aptidão de um determinado sistema para recuperar o equilíbrio depois de ter sofrido uma perturbação.",
@@ -12026,7 +12376,7 @@
         "alternativas": [
           "a) 'A questão central não se resume somente à política de privacidade das plataformas X ou Y' (parágrafo 4)",
           "b) 'A segurança da informação já se transformou em uma área estratégica para qualquer tipo de empresa' (parágrafo 5)",
-          "c) '<u>a partir do momento em que um conteúdo é postado, ele faz parte da rede e não é mais do usuário</u>' (parágrafo 7)",
+          "c) 'a partir do momento em que um conteúdo é postado, ele faz parte da rede e não é mais do usuário' (parágrafo 7)",
           "d) 'É preciso que tanto clientes como empresas busquem mais informação e conteúdo técnico sobre o tema' (parágrafo 8)",
           "e) 'Precisamos de consciência, senso crítico, responsabilidade e cuidado para levar a internet a um outro nível.' (parágrafo 9)"
         ],
