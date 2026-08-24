@@ -5346,24 +5346,967 @@
         "e) projeto executivo."],
         "correta": "b) projeto conceitual;",
         "explicacao": "Modelo conceitual (baseado em objetos)."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - APO (SEPLAN RR)/SEPLAN RR/Tecnologia da Informação/2023) No que se refere às características de um banco de dados relacional, julgue o item que se segue. <br>Visões podem ser usadas para definir relações no esquema externo que exibem para os aplicativos as alterações feitas no esquema conceitual do banco de dados.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As visões são usadas para manter a independência de dados, logo elas vão esconder as alterações feitas no esquema conceitual da arquitetura em 3 esquemas e não as exibir. Assim, temos uma alternativa incorreta."
+      },
+      {
+        "pergunta": "(CESGRANRIO - PTNS (TRANSPETRO)/TRANSPETRO/Análise de Sistemas/Infraestrutura/2023 - TI - Banco de Dados - Arquitetura ANSI/SPARC) O princípio de independência de dados é um conceito fundamental no modelo relacional de bancos de dados. A aplicação prática deste princípio permite que os bancos de dados sejam gerenciados, otimizados e modificados eficientemente sem a necessidade de realizar modificações extensivas em cada aplicação ou consulta que utiliza o banco de dados, facilitando a manutenção e a evolução dos sistemas. Na arquitetura de referência ANSI/SPARC, que é composta por três níveis de esquema — externo, conceitual (ou lógico) e interno —, o princípio de independência de dados é expresso por meio da ",
+        "alternativas": ["a) necessidade de alterar o esquema externo quando ocorrem mudanças no esquema interno.", 
+        "b) obrigatoriedade de alterar os programas aplicativos quando há uma modificação no esquema interno.", 
+        "c) incapacidade de realizar mudanças no esquema conceitual sem afetar os esquemas externos.", 
+        "d) dependência entre os esquemas, garantindo que uma modificação em um nível requer alterações em todos os níveis.",
+        "e) capacidade de modificar o esquema interno sem afetar o esquema conceitual e, portanto, sem afetar os esquemas externos e os programas aplicativos."],
+        "correta": "e) capacidade de modificar o esquema interno sem afetar o esquema conceitual e, portanto, sem afetar os esquemas externos e os programas aplicativos.",
+        "explicacao": "O princípio de independência de dados na arquitetura de referência ANSI/SPARC é expresso por meio da: e) capacidade de modificar o esquema interno sem afetar o esquema conceitual e, portanto, sem afetar os esquemas externos e os programas aplicativos. <br>Esse princípio enfatiza a separação entre os diferentes níveis de esquema (interno, conceitual e externo), permitindo que as mudanças no nível interno não impactem os níveis conceitual e externo. Isso proporciona flexibilidade e facilidade na manutenção e evolução do banco de dados sem afetar as aplicações que o utilizam."
+      },
+      {
+        "pergunta": "SUGEP - Técnico (UFRPE)/Tecnologia da Informação/Sistemas/2019 O padrão de ANSI/SPARC para arquitetura de SGBD define uma arquitetura em três níveis. São eles:",
+        "alternativas": ["a) nível interno, nível de usuário e nível físico.", 
+        "b) nível interno, nível externo e nível conceitual.", 
+        "c) nível externo, nível de tabelas e nível físico.", 
+        "d) nível conceitual, nível de usuário e nível de arquivos.",
+        "e) nível de tabelas, nível de arquivos e nível de visão."],
+        "correta": "b) nível interno, nível externo e nível conceitual.",
+        "explicacao": "Acabamos de falar da arquitetura em três esquemas ANSI/SPARC que tem como objetivo separar a aplicação do banco de dados físico. Nessa arquitetura, temos uma divisão dos esquemas em três níveis: <br><b>Interno:</b> nesse nível está o esquema interno do banco de dados. Esse esquema contém a descrição da <b>estrutura física</b>, ou seja, informações detalhadas sobre como os dados são armazenados no hardware, definições das estruturas, índices, caminhos de acesso. <br><b>Conceitual:</b> nesse nível está o <b>esquema conceitual</b>, onde é descrita a estrutura do banco de dados para uma <b>comunidade de usuários</b>. Esse esquema não traz detalhes físicos, o foco é descrever <b>quais dados do banco</b> são armazenados, como eles se relacionam e as restrições existentes. <br><b>Externo:</b> nesse nível existem uma série de esquemas externos ou <b>visões do usuário</b>. Cada uma dessas visões descreve uma parte do banco que interessa a um determinado usuário (ou <b>grupo de usuários</b>), ocultando todo o restante dos dados. <br>Assim, temos nossa resposta na alternativa B."
+      },
+      {
+        "pergunta": "(Ano: 2016 Órgão: TRE-PI Prova: Analista Judiciário - Análise de Sistemas) A respeito das características de um SGBD e das atividades de administração de banco de dados, assinale a opção correta.",
+        "alternativas": ["a) Para fins práticos, é necessário distinguir diferentes cardinalidades máximas, que podem ser maiores ou iguais a zero.", 
+        "b) A característica autodescritiva de um banco de dados define que o banco de dados contém o próprio dado assim como uma descrição desses dados e suas restrições. Essas descrições e restrições estão armazenadas no catálogo (dicionário) do SGBD.", 
+        "c) A independência física de dados consiste na habilidade de modificar o esquema conceitual sem a necessidade de reescrever os programas aplicativos. As modificações no nível conceitual são necessárias quando a estrutura lógica do banco de dados é alterada.", 
+        "d) Na linguagem SQL, os comandos DDL GRANT e ROLLBACK permitem a implementação de um controle de acesso discricionário, criando e retirando permissões no banco de dados.",
+        "e) A coleção das informações armazenadas em um banco de dados, em determinado momento, corresponde ao esquema do banco de dados."],
+        "correta": "b) A característica autodescritiva de um banco de dados define que o banco de dados contém o próprio dado assim como uma descrição desses dados e suas restrições. Essas descrições e restrições estão armazenadas no catálogo (dicionário) do SGBD.",
+        "explicacao": "Observe que a descrição presente na alternativa B está perfeitamente adequada. Tente encontrar os erros das demais alternativas. Apenas por curiosidade, na alternativa D, a linguagem SQL possui algumas subdivisões dos comandos. Os comandos GRANT e REVOKE servem para implementação do controle de acesso discricionário. O ROLLBACK, juntamente com o COMMIT e SAVEPOINT servem para controle de transações. <br>Outro ponto importante, é que, na alternativa A, a cardinalidade máxima tem que ser obrigatoriamente maior ou igual a 1. A justificativa para isso será dada na próxima aula."
+      },
+      {
+        "pergunta": "(Ano: 2014 Órgão: TJ-CE Prova: Analista Judiciário - Ciências Computação) Considerando o sistema gerenciador de banco de dados (SGBD), assinale a opção correta acerca de bancos de dados.",
+        "alternativas": ["a) Enquanto a DDL (Data Definition Language) é utilizada para definir a estrutura do banco de dados, a SDL (Storage Definition Language) é utilizada para especificar o esquema conceitual e seus mapeamentos com o esquema interno.", 
+        "b) A informação armazenada no catálogo do SGBD é denominada metamodelo.", 
+        "c) Na independência de dados do programa, propriedade do SGBD, a estrutura dos arquivos de dados é armazenada no catálogo separadamente dos programas de acesso.", 
+        "d) Na arquitetura de três esquemas de um banco de dados, o nível conceitual é responsável por descrever de forma detalhada as estruturas de armazenamento físico, incluindo os relacionamentos entre as tabelas.",
+        "e) Na arquitetura de três esquemas, a capacidade de alterar o esquema interno sem ter de alterar o esquema conceitual consiste na independência lógica de dados."],
+        "correta": "c) Na independência de dados do programa, propriedade do SGBD, a estrutura dos arquivos de dados é armazenada no catálogo separadamente dos programas de acesso.",
+        "explicacao": "Nesta questão, tão importante quanto saber que a alternativa C está correta, e esse assunto nós já vimos no início da aula, é entender por que as outras estão erradas. Perceba primeiramente que, se formos teoricamente precisos, deveríamos trocar SGBD por SDB. (lembra?!, SGBD + DB = SBD) A questão é que alguns autores falam da abordagem de sistemas de gerenciamento de banco de dados. Assim, essa acaba sendo a menos errada das alternativas. <br>Na alternativa A, o examinador sugere que SDL, é utilizada para descrever um esquema conceitual. Vejam que SDL está relacionada com armazenamento, e, quando existe de forma separada em uma linguagem, é utilizada para definir os detalhes do nível interno. Na alternativa B, no lugar de meta modelo, o correto seria metadados. <br>Na alternativa D, o nível descrito é o nível interno. <br>Por fim, a alternativa E trata de independência física e não lógica como descrito no texto."
+      },
+      {
+        "pergunta": "(Ano: 2016 Órgão: TCE-PA Prova: Auditor de Controle Externo - Área Informática - Analista de Sistema) Julgue o item subsequente, no que se refere a sistemas de gerenciamento de bancos de dados (SGBD). <br>Independência lógica de dados refere-se à capacidade de alterar o esquema conceitual sem a necessidade de alterar os esquemas externos ou os programas de aplicação.",
+        "alternativas": ["Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Lembre-se que a independência lógica ou conceitual atual no nível intermediário da arquitetura em 3 esquemas. Ela está relacionada ao fato de que modificações nesta camada da arquitetura não gera necessidade de alteração nos esquemas externos ou programas de aplicação. Desta forma, a alternativa encontra-se correta."
+      },
+      {
+        "pergunta": "(Ano: 2016 Órgão: TCE-PA Prova: Auditor de Controle Externo - Área Informática - Administrador de Banco de Dados) Com relação a sistemas gerenciadores de bancos de dados (SGBD), julgue o próximo item. <br>No nível conceitual da arquitetura de três camadas de banco de dados, cada esquema externo descreve a parte do banco que interessa a determinado grupo de usuários e oculta desse grupo o restante do banco de dados",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Perceba que essa questão apresenta uma casca de banana das mais malvadas. Ele mistura o nível conceitual da arquitetura em três esquemas com o nível externo. Sabemos que os esquemas externos estão associados às diferentes visões dos grupos de usuários. Tal fato reflete os interesses distintos de cada grupo quanto ao acesso às informações do banco de dados. Assim, podemos marcar nosso gabarito como errado."
+      },
+      {
+        "pergunta": "(MPU-TO - DBA - CESPE – 2024) Julgue os itens a seguir, referentes a banco de dados. <br>Um caso típico de fragmentação em vários bancos de dados é o particionamento de registros correspondentes a diferentes usuários em uma coleção de bancos de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. O particionamento de registros correspondentes a diferentes usuários em uma coleção de bancos de dados é, de fato, um exemplo de fragmentação em vários bancos de dados. Nesse caso, os registros são distribuídos entre diferentes bancos de dados de acordo com algum critério, como o usuário ao qual eles pertencem. Isso pode ser útil para distribuir a carga de trabalho e otimizar o desempenho, especialmente em sistemas com grande volume de dados e muitos usuários. Portanto, o item está correto."
+      },
+      {
+        "pergunta": "(MPU-TO - DBA - CESPE – 2024) Julgue os itens a seguir, referentes a banco de dados. <br>Um sistema gerenciador de banco de dados resolve problemas de integridade para evitar que a mesma informação esteja duplicada em vários locais.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item está incorreto. Um sistema gerenciador de banco de dados (SGBD) não resolve problemas de integridade para evitar duplicação de informações em vários locais. Na verdade, a integridade referencial em um banco de dados refere-se à consistência e precisão dos dados armazenados. Ela é mantida por meio de restrições, como chaves primárias, chaves estrangeiras e restrições de unicidade, que são definidas pelo projetista do banco de dados. Essas restrições garantem que os dados estejam organizados de forma coerente e que não haja inconsistências ou redundâncias. Portanto, o papel do SGBD é garantir a integridade dos dados por meio da aplicação e execução dessas restrições definidas pelo usuário, mas não especificamente para evitar a duplicação de informações em vários locais."
+      },
+      {
+        "pergunta": "(MPU-TO - DBA - CESPE – 2024) Julgue os itens a seguir, referentes a banco de dados. <br>No modelo de dados físico, que é criado como parte do processo de coleta de requisitos iniciais do projeto, é possível obter uma visualização geral do conteúdo do sistema, da forma como esse conteúdo será organizado e das regras de negócios que estão envolvidas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item está incorreto. O modelo de dados físico não é criado como parte do processo de coleta de requisitos iniciais do projeto. Na verdade, o modelo de dados físico é desenvolvido durante a fase de projeto do banco de dados, que ocorre após a fase de análise de requisitos. <br>Durante a fase de análise de requisitos, os analistas trabalham para entender os requisitos do sistema, identificar os dados que serão armazenados e compreender as regras de negócio envolvidas. Com base nesses requisitos, é criado o modelo de dados lógico, que descreve a estrutura dos dados de uma maneira independente do SGBD específico que será utilizado. <br>Já o modelo de dados físico é criado na fase de projeto e envolve decisões detalhadas sobre como os dados serão armazenados e organizados no sistema de gerenciamento de banco de dados (SGBD) escolhido. Isso inclui detalhes como tipos de dados, índices, restrições de integridade e otimizações de desempenho. <br>Portanto, o modelo de dados físico não é criado durante a coleta de requisitos iniciais do projeto, mas sim durante a fase de projeto do banco de dados."
+      },
+      {
+        "pergunta": "(MPU-TO - DBA - CESPE – 2024) A respeito de arquitetura de bancos de dados, julgue os itens a seguir. <br>Na arquitetura de três esquemas, o nível externo apresenta uma série de visões do usuário.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. Na arquitetura de três esquemas, proposta por ANSI/SPARC, há três níveis de abstração: o esquema interno, que descreve a estrutura física dos dados armazenados no banco de dados; o esquema conceitual, que descreve a estrutura lógica dos dados, incluindo entidades, relacionamentos e restrições; e o esquema externo, que apresenta uma visão personalizada dos dados para os usuários finais. Portanto, o nível externo contém várias visões do usuário que representam diferentes perspectivas dos dados, adaptadas às necessidades específicas dos usuários finais."
+      },
+      {
+        "pergunta": "(MPU-TO - DBA - CESPE – 2024) A respeito de arquitetura de bancos de dados, julgue os itens a seguir. <br>Uma das características de um sistema gerenciador de banco de dados (SGBD) é a independência de dados, ou seja, o entendimento dos dados pelo SGBD ocorre mesmo sem uma aplicação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. A independência de dados é uma das características dos sistemas gerenciadores de banco de dados (SGBDs). Ela refere-se à capacidade do SGBD de isolar os programas de aplicação dos detalhes físicos de armazenamento dos dados. Isso significa que as aplicações podem ser desenvolvidas sem precisar conhecer os detalhes de como os dados estão armazenados no banco de dados, garantindo que as mudanças na estrutura física dos dados não afetem as aplicações. Portanto, mesmo sem uma aplicação específica, o SGBD pode entender e manipular os dados armazenados."
+      },
+      {
+        "pergunta": "(MPU-TO - DBA - CESPE – 2024) A respeito de arquitetura de bancos de dados, julgue os itens a seguir. <br>As propriedades autenticidade, consistência, isolamento e durabilidade garantem confiabilidade às transações executadas em um banco de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item está incorreto. As propriedades mencionadas são, na verdade, conhecidas como propriedades ACID (Atomicidade, Consistência, Isolamento e Durabilidade) e são essenciais para garantir a confiabilidade das transações em um banco de dados. Cada uma dessas propriedades desempenha um papel importante na garantia de que as transações sejam executadas de forma segura e confiável. Portanto, a afirmação de que essas propriedades garantem confiabilidade às transações está correta. Portanto, a opção correta seria \"Errada\"."
+      },
+      {
+        "pergunta": "(MPU-TO - DBA - CESPE – 2024) A respeito de arquitetura de bancos de dados, julgue os itens a seguir. <br>Diferentemente do multithreading, um SGBD multiprocesso atende cada conexão por meio de um processo distinto no sistema operacional.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. Em um sistema de banco de dados multiprocesso, cada conexão de cliente é atendida por um processo separado no sistema operacional. Isso permite que várias solicitações de clientes sejam tratadas simultaneamente, com cada processo operando de forma independente. Em contraste, em um sistema multithreading, várias conexões de clientes podem ser atendidas dentro do mesmo processo, com threads separadas responsáveis por cada conexão. Portanto, a afirmação de que um SGBD multiprocesso atende cada conexão por meio de um processo distinto no sistema operacional está correta. O gabarito está certo."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - APO (SEPLAN RR)/SEPLAN RR/Tecnologia da Informação/2023) No que se refere às características de um banco de dados relacional, julgue o item que se segue. <br>Atomicidade, uma das propriedades cruciais em transações de banco de dados relacional, é a chave para manter os dados precisos no banco de dados e garantir que eles estejam em conformidade com regras, regulamentos e políticas da empresa.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. Atomicidade é uma das propriedades das transações em bancos de dados relacionais. Ela descreve a capacidade de uma transação ser tratada como uma operação única e indivisível, onde todas as operações dentro da transação são concluídas com sucesso ou todas são desfeitas em caso de falha, garantindo a integridade dos dados. <br>Essa propriedade é fundamental para manter a precisão dos dados no banco de dados e garantir que eles estejam em conformidade com as regras, regulamentos e políticas da empresa. Se uma transação não for atomicamente tratada e, por exemplo, uma operação falhar e outra não, isso pode levar a um estado inconsistente dos dados. <br>Portanto, a atomicidade desempenha um papel crucial na manutenção da integridade dos dados em um banco de dados relacional."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - APO (SEPLAN RR)/SEPLAN RR/Tecnologia da Informação/2023) No que se refere às características de um banco de dados relacional, julgue o item que se segue. <br>Visões podem ser usadas para definir relações no esquema externo que exibem para os aplicativos as alterações feitas no esquema conceitual do banco de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As visões são usadas para manter a independência de dados, logo elas vão esconder as alterações feitos no esquema conceitual da arquitetura em 3 esquemas e não as exibir. Assim, temos uma alternativa incorreta."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - Ana (CNMP)/CNMP/Tecnologia da Informação e Comunicação/Suporte e Infraestrutura/2023) Julgue o item subsecutivo, que se referem a conceitos de programação e banco de dados. <br>Um registro é um conjunto de itens de dados que possuem um conjunto de atributos que pertencem a determinada entidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. Em bancos de dados e em muitos contextos de programação, um registro é de fato um conjunto de itens de dados que compartilham um conjunto de atributos ou campos que estão associados a uma entidade específica. Cada registro representa uma instância única da entidade e contém valores específicos para seus atributos correspondentes. Por exemplo, em um banco de dados de funcionários, cada registro representa um funcionário individual e contém informações como nome, número de identificação, cargo, salário, etc., que são os atributos desse registro específico (funcionário). Portanto, a definição dada na afirmativa é válida em um contexto de banco de dados e programação."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - AFM (Pref Fortaleza)/Pref Fortaleza/Ciência da Computação, Informática, Processamento de Dados/2023) Julgue o item a seguir, a respeito de arquitetura de dados, metadados e linguagens de bancos de dados. <br>Para garantir o princípio da segurança de dados, que é um dos princípios da arquitetura de dados, o sistema deve ser rígido e ter suas regras de utilização e acesso fixadas e rigorosamente seguidas, sem espaço para alterações.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item está incorreto! O item menciona que, para garantir o princípio da segurança de dados na arquitetura de dados, o sistema deve ser rígido e ter suas regras de utilização e acesso fixadas e rigorosamente seguidas, sem espaço para alterações. Vamos analisar isso: <br>A afirmação parece sugerir uma abordagem bastante restritiva e inflexível em relação às regras de utilização e acesso aos dados, alegando que não há espaço para alterações. No entanto, essa abordagem pode não ser totalmente realista ou desejável na prática. <br>Em muitos sistemas de informações e bancos de dados, a necessidade de flexibilidade é reconhecida, especialmente considerando as mudanças nas necessidades do negócio ao longo do tempo. As regras de segurança podem precisar ser ajustadas para acomodar novos requisitos ou para lidar com situações específicas. <br>Além disso, o gerenciamento eficaz de metadados, que descrevem as características e propriedades dos dados, é uma parte crucial da arquitetura de dados. Os metadados podem incluir informações sobre as políticas de segurança, restrições de acesso e outros aspectos relevantes para garantir a integridade e a segurança dos dados. <br>Portanto, enquanto a segurança de dados é essencial, uma abordagem que permita a flexibilidade para ajustar as regras de acesso e utilização, conforme necessário, pode ser mais realista e prática em muitos contextos. O importante é encontrar um equilíbrio entre a segurança necessária e a flexibilidade para adaptar-se às mudanças nas condições e requisitos do ambiente de negócios."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - AFM (Pref Fortaleza)/Pref Fortaleza/Ciência da Computação, Informática, Processamento de Dados/2023) Julgue o item a seguir, a respeito de arquitetura de dados, metadados e linguagens de bancos de dados. <br>Os metadados possibilitam uma visão integrada do ambiente de dados, pois explicitam os inter-relacionamentos existentes entre os dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. Os metadados desempenham um papel crucial na arquitetura de dados ao possibilitar uma visão integrada do ambiente de dados. Os metadados são informações que descrevem os dados, incluindo sua origem, significado, formato, restrições, relacionamentos e outros atributos. Eles fornecem um contexto essencial para a compreensão e o gerenciamento dos dados. <br>Ao explicitar os inter-relacionamentos existentes entre os dados, os metadados facilitam a compreensão da estrutura e das conexões dentro do ambiente de dados. Isso é particularmente útil em sistemas complexos com múltiplas fontes de dados, onde compreender como os dados se relacionam entre si é essencial para garantir uma visão unificada e consistente. <br>Em resumo, os metadados desempenham um papel fundamental ao fornecer informações sobre os dados, permitindo uma visão integrada e melhorando a eficácia do gerenciamento e da utilização dos recursos de dados em um sistema."
+      },
+      {
+        "pergunta": "CEBRASPE (CESPE) - Ana (CNMP)/CNMP/Tecnologia da Informação e Comunicação/Suporte e Infraestrutura/2023 Julgue o item subsecutivo, que se referem a conceitos de programação e banco de dados. As estruturas para armazenamento dos dados e os métodos de acesso ao banco de dados fazem parte do projeto lógico de um banco de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item está incorreto! Para entendermos melhor o porquê, vamos organizar as responsabilidades dos níveis lógico e físico. <br>Projeto Lógico de um Banco de Dados <br>O projeto lógico de um banco de dados concentra-se principalmente na definição de: <br>● Como os dados serão organizados. <br>● Quais entidades (tabelas) existirão. <br>● Quais são os relacionamentos entre essas entidades. <br>● Quais atributos (colunas) cada entidade terá e como esses atributos se relacionam. <br>● Essa camada é abstrata e visa representar a estrutura do banco de dados sem considerar as questões de implementação física no hardware. <br>Projeto Físico de um Banco de Dados <br>Por outro lado, o projeto físico lida com detalhes como: <br>● Escolha do Sistema de Gerenciamento de Banco de Dados (SGBD). <br>● Otimização de desempenho. <br>● Definição de índices para acelerar as consultas. <br>● Particionamento de tabelas para melhor distribuição de dados. <br>● Escolha de estruturas de armazenamento, como tablespaces em bancos de dados relacionais. <br>● Métodos de acesso, incluindo algoritmos de busca e recuperação de dados. <br>Essa etapa envolve a implementação prática das decisões tomadas no projeto lógico, visando garantir que o banco de dados funcione eficientemente e atenda aos requisitos de desempenho e escalabilidade."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - Ana (SERPRO)/SERPRO/Tecnologia/2023) Considerando que existem diferentes tipos de banco de dados, como os bancos de dados relacionais e os não relacionais (ou NoSQL), julgue o item a seguir. <br>A modelagem de dados lógica, cujo objetivo é especificar entidades, atributos, relacionamentos e restrições, considera aspectos técnicos de implementação, como desempenho e integridade dos dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A modelagem de dados lógica deve, na verdade, ser independente de considerações técnicas de implementação, como desempenho. No nível lógico, a modelagem detalha as tabelas ou entidades, são definidas as colunas, os tipos de dados, as chaves primárias e estrangeiras e as restrições. Nesse nível, as regras de integridade e normalização são estabelecidas para garantir a consistência dos dados. A normalização ajuda a reduzir a redundância de dados, reduzindo as anomalias de atualização. <br>No nível físico, o modelo lógico é implementado em um banco de dados real. Questões como particionamento, índices e organização física dos dados são definidas nesse nível."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - Ana (SERPRO)/SERPRO/Tecnologia/2023) Julgue o seguinte item, a respeito da gestão de banco de dados. <br>O particionamento, que é uma técnica utilizada para dividir o banco de dados em partes menores denominadas partições, garante a disponibilidade do banco de dados, especialmente em sistemas com grande volume de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O particionamento de tabelas é uma técnica utilizada em bancos de dados para melhorar o desempenho e a manutenção, mas não é estritamente relacionado à garantia da disponibilidade do banco de dados. O particionamento é geralmente usado para otimizar consultas e operações em tabelas com grandes volumes de dados, como data warehouse, arquivamento de logs ou outras situações em que a gestão eficiente de grandes quantidades de dados é crítica. A garantia de disponibilidade de um banco de dados, especialmente em sistemas com grande volume de dados, envolve outras estratégias, como replicação de dados, balanceamento de carga, redundância de servidores e sistemas de backup. O particionamento pode ser uma parte da estratégia geral, mas não é uma técnica que, por si só, garanta a disponibilidade do banco de dados. Portanto, o item está incorreto ao afirmar que o particionamento garante a disponibilidade do banco de dados. É importante considerar uma variedade de técnicas e estratégias para garantir a disponibilidade, dependendo dos requisitos específicos do sistema."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - AFM (Pref Fortaleza)/Pref Fortaleza/Ciência da Computação, Informática, Processamento de Dados/2023) Com relação a conceitos de modelos de dados e de modelagem de dados, julgue o item subsecutivo.<br>Em um sistema de banco de dados, a alteração do nível interno exige a revisão de nível conceitual equivalente.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item apresenta uma afirmação incorreta, pois a alteração no nível interno de um banco de dados geralmente não exige uma revisão equivalente no nível conceitual. Na verdade, uma das características fundamentais da arquitetura de três níveis de um banco de dados (nível interno, conceitual e externo) é a independência entre esses níveis. <br>A alteração no nível interno, que se refere à forma como os dados são armazenados e organizados internamente no banco de dados, não deve afetar o nível conceitual, que descreve a estrutura e o relacionamento dos dados de uma perspectiva mais abstrata e independente de implementação. Essa independência é conhecida como independência física dos dados. <br>Portanto, a alteração no nível interno pode ser realizada sem a necessidade de revisão no nível conceitual. Isso permite que os desenvolvedores ajustem a implementação interna do banco de dados sem impactar a visão mais ampla e abstrata do modelo de dados no nível conceitual. <br>Em resumo, a independência entre os níveis interno e conceitual é uma característica desejável em sistemas de banco de dados, e as alterações no nível interno não devem exigir revisões equivalentes no nível conceitual."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - AFM (Pref Fortaleza)/Pref Fortaleza/Ciência da Computação, Informática, Processamento de Dados/2023) Com relação a conceitos de modelos de dados e de modelagem de dados, julgue o item subsecutivo. Na construção de um banco de dados, o modelo conceitual utiliza os requisitos de negócio, que são decompostos em entidades, atributos e relacionamentos atômicos, e aplica regras para evitar redundâncias.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item está incorreto, se você observar, existem dois tipos de requisitos quando falamos de projetos de banco de dados, os requisitos de negócio que dão origem às funcionalidades do sistema e os requisitos de dados que endereçam o modelo de dados. Entidade, atributos e relacionamentos são elementos da modelagem conceitual que fazem parte da modelagem de dados. Logo, temos uma alternativa incorreta."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - Ana (MPE RO)/MPE RO/Sistemas/2023) Assinale a opção que apresenta, respectivamente, uma função da administração de dados e uma função da administração de banco de dados. ",
+        "alternativas": [
+        "a) projetar o banco de dados; otimizar o banco de dados para melhorar o seu desempenho", 
+        "b) garantir a segurança e a privacidade dos dados; viabilizar a recuperação e o backup dos dados", 
+        "c) criar scripts SQL e fazer a manutenção delas; executar a modelagem conceitual do sistema", 
+        "d) gerenciar as transações e a concorrência dos dados; definir e manipular os dados",
+        "e) administrar o hardware e os servidores do banco de dados; realizar a definição e a manutenção dos requisitos de negócio"],
+        "correta": "a) projetar o banco de dados; otimizar o banco de dados para melhorar o seu desempenho",
+        "explicacao": "A função de projetar o banco de dados está mais relacionada à administração de dados, enquanto a otimização do banco de dados para melhorar o desempenho está mais associada à administração de banco de dados. A opção correta é, portanto, a letra A."
+      },
+      {
+        "pergunta": "(Cebraspe – Quality Assurance (QA) e Analista de Teste (BANRISUL)/2022) A respeito da arquitetura de banco de dados relacional, julgue os itens seguintes. <br>Um modelo relacional de banco de dados não separa as estruturas de armazenamento físicas das estruturas de dados lógicas, assim administradores de banco de dados podem gerenciar tanto o armazenamento de dados físicos quanto o acesso a esses dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A afirmação está incorreta. No modelo relacional de banco de dados, há uma distinção clara entre as estruturas de armazenamento físicas e as estruturas de dados lógicas. Essa separação é uma das características fundamentais do modelo relacional e é conhecida como independência de dados. <br>A independência de dados no contexto do modelo relacional significa que a estrutura física de armazenamento dos dados (como a organização em disco, índices, etc.) é separada das estruturas de dados lógicas (tabelas, colunas, relações). Essa separação permite que os administradores de banco de dados gerenciem o armazenamento físico de maneira otimizada, sem afetar a forma como os dados são acessados logicamente. <br>Os usuários e aplicativos acessam os dados por meio das estruturas lógicas, como tabelas e consultas SQL, enquanto a administração do armazenamento físico é realizada pelo sistema de gerenciamento de banco de dados (SGBD) de forma transparente. <br>Portanto, a afirmação está incorreta ao afirmar que o modelo relacional não separa as estruturas de armazenamento físicas das estruturas de dados lógicas. Na verdade, essa separação é uma característica central do modelo relacional."
+      },
+      {
+        "pergunta": "(Ano: 2023 Banca: CESPE / CEBRASPE Órgão: AGER - Mato Grosso Prova: CESPE / CEBRASPE - 2023 - AGER - Mato Grosso - Analista Regulador - Ciências da Computação e ou Sistemas de Informação) Assinale a opção em que é apresentada a propriedade envolvida quando uma transação de banco de dados é completada com sucesso e as mudanças que ela fez no banco persistem, mesmo que existam falhas no sistema.",
+        "alternativas": [
+        "a) atomicidade", 
+        "b) consistência", 
+        "c) isolamento", 
+        "d) durabilidade",
+        "e) inconsistência de dados"],
+        "correta": "d) durabilidade",
+        "explicacao": "Quando existe uma falha no banco de dados e o dado já foi efetivamente gravado na base, o SGBD deve garantir que esse dado não seja perdido, resistindo inclusive a falhas. A propriedade que garante essa característica é conhecida como durabilidade. Logo, temos a nossa resposta na alternativa D."
+      },
+      {
+        "pergunta": "(Ano: 2022 Banca: CESPE / CEBRASPE Órgão: POLITEC - RO Prova: CESPE / CEBRASPE - 2022 - POLITEC - RO - Perito Criminal - Área 6 (Ciências da Computação/Informática/Análise de Sistemas)) Em uma arquitetura de três esquemas de banco de dados, o nível que descreve a estrutura de todo o banco de dados para uma comunidade de usuários com foco na descrição de entidades, tipos de dados, relacionamentos, operações do usuário e restrições é denominado:",
+        "alternativas": [
+        "a) nível externo.", 
+        "b) nível do cliente.", 
+        "c) nível interno.", 
+        "d) nível conceitual.",
+        "e) nível do servidor."],
+        "correta": "d) nível conceitual.",
+        "explicacao": "Vamos revisar as camadas da arquitetura em 3 esquemas: <br>No nível interno, aqui encontramos o esquema interno, que delineia a estrutura do armazenamento físico do banco de dados. Este esquema interno adota um modelo de dados físicos e oferece uma descrição detalhada do armazenamento de dados, incluindo os caminhos de acesso utilizados pelo banco de dados. <br>No nível conceitual, responsável por definir a estrutura do banco de dados em sua totalidade, direcionado a uma comunidade de usuários. O esquema conceitual age como uma camada de abstração, ocultando os pormenores das estruturas de armazenamento físico e se concentrando na descrição de entidades, tipos de dados, relações, operações do usuário e restrições. <br>Tipicamente, um modelo de dados representativo é empregado para descrever o esquema conceitual quando um sistema de banco de dados é implantado. Esse esquema conceitual de implementação costuma derivar de um projeto de esquema conceitual baseado em um modelo de dados de alto nível. <br>O nível externo, também conhecido como nível de visão, compreende uma série de esquemas externos ou visões de usuário. Cada esquema externo descreve a porção específica do banco de dados que interessa a um grupo particular de usuários, mantendo o restante do banco de dados oculto a esse grupo. Assim como no nível anterior, cada esquema externo é comumente implementado por meio de um modelo de dados representativo, possivelmente derivado de um projeto de esquema externo em um modelo de dados de alto nível."
+      },
+      {
+        "pergunta": "(Ano: 2022 Banca: CESPE / CEBRASPE Órgão: FUB Prova: CESPE / CEBRASPE - 2022 - FUB - Técnico de Tecnologia da Informação) Acerca de tipos de bancos de dados, julgue o item que se segue. <br>Nos bancos de dados hierárquicos, cada registro é uma coleção de atributos, sendo a associação entre dois registros denominada ligação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Nos bancos de dados hierárquicos, cada registro é uma entidade individual com seus próprios atributos. A associação entre dois registros é denominada \"relação pai-filho\" ou \"ligação pai-filho\". A ligação pai-filho estabelece a estrutura hierárquica do banco de dados, onde um registro pode ser pai de vários registros filhos, mas um registro filho tem apenas um registro pai."
+      },
+      {
+        "pergunta": "(Ano: 2022 Banca: CESPE / CEBRASPE Órgão: FUB Prova: CESPE / CEBRASPE - 2022 - FUB - Técnico de Tecnologia da Informação) No que se refere a níveis de abstração, modelos de dados e normalização em bancos de dados, julgue o próximo item. <br>O nível de abstração de dados em que é definida detalhadamente a maneira pela qual os dados de um sistema estão estruturalmente armazenados e como podem ser computacionalmente acessados corresponde ao nível de visão do usuário.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O nível físico que é o nível mais baixo de abstração, em que define efetivamente de que maneira os dados estão armazenados."
+      },
+      {
+        "pergunta": "(Ano: 2022 Banca: CESPE / CEBRASPE Órgão: Petrobras Prova: CESPE / CEBRASPE - 2022 - Petrobras - Analista de Sistemas – Processos de negócio) Quanto aos conceitos relativos à arquitetura de dados, julgue o item a seguir.<br>O principal objetivo de um sistema de gerenciamento de banco de dados (SGDB) é retirar da aplicação cliente a responsabilidade de gerenciar o acesso, a persistência, a manipulação e a organização dos dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A afirmação está correta. O principal objetivo de um Sistema de Gerenciamento de Banco de Dados (SGBD) é exatamente esse: retirar da aplicação cliente a responsabilidade de gerenciar o acesso, a persistência, a manipulação e a organização dos dados. Um SGBD oferece uma camada de abstração entre a aplicação e os dados armazenados, permitindo que os desenvolvedores se concentrem na lógica de negócios da aplicação, em vez de se preocuparem com os detalhes técnicos relacionados ao armazenamento e recuperação de dados. Isso facilita o desenvolvimento, a manutenção e a escalabilidade das aplicações, além de proporcionar maior segurança e controle sobre os dados."
+      },
+      {
+        "pergunta": "(Ano: 2022 Banca: CESPE / CEBRASPE Órgão: Petrobras Prova: CESPE / CEBRASPE - 2022 - Petrobras - Analista de Sistemas – Processos de negócio) Quanto aos conceitos relativos à arquitetura de dados, julgue o item a seguir. <br>O desenvolvimento de soluções inicia pela modelagem de dados conceitual, que é feita geralmente pelo gestor de dados de negócio ou outro profissional acompanhado de sua supervisão e(ou) orientação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A afirmação está correta. A modelagem de dados conceitual é de fato uma etapa fundamental no desenvolvimento de soluções de software, pois ajuda a definir os conceitos, entidades e relacionamentos-chave que representam os requisitos de negócios de uma organização. <br>A modelagem de dados conceitual é frequentemente conduzida por um profissional especializado em dados, como um analista de negócios ou um arquiteto de dados, em colaboração com outras partes interessadas, como gestores de negócios, usuários finais e desenvolvedores de software. A supervisão e orientação de profissionais experientes são importantes para garantir que a modelagem de dados conceitual reflita com precisão as necessidades e objetivos do negócio. Isso ajuda a evitar mal-entendidos e erros na fase inicial do projeto. <br>Portanto, a modelagem de dados conceitual é uma atividade colaborativa que envolve profissionais de diferentes áreas, com o objetivo de criar uma representação clara e precisa dos requisitos de negócios, que servirá como base para o desenvolvimento de soluções de software."
+      },
+      {
+        "pergunta": "(Ano: 2021 Banca: CESPE / CEBRASPE Órgão: TCE-RJ Prova: CESPE / CEBRASPE - 2021 - TCE-RJ - Analista de Controle Externo - Especialidade: Tecnologia da Informação) Julgue o item a seguir, acerca dos conceitos de administração de banco de dados. <br>A independência de dados é caracterizada pelo fato de os dados não dependerem do esquema físico e não precisarem ser reescritos se o esquema físico do banco de dados for alterado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O item está correto. A independência de dados é de fato caracterizada pelo fato de os dados não dependerem do esquema físico e de não ser necessário reescrever os dados se o esquema físico do banco de dados for alterado. Existem dois tipos principais de independência de dados: <br>1. Independência lógica de dados: Isso significa que os programas de aplicação e as consultas não dependem do esquema lógico ou conceitual do banco de dados. Mesmo que o esquema lógico seja modificado, os programas de aplicação que utilizam os dados ainda funcionarão sem a necessidade de modificações. <br>2. Independência física de dados: Isso significa que os programas de aplicação e as consultas não dependem do esquema físico do banco de dados, ou seja, a forma como os dados são armazenados no disco. Se o esquema físico for modificado (por exemplo, a adição de um novo índice), isso não afetará os programas de aplicação que acessam os dados. <br>A independência de dados é uma característica importante dos sistemas de gerenciamento de banco de dados (SGBDs), pois permite que as organizações realizem alterações no esquema de armazenamento dos dados sem impactar as aplicações que utilizam esses dados."
+      },
+      {
+        "pergunta": "Cebraspe – Técnico (Analista de Sistemas) Infraestrutura e Segurança da Informação (BNB)/2022 Os esquemas de um banco de dados dividem fisicamente as tabelas, evitando o acesso cruzado entre objetos de diferentes esquemas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A afirmação está incorreta. Os esquemas de um banco de dados não têm como objetivo principal dividir fisicamente as tabelas para evitar o acesso cruzado entre objetos de diferentes esquemas. Na verdade, os esquemas são utilizados para organizar logicamente os objetos do banco de dados, como tabelas, visões, procedimentos armazenados e outros, em grupos lógicos. Eles ajudam a definir uma estrutura de nomenclatura, controle de acesso e organização das entidades do banco de dados. <br>A divisão física de tabelas geralmente é tratada por meio de recursos como tablespaces (espaços de tabelas), particionamento de tabelas, gerenciamento de armazenamento e outras técnicas de gerenciamento de bancos de dados. Essas abordagens físicas têm a ver com como os dados são armazenados e gerenciados internamente no sistema de gerenciamento de banco de dados, enquanto os esquemas dizem respeito à organização lógica e à visibilidade dos objetos do banco de dados. <br>Portanto, os esquemas são mais relacionados à organização lógica e à gestão de privilégios, e não são usados principalmente para evitar o acesso cruzado físico entre tabelas de diferentes esquemas."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - Analista Judiciário (TJ PA)/Análise de Sistema/Suporte/2020) O administrador de dados e o administrador do banco de dados exercem funções-chave na administração de banco de dados. Ao responsável pelas decisões estratégicas e de normas com relação aos dados da empresa cabe também:",
+        "alternativas": [
+        "a) definir o esquema interno.", 
+        "b) definir o esquema conceitual.", 
+        "c) manter contato com os usuários.", 
+        "d) definir normas de descarga e recarga.",
+        "e) responder a requisitos de mudanças."],
+        "correta": "b) definir o esquema conceitual.",
+        "explicacao": "O administrador de dados (DA, do inglês Data Administrator) cuida do planejamento dos dados. Ele documenta, padroniza e modela como os dados de uso comum de uma organização serão armazenados e gerenciados, sempre visando atender as necessidades estratégicas. É o DA que é responsável pelas normas com relação aos dados da empresa. Por exemplo, ele define um padrão para os nomes dos atributos e das tabelas. <br>Mas ... a questão fala do esquema conceitual ... e esse esquema, conforme comentado ao longo da aula, é definido no nível conceitual da arquitetura em 3 esquemas. Como eu sei disso? Pelo contexto da questão que foi tirada do livro do CJ Date. Vejamos o que o DATE fala sobre esse tópico: <br>Cabe ao administrador de dados decidir quais informações devem ser mantidas no banco de dados – em outras palavras, identificar as entidades de interesse para a empresa e identificar as informações a serem registradas sobre essas entidades. Normalmente, esse processo é referenciado como projeto lógico – às vezes, conceitual – de banco de dados. Uma vez que o administrador de dados tenha definido o conteúdo do banco de dados em um nível abstrato, o DBA então criará o esquema conceitual correspondente, usando a DDL conceitual. <br>Eita professor! Nem o Date sabe o que está falando! Ele disse que o DBA criará o esquema conceitual! Calma ... o Date ainda complementa ... Devemos acrescentar que, na prática, as coisas raramente serão definidas do modo exato como sugerem as observações anteriores. Em alguns casos, o administrador de dados criará o esquema conceitual diretamente. Em outros, o DBA criará o projeto lógico. <br>As demais atividades são executadas apenas pelo DBA. Logo, temos a resposta na alternativa B."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - Analista Judiciário (TJ PA)/Análise de Sistema/Suporte/2020) Um sistema de banco de dados proporciona a empresas o controle centralizado de todos os seus dados. O funcionamento do banco de dados baseia-se em unidades lógicas de trabalho conhecidas como",
+        "alternativas": [
+        "a) entidades.", 
+        "b) ocorrências.", 
+        "c) registros.", 
+        "d) tabelas.",
+        "e) transações."],
+        "correta": "e) transações.",
+        "explicacao": "Uma <b>transação</b> é uma <b>unidade lógica de trabalho</b> que executa um conjunto de operações no banco de dados. Essas operações podem inserir, remover, modificar ou recuperar dados nas tabelas. Ao final da transação, é possível confirmar as alterações realizadas (através do comando COMMIT) ou descartar as alterações (comando ROLLBACK). <br>Por exemplo: um sistema de uma instituição financeira pode ter uma transação chamada TRANSFERÊNCIA. Essa transação executa duas operações: primeiro, ela remove o valor que se quer transferir do saldo da conta de origem; depois, ela adiciona esse mesmo valor no saldo da conta de destino. Vamos ver os conceitos trazidos pelas demais alternativas: <br><b>a) entidades. - ERRADA.</b> Esse é um conceito associado ao modelo entidade-relacionamento. As entidades representam as \"coisas\" do mundo real que queremos modelar. Por exemplo: uma loja pode ter o interesse de armazenar informações dos seus clientes e dos seus produtos. Cliente e Produto são entidades do modelo. <br>b) ocorrências. - ERRADA. Uma ocorrência é uma linha da tabela (também chamada de registro). <br><b>c) registros. - ERRADA.</b> Um registro é uma linha da tabela (também chamado de ocorrência). <br>d) tabelas. - ERRADA. As tabelas são estruturas compostas por linhas e colunas. São utilizadas para armazenar dados nos bancos relacionais. <br>Concluímos, assim, que o gabarito é letra E."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - Assistente Judiciário (TJ AM)/Suporte ao Usuário de Informática/2019) Acerca de sistema gerenciador de banco de dados, do tuning e da segurança em banco de dados, julgue o item subsequente. <br>Uma das vantagens de utilizar sistema gerenciador de banco de dados é o fato de ele realizar o controle da redundância de dados, o que impede a ocorrência de inconsistências entre os arquivos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Às vezes, há motivos comerciais ou técnicos plausíveis para manter várias cópias distintas dos mesmos dados (redundância controlada). Na prática, às vezes é necessário usar a redundância controlada para melhorar o desempenho das consultas."
+      },
+      {
+        "pergunta": "(Ano: 2019 Banca: CESPE Órgão: SEFAZ-RS Prova: Auditor Assunto: Banco de Dados) As funções de um sistema de gerenciamento de banco de dados (SGBD) incluem",
+        "alternativas": [
+        "a) gerenciar o becape e a recuperação dos dados, bem como o escalonamento de processos no processador por meio do banco de dados.", 
+        "b) gerenciar o sistema de arquivos e a segurança do banco de dados.", 
+        "c) gerenciar a entrada e saída de dispositivos, linguagens de acesso ao banco de dados e interfaces de programação de aplicações.", 
+        "d) gerenciar a integridade de dados, o dicionário e o armazenamento de dados, bem como a memória do computador enquanto o SGBD estiver em execução.",
+        "e) transformar e apresentar dados, controlar o acesso de multiusuário e prover interfaces de comunicação do banco de dados."],
+        "correta": "e) transformar e apresentar dados, controlar o acesso de multiusuário e prover interfaces de comunicação do banco de dados.",
+        "explicacao": "Dentre as alternativas acima a única que apresenta funções exclusivas do SGBD é a alternativa E. As demais alternativas tratam de aspectos associados aos sistemas operacionais 1 : A) escalonamento de processos, B) gerenciamento do sistema de arquivos, C) gerenciamento da entrada e saída, D) Gerenciamento de memória. <br>Um Sistema de Gerenciamento de Banco de Dados (SGBD) é um conjunto de componentes que dão suporte à criação, utilização e à manutenção de bancos de dados. Inicialmente, um SGBD proporcionava armazenamento e recuperação eficientes dos dados. Devido às exigências do mercado e à inovação dos produtos, os SGBDs evoluíram e hoje fornecem uma ampla gama de recursos para a aquisição, armazenamento, disseminação, manutenção, recuperação e formatação de dados."
+      },
+      {
+        "pergunta": "(CEBRASPE (CESPE) - Assistente Judiciário (TJ AM)/Programador/2019) Julgue o próximo item, relativos a sistema gerenciador de banco de dados (SGBD). <br>Na arquitetura ANSI/SPARC de um SGBD, o nível interno trata do armazenamento físico dos dados, o nível externo trata do modo como os dados são visualizados por usuários individuais, e o nível conceitual oferece uma visão comunitária dos dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O objetivo da arquitetura de três esquemas é separar as aplicações do usuário do banco de dados físico. Nessa arquitetura, os esquemas podem ser definidos nos três níveis a seguir: <br><b>O nível interno</b> tem um esquema interno, que descreve a estrutura do armazenamento físico do banco de dados. O esquema interno usa um modelo de dados físico e descreve os detalhes completos do armazenamento de dados e caminhos de acesso para o banco de dados. <br><b>O nível conceitual</b> tem um esquema conceitual, que descreve a estrutura do banco de dados inteiro para uma comunidade de usuários. O esquema conceitual oculta os detalhes das estruturas de armazenamento físico e se concentra na descrição de entidades, tipos de dados, relacionamentos, operações do usuário e restrições. <br><b>O nível externo</b> ou de visão inclui uma série de esquemas externos ou visões do usuário. Cada esquema externo descreve a parte do banco de dados em que um grupo de usuários em particular está interessado e oculta o restante do banco de dados do grupo de usuários. <br>Desta forma temos uma afirmação correta."
+      },
+      {
+        "pergunta": "(Ano: 2018 Banca: CESPE Órgão: EBSERH Prova: Analista de Tecnologia da Informação) Com relação a banco de dados, julgue o item seguinte. <br>Após um banco de dados ser criado, o administrador executa uma série de tarefas para dar permissão de acesso aos usuários que necessitam ler e gravar informações na base de dados. A responsabilidade de gerir os acessos ao banco de dados é do sistema gerenciador de banco de dados (SGBD).",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Observe que neste texto podemos verificar explicitamente o benefício do sistema de gerenciamento de banco de dados. O administrador de banco de dados vai atribuir aos diversos usuários as permissões compatíveis com suas necessidades. Contudo, quem vai gerenciar o acesso, no sentido de autorizar o usuário a acessar o banco de dados e visualizar os dados, é o próprio SGBD. Desta forma, temos uma alternativa correta."
+      },
+      {
+        "pergunta": "(Ano: 2018 Banca: CESPE Órgão: STM Prova: Técnico Judiciário - Programação de Sistemas) Acerca dos conceitos de normalização de dados e dos modelos de dados, julgue o item subsequente. <br>Comparativamente aos usados pelos usuários leigos, os modelos de dados utilizados por programadores são considerados menos abstratos, pois contêm mais detalhes de como as informações estão organizadas internamente no banco de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Os usuários leigos, por terem um conhecimento mais limitado a respeito da tecnologia de banco de dados, devem ter uma visão mais abstrata dos dados quando comparados com os programadores. Estes, por terem conhecimento e formação específica podem ter mais detalhes da estrutura de armazenamento dos dados."
+      },
+      {
+        "pergunta": "(Ano: 2018 Banca: CESPE Órgão: CGM de João Pessoa – PB Prova: Auditor Municipal de Controle Interno - Desenvolvimento de Sistemas) A respeito de bancos de dados, julgue o item a seguir. <br>Nos bancos de dados construídos sob a concepção do modelo hierárquico, os dados são estruturados em hierarquia ou árvores cujos nós contêm ocorrências de registros, e cada registro consiste em uma coleção de atributos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Um banco de dados hierárquico consiste em uma coleção de registros que são conectados uns aos outros por meio de ligações. Um registro é uma coleção de campos, cada qual contendo apenas um valor de dados. Uma ligação é uma associação entre exatamente dois registros. O modelo hierárquico difere do modelo de rede na organização de registros como coleção de árvores em vez de como grafos arbitrários. <br>Um diagrama com estrutura de árvore é um esquema para um banco de dados hierárquico. Tal diagrama consiste em dois componentes básicos: retângulos, que correspondem a tipos de registro, e linhas, que correspondem a ligações. O diagrama com estrutura de árvore serve para os mesmos propósitos que um diagrama entidade-relacionamento; a saber, ele especifica a estrutura lógica geral do banco de dados. <br>Após essa rápida reflexão teórica sobre o assunto, podemos marcar nossa resposta como correta."
+      },
+      {
+        "pergunta": "(Ano: 2018 Banca: CESPE Órgão: CGM de João Pessoa – PB Prova: Auditor Municipal de Controle Interno - Desenvolvimento de Sistemas) A respeito de bancos de dados, julgue o item a seguir.<br>Um banco de dados é uma coleção de dados que são organizados de forma randômica, sem significado implícito e de tamanho variável, e projetados para atender a uma proposta específica de alta complexidade, de acordo com o interesse dos usuários.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Essa questão procura contrapor as propriedades listas pelo Navathe. Um banco de dados precisa representar algum aspecto do mundo real, ser logicamente coerente com algum significado inerente e possuir um grupo de usuários. Enfim, um banco de dados possui <br>alguma fonte da qual o dado é derivado, <br>algum grau de interação com eventos no mundo real e <br>um público que está ativamente interessado em seu conteúdo. <br>Logo, a afirmação da questão está incoerente, portanto, incorreta."
+      },
+      {
+        "pergunta": "(Ano: 2018 Banca: CESPE Órgão: TCE-PB Prova: Auditor de Contas Públicas - Demais Áreas) A respeito de SGBDs, assinale a opção correta.",
+        "alternativas": [
+        "a) Um SGBD, por definição, não é flexível, dada a dificuldade de mudar a estrutura dos dados quando os requisitos mudam.", 
+        "b) Um SGBD é um software que não prevê as funções de definição, recuperação e alteração de dados, sendo essa tarefa a função básica de um sistema de banco de dados.", 
+        "c) A consistência de dados é o princípio que determina a manutenção de determinado dado em vários arquivos diferentes.", 
+        "d) Conforme o princípio da atomicidade, caso ocorra erro em determinada transação, todo o conjunto a ela relacionado será desfeito até o retorno ao estado inicial, como se a transação nunca tivesse sido executada.",
+        "e) O controle de concorrência é o princípio que garante e permite a manipulação, no mesmo momento, de um mesmo dado por mais de uma pessoa ou um sistema."],
+        "correta": "d) Conforme o princípio da atomicidade, caso ocorra erro em determinada transação, todo o conjunto a ela relacionado será desfeito até o retorno ao estado inicial, como se a transação nunca tivesse sido executada.",
+        "explicacao": "Vamos analisar as alternativas acima. Elas são relevantes para consolidar nosso conhecimento sobre o assunto. Começando pela alternativa A, o erro aparece quando o examinador afirmar que os SGBDs não são flexíveis. Lembre-se que um SGBD veio solucionar um problema de replicação dos dados em diversos arquivos distintos. Agora, com uma fonte única dos dados, as alterações dos mesmos são centralizadas. <br>Já a alternativa B nos remonta às funcionalidades do SGBD. O que podemos fazer com tal sistema? É possível, primariamente, armazenar e manipular dados, para tal, é necessário descrever as estruturas das tabelas. Todos os SGBDs possuem estrutura para construção do banco de dados, usando uma linguagem como SQL. Sendo assim, a alternativa B também está incorreta. <br>As próximas duas alternativas tratam das propriedades das transações, mais especificamente da consistência, que tem por objetivo levar o banco de dados de um estado válido para outro estado consistente, e da atomicidade, que parte do princípio que uma transação é composta por vários comandos de modificação da base de dados e que estes comandos devem ser executados em conjunto completamente ou não serem executados. Desta forma, para garantir a atomicidade, caso uma transação falhe todas as operações já efetivadas precisam ser desfeitas. <br>Desta forma, a alternativa C está incorreta e a alternativa D é a nossa resposta. <br>Por fim, o controle de concorrência é um mecanismo que permite que apenas um usuário consiga modificar um dado do sistema em um determinado momento. É importante entender que é possível várias pessoas terem acesso aos dados para leitura. Como se todos estivessem lendo um livro. Contudo, na hora de escrever, só existe uma caneta e, se alguma pessoa estiver de posse da caneta, apenas ela poderá fazer alterações na base."
+      },
+      {
+        "pergunta": "(CESPE - Analista Ministerial (MPE PI)/Tecnologia da Informação/2018) Tendo em vista que, ao se desenvolver um sistema de vendas e compras para um cliente, devem-se descrever os produtos, as entradas, as saídas, o controle de estoque e o lucro das vendas, julgue o item subsequente, relativo à modelagem de dados para a aplicação descrita. <br>No sistema implementado, o cliente terá de cadastrar cada produto nos módulos de vendas e compras, pois a redundância será controlada pelo usuário, e não pela modelagem do banco de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A intenção de criar qualquer sistema computacional é, via de regra, automatizar e facilitar uma determinada atividade do negócio. A modelagem de dados serve justamente para evitar a redundância dos dados, mantendo a unicidade dos dados para que não haja dados conflitantes no sistema. A assertiva está incorreta e uma possível correção para a mesma seria: <br>“No sistema implementado, o cliente não terá de cadastrar cada produto nos módulos de vendas e compras, pois a redundância será tratada na fase da modelagem do banco de dados”"
+      },
+      {
+        "pergunta": "(Ano: 2016 Banca: CESPE Órgão: TCE-SC Prova: Auditor Fiscal de Controle Externo - Informática) Com relação aos bancos de dados relacionais, julgue o próximo item. <br>O catálogo de um sistema de gerenciamento de banco de dados relacional armazena a descrição da estrutura do banco de dados e contém informações a respeito de cada arquivo, do tipo e formato de armazenamento de cada item de dado e das restrições relativas aos dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perceba que a definição acima está de acordo com o termo dicionários de dados, catálogo de dados ou metadados presentes em um sistema de banco de dados. Lembre-se que essa separação entre a descrição dos dados e os dados propriamente dito é uma das características relevantes que foram apresentadas na evolução de sistemas de arquivos para a abordagem de banco de dados. Sendo assim, podemos afirmar que a questão está correta!"
+      },
+      {
+        "pergunta": "(CESPE - Técnico (FUB)/Tecnologia da Informação/2016) Acerca dos conceitos de bancos de dados, julgue o item seguinte. <br>Uma solução para evitar a redundância controlada de informações é o uso do compartilhamento de dados; dessa forma, cada informação é armazenada uma única vez.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Lembrando da nossa qual que existe dois tipos de redundâncias:<br><b>Redundância controlada de dados:</b> Acontece quando o software tem conhecimento da múltipla representação da informação e garante a sincronização entre as diversas representações. <br><b>Redundância não controlada:</b> Acontece quando a responsabilidade pela manutenção da sincronia entre as diversas representações de uma informação está com o usuário e não com o software. <br>A solução para redundância não controlada é o <b>compartilhamento de dados</b>, ou seja, todos os usuários acessam a mesma fonte de dados. <br>Uma forma de corrigir a afirmação seria: “Uma solução para evitar a redundância <b>não</b> controlada de informações é o uso do compartilhamento de dados; dessa forma, cada informação é armazenada uma única vez.” <br>Da forma como está escrito na questão, o item pode ser assinalado como INCORRETO."
+      },
+      {
+        "pergunta": "(CESPE - Técnico Judiciário (STM)/Apoio Especializado/Programação de Sistemas/2018) Acerca dos conceitos de normalização de dados e dos modelos de dados, julgue o item subsequente. <br>O modelo conceitual, que reflete uma estrutura simplificada do banco de dados, é responsável por registrar como os dados estão armazenados no sistema de gerenciamento de banco de dados (SGBD.)",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Vejamos uma lista das características presentes nos diferentes níveis de modelos de dados: <br>Modelo Conceitual <br>● É uma descrição de banco de dados de forma independente de implementação num sistema de gerenciamento. <br>● Registra quais dados podem aparecer no banco, mas não registra COMO estes dados estão armazenados no SGBD. (Veja que o modelo registra o quê e não como, logo a alternativa está incorreta.) <br>● Oferecem conceitos que são próximos ao modo como muitos usuários percebem os dados. <br>● Os modelos de dados conceituais utilizam conceitos como entidades, atributos e relacionamentos. <br>Modelo Lógico <br>● Também conhecidos como modelos de dados representativos ou de implementação <br>● Mostram os dados usando estruturas de registro e, portanto, às vezes são denominados modelos de dados baseados em registros. <br>Modelo Físico <br>● Descrevem o armazenamento dos dados como arquivos no computador, com informações como formatos de registro, ordenações de registro e caminhos de acesso. <br>● Um índice é um exemplo de um caminho que permite o acesso direto aos dados usando um termo de índice ou uma palavra-chave.<br>Assim, podemos marcar a afirmação como incorreta."
+      },
+      {
+        "pergunta": "(CESPE - Analista de Gestão Educacional (SEDF)/Tecnologia da Informação/2017) Julgue o item seguinte, a respeito de estruturas em programação e de arquiteturas de bancos de dados. <br>O esquema do nível externo de uma arquitetura de três esquemas oculta os detalhes das estruturas de armazenamento físico e se concentra na descrição de entidades, tipos de dados, conexões, operações de usuários e restrições.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Segundo o Elmasri, os níveis da arquitetura em 3 esquemas podem ser descritos da seguinte forma: <br>1. O nível interno tem um esquema interno, que descreve a estrutura do armazenamento físico do banco de dados. O esquema interno usa um modelo de dados físico e descreve os detalhes completos do armazenamento de dados e caminhos de acesso para o banco de dados. <br>2. O nível conceitual tem um esquema conceitual, que descreve a estrutura do banco de dados inteiro para uma comunidade de usuários. O esquema conceitual oculta os detalhes das estruturas de armazenamento físico e se concentra na descrição de entidades, tipos de dados, relacionamentos, operações do usuário e restrições. Normalmente, um modelo de dados representativo é usado para descrever o esquema conceitual quando um sistema de banco de dados é implementado. Esse esquema conceitual de implementação costuma estar baseado em um projeto de esquema conceitual em um modelo de dados de alto nível. <br>3. O nível externo ou de visão inclui uma série de esquemas externos ou visões do usuário. Cada esquema externo descreve a parte do banco de dados em que um grupo de usuários em particular está interessado e oculta o restante do banco de dados do grupo de usuários. Como no nível anterior, cada esquema externo é comumente implementado usando um modelo de dados representativo, possivelmente baseado em um projeto de esquema externo em um modelo de dados de alto nível. <br>O texto da questão mistura os níveis conceitual e externo, logo, temos uma alternativa incorreta."
+      },
+      {
+        "pergunta": "(CESPE - Técnico Judiciário (TRE BA)/Apoio Especializado/Operação de Computadores/2017) Na modelagem de dados, a capacidade de modificar a definição dos esquemas em determinado nível, sem afetar o esquema do nível superior, é denominada",
+        "alternativas": [
+        "a) integridade de domínio.", 
+        "b) esquema.", 
+        "c) especialização total.", 
+        "d) independência de dados.",
+        "e) cardinalidade."],
+        "correta": "d) independência de dados.",
+        "explicacao": "A arquitetura de três esquemas pode ser usada para explicar melhor o conceito de independência de dados, que pode ser definida como a capacidade de alterar o esquema em um nível do sistema de banco de dados sem ter de alterar o esquema no nível mais alto. Podemos definir dois tipos de independência de dados: <br>Independência lógica de dados é a capacidade de alterar o esquema conceitual sem ter de alterar os esquemas externos ou os programas de aplicação. Podemos alterar o esquema conceitual para expandir o banco de dados (acrescentando um tipo de registro ou item de dado), para alterar restrições ou para reduzir o banco de dados (removendo um tipo de registro ou item de dado). No último caso, esquemas externos que se referem apenas aos dados restantes não seriam afetados. <br>Independência física de dados é a capacidade de alterar o esquema interno sem ter de alterar o esquema conceitual. Logo, os esquemas externos também não precisam ser alterados. Mudanças no esquema interno podem ser necessárias porque alguns arquivos físicos foram reorganizados — por exemplo, ao criar estruturas de acesso adicionais — para melhorar o desempenho da recuperação ou atualização. <br>Logo, temos nossa resposta na alternativa D."
+      },
+      {
+        "pergunta": "(CESPE - Técnico Judiciário (TRT 7ª Região)/Apoio Especializado/Tecnologia da Informação/2017) Acerca da arquitetura de três esquemas para bancos de dados, assinale a opção correta.",
+        "alternativas": [
+        "a) Uma alteração no esquema interno da arquitetura implica alterar também o esquema externo.", 
+        "b) Na arquitetura de três esquemas, os níveis são definidos como interno, intermediário e externo.", 
+        "c) No nível interno da arquitetura, são descritos os caminhos de acesso para o banco de dados.", 
+        "d) Em um SGBD embasado nessa arquitetura, todos os grupos de usuários utilizam o mesmo esquema externo."],
+        "correta": "c) No nível interno da arquitetura, são descritos os caminhos de acesso para o banco de dados.",
+        "explicacao": "Vamos comentar cada uma das alternativas acima: <br>a) Errada. Pela definição de independência de dados uma alteração no esquema interno da arquitetura não implica em alterar o esquema conceitual nem o esquema externo. <br>b) Errada. Os três níveis da arquitetura em 3 esquemas são interno, conceitual e externo. <br>c) Essa é a nossa resposta. O esquema interno usa um modelo de dados físico e descreve os detalhes completos do armazenamento de dados e caminhos de acesso para o banco de dados. <br>d) Errada. Cada esquema externo descreve a parte do banco de dados em que um grupo de usuários em particular está interessado e oculta o restante do banco de dados do grupo de usuários."
+      },
+      {
+        "pergunta": "(CESPE - Técnico Judiciário (TRE TO)/Apoio Especializado/Programação de Sistemas/2017) A respeito da arquitetura de três esquemas para banco de dados, assinale a opção correta.",
+        "alternativas": [
+        "a) Uma das desvantagens da arquitetura de três esquemas é a impossibilidade de aplicar a independência de dados.", 
+        "b) Um dos objetivos da arquitetura de três esquemas é aproximar o banco de dados físico das aplicações.", 
+        "c) O nível conceitual serve para descrever a estrutura do banco de dados para um conjunto de usuários.", 
+        "d) Mapeamentos são as transformações que dados brutos armazenados sofrem para se tornar informações inteligíveis.",
+        "e) O nível interno inclui uma série de visões do usuário utilizadas para descrever partes do banco de dados."],
+        "correta": "c) O nível conceitual serve para descrever a estrutura do banco de dados para um conjunto de usuários.",
+        "explicacao": "Vamos analisar cada uma das alternativas: <br>a) Errado. Uma das características da arquitetura em 3 esquemas é justamente a independência de dados que pode ser classificada em independência lógica e independência física. <br>b) Errado. Um dos objetivos da arquitetura é abstrair a complexidade dos dados no nível físico para as aplicações. <br>c) Certo! O nível conceitual descreve um esquema conceitual para uma comunidade de usuários. <br>d) Errado. Os processos de transformação de requisições e os resultados entre os níveis são chamados de mapeamentos. <br>e) Errado. Cada esquema externo descreve a parte do banco de dados em que um grupo de usuários em particular. O nível interno, também conhecido como nível físico, é uma das três camadas do modelo de arquitetura de três esquemas proposto pelo ANSI/SPARC. Ele descreve como os dados são armazenados fisicamente no sistema de gerenciamento de banco de dados (SGBD). Neste nível, os detalhes técnicos de armazenamento e acesso aos dados são especificados. <br>Assim, temos a nossa resposta na alternativa C."
+      },
+      {
+        "pergunta": "(CESPE - Auditor de Controle Externo (TCE-PA)/Informática/Administrador de Banco de Dados/2016) Com relação a sistemas gerenciadores de bancos de dados (SGBD), julgue o próximo item. <br>No nível conceitual da arquitetura de três camadas de banco de dados, cada esquema externo descreve a parte do banco que interessa a determinado grupo de usuários e oculta desse grupo o restante do banco de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O nível externo ou de visão inclui uma série de esquemas externos ou visões do usuário. Cada esquema externo descreve a parte do banco de dados em que um grupo de usuários em particular está interessado e oculta o restante do banco de dados do grupo de usuários."
+      },
+      {
+        "pergunta": "(CESPE - Auditor de Controle Externo (TCE-PA)/Informática/Analista de Sistema/2016) Julgue o item subsequente, no que se refere a sistemas de gerenciamento de bancos de dados (SGBD). <br>Independência lógica de dados refere-se à capacidade de alterar o esquema conceitual sem a necessidade de alterar os esquemas externos ou os programas de aplicação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Independência lógica de dados é a capacidade de alterar o esquema conceitual sem ter de alterar os esquemas externos ou os programas de aplicação. Podemos alterar o esquema conceitual para expandir o banco de dados (adicionando um tipo de registro ou item de dado), para alterar restrições ou para reduzir o banco de dados (removendo um tipo de registro ou item de dado)."
+      },
+      {
+        "pergunta": "(CESPE - Técnico (FUB)/Tecnologia da Informação/2016) Acerca dos conceitos de bancos de dados, julgue o item seguinte. <br>Em um projeto de banco de dados, a modelagem conceitual define quais dados vão aparecer no banco de dados, mas sem considerar a sua implementação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Exatamente, um modelo conceitual é um modelo de dados abstrato, que descreve a estrutura de um banco de dados de forma independente de um SGBD particular. Somente o modelo físico que dependerá de sua implementação. Portanto, gabarito CERTO."
+      },
+      {
+        "pergunta": "(BANCA: CESPE ANO: 2014 ÓRGÃO: TJ-SE PROVA: ANALISTA JUDICIÁRIO - SUPORTE E INFRAESTRUTURA) Julgue o item a seguir, relativo à administração de banco de dados e ao sistema de gerenciamento de banco de dados (SGBD).<br>Uma das atribuições do administrador de banco de dados é definir a estratégia que determinará como será feito o becape do banco de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A alternativa faz menção a uma das tarefas técnicas executadas pelo DBA. É necessário definir um roteiro ou procedimento de backup do banco de dados. Neste são definidos a periodicidade, o tipo de backup, a mídia de armazenamento e outras especificidades. Essa é uma das tarefas mais importantes feitas pelo DBA. Sendo assim, a alternativa está correta."
+      },
+      {
+        "pergunta": "(BANCA: CESPE ANO: 2014 ÓRGÃO: TJ-SE PROVA: ANALISTA JUDICIÁRIO - SUPORTE E INFRAESTRUTURA) Julgue o item a seguir, relativo à administração de banco de dados e ao sistema de gerenciamento de banco de dados (SGBD). <br>Os dados físicos de um banco de dados podem ser acessados diretamente por meio de qualquer sistema, sem a necessidade de utilização do SGBD.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na assertiva diz que o acesso aos bancos de dados pode ser feito fisicamente sem a necessidade de um SGBD. Essa afirmação é falsa, se você lembrar das conexões que são feitas aos bancos, você precisa passar as informações de endereço (IP ou URL), porta, schema e um driver ou conector, que vai permitir uma comunicação correta entre o sistema e o banco de dados, além da autenticação do usuário. Sendo, portanto, incorreta a alternativa."
+      },
+      {
+        "pergunta": "(BANCA: CESPE ANO: 2014 ÓRGÃO: TJ-SE PROVA: ANALISTA JUDICIÁRIO - SUPORTE E INFRAESTRUTURA) Julgue os itens a seguir, relativos à administração de banco de dados e ao sistema de gerenciamento de banco de dados (SGBD). <br>Um SGBD deve gerenciar o acesso múltiplo aos dados de uma tabela sem ocasionar perda da integridade dessas informações.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Vejam que o SGBD possui como uma das suas características fazer o controle de concorrência entre diferentes usuários ou transações que acessam uma mesma tabela, ou um conjunto de dados no modelo relacional. Isso é importante para garantir a integridade dos registros e a consistência das transações executadas. Desta forma, podemos marcar a alternativa como correta!"
+      },
+      {
+        "pergunta": "(BANCA: CESPE ANO: 2015 ÓRGÃO: DEPEN PROVA: AGENTE PENITENCIÁRIO FEDERAL - TECNOLOGIA DA INFORMAÇÃO) No que diz respeito a linguagens de programação e banco de dados, julgue os itens a seguir. <br>Os níveis interno, externo e conceitual da arquitetura de um banco de dados são responsáveis, respectivamente, por gerenciar o modo como os dados serão armazenados fisicamente, por gerenciar o modo como os dados serão vistos pelos usuários e por representar todo o conteúdo de informações do banco de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Falamos sobre a arquitetura três esquemas: interno, conceitual e externo. Observem que a alternativa acima está correta. Vá se acostumando com os termos e conceitos: <br>O nível externo é o nível do usuário. Cada grupo de usuários pode ter uma visão externa separada (ou visão, para resumir) de um banco de dados customizado para as necessidades específicas do grupo. <br>O esquema conceitual define um banco de dados de uma empresa que pode ser bastante grande, com centenas de tipos de entidade e relacionamentos. <br>O esquema conceitual representa o banco de dados inteiro. O esquema interno representa a visão do armazenamento do banco de dados. O esquema interno define arquivos, grupos de dados em um dispositivo de armazenamento como um disco rígido."
+      },
+      {
+        "pergunta": "(BANCA: CESPE ANO: 2013 ÓRGÃO: ANTT PROVA: ANALISTA ADMINISTRATIVO - INFRAESTRUTURA DE TI) No que diz respeito às funções do administrador de dados e à elaboração e implantação de projeto de banco de dados, julgue os itens que se seguem. <br>Uma das funções do administrador de dados é padronizar os dados, documentando as definições e descrições dos itens de dados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Vimos que uma das funções do administrador de dados é trabalhar com os dados e sua organização de forma global. Ele tem a responsabilidade de padronizar valores e definir domínios que sejam coerentes com o negócio. Podemos avaliar a alternativa 89 como correta, pois está de acordo com nosso conhecimento."
+      },
+      {
+        "pergunta": "(CESGRANRIO/IPEA/2024/Desenvolvimento de sistemas) Considere os diferentes paradigmas de modelagem de dados: relacional, orientada a objetos e mapeamento objeto-relacional. Sobre esses paradigmas, verifica-se que",
+        "alternativas": [
+        "a) a modelagem orientada a objetos permite a representação de entidades complexas com atributos e comportamentos, refletindo mais de perto o mundo real.", 
+        "b) a modelagem relacional é mais flexível do que a orientada a objetos, pois permite uma representação mais dinâmica dos dados.", 
+        "c) o mapeamento objeto-relacional é um método exclusivo da modelagem relacional, permitindo a conversão direta de objetos em tabelas.", 
+        "d) o mapeamento objeto-relacional é uma técnica exclusiva da modelagem orientada a objetos, não sendo aplicável a sistemas baseados em modelagem relacional.",
+        "e) os dados, na modelagem orientada a objetos, são representados como tabelas com linhas e colunas, semelhante à abordagem relacional."],
+        "correta": "a) a modelagem orientada a objetos permite a representação de entidades complexas com atributos e comportamentos, refletindo mais de perto o mundo real.",
+        "explicacao": "A resposta correta é: (A) a modelagem orientada a objetos permite a representação de entidades complexas com atributos e comportamentos, refletindo mais de perto o mundo real. <br>Na modelagem orientada a objetos, as entidades são representadas como objetos que podem ter atributos e métodos (comportamentos) associados a eles. Isso permite uma representação mais próxima do mundo real, onde os objetos podem ter características e ações associadas a eles. Por outro lado, na modelagem relacional, os dados são representados em tabelas com linhas e colunas, enquanto o mapeamento objeto-relacional é uma técnica que permite a integração de conceitos da modelagem orientada a objetos com bancos de dados relacionais, permitindo o armazenamento de objetos em bancos de dados relacionais."
+      },
+      {
+        "pergunta": "(CESGRANRIO - Esc BB/BB/Agente de Tecnologia/2023 TI - Banco de Dados - Conceitos Iniciais de Bancos de Dados) Um banco de dados (BD) persiste dados de forma organizada e controlada. Em adição, um BD deve prover recursos para permitir que consultas que necessitem de velocidade (baixo tempo de resposta) no acesso aos dados possam ter um bom desempenho. Um dos recursos que um profissional de tecnologia da informação tem à disposição para configurar um BD, de modo a melhorar o desempenho de consultas selecionadas, é a criação de",
+        "alternativas": [
+        "a) regras de integridade", 
+        "b) visões não materializadas", 
+        "c) índices", 
+        "d) sequências",
+        "e) gatilhos"],
+        "correta": "c) índices",
+        "explicacao": "A criação de índices é um recurso que os profissionais de tecnologia da informação têm à disposição para melhorar o desempenho de consultas selecionadas em um banco de dados. Os índices são estruturas que proporcionam acesso mais rápido aos dados com base em determinadas colunas ou expressões. Eles ajudam a acelerar a recuperação de registros durante consultas, tornando as operações de busca mais eficientes."
+      },
+      {
+        "pergunta": "(CESGRANRIO - PTNS (TRANSPETRO)/TRANSPETRO/Análise de Sistemas/Infraestrutura/2023 - TI - Banco de Dados - Arquitetura ANSI/SPARC) O princípio de independência de dados é um conceito fundamental no modelo relacional de bancos de dados. A aplicação prática deste princípio permite que os bancos de dados sejam gerenciados, otimizados e modificados eficientemente sem a necessidade de realizar modificações extensivas em cada aplicação ou consulta que utiliza o banco de dados, facilitando a manutenção e a evolução dos sistemas. Na arquitetura de referência ANSI/SPARC, que é composta por três níveis de esquema — externo, conceitual (ou lógico) e interno —, o princípio de independência de dados é expresso por meio da",
+        "alternativas": [
+        "a) necessidade de alterar o esquema externo quando ocorrem mudanças no esquema interno.", 
+        "b) obrigatoriedade de alterar os programas aplicativos quando há uma modificação no esquema interno.", 
+        "c) incapacidade de realizar mudanças no esquema conceitual sem afetar os esquemas externos.", 
+        "d) dependência entre os esquemas, garantindo que uma modificação em um nível requer alterações em todos os níveis.",
+        "e) capacidade de modificar o esquema interno sem afetar o esquema conceitual e, portanto, sem afetar os esquemas externos e os programas aplicativos."],
+        "correta": "e) capacidade de modificar o esquema interno sem afetar o esquema conceitual e, portanto, sem afetar os esquemas externos e os programas aplicativos.",
+        "explicacao": "O princípio de independência de dados na arquitetura de referência ANSI/SPARC é expresso por meio da: e) capacidade de modificar o esquema interno sem afetar o esquema conceitual e, portanto, sem afetar os esquemas externos e os programas aplicativos. <br>Esse princípio enfatiza a separação entre os diferentes níveis de esquema (interno, conceitual e externo), permitindo que as mudanças no nível interno não impactem os níveis conceitual e externo. Isso proporciona flexibilidade e facilidade na manutenção e evolução do banco de dados sem afetar as aplicações que o utilizam."
+      },
+      {
+        "pergunta": "(CESGRANRIO - PTNS (TRANSPETRO)/TRANSPETRO/Análise de Sistemas/Infraestrutura/2023 TI - Banco de Dados - Definições e Propriedades do SGBD) É possível a um sistema de gerenciamento de banco de dados (SGBD) fornecer acesso contínuo aos dados, mesmo em face de falhas de hardware, de software ou de rede. Essa capacidade é atingida ao implementar-se a seguinte estratégia:",
+        "alternativas": [
+        "a) normalização de esquemas", 
+        "b) agendamento de consultas", 
+        "c) replicação de dados", 
+        "d) backup de dados",
+        "e) indexação de tabelas"],
+        "correta": "c) replicação de dados",
+        "explicacao": "A capacidade de fornecer acesso contínuo aos dados, mesmo em face de falhas de hardware, software ou rede, é geralmente atingida através da estratégia de: <br>c) Replicação de dados. A replicação de dados envolve a criação de cópias redundantes de dados em locais diferentes, o que permite que o sistema continue operando mesmo se ocorrerem falhas em um dos locais. Essa prática ajuda a melhorar a disponibilidade e a tolerância a falhas no gerenciamento de banco de dados."
+      },
+      {
+        "pergunta": "CESGRANRIO - 2023 - Escriturário (BB)/Agente de Tecnologia Um Sistema Gerenciador de Banco de Dados (SGBD) é um software bastante utilizado em empresas que precisam armazenar, tratar e utilizar dados em geral. O SGBD é especializado em realizar atividades relacionadas aos dados. <br>Uma das várias funcionalidades que um SGBD pode executar é ",
+        "alternativas": [
+        "a) alertar os administradores da infraestrutura de TI de uma empresa quando há vírus circulando na rede.", 
+        "b) controlar que usuários podem ter acesso a que dados.", 
+        "c) estimular os gestores de uma empresa a compartilhar dados em benefício de todos.", 
+        "d) garantir a sequência de execução de programas, em especial quando há dependências de dados entre eles.",
+        "e) identificar que dados importantes ao processo decisório de uma empresa estão ausentes e deveriam ser coletados."],
+        "correta": "b) controlar que usuários podem ter acesso a que dados.",
+        "explicacao": "A funcionalidade entre as opções fornecidas que se relaciona diretamente com as responsabilidades de um Sistema Gerenciador de Banco de Dados (SGBD) é: B) Controlar que usuários podem ter acesso a que dados. Um SGBD é projetado para gerenciar o acesso aos dados armazenados, garantindo a segurança e a integridade das informações. Agora vamos comentar cada uma das demais alternativas: a) Alertar os administradores da infraestrutura de TI de uma empresa quando há vírus circulando na rede. Essa funcionalidade geralmente não é uma responsabilidade direta de um Sistema Gerenciador de Banco de Dados (SGBD). A detecção de vírus na rede é mais associada a sistemas de segurança de rede e antivírus. c) Estimular os gestores de uma empresa a compartilhar dados em benefício de todos. Essa função está mais relacionada à cultura organizacional, à governança de dados e à conscientização dos gestores, não sendo uma tarefa direta de um SGBD. Um SGBD lida mais com o armazenamento, recuperação e manipulação eficiente dos dados. d) Garantir a sequência de execução de programas, em especial quando há dependências de dados entre eles. A garantia da sequência de execução de programas, especialmente quando há dependências de dados, está mais associada aos sistemas de gerenciamento de fluxo de trabalho ou sistemas de execução de tarefas. Embora os dados possam ser uma parte disso, não é uma função principal de um SGBD. e) Identificar que dados importantes ao processo decisório de uma empresa estão ausentes e deveriam ser coletados. Embora um SGBD possa armazenar dados importantes para o processo decisório, a identificação de lacunas nos dados necessários geralmente envolve análise de dados, inteligência de negócios ou ferramentas específicas para esse fim. Um SGBD por si só não tem a capacidade de identificar diretamente a necessidade de novos dados."
+      },
+      {
+        "pergunta": "(CESGRANRIO - 2021 - Técnico Bancário Novo (CEF)/Tecnologia da Informação/PcD) Os Sistemas de Gerenciamento de Banco de Dados (SGBD) foram afetados pelas demandas trazidas pelo Big Data. Uma das formas de tratar essas demandas são os Sistemas de Gerenciamento de Banco de Dados Distribuídos (SGBDD), nos quais os dados podem estar armazenados em vários servidores, conectados por uma rede de computadores. <br>Um SGBDD que usa softwares middleware, de forma que os SGBDs que o compõem estejam fracamente acoplados, é conhecido como",
+        "alternativas": [
+        "a) Baseado em Grafos", 
+        "b) Hierárquico", 
+        "c) Federado", 
+        "d) Orientado a objetos",
+        "e) NOSql"],
+        "correta": "c) Federado",
+        "explicacao": "A descrição fornecida refere-se a um SGBDD (Sistema de Gerenciamento de Banco de Dados Distribuídos) que utiliza softwares middleware, resultando em uma arquitetura onde os SGBDs são fracamente acoplados. A arquitetura mencionada é conhecida como \"Federado\". Portanto, a resposta correta é: C) Federado. <br>Vamos comentar as demais alternativas em relação ao contexto apresentado: <br>a) Baseado em Grafos - Sistemas de Banco de Dados Baseados em Grafos são projetados para armazenar e recuperar dados usando estruturas de grafos. Eles são especialmente eficazes para modelar relações complexas entre diferentes entidades. No entanto, essa descrição não corresponde ao contexto de um SGBDD com dados distribuídos em vários servidores. <br>b) Hierárquico - Sistemas de Banco de Dados Hierárquicos organizam os dados em uma estrutura de árvore, com registros pai e filhos. Essa estrutura não está diretamente relacionada à ideia de distribuição de dados em vários servidores. <br>d) Orientado a objetos - Sistemas de Banco de Dados Orientados a Objetos armazenam dados na forma de objetos, que podem incluir métodos e propriedades. Embora essa seja uma abordagem diferente da tradicional, não está diretamente relacionada à distribuição de dados em um ambiente distribuído. <br>e) NoSQL - Os bancos de dados NoSQL são projetados para lidar com tipos variados de dados, frequentemente em ambientes distribuídos. No entanto, a simples menção do termo NoSQL não implica necessariamente que os dados estejam distribuídos em vários servidores. Além disso, a pergunta especificamente destaca o uso de softwares middleware e acoplamento fraco, o que não é exclusivo dos bancos de dados NoSQL. <br>Portanto, a alternativa correta, que se alinha com um SGBDD que utiliza softwares middleware e tem SGBDs fracamente acoplados, é a opção C) Federado."
+      },
+      {
+        "pergunta": "(BANCA: CESGRANRIO ANO: 2012 ÓRGÃO: LIQUIGÁS PROVA: PROFISSIONAL DE TECNOLOGIA DA INFORMAÇÃO - ADMINISTRADOR DE BANCO DE DADOS) A arquitetura ANSI/SPARC de um Sistema Gerenciador de Banco de Dados (SGBD) divide-se nos níveis",
+        "alternativas": [
+        "a) externo, conceitual e interno", 
+        "b) externo, lógico e recuperador", 
+        "c) interno, indexador e lógico", 
+        "d) físico, conceitual e lógico",
+        "e) físico, indexador e recuperador"],
+        "correta": "a) externo, conceitual e interno",
+        "explicacao": "Questão água com açúcar, quais seriam os níveis da arquitetura ANSI/SPARC? Externo, Conceitual e Interno! Observem a figura a seguir para relembrar os níveis envolvidos. Logo, podemos marcar nossa resposta na alternativa A."
+      },
+      {
+        "pergunta": "(Ano: 2014 Banca: CESGRANRIO Órgão: Banco da Amazônia Prova: Técnico Científico - Banco de Dados) Na arquitetura ANSI/SPARC de banco de dados, o nível conceitual",
+        "alternativas": [
+        "a) define a estrutura de armazenamento do banco de dados.", 
+        "b) define a estrutura do banco de dados para uma comunidade de usuários.", 
+        "c) descreve a parte do banco de dados em que um grupo de usuários está interessado, escondendo as outras partes.", 
+        "d) descreve os caminhos de acesso para a base de dados.",
+        "e) inclui um número de visões de usuário."],
+        "correta": "b) define a estrutura do banco de dados para uma comunidade de usuários.",
+        "explicacao": "Vejamos o que está a cargo do nível conceitual da arquitetura em 3 esquemas. Esse nível de abstração descreve quais dados estão armazenados de fato no banco de dados e as relações que existem entre eles. Neste ponto, o banco de dados inteiro é descrito em termos de um pequeno número de estruturas relativamente simples. Embora as implementações de estruturas simples no nível conceitual possam envolver complexas estruturas de nível físico, o usuário do nível conceitual não precisa se preocupar com isso. Sua abstração é usada por administradores de banco de dados, que podem decidir quais informações devem ser mantidas no BD. <br>Segundo o Date, livro muito usado como referência para as questões da CESGRANRIO, o nível conceitual, também conhecido como nível lógico de comunidade é um nível indireto entre os níveis externo e interno. <br>Logo, temos nossa resposta na alternativa B."
+      },
+      {
+        "pergunta": "Ano: 2014 Banca: CESGRANRIO Órgão: EPE Prova: Analista de Gestão Corporativa - Tecnologia da Informação Um dicionário de dados utilizado por um desenvolvedor tem como função",
+        "alternativas": [
+        "a) visualizar a estrutura de dados", 
+        "b) identificar significados e conteúdo dos dados", 
+        "c) servir como um inventário dos dados contidos em uma base de dados", 
+        "d) explicitar os modelos de entidades e relacionamentos",
+        "e) controlar o histórico do acesso a dados pelos usuários"],
+        "correta": "c) servir como um inventário dos dados contidos em uma base de dados",
+        "explicacao": "O SGBD deve fornecer uma função de dicionário de dados. Este pode ser considerado um banco de dados isolado que contém os dados sobre os dados, também chamados de metadados ou descritores. Em outras palavras, ele contém definições de outros objetos do sistema. Em particular, todos os vários esquemas e todas as diversas restrições de segurança e integridade estarão armazenados, tanto na forma de fonte quanto de objeto, no dicionário. Podemos perceber que ele possui uma descrição detalhada dos dados, sendo assim, é possível dizer que ele serve como um inventário dos dados contidos em uma base de dados."
+      },
+      {
+        "pergunta": "Ano: 2014 Banca: CESGRANRIO Órgão: EPE Prova: Analista de Gestão Corporativa - Tecnologia da Informação O responsável por um SGBD relacional que apoiava vários sistemas percebeu que havia problemas de desempenho e resolveu criar alguns índices novos. Nenhuma aplicação precisou ser alterada, mas todas se beneficiaram dessa alteração. <br>Isso é um exemplo de que tipo de independência de dados fornecida pelos SGBD?",
+        "alternativas": [
+        "a) Lógica", 
+        "b) Relacional", 
+        "c) Conceitual", 
+        "d) Externa",
+        "e) Física"],
+        "correta": "e) Física",
+        "explicacao": "O mapeamento conceitual/interno define a correspondência entre a visão conceitual e o banco de dados armazenado. Ele especifica o modo como os registros e campos conceituais são É de responsabilidade do DBA, ou possivelmente do SGBD, administrar tais alterações. Pode-se dizer que, os efeitos das mudanças devem ser isolados abaixo do nível conceitual, a fim de preservar a independência dos dados física. Logo, a resposta está na alternativa E."
+      },
+      {
+        "pergunta": "(Ano: 2014 Banca: CESGRANRIO Órgão: IBGE Prova: Supervisor de Pesquisas - Tecnologia de Informação e Comunicação) Segundo a classificação de categorias de modelos de dados, o modelo de dados relacional deve ser entendido como",
+        "alternativas": [
+        "a) conceitual", 
+        "b) externo", 
+        "c) físico", 
+        "d) interno",
+        "e) representacional"],
+        "correta": "e) representacional",
+        "explicacao": "O modelo lógico ou relacional pode ser classificado como um modelo representacional ou de implementação."
+      },
+      {
+        "pergunta": "(Ano: 2014 Banca: CESGRANRIO Órgão: IBGE Prova: Supervisor de Pesquisas - Tecnologia de Informação e Comunicação) SQL é uma linguagem dedicada à operação de Bancos de Dados relacionais, padronizada internacionalmente, e que pode ser encontrada nos principais SGBD modernos. <br>Os principais comandos da sua linguagem de manipulação de dados (DML) são:",
+        "alternativas": [
+        "b) CREATE, DELETE, READ e UPDATE", 
+        "c) CREATE, DESTROY, FIND e INCLUDE", 
+        "d) SELECT, DELETE, INSERT e UPDATE",
+        "e) SELECT, JOIN, PROJECT e RENAME"],
+        "correta": "d) SELECT, DELETE, INSERT e UPDATE",
+        "explicacao": "Os comandos DML (Data Manipulation Language) ou linguagem de manipulação de dados que nos permite inserir, alterar e remover dados de uma tabela. Sendo assim, temos os seguintes comandos: SELECT, DELETE, INSERT e UPDATE."
+      },
+      {
+        "pergunta": "(Ano: 2014 Banca: CESGRANRIO Órgão: IBGE Prova: Supervisor de Pesquisas - Tecnologia de Informação e Comunicação) O modelo relacional tornou-se o padrão estabelecido do mercado. Outros modelos anteriores ao modelo relacional, porém, podem ser encontrados em sistemas usados no passado e, algumas vezes, encontrados como sistemas legados nas empresas. Dois desses modelos são os",
+        "alternativas": [
+        "a) em rede e XML", 
+        "b) hierárquico e em rede", 
+        "c) hierárquico e XML", 
+        "d) orientado a objetos e em rede",
+        "e) orientado a objetos e XML"],
+        "correta": "b) hierárquico e em rede",
+        "explicacao": "Segundo o Navathe, dois modelos de dados antigos, importantes historicamente, agora conhecidos como modelos de dados legados, são os modelos em rede e os modelos hierárquicos. O modelo em rede representa os dados como tipos de registros e um tipo de relacionamento 1:N, limitado, chamado tipo conjunto. Esse modelo também foi conhecido como CODADYL DBTG. Já o modelo hierárquico representa os dados como estruturas de árvores hierárquicas. Vejam que, diante da afirmação acima, só podemos marcar nossa resposta na alternativa B."
+      },
+      {
+        "pergunta": "(Ano: 2013 Banca: CESGRANRIO Órgão: IBGE Prova: Analista - Suporte Operacional) A independência de dados é uma das propriedades dos SGBDs relacionais. Ela é atingida por meio do uso de três níveis de abstração de dados, representados usualmente na forma dos esquemas",
+        "alternativas": [
+        "a) lógico, relacional e externo", 
+        "b) lógico, conceitual e externo", 
+        "c) físico, conceitual e externo", 
+        "d) físico, externo e de aplicação",
+        "e) físico, lógico e de aplicação"],
+        "correta": "c) físico, conceitual e externo",
+        "explicacao": "O sistema de banco de dados deve garantir uma visão totalmente abstrata do banco de dados para o usuário, ou seja, para o usuário do banco de dados pouco importa qual unidade de armazenamento está sendo usada para guardar seus dados, contanto que os mesmos estejam disponíveis no momento necessário. Esta abstração se dá em três níveis: <br>Nível interno ou físico: é o nível mais baixo de abstração, em que define efetivamente de que maneira os dados estão armazenados. <br>Nível conceitual: define quais os dados que estão armazenados e qual o relacionamento entre eles. <br>Nível externo ou de visão do usuário: as partes do banco de dados que o usuário tem acesso de acordo com a necessidade individual de cada usuário ou grupo de usuários. <br>Sendo assim, nossa resposta está na alternativa C."
+      },
+      {
+        "pergunta": "(Ano: 2013 Banca: CESGRANRIO Órgão: IBGE Prova: Tecnologista - Geoprocessamento) O Sistema Gerenciador de Banco de Dados (SGBD) NÃO apresenta a seguinte característica:",
+        "alternativas": [
+        "a) Procurar armazenar os dados, buscando o melhor aproveitamento da memória e visando a recuperá-los de modo eficiente", 
+        "b) Poder decidir se possui informações suficientes ou não para responder a uma consulta aos dados.", 
+        "c) Saber qual a estrutura interna e de inter-relacionamento entre os dados, de modo a gerir eficientemente o seu armazenamento.", 
+        "d) Descrever as informações a respeito dos dados armazenados — projeção cartográfica, data de criação, fontes de dados e autoria — conhecidas como metadados.",
+        "e) Permitir a inserção de mapas de uma determinada localidade que contenham nomes ou representações gráficas distintas para as mesmas entidades geográficas."],
+        "correta": "e) Permitir a inserção de mapas de uma determinada localidade que contenham nomes ou representações gráficas distintas para as mesmas entidades geográficas.",
+        "explicacao": "Um fato importante é que os sistemas de informação geográfico usam os chamados banco de dados geográfico, tais bancos são muito parecidos como os relacionais, exceto pelo fato de suportar dados geométricos em suas tabelas. Sendo assim, a alternativa E não se refere a uma característica dos SGBDs."
+      },
+      {
+        "pergunta": "(Ano: 2012 Banca: CESGRANRIO Órgão: EPE Prova: Analista de Gestão Corporativa - Tecnologia da Informação) Em uma empresa, a coleção de metadados para prover consistência entre itens de dados através de diferentes tabelas, padronizando definições semânticas e de representação de elementos de dados e melhorando o controle do compartilhamento das informações através das aplicações, é denominada",
+        "alternativas": [
+        "a) Diagrama de entidade relacionamento", 
+        "b) Dicionário de dados", 
+        "c) Modelo conceitual de dados", 
+        "d) Modelo físico de dados",
+        "e) Diagrama de fluxo de dados"],
+        "correta": "b) Dicionário de dados",
+        "explicacao": "Um dicionário de dados (do inglês data dictionary) é uma coleção de metadados que contêm definições e representações de elementos de dados. Logo, nossa resposta encontra-se na alternativa B."
+      },
+      {
+        "pergunta": "(Ano: 2012 Banca: CESGRANRIO Órgão: Petrobras Prova: Analista de Sistemas Júnior - Infraestrutura-2012) Quais as propriedades ACID das transações que um SGDB relacional multiusuário deve garantir?",
+        "alternativas": [
+        "a) Armazenamento, Consistência, Independência e Durabilidade", 
+        "b) Armazenamento, Consistência, Isolamento e Determinação", 
+        "c) Atomicidade, Consistência, Isolamento e Durabilidade", 
+        "d) Atomicidade, Confiabilidade, Isolamento e Durabilidade",
+        "e) Atomicidade, Confiabilidade, Independência e Determinação"],
+        "correta": "c) Atomicidade, Consistência, Isolamento e Durabilidade",
+        "explicacao": "Essa questão é clássica, trata das propriedades de uma transação. A sigla ACID refere- se respectivamente a Atomicidade, Consistência, Isolamento e Durabilidade."
+      },
+      {
+        "pergunta": "(Ano: 2012 Banca: CESGRANRIO Órgão: Chesf Prova: Técnico em Eletrônica) A arquitetura de um Banco de Dados ANSI/SPARC possui três níveis. O primeiro desses níveis é responsável pelo armazenamento de dados, o segundo serve de interface entre o primeiro e o terceiro nível, o qual, por seu turno, é responsável pela visualização dos dados pelo usuário. <br>Esses três níveis são denominados, respectivamente, de",
+        "alternativas": [
+        "a) físico, externo e conceitual", 
+        "b) físico, conceitual e externo", 
+        "c) externo, físico e conceitual", 
+        "d) conceitual, externo e físico",
+        "e) conceitual, físico e externo"],
+        "correta": "b) físico, conceitual e externo",
+        "explicacao": "Veja que já fizemos uma questão bem parecida com esta anteriormente. A arquitetura ANSI/SPARC, que data de 1975, define níveis de abstração para um sistema de gestão de bancos de dados: o nível interno, que define a maneira pela qual são armazenados os dados e os métodos para acessá-los; o nível conceitual que define a disposição das informações no banco de dados; e o nível externo, que define as visualizações dos usuários."
+      },
+      {
+        "pergunta": "(Câmara Municipal de São Paulo/FGV/2024) Com relação aos níveis da arquitetura ANSI/SPARC dos Sistemas Gerenciadores de Bancos de Dados (SGBD) relacionais, assinale (V) para a afirmativa verdadeira e (F) para a falsa. <br>( ) O nível interno é o mais próximo do meio de armazenamento físico, é uma representação de baixo nível de todo o banco de dados, ele se ocupa do modo como os dados são fisicamente armazenados dentro do SGBD. <br>( ) O nível externo, também conhecido como o nível lógico de comunidade, é o mais próximo dos usuários finais ou programadores de aplicação, é aquele que se ocupa do modo como os dados são vistos pelos usuários do sistema. <br>( ) O nível conceitual, também conhecido nível lógico de usuário, é um nível indireto entre os outros dois níveis e representa todo o conteúdo do banco de dados de uma forma um tanto abstrata em comparação como os dados são armazenados logicamente. <br>As afirmativas são, respectivamente,",
+        "alternativas": [
+        "a) F–V–V.", 
+        "b) F–F–V.", 
+        "c) F–V–F.", 
+        "d) V–V–F.",
+        "e) V–F–F."],
+        "correta": "e) V–F–F.",
+        "explicacao": "As afirmativas são, respectivamente: V–F–F. <br>● A primeira afirmativa é verdadeira. O nível interno é o mais próximo do meio de armazenamento físico e cuida de como os dados são fisicamente armazenados dentro do SGBD. <br>● A segunda afirmativa é falsa. O nível externo é o mais próximo dos usuários finais ou programadores de aplicação, não sendo chamado de nível lógico de comunidade. Ele se preocupa com a forma como os dados são vistos pelos usuários do sistema, na perspectiva de grupos de usuários. <br>● A terceira afirmativa também é falsa. O nível conceitual não é um nível indireto entre os outros dois níveis. Ele representa uma visão abstrata e independente de como os dados são armazenados, não sendo chamado de nível lógico de usuário e sim nível lógico de comunidade."
+      },
+      {
+        "pergunta": "(FGV – Professor de Informática (SEAD-AP)/2022) Os sistemas gerenciadores de bancos de dados são largamente utilizados em aplicações computacionais, pois oferecem um conjunto de propriedades importantes para a segurança e confiabilidade dos dados, conhecido pela sigla ACID. <br>O propósito da propriedade correspondente à letra I na referida sigla é",
+        "alternativas": [
+        "a) garantir a independência dos dados em relação ao hardware empregado.", 
+        "b) garantir a independência dos dados em relação ao sistema gerenciador de dados.", 
+        "c) garantir o isolamento das transições quando executadas por processos concomitantes.", 
+        "d) permitir a integração de diferentes gerenciadores de bancos de dados.",
+        "e) permitir a inter-relação de diferentes padrões internacionais de codificação de dados."],
+        "correta": "c) garantir o isolamento das transições quando executadas por processos concomitantes.",
+        "explicacao": "Essa questão trata do conceito ACID, que é fundamental em sistemas gerenciadores de bancos de dados para garantir a segurança e confiabilidade dos dados durante as transações. Vamos analisar cada alternativa para identificar o propósito da propriedade correspondente à letra I (Isolamento) na sigla ACID: <br>a) Garantir a independência dos dados em relação ao hardware empregado: Essa opção não está relacionada à propriedade I da sigla ACID. A independência de dados em relação ao hardware está mais relacionada a conceitos de abstração e portabilidade de um sistema de banco de dados. <br>b) Garantir a independência dos dados em relação ao sistema gerenciador de dados: Essa também não é a propriedade correspondente à letra I na sigla ACID. A independência de dados em relação ao sistema gerenciador de banco de dados refere-se à capacidade de alterar o SGDB sem afetar os aplicativos que utilizam o banco de dados. <br>c) Garantir o isolamento das transações quando executadas por processos concomitantes: A propriedade I da sigla ACID corresponde ao Isolamento. Essa propriedade garante que, quando várias transações estão sendo executadas simultaneamente em um banco de dados, cada uma delas é isolada das outras, evitando interferências e mantendo a integridade do banco de dados. Logo, temos a nossa resposta na alternativa C. <br>d) Permitir a integração de diferentes gerenciadores de bancos de dados: Essa opção também não corresponde à propriedade I da sigla ACID. A integração de diferentes gerenciadores de bancos de dados é mais relacionada a padrões de interoperabilidade e não faz parte das propriedades ACID. <br>e) Permitir a inter-relação de diferentes padrões internacionais de codificação de dados: Essa alternativa também não está relacionada à propriedade I da sigla ACID. A inter-relação de diferentes padrões internacionais de codificação de dados é uma questão relacionada a formatos de dados e não faz parte das propriedades ACID. <br>Sendo assim, temos a nossa resposta na alternativa C."
+      },
+      {
+        "pergunta": "(ANO: 2014 BANCA: FGV ÓRGÃO: DPE-RJ PROVA: TÉCNICO SUPERIOR ESPECIALIZADO - ADMINISTRADOR DE DADOS) A sigla DBA é usualmente empregada para designar um profissional que é responsável",
+        "alternativas": [
+        "a) pela administração, instalação, configuração e monitoramento de instalações de bancos de dados.", 
+        "b) pela concepção, desenvolvimento e implantação de sistemas gerenciadores de bancos de dados.", 
+        "c) pelo processo de coleta e exploração de dados para geração de novos conhecimentos.", 
+        "d) pelo teste e manutenção de sistemas WEB construídos sob a égide de metodologias ágeis.",
+        "e) pelo treinamento e certificação para utilização de gerenciadores de bancos de dados."],
+        "correta": "a) pela administração, instalação, configuração e monitoramento de instalações de bancos de dados.",
+        "explicacao": "Vejam que a questão que melhor se encaixa com a definição que vimos nesta aula é a descrita na alternativa A."
+      },
+      {
+        "pergunta": "(Ano: 2016 Banca: FGV Órgão: IBGE Cargo: Analista - Análise e Desenvolvimento de Aplicações) Considere as seguintes características de um projeto de banco de dados. <br>I. O modelo de dados é conhecido a priori e é estável; <br>II. A integridade dos dados deve ser rigorosamente mantida; <br>III. Velocidade e escalabilidade são preponderantes. <br>Dessas características, o emprego de bancos de dados NoSQL é favorecido somente por: ",
+        "alternativas": [
+        "a) I;", 
+        "b) I e II;", 
+        "c) II;", 
+        "d) II e III;",
+        "e) III."],
+        "correta": "e) III.",
+        "explicacao": "Esse assunto será visto novamente na aula de Big Data, contudo, se lembramos da evolução dos SGBDs explicada no início desta aula podemos responder à questão. A grande característica dos bancos NoSQL e dar suporte à escalabilidade e velocidade no processamento dos dados. Com essa informação observamos que o item III está correto. As demais alternativas estão erradas. No item I, a falha é dizer que o modelo de dados é conhecido a priori, na realidade ele não é conhecido e também não é estável. Já a alternativa II diz que a integridade deve ser mantida, sabemos que os sistemas NoSQL tem o conceito de soft state que admite pequenos momentos de inconsistência parcial em favor da performance."
+      },
+      {
+        "pergunta": "(Ano: 2009 Banca: FGV Órgão: MEC Cargo: Analista de Sistemas) O Diagrama Entidade-Relacionamento, proposto por P. Chen, é uma ferramenta tipicamente utilizada para a elaboração do seguinte modelo de dados:",
+        "alternativas": [
+        "a) físico", 
+        "b) interno", 
+        "c) externo", 
+        "d) conceitual",
+        "e) hierárquico"],
+        "correta": "d) conceitual",
+        "explicacao": "Sabemos que os modelos de dados são classificas em três categorias: conceitual, lógico e físico. Ou conforme já apresentamos anteriormente: <br>Modelo de dados: conceitual (alto nível), representativos (lógico ou de implementação) e físicos <br>O modelo entidade-relacionamento de Peter Chen é considerado um modelo conceitual e foi tratado em detalhes no decorrer esta aula. Desta forma, podemos marcar nossa resposta na alternativa D."
+      },
+      {
+        "pergunta": "(Ano: 2010 Banca: FGV Órgão: DETRAN-RN Cargo: Administrador de banco de dados) NÃO corresponde a um aspecto da modelagem de dados:",
+        "alternativas": [
+        "a) Observação.", 
+        "b) Representação dos objetos.", 
+        "c) Verificação de fidelidade e carências.", 
+        "d) Validações.",
+        "e) Operação de semijunção."],
+        "correta": "e) Operação de semijunção.",
+        "explicacao": "A questão nos apresenta alguns aspectos da modelagem de dados que é a primeira etapa de um projeto que envolva banco de dados e tem como seu principal objetivo o desenvolvimento de um modelo que contenha entidades e relacionamentos. Numa visão mais específica de banco de dados, um modelo de dados consiste de três componentes: uma coleção de tipos de objetos, uma coleção de operadores e uma coleção de regras de integridades. <br>Nesta situação estamos avaliando ou observando o contexto que servirá de referência para a construção do modelo. Precisamos entender quais os objetos farão parte do nosso banco de dados. Neste momento verificamos a fidelidade das informações que serão obtidas e possíveis carências. Por fim, precisamos de regra de integridade mínimas que farão a validação do modelo. <br>Percebam que não existe necessidade de avaliarmos as operações de semijunção neste momento. Essa operação aparece na teoria de banco de dados distribuídos quando queremos fazer a junção de tabelas dispersas geograficamente, portando, não tem nenhuma relação com modelagem. Sendo, então a alternativa E a resposta da questão."
+      },
+      {
+        "pergunta": "(Ano: 2009 Banca: FGV Órgão: MEC Cargo: Administrador de banco de dados) Em um Sistema Gerenciador de Banco de Dados - SGBD, os elementos de dados possuem uma estrutura lógica visualizada na forma de tabelas. <br>Nesse sentido, existem inclusive, pacotes nos SGBDs que podem vincular elementos oriundos de várias tabelas desde que essas compartilhem elementos comuns de dados. <br>Essa estrutura lógica de dados é conhecida como do tipo:",
+        "alternativas": [
+        "a) em rede.", 
+        "b) relacional.", 
+        "c) em pilha.", 
+        "d) hierárquica.",
+        "e) em árvore."],
+        "correta": "b) relacional.",
+        "explicacao": "Vejam que essa é uma questão simples que aborda a definição do modelo relacional. Veremos mais detalhes sobre ele na próxima aula, mas vamos aproveitar a questão para relembrar a definição dos bancos de dados em rede, hierárquico e relacional: <br>MODELO HIERÁRQUICO (HDS – Hierarquical Database System). Surgiu na década de 1960 com a primeira linguagem de banco de dados: a DL/I desenvolvida pela IBM e a North American Aviation. Organiza os dados de cima para baixo, como uma árvore. Cada registro é dividido em partes denominadas segmentos. O banco de dados se assemelha a um organograma com um segmento raiz e um número qualquer de segmentos subordinados. <br>MODELO EM REDE (NDS - Network Database System). Definido pelo DBTG (DataBase Task Group) do comitê do CODASYL (Conference on Data Systems Language) a partir de 1971. Esse modelo é uma extensão do modelo hierárquico. Os registros são organizados no banco de dados por um conjunto arbitrário de gráficos. <br>MODELO RELACIONAL (Relational Model). Foi apresentado por Edgard F. Codd (IBM) em seu artigo A Relational Model of Data for Large Shared Data Banks (1970). Foi o evento mais importante na história recente da área de banco de dados. O objetivo do modelo é representar os dados de forma mais simples, através de um de conjuntos de tabelas inter-relacionadas. Este modelo abandona os conceitos anteriores, tornando os bancos de dados mais flexíveis, tanto na forma de representar as relações entre os dados, como na tarefa de modificação de sua estrutura, sem ter que reconstruir todo o banco de dados. <br>Pela teórica exposta na descrição dos modelos podemos concluir que a resposta é de fato o modelo relacional, presente na alternativa B."
+      },
+      {
+        "pergunta": "(Ano: 2009 Banca: FGV Órgão: MEC Cargo: Administrador de banco de dados) Para os diversos tipos de aplicativos com bancos de dados, a arquitetura cliente/servidor oferece as vantagens relacionadas a seguir, À EXCEÇÃO DE UMA. Assinale-a.",
+        "alternativas": [
+        "a) Tráfego de rede reduzido, devido à transmissão de dados mais eficiente. Apenas os dados que o aplicativo precisa são transferidos.", 
+        "b) Melhor flexibilidade, devido aos servidores de banco de dados em vez de bancos de dados de compartilhamento de arquivos.", 
+        "c) Se mais usuários são acrescentados ao sistema, é mais simples escalar as capacidades do sistema para atingir os requerimentos adicionais.", 
+        "d) Operações mais confiáveis e robustas, porque várias cópias de um banco de dados interagem com os dados.",
+        "e) Capacidade de \"missão crítica\", como logs de transações, capacidades de backup sofisticadas, vetores redundantes de disco e ferramentas de recuperação de falhas."],
+        "correta": "d) Operações mais confiáveis e robustas, porque várias cópias de um banco de dados interagem com os dados.",
+        "explicacao": "Na arquitetura Cliente-Servidor, o cliente (front_end) executa as tarefas do aplicativo, ou seja, fornece a interface do usuário (tela, e processamento de entrada e saída). O servidor (back_end) executa as consultas no DBMS e retorna os resultados ao cliente. Apesar de ser uma arquitetura bastante popular, são necessárias soluções sofisticadas de software que possibilitem: o tratamento de transações, as confirmações de transações (commits), desfazer transações (rollbacks), linguagens de consultas (stored procedures) e gatilhos (triggers). A principal vantagem desta arquitetura é a divisão do processamento entre dois sistemas, o que reduz o tráfego de dados na rede. <br>Esta arquitetura se tornou muito popular por algumas razões. Primeiro, a facilidade de implementação dada a clara separação das funcionalidades e dos servidores. Segundo, um servidor é inteligentemente utilizado porque as tarefas mais simples são delegadas às máquinas clientes mais baratas. Terceiro, o usuário pode executar uma interface gráfica que lhe é familiar, ao invés de usar a interface do servidor. Desta maneira, a arquitetura cliente-servidor foi incorporada aos SGBDs comerciais. Diferentes técnicas foram propostas para se implementar essa arquitetura, sendo que a mais adotada pelos Sistemas Gerenciadores de Banco de Dados Relacionais (SGBDRs) comerciais é a inclusão da funcionalidade de um SGBD centralizado no lado do servidor. <br>Veja que a arquitetura cliente servidor não está preocupada com a distribuição dos dados em diferentes servidores. Desta forma, a alternativa D está incorreta, sendo a resposta da questão."
+      },
+      {
+        "pergunta": "(Ano: 2009 Banca: FGV Órgão: MEC Cargo: Desenvolvedor) Acerca do nível de visões de um banco de dados, analise as afirmativas a seguir: <br>I. Fornecem mecanismos de segurança, restringindo o acesso dos usuários. <br>II Os usuários vêem um conjunto de aplicações e visualizam os detalhes dos tipos de dados. <br>III. O nível de visões é definido para simplificar a interação entre o usuário final e o banco de dados. <br>Assinale:",
+        "alternativas": [
+        "a) se somente a afirmativa I estiver correta.", 
+        "b) se somente as afirmativas I e II estiverem corretas.", 
+        "c) se somente as afirmativas I e III estiverem corretas.", 
+        "d) se somente as afirmativas II e III estiverem corretas.",
+        "e) se todas as afirmativas estiverem corretas."],
+        "correta": "c) se somente as afirmativas I e III estiverem corretas.",
+        "explicacao": "Sabemos de o nível externo ou de visão possui esquemas externos ou visões de usuários. Cada esquema externo descreve a visão da base de dados de um grupo de usuários da base de dados. Cada visão descreve, tipicamente, a parte da base de dados que um particular grupo de usuários está interessado e esconde deste o restante da base de dados. Um modelo de dados de alto-nível ou um modelo de dados de implementação podem ser usados neste nível. <br>A visão é considerada também um dispositivo de segurança, evitando que usuários não autorizados tenham acesso a partes do sistema que não façam parte do seu escopo de trabalho. Considerando esse aspecto e a definição vista no parágrafo anterior podemos concluir que a alternativa correta está na letra C.<br>No nível de visão, aspectos internos de implementação não são exibidos como detalhes de tipos de dados, sendo assim, o item II está incorreto."
+      },
+      {
+        "pergunta": "Ano: 2010 Banca: FGV Órgão: BADESC Cargo: Analista de Sistemas A propriedade de uma transação denominada de ACID envolve os seguintes conceitos:",
+        "alternativas": [
+        "a) Atômico, Concorrente, Isolamento e Durabilidade.", 
+        "b) Atomicidade, Consistência, Isolamento e Durabilidade.", 
+        "c) Atomicidade, Concorrente, Inconsistente e Durabilidade.", 
+        "d) Atomicidade, Consistência, Integridade e Dependência de dados.",
+        "e) Atomicidade, Consistência, Isolamento e Dependência de dados."],
+        "correta": "b) Atomicidade, Consistência, Isolamento e Durabilidade.",
+        "explicacao": "As propriedades de uma transação são atomicidade, consistência, isolamento e durabilidade. Trataremos esse assunto com maiores detalhes na aula de transações e controle de concorrência."
+      },
+      {
+        "pergunta": "(Ano: 2013 Banca: FGV Órgão: MPE-MS Cargo: Analista - Análise de Sistemas) Com relação ao tema “Sistemas gerenciadores de bancos de dados”, analise as afirmativas a seguir. <br>I. Cabe ao administrador de banco de dados de uma organização definir e modificar esquemas por meio da execução de instruções de definição de dados, conceder diferentes tipos de autorização para acesso a dados e manter rotinas que têm por objetivo garantir a integridade do sistema. <br>II. Cabe ao administrador de banco de dados de uma organização escolher, dentre as diversas ferramentas disponíveis no mercado, as mais adequadas e desenvolver aplicações que utilizem o sistema gerenciador de bancos de dados e que ofereçam interfaces amigáveis para os usuários finais. <br>III. Cabe ao administrador de banco de dados de uma organização acessar o banco de dados e monitorar as tarefas que estão sendo executadas pelos usuários e garantir que o desempenho do sistema não seja prejudicado por elas. <br>Assinale:",
+        "alternativas": [
+        "a) se somente a afirmativa I estiver correta.", 
+        "b) se somente a afirmativa II estiver correta.", 
+        "c) se somente a afirmativa III estiver correta.", 
+        "d) se somente as afirmativas II e III estiverem corretas.",
+        "e) se somente as afirmativas I e III estiverem corretas."],
+        "correta": "e) se somente as afirmativas I e III estiverem corretas.",
+        "explicacao": "Percebam que os itens I e III estão de acordo com as tarefas desenvolvidas pelo DBA. O item II tem um erro ao afirmar que o DBA desenvolve sistemas, sabemos que isso não é verdade."
+      },
+      {
+        "pergunta": "VUNESP - ADP (DPE SP)/DPE SP/Analista Desenvolvedor/2023 As transações executadas em um sistema de banco de dados devem manter as chamadas propriedades ACID, sendo certo que nesse acrônimo     ",
+        "alternativas": [
+        "a) A significa Atomicidade.", 
+        "b) C significa Contagem.", 
+        "d) D significa Desempenho.", 
+        "d) D significa Dependência.",
+        "e) I significa Independência."],
+        "correta": "a) A significa Atomicidade.",
+        "explicacao": "As propriedades ACID em transações de um sistema de banco de dados são: <br>a) A significa Atomicidade. <br>b) C significa Consistência. <br>c) I significa Isolamento. <br>d) D significa Durabilidade. <br>Portanto, a alternativa correta é a letra a)."
+      },
+      {
+        "pergunta": "(VUNESP - Ana (EPC)/EPC/Sistemas/2023) No modelo hierárquico de bancos de dados, há a estrutura que estabelece os relacionamentos pai-filho entre registros, sendo correto afirmar que tais relacionamentos",
+        "alternativas": [
+        "a) são do tipo 1:N (um para muitos) do registro pai para os registros filhos.", 
+        "b) são do tipo M:N (muitos para muitos) dos registros pai para os registros filhos.", 
+        "c) não se aplicam a casos em os registros contenham menos do que quatro campos.", 
+        "d) cada registro filho está associado a pelo menos dois registros pai ou superiores.",
+        "e) aplicam-se apenas a casos em que os registros sejam todos do mesmo tipo."],
+        "correta": "a) são do tipo 1:N (um para muitos) do registro pai para os registros filhos.",
+        "explicacao": "A opção correta é: a) São do tipo 1:N (um para muitos) do registro pai para os registros filhos. No modelo hierárquico de bancos de dados, os relacionamentos são estabelecidos na forma de uma estrutura de árvore, onde cada nó pode ter vários filhos, mas cada filho tem apenas um pai. Portanto, os relacionamentos são do tipo 1:N, onde um registro pai pode ter vários registros filhos, mas cada registro filho está associado a apenas um registro pai."
+      },
+      {
+        "pergunta": "(VUNESP - ADP (DPE SP)/DPE SP/Analista de Suporte/2023) O modelo hierárquico de bancos de dados é formado por registros do tipo raiz e do tipo folha, sendo correto afirmar que, em um modelo hierárquico,",
+        "alternativas": [
+        "a) há um único registro do tipo raiz.", 
+        "b) registros do tipo raiz podem participar como registros- filho em diversos relacionamentos.", 
+        "c) um registro do tipo folha pode participar também como registro-pai em diversos relacionamentos.", 
+        "d) o número de registros do tipo raiz é função do número total de registros presentes no esquema hierárquico.",
+        "e) o número de registros do tipo raiz deve ser igual ao número de registros folha."],
+        "correta": "a) há um único registro do tipo raiz.",
+        "explicacao": "A questão apresenta uma afirmação correta sobre a estrutura de uma árvore, destacando a definição do \"nó raiz\". No contexto de uma árvore, o nó raiz é de fato o ponto inicial a partir do qual todos os outros nós derivam. Essa característica é fundamental para compreender a organização hierárquica da árvore, onde os ramos ou caminhos diferentes se originam desse nó raiz. A afirmação ressalta a importância do nó raiz como o ancestral comum acessível para todos os outros nós na árvore, proporcionando uma compreensão clara da estrutura e das relações entre os elementos da árvore. Portanto, a letra A é uma escolha apropriada como resposta correta para essa questão."
+      },
+      {
+        "pergunta": "(VUNESP - ADM (Pref Marília)/Pref Marília/Rede/2023) Há uma característica básica que distingue um banco de dados centralizado de um banco de dados distribuído. Tal característica está no fato de que, em um banco de dados distribuído,",
+        "alternativas": [
+        "a) há um número muito maior de usuários do que em bancos de dados centralizados.", 
+        "b) os dados são distribuídos entre dois ou mais locais ou servidores que compõem o ambiente distribuído.", 
+        "c) o desempenho para a obtenção de resultados de consultas é sempre muito superior ao de bancos de dados centralizados.", 
+        "d) não se admite a utilização de senhas de acesso ao banco de dados.",
+        "e) o número de tabelas é, necessariamente, inferior ao de bancos de dados centralizados."],
+        "correta": "b) os dados são distribuídos entre dois ou mais locais ou servidores que compõem o ambiente distribuído.",
+        "explicacao": "A característica que distingue um banco de dados centralizado de um banco de dados distribuído é: b) os dados são distribuídos entre dois ou mais locais ou servidores que compõem o ambiente distribuído. <br>Em um banco de dados centralizado, todos os dados são armazenados e gerenciados em um único local ou servidor. Este modelo é caracterizado por ter uma única instância do banco de dados que atende a todas as consultas e transações. <br>Por outro lado, em um banco de dados distribuído, os dados são distribuídos entre dois ou mais locais ou servidores. Cada servidor pode ter sua própria instância do banco de dados e armazenar parte dos dados. Esses servidores podem estar localizados em diferentes lugares físicos e podem se comunicar entre si para realizar consultas distribuídas ou transações que envolvam dados de múltiplos locais. <br>A distribuição dos dados em um ambiente distribuído pode trazer benefícios como melhor desempenho em consultas locais, menor carga em um único servidor e maior disponibilidade, pois a falha de um servidor não afeta necessariamente todos os dados. No entanto, também introduz desafios relacionados à consistência, sincronização e comunicação entre os servidores."
+      },
+      {
+        "pergunta": "(FUNDATEC - Tec (IFC)/IFC/Tecnologia da Informação/2023) Para construir um banco de dados, são empregados três modelos, executados em ordem, que permitem a sua construção e utilização. O primeiro modelo especifica como os dados são armazenados e relacionados, independentemente de como serão implementados no banco de dados. O segundo modelo é criado com base no tipo de banco de dados utilizado. No terceiro modelo, são definidos os tipos de dados que serão armazenados e emprega a linguagem SQL. O primeiro, segundo e terceiro modelos são denominados, respectivamente:",
+        "alternativas": [
+        "a) Lógico, conceitual e físico.", 
+        "b) Lógico, físico e conceitual.", 
+        "c) Conceitual, lógico e físico.", 
+        "d) Conceitual, físico e lógico.",
+        "e) Físico, conceitual e lógico."],
+        "correta": "c) Conceitual, lógico e físico.",
+        "explicacao": "A sequência correta dos modelos utilizados para construir um banco de dados é: <br>Modelo Conceitual: Especifica como os dados são armazenados e relacionados, independentemente de como serão implementados no banco de dados. Nesta etapa, é criado um modelo de dados de alto nível que representa as entidades, atributos e relacionamentos do domínio do problema. <br>Modelo Lógico: É criado com base no modelo conceitual e representa como os dados serão armazenados em um determinado tipo de banco de dados. Nesta etapa, são definidos os esquemas de banco de dados específicos, como tabelas, chaves primárias, chaves estrangeiras e outras restrições de integridade. <br>Modelo Físico: Define os detalhes de implementação do banco de dados, incluindo os tipos de dados específicos que serão usados, índices, estratégias de armazenamento e otimização de desempenho. Nesta etapa, é empregada a linguagem SQL para criar as tabelas, índices e outras estruturas físicas do banco de dados. <br>Portanto, a sequência correta dos modelos é: c) Conceitual, lógico e físico."
+      },
+      {
+        "pergunta": "(FUNDATEC - Ana TI (IFC)/IFC/2023) As decisões de projeto sobre programação e armazenagem de dados são tratadas, respectivamente, nos documentos do projeto do programa e do projeto de armazenagem de dados. Esses assuntos normalmente são tratados pelo Administrador de Dados (AD) dentro das organizações. Assinale a alternativa correta quanto ao papel do AD nas organizações.",
+        "alternativas": [
+        "a) Limita-se apenas a controlar padrões.", 
+        "b) Somente documenta e homologa os modelos.", 
+        "c) Deve garantir a integridade entre os modelos de dados.", 
+        "d) Trabalha na criação da matriz de CRUD.",
+        "e) Atua no gerenciamento de configuração durante o desenvolvimento."],
+        "correta": "c) Deve garantir a integridade entre os modelos de dados.",
+        "explicacao": "A alternativa correta é: c). O Administrador de Dados (AD) é responsável por garantir a consistência e a integridade dos dados em toda a organização. Isso inclui garantir que os modelos de dados sejam coesos e consistentes entre si, evitando redundâncias e inconsistências nos dados. Assim, o AD desempenha um papel fundamental na garantia da integridade dos dados em todos os aspectos do ambiente de dados da organização."
+      },
+      {
+        "pergunta": "FUNDATEC - ANC (PROCERGS)/PROCERGS/Administração de Dados/2023 Qual é a principal diferença entre os modelos de dados relacional e hierárquico?",
+        "alternativas": [
+        "a) O modelo hierárquico usa uma estrutura em árvore para organizar os dados, enquanto o modelo relacional usa tabelas.", 
+        "b) O modelo hierárquico permite a criação de relacionamentos muitos para muitos, enquanto o modelo relacional só permite relacionamentos um para muitos.", 
+        "c) O modelo hierárquico é mais flexível em relação à adição de novos campos, enquanto o modelo relacional requer modificações na estrutura da tabela.", 
+        "d) O modelo relacional é mais eficiente em relação à busca de dados, enquanto o modelo hierárquico é mais eficiente em relação à inserção de novos dados.",
+        "e) O modelo hierárquico é mais utilizado em ambientes de grande escala, enquanto o modelo relacional é mais utilizado em ambientes menores e médios."],
+        "correta": "a) O modelo hierárquico usa uma estrutura em árvore para organizar os dados, enquanto o modelo relacional usa tabelas.",
+        "explicacao": "A principal diferença entre os modelos de dados relacional e hierárquico é: a) O modelo hierárquico usa uma estrutura em árvore para organizar os dados, enquanto o modelo relacional usa tabelas. No modelo hierárquico, os dados são organizados em uma estrutura em árvore, onde cada nó pode ter vários nós filhos, criando uma hierarquia. Por outro lado, no modelo relacional, os dados são organizados em tabelas, onde cada tabela representa uma entidade e as relações entre essas entidades são estabelecidas por meio de chaves estrangeiras. Portanto, enquanto o modelo hierárquico utiliza uma estrutura hierárquica para organizar os dados, o modelo relacional utiliza tabelas para essa finalidade."
+      },
+      {
+        "pergunta": "(FUNDATEC - ANC (PROCERGS)/PROCERGS/Administração de Dados/2023) Em relação à arquitetura de um banco de dados, qual das seguintes afirmações é verdadeira?",
+        "alternativas": [
+        "a) A arquitetura cliente-servidor permite que as aplicações acessem diretamente o banco de dados.", 
+        "b) A arquitetura em camadas separa o banco de dados em três componentes: dados, processamento e interface.", 
+        "c) A arquitetura baseada em eventos é a mais adequada para bancos de dados distribuídos.", 
+        "d) A arquitetura P2P (peer-to-peer) é adequada apenas para bancos de dados pequenos e simples.",
+        "e) A arquitetura centralizada é a mais utilizada atualmente em bancos de dados empresariais."],
+        "correta": "b) A arquitetura em camadas separa o banco de dados em três componentes: dados, processamento e interface.",
+        "explicacao": "A alternativa B está correta ao descrever a arquitetura em camadas. Essa arquitetura é amplamente utilizada em sistemas de banco de dados e em muitas outras aplicações de software, devido aos benefícios que proporciona em termos de organização, manutenção e escalabilidade. A separação clara entre os componentes de dados, processamento e interface facilita o desenvolvimento e a evolução do sistema ao longo do tempo. <br>Vamos aprofundar um pouco mais na arquitetura em camadas: <br>Dados (Data Layer): Nessa camada, os dados são armazenados e gerenciados. Geralmente, é onde encontramos o banco de dados propriamente dito. Aqui, são realizadas operações como inserção, atualização, exclusão e consulta de dados. As operações nesta camada são voltadas diretamente para o armazenamento e manipulação dos dados. <br>Processamento ou Lógica de Negócios (Business Logic Layer): Esta camada contém a lógica de negócios da aplicação. Ela processa as entradas do usuário, executa as regras de negócio específicas do domínio da aplicação e coordena as operações entre a camada de dados e a camada de interface do usuário. Aqui, é onde ocorrem as validações, cálculos e qualquer outra operação que não seja diretamente relacionada ao armazenamento de dados. <br>Interface ou Apresentação (Presentation Layer): Esta camada é responsável por apresentar os dados e funcionalidades aos usuários finais. Pode incluir interfaces gráficas de usuário (GUIs), interfaces de linha de comando (CLI) ou APIs (Application Programming Interfaces) para acesso a sistemas externos. Esta camada interage com a lógica de negócios para obter e exibir informações de forma adequada aos usuários. <br>A separação em camadas traz uma série de benefícios: <br>● Modularidade: Cada camada tem sua responsabilidade específica, facilitando a compreensão e a manutenção do sistema. <br>● Reutilização: Componentes em uma camada podem ser reutilizados em diferentes partes do sistema ou até mesmo em outros projetos. <br>● Escalabilidade: É mais fácil escalar o sistema horizontalmente, adicionando mais instâncias de cada camada conforme necessário. <br>● Testabilidade: As camadas podem ser testadas separadamente, facilitando a implementação de testes automatizados. <br>Esses são alguns dos motivos pelos quais a arquitetura em camadas é amplamente adotada em sistemas de banco de dados e em muitas outras aplicações de software."
+      },
+      {
+        "pergunta": "(FUNDATEC - ANC (PROCERGS)/PROCERGS/Análise de Sistemas/Gerencia de Projetos de TI/2023) Um SGBD que está junto com o banco de dados em um servidor de banco de dados e que oferece acesso concorrente a vários usuários é classificado como um SGBD:",
+        "alternativas": [
+        "a) Distribuído.", 
+        "b) Centralizado.", 
+        "c) Hierárquico.", 
+        "d) NSQL.",
+        "e) SQL."],
+        "correta": "b) Centralizado.",
+        "explicacao": "A descrição fornecida indica um Sistema Gerenciador de Banco de Dados (SGBD) que está localizado junto com o banco de dados em um único servidor e oferece acesso concorrente a vários usuários. Portanto, o SGBD descrito é classificado como: b) Centralizado."
+      },
+      {
+        "pergunta": "(FUNDATEC - ANC (PROCERGS)/PROCERGS/Desenvolvimento/Oracle PL SQL/2023) A arquitetura do SGBD é dividida em três níveis que proveem diferentes abstrações da estrutura do sistema de banco de dados, e é conhecida como arquitetura ANSI/SPARC. Essa organização em níveis efetiva a visão abstrata dos dados, reduzindo a complexidade do sistema conforme o nível em que o usuário trabalha. Nesse contexto, analise as assertivas abaixo: <br>I. Nível físico: é onde se especifica o acesso aos dados conforme as necessidades de cada usuário ou aplicação. <br>II. Nível lógico: é onde se descreve a estrutura completa do banco de dados, que engloba a definição do esquema do banco de dados. <br>III. Nível de visão: relaciona-se com as estruturas de armazenamento dos dados e com o gerenciamento destas. <br>Quais estão corretas?",
+        "alternativas": [
+        "a) Apenas II.", 
+        "b) Apenas I e II.", 
+        "c) Apenas I e III.", 
+        "d) Apenas II e III.",
+        "e) I, II e III."],
+        "correta": "a) letra A",
+        "explicacao": "A alternativa correta é: a) Apenas II. <br>Comentário: Apenas a assertiva II está correta em relação à descrição dos três níveis da arquitetura ANSI/SPARC: <br>● Nível físico: Neste nível, especifica-se como os dados são armazenados fisicamente no disco, detalhando aspectos como organização de arquivos, índices e estruturas de dados utilizadas para acesso eficiente aos dados. <br>● Nível lógico: Este nível descreve a estrutura completa do banco de dados, incluindo a definição do esquema, ou seja, as tabelas, relacionamentos, chaves primárias e estrangeiras, entre outros elementos que definem a estrutura dos dados e suas relações. <br>● Nível de visão: Refere-se às visões ou perspectivas dos usuários sobre os dados. Permite que diferentes usuários tenham diferentes visões ou subconjuntos dos dados do banco de dados, de acordo com suas necessidades e permissões de acesso. Isso é útil para garantir a segurança e a privacidade dos dados, bem como para simplificar o acesso aos dados, fornecendo visões personalizadas para diferentes usuários."
       }
     ],
-    
-
-KKKKKKKKKKKKKKKK  - CONTINUAR DA QUESTÃO 1 - PÁGINA 65 DO ARQUIVO 00
-
+  
 
     ">>>>>>> apenas para copiar a pergunta imagem 2 <<<<<<<": [
+      {},
       {
         "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_89.png' alt='imagem da questão'><br>",
-        "alternativas": ["Certo",
+        "alternativas": [
+        "Certo",
         "Errado"],
         "correta": "X",
         "explicacao": "XXX"
       },
       {
         "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>",
-        "alternativas": ["a) letra A", 
+        "alternativas": [
+        "a) letra A", 
         "b) letra B", 
         "c) letra C", 
         "d) letra D",
@@ -5373,6 +6316,32 @@ KKKKKKKKKKKKKKKK  - CONTINUAR DA QUESTÃO 1 - PÁGINA 65 DO ARQUIVO 00
       }
     ],
 
+
+
+    "direitoAdministrativo": [
+      {},
+      {
+        "pergunta": "QUESTÃO V OU F",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "XXX"
+      },
+      {
+        "pergunta": "QUESTÃO MÚLTIPLA ALTERNATIVA",
+        "alternativas": [
+        "a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "XXXX"
+      }
+    ],
+
+    
 
     "ingles": [
       {
@@ -5597,60 +6566,6 @@ KKKKKKKKKKKKKKKK  - CONTINUAR DA QUESTÃO 1 - PÁGINA 65 DO ARQUIVO 00
       }
     ],
 
-
-
-    "fundamentosOrganizacaoGestaoEMarcosOperacionaisdoSUAS": [
-      {
-        "pergunta": "(FGV – 2026) O ordenamento jurídico brasileiro, a Assistência Social é consagrada como política pública de natureza não contributiva. Isso significa que ela:",
-        "alternativas": ["a) assegura benefícios e serviços, condicionando o acesso à comprovação de residência fixa.", 
-        "b) se estrutura para atender situações de vulnerabilidade social, sem exigir contrapartida do usuário.", 
-        "c) condiciona o acesso aos serviços ao prévio cadastramento do usuário em sistema oficial de proteção social.", 
-        "d) é financiada por recursos públicos, com acesso condicionado a critérios de elegibilidade.",
-        "e) admite a contribuição voluntária do usuário como condição para acesso a serviços socioassistenciais."],
-        "correta": "b) se estrutura para atender situações de vulnerabilidade social, sem exigir contrapartida do usuário.",
-        "explicacao": "A alternativa corretá é a letra B, pois de acordo com art. 203 da Constituição de 1988, a assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social. Além disso, a PNAS afirma que a assistência social é direito do cidadão e dever do Estado, garantindo proteção social a quem dela necessitar, sem exigir contribuição prévia e define explicitamente que a assistência social como política pública de proteção social não contributiva é destinada a prevenir e enfrentar situações de vulnerabilidade e risco social. As demais alternativas estão incorretas."
-      },
-      {
-        "pergunta": "(FGV – 2026) A Assistência Social é uma prática universal, embora sua expressão espontânea não se confunda com o seu reconhecimento como direito fundamental nem com a sua consequente institucionalização como política pública. Assinale a opção que apresenta um traço que identifica a Assistência Social como direito.",
-        "alternativas": ["a) Tem como objetivo atender necessidades imediatas, independentemente da origem do recurso empregado.", 
-        "b) Funciona como um mecanismo complementar às ações de caridade, voltado a resolver situações emergenciais.", 
-        "c) Reconhece o cidadão como sujeito que não depende da benevolência estatal para obter proteção social.", 
-        "d) É guiada por valores éticos voltados para a promoção da dignidade da pessoa humana em situações de vulnerabilidade.",
-        "e) Envolve ações destinadas ao amparo de pessoas em risco social, mobilizando diferentes atores na sua realização."],
-        "correta": "c) Reconhece o cidadão como sujeito que não depende da benevolência estatal para obter proteção social.",
-        "explicacao": "Perceba que o enunciado da questão traz pistas e palavras-chaves para acertarmos a resposta. Ele fala sobre um traço que identifica a assistência social como um direito. Assim, você deve procurar a alternativa que fala sobre direitos. Logo, a alternativa correta é a letra C, pois ela aborda sobre a proteção social, um dos objetivos da assistência social. O fato do cidadão não depender da benevolência estatal já sinaliza que este sujeito possui a proteção social como um direito, que deve ser efetivado pelo próprio Estado. As demais alternativas estão incorretas."
-      },
-      {
-        "pergunta": "(FGV – 2026) A superação das vulnerabilidades sociais, a Política Nacional de Assistência Social (PNAS) atribui papel central às famílias, sem que isso exima o Estado de seus deveres. Assinale a opção que indica uma concepção incompatível com a PNAS.",
-        "alternativas": ["a) Intervir com vistas à reorganização dos arranjos familiares e sua adequação às normas sociais vigentes.", 
-        "b) Valorizar a escuta qualificada e o planejamento conjunto como bases metodológicas para a atuação com as famílias.", 
-        "c) Promover a corresponsabilização da família e seu fortalecimento para o enfrentamento das desigualdades.", 
-        "d) Estimular o protagonismo das famílias e sua inserção em redes de apoio e acesso a políticas públicas.",
-        "e) Compreender a família como núcleo central de cuidado, proteção e socialização, além de portadora de direitos."],
-        "correta": "a) Intervir com vistas à reorganização dos arranjos familiares e sua adequação às normas sociais vigentes.",
-        "explicacao": "A alternativa corretá é a letra A, pois a PNAS não defende que os arranjos familiares sejam reorganizados, assim como não bjetiva a adequação das famílias às normas sociais vigentes. Essa Política defende que a família seja o núcleo central de atenção da assistência social, devendo ser protegida, fortalecida e apoiada pelo Estado para exercer suas funções de cuidado, proteção e socialização de seus membros. Assim, a centralidade na família é uma das diretrizes que estruturam a PNAS. As demais alternativas estão incorretas."
-      },
-      {
-        "pergunta": "(FGV – 2026) Relacione os princípios da Assistência Social aos respectivos exemplos ilustrativos. <br>1. Igualdade de direitos no acesso <br>2. Supremacia das necessidades sociais <br>3. Respeito à dignidade do cidadão <br>4. Universalização dos direitos sociais <br>( ) Um centro de referência atende qualquer pessoa em situação de necessidade que procure o serviço, ainda que não esteja vinculada a categorias específicas de beneficiários. <br>( ) Diante de recursos limitados, o gestor prioriza o atendimento de famílias em situação de extrema vulnerabilidade em detrimento de demandas menos urgentes. <br>( ) Durante o atendimento, o profissional evita exposição pública da situação do usuário, preserva sua privacidade e assegura tratamento respeitoso. <br>( ) Pessoas em condições sociais semelhantes recebem o mesmo tipo de atendimento e acesso aos benefícios, sem distinções baseadas em critérios arbitrários. <br>Assinale a opção que indica a relação correta, segundo a ordem apresentada.",
-        "alternativas": ["a) 1 – 3 – 2 – 4.", 
-        "b) 1 – 4 – 3 – 2.", 
-        "c) 4 – 2 – 3 – 1.", 
-        "d) 2 – 4 – 3 – 1.",
-        "e) 4 – 3 – 2 – 1."],
-        "correta": "c) 4 – 2 – 3 – 1.",
-        "explicacao": "Vamos comentar cada assertiva da questão... <br>( 4 ) Um centro de referência atende qualquer pessoa em situação de necessidade que procure o serviço, ainda que não esteja vinculada a categorias específicas de beneficiários. <br>Essa assertiva está relacionada à universalização dos direitos sociais, visto que este princípio da significa que todos os cidadãos devem ter acesso aos direitos sociais, sem discriminação, garantindo que as políticas públicas alcancem quem delas necessitar. <br>( 2 ) Diante de recursos limitados, o gestor prioriza o atendimento de famílias em situação de extrema vulnerabilidade em detrimento de demandas menos urgentes. <br>Essa assertiva está relacionada à supremacia das necessidades sociais, pois significa que as necessidades sociais dos usuários devem estar acima de interesses econômicos na organização das políticas públicas. <br>( 3 )Durante o atendimento, o profissional evita exposição pública da situação do usuário, preserva sua privacidade e assegura tratamento respeitoso. <br>A assertiva está relacionada ao respeito à dignidade do cidadão, pois significa que todas as pessoas atendidas pela assistência social devem ser tratadas com respeito, autonomia e reconhecimento de seus direitos, sem necessitar de passar por situações vexatórias ou de discriminação e estigmatização. <br>( 1 )Pessoas em condições sociais semelhantes recebem o mesmo tipo de atendimento e acesso aos benefícios, sem distinções baseadas em critérios arbitrários. <br>A assertiva corresponde à igualdade de direitos no acesso, a qual significa que todas as pessoas que necessitam da assistência social devem ter as mesmas oportunidades de acesso aos serviços, benefícios, programas e projetos, sem qualquer forma de discriminação. <br>Logo, a alternativa corretá da questão é a letra C."
-      },
-      {
-        "pergunta": "5. (FGV – 2025) A Constituição de 1988 e a Lei Orgânica de Assistência Social (1993) estabeleceram um arcabouço normativo e institucional ao determinar a responsabilização estatal pela Assistência Social, as finalidades, os objetivos e os públicos dessa política pública. <br>A esse respeito, associe o tipo de segurança à respectiva finalidade da Assistência Social. <br>1. Segurança de sobrevivência. <br>2. Segurança de acolhida. <br>3. Segurança de convívio. <br>( ) Garante que nenhuma pessoa permaneça em uma situação de abandono ou de ausência de acolhimento. <br>( ) Impede o isolamento e o abandono gerado pela ausência de relações e vínculos entre familiares e com a comunidade em que uma pessoa vive. <br>( ) Garante renda e condições materiais e de cuidados básicas para uma vida digna e de qualidade. <br>Assinale a opção que apresenta a associação correta, segundo a ordem apresentada.",
-        "alternativas": ["a) 1 – 2 – 3.", 
-        "b) 1 – 3 – 2.", 
-        "c) 2 – 1 – 3.", 
-        "d) 2 – 3 – 1.",
-        "e) 3 – 1 – 2."],
-        "correta": "d) 2 – 3 – 1.",
-        "explicacao": "Essa questão explora o entendimento dos eixos fundamentais da Assistência Social como direito garantido pela Constituição Federal de 1988 e pela LOAS. Reconhecer cada segurança é importante, pois elas orientam a organização dos serviços, benefícios e programas do SUAS (como o BPC, o PAIF e o PAEFI). <br>A correta associação demonstra compreensão de que a assistência não é só material (sobrevivência), mas também relacional (convivência) e protetiva (acolhida). <br>Vamos comentar cada assertiva: <br>1. Segurança de sobrevivência – É a segurança relacionada ao acesso à renda, alimentação, vestuário e condições mínimas para viver com dignidade. <br>2. Segurança de acolhida – É a segurança que garante que os sujeitos não permaneçam em situações de abandono, sem proteção, abrigo ou atendimento. <br>3. Segurança de convívio - Assegura o direito à convivência familiar e comunitária, prevenindo isolamento social dos sujeitos e suas famílias. <br>Portanto, a ordem correta é: 2 – 3 – 1. Assim, a alternativa D é o gabarito da questão"
-      }
-    ],
 
 
 
