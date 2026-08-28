@@ -1,5 +1,30 @@
 {
-    "bancoDeDados": [
+    ">>>>>>> apenas para pegar imagem <<<<<<<": [
+      {
+        "pergunta": "<img src='../dados/imgs/questao_conhecimentosbancarios_1.png' alt='imagem da questão'><br>",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "Comentário"
+      },
+      {
+        "pergunta": "<img src='../dados/imgs/questao_conhecimentosbancarios_1.png' alt='imagem da questão'><br>",
+        "alternativas": [
+        "a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "Comentário"
+      }
+
+    ],
+
+
+
+  "bancoDeDados": [
       {
         "pergunta": "(CESPE / SEFAZ-SE – 2022) As técnicas de controle de concorrência são usadas para garantir a propriedade de não interferência ou isolamento das transações executadas simultaneamente. Algumas das principais técnicas usadas para controlar a execução concorrente de transações são baseadas no conceito de bloqueio de itens de dados. <br>Considerando os tipos de bloqueios, assinale a opção que contém o esquema de bloqueio que possui dois estados — bloqueado e desbloqueado — e que é considerado muito restritivo para itens de banco de dados, porque no máximo uma transação pode manter um bloqueio em determinado item.",
         "alternativas": [
@@ -5440,27 +5465,6 @@
 
     ],
 
-    ">>>>>>> CB - apenas para pegar imagem <<<<<<<": [
-      {
-        "pergunta": "<img src='../dados/imgs/questao_conhecimentosbancarios_1.png' alt='imagem da questão'><br>",
-        "alternativas": ["Certo",
-        "Errado"],
-        "correta": "X",
-        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
-      },
-      {
-        "pergunta": "<img src='../dados/imgs/questao_conhecimentosbancarios_1.png' alt='imagem da questão'><br>",
-        "alternativas": ["a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "PDF Estratégia Matemática - Aula 01 - Juros Compostos"
-      }
-
-    ],
-
 
 
     "desenvolvimentoDeSoftware": [
@@ -9496,21 +9500,9 @@
         "e) Em Python, os nomes de variáveis, funções, módulos e classes são conhecidos como identificadores. O identificador _quantidade é Correta em Python."],
         "correta": "c) Os comentários são iniciados com um caractere “#”. Para fazer comentários com múltiplas linhas, utilizam-se os caracteres “#”, para o início, e “#*” para o final.",
         "explicacao": "(a) Correta, ele realmente possui herança múltipla, isto é, uma classe com mais de um pai; (b) Correta, Python deve ser bastante legível. É possível inserir ponto-e-vírgula para separar instruções em uma mesma linha, mas prejudica a visibilidade – o ideal mesmo é deixar somente uma instrução por linha; (c) Errado, para comentários de mais de uma linha, utiliza-se três aspas simples ou duplas; (d) Correta, a indentação delimita blocos de código; (e) Correta, esse é um identificador válido."
-      }
-    ],
-
-    ">>>>>>> DS - apenas para pegar imagem <<<<<<<": [
-      {},
-      {
-        "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_89.png' alt='imagem da questão'><br>",
-        "alternativas": [
-        "Certo",
-        "Errado"],
-        "correta": "X",
-        "explicacao": "XXX"
       },
       {
-        "pergunta": "<img src='../dados/imgs/questao_desenvolvimento_31.png' alt='imagem da questão'><br>",
+        "pergunta": "QUESTÃO MÚLTIPLA ALTERNATIVA (<img src='../dados/imgs/questao_desenvolvimento_XX.png' alt='imagem da questão'><br>)",
         "alternativas": [
         "a) letra A", 
         "b) letra B", 
@@ -9519,6 +9511,14 @@
         "e) letra E"],
         "correta": "a) letra A",
         "explicacao": "XXXX"
+      },
+      {
+        "pergunta": "QUESTÃO V OU F (<img src='../dados/imgs/questao_desenvolvimento_XX.png' alt='imagem da questão'><br>)",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "XXX"
       }
     ],
 
@@ -9548,7 +9548,7 @@
     ],
 
 
-    
+
     "engenhariaDeSoftware": [
       {
         "pergunta": "(FGV / MPE-MS – 2013) Considerando a caracterização de agilidade e processo de desenvolvimento ágil, segundo Pressman, analise as afirmativas a seguir. <br>I. Um processo ágil de software deve ser incrementalmente adaptável. <br>II. Um processo ágil de software permite que as pessoas e a equipe se moldem a ele com facilidade. <br>III. Os conceitos ágeis são efetivos, pois diminuem a imprevisibilidade sistêmica ao enfatizar entregas em prazos curtos.",
@@ -9642,6 +9642,106 @@
         "explicacao": "É absurdo pensar que se desconsidera atividades de elicitação de requisitos – não há o que se discutir nesse ponto. Além disso, o Manifesto Ágil afirma que, mesmo havendo valor na documentação extensa de software, valoriza-se mais o software em funcionamento. Em outras palavras, é errado afirmar que se desconsidera a produção de documentação, tendo em vista que há uma codificação não formal."
       },
       {
+        "pergunta": "(CESPE / TRE-PI – 2008) No que se refere a métodos ágeis de desenvolvimento de sistemas, assinale a opção correta.",
+        "alternativas": [
+        "a) A aplicação de método ágil para desenvolvimento de grandes sistemas pode enfrentar dificuldades que o tornem inviável.", 
+        "b) O documento de requisitos, apesar de abordar um conjunto pequeno de funcionalidades, deve especificar toda a necessidade do usuário.", 
+        "c) O sistema é construído em pequenos blocos, que irão compor uma versão a ser entregue aos usuários.", 
+        "d) A documentação de projeto deve ser feita pelo próprio desenvolvedor, seguindo padrões simplificados.",
+        "e) Para atingir os objetivos de agilidade exigidos, os desenvolvedores devem seguir processos simplificados para a construção do software."],
+        "correta": "a) A aplicação de método ágil para desenvolvimento de grandes sistemas pode enfrentar dificuldades que o tornem inviável.",
+        "explicacao": "a) Correto. Aqui temos a teoria e a prática: no início, tanto a teoria quanto a prática não recomendavam que as metodologias ágeis fossem aplicadas a sistemas grandes. No entanto, atualmente, isso já não é mais uma limitação. Hoje em dia, as metodologias ágeis adquiriram maturidade suficiente para desenvolver sistemas grandes e complexos. Porém, isso ainda está na teoria, por isso as questões ainda cobram. <br>b) Errado. Em metodologias ágeis, há uma documentação abrangente no início e detalhada somente o necessário durante o projeto conforme os objetivos das iterações e releases. No entanto, não existe um \"Documento de Requisitos\" - isso é coisa de metodologias tradicionais. Além disso, nenhum documento nunca conseguirá especificar todas as necessidades dos usuários. <br>c) Correto. Não vislumbro qualquer erro nesse item. Ora, metodologias ágeis são iterativas e incrementais, dividindo o sistema em pequenas partes e sempre entregando versões que agreguem valor aos usuários. Se você errou esse item, fique tranquilo - o vacilo foi da banca! <br>d) Errado. Documentação de Projeto? Isso é coisa de metodologias tradicionais. E, pensa comigo, o Product Backlog (do Scrum) é feito pelo desenvolvedor? Não, as histórias de usuário são escritas pelo Product Owner. <br>e) Errado. Não existe esse negócio de \"objetivos de agilidade exigidos\". Isso soa como se existissem métricas de agilidade que tivessem que ser atingidas."
+      },
+      {
+        "pergunta": "(CESPE / TCE-PR – 2016) Os métodos ágeis para o desenvolvimento de software representam uma evolução da engenharia de software tradicional, uma vez que são aplicáveis a todos os tipos de projetos, produtos, pessoas e situações.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "É um erro comum achar que metodologias ágeis servem para todas as ocasiões. Não confundam: agilidade pode ser aplicada a todo processo de software; mas métodos ágeis não funcionam bem em qualquer situação."
+      },
+      {
+        "pergunta": "(CESPE / TCE-PR – 2016) Um dos princípios de agilidade da Agile Alliance dispõe que a entrega completa de um software garante a satisfação do cliente.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "De acordo com o 1º Princípio Ágil: Nossa maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado. Percebam que não existe entrega completa, mas contínua."
+      },
+      {
+        "pergunta": "(FGV / PGE-RO – 2015) Durante 5 anos gerenciando o desenvolvimento de sistemas de informação, Claudia teve que lidar com diversas insatisfações de seus usuários pois os sistemas não atendiam as suas necessidades. Claudia decidiu, então, implantar métodos ágeis de desenvolvimento e definiu os seguintes princípios: <br>I. Mudanças nos requisitos são bem-vindas, mesmo tardiamente no desenvolvimento. <br>II. O método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é através da documentação. <br>III. Simplicidade é essencial. <br>Dentre os princípios definidos por Claudia, o que infringe os princípios do manifesto para Desenvolvimento Ágil de Software é o que se afirma em:",
+        "alternativas": [
+        "a) somente I;", 
+        "b) somente II;", 
+        "c) somente III;", 
+        "d) somente I e III;",
+        "e) I, II e III."],
+        "correta": "b) somente II;",
+        "explicacao": "(I) Correto, mudanças são sempre bem-vindas; (II) Errado, o método mais eficiente é frente-afrente; (III) Correto. Como a questão pede os princípios que infringem o manifesto ágil, trata-se da segunda opção."
+      },
+      {
+        "pergunta": "(FGV / TJ-RO – 2015) O manifesto ágil tem por princípio que:",
+        "alternativas": [
+        "a) mudanças nos requisitos são bem-vindas, mesmo tardiamente no desenvolvimento;", 
+        "b) a contínua atenção à excelência técnica reduz a agilidade;", 
+        "c) a redução do backlog é a medida primária de progresso;", 
+        "d) as melhores arquiteturas, requisitos e designs emergem de equipes que possuem um bom líder;",
+        "e) pessoas de negócio e desenvolvedores devem trabalhar em ambientes separados para reduzir as interferências no processo de desenvolvimento."],
+        "correta": "a) mudanças nos requisitos são bem-vindas, mesmo tardiamente no desenvolvimento;",
+        "explicacao": "O único princípio correto é que mudanças nos requisitos são bem-vindas, mesmo tardiamente no desenvolvimento."
+      },
+      {
+        "pergunta": "(FADESP / UEPA – 2020) Um dos princípios do Manifesto Ágil é o de que os indivíduos e interações são mais importantes que processos e ferramentas. Um outro princípio é o de que:",
+        "alternativas": [
+        "a) o usuário é a principal fonte de informação de requisitos de software.", 
+        "b) os contratos são mais importantes que a colaboração com os clientes.", 
+        "c) o software funcionando é mais importante do que a documentação completa e detalhada.", 
+        "d) seguir o plano inicial é mais importante que a adaptação a mudanças."],
+        "correta": "c) o software funcionando é mais importante do que a documentação completa e detalhada.",
+        "explicacao": "(a) Errado, isso realmente ocorre, mas não é um dos princípios do manifesto ágil; (b) Errado, colaboração com o cliente é mais valorizado que negociação de contratos; (c) Correto; (d) Errado, responder a mudanças é mais valorizado que seguir um plano."
+      },
+      {
+        "pergunta": "(IESES / SCGás – 2019) A filosofia por trás dos métodos ágeis é refletida no manifesto ágil, que foi acordado por muitos dos principais desenvolvedores desses métodos. Assinale a alternativa correta que contêm os itens deste manifesto.",
+        "alternativas": [
+        "a) “Estamos descobrindo melhores maneiras de desenvolver softwares, fazendo-o e ajudando outros a fazê-lo. Através desse trabalho, valorizamos mais: Indivíduos e interações do que processos e ferramentas; Software em funcionamento do que documentação abrangente; Colaboração do cliente do que negociação de contrato; Respostas a mudanças do que seguir um plano. Ou seja, embora itens à direita sejam importantes, valorizamos mais os que estão à esquerda”.", 
+        "b) “Estamos descobrindo melhores maneiras de desenvolver softwares, fazendo-o e ajudando outros a fazê-lo. Através desse trabalho, valorizamos mais: A concorrência e o desenvolvimento da competitividade entre as empresas; Software em funcionamento do que documentação abrangente; Colaboração do cliente do que negociação de contrato; Respostas a mudanças do que seguir um plano. Ou seja, embora itens à direita sejam importantes, valorizamos mais os que estão à esquerda”.", 
+        "c) “Estamos descobrindo melhores maneiras de desenvolver softwares, fazendo-o e ajudando outros a fazê-lo. Através desse trabalho, valorizamos mais: Indivíduos e interações do que processos e ferramentas; Software em funcionamento do que documentação abrangente; Colaboração da equipe de desenvolvedores do que negociação de contrato e clientes; Respostas a mudanças do que seguir um plano. Ou seja, embora itens à direita sejam importantes, valorizamos mais os que estão à esquerda”.", 
+        "d) “Estamos descobrindo melhores maneiras de vender softwares, fazendo-o e ajudando outros a fazê-lo. Através desse trabalho, valorizamos mais: Indivíduos e interações do que processos e ferramentas; Software para mobiles e, em funcionamento do que documentação abrangente; Colaboração do cliente do que negociação de contrato; Respostas a mudanças do que seguir um plano. Ou seja, embora itens à direita sejam importantes, valorizamos mais os que estão à esquerda”."],
+        "correta": "a) “Estamos descobrindo melhores maneiras de desenvolver softwares, fazendo-o e ajudando outros a fazê-lo. Através desse trabalho, valorizamos mais: Indivíduos e interações do que processos e ferramentas; Software em funcionamento do que documentação abrangente; Colaboração do cliente do que negociação de contrato; Respostas a mudanças do que seguir um plano. Ou seja, embora itens à direita sejam importantes, valorizamos mais os que estão à esquerda”.",
+        "explicacao": "(1) Indivíduos e interações acima de processos e ferramentas; (2) Software em funcionamento acima de documentação abrangente; (3) Colaboração com o cliente acima de negociação de contratos; (4) Responder a mudanças acima de seguir fielmente um plano."
+      },
+      {
+        "pergunta": "(IESES / SCGás – 2019) Identifique a opção correta para conceituar desenvolvimentos ágeis ou, que caracterizam métodos ágeis:",
+        "alternativas": [
+        "a) São métodos de desenvolvimento estáticos em que os incrementos são dinâmicos e, normalmente, as novas versões do sistema são criadas e disponibilizadas aos clientes a cada duas ou três semanas. Elas não envolvem os clientes no processo de desenvolvimento para obter feedback rápido sobre a evolução dos requisitos. Assim, minimiza-se a documentação, pois se utiliza mais a comunicação informal do que reuniões formais com documentos escritos.", 
+        "b) São métodos de desenvolvimento incremental em que os incrementos são pequenos e, normalmente, as novas versões do sistema são criadas e disponibilizadas aos clientes a cada duas ou três semanas. Neles envolvemos clientes no processo de desenvolvimento para obter feedback rápido sobre a evolução dos requisitos. Assim, minimiza-se a documentação, pois se utiliza mais a comunicação informal do que reuniões formais com documentos escritos.", 
+        "c) São métodos de desenvolvimento estáticos em que os incrementos são pequenos e, normalmente, as novas versões do sistema são criadas e disponibilizadas aos clientes a cada duas ou três semanas. Elas envolvem os clientes no processo de desenvolvimento para obter feedback rápido sobre a evolução dos requisitos. Assim, minimiza-se a documentação, pois se utiliza mais a comunicação informal do que reuniões formais com documentos escritos.", 
+        "d) São métodos de desenvolvimento incremental em que os incrementos são intermediários e, normalmente, as novas versões do sistema são descritas e disponibilizadas aos clientes a cada duas ou três semanas. Elas envolvem os desenvolvedores do processo de concepção para obter feedback rápido sobre a evolução dos requisitos. Assim, minimiza-se a documentação, pois se utiliza mais a comunicação informal do que reuniões formais com documentos escritos."],
+        "correta": "b) São métodos de desenvolvimento incremental em que os incrementos são pequenos e, normalmente, as novas versões do sistema são criadas e disponibilizadas aos clientes a cada duas ou três semanas. Neles envolvemos clientes no processo de desenvolvimento para obter feedback rápido sobre a evolução dos requisitos. Assim, minimiza-se a documentação, pois se utiliza mais a comunicação informal do que reuniões formais com documentos escritos.",
+        "explicacao": "(a) Errado, não são estáticos – são incrementais; (b) Correto; (c) Errado, não são estáticos – são incrementais; (d) Errado, incrementos são pequenos e, não, intermediários; as novas versões são criadas e, não, descritas; os clientes participam do processo de desenvolvimento e, não, os desenvolvedores participam no processo de concepção."
+      },
+      {
+        "pergunta": "(IESES / SCGás – 2019) Os processos de software podem ser categorizados como dirigidos a planos ou processos ágeis. Considerando esta afirmação, assinale a afirmativa correta:",
+        "alternativas": [
+        "a) Nos processos ágeis todas as atividades são planejadas antecipadamente, e a avaliação do processo considera a comparação com um planejamento inicial. Já nos processos dirigido a planos, o planejamento é gradativo. Esta característica facilita a alteração do processo de forma a refletir as necessidades de mudança dos clientes.", 
+        "b) Nos processos dirigidos a planos todas as atividades são planejadas antecipadamente, e a avaliação do processo considera a comparação com um planejamento inicial. Já nos processos ágeis, o planejamento é gradativo. Esta característica facilita a alteração do processo de forma a refletir as necessidades de mudança dos clientes.", 
+        "c) Nos processos ágeis todas as atividades são planejadas posteriormente, e a avaliação do processo considera a comparação com um planejamento inicial. Já nos processos dirigido a planos, o planejamento é gradativo. Esta característica facilita a alteração do processo de forma a refletir as necessidades de mudança dos clientes.", 
+        "d) Nos processos dirigidos a planos todas as rotinas são empíricas e, a avaliação do processo considera a comparação com um planejamento final a ser definido. Já nos processos ágeis, o planejamento é gradativo. Esta característica facilita a alteração do processo de forma a refletir as necessidades de mudança dos clientes."],
+        "correta": "b) Nos processos dirigidos a planos todas as atividades são planejadas antecipadamente, e a avaliação do processo considera a comparação com um planejamento inicial. Já nos processos ágeis, o planejamento é gradativo. Esta característica facilita a alteração do processo de forma a refletir as necessidades de mudança dos clientes.",
+        "explicacao": "(a) Errado, isso ocorre em modelos dirigidos a planos, como o modelo em cascata; (b) Correto; (c) Errado, a questão inverteu os conceitos; (d) Errado, o empirismo é uma característica dos processos ágeis."
+      },
+      {
+        "pergunta": "(INSTITUTO AOCP / EMPREL – 2019) Em se tratando de desenvolvimento de software, o termo qualidade é bastante subjetivo. Entretanto, no desenvolvimento ágil, é claro o conceito de qualidade. Sabendo disso, assinale a alternativa que apresenta corretamente o conceito de qualidade no desenvolvimento ágil.",
+        "alternativas": [
+        "a) Envolve a documentação do processo e o estabelecimento de práticas para entregar ao cliente um produto de qualidade.", 
+        "b) Cumpre os critérios sistêmicos estabelecidos em acordo com o cliente para que os requisitos também sejam cumpridos.", 
+        "c) Tem como objetivo gerar manuais e código claro por meio de uma equipe especializada no processo.", 
+        "d) Cumpre os requisitos para o cliente com uma documentação completa do produto desenvolvido.",
+        "e) Significa que a qualidade do código e as práticas são utilizadas para garantir um código de alta qualidade."],
+        "correta": "e) Significa que a qualidade do código e as práticas são utilizadas para garantir um código de alta qualidade.",
+        "explicacao": "(a) Errado, software em funcionamento é mais valorizado do que documentação abrangente – e um indicativo melhor de qualidade; (b) Errado, colaboração com o cliente é mais valorizado que negociação e contratos; (c) Errado, metodologias ágeis prezam mais pelo software funcionando do que documentação abrangente; (d) Errado, metodologias ágeis prezam mais pelo software funcionando do que documentação abrangente; (e) Correto, a qualidade de um software é medida baseado na qualidade do código-fonte e das práticas de programação utilizadas."
+      },
+      {
         "pergunta": "QUESTÃO MÚLTIPLA ALTERNATIVA",
         "alternativas": [
         "a) letra A", 
@@ -9651,10 +9751,19 @@
         "e) letra E"],
         "correta": "a) letra A",
         "explicacao": "XXXX"
+      },
+      {
+        "pergunta": "QUESTÃO V OU F",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "XXX"
       }
     ],
 
-    
+
+
     "governancaDeTI": [
       {},
       {
@@ -12437,6 +12546,247 @@
         ],
         "correta": "a) 1",
         "explicacao": "2, 3, 4 e 5 são equivalentes a p∨(~q∧r), enquanto 1 é p∨(~q∧~r)."
+      },
+      {
+        "pergunta": "(CEBRASPE/ANM/2025) Considerando a proposição P: “Não prometo que você voltará, e, se voltar, não será o mesmo.”, julgue o item seguinte, em relação a aspectos da lógica sentencial dessa proposição. <br>A negação da proposição “Não prometo que você voltará” pode ser expressa por “Prometo que você não voltará”.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Para negar uma <b>proposição simples</b> formada por uma oração principal e por orações <b>subordinadas</b>, devemos <b>negar o verbo da oração principal</b>. <br>Removendo as orações subordinadas da proposição original, ficamos com: <br>p: “<b>Não</b> prometo <b>que você voltará</b>” <br>p: “<b>Não</b> prometo <b>ISSO</b>.” <br>Sabemos que <b>principal forma de negar uma sentença declarativa negativa</b> é <b>eliminar o “não”</b>. Nesse caso, ficamos com a seguinte negação: <br>~p: “Prometo <b>ISSO</b>.” <br>Retornando à proposição original, incluindo a oração subordinada, temos: <br>~p: “Prometo <b>que você voltará</b>.” <br>Veja que a questão erra ao afirmar que a negação da proposição “<b>Não prometo que você voltará</b>” pode ser expressa por “<b>Prometo que você <u>não</u> voltará</b>”. Isso porque deve-se negar somente a oração principal, sem alterar a oração subordinada."
+      },
+      {
+        "pergunta": "(CEBRASPE/CAGEPA/2024) Assinale a opção em que é apresentada uma proposição simples.",
+        "alternativas": [
+        "a) Por que o estado da Paraíba não é o primeiro no ranking de qualidade de vida?", 
+        "b) Viva a Paraíba!", 
+        "c) Se a CAGEPA não existir, então não haverá tratamento de esgoto na Paraíba.", 
+        "d) A Paraíba é um dos 26 estados do Brasil.",
+        "e) João Pessoa é a maior cidade do estado da Paraíba e Campina Grande é a segunda maior."],
+        "correta": "d) A Paraíba é um dos 26 estados do Brasil.",
+        "explicacao": "Sabemos que uma proposição simples: <br>• É uma proposição; e <br>• Não pode ser dividida em proposições menores. <br>Com base nisso, vamos avaliar as alternativas. <br>a) Por que o estado da Paraíba não é o primeiro no ranking de qualidade de vida? ERRADO. <br>Temos uma sentença interrogativa. Não se trata, portanto, de uma proposição. <br>b) Viva a Paraíba! ERRADO. <br>Temos uma sentença exclamativa. Não se trata, portanto, de uma proposição. <br>c) Se a CAGEPA não existir, então não haverá tratamento de esgoto na Paraíba. ERRADO. <br>Temos uma proposição composta formada pelas proposições simples “A CAGEPA não existe” e “Não há tratamento de esgoto na Paraíba”. Essas duas proposições simples estão ligadas por meio do conectivo “se...então”: <br>“Se [a CAGEPA não existir], então [não haverá tratamento de esgoto na Paraíba].” <br>d) A Paraíba é um dos 26 estados do Brasil. CERTO. Esse é o gabarito. <br>Observe que a frase presente nessa alternativa se enquadra no conceito de proposição, pois temos uma oração declarativa à qual pode ser atribuída um, e apenas um, dos dois possíveis valores lógicos: ou verdadeiro ou falso. <br>Além disso, a proposição em questão é simples, pois não pode ser dividida em proposições menores. <br>e) João Pessoa é a maior cidade do estado da Paraíba e Campina Grande é a segunda maior. ERRADO. <br>Temos uma proposição composta formada pelas proposições simples “João Pessoa é a maior cidade do estado da Paraíba” e “Campina Grande é a segunda maior cidade do estado da Paraíba”. Essas duas proposições simples estão ligadas pelo conectivo “e”: <br>“ [João Pessoa é a maior cidade do estado da Paraíba] e [Campina Grande é a segunda maior (cidade do estado da Paraíba)].”"
+      },
+      {
+        "pergunta": "(CEBRASPE/Pref. Cach. Itapemirim/2024) No que se refere a lógica proposicional, julgue o próximo item. <br>A frase “Como Cachoeiro do Itapemirim é uma linda cidade, ela possui vários pontos turísticos.” é uma proposição simples.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Sabemos que uma proposição simples: <br>• É uma proposição; e <br>• Não pode ser dividida em proposições menores. <br>Na frase em questão temos uma proposição composta formada pelas proposições simples “Cachoeiro do Itapemirim é uma linda cidade” e “Cachoeiro do Itapemirim possui vários pontos turísticos”. <br>Essas duas proposições simples estão ligadas pelo conectivo condicional, que pode ser representado da forma “Como p, q”: <br>“Como [Cachoeiro do Itapemirim é uma linda cidade], [ela (Cachoeiro do Itapemirim) possui vários pontos turísticos]” Gabarito: ERRADO."
+      },
+      {
+        "pergunta": "(CEBRASPE/ANA/2024) P1: Eu não tenho meios para contatar socorro. A negação de P1 pode ser corretamente expressa por “Eu tenho meios para não contatar socorro”.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Para negar uma proposição simples formada por uma oração principal e por orações subordinadas, devemos negar o verbo da oração principal. Removendo as orações subordinadas da proposição original, temos: <br>P1: “Eu não tenho meios para contatar socorro.” <br>P1: “Eu não tenho meios para ISSO.” <br>Note que P1 é uma sentença declarativa negativa. Para negar proposição P1, basta remover o “não” da oração principal: <br>~P1: “Eu tenho meios para ISSO.” <br>Voltando aos termos da proposição original, temos a seguinte negação: <br>~P1: “Eu tenho meios para contatar socorro.” <br>Note que o item erra ao escrever “para não contatar socorro”."
+      },
+      {
+        "pergunta": "(CEBRASPE/PCPE/2024) P: “Meu celular vale muito mais que o que me acusam de tentar roubar.” A negação da proposição P pode ser expressa corretamente por:",
+        "alternativas": [
+        "a) “Meu celular vale muito menos que o que me acusam de tentar roubar.”.", 
+        "b) “Meu celular não vale muito mais que o que me acusam de tentar roubar.”.", 
+        "c) “Meu celular não vale pouco menos que o que não me acusam de não tentar não roubar.”.", 
+        "d) “Meu celular vale pouco mais que o que me acusam de tentar roubar.”.",
+        "e) “Meu celular vale muito mais que o que não me acusam de tentar roubar.”."],
+        "correta": "b) “Meu celular não vale muito mais que o que me acusam de tentar roubar.”.",
+        "explicacao": "Para negar uma proposição simples formada por uma oração principal e por orações subordinadas, devemos negar o verbo da oração principal. Removendo as orações subordinadas da proposição original, temos: <br>P: “Meu celular vale muito mais que o que me acusam de tentar roubar.” <br>P: “Meu celular vale muito mais que ISSO.” <br>Ao negar a proposição P, temos: <br>~P: “Meu celular não vale muito mais que ISSO.” <br>Voltando aos termos da proposição original, temos a seguinte negação: <br>~P: “Meu celular não vale muito mais que o que me acusam de tentar roubar.”"
+      },
+      {
+        "pergunta": "(CEBRASPE/MP TCESC/2022) <br>P1: Sou mau, e isso é bom. <br>P2: Nunca serei bom, e isso não é mau. <br>Dado o contexto em que se apresentam, as afirmações “isso é bom”, presente em P1, e “isso não é mau”, presente em P2, são proposições logicamente equivalentes.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item afirma que as proposições \"Isso é bom\" e \"Isso não é mau\" são logicamente equivalentes. <br>Nessa questão, a banca tenta induzir o concurseiro a acreditar que podemos negar a proposição \"Isso é bom\" com a proposição \"Isso é mau\". Seguindo esse raciocínio equivocado, chamando a proposição \"Isso é bom\" de p, teríamos: <br>~p: \"Isso é mau.\" <br>Continuando com esse raciocínio equivocado, ao negar ~p: \"Isso é mau\" com a palavra \"não\", teríamos a dupla negação da proposição p: <br>~(~p): \"Isso não é mau.\" <br>Como a dupla negação corresponde à proposição original, teríamos que p: “Isso é bom” seria equivalente a ~(~p): \"Isso não é mau\". <br>Esse raciocínio está equivocado justamente porque a negação de \"Isso é bom\" não está corretamente expressa por \"Isso é mau\". Isso porque o antônimo \"mau\" não nega corretamente a palavra \"bom\", pois não abarca a possibilidade de \"isso\" não ser bom nem mau. O gabarito, portanto, é ERRADO."
+      },
+      {
+        "pergunta": "(CEBRASPE/MP TCESC/2022) <br>P: Não quero ser ninguém além de mim. <br>A negação da proposição P pode ser expressa por “quero ser alguém além de mim”.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Para resolver essa questão, devemos considerar o significado real da proposição P. <br>Note que \"Não quero ser ninguém além de mim\" tem o sentido de \"Não quero ser alguém além de mim\". Isso porque, na língua portuguesa, essa suposta dupla negação utilizando \"não\" e \"ninguém\" ao mesmo tempo só serviu para enfatizar o fato de que a pessoa realmente não quer ser outra pessoa a não ser ela mesma. <br>Logo, considerando que o sentido da proposição P é \"Não quero ser alguém além de mim\", a negação de P pode ser obtida removendo-se o \"não\". Obtemos: <br>~P: \"Quero ser alguém além de mim.\""
+      },
+      {
+        "pergunta": "(CEBRASPE/ANM/2025) Considerando a proposição P: “Não prometo que você voltará, e, se voltar, não será o mesmo.”, julgue o item seguinte, em relação a aspectos da lógica sentencial dessa proposição. <br>Se os valores lógicos das proposições “você voltará” e “você será o mesmo” forem verdade para ambas, então, nesse caso, a proposição P será falsa independentemente do valor lógico de qualquer outra proposição simples constituinte de P.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Considere as seguintes proposições simples: <br>p: \"Prometo que você voltará\" <br>v: \"Você voltará.\" <br>m: \"Você será o mesmo.\" <br>Note que a proposição composta P pode ser descrita por ~p∧(v→~m): <br>~p∧(v→~m): “[Não prometo que você voltará], e, [se ((você) voltar), (então) ((você) não será o mesmo)].” <br>Se os valores lógicos das proposições “você voltará” e “você será o mesmo” forem verdade, teremos v verdadeiro e m verdadeiro. Substituindo os valores lógicos na proposição composta, temos: <br>~p∧(V→~(V)) <br>~p∧(V→F) <br>Como a condicional é falsa no caso V→F, ficamos com: <br>~p∧F <br>Sabemos que a conjunção (e; \"∧”) é verdadeira somente quando ambas as parcelas são verdadeiras. Para o caso em questão, temos a garantia de que ao menos uma das parcelas é falsa. Portanto, a proposição composta P será necessariamente falsa, qualquer que seja o valor lógico da proposição simples p:<br>F"
+      },
+      {
+        "pergunta": "(CEBRASPE/Pref. Cach. Itapemirim/2024) <br>p: Cachoeiro é a Princesinha do Sul. <br>q: Cachoeiro é a cidade mais bela. <br>r: Todos os moradores de Cachoeiro são felizes. <br>Considerando as proposições precedentes, julgue o item a seguir. <br>A conjunção entre p e q é a seguinte proposição: Cachoeiro é a Princesa do Sul e a cidade mais bela.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Temos as seguintes proposições simples: <br>p: “Cachoeiro é a Princesinha do Sul.” <br>q: “Cachoeiro é a cidade mais bela.” <br>Ao realizar a conjunção (e; “∧”) entre as proposições simples p e q, ficamos com: <br>p∧q: “[Cachoeiro é a Princesa do Sul] e [Cachoeiro é a cidade mais bela]” <br>Na Língua Portuguesa, normalmente omitimos repetições desnecessárias. Logo, podemos escrever a conjunção da seguinte forma: <br>p∧q: “[Cachoeiro é a Princesa do Sul] e [Cachoeiro é a cidade mais bela]” <br>p∧q: “[Cachoeiro é a Princesa do Sul] e [a cidade mais bela]” <br>Logo, a conjunção entre p e q é a seguinte proposição: “Cachoeiro é a Princesa do Sul e a cidade mais bela”."
+      },
+      {
+        "pergunta": "(CEBRASPE/INPI/2024)<br>Érica: “Vocês estão felizes ou tristes?”<br>Jorge: “Eu sou feliz, mas estou triste.”<br>Luana: “Eu estou alegre, mas sou infeliz.”<br>Carla: “Que triste, Luana!”<br>Considerando os aspectos da lógica sentencial presentes no diálogo anterior e, ainda, que “estar triste” e “ser infeliz” sejam negações de “estar alegre” e “ser feliz”, respectivamente, julgue o próximo item.<br>A frase dita por Jorge é uma proposição composta por conjunção.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Considere as seguintes proposições simples: <br>p: “Eu sou feliz.” <br>q: “Eu estou triste.” <br>A proposição composta pela conjunção entre p e q pode ser descrita por: <br>p∧q: “[Eu sou feliz] e [(eu) estou triste].” <br>Na Lógica de proposições, a conjunção “e” pode ser descrita pela palavra “mas”. Logo, essa proposição composta por conjunção também pode ser descrita assim: <br>p∧q: “[Eu sou feliz], mas [(eu) estou triste].”"
+      },
+      {
+        "pergunta": "(CEBRASPE/Pref. Cach. Itapemirim/2024) <br>p: Cachoeiro é a Princesinha do Sul. <br>q: Cachoeiro é a cidade mais bela. <br>r: Todos os moradores de Cachoeiro são felizes. <br>Considerando as proposições precedentes, julgue o item a seguir. <br>Se o valor lógico de p for falso, então o valor lógico da condicional p→q será verdadeiro.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Sabemos que a condicional p→q é falsa somente quando o antecedente p é verdadeiro e o consequente q é falso (caso V→F). Nos demais casos, a condicional p→q é verdadeira. <br>O item informa que o antecedente p é falso (F). Nesse caso, a condicional p→q só pode apresentar os seguintes formatos: <br>• F→V (caso em que q é verdadeiro); ou <br>• F→F (caso em que q é falso). <br>Observe que, qualquer que seja o valor lógico de q, teremos uma condicional p→q obrigatoriamente verdadeira, pois os casos F→V e F→F são condicionais verdadeiras. <br>Logo, é correto afirmar que, se o valor lógico de p for falso, então o valor lógico da condicional p→q será verdadeiro, qualquer que seja o valor lógico de q."
+      },
+      {
+        "pergunta": "(CEBRASPE/INPI/2024) Ao comentar em uma rede social a respeito de informações veiculadas por um jornalista, certo internauta escreveu: “Ou o jornalista é muito mal-informado ou age de má-fé. Em minha opinião, as duas coisas.” <br>Com base no texto precedente e nos aspectos de lógica sentencial, julgue o item seguinte. <br>Sob o ponto de vista da lógica sentencial, a opinião do internauta manifesta no trecho “as duas coisas” é incompatível com o conectivo lógico empregado na fala anterior a esse trecho.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Observe que a proposição composta “Ou [o jornalista é muito mal-informado] ou [age de má-fé]” apresenta o conectivo disjunção exclusiva (ou...ou). <br>Na disjunção exclusiva, as duas proposições não podem ser verdadeiras ao mesmo tempo. O sentido de exclusão conferido por esse conectivo significa que: <br>• A primeira possibilidade pode ocorrer isoladamente: o jornalista é muito mal-informado e ele não age de má-fé; <br>• A segunda possibilidade pode ocorrer isoladamente: o jornalista age de má-fé e ele não é muito mal- informado; e <br>• A primeira e a segunda possibilidade não podem ocorrer simultaneamente, ou seja, o jornalista não pode ser muito mal-informado ao mesmo tempo em que age de má-fé <br>Logo, é correto afirmar que, sob o ponto de vista da lógica sentencial, a opinião do internauta manifesta no trecho “as duas coisas” é incompatível com o conectivo lógico empregado (disjunção exclusiva)."
+      },
+      {
+        "pergunta": "(CEBRASPE/CNJ/2024) Suponha que seja válida a seguinte proposição P. <br>P: “Se em 2024 a Lei 1 for revogada ou a Lei 2 for aprovada, então Felipe se aposentará em 2025.” <br>Considerando que a aprovação da Lei 2 não revogue a Lei 1 e que a revogação da Lei 1 não resulte na aprovação da Lei 2, julgue o próximo item, relativo à proposição P.<br>Se em 2025 Felipe se aposentar, então é correto afirmar que em 2024 a Lei 1 foi revogada ou a Lei 2, aprovada.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Considere as seguintes proposições simples: <br>𝒍𝟏: “Em 2024 a Lei 1 foi revogada.” <br>𝒍𝟐: “Em 2024 a Lei 2 foi aprovada.” <br>f: “Felipe se aposentará em 2025.” <br>Note que a proposição P pode ser descrita por 𝒍𝟏∨𝒍𝟐→f: <br>𝒍𝟏∨𝒍𝟐→f: “Se [(em 2024 a Lei 1 for revogada) ou ((em 2024) a Lei 2 for aprovada)], então [Felipe se aposentará em 2025]” <br>A questão informa que a proposição P é “válida”, ou seja, informa que a condicional 𝒍𝟏∨𝒍𝟐→f é verdadeira. Logo, não podemos ter o caso em que a condicional é falsa (caso V→F), ou seja, não podemos ter o antecedente 𝒍𝟏∨𝒍𝟐 verdadeiro com o consequente f falso. Portanto, temos as seguintes possibilidades: <br>• 𝒍𝟏∨𝒍𝟐 verdadeiro com f verdadeiro; <br>• 𝒍𝟏∨𝒍𝟐 falso com f verdadeiro; ou <br>• 𝒍𝟏∨𝒍𝟐 falso com f falso. <br>Segundo o item, devemos considerar que em 2025 Felipe se aposenta, ou seja, devemos considerar que f é verdadeiro. Nesse caso, considerando que a condicional 𝒍𝟏∨𝒍𝟐→f é verdadeira, ficamos com as seguintes possibilidades: <br>• 𝒍𝟏∨𝒍𝟐 verdadeiro com f verdadeiro; ou <br>• 𝒍𝟏∨𝒍𝟐 falso com f verdadeiro. <br>Portanto, note que 𝒍𝟏∨𝒍𝟐 pode ser tanto verdadeiro quanto falso. Logo, é ERRADO afirmar que a disjunção inclusiva 𝒍𝟏∨𝒍𝟐 é necessariamente verdadeira, ou seja, ERRADO afirmar que em 2024 a Lei 1 foi revogada ou a Lei 2 foi aprovada."
+      },
+      {
+        "pergunta": "(CEBRASPE/INPI/2024) <br>Érica: “Vocês estão felizes ou tristes?” <br>Jorge: “Eu sou feliz, mas estou triste.” <br>Luana: “Eu estou alegre, mas sou infeliz.” <br>Carla: “Que triste, Luana!” <br>Considerando os aspectos da lógica sentencial presentes no diálogo anterior e, ainda, que “estar triste” e “ser infeliz” sejam negações de “estar alegre” e “ser feliz”, respectivamente, julgue o próximo item. <br>Considerando-se que a frase dita por Luana seja falsa, conclui-se que ela é feliz.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Considere as seguintes proposições simples: <br>a: “Eu estou alegre” <br>f: “Eu sou feliz” <br>Segundo o enunciado, “estar triste” e “ser infeliz” são negações de “estar alegre” e “ser feliz”. Logo, temos as seguintes negações das duas proposições simples: <br>~a: “Eu estou triste” <br>~f: “Eu sou infeliz” <br>Sabemos que a palavra “mas”, para a Lógica de Proposições, corresponde à conjunção “e”. Logo, a frase dita por Luana pode ser representada pela conjunção a∧~f: <br>a∧~f: “[Eu estou alegre], mas [sou infeliz].” <br>Segundo o item, a frase de Luana deve ser considerada falsa. Logo, a conjunção a∧~f deve ser considerada falsa. <br>Para que a conjunção a∧~f seja falsa, podemos ter apenas uma das duas parcelas falsas ou ambas as parcelas falsas. Em outras palavras, só não podemos ter o caso em que a e ~f são ambos verdadeiros, pois nesse caso a conjunção seria verdadeira. Logo, temos as seguintes possibilidades para que a∧~f seja falsa: <br>• a falso e ~f verdadeiro (somente a primeira parcela falsa); <br>• a verdadeiro e ~f falso (somente a segunda parcela falsa); ou <br>• a falso e ~f falso (ambas parcelas falsas). <br>Se ~f for falso, f deve ser verdadeiro. Além disso, de a for falso, ~a deve ser verdadeiro. Logo, temos as seguintes possibilidades: <br>• ~a verdadeiro e ~f verdadeiro; <br>• a verdadeiro e f verdadeiro; ou <br>• ~a verdadeiro e f verdadeiro. <br>Traduzindo para a Língua Portuguesa, temos as seguintes possibilidades para Luana: <br>• Possibilidade 1: estou triste (~a é V) e sou infeliz (~f é V); <br>• Possibilidade 2: estou alegre (a é V) e sou feliz (f é V); ou <br>• Possibilidade 3: estou triste (~a é V) e sou feliz (~f é V). <br>Logo, é ERRADO afirmar que necessariamente Luana é feliz, pois ela pode estar triste e ser infeliz (possibilidade 1)."
+      },
+      {
+        "pergunta": "(CEBRASPE/SEFAZ AC/2024) Uma criança deseja ficar brincando no parquinho. A mãe diz ao filho: <br>— “Filho, não quero que se molhe. Quando começar a chover ou chegar uma criança grande, vamos embora. Não pise na água ou vamos embora.” <br>Após alguns minutos, a mãe tomou a criança pela mão e eles foram embora. <br>Considerando que a mãe tenha cumprido estritamente sua palavra, é correto concluir que",
+        "alternativas": [
+        "a) chegou uma criança grande.", 
+        "b) a criança desobedeceu à mãe, caso não tenha chegado uma criança grande nem começado a chover.", 
+        "c) é possível que não tenha chegado uma criança grande, não tenha começado a chover nem a criança tenha pisado na água.", 
+        "d) a criança pisou na água, caso não tenha chegado uma criança grande ou não tenha começado a chover.",
+        "e) começou a chover."],
+        "correta": "c) é possível que não tenha chegado uma criança grande, não tenha começado a chover nem a criança tenha pisado na água.",
+        "explicacao": "Conforme as conclusões obtidas, sabemos que: <br>• g pode ser verdadeiro ou falso, ou seja, uma criança grande pode ou não ter chegado. <br>• c pode ser verdadeiro ou falso, ou seja, pode ou não ter começado a chover; <br>• p pode ser verdadeiro ou falso, ou seja, a criança pode ou não ter pisado na água. <br>Logo, é correto afirmar que é possível que não tenha chegado uma criança grande, não tenha começado a chover nem a criança tenha pisado na água."
+      },
+      {
+        "pergunta": "(CEBRASPE/ITAIPU/2024) “O chefe não me falou sobre isso, mas, se eu for convidado, aceitarei a tarefa.” <br>Supondo verdadeira a proposição anterior, assinale a opção que apresenta uma proposição também verdadeira.",
+        "alternativas": [
+        "a) O chefe não me falou sobre isso.", 
+        "b) Não aceitarei a tarefa.", 
+        "c) O chefe me falou sobre isso.", 
+        "d) Serei convidado.",
+        "e) Aceitarei a tarefa."],
+        "correta": "a) O chefe não me falou sobre isso.",
+        "explicacao": "Considere as seguintes proposições simples: <br>f: \"O chefe me falou sobre isso.\" <br>c: \"Eu serei convidado.\" <br>a: \"Aceitarei a tarefa.\" <br>A proposição composta sugerida pelo enunciado corresponde a: <br>~f∧(c→a): “[O chefe não me falou sobre isso], mas, [se (eu for convidado), (então) (aceitarei a tarefa)].” <br>Segundo o problema, a proposição composta é verdadeira. Como temos uma conjunção verdadeira, ambas as parcelas devem ser verdadeiras. Logo: <br>• ~f é verdadeiro; e <br>• (c→a) é verdadeiro. <br>Note que, sendo a condicional c→a verdadeira, nada podemos afirmar quanto às proposições simples c e a, pois a condicional é verdadeira em qualquer um dos seguintes casos: V→V, F→V e F→F. <br>Por outro lado, sendo ~f verdadeiro podemos dizer que \"O chefe não me falou sobre isso\" é verdadeiro. O gabarito, portanto, é letra A."
+      },
+      {
+        "pergunta": "(CEBRASPE/TJES/2023) Acerca de noções de lógica, julgue o item a seguir. <br>Considere que P, Q, R e S sejam proposições em que Q e R possuem valores lógicos verdadeiros e P e S possuem valores lógicos falsos. Nessa situação, o valor lógico da proposição (P→Q)∧~(R∨S) é verdadeiro",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Sabemos que as proposições Q e R são verdadeiras e que as proposições P e S são falsas. Vamos substituir os valores lógicos na proposição composta (P→Q)∧~(R∨S). Ficamos com: <br>(F→V)∧~(V∨F) <br>A condicional F→V é verdadeira, pois a condicional só é falsa no caso V→F. Além disso, a disjunção inclusiva V∨F é verdadeira, pois a disjunção inclusiva é falsa somente quando ambas as parcelas são falsas. Ficamos com: <br>(V)∧~(V) <br>A negação de uma proposição verdadeira é uma proposição falsa. Ficamos com: <br>V∧F <br>Sabemos que a conjunção é verdadeira somente quando ambas as parcelas são verdadeiras. No caso em questão, V∧F, temos uma conjunção falsa: <br>F <br>Portanto, é ERRADO afirmar que o valor lógico da proposição (P→Q)∧~(R∨S) é verdadeiro."
+      },
+      {
+        "pergunta": "(CEBRASPE/Pref. São Cristóvão/2023) Considerando as proposições P: “A Prefeitura de São Cristóvão/SE abre concurso.” e Q: “Fico feliz.”, assinale a opção que expressa corretamente a estrutura P→Q.",
+        "alternativas": [
+        "a) Prefeitura de São Cristóvão/SE abre concurso e fico feliz.", 
+        "b) Ou a Prefeitura de São Cristóvão/SE abre concurso, ou fico feliz.", 
+        "c) Se a Prefeitura de São Cristóvão/SE abre concurso, fico feliz.", 
+        "d) A Prefeitura de São Cristóvão/SE abre concurso ou fico feliz."],
+        "correta": "c) Se a Prefeitura de São Cristóvão/SE abre concurso, fico feliz.",
+        "explicacao": "O enunciado nos fornece as proposições simples P e Q: <br>P: “A Prefeitura de São Cristóvão/SE abre concurso.” <br>Q: “Fico feliz.” <br>A estrutura P→Q corresponde a uma condicional cujo antecedente é P e cujo consequente é Q: <br>P→Q: \"Se [a Prefeitura de São Cristóvão/SE abre concurso], então [fico feliz].\" <br>A alternativa correta, portanto, é a letra C, que apresenta a condicional na forma em que se omite o \"então\"."
+      },
+      {
+        "pergunta": "(CEBRASPE/TBG/2023) <br>P1: “Se o custo operacional aumenta, aumentamos o preço cobrado pelo nosso produto.” <br>P2: “Se o preço do produto substituto aumenta, aumentamos o preço cobrado pelo nosso produto.” <br>P3: “Aumentamos o preço cobrado pelo nosso produto, mas o custo operacional não aumentou.” <br>C: “Logo, o preço do produto substituto aumentou.” <br>Considerando o argumento constituído pelas premissas P1, P2 e P3 e pela conclusão C, anteriormente apresentadas, julgue o item seguinte. <br>No caso em que é falsa a proposição “o preço do produto substituto aumenta”, a proposição P2 será verdadeira independentemente do valor lógico de seu consequente.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Sejam as proposições simples: <br>s: “O preço do produto substituto aumenta” <br>a: “Aumentamos o preço cobrado pelo nosso produto” <br>Note que a proposição P2 pode ser descrita pela condicional s→a: <br>s→a: “Se [o preço do produto substituto aumenta], (então) [aumentamos o preço cobrado pelo nosso produto].” <br>O item nos diz que a proposição “o preço do produto substituto aumenta” é falsa, ou seja, s é falso. Nesse caso, a condicional s→a pode ser das seguintes formas: <br>• F→V (se a for verdadeiro); ou <br>• F→F (se a for falso). <br>Note que, qualquer que seja o valor lógico de a, a condicional s→a será verdadeira, pois a condicional só seria falsa no caso V→F, que não ocorre. <br>Portanto, é CORRETO afirmar que, no caso em que é falsa a proposição “o preço do produto substituto aumenta” (no caso em que é falsa a proposição s), a proposição P2 (a condicional s→a) será verdadeira independentemente do valor lógico de seu consequente (independentemente do valor lógico de a)."
+      },
+      {
+        "pergunta": "(CEBRASPE/TBG/2023) “Avisei em 1984, mas vocês não me ouviram”, disse James Cameron, diretor do filme O Exterminador do Futuro, acerca dos riscos do avanço descontrolado da inteligência artificial. <br>Acerca da afirmação precedente, do diretor James Cameron, julgue o item subsequente. <br>Há apenas uma hipótese de falsidade para a afirmação de James Cameron.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Sejam as proposições simples: <br>a: “Avisei em 1984.” <br>o: “Vocês me ouviram.” <br>Sabemos que, na Lógica de Proposições, a palavra “mas” corresponde ao conectivo “e”. Logo, a afirmação de James Cameron pode ser descrita por a∧~o: <br>a∧~o: “[Avisei em 1984], mas [vocês não me ouviram]” <br>Para que a afirmação de James Cameron seja falsa, a conjunção a∧~o deve ser falsa. Para que a conjunção a∧~o seja falsa, podemos ter apenas uma das duas parcelas falsas ou ambas as parcelas falsas. Em outras palavras, só não podemos ter o caso em que a e ~o são ambos verdadeiros, pois nesse caso a conjunção seria verdadeira. Logo, temos três possibilidades para que a∧~o seja falsa: <br>• a falso e ~o verdadeiro (somente a primeira parcela falsa); <br>• a verdadeiro e ~o falso (somente a segunda parcela falsa); ou <br>• a falso e ~o falso (ambas parcelas falsas). <br>Portanto, há três hipóteses de falsidade para a afirmação de James Cameron. <br>Gabarito: ERRADO."
+      },
+      {
+        "pergunta": "(CEBRASPE/TRT10/2025) Em relação à lógica proposicional, julgue o item a seguir, considerando os símbolos lógicos comuns e P, Q e R como proposições simples. <br>A sentença \"As mudanças nas correntes marítimas são consequências das fases da Lua.\" pode ser representada corretamente pela proposição lógica P→Q.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A sentença da questão apresenta a estrutura \"X <u>é consequência de</u> Y\", que é utilizada pela banca para induzir o concurseiro a pensar que esse tipo de proposição é uma condicional. Na verdade, esse tipo de estrutura representa uma proposição simples: \"As mudanças nas correntes marítimas <u>são consequências</u> das fases da Lua.\" \"As mudanças nas correntes marítimas <u>são consequências</u> DISSO.\" Portanto, temos uma proposição simples, que pode ser representada por uma única letra, sem quaisquer conectivos."
+      },
+      {
+        "pergunta": "(CEBRASPE/INPI/2024) P: “Como Carlos enfrentou resistência dos produtores locais, articulou e negociou o fornecimento com produtores de outros estados.” <br>Considerando a proposição P precedente, julgue o próximo item. <br>Sob o ponto de vista lógico, a proposição P pode ser escrita como “Uma vez que enfrentou resistência dos produtores locais, Carlos articulou e negociou o fornecimento com produtores de outros estados.”.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Observe que a condicional \"Se p, então q\" pode ser escrita tanto da forma \"Como p, q\" quanto da forma \"Uma vez que p, q\". Isso porque essas três expressões expressam a ideia de condicional. <br>Observe a proposição composta P: <br>P: “Como [Carlos enfrentou resistência dos produtores locais], [articulou e negociou o fornecimento com produtores de outros estados].” <br>Essa proposição composta é uma condicional, podendo ser descrita assim: <br>P: “Se [Carlos enfrentou resistência dos produtores locais], então [articulou e negociou o fornecimento com produtores de outros estados].” <br>Outra forma de se escrever a condicional é: <br>P: “Uma vez que [Carlos enfrentou resistência dos produtores locais], [articulou e negociou o fornecimento com produtores de outros estados].” <br>O item apresenta justamente esse formato de representar a proposição P, explicitando no consequente da condicional o sujeito \"Carlos\", que estava omitido: <br>P: “Uma vez que [Carlos enfrentou resistência dos produtores locais], [Carlos articulou e negociou o fornecimento com produtores de outros estados].”"
+      },
+      {
+        "pergunta": "(CEBRASPE/TCEAC/2024) Julgue o item a seguir, relativo à lógica proposicional. <br>A sentença “A aplicação dos recursos públicos, de forma justa e para o benefício de toda a sociedade, é consequência da ação contínua dos órgãos de controle orçamentário e fiscal.” pode ser corretamente representada pela expressão (P∧Q)→R.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A sentença da questão apresenta a estrutura \"X é consequência de Y\", que é utilizada pela banca para induzir o concurseiro a pensar que esse tipo de proposição é uma condicional. Na verdade, esse tipo de estrutura representa uma proposição simples: <br>\"A aplicação dos recursos públicos, de forma justa e para o benefício de toda a sociedade, é consequência da ação contínua dos órgãos de controle orçamentário e fiscal.\" <br>\"A aplicação dos recursos públicos é consequência DISSO.\" <br>Portanto, temos uma proposição simples, que pode ser representada por uma única letra, sem quaisquer conectivos."
+      },
+      {
+        "pergunta": "(CEBRASPE/Pref. Cach. Itapemirim/2024) Ao ser convidado por seu pai para uma viagem, Marcos assim respondeu: <br>P: “Aceito viajar com uma condição: eu dirijo.” <br>Julgue o item seguinte, a respeito da proposição P acima apresentada. <br>A proposição P é equivalente a “Aceito viajar desde que eu dirija.”.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Logo, a proposição P, descrita originalmente como \"Aceito viajar com uma condição: eu dirijo\" é equivalente a “Aceito viajar desde que eu dirija”, pois ambas as proposições correspondem à condicional “Se aceito viajar, então eu dirijo.”"
+      },
+      {
+        "pergunta": "(CEBRASPE/TCEAC/2024) Julgue o item seguinte, relacionados à lógica proposicional, considerando os símbolos lógicos comuns e as letras maiúsculas como representativas de proposições lógicas simples. <br>A proposição lógica P∧Q representa corretamente a sentença “Uma sociedade civil que não adota como valor a exigência de que todos os órgãos públicos façam uma prestação de contas detalhada nunca vencerá o demônio da corrupção, além disso, a sociedade deve também exigir que a lei seja aplicada em todo o seu rigor na punição dos agentes públicos promotores de corrupção.”",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Voltando à sentença original, observe que ela é uma conjunção que liga duas proposições simples, podendo ser representada por P∧Q: <br>P∧Q: “[Uma sociedade civil nunca vencerá o demônio da corrupção] e [a sociedade deve também exigir ISSO]”"
+      },
+      {
+        "pergunta": "(CEBRASPE/PGM Mossoró/2024) O parágrafo primeiro do artigo 2.º da Lei de Introdução às Normas do Direito Brasileiro assim preceitua: “§ 1.º A lei posterior revoga a anterior quando expressamente o declare, quando seja com ela incompatível ou quando regule inteiramente a matéria de que tratava a lei anterior.”. <br>Considerando esse dispositivo legal como a proposição P, julgue o item que se segue, acerca de aspectos da lógica proposicional nela presentes. <br>A proposição P é equivalente a “Se a lei posterior expressamente declara a revogação da lei anterior, regula inteiramente a matéria de que esta tratava ou é com ela incompatível, então a revoga.”.",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "XXXX",
+        "explicacao": "XXXX"
+      },
+      {
+        "pergunta": "QUESTÃO V OU F (<img src='../dados/imgs/questao_desenvolvimento_XX.png' alt='imagem da questão'><br>)",
+        "alternativas": [
+        "Certo", 
+        "Errado"],
+        "correta": "XXXX",
+        "explicacao": "XXXX"
+      },
+      {
+        "pergunta": "QUESTÃO MÚLTIPLA ALTERNATIVA (<img src='../dados/imgs/questao_desenvolvimento_XX.png' alt='imagem da questão'><br>)",
+        "alternativas": [
+        "a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "XXXX"
       }
     ],
 
@@ -16222,7 +16572,7 @@
       }
     ],
 
-    
+
 
     "redesESeguranca": [
       {},
@@ -16248,7 +16598,7 @@
     ],
 
 
-    
+
     "sistemasOperacionais": [
       {},
       {
@@ -16272,6 +16622,6 @@
       }
     ]
 
-    
+
 
   }
