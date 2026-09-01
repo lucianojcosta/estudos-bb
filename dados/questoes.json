@@ -9525,7 +9525,153 @@
 
 
     "direitoAdministrativo": [
-      {},
+      {
+        "pergunta": "(TCE-PE - 2017) A administração pública pode estar sujeita tanto ao regime jurídico de direito privado quanto ao regime jurídico de direito público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. A diferenciação entre o regime de direito público e o regime de direito privado é um trabalho doutrinário, porém difícil de se observar no mundo real. Por exemplo, no âmbito da Administração Pública, as relações jurídicas ora são regidas pelo direito público ora pelo direito privado. Cita-se, por exemplo, a realização de concurso público (direito público) e um contrato de financiamento (direito privado) realizados por uma empresa pública."
+      },
+      {
+        "pergunta": "(SEGEP - 2018) Os princípios que balizam a atuação da Administração pública estão todos subordinados ao princípio da legalidade, erigido pela Constituição Federal como cláusula pétrea.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A assertiva está errada. Não há hierarquia entre os princípios. Quando houver um aparente conflito entre os princípios, deverá ser adotada uma ponderação entre eles para aplicar a interpretação que melhor se harmonize com a situação concreta, sem que exista um princípio que imediatamente esteja “acima dos demais”. Por exemplo: em regra, a administração deverá anular um ato ilegal. Porém, se o ato ilegal foi praticado há muito tempo, talvez não seja mais possível anulá-lo, aplicando o princípio da segurança jurídica. Assim, ora prevalece a legalidade; ora a segurança jurídica; sem existir uma hierarquia."
+      },
+      {
+        "pergunta": "(TRE BA - 2017) São princípios que regem a administração pública expressos na Constituição Federal de 1988: legalidade, indivisibilidade, moralidade, publicidade e eficiência.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A assertiva está errada. essa é tranquila, mas importante! Os princípios expressos na Constituição Federal são a legalidade, a impessoalidade, a moralidade, a publicidade e a eficiência. A questão está incorreta, uma vez que “indivisibilidade” não é princípio constitucional expresso."
+      },
+      {
+        "pergunta": "(SEFAZ RS - 2018) A previsão em lei de cláusulas exorbitantes aplicáveis aos contratos administrativos decorre diretamente do princípio da supremacia do interesse público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. As cláusulas exorbitantes são poderes especiais que a administração dispõe, nos contratos administrativos, para fazer prevalecer o interesse público. Um exemplo de cláusula exorbitante é a possibilidade de alterar unilateralmente um contrato, independentemente da concordância da outra parte, dentro dos limites permitidos em lei. Nesse caso, portanto, as cláusulas exorbitantes são exemplos de aplicação do princípio da supremacia."
+      },
+      {
+        "pergunta": "(STJ - 2018) O princípio da proporcionalidade, que determina a adequação entre os meios e os fins, deve ser obrigatoriamente observado no processo administrativo, sendo vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. A legislação de processo administrativo exige a aplicação de adequação entre meios e fins, vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público (Lei 9.784/99, art. 2º, parágrafo único, VI), sendo essa justamente a aplicação dos princípios da razoabilidade e da proporcionalidade."
+      },
+      {
+        "pergunta": "(TRT 11 - 2017) A atuação da Administração é pautada por determinados princípios, alguns positivados em âmbito constitucional ou legal e outros consolidados por construções doutrinárias. Exemplo de tais princípios são a tutela ou controle e a autotutela, que diferem entre si nos seguintes aspectos é através da tutela que a Administração direta exerce o controle finalístico sobre entidades da Administração indireta, enquanto pela autotutela exerce controle sobre seus próprios atos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. A tutela trata do controle finalístico exercido pela Administração direta sobre a indireta, ou seja, trata-se de um controle que tem o objetivo de verificar o cumprimento das finalidades legais das entidades administrativas. Por outro lado, a autotutela trata do controle da administração sobre os seus próprios atos, permitindo realizar a anulação ou revogação, conforme o caso."
+      },
+      {
+        "pergunta": "(TRE PE - 2017) O princípio da continuidade dos serviços públicos",
+        "alternativas": [
+        "a) afasta a possibilidade de interrupção, ainda que se trate de sistema de remuneração por tarifa no qual o usuário dos referidos serviços esteja inadimplente.", 
+        "b) diz respeito, apenas, a serviços públicos, não alcançando as demais atividades administrativas.", 
+        "c) torna ilegal a greve de servidores públicos.", 
+        "d) tem relação direta com os princípios da eficiência e da supremacia do interesse público.",
+        "e) impede a paralisação, ainda que a justificativa desta seja o aperfeiçoamento das atividades."],
+        "correta": "d) tem relação direta com os princípios da eficiência e da supremacia do interesse público.",
+        "explicacao": "a) a legislação permite a interrupção dos serviços por falta de pagamento da tarifa da prestação dos serviços. Nesse caso, prevalece o interesse público em detrimento do interesse privado, pois se não fosse possível a interrupção do serviço por inadimplência, consequentemente o custeio dos serviços poderia ser tornar inviável pela falta de pagamento de vários usuários – ERRADA; <br>b) o princípio aplica-se predominantemente aos serviços públicos, porém alcança todas as atividades administrativas, já que a interrupção destas também afeta o interesse público – ERRADA; <br>c) a greve dos servidores públicos não é, em si, ilegal, pois se trata de um direito assegurado na Constituição Federal. A falta de regulamentação específica, entretanto, fez o STF determinar a aplicação das normas privadas aos servidores públicos, até que o Poder Legislativo elabore a norma correspondente. Porém, ressalva-se que algumas categorias não podem exercer o direito de greve, seja por expressa previsão constitucional (militares), ou por entendimento do STF (policiais civis, categorias de segurança pública) – ERRADA; <br>d) o princípio da continuidade tem relação com o princípio da supremacia, pois deve prevalecer o interesse público em detrimento do interesse privado da empresa ou do agente que pretende paralisar a sua prestação; e também tem relação com o princípio da eficiência, pois a qualidade do serviço é diretamente ligada à sua prestação continuada – CORRETA; <br>e) o princípio não é absoluto, uma vez que pode ocorrer a paralisação temporária, seja por manutenção ou aperfeiçoamento do serviço, ou ainda em virtude de inadimplência no pagamento da fatura – ERRADA."
+      },
+      {
+        "pergunta": "(Câmara de Salvador – BA/2018) Processo administrativo é um conjunto concatenado de atos administrativos sequenciais, respeitada a ordem legal, com uma finalidade específica que não confronte com o interesse público, ensejando a prática de um ato final. Como corolário do princípio da ampla defesa vigente no processo administrativo, tem-se a defesa técnica, que é exercida pela imprescindível presença de advogado no processo administrativo disciplinar, sob pena de nulidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "conforme enunciado da Súmula Vinculante º 5 do STF, a “falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição”. Logo, a defesa por advogado não é indispensável, motivo pelo qual a questão está errada."
+      },
+      {
+        "pergunta": "(STJ - 2018) Em decorrência do princípio da segurança jurídica, é proibido que nova interpretação de norma administrativa tenha efeitos retroativos, exceto quando isso se der para atender o interesse público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, o princípio da segurança jurídica veda a aplicação retroativa de nova interpretação. Isso não significa que ele vede a evolução da interpretação, uma vez que, no direito, é muito comum a mudança de entendimentos conforme os acontecimentos da sociedade. O que se veda é que essa nova interpretação volte no tempo. Por isso, o novo entendimento vale do momento em que ele for proferido em diante. Nessa linha, o item está incorreto, pois não se pode alegar o interesse público para voltar no tempo com a interpretação. Por exemplo: se a administração mudar o entendimento sobre o pagamento de um benefício, “voltar no tempo” pode atender ao interesse público, pois isso representaria a devolução de dinheiro já pago. Contudo, isso fere o princípio da segurança jurídica (tanto no aspecto objetivo como subjetivo)."
+      },
+      {
+        "pergunta": "(Cebraspe – MPE CE/2025) A proibição de constar nome, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos em publicidade de atos dos órgãos públicos representa aplicação do princípio da adequação na prestação do serviço público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "a vedação à promoção pessoal de autoridades ou servidores públicos decorre do <b>princípio da impessoalidade</b>, e não da adequação. De acordo com o princípio da impessoalidade, os agentes públicos atuam em nome do Estado. Dessa forma, não poderá ocorrer a pessoalização ou promoção pessoal do agente público pelos atos realizados. Tal princípio está presente no § 1º do art. 37 da CF/88."
+      },
+      {
+        "pergunta": "(Cebraspe – MPE CE/2025) O princípio da segurança jurídica preceitua que os atos administrativos — no que se incluem os contratos — devem ser praticados com prudência, moderação e bom senso.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "a afirmativa está errada. O princípio da segurança jurídica tem por objetivo assegurar a estabilidade das relações jurídicas já consolidadas, através da proteção ao direito adquirido, o ato jurídico perfeito e a coisa julgada. <br>O princípio que dispõe que os atos deverão ser praticados com moderação e bom senso, de acordo com Fernanda Marinela, é o princípio da razoabilidade, ou proibição de excessos. Ela ensina que “tal princípio proíbe a atuação do administrador de forma despropositada ou tresloucada, quando, com a desculpa de cumprir a lei, age de forma arbitrária e sem qualquer bom senso. Trata-se do princípio da proibição de excessos”."
+      },
+      {
+        "pergunta": "(Cebraspe – MPE CE/2025) No exercício da função pública, deve-se tratar a todos conforme valores e regras comuns, evitando-se distinções subjetivas, em observância ao princípio da impessoalidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A alternativa está correta. O princípio da impessoalidade possui vários sentidos, e um deles é a ideia de isonomia e igualdade. De acordo com tal princípio, a Administração deve atender a todos os administrados sem distinções entre os indivíduos, sem favorecer pessoas determinadas. Nesse sentido, de acordo com a CF/88 todos são iguais perante a lei (art. 5º, caput), sendo que eventuais tratamentos diferenciados só podem ocorrer quando houver previsão legal."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 10/2025) A autotutela é um princípio administrativo que permite à administração pública rever e anular, de forma unilateral, seus próprios atos quando eivados de vício de legalidade, não havendo necessidade de motivação, ainda que direitos individuais sejam afetados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "De fato, a autotutela permite que a administração reveja seus atos, anulando os ilegais, de forma unilateral. No entanto, é necessário oportunizar o contraditório e a ampla defesa, por meio de processo administrativo, às pessoas cujos interesses serão afetados negativamente em decorrência do desfazimento do ato. Além do direito de defesa, há necessidade de motivar o ato. Segundo a Lei 9.784/1999, os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando “neguem, limitem ou afetem direitos ou interesses” (art. 50, I)"
+      },
+      {
+        "pergunta": "(Cebraspe – BDMG/2025) A autotutela, um dos princípios implícitos da administração pública, é a prerrogativa que lhe permite corrigir os próprios erros de forma autônoma.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A autotutela é uma forma de a administração corrigir os seus próprios atos, anulando-os quando ilegais ou revogando-os quando inconvenientes ou inoportunos. Assim, a administração não precisa recorrer ao Poder Judiciário para corrigir os seus atos, podendo fazê-lo diretamente (de forma autônoma)."
+      },
+      {
+        "pergunta": "(Cebraspe – BDMG/2025) O interesse público se opõe necessariamente ao interesse privado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "nem sempre ocorrerá essa oposição. Por exemplo: um médico poderá ser nomeado para um cargo público efetivo. A nomeação atende ao interesse público, pois são necessários médicos no atendimento do sistema de saúde. Ao mesmo tempo, o interesse privado do médico está sendo atendido, pois ele terá um novo emprego. <br>Há casos em que os interesses serão opostos. Por exemplo: uma família não quer vender o seu terreno, mas o Estado determina a desapropriação. <br>Todavia, o “necessariamente” tornou o item errado"
+      },
+      {
+        "pergunta": "(Cebraspe – BDMG/2025) Segundo o princípio da indisponibilidade do interesse público, a administração pública não tem a livre disposição dos bens e interesses públicos confiados à sua guarda e realização.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Uma pessoa tem disposição de um bem quando é o seu proprietário. Contudo, essa não é a realidade da administração ou de seus agentes. De acordo com José dos Santos Carvalho Filho, cabe aos agentes públicos apenas gerir e conservar o interesse público em prol da coletividade, essa sim a verdadeira titular dos direitos e interesses públicos. Dessa forma, a administração não possui livre disposição dos bens e interesses públicos, uma vez que atua em nome de terceiros, a coletividade. Logo, o item está certo."
+      },
+      {
+        "pergunta": "(Cebraspe – BDMG/2025) O regime jurídico administrativo é constituído pelo conjunto das prerrogativas e restrições a que está sujeita a administração pública e que não se encontram nas relações entre particulares",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O regime jurídico‐administrativo é formado por uma “balança”, tendo de um lado as prerrogativas (poderes) e de outro as sujeições (restrições). Dessa forma, ele é formado pelo binômio: supremacia do interesse público (prerrogativas) e indisponibilidade do interesse público (sujeições). <br>As prerrogativas ou privilégios são regras, desconhecidas no direito privado, que colocam a administração em condições de superioridade nas relações com o particular. Por outro lado, o regime de direito privado, normalmente direcionado para os particulares, trata das relações individuais da população. Neste regime, não há aplicação das prerrogativas do poder público, colocando os indivíduos em igualdade de condições em suas relações jurídicas (horizontalidade)."
+      },
+      {
+        "pergunta": "(Cebraspe – ANM/2025) A administração pública pode anular seus próprios atos, quando eivados de ilegalidade, independentemente de contraditório, mesmo quando interferirem na esfera jurídica de interesses individuais de seus administrados, haja vista a prevalência do interesse público sobre o privado e o princípio da legalidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "de acordo com o princípio da autotutela, a administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, ou revogá-los, por motivo de conveniência ou oportunidade. Entretanto, nos casos de atos individuais, que são os atos que afetam pessoas determinadas, é necessário oportunizar o contraditório e a ampla defesa, por meio de processo administrativo, às pessoas cujos interesses serão afetados negativamente em decorrência do desfazimento do ato."
+      },
       {
         "pergunta": "QUESTÃO V OU F",
         "alternativas": [
@@ -9546,8 +9692,6 @@
         "explicacao": "XXXX"
       }
     ],
-
-
 
     "engenhariaDeSoftware": [
       {
