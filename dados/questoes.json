@@ -8622,7 +8622,7 @@
         "c) 5", 
         "d) 10",
         "e) 50"],
-        "correta": "c) ",
+        "correta": "c) 5",
         "explicacao": "Questão do vídeo 13."
       },
       {
@@ -9673,6 +9673,730 @@
         "explicacao": "de acordo com o princípio da autotutela, a administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, ou revogá-los, por motivo de conveniência ou oportunidade. Entretanto, nos casos de atos individuais, que são os atos que afetam pessoas determinadas, é necessário oportunizar o contraditório e a ampla defesa, por meio de processo administrativo, às pessoas cujos interesses serão afetados negativamente em decorrência do desfazimento do ato."
       },
       {
+        "pergunta": "(Cebraspe – MPS/2025) Constitui violação à CF a nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos estados, do Distrito Federal e dos municípios, compreendido o ajuste mediante designações recíprocas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A afirmativa reproduz o disposto na Súmula Vinculante 13 do STF: <br>A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas, viola a Constituição Federal."
+      },
+      {
+        "pergunta": "(Cebraspe – MPS/2025) A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, admitida a veiculação de nomes, símbolos ou imagens dos agentes políticos responsáveis por sua implementação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, não é permitido constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. Nesse sentido, o § 1º do art. 37 da CF/88 dispõe que: <br>§ 1º - A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos."
+      },
+      {
+        "pergunta": "(Cebraspe – MPS/2025) Órgãos e entidades da administração pública devem realizar avaliação das políticas públicas, o que pode ser considerado expressão do princípio da eficiência.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da eficiência diz respeito a uma atuação da administração pública com excelência, fornecendo serviços públicos de qualidade à população, com o menor custo possível (desde que mantidos os padrões de qualidade) e no menor tempo. <br>Ademais, a Constituição Federal dispõe que os órgãos e entidades da administração pública, individual ou conjuntamente, devem realizar avaliação das políticas públicas, inclusive com divulgação do objeto a ser avaliado e dos resultados alcançados, na forma da lei (CF, art. 37, § 16). Esse regramento foi inserido na Constituição por intermédio da Emenda Constitucional 109/2021, com o objetivo de evidenciar o foco da administração para os resultados, exigindo a efetividade das políticas públicas."
+      },
+      {
+        "pergunta": "(Cebraspe – InoversaSul/2025) O princípio da publicidade impede de forma absoluta a existência de informações sigilosas que não possam ser fornecidas pela administração pública ao cidadão.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A publicidade é a regra, mas não é um dever absoluto. Nessa linha, o art. 5º, XXXIII, da CF/88 determina que todos têm direito a receber dos órgãos públicos informações de seu interesse particular, ou de interesse coletivo ou geral, que serão prestadas no prazo da lei, sob pena de responsabilidade, ressalvadas aquelas cujo sigilo seja imprescindível à segurança da sociedade e do Estado."
+      },
+      {
+        "pergunta": "(Cebraspe – InoversaSul/2025) O princípio da eficiência obriga a administração pública a contratar considerando, com prioridade, o critério do menor preço ofertado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O princípio da eficiência determina que a administração pública busque fornecer serviços públicos de qualidade à população, no menor tempo, e com o menor custo possível, desde que mantidos os padrões de qualidade. Não necessariamente o critério adotado será o de menor preço, visto que, se o produto de menor preço tiver uma qualidade inferior, não será eficiente tal contratação."
+      },
+      {
+        "pergunta": "(Cebraspe – InoversaSul/2025) A vedação ao nepotismo tem por base o princípio da moralidade administrativa.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da moralidade, que também está previsto de forma expressa no caput do art. 37 da Constituição Federal, impõe que o administrador público não dispense os preceitos éticos que devem estar presentes em sua conduta. <br>Com base nos princípios previstos no caput do art. 37, o Supremo Tribunal Federal firmou entendimento sobre a vedação do nepotismo na Administração Pública, sendo que o fundamento decorre diretamente da Constituição, não havendo necessidade de lei específica para disciplinar a vedação. Vejamos: <br>Súmula Vinculante nº 13 - A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos Poderes da União, dos estados, do Distrito Federal e dos municípios, compreendido o ajuste mediante designações recíprocas, viola a Constituição Federal. <br>Dessa forma, podemos considerar que os princípios constitucionais fundamentam diretamente a vedação ao nepotismo, especialmente os princípios da moralidade e da impessoalidade."
+      },
+      {
+        "pergunta": "(Cebraspe – TRF 6/2025) O princípio da impessoalidade determina que a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da impessoalidade veda a pessoalização ou promoção pessoal do agente público pelos atos realizados e determina que a publicidade tenha caráter educativo, informativo ou de orientação social. Dessa forma, o § 1º do art. 37 da CF/88 dispõe: <br>§ 1º - A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. <br>Portanto, a afirmativa está correta."
+      },
+      {
+        "pergunta": "(Cebraspe – TRF 6/2025) A avaliação das políticas públicas realizada pelos órgãos e entidades da administração pública, inclusive com divulgação do objeto a ser avaliado e dos resultados alcançados, pode ser considerada um desdobramento do princípio da eficiência.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "De acordo com a CF/88, os órgãos e entidades da administração pública, individual ou conjuntamente, devem realizar avaliação das políticas públicas, inclusive com divulgação do objeto a ser avaliado e dos resultados alcançados, na forma da lei (CF, art. 37, § 16). Trata-se de um desdobramento do princípio da eficiência, que determina que a administração atue com excelência, fornecendo serviços públicos de qualidade à população, com o menor custo possível (desde que mantidos os padrões de qualidade) e no menor tempo."
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2024) Com base no princípio da autotutela, a administração pública pode não só anular um ato administrativo por ilegalidade, como também revogar ato administrativo por motivos de conveniência.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da autotutela estabelece que a Administração Pública possui o poder de controlar os seus próprios atos, anulando-os quando ilegais ou revogando-os quando inconvenientes ou inoportunos. Assim, a Administração não precisa recorrer ao Poder Judiciário para corrigir os seus atos, podendo fazê-lo diretamente."
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2024) A prática do nepotismo viola o princípio da moralidade, mesmo que não haja lei que expressamente a proíba.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O nepotismo é a nomeação de parentes de autoridades e políticos para exercerem cargos em comissão ou funções de confiança. O princípio da moralidade está previsto de forma expressa no caput do art. 37 da Constituição Federal de 1988 e impõe que o administrador público não dispense os preceitos éticos que devem estar presentes em sua conduta. Dessa forma, além da legalidade, os atos administrativos devem subordinar-se à moralidade administrativa.<br>O Supremo Tribunal Federal firmou entendimento sobre a vedação do nepotismo na Administração Pública, afirmando que o fundamento decorre diretamente da Constituição, não havendo necessidade de lei específica para disciplinar a vedação (Súmula Vinculante nº 13)."
+      },
+      {
+        "pergunta": "(Cebraspe – PC PE/2024) No que se refere aos princípios da administração pública, assinale a opção correta.",
+        "alternativas": [
+        "a) O princípio da proporcionalidade impõe à administração pública permanente adequação entre os meios e os fins, de forma a evitar medidas abusivas.", 
+        "b) Os princípios explícitos guardam supremacia sobre os princípios implícitos, mesmo que ambos decorram da Constituição Federal.", 
+        "c) O princípio da legalidade na administração pública é aplicado de forma que esta somente pode praticar ato previsto em lei aprovada pelo Congresso Nacional.", 
+        "d) De acordo com o princípio constitucional da publicidade, todo ato da administração pública deve ser divulgado, não havendo exceção, em decorrência de seu dever de transparência.",
+        "e) Devido ao princípio da supremacia do interesse público, não há aplicação do princípio da segurança jurídica na administração pública."],
+        "correta": "a) O princípio da proporcionalidade impõe à administração pública permanente adequação entre os meios e os fins, de forma a evitar medidas abusivas.",
+        "explicacao": "a) Certa. A adequação é um dos desdobramentos do princípio da proporcionalidade, significando que o meio empregado deve ser compatível com o fim desejado. Os meios devem ser efetivos para os resultados que se deseja alcançar. É a relação meio e fim. Por exemplo: não adianta desapropriar um imóvel para duplicar uma rodovia, se a via não vai passar no local do terreno. <br>b) Errada. Não existe hierarquia entre os princípios. As questões, às vezes, afirmam (incorretamente) que os princípios expressos, ou a legalidade ou a supremacia são superiores aos demais. Mas não são! Os princípios são analisados em cada caso, a partir da ponderação, inexistindo qualquer hierarquia. <br>c) Errada. O princípio da legalidade é analisado em sentido amplo, abrangendo ainda a Constituição, os demais atos primários (como as medidas provisórias, leis delegadas, resoluções etc) e os atos normativos secundários. Ademais, mesmo limitando somente aos atos primários (aqueles que podem inovar), ainda teríamos atos que não são editados pelo Congresso Nacional, como as medidas provisórias. <br>d) Errada. Em regra, os atos da Administração devem ser divulgados, atendendo ao princípio da publicidade. Contudo, a Constituição admite o sigilo quando imprescindível à segurança da sociedade ou do Estado. <br>e) Errada. O princípio da segurança jurídica admite a estabilidade das relações jurídicas, utilizando instrumentos como as súmulas vinculantes, a prescrição, a decadência e a vedação à aplicação retroativa de nova interpretação. Esse princípio é sim admitido na Administração Pública."
+      },
+      {
+        "pergunta": "(Cebraspe – INPI/2024) O princípio da publicidade encerra o seu escopo na publicação oficial dos atos administrativos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A publicação oficial é apenas um instrumento de publicidade. Por isso que publicidade não é sinônimo de publicação, sendo aquela mais ampla do que esta. <br>Atualmente, alcança-se a publicidade por diversos outros meios, como o direito de peticionar junto aos órgãos públicos em defesa de direitos ou contra ilegalidade ou abuso de poder (CF, art. 5º, XXXIV, ”a”); o direito de obter certidões em repartições públicas, para defesa de direitos e esclarecimento de situações de interesse pessoal (CF, art. 5º, XXXIV, “b”); a divulgação de ofício de informações (esta sim é a publicação). <br>Há ainda a realização de audiências e consultas públicas e outros meios que assegurem o acompanhamento dos atos públicos pela sociedade."
+      },
+      {
+        "pergunta": "(Cebraspe – INPI/2024) O nepotismo, o partidarismo e a promoção pessoal são vícios que maculam o princípio da impessoalidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O <b>nepotismo</b> é a nomeação de parentes de autoridades e políticos para exercerem cargos em comissão ou funções de confiança. Tal medida é vedada pelos princípios constitucionais, pela Súmula Vinculante 13 e pela Lei de Improbidade Administrativa (Lei 8.429/1992, art. 11, XI). <br>O <b>partidarismo</b> é o comportamento partidário excessivo. Quando adotado por agentes públicos, o partidarismo configura desvio de poder. <br>Por fim, a <b>promoção pessoal</b> é conduta vedada pela Constituição Federal (art. 37, § 1º) e pela Lei de Improbidade Administrativa (Lei 8.429/1992, art. 11, XII). A publicidade oficial não pode constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. <br>Essas três medidas (nepotismo, partidarismo e promoção pessoal) violam o princípio da impessoalidade, pois configuram favorecimento pessoal e desvio de finalidade."
+      },
+      {
+        "pergunta": "(Cebraspe – TCDF/2023) Em razão do princípio da ampla defesa, servidores públicos não podem responder a processo administrativo disciplinar, em nenhuma fase, sem assistência de advogado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A Súmula Vinculante 5 do STF dispõe que: “a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição”. Portanto, a falta de advogado, em processo administrativo disciplinar, não gera nulidade do procedimento. Se o servidor quiser contratar um advogado, ele pode. Mas não haverá nulidade se o servidor se defender sozinho."
+      },
+      {
+        "pergunta": "(Cebraspe – TCDF/2023) O princípio da impessoalidade é uma manifestação do princípio da isonomia.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A impessoalidade e a isonomia são princípios amplamente relacionados. Poderíamos dizer que um é manifestação do outro. A priori, se você é impessoal, você é isonômico, e vice-versa. <br>Não gosto, porém, desse tipo de afirmação em questão de certo ou errado. <br>Como o princípio da impessoalidade foi elevado ao nível constitucional, normalmente ele visto como mais abrangente, envolvendo a isonomia, a finalidade, a vedação à promoção pessoal e muito mais. Portanto, nos temos modernos, é mais comum se afirmar que a isonomia é uma manifestação da impessoalidade (e não o contrário). <br>Não obstante, a banca considerou o item como correto, considerando que, em linhas gerais, um princípio manifesta a atuação do outro."
+      },
+      {
+        "pergunta": "(Cebraspe – TCDF/2023) Para avaliar o cumprimento do princípio da eficiência da administração pública, o critério econômico é o único aspecto a ser considerado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A economicidade diz respeito à minimização de custos, sem comprometimento dos padrões de qualidade. Esse é um dos critérios para avaliar o princípio da eficiência, mas não é o único. <br>No campo do “desempenho”, existem vários outros critérios, como a eficácia (alcance dos objetivos), a efetividade (impactos na vida da população), entre outros mecanismos. <br>Na disciplina de Administração, eficiência e economicidade são basicamente sinônimos. Entretanto, no direito administrativo, o princípio da eficiência é analisado em sentido amplo, refletindo a mudança de estrutura da Administração e a exigência de resultados, em diversos aspectos, para melhorar a vida da população e gerar mais rendimento na ação estatal."
+      },
+      {
+        "pergunta": "(Cebraspe – FNDE/2023) O princípio da autotutela, não previsto expressamente no texto constitucional, permite que o administrador público reveja de ofício seus atos, considerando aspectos de mérito.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A autotutela decorre da Súmula 473 do STF, que dispõe que: <br>Súmula nº 473 - A Administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial. <br>Logo, ela envolve o poder de revisão dos próprios atos, que pode ocorrer de ofício ou por revogação. Esse poder alcance o controle de legalidade (anulação) e de mérito (revogação). <br>Por fim, é um princípio não previsto expressamente na Constituição Federal."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 8/2023) A administração pública possui o poder-dever de rever os seus próprios atos, seja para anulá-los por vício de legalidade, seja para revogá-los por questões de conveniência e de oportunidade. Trata-se, nesse caso, do princípio da administração pública da",
+        "alternativas": [
+        "a) eficiência.", 
+        "b) moralidade.", 
+        "c) segurança jurídica.", 
+        "d) autotutela.",
+        "e) impessoalidade."],
+        "correta": "d) autotutela.",
+        "explicacao": "A anulação (controle de legalidade) e a revogação (controle de mérito) são manifestação do princípio da autotutela, que decorre da Súmula 473 do STF. Esse é um poder-dever, que faculta à Administração controlar e rever os seus próprios atos. Assim, o gabarito é a letra D. <br>Vejamos os demais princípios: <br>a) Errada. A eficiência exige rendimento e resultados da Administração e dos seus agentes. <br>b) Errada. A moralidade exige ação ética e honesta. <br>c) Errada. A segurança jurídica trata da estabilidade das relações jurídicas.<br> e) Errada. A impessoalidade exige a busca do interesse público (finalidade) e ação isonômica do Estado."
+      },
+      {
+        "pergunta": "(Cebraspe – TCDF/2022) A publicidade dos atos administrativos favorece o controle social, razão pela qual a moderna administração pública brasileira, em obediência ao princípio constitucional da publicidade, não mais admite que atos praticados em seu âmbito possam ser protegidos por qualquer tipo de sigilo.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A publicidade e a transparência são a regra, mas existem, excepcionalmente, hipóteses em que pode haver sigilo na atuação administrativa. O princípio da publicidade exige a publicação em órgãos oficiais como requisito de eficácia dos atos administrativos, como forma de se alcançar a transparência da atuação administrativa. <br>O sigilo, por sua vez, é aceitável em algumas situações excepcionais. Em suma, a publicidade é a regra, mas não é um dever absoluto. Com exceção dos dados pessoais (dizem respeito à intimidade, honra e imagem das pessoas) e das informações classificadas por autoridades como sigilosas (informações imprescindíveis para a segurança da sociedade e do Estado), todas as demais informações devem ser disponibilizadas aos interessados, algumas de ofício (pela internet ou por publicações) e outras mediante requerimento."
+      },
+      {
+        "pergunta": "(Cebraspe – TJ RJ/2022) O princípio adotado no processo administrativo com a finalidade de vedar a aplicação retroativa de nova interpretação de lei no âmbito da administração pública denomina-se princípio da",
+        "alternativas": [
+        "a) eficiência.", 
+        "b) segurança jurídica.", 
+        "c) moralidade.", 
+        "d) publicidade.",
+        "e) impessoalidade."],
+        "correta": "b) segurança jurídica.",
+        "explicacao": "a) a eficiência se relaciona com o modo de atuação dos agentes públicos, que devem buscar atuar da melhor forma possível, de forma racional, a fim de obter os melhores resultados – ERRADA; <br>b) o princípio da segurança jurídica tem por objetivo assegurar a estabilidade das relações jurídicas já consolidadas, inclusive no que diz respeito às mudanças ocorridas na jurisprudência. Possui previsão no art. 2º, caput e inciso XIII, da Lei 9.784/99, que determina que a Administração Pública deve obedecer ao critério da “interpretação da norma administrativa da forma que melhor garanta o atendimento do fim público a que se dirige, vedada aplicação retroativa de nova interpretação – CORRETA; <br>c) o princípio da moralidade está previsto no caput do art. 37 da CF/88 e impõe que o administrador público não dispense os preceitos éticos que devem estar presentes em sua conduta – ERRADA; <br>d) o princípio da publicidade se relaciona com a necessidade de divulgação dos atos administrativos e de transparência no atuar da administração, sendo um princípio expresso no caput do art. 37 da CF/88 – ERRADA; <br>e) o princípio da impessoalidade se relaciona com a finalidade pública, que deve ser o objetivo da administração no seu atuar. Nessa linha, todo ato da Administração deve ser praticado visando à satisfação do interesse público e da finalidade para ele especificamente prevista em lei. Além disso, tem ligação com a validade dos atos praticados pelos agentes de fato (aqueles que tiveram sua investidura de forma irregular na função pública), com o princípio da igualdade, com a vedação da promoção pessoal e com as hipóteses de impedimento ou suspeição – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TJ RJ/2022) O patrimonialismo é caracterizado pelo governo ou pela forma de exercício do poder em que a distinção entre público e privado é quase inexistente, defluindo todo o poder de um governante ou grupo específico, de modo que os cargos públicos são inacessíveis por via meritória. Considerando essas informações, assinale a opção que apresenta princípio ético previsto na Constituição Federal de 1988 que seria afrontado, com maior intensidade, pela investidura em cargo público na forma patrimonialista.",
+        "alternativas": [
+        "a) razoabilidade", 
+        "b) impessoalidade", 
+        "c) supremacia do interesse público", 
+        "d) publicidade",
+        "e) boa-fé objetiva."],
+        "correta": "b) impessoalidade",
+        "explicacao": "O conceito de patrimonialismo representa a confusão entre o patrimônio público e privado, marcado por corrupção, nepotismo e falta de profissionalismo. Este regime é típico das antigas monarquias absolutistas, mas infelizmente muitas de suas características ainda se mantêm na gestão moderna. <br>Não nos cabe aprofundar nesse tema, mas o patrimonialismo está relacionado diretamente com a violação de vários princípios administrativos, como o da legalidade, impessoalidade, moralidade, entre outros. A questão inclusive destaca querer na resposta o princípio violado “com maior intensidade”, já que a violação no caso de investidura em cargo público na forma patrimonialista violaria mais de um princípio. Vamos a cada alternativa: <br>a) o princípio da razoabilidade, ao lado da proporcionalidade, exige da administração pública a aplicação de limites e sanções dentro dos limites estritamente necessários para satisfazer o interesse público, sem aplicação de sanções ou restrições exageradas. Não é o princípio violado no caso em tela – ERRADA; <br>b) o princípio da impessoalidade tem tudo a ver com o caso do enunciado, na medida em que se traduz na ideia de isonomia, pois a Administração deve atender a todos os administrados sem discriminações. Não se pode favorecer pessoas ou se utilizar de perseguições indevidas, como ocorre no caso do enunciado – CORRETA; <br>c) o princípio da supremacia do interesse público significa que a Administração atua voltada aos interesses da coletividade. Assim, em uma situação de conflito entre interesse de um particular e o interesse público, este último deve predominar. Isso é o contrário do que ocorre na questão, em que os interesses particulares patrimonialistas prevalecem – ERRADA; <br>d) o princípio da publicidade se relaciona com a necessidade de divulgação dos atos administrativos e de transparência no atuar da administração, sendo um princípio expresso no caput do art. 37 da CF/88 – ERRADA; <br>e) o princípio da boa-fé, no aspecto objetivo, significa que tanto a administração como o particular devem agir de forma honesta e correta. No aspecto subjetivo, representa a crença do sujeito de que está fazendo algo correto, lícito. Ainda que a boa-fé seja violada no patrimonialismo, não é a “violação mais intensa” solicitada pela questão – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – MPE SC/2021) A publicidade dos atos praticados pelo agente público, no exercício de suas atribuições, para fins de promoção individual é vedada pela CF, em razão da natureza institucional da atuação administrativa do agente público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Isso mesmo. Os agentes públicos atuam em nome do Estado. Dessa forma, não poderá ocorrer a pessoalização ou promoção pessoal do agente público pelos atos realizados. Nesse sentido, temos a vedação do §1º do art. 37 da CF/88: <br>§ 1º - A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. <br>Portanto, as atividades da Administração não podem ser imputadas aos funcionários que as realizaram, mas aos órgãos e entidades que representam."
+      },
+      {
+        "pergunta": "(Cebraspe – ANM/2021) Estará em simetria com a Constituição Federal de 1988 a Constituição de determinado estado que prever que a administração pública estadual deva obedecer aos princípios da legalidade, moralidade, impessoalidade, publicidade, finalidade e eficiência.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Os princípios constitucionais da Administração Pública constam do art. 37, caput da CF/88 e são os seguintes: legalidade, impessoalidade, moralidade, publicidade e eficiência. <br>A lista de princípios não é taxativa, ou seja, nada impede que outras leis ou até as constituições estaduais mencionem outros princípios em seu texto. Se isso fosse vedado, sequer poderíamos ter princípios citados na legislação infraconstitucional, como ocorre na Lei de Licitações e na Lei de Processo Administrativo. <br>Com relação ao princípio da finalidade, inserido no rol na questão, ele é sinônimo de interesse público, uma vez que todo e qualquer ato da administração deve ser praticado visando à satisfação do interesse público. O princípio da finalidade decorre do princípio da impessoalidade, sendo considerado um princípio implícito, de forma que sua previsão expressa em uma Constituição estadual estará em correta simetria com a CF."
+      },
+      {
+        "pergunta": "(Cebraspe – Ministério da Economia/2020) A Constituição Federal de 1988 impõe à administração pública obediência aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência; tais princípios são juízos abstratos de valor que devem orientar a interpretação e a aplicação das regras, bem como pautar todos os atos administrativos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Definição perfeita sobre os princípios administrativos. <br>Os princípios constitucionais administrativos estão previstos no art. 37 da CF/88, que diz que “A administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência e, também, ao seguinte (...)”. <br>Ademais, os princípios administrativos são os valores, as diretrizes, os mandamentos mais gerais que orientam a elaboração das leis administrativas, direcionam a atuação da Administração Pública e condicionam a validade de todos os atos administrativos. Portanto, está correta a assertiva."
+      },
+      {
+        "pergunta": "(Cebraspe – SEFAZ DF/2020) Ciente de que seus atos, comportamentos e atitudes implicam a preservação da imagem da administração pública, o servidor público deve fazer uso dos recursos públicos com economicidade e clareza, no desempenho de suas atribuições.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito. Essa previsão decorre do fato de que o servidor público deve obedecer aos princípios da eficiência e da publicidade no desempenho de suas funções. <br>Para tanto, deve fazer bom uso dos recursos públicos, buscando a melhor atuação, de forma mais racional possível, permitindo que se alcancem os melhores resultados na prestação dos serviços públicos, relacionando-se, assim, com a eficiência e economicidade. <br>Ademais, a atuação da administração deve ser clara e transparente, sendo a publicidade um preceito geral e o sigilo a exceção."
+      },
+      {
+        "pergunta": "(Cebraspe – SEFAZ DF/2020) O princípio da legalidade se aplica apenas ao Poder Executivo federal.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O princípio da legalidade está previsto expressamente no artigo 37 da Constituição Federal, sendo aplicável às administrações públicas direta e indireta, de todos os Poderes e todas as esferas de governo. <br>Então, sua observância não se restringe apenas ao âmbito do Poder Executivo federal."
+      },
+      {
+        "pergunta": "(Cebraspe – TJ PA/2020) O artigo 37 da Constituição Federal de 1988 prevê que a publicidade de atos, programas, obras, serviços e campanhas dos órgãos públicos",
+        "alternativas": [
+        "a) fomente a promoção pessoal de autoridades públicas.", 
+        "b) seja distribuída por mídia impressa, rádio e televisão.", 
+        "c) seja amplamente disseminada em termos territoriais e demográficos.", 
+        "d) adote padrões de identidade visual estabelecidas pelo governo federal.",
+        "e) tenha caráter educativo, informativo ou de orientação social."],
+        "correta": "e) tenha caráter educativo, informativo ou de orientação social.",
+        "explicacao": "Nos termos do §1º do art. 37 da CF/88:<br> § 1º - A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. <br>Isso significa que as atividades da Administração não podem ser imputadas aos funcionários que as realizaram, mas aos órgãos e entidades que representam. Então, a publicidade oficial não pode fomentar a promoção pessoal de autoridades públicas, como diz a alternativa A. <br>As demais alternativas não encontram fundamento na CF. Assim, a única alternativa de acordo com o texto constitucional é a letra E."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE MG/2018) O tribunal de contas de um estado, ao analisar as contas de determinado prefeito, verificou que houve gasto de recursos públicos com a elaboração de cartilhas escolares com nomes, símbolos e imagens que caracterizavam a promoção pessoal de autoridades públicas do município. Nessa situação, a conduta do prefeito afrontou especialmente o princípio da",
+        "alternativas": [
+        "a) boa-fé.", 
+        "b) razoabilidade.", 
+        "c) impessoalidade.", 
+        "d) economicidade.",
+        "e) eficiência."],
+        "correta": "c) impessoalidade.",
+        "explicacao": "a) o princípio da boa-fé se relaciona com as condutas éticas que devem ser observadas tanto pela administração quanto pelos administrados, não se relacionando com o descrito no enunciado – ERRADA;<br>b) o princípio da razoabilidade se aplica como uma limitação ao poder discricionário estatal, impondo assim limites para que a prática dos atos administrativos observe o estritamente necessário para satisfação do interesse público – ERRADA; <br>c) a vedação da promoção pessoal é uma das facetas do princípio da impessoalidade. Nesses termos, os agentes públicos atuam em nome do Estado. Dessa forma, não poderá ocorrer a pessoalização ou promoção pessoal do agente público pelos atos realizados. Isso decorre diretamente da disposição do §1º do Art. 37 da CF/88, que diz que “a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos”. Lembrando que os outros sentidos da impessoalidade são: o princípio da finalidade; o da validade os agentes de fato; o princípio da igualdade ou isonomia e os casos de impedimento ou suspeição – CORRETA; <br>d) a economicidade está relacionada à observância do princípio da eficiência, organizando, estruturando e disciplinando a administração pública da forma mais racional possível, alcançando-se os melhores resultados – ERRADA; <br>e) o princípio da eficiência apresenta dois aspectos: em relação ao modo de atuação do agente público, espera-se a melhor atuação possível, a fim de obter os melhores resultados; e quanto ao modo de organizar, estruturar e disciplinar a administração pública, exige-se que seja a mais racional possível, permitindo que se alcancem os melhores resultados na prestação dos serviços públicos – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – MPU/2018) A supremacia do interesse público deve ser prioridade em organizações da administração pública e privada.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na administração pública sim, no âmbito privado, não. <br>O princípio da supremacia do interesse público se relaciona com as das prerrogativas administrativas, que devem ser observadas na consecução dos interesses da coletividade. Nesse sentido, em uma situação de conflito entre interesse de um particular e o interesse público, este último deve predominar. <br>O mesmo não se aplica, contudo, na iniciativa privada, onde vigora a igualdade entre as partes."
+      },
+      {
+        "pergunta": "(Cebraspe – MPE CE/2020) O direito de petição aos poderes públicos, assegurado pela Constituição Federal de 1988, impõe à administração o dever de apresentar tempestiva resposta. A demora excessiva e injustificada da administração para cumprir essa obrigação é omissão violadora do princípio da eficiência. Segundo o STJ, por colocar em xeque a legítima confiança que o cidadão comum deposita na atuação da administração pública, tal mora atenta também contra o princípio da",
+        "alternativas": [
+        "a) finalidade.", 
+        "b) moralidade.", 
+        "c) autotutela.", 
+        "d) presunção de legitimidade.",
+        "e) continuidade do serviço público."],
+        "correta": "b) moralidade.",
+        "explicacao": "A questão tomou como fundamento a seguinte decisão do STJ (MS 19.132): <br>5. A demora excessiva e injustificada da Administração para cumprir obrigação que a própria Constituição lhe impõe é omissão violadora do princípio da eficiência, na medida em que denuncia a incapacidade do Poder Público em desempenhar, num prazo razoável, as atribuições que lhe foram conferidas pelo ordenamento (nesse sentido, o comando do art. 5º, LXXVIII, da CF). Fere, também, a moralidade administrativa, por colocar em xeque a legítima confiança que o cidadão comum deposita, e deve depositar, na Administração. <br>Portanto, a demora excessiva, além de ineficiente, é imoral, já que faz com que a população perda a confiança depositada no trabalho da administração. Logo, o gabarito é a letra B. <br>Vamos explicar, brevemente, as demais alternativas: <br>a) a finalidade diz respeito ao cumprimento do interesse público. De certa forma, a demora também não atende ao interesse público, mas não foi esse o contexto levantado no enunciado da questão – ERRADA; <br>c) a autotutela trata da capacidade da administração de rever os seus próprios atos – ERRADA; <br>d) a presunção de legitimidade significa que os atos administrativos se presumem lícitos, motivo pelo qual são aptos a produzir os seus efeitos – ERRADA; <br>e) a continuidade do serviço público significa que o Estado, em regra, não deverá interromper a prestação de serviços à população, exceto em casos excepcionais – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE RO/2019) Constitui violação aos princípios constitucionais da administração pública",
+        "alternativas": [
+        "a) nomeação de cônjuge de prefeito para o cargo de secretário estadual, mesmo que o nomeado possua inegável qualificação técnico-profissional e idoneidade moral.", 
+        "b) limitação de idade, por ato administrativo, para fins de inscrição em concurso público, ainda que tal medida esteja fundamentada na natureza das atribuições do cargo a ser preenchido.", 
+        "c) publicação, em sítio eletrônico mantido pela administração pública, de nomes de servidores e dos valores dos respectivos vencimentos e vantagens pecuniárias.", 
+        "d) atribuição de nome de governador já falecido, reconhecido pela defesa dos direitos humanos, a escola pública de rede estadual de educação.",
+        "e) anulação, pela administração pública, de ato administrativo ilegal, independentemente de prazo e da existência de direito adquirido."],
+        "correta": "b) limitação de idade, por ato administrativo, para fins de inscrição em concurso público, ainda que tal medida esteja fundamentada na natureza das atribuições do cargo a ser preenchido.",
+        "explicacao": "a) a nomeação para cargo político - no qual se inclui o de secretário de estado - não configura nepotismo, por si só, nepotismo. Somente os cargos e funções administrativos, criados por lei, são alcançados imediatamente pelo enunciado da súmula vinculante nº 13 (que veda o nepotismo na administração). Por outro lado, o STF entende que, em relação aos cargos de natureza política, ressalvados os casos de inequívoca falta de razoabilidade, por manifesta ausência de qualificação técnica ou inidoneidade moral. (STF, Rcl 28.024 Agr) - ERRADA; <br>b) de fato, pode haver limite de idade para inscrição em concurso público, desde que justificado pela natureza das atribuições do cargo a ser preenchido (Súmula 683 do STF). No entanto, ato administrativo, por si só, não pode estabelecer limitação de idade, uma vez que o edital só pode prever esta diferença se, além da justificativa da natureza das atribuições do cargo, houver previsão legal. Logo, essa limitação atenta contra o princípio da legalidade - CORRETA; <br>c) o STF já decidiu que é legítima a publicação de vencimentos de servidores (ARE 652777), inclusive em sítio eletrônico mantido pela Administração Pública - isso em respeito ao princípio da publicidade - ERRADA; <br>d) não viola o princípio da moralidade a homenagem a políticos falecidos em ruas e demais bens públicos. A homenagem a políticos vivos pode incorrer em imoralidade/impessoalidade, mas não é disto que trata a alternativa (CF, art. 37, § 1º) - ERRADA; <br>e) é dever da Administração Pública anular os atos administrativos ilegais, em respeito ao princípio da legalidade. Porém, no meu ponto de vista, o trecho final da questão ficou dúbio. A anulação atende ao princípio da legalidade, mas deve observar o prazo decadencial para o desfazimento, em observância ao princípio da segurança jurídica. Logo, em regra, a anulação deve observar o prazo para o desfazimento. Há exceções, como no vaso de violação expressa ao texto constitucional, uma vez que, nesse caso, não haveria decadência. Porém, essa é uma exceção, e não uma regra. Por esse motivo, entendo que a questão foi mal formulada. Por fim, em regra, atos ilegais não geram direito adquirido - ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TJ PR/2019) Os princípios que norteiam a administração pública, expressamente previstos no caput do art. 37 da CF, são os princípios da",
+        "alternativas": [
+        "a) legalidade, impessoalidade, moralidade, proporcionalidade e eficiência.", 
+        "b) legalidade, impessoalidade, publicidade, probidade e eficácia.", 
+        "c) legalidade, segurança jurídica, moralidade, publicidade e eficiência.", 
+        "d) legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+        "e) legalidade, razoabilidade, moralidade, proporcionalidade e eficiência."],
+        "correta": "d) legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+        "explicacao": "Tais princípios são aqueles que formam o famoso mnemônico \"LIMPE\", quais sejam: legalidade, impessoalidade, moralidade, publicidade e eficiência."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2019) O conjunto das prerrogativas e restrições a que está sujeita a administração pública e que não se encontra nas relações entre particulares constitui o regime jurídico administrativo.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O conceito de regime jurídico‐administrativo se delineia em normas e princípios que estruturam a administração pública. Basicamente, ele é formado por uma “balança”, tendo de um lado as prerrogativas (poderes) e de outro as sujeições (restrições). Dessa forma, ele é formado pelo binômio: supremacia do interesse público (prerrogativas) e indisponibilidade do interesse público (sujeições)."
+      },
+      {
+        "pergunta": "(Cebraspe – MPE PI/2018) Conforme o regime jurídico administrativo, apesar de assegurada a supremacia do interesse público sobre o privado, à administração pública é vedado ter privilégios não concedidos a particulares.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A assertiva está errada. A supremacia do interesse público fundamenta a existência das prerrogativas ou poderes especiais da Administração Pública, caracterizando-se pela chamada verticalidade nas relações entre a Administração e o particular. Sendo assim, esse é o princípio que legitima a Administração Pública a ter os privilégios não concedidos aos particulares, quando estamos diante de uma situação na qual o objeto final é o interesse público. Assim, havendo conflito entre o interesse público e os interesses particulares, deverá prevalecer o primeiro."
+      },
+      {
+        "pergunta": "(Cebraspe – IPHAN/2018) Maria tomou posse recentemente no IPHAN e ficou responsável por desenvolver um projeto cujo objetivo era restaurar um acervo de pinturas pertencentes ao município do Rio de Janeiro e reformar uma área específica de um museu municipal, para a exposição das pinturas restauradas. Essas pinturas possuem grande valor histórico, artístico e cultural, consideradas peças de grande raridade pelo estilo e método de pintura utilizado. Essa restauração é uma tarefa que somente pode ser realizada por técnico especializado, e há no país somente uma profissional habilitada para o trabalho. <br>Em relação a essa situação hipotética, julgue o item a seguir. <br>Dado o princípio da legalidade, Maria, como funcionária do IPHAN responsável pelo projeto, só pode fazer o que lhe é permitido de forma expressa por legislação pertinente",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. Como servidora pública, Maria deve obedecer ao princípio da legalidade, previsto na CF, art. 37. Assim, está correta a afirmativa. Afinal, de acordo com esse princípio, a Administração Pública somente poderá agir quando houver lei determinando ou autorizando a sua atuação."
+      },
+      {
+        "pergunta": "(Cebraspe – IPHAN/2018) Mesmo pertencendo ao quadro da administração indireta, o IPHAN deve obedecer aos preceitos da legalidade, da impessoalidade, da moralidade, da publicidade e da eficiência.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. Por ser uma autarquia, o IPHAN pertence a administração indireta e assim, se enquadra nos ditames da CF, art. 37, qual seja: a administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência."
+      },
+      {
+        "pergunta": "(Cebraspe – Polícia Federal/2018) A administração pública, além de estar sujeita ao controle dos Poderes Legislativo e Judiciário, exerce controle sobre seus próprios atos. Tendo como referência inicial essas informações, julgue o item a seguir, acerca do controle da administração pública. <br>O Poder Judiciário tem competência para apreciar o mérito dos atos discricionários exarados pela administração pública, devendo, no entanto, restringir-se à análise da legalidade desses atos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A questão foi uma pegadinha! O Poder Judiciário não pode apreciar mérito dos atos discricionários. A banca colocou a pegadinha no final, dizendo que o Judiciário deve se restringir à análise da legalidade, mas o começo está incorreto. Vou reforçar: o final está certinho, mas não há análise de mérito quando se analisa a legalidade, ou seja, há uma contradição na própria questão, o que a tornou errada. Vale lembrar que não podemos confundir “discricionariedade” com mérito. A questão estaria cera se fosse redigida da seguinte forma: “O Poder Judiciário tem competência para apreciar os atos discricionários exarados pela administração pública, devendo, no entanto, restringir-se à análise da legalidade desses atos”. Aí estaria tudo certo. Porém, o mérito não é passível de controle judicial."
+      },
+      {
+        "pergunta": "(Cebraspe – PM AL/2018) Em respeito ao princípio da publicidade, campanhas de órgãos públicos devem ser realizadas em caráter informativo, educativo ou de orientação social, não podendo nelas constar imagens que possam configurar promoção pessoal de autoridades ou de servidores públicos, sob pena de violação do princípio da impessoalidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O art. 37, caput, da CF determina que, entre outros, aplicam-se à Administração Pública os princípios da impessoalidade e da moralidade. A impessoalidade subdivide-se em várias outras aplicações, como a finalidade pública, a isonomia e a vedação à promoção pessoal. <br>Nesse contexto, o art. 37, § 1º, da CF, estabelece que “a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos”. <br>Por conseguinte, o enunciado vai ao encontro do princípio da impessoalidade, estando correta a afirmação."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE PB/2018) A administração pública pode anular e revogar os seus atos, independentemente de solicitação ao Poder Judiciário. Esse poder-dever está consagrado na Súmula n.º 346 do STF, que afirma que a administração pública pode declarar a nulidade dos seus próprios atos, e na Súmula n.º 473 do STF, que afirma que a administração pode anular os seus próprios atos, quando eivados de vícios que os tornem ilegais, ou revogá-los, por motivo de conveniência e oportunidade. <br>O poder-dever descrito anteriormente corresponde ao princípio da",
+        "alternativas": [
+        "a) moralidade administrativa.", 
+        "b) supremacia do interesse público.", 
+        "c) autotutela.", 
+        "d) especialidade.",
+        "e) legalidade."],
+        "correta": "c) autotutela.",
+        "explicacao": "Claramente, estamos diante do princípio da autotutela, o qual estabelece que a Administração Pública possui o poder de controlar os seus próprios atos, anulando-os quando ilegais ou revogando-os quando inconvenientes ou inoportunos. Assim, a Administração não precisa recorrer ao Poder Judiciário para corrigir os seus atos, podendo fazê-lo diretamente. Ficamos, portanto, com a letra ‘C’, como gabarito. Vamos analisar as demais alternativas: <br>a) o princípio da moralidade impõe que o administrador público não dispense os preceitos éticos que devem estar presentes em sua conduta. Dessa forma, além da legalidade, os atos administrativos devem subordinarse à moralidade administrativa – ERRADA; <br>b) a supremacia diz respeito às prerrogativas da Administração, quando em prol do interesse público, está em situação de superioridade sobre os interesses do administrado – ERRADA; <br>d) o princípio da especialidade é aquele que busca assegurar que as entidades administrativas exercerão às atividades previstas em sua lei de criação ou autorização. Isso porque não pode um agente público, por mero ato administrativo, mudar a finalidade de uma entidade administrativa. Por isso que a lei de criação ou autorização deve definir a finalidade da entidade – ERRADA; <br>e) o princípio da legalidade obriga a Administração a fazer apenas o que está previsto em lei – ERRADA;"
+      },
+      {
+        "pergunta": "(Cebraspe – Polícia Federal/2018) O poder de autotutela tem fundamento, preponderantemente, nos princípios da legalidade e da preponderância do interesse público e pode ser exercido de ofício quando a autoridade competente verificar ilegalidade em ato de própria administração.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Essa é uma questão um pouco mais complicada. Com tranquilidade, podemos afirmar que o princípio da autotutela decorre do princípio da legalidade e, além disso, permite que a Administração, de ofício, anule atos ilegais ou revogue os atos inconvenientes e inoportunos. Até aqui, tudo certo! <br>O problema trata da parte sobre o princípio da “preponderância do interesse público”. <br>A doutrina fala em princípio da preponderância dos interesses no sentido de que os serviços de interesse nacional devem ser prestados e regulamentados pela União; os de interesse regional devem ser prestados e regulamentados pelos estados; por fim, os serviços de interesse regional devem ser prestados e regulamentados pelos municípios. <br>Por esse critério, não há nenhuma correção do princípio com a autotutela. <br>No entanto, se considerarmos que “preponderância do interesse público” é sinônimo de supremacia do interesse público e que a supremacia fundamenta os poderes da Administração, então podemos concluir que há uma correção, ainda que pequena, entre o princípio da autotutela e o princípio da supremacia. Aqui, entraria o poder de anular ou revogar os atos administrativas sem precisar do Poder Judiciário para isso. <br>Como o gabarito foi dado como certo, provavelmente foi esta a linha que o Cebraspe adotou, ou seja, a autotutela decorre da legalidade (pois a Administração deve assegurar que seus atos sejam praticados conforme a lei) e da preponderância do interesse público (no sentido da supremacia do interesse pública, já que este é um “poder” da Administração)."
+      },
+      {
+        "pergunta": "(Cebraspe – Polícia Federal/2018) Um servidor público federal determinou a nomeação de seu irmão para ocupar cargo de confiança no órgão público onde trabalha. Questionado por outros servidores, o departamento jurídico do órgão emitiu parecer indicando que o ato de nomeação é ilegal. <br>O princípio da autotutela permite que o Poder Judiciário intervenha para apreciar atos administrativos que estejam supostamente eivados de ilegalidades.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A autotutela não se aplica ao Judiciário (exercendo a função jurisdicional), mas sim à Administração Pública. Logo, o item está incorreto."
+      },
+      {
+        "pergunta": "(Cebraspe – Polícia Federal/2018) Decorrem do princípio da reserva legal a exigência de que as entidades da administração indireta sejam criadas ou autorizadas por leis específicas e a de que, no caso das fundações, leis complementares definam suas áreas de atuação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da reserva legal significa que determinadas matérias dependerão de lei formal, ou seja, são as matérias que devem ser disciplinadas em leis ordinárias ou complementares. No caso, a criação de entidades administrativas depende de lei específica para criar ou autorizar e, além disso, a área de atuação das fundações públicas deve ser definida em lei complementar."
+      },
+      {
+        "pergunta": "(Cebraspe – IFF/2018) Os atos da administração pública devem obedecer não somente à lei jurídica, mas também a padrões éticos. Tal característica se refere ao princípio da",
+        "alternativas": [
+        "a) finalidade, uma vez que o administrador não pode praticar um ato em interesse próprio.", 
+        "b) moralidade, sendo este pressuposto de validade de todo ato da administração pública.", 
+        "c) legalidade, pois a ação do administrador público está condicionada aos mandamentos legais e às exigências do bem comum.", 
+        "d) eficiência, conforme o qual a atividade administrativa deve apresentar resultados positivos para o serviço público e satisfatório para a coletividade.",
+        "e) indisponibilidade do interesse público, pois o funcionário público deve cuidar dos interesses da coletividade com ética e em obediência à lei."],
+        "correta": "b) moralidade, sendo este pressuposto de validade de todo ato da administração pública.",
+        "explicacao": "Vamos analisar as assertivas: <br>a) o princípio da finalidade imprime à autoridade administrativa o dever de praticar o ato administrativo com vistas à realização da finalidade perseguida pela lei (interesse público). Porém, não é este o caso que o enunciado da questão está tratando – ERRADA; <br>b) quando falarmos em algo ético, temos o princípio da moralidade como referência, afinal o princípio jurídico da moralidade exige respeito a padrões éticos, de boa--fé, decoro, lealdade, honestidade e probidade na prática diária de boa administração – CORRETA; <br>c) o princípio da legalidade, que é uma das principais garantias de direitos individuais, remete ao fato de que a Administração Pública só pode fazer aquilo que a lei permite, ou seja, só pode ser exercido em conformidade com o que é apontado na lei. A alternativa, de forma isolada, até está certa, pois trata do conceito da legalidade. No entanto, a opção não corresponde ao que pede o enunciado – ERRADA; <br>d) o princípio da eficiência exige que a atividade administrativa seja exercida com presteza, perfeição e rendimento funcional – ERRADA; <br>e) o princípio da indisponibilidade do interesse público aponta que o administrador público, no uso de suas atribuições e em nome do interesse público, submete-se a um conjunto de restrições e limitações, uma vez que não pode dispor dos interesses do povo – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2018) Embora sem previsão expressa no ordenamento jurídico brasileiro, o princípio da confiança relaciona-se à crença do administrado de que os atos administrativos serão lícitos e, portanto, seus efeitos serão mantidos e respeitados pela própria administração pública.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. Ela conceitua corretamente o princípio da proteção à confiança, o qual é aplicado, por exemplo, para assegurar a validade dos atos praticados pelos agentes de fato perante terceiros de boafé. Conforme nos ensina Maria Sylvia Di Pietro, “no direito brasileiro não há previsão expressa do princípio da proteção à confiança; pelo menos não com essa designação, o que não significa que ele não decorra implicitamente do ordenamento jurídico. O que está previsto expressamente é o princípio da segurança jurídica”. <br>Assim, a proteção à confiança, ou confiança legítima, trata do aspecto subjetivo do princípio da segurança jurídica, representando a confiança que os particulares depositam na atuação da Administração. Em geral, os particulares confiam nos agentes públicos, crendo da legalidade dos atos administrativos, daí porque não podem ser prejudicados por uma ilegalidade que não deram causa."
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2018) Situação hipotética: O prefeito de determinado município promoveu campanha publicitária para combate ao mosquito da dengue. Nos panfletos, constava sua imagem, além do símbolo da sua campanha eleitoral. Assertiva: No caso, não há ofensa ao princípio da impessoalidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A assertiva está errada. O ato do prefeito representou clara afronta ao princípio da impessoalidade, o qual proíbe a utilização de símbolos e imagens pessoais nos atos administrativos como forma de promover o agente público. Tal vedação, inclusive, encontra-se expressa na Constituição: <br>Art. 37. [...] 1º A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos. <br>Logo, houve ofensa ao princípio da impessoalidade, no sentido da vedação à promoção pessoal."
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2018) Em decorrência do princípio da segurança jurídica, é proibido que nova interpretação de norma administrativa tenha efeitos retroativos, exceto quando isso se der para atender o interesse público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A Lei 9.784/99 preceitua que, nos processos administrativos, deve ser adotada interpretação da norma administrativa da forma que melhor garanta o atendimento do fim público a que se dirige, sendo, contudo, expressamente <b>vedada aplicação retroativa de nova interpretação</b>. Nem mesmo o interesse público pode excepcionar essa medida. Por exemplo: se a Administração alterar o seu entendimento sobre o pagamento de um benefício, decidindo cancelar os pagamentos até então realizados, não poderá determinar a devolução do que já foi pago. Note que a devolução atenderia ao interesse público, pois recursos ingressariam nos cofres públicos; no entanto, não será legítima a exigência da devolução."
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2018) O princípio da proporcionalidade, que determina a adequação entre os meios e os fins, deve ser obrigatoriamente observado no processo administrativo, sendo vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da proporcionalidade é um daqueles que se aplica ao processo administrativo. Nessa linha, a Lei do Processo Administrativo dispõe que processo administrativo observará a adequação entre meios e fins, vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público (Lei 9.784/99, art. 2º, § único, VI)."
+      },
+      {
+        "pergunta": "(Cebraspe – ABIN/2018) São considerados princípios informativos da atividade administrativa a legalidade e a supremacia do interesse público, sendo o primeiro mencionado na Constituição vigente, e o segundo, fundamentado nas próprias ideias do Estado em favor da defesa, da segurança e do desenvolvimento da sociedade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "É muito comum considerar que os princípios da supremacia e da indisponibilidade do interesse público formam a base do regime jurídico administrativo. Porém, comentamos em nossas aulas que Maria Di Pietro considera que a base da atividade administrativa é formada pelos princípios da legalidade e da supremacia do interesse público. A legalidade serve de instrumento de proteção da sociedade, ditando as formas de atuação da Administração e protegendo a população dos abusos do Estado; já o princípio da supremacia fundamenta os poderes especiais do Estado, utilizados quando há um conflito entre um interesse meramente individual e o interesse da coletividade. Com efeito, o princípio da legalidade está previsto expressamente no art. 37 da Constituição Federal, enquanto o princípio da supremacia é um princípio implícito, que decorre da própria razão de ser do Estado, fundamentando-se nas regras de convívio em sociedade. Por fim, quando uma questão fala em “princípio informativo” significa que ele é “aplicável”. Logo, o enunciado está afirmando que os princípios da legalidade e da supremacia se aplicam à atividade administrativa, o que está plenamente correto."
+      },
+      {
+        "pergunta": "(Cebraspe – ABIN/2018) O núcleo do princípio da eficiência no direito administrativo é a procura da produtividade e economicidade, sendo este um dever constitucional da administração, que não poderá ser desrespeitado pelos agentes públicos, sob pena de responsabilização pelos seus atos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da eficiência exige que a Administração e os agentes públicos atuem com rendimento. Assim, será possível produzir mais utilizando menos recursos. Trata-se, ademais, de um dever constitucional, tanto que o princípio consta expressamente no art. 37, caput, da CF. Além disso, os agentes públicos que não observarem o dever de eficiência podem ser responsabilizados civil e administrativamente. Nessa linha, a própria Constituição prevê a realização do controle de economicidade por intermédio do controle interno e externo (art. 70). Se um agente público, por exemplo, tiver uma conduta antieconômica, poderá ser responsabilizado pelos órgãos de controle."
+      },
+      {
+        "pergunta": "(Cebraspe – SEFAZ RS/2018) A previsão em lei de cláusulas exorbitantes aplicáveis aos contratos administrativos decorre diretamente do princípio da",
+        "alternativas": [
+        "a) publicidade.", 
+        "b) moralidade.", 
+        "c) legalidade.", 
+        "d) eficiência.",
+        "e) supremacia do interesse público."],
+        "correta": "e) supremacia do interesse público.",
+        "explicacao": "Devemos saber que as cláusulas exorbitantes, também chamadas de cláusulas de privilégio, são cláusulas dos contratos administrativos que extrapolam, exorbitam, ultrapassam os limites aceitáveis no âmbito dos contratos de direito privado. Essas cláusulas garantem à Administração algumas prerrogativas, dando a ela tratamento desigual. Por exemplo: a prerrogativa de alterar unilateralmente um contrato, aplicar sanções e fiscalizar a sua execução são exemplos de cláusulas exorbitantes. Por isso, podemos concluir que tal prerrogativa decorre do princípio da supremacia do interesse público, que preconiza a prevalência do interesse público sobre o interesse particular, dotando a administração pública de determinadas prerrogativas com o objetivo de fazer valer o interesse público. Logo, os contratos administrativos são “verticalizados”, pois a Administração encontra-se em “posição superior” à outra parte do contrato. Daí o gabarito ser a letra E. <br>No entanto, precisamos ter cuidado para não confundir com o princípio da legalidade, já que o enunciado traz os dizeres “a previsão em lei”. Note que o cerne da questão não era a previsão em lei, mas sim as cláusulas exorbitantes. Por isso que a letra E é mais adequada para o caso."
+      },
+      {
+        "pergunta": "(Cebraspe – STM/2018) O princípio da impessoalidade está diretamente relacionado à obrigação de que a autoridade pública não dispense os preceitos éticos, os quais devem estar presentes em sua conduta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O princípio que exige atuação conforme preceitos éticos é o da moralidade. O princípio da impessoalidade, por sua vez, exige que a atuação administrativa tenha como foco a finalidade público, com atuações isonômicas e sem promoção pessoal de autoridades."
+      },
+      {
+        "pergunta": "(Cebraspe – STM/2018) Embora não estejam previstos expressamente na Constituição vigente, os princípios da indisponibilidade, da razoabilidade e da segurança jurídica devem orientar a atividade da administração pública.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. Apenas o LIMPE (legalidade, impessoalidade, moralidade, publicidade e eficiência) está presente expressamente na Constituição Federal. Todos os demais princípios são considerados implícitos (quando o parâmetro é a Constituição). Assim, os princípios da indisponibilidade, da razoabilidade e da segurança jurídica realmente não constam expressamente no texto constitucional, mas orientam a atuação administrativa."
+      },
+      {
+        "pergunta": "(Cebraspe – PC MA/2018) A conduta do agente público que busca o melhor desempenho possível, com a finalidade de obter o melhor resultado, atende ao princípio da",
+        "alternativas": [
+        "a) eficiência.",
+        "b) legalidade.",
+        "c) impessoalidade.",
+        "d) moralidade.",
+        "e) publicidade."],
+        "correta": "a) eficiência.",
+        "explicacao": "Questão muito tranquila. Sabemos que tal princípio é o da eficiência, previsto expressamente no art. 37 da CF. Esse princípio é o que impõe à administração pública direta e indireta e a seus agentes a persecução de resultados, qualidade e rendimento necessários para melhor utilização possível dos recursos públicos, de maneira a evitarem-se desperdícios e garantir-se maior rentabilidade social."
+      },
+      {
+        "pergunta": "(Cebraspe – CGM João Pessoa - PB/2018) Decorre do princípio de autotutela o poder da administração pública de rever os seus atos ilegais, independentemente de provocação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da autotutela estabelece que a Administração Pública possui o poder de controlar os próprios atos, anulando-os quando ilegais ou revogando-os quando inconvenientes ou inoportunos. Assim, a Administração não precisa recorrer ao Poder Judiciário para corrigir os seus atos, podendo fazê-lo diretamente. Esse princípio possui previsão em duas súmulas do STF, a 346, que estabelece que “A Administração Pública pode declarar a nulidade dos seus próprios atos”, e 473, que dispõe o seguinte: Súmula nº 473: A Administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revoga-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial."
+      },
+      {
+        "pergunta": "(Cebraspe – CGM João Pessoa - PB/2018) O princípio da eficiência determina que a administração pública direta e indireta adote critérios necessários para a melhor utilização possível dos recursos públicos, evitando desperdícios e garantindo a maior rentabilidade social.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da eficiência implementou o modelo de administração pública gerencial voltada para um controle de resultados na atuação estatal. Nesse sentido, economicidade, redução de desperdícios, qualidade, rapidez, produtividade e rendimento funcional são valores encarecidos por referido princípio."
+      },
+      {
+        "pergunta": "(Cebraspe – SERES PE/2017) Secretário de justiça e direitos humanos de determinado estado da Federação que publicar uma portaria e, na semana seguinte, revogá-la, em nova publicação, terá praticado ato revogatório com base no princípio da",
+        "alternativas": [
+        "a) indisponibilidade.", 
+        "b) moralidade.", 
+        "c) autotutela.", 
+        "d) eficiência.",
+        "e) supremacia do interesse público."],
+        "correta": "c) autotutela.",
+        "explicacao": "A Administração Pública tem o poder de rever os seus próprios atos, revogando os inconvenientes e inoportunos e anulando os ilegais. Trata-se da aplicação do princípio da autotutela (alternativa C). <br>Vejamos as demais alternativas: <br>a) o princípio da indisponibilidade representa as sujeições que a Administração se submete, o que implica, entre outras coisas, a necessidade de realizar concurso para contratação de pessoal e de observar as restrições legais para alienar bens – ERRADA; <br>b) o princípio da moralidade exige a atuação honesta dos agentes públicos – ERRADA; <br>d) o princípio da eficiência exige que a Administração e os agentes públicos atuem com rendimento e qualidade – ERRADA; <br>e) o princípio da supremacia trata das prerrogativas que a Administração dispões para cumprir as suas finalidades, como a possibilidade de constituir obrigações de forma unilateral ou de desapropriar bens, entre outras medidas em que se impõe o poder extroverso do Estado – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE BA/2017) Determinado município, após celebrar com particulares contratos de promessa de venda e compra de glebas de sua propriedade, passou, sob a gestão do novo prefeito, a promover anulações contratuais porque os parcelamentos pactuados não estariam regularizados por não atenderem a requisitos legais. <br>Nessa situação hipotética, para obstar a pretensão do município, será adequado que o particular prejudicado invoque, em seu favor, o princípio da",
+        "alternativas": [
+        "a) igualdade.", 
+        "b) continuidade dos serviços públicos.", 
+        "c) proporcionalidade.", 
+        "d) moralidade.",
+        "e) confiança legítima."],
+        "correta": "e) confiança legítima.",
+        "explicacao": "A questão trata de uma situação em que o município firmou contratos na gestão de um prefeito e depois desfez esses contratos na gestão do prefeito subsequente. Nessa situação, podemos ter uma ofensa ao princípio da confiança legítima, na medida em que os particulares acreditavam na legalidade dos atos emanados na gestão anterior e, por isso, se atuaram de boa-fé, não poderiam ser prejudicados pela Administração. Logo, o gabarito é a letra E. <br>As demais opções estão incorretas, conforme vamos analisar a seguir: <br>a) o princípio da igualdade é uma aplicação do princípio da impessoalidade, exigindo que a Administração não favoreça ou desfavoreça indevidamente determinadas pessoas; logo, só serão aceitas discriminações fundamentadas na lei e no interesse público, como ocorre com as medidas afirmativas (cotas em concursos, por exemplo) – ERRADA; <br>b) o princípio da continuidade exige que os serviços públicos sejam prestados continuamente, sem interrupções. Dessa forma, o serviço somente poderá ser paralisado em situações excepcionais, como nos casos de emergência e de necessidade de manutenção – ERRADA; <br>c) o princípio da proporcionalidade é utilizado como referência no controle de atos que impliquem limitações. Assim, qualquer limitação deve ter adequação entre os meios e os fins – exemplo: uma sanção será mais grave quanto mais grave for a infração comedida – ERRADA; <br>d) pelo princípio da moralidade, os agentes públicos devem ter condutas éticas, honestas, pautadas na boafé – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE BA/2017) Agente público que se utiliza de publicidade governamental com a finalidade exclusiva de se promover viola o princípio da",
+        "alternativas": [
+        "a) eficiência.", 
+        "b) moralidade.", 
+        "c) autotutela.", 
+        "d) publicidade.",
+        "e) motivação."],
+        "correta": "b) moralidade.",
+        "explicacao": "A vedação a promoção pessoal costuma ser associada a dois princípios: (i) da impessoalidade; (ii) da moralidade. A violação ao princípio da impessoalidade surge porque a atuação da Administração é sempre imputada ao órgão ou ao ente no qual o agente atua. Assim, o agente não pode se promover às custas do órgão ente público. <br>A violação ao princípio da moralidade surge porque não é ético por parte do agente público se utilizar da máquina pública para obter benefícios pessoas se promovendo. <br>Como não há o princípio da impessoalidade entre as alternativas, o nosso gabarito é a letra B (moralidade). <br>Alguns alunos costumam associar essa vedação ao princípio da publicidade. Mas isso está errado! A violação ao princípio da publicidade ocorre quando não se dá transparência a um ato ou informação que deveria ser divulgado. Por outro lado, utilizar a publicidade oficial para se promover representa ofensa aos princípios da moralidade e da impessoalidade."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE PE/2017) O princípio da razoabilidade",
+        "alternativas": [
+        "a) se evidencia nos limites do que pode, ou não, ser considerado aceitável, e sua inobservância resulta em vício do ato administrativo.", 
+        "b) incide apenas sobre a função administrativa do Estado.", 
+        "c) é autônomo em relação aos princípios da legalidade e da finalidade.", 
+        "d) comporta significado unívoco, a despeito de sua amplitude, sendo sua observação pelo administrador algo simples.",
+        "e) pode servir de fundamento para a atuação do Poder Judiciário quanto ao mérito administrativo."],
+        "correta": "a) se evidencia nos limites do que pode, ou não, ser considerado aceitável, e sua inobservância resulta em vício do ato administrativo.",
+        "explicacao": "a) o princípio da razoabilidade possui várias aplicações, inserindo-se na análise dos atos administrativos para verificar se as decisões são aceitáveis do ponto de vista do “homem médio”. Por exemplo: é aceitável instituir uma idade máxima para um concurso de policial militar? Se a resposta for positiva, podemos dizer que tal restrição é razoável. Com efeito, o ato que se mostrar desarrazoado (não aceitável) será um ato viciado, ou seja, será ilegal, devendo ser anulado – CORRETA; <br>b) o princípio da razoabilidade informa não só a função administrativa, como também a função legislativa e jurisdicional, pois permite que uma lei desarrazoada (por exemplo: uma lei que implique limitações exageradas para o ingresso em determinado cargo público) seja considerada inconstitucional pelo Poder Judiciário – ERRADA; <br>c) de acordo com Bandeira de Mello (2014, p. 81), o princípio da razoabilidade “descende também do princípio da legalidade”. Tais princípios estão interligados, motivo pelo qual um ato que seja desarrazoado será também ilegal, devendo ser anulado – ERRADA; <br>d) certamente a interpretação do que é ou não razoável não é uma tarefa tão simples. Uma restrição pode ser considerada razoável para um agente público, mas não para outro. Então, não podemos afirmar que a razoabilidade configura significado “unívoco” nem que a sua observação seja tão simples – ERRADA; <br>e) o princípio da razoabilidade permite que o Poder Judiciário analise os atos administrativos discricionários, buscando verificar se não ocorreram exageros. Porém, ao considerar o ato desarrazoado, o Judiciário não estará invadindo o mérito do ato, mas sim verificando a sua legalidade, uma vez que uma sanção ou restrição desarrazoada/desproporcional é praticada com abuso, o que configura uma ilegalidade – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 7/2017) O princípio que rege a administração pública, expressamente previsto na Constituição Federal de 1988, e que exige dos agentes públicos a busca dos melhores resultados e um menor custo possível, é o da",
+        "alternativas": [
+        "a) moralidade.", 
+        "b) eficiência.", 
+        "c) legalidade.", 
+        "d) impessoalidade."],
+        "correta": "b) eficiência.",
+        "explicacao": "Os princípios constitucionais expressos formam o mnemônico LIMPE (legalidade, impessoalidade, moralidade, publicidade e eficiência). Este último se apresenta em dois aspectos: (i) na forma de organização da estrutura administrativa, que deve buscar uma estrutura mais enxuta e descentralizada; (ii) na forma de atuação dos agentes públicos, que devem buscar sempre a excelência, prestando serviços com qualidade, zelo e rendimento para atender às necessidades da população. Dessa forma, a questão trata do princípio da eficiência."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE SC/2016) O Tribunal de Contas de determinado estado da Federação, ao analisar as contas prestadas anualmente pelo governador do estado, verificou que empresa de publicidade foi contratada, mediante inexigibilidade de licitação, para divulgar ações do governo. Na campanha publicitária promovida pela empresa contratada, constavam nomes, símbolos e imagens que promoviam a figura do governador, que, em razão destes fatos, foi intimado por Whatsapp para apresentar defesa. Na data de visualização da intimação, a referida autoridade encaminhou resposta, via Whatsapp, declarando-se ciente. Ao final do procedimento, o Tribunal de Contas não acolheu a defesa do governador e julgou irregular a prestação de contas. <br>Dado o teor da campanha publicitária, é correto inferir que, na situação, se configurou ofensa aos princípios da impessoalidade e da moralidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O art. 37, caput, da Constituição Federal determina que, entre outros, aplicam-se à administração pública os princípios da impessoalidade e da moralidade. A impessoalidade subdivide-se em várias outras aplicações, como a finalidade pública, a isonomia e a vedação à promoção pessoal. <br>Nesse contexto, o art. 37, § 1º, da Constituição Federal, estabelece que “a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos”. <br>Por conseguinte, o ato infringiu o princípio da impessoalidade. <br>Além disso, também podemos dizer que se trata de um ato imoral, uma vez que se utilizar do aparato do Estado para se promover fere a ética e os bons costumes. Logo, a afirmativa está correta. <br>Vale reforçar: a violação aplica-se mais ao princípio da impessoalidade, mas também podemos dizer que o ato infringiu outros princípios, como a moralidade."
+      },
+      {
+        "pergunta": "(Cebraspe – INSS/2016) Na análise da moralidade administrativa, pressuposto de validade de todo ato da administração pública, é imprescindível avaliar a intenção do agente.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Segundo a Profª. Maria Di Pietro, a imoralidade resulta do próprio objeto do ato, não sendo preciso penetrar na análise da intenção do agente. Assim, um ato pode ser imoral, mesmo que não fosse a intenção do agente cometer qualquer imoralidade. <br>A imoralidade, por conseguinte, ocorre quando o conteúdo do ato é considerado, pelo senso comum, como desonesto, desequilibrado, injusto, não ético. Logo, não é necessário analisar a intenção do agente, mas sim o conteúdo do ato para dizer se ele é imoral."
+      },
+      {
+        "pergunta": "(Cebraspe – INSS/2016) Em decorrência do princípio da impessoalidade, as realizações administrativo-governamentais são imputadas ao ente público e não ao agente político.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A assertiva está correta. Uma das aplicações do princípio da impessoalidade fundamenta a imputação das realizações do governo ao ente público e não aos seus agentes. Por isso, uma autoridade administrativa não pode promover-se pessoalmente às custas da estrutura administrativa, pois as políticas públicas são imputadas ao órgão/entidade e não aos seus agentes."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 8ª R/2016) A respeito dos princípios da administração pública, assinale a opção correta.",
+        "alternativas": [
+        "a) Decorre do princípio da hierarquia uma série de prerrogativas para a administração, aplicando-se esse princípio, inclusive, às funções legislativa e judicial.", 
+        "b) Decorre do princípio da continuidade do serviço público a possibilidade de preencher, mediante institutos como a delegação e a substituição, as funções públicas temporariamente vagas.", 
+        "c) O princípio do controle ou tutela autoriza a administração a realizar controle dos seus atos, podendo anular os ilegais e revogar os inconvenientes ou inoportunos, independentemente de decisão do Poder Judiciário.", 
+        "d) Dado o princípio da autotutela, a administração exerce controle sobre pessoa jurídica por ela instituída, com o objetivo de garantir a observância de suas finalidades institucionais.",
+        "e) Em decorrência do princípio da publicidade, a administração pública deve indicar os fundamentos de fato e de direito de suas decisões."],
+        "correta": "b) Decorre do princípio da continuidade do serviço público a possibilidade de preencher, mediante institutos como a delegação e a substituição, as funções públicas temporariamente vagas.",
+        "explicacao": "a) não é muito comum se falar em princípio da hierarquia. Mesmo assim, a hierarquização é característica da função administrativa. Dessa forma, não há hierarquia no exercício das funções legislativa e judiciária típicas. Por exemplo: não há hierarquia entre um deputado e o presidente da Câmara, mas apenas uma relação funcional; da mesma forma, não há hierarquia entre um juiz e um desembargador – aquele não deve obediência hierárquica a este – ERRADA; <br>b) segundo a Profª. Maria Di Pietro, o princípio da continuidade tem as seguintes consequências: (i) proibição de greve dos servidores públicos (não é uma vedação absoluta); (ii) necessidade de institutos como a suplência, a delegação e a substituição para preencher as funções públicas temporariamente vagas; (iii) impossibilidade, para quem contratada com a Administração, de invocar a cláusula da exceção do contrato não cumprido (também não é uma vedação absoluta); (iv) possibilidade de a Administração utilizar os equipamentos e instalações da empresa com que ela contrata; (v) encampação da concessão de serviço público. Como se vê, a delegação e a substituição encontram respaldo no princípio da continuidade – CORRETA; <br>c) e d) as alternativas inverteram os conceitos. O princípio do controle ou tutela representa a possibilidade de a Administração direta exercer o controle sobre as entidades administrativas, buscando garantir o cumprimento de suas finalidades; por outro lado, o princípio da autotutela permite que a Administração controle seus próprios atos, revogando os inconvenientes e inoportunos e anulando os ilegais, sem necessidade de prévia autorização judicial – ERRADAS; <br>e) indicação dos fundamentos de fato e de direito que levaram à prática de um ato representa o princípio da motivação – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 8ª R/2016) A respeito dos princípios da administração pública, assinale a opção correta.",
+        "alternativas": [
+        "a) Em decorrência do princípio da autotutela, apenas o Poder Judiciário pode revogar atos administrativos.", 
+        "b) O princípio da indisponibilidade do interesse público e o princípio da supremacia do interesse público equivalem-se.", 
+        "c) Estão expressamente previstos na CF o princípio da moralidade e o da eficiência.", 
+        "d) O princípio da legalidade visa garantir a satisfação do interesse público.",
+        "e) A exigência da transparência dos atos administrativos decorre do princípio da eficiência."],
+        "correta": "c) Estão expressamente previstos na CF o princípio da moralidade e o da eficiência.",
+        "explicacao": "a) o Poder Judiciário, no exercício de sua função típica, não pode revogar atos praticados pela Administração, pois não pode exercer o controle de mérito dos atos administrativos. O Judiciário somente pode revogar quando exercer a função administrativa, ou seja, quando estiver atuando como “Administração Pública”. Por isso que se afirma que somente a Administração Pública pode revogar seus atos – ERRADA; <br>b) o princípio da indisponibilidade e o da supremacia tratam de coisas distintas. Aquele representa as sujeições administrativas, enquanto este trata das prerrogativas públicas. Juntos, eles formam os princípios basilares do regime jurídico-administrativo – ERRADA; <br>c) tranquilo! Os princípios da moralidade e da eficiência constam expressamente na Constituição Federal, ajudando a compor o famoso “LIMPE” – CORRETA; <br>d) o princípio que visa a garantir a satisfação do interesse público é o princípio da impessoalidade, mais especificamente na sua aplicação do princípio da finalidade – ERRADA; <br>e) e exigência de transparência decorre do princípio da publicidade – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE PI/2016) Determinada autoridade administrativa deixou de anular ato administrativo ilegal, do qual decorriam efeitos favoráveis para seu destinatário, em razão de ter decorrido mais de cinco anos desde a prática do ato, praticado de boa-fé. <br>Nessa situação hipotética, a atuação da autoridade administrativa está fundada no princípio administrativo da",
+        "alternativas": [
+        "a) tutela.", 
+        "b) moralidade.", 
+        "c) segurança jurídica.", 
+        "d) legalidade.",
+        "e) especialidade."],
+        "correta": "c) segurança jurídica.",
+        "explicacao": "Vamos aproveitar essa questão para relembrar cada um dos princípios mencionados: <br>Tutela: o princípio do controle ou da tutela foi elaborado para assegurar que as entidades da Administração Indireta observem o princípio da especialidade2 . Esse princípio é representado pelo controle da Administração Direta sobre as atividades das entidades administrativas, com o objetivo de garantir a observância de suas finalidades institucionais; 2 Veremos na alternativa E. <br>Moralidade: impõe que o administrador público adote os preceitos éticos, honestes e de boa-fé, que devem estar presentes em sua conduta. Dessa forma, além da legalidade, os atos administrativos devem subordinarse à moralidade administrativa; <br>Segurança Jurídica: tem por objetivo assegurar a estabilidade das relações jurídicas já consolidadas, frente à inevitável evolução do Direito, tanto em nível legislativo quanto jurisprudencial. Trata-se de um princípio com diversas aplicações, como a proteção ao direito adquirido, o ato jurídico perfeito e a coisa julgada. Além disso, é fundamento da prescrição e da decadência, evitando, por exemplo, a aplicação de sanções administrativas vários anos após a ocorrência da irregularidade; <br>Legalidade: constitui uma das garantias principais de respeito aos direitos individuais. Isso ocorre porque a lei, ao mesmo tempo em que os define, estabelece também os limites de atuação administrativa que tenha por objeto a restrição ao exercício de tais direitos em benefício da coletividade; <br>Especialidade: reflete a ideia de descentralização administrativa, em que se criam entidades para o desempenho de finalidades específicas. Decorre, ademais, dos princípios da legalidade e da indisponibilidade do interesse público. Assim, a criação de autarquias, por exemplo, representa este princípio. <br>Agora ficou fácil de responder, não é mesmo? Na situação apresentada, a atuação da autoridade administrativa está fundada no princípio administrativo da segurança jurídica."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE PI/2016) O regime jurídico-administrativo caracteriza-se",
+        "alternativas": [
+        "a) pelas prerrogativas e sujeições a que se submete a administração pública.", 
+        "b) pela prevalência da autonomia da vontade do indivíduo.", 
+        "c) por princípios da teoria geral do direito.", 
+        "d) pela relação de horizontalidade entre o Estado e os administrados.",
+        "e) pela aplicação preponderante de normas do direito privado."],
+        "correta": "a) pelas prerrogativas e sujeições a que se submete a administração pública.",
+        "explicacao": "Questão bem conceitual. Em síntese, o regime jurídico administrativo resume-se em dois aspectos: de um lado, estão as prerrogativas, que representam alguns privilégios para a Administração dentro das relações jurídicas; de outro, encontram-se as sujeições, que são restrições de liberdade de ação para a Administração Pública. Com efeito, essas prerrogativas e sujeições, refletem, respectivamente, os princípios da supremacia do interesse público sobre o privado e da indisponibilidade do interesse público."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE GO/2015) Por força do princípio da legalidade, o administrador público tem sua atuação limitada ao que estabelece a lei, aspecto que o difere do particular, a quem tudo se permite se não houver proibição legal.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "De acordo com o princípio da legalidade, a atuação administrativa deve pautar-se pela lei. Contudo, há diferentes aplicações da legalidade para a Administração e para o particular. Para este, é possível fazer tudo o que não estiver proibido por lei, uma vez que as pessoas em geral se submetem ao princípio da autonomia da vontade. Por outro lado, a Administração só pode fazer aquilo que estiver previsto em lei, ou seja, a sua atuação está limitada ao que prevê a lei."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE GO/2015) Em decorrência do princípio da impessoalidade, previsto expressamente na Constituição Federal, a administração pública deve agir sem discriminações, de modo a atender a todos os administrados e não a certos membros em detrimento de outros.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Em um dos desdobramentos/sentidos do princípio da impessoalidade, a Administração deve atender a todos os administrados sem discriminações. Não se pode favorecer pessoas ou se utilizar de perseguições indevidas, consagrando assim um outro princípio: da igualdade ou isonomia. Ademais, a impessoalidade é um dos princípios que constam expressamente no caput do art. 37 da Constituição Federal."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE GO/2015) O princípio da eficiência está previsto no texto constitucional de forma explícita.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Mais fácil impossível, não é mesmo? Os princípios expressos na CF/88 correspondem ao LIMPE: Legalidade; Impessoalidade; Moralidade; Publicidade; e <u>Eficiência.</u><br>É bastante comum, até mesmo em questões recentes, as bancas questionarem sobre o princípio da eficiência, uma vez que ele é o “mais jovem” princípio constitucional expresso/explícito, pois foi incluído na Constituição pela Emenda Constitucional 19/1998."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE GO/2015) O regime jurídico-administrativo brasileiro está fundamentado em dois princípios dos quais todos os demais decorrem, a saber: o princípio da supremacia do interesse público sobre o privado e o princípio da indisponibilidade do interesse público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A corrente majoritária defende que os dois princípios basilares do regime jurídico-administrativo são o da supremacia do interesse público sobre o privado e o da indisponibilidade do interesse público. Aquele fundamenta as prerrogativas da Administração, ou seja, aqueles poderes que fazem com que a Administração Pública se ponha em superioridade perante o particular em determinadas situações, como ocorre na aplicação de multas, na apreensão de mercadorias, na alteração unilateral de contratos, etc. Por outro lado, a indisponibilidade do interesse público é representada pelas sujeições administrativas, ou seja, aquelas limitações aplicáveis à Administração direcionadas a resguardar o interesse público. Assim, são as sujeições que exigem que a Administração realize licitação para firmar contratos ou faça concursos públicos para escolha de seus servidores."
+      },
+      {
+        "pergunta": "(Cebraspe – MPU/2015) O servidor responsável pela segurança da portaria de um órgão público desentendeu-se com a autoridade superior desse órgão. Para se vingar do servidor, a autoridade determinou que, a partir daquele dia, ele anotasse os dados completos de todas as pessoas que entrassem e saíssem do imóvel. <br>Com referência a essa situação hipotética, julgue o item que se segue. <br>O ato praticado pela autoridade superior, como todos os atos da administração pública, está submetido ao princípio da moralidade, entretanto, considerações de cunho ético não são suficientes para invalidar ato que tenha sido praticado de acordo com o princípio da legalidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Atualmente, entende-se que a moralidade é um princípio autônomo em relação ao princípio da legalidade. Assim, por intermédio da aplicação do princípio da moralidade, é possível anular um ato administrativo que ofenda a ética, a probidade administrativa, o dever de honestidade etc. <br>Nessa linha, quando se fala que um ato ilegal é passível de anulação, o conceito de ilegalidade deve ser amplo, alcançando também os atos que, ainda que praticados dentro da legalidade, mostrem-se imorais. <br>Assim, as considerações de cunho ético são sim suficientes para invalidar um ato administrativo, ainda que praticado de acordo com o princípio da legalidade."
+      },
+      {
+        "pergunta": "(Cebraspe – TCU/2015) O princípio da eficiência, considerado um dos princípios inerentes à administração pública, não consta expressamente na CF.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Conforme eu já mencionei, é comum se questionar se o princípio da eficiência é ou não um princípio expresso na CF, uma vez que ele não constava no texto original da Carta da República. Contudo, a partir da Emenda Constitucional 19/1998 (Emenda da Reforma Administrativa), o princípio da eficiência juntou-se ao da legalidade, impessoalidade, moralidade e publicidade como princípio constitucional expresso."
+      },
+      {
+        "pergunta": "(Cebraspe – FUB/2015) A ação administrativa tendente a beneficiar ou a prejudicar determinada pessoa viola o princípio da isonomia.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Essa questão foi uma pegadinha da banca, com um nível de dificuldade elevado. A ação administrativa busca trazer benefícios para a sociedade, por meio da prestação de serviços públicos e de outras atividades administrativas. Por exemplo, quando uma pessoa busca atendimento em um hospital público e é atendida pelo médico, pode-se dizer que essa pessoa recebeu um benefício do Estado, confere? <br>Da mesma forma, é função do Estado defender o interesse público, ainda que determinadas pessoas sejam prejudicadas com essas medidas. Por exemplo, quando uma empresa é fechada por não atender a normas ambientais, podemos dizer que seus sócios foram prejudicados, no entanto por meio de uma atuação legítima do Estado. <br>Nos dois casos, a pessoa beneficiada (ser atendido em hospital público) e as pessoas prejudicadas (ter a empresa fechada), não houve, em tese, qualquer irregularidade praticada por agentes públicos. <br>Nessa linha, a atuação administrativa gera benefícios e prejuízos, conforme o caso, mas isso muitas vezes ocorre de forma lícita. <br>O que não pode é ocorrer um prejuízo ou um benefício indevido. Por exemplo, contratar uma empresa só porque o dono é um amigo ou financiou a campanha de um político – isso seria um benefício indevido. Ou desapropriar um terreno privado com o objetivo de prejudicar um inimigo do prefeito – isso seria um prejuízo indevido. Nessas duas últimas situações, a ação administrativa beneficiou e prejudicou particulares de forma indevida, violando a isonomia. <br>Portanto, o item está errado pelo seguinte motivo: somente as ações administrativas que beneficiam ou prejudicam indevidamente é que violam o princípio da isonomia; por outro lado, quando o benefício ou prejuízo for praticado de acordo com as normas legais e com o dever do Estado, não haverá qualquer violação ao mencionado princípio."
+      },
+      {
+        "pergunta": "(Cebraspe – FUB/2015) O agente público só poderá agir quando houver lei que autorize a prática de determinado ato.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Essa é a forma da aplicação do princípio da legalidade à Administração Pública. Assim, um agente público somente poderá agir quando houver lei que autorize (ou até mesmo que determine) a prática de determinado ato."
+      },
+      {
+        "pergunta": "(Cebraspe – FUB/2015) Paulo foi aprovado em concurso para analista, que exigia nível superior. Nomeado e empossado, Paulo passou a desempenhar suas funções com aparência de legalidade. Posteriormente, constatou-se que Paulo jamais havia colado grau em instituição de ensino superior, detendo, como titulação máxima, o ensino médio. <br>Considerando essa situação hipotética, julgue o item seguinte. <br>Os atos administrativos praticados por Paulo, embora tenham vícios, podem ser considerados válidos quanto aos efeitos que atinjam terceiros de boa-fé, em atendimento ao princípio da segurança jurídica.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da segurança jurídica tem por objetivo preservar as relações jurídicas já consolidadas. Além disso, tem o objetivo de preservar os direitos daqueles que agiram de boa-fé perante a Administração e que não podem ser prejudicados pela má atuação administrativa. <br>Nessa linha, os efeitos dos atos praticados com aparência de legalidade, mas que posteriormente foram considerados ilegais por algum problema em seus elementos de formação, devem ser preservados quando atingirem terceiros de boa-fé. <br>O principal exemplo é esse que foi dado pela questão, ou seja, os efeitos dos atos administrativos praticados por uma pessoa investida em um cargo público sem preencher os requisitos legais para a posse devem ser preservados quando atingirem terceiros de boa-fé. Por exemplo, imagine que Pedro expediu diversas anuências para entrada de mercadorias importadas no Brasil; quando se constatar a ilegalidade na investidura de Pedro, não fará sentido anular todas as anuências expedidas alegando-se que ela era incompetente para isso, uma vez que não preenchia os requisitos do cargo. Se isso fosse feito, ou seja, se todas as anuências fossem anuladas, as pessoas que importaram o produto de forma regular, sem fazer ideia da situação de Pedro, seriam prejudicadas; da mesma forma, terceiros que adquiriram esses produtos no comércio, e que sequer faziam ideia de toda essa situação, teriam que devolver os produtos que adquiriram licitamente no mercado. Não faria sentido, concorda? <br>Logo, o item está correto, pois ainda que os atos de Pedro contenham vícios, eles podem ser considerados válidos quanto aos efeitos que atinjam terceiros de boa-fé, em respeito ao princípio da segurança jurídica."
+      },
+      {
+        "pergunta": "(Cebraspe – FUB/2015) A proteção da confiança, desdobramento do princípio da segurança jurídica, impede a administração de adotar posturas manifestadamente contraditórias, ou seja, externando posicionamento em determinado sentido, para, em seguida, ignorá-lo, frustrando a expectativa dos cidadãos de boa-fé.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Algumas obras consideram a proteção da confiança ou da confiança legítima como sinônimo da segurança jurídica. Outros, porém, tratam aquele como um desdobramento deste. Independentemente dessas considerações, o fato é que eles possuem sentido próximo, senão idêntico. <br>Nessa linha, esses princípios têm por objetivo preservar as relações jurídicas já consolidadas. Assim, a Administração não pode prejudicar os cidadãos adotando condutas manifestamente contraditórias, ou seja, adotando para cada caso semelhante, condutas opostas. <br>Imagine que uma pessoa faça um pedido de importação de determinado produto, recebendo a autorização da Administração; posteriormente, um outro cidadão realiza investimentos de grande vulto para abrir uma loja e comercializar esse mesmo produto. Contudo, sem qualquer justificativa ou alteração na legislação, a Administração venha a indeferir o pedido de importação. Tal conduta frustraria as expectativas das pessoas, vez que a Administração adotaria condutas contraditórias para casos idênticos"
+      },
+      {
+        "pergunta": "(Cebraspe – FUB/2015) O princípio da segurança jurídica não se sobrepõe ao da legalidade, devendo os atos administrativos praticados em violação à lei, em todo caso, ser anulados, a qualquer tempo.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "De fato, um princípio não se sobrepõe ao outro. Contudo, eles devem ser aplicados em harmonia, de forma que um não aniquile totalmente a aplicação do outro. Dessa forma, em alguns casos, o princípio da segurança jurídica impedirá a anulação de um ato, ainda que ilegal. Isso porque, em determinadas situações, o interesse público será melhor preservado com a manutenção do ato do que com a sua anulação. <br>Um exemplo disso ocorre com a aplicação da prescrição e da decadência. Nessa linha, o art. 54 da Lei 9.784/1999, que regulamenta o processo administrativo na Administração Pública federal, estabelece o prazo de cinco anos para que a Administração venha a anular os atos administrativos dos quais decorram efeitos favoráveis para os destinatários, contados da data em que foram praticados, salvo comprovada máfé. Dessa forma, um ato praticado há mais de cinco anos, dentro das condições previstas na lei, não poderá mais ser anulado pela Administração. <br>Tal situação ocorre porque causaria grave insegurança jurídica a Administração poder anular um ato administrativo após vários anos depois de sua prática, afetando a confiança em relação às situações jurídicas pretéritas. <br>Assim, nem o princípio da legalidade nem da segurança jurídica se sobrepõe um ao outro, o que ocorre a aplicação de cada um em determinada situação."
+      },
+      {
+        "pergunta": "(Cebraspe – IRBr/2015) O princípio da legalidade consiste em estatuir que a regulamentação de determinadas matérias há de fazer-se necessariamente por lei formal, e não por quaisquer outras fontes normativas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O princípio da legalidade determina a submissão à lei, ou seja, significa que a atuação administrativa deve pautar-se segundo a lei, aplicada em sentido amplo, envolvendo a Constituição, as leis em sentido estrito, os regulamentos, etc. <br>Por outro lado, o princípio da reserva legal significa que determinadas matérias devem ser regulamentadas por lei formal, ou seja, não podem ser tratadas por outras fontes normativas. Logo, o item está errado, pois trocou os conceitos."
+      },
+      {
+        "pergunta": "(Cebraspe – TJDFT/2015) <br>I A administração pública não pode atuar com objetivo de prejudicar ou beneficiar pessoas determinadas, nem os seus atos devem ser imputados aos funcionários que os praticam, mas ao órgão da administração pública. <br>II A administração deve agir de modo célere, com o melhor desempenho possível de suas atribuições, visando obter os melhores resultados. <br>No direito administrativo, essas assertivas correspondem, respectivamente, aos princípios da",
+        "alternativas": [
+        "a) supremacia do interesse público sobre o individual e da proporcionalidade.", 
+        "b) legalidade e da eficiência.", 
+        "c) impessoalidade e da razoabilidade.", 
+        "d) impessoalidade e da eficiência.",
+        "e) moralidade e da isonomia."],
+        "correta": "d) impessoalidade e da eficiência.",
+        "explicacao": "O princípio da impessoalidade possui diversas aplicações. Numa delas, determina que a Administração Pública não deve prejudicar ou beneficiar determinadas pessoas. Além disso, significa que os atos administrativos devem ser imputados à Administração e não aos seus agentes. Dessa forma, a propaganda institucional de uma prefeitura municipal deve ter os serviços creditados à prefeitura e não, de forma nominal, ao seu prefeito. Com isso, podemos notar que o item I trata do princípio da impessoalidade. <br>Além disso, a Emenda Constitucional 19/1998 inclui o princípio da eficiência como princípio constitucional expresso, determinando que a Administração seja mais célere, utilizando melhor os recursos públicos para fornecer os serviços com o melhor desempenho e com os melhores resultados. Logo, o item II trata do princípio da eficiência."
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2015) Em um Estado democrático de direito, deve-se assegurar o acesso amplo às informações do Estado, exigindo-se, com amparo no princípio da publicidade, absoluta transparência, sem espaço para excepcionalidades no âmbito interno.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O princípio da publicidade exige uma atuação administrativa transparente, de forma que os cidadãos possam exercer o controle dos recursos públicos e dos atos dos agentes administrativos. Todavia, tal transparência não é absoluta, uma vez que a Constituição Federal preserva o sigilo dos atos quando for imprescindível à segurança da sociedade e do Estado (CF, art. 5º, XXXIII)."
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2015) O princípio da especialidade na administração indireta impõe a necessidade de que conste, na lei de criação da entidade, a atividade a ser exercida de modo descentralizado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O princípio da especialidade é aquele que busca assegurar que as entidades administrativas exercerão às atividades previstas em sua lei de criação ou autorização. Isso porque não pode um agente público, por mero ato administrativo, mudar a finalidade de uma entidade administrativa. Por isso que a lei de criação ou autorização deve definir a finalidade da entidade."
+      },
+      {
         "pergunta": "QUESTÃO V OU F",
         "alternativas": [
         "Certo",
@@ -9692,6 +10416,7 @@
         "explicacao": "XXXX"
       }
     ],
+
 
     "engenhariaDeSoftware": [
       {
