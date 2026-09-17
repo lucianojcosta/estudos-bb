@@ -10634,28 +10634,453 @@
 
 
     "governancaDeTI": [
-      {},
       {
-        "pergunta": "QUESTÃO V OU F",
+        "pergunta": "(CEBRASPE – ANM – 2025) Julgue o item a seguir, relativo ao ITIL v4. <br>A investigação da causa raiz de incidentes para evitar que no futuro aconteçam novamente os mesmos tipos de incidente é de responsabilidade da prática de gerenciamento de problemas.",
         "alternativas": [
         "Certo",
         "Errado"],
-        "correta": "X",
-        "explicacao": "XXX"
+        "correta": "Certo",
+        "explicacao": "Pessoal, essa questão está correta! Na ITIL 4, a prática de Gerenciamento de Problemas tem como objetivo principal identificar e eliminar as causas-raiz de incidentes, evitando que eles ocorram novamente no futuro. Essa prática ajuda a reduzir a frequência e o impacto de incidentes, garantindo uma prestação de serviço mais estável. É isso que a questão trouxe de forma bem direta."
       },
       {
-        "pergunta": "QUESTÃO MÚLTIPLA ALTERNATIVA",
+        "pergunta": "(CEBRASPE – TRF6 – 2025) Em relação a gerenciamento de projetos e gerenciamento de serviços, julgue o item a seguir. <br>O ITIL v4 define uma estrutura de práticas que auxiliam as organizações a fornecerem serviços de TI de qualidade, focando exclusivamente em processos de TI.",
         "alternativas": [
-        "a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
-        "correta": "a) letra A",
-        "explicacao": "XXXX"
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, atenção aqui! A questão está errada porque o ITIL 4 não foca exclusivamente em processos de TI. O ITIL 4 é uma abordagem holística para a gestão de serviços, abrangendo práticas, princípios orientadores, governança, melhoria contínua, cadeia de valor de serviço e as quatro dimensões (Organizações e Pessoas, Informação e Tecnologia, Parceiros e Fornecedores, Fluxos de Valor e Processos). Ele também trata da criação de valor, adaptação ao contexto de negócio e integração de tecnologias emergentes. Portanto, o ITIL 4 não se limita a processos, mas sim oferece uma estrutura flexível para gerenciar serviços de forma ampla."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) A respeito de governança e gestão de TI, julgue o próximo item. <br>No ITIL v4, a responsabilidade por manter um sistema de gerenciamento de configuração (configuration management system) é exclusiva do gerente de mudanças.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, a questão está errada! Vamos revisar: o Sistema de Gerenciamento de Configuração (CMS) é responsabilidade da prática de Gerenciamento de Configuração e Ativo de Serviço. Já o Gerenciamento de Mudanças é uma prática separada, focada em controlar o ciclo de vida de todas as mudanças. O gerente de mudanças não é o responsável exclusivo pelo CMS. Isso está muito claro na ITIL 4: cada prática tem seu foco e seu papel, e misturar as responsabilidades pode gerar confusão."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) Julgue o item seguinte, relativo ao ITIL 4. <br>Em relação à contribuição do fluxo de valor do ITIL 4, a prática de gerenciamento de problemas contribui, especialmente, na cadeia de valor com as atividades de entregar/apoiar, design e transição, obter/construir.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pessoal, essa questão está correta! A prática de Gerenciamento de Problemas contribui para várias atividades na cadeia de valor de serviço, como entregar e apoiar, projetar e transicionar e obter/construir. Isso porque o gerenciamento de problemas está relacionado à identificação, análise e solução de problemas, que impactam tanto na operação quanto no desenvolvimento e design de novos serviços."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) Julgue o item seguinte, relativo ao ITIL 4. <br>O principal objetivo da prática de gerenciamento de mudanças é a definição de metas claras fundamentadas em negócios, garantindo-se, assim, a adequada mudança do serviço tendo como base as metas de negócio da organização.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, a questão está errada! O Gerenciamento de Mudanças tem como propósito maximizar o sucesso das mudanças e minimizar o risco, mas não é o principal objetivo da prática definir metas de negócio. Essa definição de metas claras e fundamentadas no negócio é papel de práticas como Gerenciamento de Nível de Serviço ou Gerenciamento de Portfólio. O foco do Gerenciamento de Mudanças é garantir mudanças seguras, bem-sucedidas e minimamente disruptivas."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) Julgue o item seguinte, relativo ao ITIL 4. <br>As métricas da prática de gestão de problemas podem ajudar o gestor a melhorar a prestação do serviço, compreendendo dados acerca de incidentes como número e impacto de incidentes evitados pela resolução de problemas e número e impacto de incidentes resolvidos com soluções fornecidas pela investigação de problemas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pessoal, questão correta! As métricas são fundamentais na prática de Gerenciamento de Problemas, pois ajudam a avaliar o desempenho, identificar tendências, prevenir a reincidência de incidentes e apoiar a melhoria contínua dos serviços. A questão está muito bem formulada, pois destaca o uso das métricas para entender o impacto dos incidentes evitados e resolvidos."
+      },
+      {
+        "pergunta": "(CEBRASPE – TRT 10 Região – 2025) Julgue o item a seguir, de acordo com a ITIL v4. <br>Outcome é o resultado direto e tangível de um serviço, enquanto output é o impacto duradouro ou benefício que esse resultado gera ao cliente ou à organização ao longo do tempo.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Atenção, turma! A questão está invertida. Na verdade, na ITIL 4, o output é o produto ou serviço entregue – ou seja, o resultado tangível e imediato. Já o outcome é o efeito ou o benefício de longo prazo que esse output gera para o cliente ou para a organização. Exemplo: o relatório entregue (output) pode ajudar a reduzir custos e tomar melhores decisões (outcome). Então, a questão trocou os conceitos e está errada."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) Julgue o item seguinte, relativo ao ITIL 4. <br>O escopo da prática de gerenciamento de incidentes, quando realizado de forma automatizada, deve incluir, na sua fase de diagnóstico, a abertura de chamada para o início de mudanças, com o objetivo de reduzir o impacto dos erros e assim restabelecer o serviço o mais rapidamente possível.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Fiquem atentos! A prática de Gerenciamento de Incidentes tem o objetivo de restaurar o serviço o mais rápido possível, mas não inclui a abertura de mudanças como parte do seu escopo direto. A abertura de uma mudança para corrigir um erro conhecido é algo que ocorre no Gerenciamento de Problemas e no Gerenciamento de Mudanças, não no Gerenciamento de Incidentes. Por isso, a questão está errada."
+      },
+      {
+        "pergunta": "(CEBRASPE – TRT 10 Região – 2025) Julgue o item a seguir, de acordo com a ITIL v4. <br>O gerenciamento e desenvolvimento de software é uma prática geral que visa assegurar que as aplicações atendam aos requisitos de funcionalidade, confiabilidade e conformidade, servindo tanto a usuários internos quanto a externos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Vamos com calma aqui! A questão está errada porque o Gerenciamento e Desenvolvimento de Software é uma prática técnica na ITIL 4, não uma prática geral. Na classificação do ITIL, as práticas são divididas em práticas gerais, práticas de gerenciamento de serviços e práticas técnicas – e o desenvolvimento de software está nas técnicas. Além disso, o foco dessa prática é assegurar que as soluções de software atendam aos requisitos de negócio, mas sempre com alinhamento às necessidades dos usuários."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) Julgue o item seguinte, relativo ao ITIL 4. <br>O escopo da prática de gerenciamento de problemas inclui tanto a identificação e a análise de problemas quanto o controle de erros conhecidos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Olha só, pessoal! Essa está correta! A prática de Gerenciamento de Problemas realmente abrange a identificação e análise das causas de incidentes (os problemas) e o controle de erros conhecidos – que são problemas já identificados, com a causa conhecida, mas que ainda não têm solução definitiva. Ou seja, a prática lida com todo o ciclo de vida dos problemas, ajudando a reduzir a recorrência e o impacto dos incidentes."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) Julgue o item seguinte, relativo ao ITIL 4. <br>No fluxo do tratamento dos incidentes, após o incidente ser resolvido com sucesso, pode-se iniciar a revisão do incidente e(ou) a iniciação da investigação do problema.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Meus caros, essa questão está correta! Após resolver o incidente, o próximo passo pode incluir uma revisão – que é uma análise do que ocorreu, para identificar lições aprendidas – ou até mesmo iniciar a investigação de um problema, caso o incidente tenha uma causa desconhecida que possa se repetir. Isso é uma prática importante para promover a melhoria contínua e evitar reincidências."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) Julgue o item seguinte, relativo ao ITIL 4. <br>No fluxo do tratamento dos incidentes, o agente da central de atendimento realiza a classificação inicial do incidente. Nessa classificação, é possível indicar uma solução previamente definida para o tipo de incidente que estiver sendo tratado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "No fluxo de tratamento de incidentes, o Service Desk (a central de atendimento) registra e classifica o incidente. Quando há soluções já documentadas – as chamadas Soluções Conhecidas ou Workarounds –, o agente pode aplicar diretamente a solução, agilizando o atendimento e minimizando o impacto. Essa é uma prática essencial para aumentar a eficiência da central de serviços. Portanto, questão correta."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUNPRESP-EXE – 2025) Julgue o item seguinte, relativo ao ITIL 4. <br>A prática de gerenciamento de capacidade tem como objetivo garantir que os serviços atinjam os níveis de desempenho para a demanda atual, prescindindo-se da demanda futura.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Essa questão está errada. A prática de Gerenciamento de Capacidade e Desempenho não se limita à demanda atual. Pelo contrário, ela também considera a demanda futura, para que a organização esteja preparada para crescimentos ou mudanças no ambiente de negócio. A ITIL 4 enfatiza a necessidade de planejamento proativo para garantir que os serviços sejam sustentáveis e eficazes a longo prazo."
+      },
+      {
+        "pergunta": "(CEBRASPE – TRF 6ª Região – 2025) Em relação aos modelos e às referências de governança da tecnologia da informação, julgue o item a seguir. <br>No gerenciamento de riscos, que é uma das práticas de gerenciamento de serviços do ITIL, os riscos são devidamente identificados e tratados.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Galera, essa questão está errada. A ITIL 4 tem, sim, uma prática de Gerenciamento de Riscos, mas ela está classificada como uma prática geral de gerenciamento – não é uma prática de gerenciamento de serviços. Cuidado com esses detalhes de classificação, porque eles podem fazer toda a diferença nas provas. Além disso, a ITIL orienta o tratamento de riscos em todas as práticas, mas a prática formal de Gerenciamento de Riscos é que estrutura o processo."
+      },
+      {
+        "pergunta": "(CEBRASPE – TRF 6ª Região – 2025) Em relação aos modelos e às referências de governança da tecnologia da informação, julgue o item a seguir. <br>Otimizar e automatizar é um dos princípios orientadores do ITIL v4.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Vamos revisar juntos: Sim, está correto! \"Otimizar e Automatizar\" é um dos sete princípios orientadores do ITIL 4, que servem como recomendações universais para ajudar as organizações a tomar decisões e adaptar seus processos. Esse princípio reforça a importância de buscar eficiência por meio da simplificação, eliminação de desperdícios e uso de tecnologias para automatizar tarefas repetitivas."
+      },
+      {
+        "pergunta": "(CEBRASPE – TRF 6ª Região – 2025) Em relação aos modelos e às referências de governança da tecnologia da informação, julgue o item a seguir. <br>Dentre as dimensões do ITIL v4, os fluxos de processos e valor referem-se ao relacionamento da organização com outras entidades envolvidas no ciclo de vida dos serviços.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Cuidado aqui, meu povo! A questão está errada porque Fluxos de Valor e Processos são uma dimensão do ITIL 4, sim, mas elas não tratam especificamente do relacionamento com outras entidades. Essa definição está mais ligada à dimensão Parceiros e Fornecedores. A dimensão de Fluxos de Valor e Processos trata de como as partes internas da organização interagem para criar valor. Portanto, questão errada."
+      },
+      {
+        "pergunta": "(CEBRASPE – TRF 6ª Região – 2025) Em relação aos modelos e às referências de governança da tecnologia da informação, julgue o item a seguir. <br.A cadeia de valor de serviço do ITIL v4 é formada pelas práticas, pelos princípios orientadores, pela governança e pela melhoria contínua.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Vamos corrigir isso! A questão está errada. A Cadeia de Valor de Serviço é um componente do Sistema de Valor de Serviço (SVS) da ITIL 4, mas não é formada por todos esses elementos. A Cadeia de Valor é composta por seis atividades principais (Planejar, Melhorar, Engajar, Obter/Construir, Projetar e Transitar, Entregar e Apoiar). Já as práticas, princípios, governança e melhoria contínua são outros componentes do SVS."
+      },
+      {
+        "pergunta": "(CEBRASPE – ANM – 2025) Julgue o item a seguir, relativo ao ITIL v4. <br>Entre as quatro dimensões de gerenciamento de serviços, a gestão financeira está incluída para manutenção dos serviços e alinhada ao negócio da organização.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Essa questão está errada. As quatro dimensões da ITIL 4 são: Organizações e Pessoas, Informação e Tecnologia, Parceiros e Fornecedores e Fluxos de Valor e Processos. A Gestão Financeira não é uma dimensão – ela é uma prática dentro do ITIL 4, pertencente ao grupo de práticas gerais. Fiquem atentos a essa distinção para não confundir dimensões com práticas!"
+      },
+      {
+        "pergunta": "(CEBRASPE – ANM – 2025) Julgue o item a seguir, relativo ao ITIL v4.<br>Obter/construir é uma atividade da cadeia de valor a qual garante que os componentes do serviço estejam disponíveis quando forem necessários.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Queridos alunos, essa está correta! Na Cadeia de Valor de Serviço (SVC) do ITIL 4, a atividade Obter/Construir (Obtain/Build) tem exatamente essa função: garantir que todos os componentes de serviço – como infraestrutura, software, hardware, entre outros – estejam disponíveis quando forem necessários para compor os serviços. É uma das seis atividades principais da cadeia, junto com Planejar, Melhorar, Engajar, Projetar e Transitar, Entregar e Apoiar."
+      },
+      {
+        "pergunta": "(CEBRASPE – TC-DF – 2024) O objetivo da prática específica para gerenciamento de projetos da ITIL v4 é garantir que todos os projetos da organização sejam entregues com sucesso, o qual pode ser alcançado por meio de planejamento, delegação, monitoramento e controle de todos os aspectos de um projeto.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pessoal, a prática de gerenciamento de projetos é a prática que garante que todos os projetos de uma empresa sejam entregues a contento. Ademais, a ITIL diz \"O sucesso do projeto pode ser definido como a entrega de um projeto que atende aos seus objetivos acordados, dentro do prazo, do orçamento e dos requisitos de qualidade.\""
+      },
+      {
+        "pergunta": "(CEBRASPE – MPE RO– 2023) A respeito do ITIL v4, assinale a opção correta.",
+        "alternativas": [
+        "a) No ITIL v4, otimizar e automatizar é uma prática de gerenciamento de serviços.", 
+        "b) O sistema de valor do serviço é um componente chave do ITIL v4.", 
+        "c) As quatro dimensões do gerenciamento de serviços de TI são: organização e pessoas; informação e tecnologia; fluxo de valor e processos; e governança.", 
+        "d) O ITIL v4 agrupa as práticas de gerenciamento em três categorias: desenho de serviço; transição de serviço; e operação de serviço.",
+        "e) No ITIL v4, a função central de serviço é um modelo para criação, entrega e melhoria de produtos e serviços."],
+        "correta": "b) O sistema de valor do serviço é um componente chave do ITIL v4.",
+        "explicacao": "Pessoal, vamos analisar cada item. a) Incorreta. Otimizar e automatizar é um princípio, e não é uma prática específica do ITIL v4. b) Correta! Nosso gabarito, pessoal! O sistema de valor do serviço é um componente chave do ITIL v4, bem no início do capítulo sobre SVS dissemos o seguinte: “o elemento central da ITIL 4 é o Sistema de Valor de Serviços”. c) Incorreta. As quatro dimensões do gerenciamento de serviços de TI no ITIL v4 são: Organizações e pessoas; Informação e tecnologia; Parceiros e fornecedores; Fluxos de valor e processos (ORGA - INFO - PARCE - FLU) d) Incorreta. O ITIL v4 agrupa as práticas de gerenciamento em 3 categorias: gerais, de serviço e técnicas. e) Incorreta. A função central de serviço é ser um ponto único de contato para os usuários de serviços de TI, fornecendo suporte e resolução de problemas, gerenciando incidentes e solicitações de serviço e fornecendo acesso a informações e serviços."
+      },
+      {
+        "pergunta": "(CEBRASPE – MPE RO– 2023) De acordo com o ITIL 4, service provider corresponde",
+        "alternativas": [
+        "a) a uma pessoa ou grupo de pessoas que tem suas próprias funções com respectivas responsabilidades, autoridades e relacionamentos para atingir seus objetivos.", 
+        "b) a uma organização que vende serviços no mercado aberto para outras empresas e para consumidores individuais.", 
+        "c) ao responsável por desempenhar a função de patrocinador quando revisa o acordo de serviço proposto e aprova o custo do contrato conforme negociado.", 
+        "d) a uma pessoa que define os requisitos para um serviço e assume a responsabilidade pelos resultados do consumo do serviço.",
+        "e) ao responsável por desempenhar o papel de cliente quando analisam os requisitos de comunicações móveis dos funcionários da empresa."],
+        "correta": "b) a uma organização que vende serviços no mercado aberto para outras empresas e para consumidores individuais.",
+        "explicacao": "Pessoal, de acordo com o glossário oficial da ITIL 4, service provider corresponde ao papel desempenhado por uma empresa, em um relacionamento de serviço, para fornecimento de serviços aos consumidores. Assim, a alternativa correta é a letra B. Exemplos de service providers: Empresa de TI que fornece suporte técnico a outras empresas; Empresa de telecomunicações que fornece internet e telefonia; Freelancer que fornece serviços de design gráfico; Departamento de TI interno que fornece serviços a outras departamentos da mesma organização."
+      },
+      {
+        "pergunta": "(CEBRASPE – CNMP – 2023) As quatro dimensões do ITIL v4 estão agregadas por um elo central chamado valor, que se refere à entrega de valor dos produtos e serviços ao cliente.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, sim, a afirmação está CORRETA. As quatro dimensões do ITIL v4 se integram em torno do valor como elo central, com o objetivo principal de entregar valor aos clientes através de produtos e serviços. As quatro dimensões do ITIL v4 são: Organizações e pessoas; Informação e tecnologia; Parceiros e fornecedores; Fluxos de valor e processos (ORGA - INFO - PARCE - FLU)"
+      },
+      {
+        "pergunta": "(CEBRASPE – CNMP – 2023) O ITIL v4, apesar de sua prática geral voltada à gestão de serviços, carece de abordagens referentes a tecnologias emergentes, como computação em nuvem, aprendizagem por máquinas e blockchain.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, a questão está errada! A ITIL v4, embora focado na gestão de serviços, não ignora as tecnologias emergentes. Na verdade, a estrutura foi projetada para ser adaptável e flexível, permitindo a integração de novas tecnologias e práticas à medida que surgem. Integrar a novas tecnologias é um dos fundamentos das atualizações dos frameworks! Lembrem-se disso! O ITIL v4 fornece diretrizes específicas para a integração de tecnologias emergentes, como: Computação em nuvem: O \"ITIL Practitioner Guidance: Cloud Management\" oferece orientação sobre a gestão de serviços em nuvem, incluindo SaaS, PaaS e IaaS. Aprendizagem de máquina: O \"ITIL Practitioner Guidance: Artificial Intelligence and Machine Learning\" explora como usar IA e ML para aprimorar a gestão de serviços. Blockchain: O \"ITIL Practitioner Guidance: Blockchain\" fornece insights sobre como a tecnologia blockchain pode ser utilizada na gestão de serviços. Para finalizar, pessoal, o SVS reconhece a importância da tecnologia como um componente relevante na entrega de valor aos clientes. O modelo incentiva a adaptação e adoção de novas tecnologias para aprimorar os serviços. O ITIL v4 promove uma cultura de experimentação e adaptação, incentivando as organizações a explorar e integrar novas tecnologias em seus processos de forma estratégica."
+      },
+      {
+        "pergunta": "(CEBRASPE – SERPRO – 2023) Conforme um dos princípios orientadores do ITIL v4, ao se fazer o design de um novo serviço ou processo, o recomendado é sempre analisar o que já está implementado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Um dos princípios orientadores do ITIL v4 é \"Comece onde você está\", que enfatiza a importância de analisar e aproveitar o que já está implementado ao projetar novos serviços ou processos. Ao seguir este princípio, as organizações podem: Evitar duplicação de esforços: Ao invés de criar algo do zero, a análise do que já existe permite identificar recursos e processos existentes que podem ser reutilizados ou adaptados. Minimizar riscos utilizando a análise de soluções em uso para ajudar a identificar e mitigar riscos potenciais associados à implementação de um novo serviço ou processo. Além de aproveitar o conhecimento e a experiência atuais. O conhecimento e a experiência adquiridos com a implementação e uso de soluções existentes podem ser valiosos para o design de novos serviços ou processos. Por fim, obter retorno sobre investimento (ROI) O aproveitamento do que já está implementado pode ajudar a reduzir custos e otimizar o uso de recursos, aumentando o ROI."
+      },
+      {
+        "pergunta": "(CEBRASPE – SERPRO – 2023) O ITIL v4 não recomenda a utilização do método ágil Lean para viabilizar a transformação digital dos clientes, uma vez que essa versão do ITIL não foca na otimização dos processos que envolvem tarefas repetitivas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, na verdade, o ITIL v4 reconhece o Lean como uma ferramenta para otimizar processos e impulsionar a transformação digital. Portanto, o gabarito é “ERRADO”. O Lean, inclusive, se alinha aos princípios orientadores do ITIL v4, como \"Focar no valor\", \"Começar onde você está\" e \"Melhorar continuamente\". Além disso, Lean visa eliminar desperdícios e otimizar processos, especialmente aqueles que envolvem tarefas repetitivas, o que contribui para a entrega de valor aos clientes. Portanto, ITIL v4 e o Lean não são métodos excludentes, mas sim complementares."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUB – 2023) O sistema de valor do serviço (SVS) é um modelo que representa o modo como todos os componentes e as atividades de uma organização funcionam em conjunto para facilitar a criação de valor.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A afirmação de que o Sistema de Valor do Serviço (SVS) é um modelo que representa o funcionamento conjunto dos componentes e atividades de uma organização para facilitar a criação de valor está correta. O SVS é um componente central do ITIL v4 e fornece uma visão holística da co-criação de valor com as partes interessadas. Ao fornecer uma estrutura holística e flexível, o SVS permite que as organizações co-criem valor com as partes interessadas, se adaptem às mudanças e alcancem a excelência na entrega de serviços."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUB – 2023) As quatro dimensões do gerenciamento de serviço descrevem perspectivas críticas para a promoção eficaz de valor para os clientes, na forma de produtos e serviços.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "As quatro dimensões do ITIL v4 – Organizações e Pessoas, Informação e Tecnologia, Parceiros e Fornecedores, e Fluxos de Valor e Processos (ORGA – INFO – PARCE – FLU) – fornecem uma estrutura abrangente para a entrega de valor aos clientes. As quatro dimensões do gerenciamento de serviço são pilares para a entrega eficaz de valor aos clientes. Ao adotar uma abordagem holística e focada no cliente, as organizações podem otimizar seus processos, fortalecer sua cultura e melhorar continuamente seus serviços."
+      },
+      {
+        "pergunta": "(CEBRASPE – FUB – 2023) As práticas ITIL, os princípios orientadores da ITIL e a governança são componentes do sistema de valor do serviço (SVS) da ITIL.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pessoal, a afirmação está correta. As práticas ITIL, os princípios orientadores da ITIL e a governança são componentes essenciais do Sistema de Valor do Serviço (SVS) da ITIL. Vamos fazer uma mini-revisão?<br><img src='../dados/imgs/questao_governanca_1.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV– 2023) A prática de gerenciamento de projetos da ITIL visa garantir que eles sejam entregues da forma esperada.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pessoal, a ITIL fornece um conjunto de boas práticas para gerenciar projetos de TI de forma eficiente e eficaz, aumentando a probabilidade de sucesso na entrega dos resultados esperados. Vamos fazer uma mini-revisão?<br><img src='../dados/imgs/questao_governanca_2.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV– 2023) A prática de gerenciamento de problema da ITIL visa diminuir o impacto de incidentes mediante a identificação de suas causas e o gerenciamento de soluções de contorno.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pessoal, perfeita questão, não é mesmo? Bem próximo à definição oficial do framework. Vamos revisar?<br><img src='../dados/imgs/questao_governanca_3.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV – 2023) Assim como o COBIT 2019, a ITIL 4 também não possui prática que garanta a uma organização a compreensão e o tratamento eficaz dos riscos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A ITIL 4 e o COBIT 2019 fornecem ferramentas e orientações valiosas para a compreensão e o tratamento eficaz dos riscos. O sucesso no gerenciamento de riscos depende da implementação eficaz das frameworks, além de outros fatores como cultura organizacional, expertise da equipe e adaptação às necessidades específicas da organização.<br><img src='../dados/imgs/questao_governanca_4.png' alt='imagem da questão'>"
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV– 2023) Em relação à ITIL 4, julgue o item a seguir. <br>Na ITIL 4, a prática de gerenciamento da arquitetura destina-se a verificar os níveis de desempenho previstos dos serviços que atendam à demanda futura de maneira eficaz.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "A prática de gerenciamento da arquitetura na ITIL 4 não se destina a verificar os níveis de desempenho previstos dos serviços. Essa responsabilidade pertence à prática de gerenciamento de desempenho dos serviços. A prática de gerenciamento da arquitetura propicia o entendimento de todos os diferentes elementos que compõem uma empresa e do modo como esses elementos se relacionam entre si.",
+        "explicacao": "Errado"
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV– 2023) Em relação à ITIL 4, julgue o item a seguir. <br>O objetivo do tempo de recuperação (OTR) descreve o tempo máximo aceitável que pode decorrer após a interrupção do serviço até que a sua falta cause impacto na organização.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Objetivo do tempo de recuperação é o tempo máximo aceitável que pode decorrer após a interrupção de um serviço até que essa falta da funcionalidade de negócio impacte severamente a organização, de acordo com o glossário ITIL. Portanto, questão corretíssima! Literalidade, pessoal!"
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV– 2023) Em relação à ITIL 4, julgue o item a seguir. <br>A ITIL 4 é baseada em princípios ágeis, logo não há prática específica para análise do negócio que vise definir suas necessidades, pois a análise deve ser realizada a cada entrega, de forma iterativa e incremental, do projeto do serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, dizer que a ITIL 4 não possui uma prática específica para análise de negócios por ser baseada em princípios ágeis é incorreto. A ITIL 4 reconhece a importância da análise de negócios e inclui uma prática específica para ela: Análise de Negócios (Business Analysis): Prática analítica de um negócio ou de algum de seus elementos, que define suas necessidades e recomenda soluções para atendê-las e/ou para resolver o problema de um negócio e criar valor para as partes interessadas. Esse é o erro da questão."
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV– 2023) Em relação à ITIL 4, julgue o item a seguir. <br>Na ITIL 4, um serviço permite a cocriação de valor com a finalidade de obter os resultados desejados pelos clientes, sendo imprescindível que eles gerenciem custos e riscos específicos desse serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O conceito de serviço é: Meio que permite a cocriação de valor ao facilitar a obtenção dos resultados que os clientes desejam, sem que eles precisem gerenciar custos e riscos específicos."
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV– 2023) Considerando a ITIL 4, julgue o item a seguir. <br>A solicitação de um usuário que inicia uma ação de serviço acordada como parte regular da entrega de serviço deve ser gerenciada pela prática de gerenciamento de incidente, de modo que se restaure a operação normal do serviço o mais rápido possível.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, vamos revisar as definições. Gerenciamento de Incidentes é a prática que visa minimizar o impacto negativo de incidentes restaurando a operação normal do serviço o mais rápido possível. Já, requisição de serviço trata-se de uma solicitação de um usuário, ou seu representante autorizado, que inicia uma ação de serviço acordada como parte regular da entrega de serviço. O erro está na afirmação de que uma solicitação de serviço deve ser gerenciada como um incidente. Quando na verdade a solicitação seria gerenciada pela Prática de gerenciamento de requisição de serviço porque trata-se de uma prática que suporta a qualidade acordada de um serviço por meio do tratamento de todas as requisições de serviço predefinidas e iniciadas pelos usuários de maneira eficaz e fácil de usar."
+      },
+      {
+        "pergunta": "(CEBRASPE – DATAPREV– 2023) Considerando a ITIL 4, julgue o item a seguir. <br>A prática de gerenciamento de segurança da informação tem como objetivo principal a elaboração e manutenção da política de segurança da informação da organização.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, a definição da prática de gerenciamento de segurança da informação é que se trata de uma prática de proteção de uma empresa pelo entendimento e gerenciamento dos riscos à confidencialidade, integridade e disponibilidade das informações. Portanto, questão incorreta."
+      },
+      {
+        "pergunta": "(CEBRASPE – POLC AL– 2023) Acerca de gerenciamento de projetos (PMBOK 7), gerenciamento de serviços (ITIL v4) e governança de TI (COBIT 2019), julgue o item seguinte. <br>O grande diferencial do ITIL v4, em relação às demais versões, é basear-se somente na entrega de valor para os clientes, o que otimiza o gerenciamento de serviços de TI na organização.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, embora a entrega de valor para os clientes seja um aspecto central do ITIL 4, há outras diferenças significativas e ampliações de foco em relação às versões anteriores. O ITIL 4 introduz o conceito de um Sistema de Valor de Serviço (SVS), que proporciona uma abordagem holística para a criação, entrega e contínua melhoria de serviços. Além da entrega de valor, o ITIL 4 enfatiza quatro dimensões que devem ser consideradas para garantir uma abordagem balanceada e eficaz ao gerenciamento de serviços: Organizações e Pessoas, Informação e Tecnologia, Parceiros e Fornecedores, e Fluxos de Valor e Processos. Portanto, temos que a ITIL não se baseia SOMENTE na entrega de valor para os clientes."
+      },
+      {
+        "pergunta": "(CEBRASPE – POLC AL– 2023) Acerca de gerenciamento de projetos (PMBOK 7), gerenciamento de serviços (ITIL v4) e governança de TI (COBIT 2019), julgue o item seguinte. <br>O surgimento do ITIL v4 teve como objetivo viabilizar às empresas uma jornada de transformação digital.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Pessoal, corretíssima questão. O surgimento do ITIL v4, de fato, alinha-se ao contexto mais amplo da transformação digital que muitas organizações estão vivendo. Enquanto o foco do ITIL continua sendo o gerenciamento de serviços de TI, a versão 4 foi projetada para ser mais adaptável e flexível, reconhecendo as rápidas mudanças tecnológicas e a necessidade de agilidade nas organizações. Essa versão foi lançada com o objetivo de oferecer um framework que não apenas atendesse às necessidades atuais de gerenciamento de serviços de TI, mas que também preparasse as organizações para os desafios e oportunidades da era digital."
+      },
+      {
+        "pergunta": "(CEBRASPE – PG-DF – 2021) Há gerenciamento de incidentes na ITIL, mas não há processo específico para o gerenciamento de problemas cujo objetivo seja realizar a prevenção proativa da ocorrência de incidentes.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Há sim a prática específica de gerenciamento de problemas. O Gerenciamento de Problemas tem como proposito reduzir a probabilidade e impacto de incidentes identificando suas causas e gerenciando soluções de contorno e erros conhecidos. Portanto questão errada."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) Na ITIL 4, o gerenciamento de incidentes e o gerenciamento de problemas foram unidos em uma única prática que visa restaurar a operação normal do serviço o mais rapidamente possível, juntamente com a descoberta da causa raiz do problema.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Nada disso pessoal, ainda há as duas práticas: gerenciamento de incidentes e o gerenciamento de problemas."
+      },
+      {
+        "pergunta": "(CEBRASPE – CODEVASF – 2021) Em uma reunião estratégica de determinada organização, foram elencadas as necessidades de TI a seguir. <br>I Gerenciar as mudanças, de forma a autorizá-las com o objetivo de maximizar o seu sucesso. <br>II Gerenciar os projetos, planejando-os e coordenando-os para que eles sejam entregues conforme o esperado. <br>III Gerenciar riscos, a fim de que a organização compreenda e realize o seu tratamento eficaz. <br>IV Gerenciar os fornecedores da organização, de modo que eles atendam às necessidades organizacionais com qualidade contínua. <br>Considerando as necessidades apresentadas, julgue o item que se segue, tendo como referência o PMBOK 6.a edição, a ITIL v4 e o COBIT 5. <br>A necessidade II, ainda que verse sobre gerenciamento de projetos, pode ser atendida pela ITIL, uma vez que esta dispõe de prática específica para gerenciamento de projeto, que possibilita que os projetos sejam entregues a contento.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Gerenciamento de Projetos é a prática que garante que todos os projetos de uma organização sejam entregues a contento. Ser entregue a contento significa que será entregue com sucesso, isso inclui: planejar, coordenar e entregar como esperado. Portanto, correta questão!"
+      },
+      {
+        "pergunta": "(CEBRASPE – CODEVASF – 2021) Em uma reunião estratégica de determinada organização, foram elencadas as necessidades de TI a seguir. <br>I Gerenciar as mudanças, de forma a autorizá-las com o objetivo de maximizar o seu sucesso. <br>II Gerenciar os projetos, planejando-os e coordenando-os para que eles sejam entregues conforme o esperado. <br>III Gerenciar riscos, a fim de que a organização compreenda e realize o seu tratamento eficaz. <br>IV Gerenciar os fornecedores da organização, de modo que eles atendam às necessidades organizacionais com qualidade contínua. <br>Considerando as necessidades apresentadas, julgue o item que se segue, tendo como referência o PMBOK 6.a edição, a ITIL v4 e o COBIT 5. <br>A necessidade III pode ser atendida tanto pela ITIL, com a prática de gerenciamento de risco, que visa realizar tratamento eficaz dos riscos, quanto pelo PMBOK, que dispõe de uma área de conhecimento com processos que visam implementar e planejar as respostas aos riscos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Gerenciamento de Riscos é a prática que garante a uma organização a compreensão o tratamento eficaz dos riscos. Risco é definido no glossário da ITIL como um possível evento que pode causar perdas ou danos, ou dificultar o atingimento de objetivos. Quem já estudou o PMBOK sabe que ele possui uma área de conhecimento com processos que visam implementar e planejar as respostas aos riscos."
+      },
+      {
+        "pergunta": "(CEBRASPE – TCE-RJ – 2021) A estrutura da ITIL 4 é composta pelo modelo de quatro dimensões e pelo sistema de valor de serviço; neste, incluem-se a governança e as práticas da ITIL.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A ITIL é baseada em: Sistema de Valor de Serviços (SVS), Modelo Quatro Dimensões, Princípios Orientadores e 34 Práticas de Gerenciamento. A ITIL traz conceitos importantíssimos como Sistema de Valor de Serviço, Cadeia de Valor de Serviço, entre outros que se aplicam a todas as organizações, independentemente de seu tipo ou tecnologias empregadas."
+      },
+      {
+        "pergunta": "(CEBRASPE – TCE-RJ – 2021) A cadeia de valor do serviço, um dos componentes principais da ITIL, pode ser adaptada para gerenciar serviços em organizações onde a tecnologia da informação (TI) é centralizada ou que implementem a abordagem DevOps.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "CVS é sim um dos componentes principais da ITIL – inserida dentro do SVS. É um modelo flexível que define seis atividades principais que podem ser combinadas de várias maneiras, formando vários fluxos de valor. A cadeia de valor do serviço é flexível o suficiente para ser adaptada a várias abordagens, incluindo DevOps e TI centralizada, para atender à necessidade de gerenciamento de serviço multimodal."
+      },
+      {
+        "pergunta": "(CEBRASPE – TCE-RJ – 2021) Quanto ao aspecto de abrangência, de forma similar ao COBIT 5, a ITIL 4 descreve uma abordagem holística no gerenciamento de serviços, nas seguintes dimensões: planejamento e estratégia do serviço; desenho e construção do serviço; entrega e suporte de serviços; monitoramento e melhoria contínua do serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Essa questão cobra exatamente as mudanças trazidas pela ITIL 4. Neste framework não há mais o conceito do ciclo estratégia, desenho, transição, operação e melhoria contínua o que torna a questão correta, embora o trecho inicial (Quanto ao aspecto de abrangência, de forma similar ao COBIT 5, a ITIL 4 descreve uma abordagem holística no gerenciamento de serviços) esteja correto"
+      },
+      {
+        "pergunta": "(CEBRASPE – SEFAZ/CE – 2021) Na ITIL 4, a cadeia de valor de serviço (CVS) é composta por práticas e pelo sistema de valores de serviço (SVS)",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, a questão inverteu os conceitos, na verdade o SVS que é composto por práticas e pela CVS."
+      },
+      {
+        "pergunta": "(CEBRASPE – BANESE – 2021) O sistema de valor do serviço (SVS) considera as dimensões organizações e pessoas; informação e tecnologia; parceiros e fornecedores; e cadeias de valor e processos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "As quatro dimensões são: Organizações e Pessoas; Informação e Tecnologia; Parceiros e Fornecedores; Fluxos de Valor e Processos."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) De acordo com a ITIL 4, informação e tecnologia formam uma perspectiva para a entrega de serviços.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Exatamente pessoal! As quatro dimensões são: Organizações e Pessoas; Informação e Tecnologia; Parceiros e Fornecedores; Fluxos de Valor e Processos."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) O mesmo papel de consumidor de serviços é compartilhado entre consumidor, usuário e patrocinador.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, consumidor é um conceito abrangente que envolve cliente, usuário e patrocinador. Erro sutil na questão."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) A governança é um dos componentes do SVS (service value system) da ITIL 4.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "São elementos do SVS: Princípios orientadores, Governança, cadeia de valor de serviço, Práticas, Melhoria Contínua."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) Em relação à organização do consumidor, o provedor do serviço deve ser uma entidade externa.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A ITIL não diz explicitamente que o provedor do serviço DEVE ser uma entidade externa, mas sim que pode ser INTERNA ou EXTERNA."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) Informação e tecnologia é uma das dimensões do gerenciamento de serviço e inclui os conhecimentos usados para fornecer serviços e as tecnologias usadas para gerenciar todos os aspectos do sistema de valor de serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Inicialmente podemos observar que Informação e Tecnologia é uma das 4 dimensões da ITIL. Informação e Tecnologia: Inclui toda informação e conhecimento técnico necessário para o gerenciamento de serviços. As tecnologias específicas dependem da natureza do serviço sendo oferecido, podendo incluir tecnologias “de ponta” como: Blockchain, Inteligência Artificial, Aprendizado de Máquina, Cloud Computing."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) A prática de gerenciamento de arquitetura tem como objetivo fornecer uma compreensão de todos os diferentes elementos que compõem uma organização, a fim de permitir que a organização gerencie mudanças complexas em uma forma estruturada e ágil.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Gerenciamento de arquitetura é uma prática que propicia o entendimento de todos os diferentes elementos que compõem uma organização e do modo como esses elementos se relacionam entre si. Gerenciamento da Arquitetura está ligado a arquitetura organizacional. Parece até que a banca copiou a definição não é mesmo?"
       }
     ],
-
 
 
     "ingles": [
