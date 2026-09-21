@@ -10418,6 +10418,7 @@
     ],
 
 
+    
     "engenhariaDeSoftware": [
       {
         "pergunta": "(FGV / MPE-MS – 2013) Considerando a caracterização de agilidade e processo de desenvolvimento ágil, segundo Pressman, analise as afirmativas a seguir. <br>I. Um processo ágil de software deve ser incrementalmente adaptável. <br>II. Um processo ágil de software permite que as pessoas e a equipe se moldem a ele com facilidade. <br>III. Os conceitos ágeis são efetivos, pois diminuem a imprevisibilidade sistêmica ao enfatizar entregas em prazos curtos.",
@@ -11079,8 +11080,1071 @@
         "Errado"],
         "correta": "Certo",
         "explicacao": "Gerenciamento de arquitetura é uma prática que propicia o entendimento de todos os diferentes elementos que compõem uma organização e do modo como esses elementos se relacionam entre si. Gerenciamento da Arquitetura está ligado a arquitetura organizacional. Parece até que a banca copiou a definição não é mesmo?"
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) Não há prática específica para gestão de riscos, sendo o gerenciamento de riscos realizado pela prática gerenciamento da segurança.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Eita! Aí não né, CEBRASPE! Nem venha com esse papo! Há sim a prática gerenciamento de riscos na ITIL 4. Gerenciamento de riscos é a prática que garante a uma organização a compreensão o tratamento eficaz dos riscos. Risco é definido no glossário da ITIL como um possível evento que pode causar perdas ou danos, ou dificultar o atingimento de objetivos."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) Um dos objetivos das quatro dimensões do serviço é realizar a análise de negócios e recomendar soluções para se resolver um problema de negócios, visto que não há prática específica com essa finalidade na ITIL 4.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A questão estava indo muito bem até dizer que não há prática específica com essa finalidade na ITIL 4. Análise de negócios é a prática analítica de um negócio ou de algum de seus elementos, que define suas necessidades e recomenda soluções para atendê-las e/ou para resolver o problema de um negócio e criar valor para as partes interessadas. Lembrando que ela está inserida no grupo de gerenciamento de serviços."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) Na ITIL 4, o gerenciamento de incidentes e o gerenciamento de problemas foram unidos em uma única prática que visa restaurar a operação normal do serviço o mais rapidamente possível, juntamente com a descoberta da causa raiz do problema.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Nada disso pessoal, ainda há as duas práticas: gerenciamento de incidentes e o gerenciamento de problemas."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) A ITIL 4 possui prática específica para o gerenciamento de infraestrutura, a qual visa supervisionar as plataformas usadas pela organização, estando preparada para tecnologias como chatbots, inteligência artificial e gerenciamento de dispositivos móveis.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "É isso ai! O propósito do gerenciamento de infraestrutura é supervisionar a infraestrutura e as plataformas usadas por uma organização. Além de permitir a monitoração das soluções de tecnologia disponíveis, incluindo as de terceiros. Infraestrutura de TI são os recursos físicos ou virtuais de tecnologia, tais como Servidores, Storage (armazenamento), Rede, Hardware, Middleware, etc. Podemos incluir aqui no conceito de infraestrutura tecnologias como chatbots, inteligência artificial e gerenciamento de dispositivos móveis."
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) A prática de gerenciamento e desenvolvimento de software na ITIL 4 gerencia a implementação da solução embasada em práticas ágeis, especificamente no Scrum, organizando as entregas por meio de sprints entre uma e quatro semanas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Essa questão tem um peguinha chatinho. A ITIL não é explícita e não cita especificamente Scrum quando aborda práticas ágeis. Por ter extrapolado, a questão está errada!"
+      },
+      {
+        "pergunta": "(CEBRASPE – Ministério da Economia – 2021) Na ITIL 4, os processos de gerenciamento do catálogo de serviços e gerenciamento da demanda fazem parte do estágio denominado estratégia de serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não há o conceito de ciclo de vida – estratégia. A ITIL 4 não aborda mais esse conceito! Cuidado! A ITIL 4 não utiliza mais o conceito de ciclo de vida como estrutura principal. Em vez disso, adota uma abordagem holística e flexível que reconhece a natureza interdependente dos processos de gerenciamento de serviços."
+      },
+      {
+        "pergunta": "(CEBRASPE - PG-DF - 2021) Demandas de baixo risco, como a alteração de senhas em uma estação de trabalho, pode ser consideradas uma requisição de serviço que se enquadra no processo de cumprimento de requisição.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Muitas vezes, há chamados na central de serviços que não são incidentes, mas apenas pedidos de informação ou solicitações do usuário. Para lidar com esse tipo de requisições a ITIL criou o gerenciamento de requisições. O propósito é suportar o nível de qualidade acordado ao lidar com requisições pré-definidas de usuários de uma maneira efetiva e amigável."
+      },
+      {
+        "pergunta": "(CEBRASPE - PG-DF - 2021) A prática gestão de acessos tem a finalidade de garantir a menor interrupção possível do serviço provido no caso de alteração em um ambiente de tecnologia da informação para melhoria dos negócios.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Errado, a questão inverteu o nome da prática. O propósito do gerenciamento de incidentes é minimizar o impacto negativo de incidentes (interrupções), restaurando a operação normal do serviço o mais rápido possível."
+      },
+      {
+        "pergunta": "(CEBRASPE – SEFAZ-AL – 2020) A ITIL não possui processo específico que realize gerenciamento financeiro, da contabilidade ou de cobrança de um provedor de serviço de tecnologia da informação (TI); no entanto, no desenvolvimento do caso de negócio, é viável incluir informações sobre custos e benefícios financeiros acerca dos serviços de TI envolvidos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, viram como o CEBRASPE gosta de dizer que a ITIL não possui a prática X, não possui a prática Y... Por isso é necessário saber os nomes das práticas e o propósito. O propósito do Gerenciamento Financeiro é apoiar as estratégias e planos de gerenciamento de serviços uma organização garantindo que seus recursos e investimentos financeiros estejam sendo usados com eficácia."
+      },
+      {
+        "pergunta": "(CEBRASPE – TJ-PA – 2020) No gerenciamento da estratégia dos serviços da ITIL, é preciso fornecer valor para o cliente na forma de serviços de TI. Na criação de valor de negócio de um serviço de TI, devem-se combinar.",
+        "alternativas": [
+        "a) garantia e utilidade.", 
+        "b) funcionalidade e entrega.", 
+        "c) pessoas e processos.", 
+        "d) provedores de serviço e unidades de serviço compartilhadas.",
+        "e) recursos e habilidades."],
+        "correta": "a) garantia e utilidade.",
+        "explicacao": "Falou em serviço, lembre-se: UTILIDADE E GARANTIA! Valor está intrinsecamente ligado aos conceitos de utilidade e garantia. Esses conceitos definem se o produto ou serviço irá gerar valor e contribuir para entrega de valor aos consumidores."
+      },
+      {
+        "pergunta": "(CEBRASPE – TJ-PA – 2020 – Adaptada) O processo responsável por compartilhar perspectivas, ideias, experiência e informações, assim como por garantir que elas estejam disponíveis no lugar certo e no momento certo, com vistas a apoiar todas as atividades do processo e facilitar a tomada de decisão, é denominado.",
+        "alternativas": [
+        "a) gerenciamento de processos de negócio, tanto na ITIL quanto no COBIT.", 
+        "b) gerenciamento de portfólio, tanto na ITIL quanto no COBIT.", 
+        "c) gerenciamento de conhecimento, na ITIL, e gerenciar o conhecimento, no COBIT.", 
+        "d) gerenciamento de qualidade, na ITIL, e gerenciar a qualidade, no COBIT.",
+        "e) gerenciamento de catálogo, na ITIL, e gerenciar o catálogo, no COBIT."],
+        "correta": "c) gerenciamento de conhecimento, na ITIL, e gerenciar o conhecimento, no COBIT.",
+        "explicacao": "O gerenciamento do conhecimento é uma prática que mantém e aprimora o uso eficaz, eficiente e conveniente da informação e do conhecimento no âmbito de uma organização. Ademais, assegura que os stakeholders têm a informação certa, no formato correto, no nível adequado, e no tempo exato de acordo com a necessidade de cada um. Quem ainda não estudou o COBIT, saiba que se aplica também a ele."
+      },
+      {
+        "pergunta": "(CEBRASPE – TJ-AM – 2019 – Adaptada) O gerenciamento de serviços é padronizado, uma vez que a ITIL é um conjunto de bibliotecas padrão, de modo que, independentemente do tamanho da empresa, a gestão dos serviços de TI deve ser a mesma.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Errado!!! Pessoal, A ITIL é um FRAMEWORK, não é uma METODOLOGIA! Toda questão que disser que é PADRONIZADO, é obrigatório implantar TODAS as práticas e esse tipo de assunto está ERRADO!"
+      },
+      {
+        "pergunta": "(CEBRASPE – TJ-AM – 2019 – Adaptada) Na ITIL, há uma separação clara entre a área de TI e o negócio, o que facilita o processo de gerenciamento de serviços de TI.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Na verdade, há uma separação clara entre governança e gestão no COBIT. Na ITIL não há essa separação.",
+        "explicacao": "Errado"
+      },
+      {
+        "pergunta": "(CEBRASPE – TJ-AM – 2019 – Adaptada) Serviço, para a ITIL, é qualquer forma de entregar valor aos clientes de uma empresa, atribuindo-lhes a propriedade dos custos e riscos específicos, com o intuito de atingir os resultados esperados pelos clientes.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Serviço é o meio que permite a cocriação de valor ao facilitar a obtenção dos resultados que os clientes desejam, sem que eles precisem gerenciar custos e riscos específicos. O erro da questão está em dizer que atribui aos clientes a propriedade dos custos e riscos específicos."
+      },
+      {
+        "pergunta": "(CEBRASPE / TCE-RO – 2019 – Adaptada) O desenvolvimento de sistemas é fortemente apoiado por práticas da ITIL, em especial pelo gerenciamento da configuração. O objetivo principal desse processo é:",
+        "alternativas": [
+        "a) identificar os itens de configuração para entregar os serviços de TI.", 
+        "b) controlar as mudanças.", 
+        "c) dar saída ao sistema de gerenciamento de conhecimento de serviços.", 
+        "d) suportar a transição por meio de planejamento eficaz.",
+        "e) controlar versão de software, hardware e demais itens de infraestrutura."],
+        "correta": "a) identificar os itens de configuração para entregar os serviços de TI.",
+        "explicacao": "O propósito da prática Gerenciamento de configuração é prestar informações confiáveis sobre a configuração de serviços e os itens de configuração que os suportam. Inclui informação sobre o estado dos itens de configuração e os relacionamentos entre eles. <br>Item de configuração é qualquer componente que precise ser gerenciado para entregar um serviço de TI. Já o Sistema de Configuração é um conjunto de ferramentas, dados e informação que é usado para suportar o gerenciamento de configuração. O gerenciamento de configuração tipicamente precisa: Identificar itens de configuração."
+      },
+      {
+        "pergunta": "(CEBRASPE – TJ-AM – 2019 – Adaptada) A utilidade do serviço, na ITIL, está diretamente associada à disponibilidade e à capacidade que o serviço deve possuir ao entregar valor aos clientes por meio dos resultados que eles desejarem.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Utilidade consiste na funcionalidade oferecida por um produto ou serviço para atender a uma necessidade em particular. A utilidade pode ser resumida como \"o que o serviço faz\" e pode ser usada para determinar se ele é \"adequado ao propósito\". Para ter utilidade, um serviço precisa oferecer suporte ao desempenho do consumidor ou remover as restrições do consumidor. Muitos serviços oferecem essas duas opções. Já Garantia consiste na confirmação de que um produto ou serviço atenderá aos requisitos acordados. A garantia pode ser resumida como \"o modo como o serviço funciona\" e pode ser usada para determinar se ele é \"adequado ao uso\". Ela geralmente está relacionada a níveis de serviço alinhados com as necessidades dos consumidores do serviço. Pode estar baseada em um acordo formal ou ser uma imagem de marca ou mensagem de marketing. A garantia, tipicamente, endereça áreas como disponibilidade do serviço, sua capacidade, seus níveis de segurança e sua continuidade. Pode-se afirmar que um serviço oferece um grau aceitável de certeza, ou \"garantia\" quando todas as condições definidas e acordadas são atendidas. Veja que a questão contextualizou Garantia e atribuiu o conceito a utilidade, o que torna a questão errada."
+      },
+      {
+        "pergunta": "(FGV – SEFAZ MT– 2023) De acordo com o ITIL, 4ª edição, a prática de service desk requer uma equipe tangível que",
+        "alternativas": [
+        "a) atue simplesmente em questões técnicas, fomentando condições que podem levar a possíveis falhas ou incidentes.", 
+        "b) possua excelentes habilidades de atendimento ao cliente, como empatia, análise e priorização de incidentes.", 
+        "c) trabalhe fisicamente em um único local para deliberar sobre compra, reutilização, retirada e alienação de ativos.", 
+        "d) seja profundamente técnica e neutra para evitar interferir na forma como o provedor de serviço é percebido pelos clientes.",
+        "e) compreenda os objetivos estratégicos da empresa e crie produtos para o portfólio e utilizáveis pelos clientes."],
+        "correta": "b) possua excelentes habilidades de atendimento ao cliente, como empatia, análise e priorização de incidentes.",
+        "explicacao": "De acordo com o glossário ITIL, service desk nada mais é que o ponto de comunicação entre o provedor de serviço e todos os seus usuários. A prática de central de serviço é definida como uma prática que captura a demanda de resolução de incidentes e requisições de serviço. No contexto da ITIL 4, as habilidades destacadas, como empatia, análise e priorização de incidentes, são essenciais para garantir que o Service Desk possa efetivamente atender, priorizar e resolver incidentes e solicitações. Entretanto, não temos isso de forma escancarada no framework. Os demais itens estão errados. Caso você tenha ficado em dúvida nos demais itens, vamos tentar entender junto comigo porque estão errados. <br>a) Service Desk no ITIL 4 é concebido para ser mais do que apenas um ponto de resolução de questões técnicas; ele visa oferecer suporte abrangente que inclui a gestão de incidentes e solicitações, indo além de apenas tratar questões técnicas. C) Errado porque o Service Desk não é tipicamente encarregado de deliberações sobre gestão de ativos, como compra, reutilização, retirada e alienação. Item D Errado porque enquanto o conhecimento técnico é certamente importante, a prática de Service Desk no ITIL 4 também enfatiza a importância de habilidades interpessoais, como a comunicação eficaz e a empatia, que influenciam diretamente a percepção do cliente sobre o provedor de serviço. Por fim, o item E Errado porque embora o entendimento dos objetivos estratégicos da organização seja valioso, a criação de produtos para o portfólio é geralmente uma responsabilidade fora do escopo direto do Service Desk, envolvendo práticas como gestão de portfólio, por exemplo."
+      },
+      {
+        "pergunta": "(FGV – CGE SC– 2023) No contexto de um ambiente digital em contínua evolução, a integração de princípios ágeis e lean no ITIL 4 apoia as organizações na obtenção de valor empresarial e na gestão da procura dos clientes, ao mesmo tempo que considera os potenciais desafios e implicações para as práticas e cultura de gestão de serviços de TI da organização. Essa integração de princípios ágeis e lean no ITIL 4",
+        "alternativas": [
+        "a) permite às organizações aumentar significativamente o seu lucro em curto prazo.", 
+        "b) garante a eliminação de todos os problemas e falhas no sistema na gestão de serviços de TI.", 
+        "c) é a única forma de as organizações se manterem competitivas no mercado.", 
+        "d) não tem qualquer impacto nas práticas e cultura de gestão de serviços de TI da organização.",
+        "e) permite às organizações reagir rapidamente a mudanças no ambiente digital e ao feedback dos clientes, o que pode aumentar a satisfação dos clientes e a receita empresarial."],
+        "correta": "e) permite às organizações reagir rapidamente a mudanças no ambiente digital e ao feedback dos clientes, o que pode aumentar a satisfação dos clientes e a receita empresarial.",
+        "explicacao": "A alternativa E é a única que identifica a principal vantagem da integração de princípios ágeis e lean no ITIL 4: Agilidade e adaptabilidade: Permite às organizações reagir rapidamente a mudanças no ambiente digital e ao feedback dos clientes, aumentando a satisfação e a receita. <br>As demais alternativas apresentam informações incorretas ou incompletas: <br>a) Lucro em curto prazo: A integração não garante lucro, mas aumenta a probabilidade de alcançar melhores resultados a longo prazo. <br>b) Eliminação de falhas: A integração ajuda a minimizar falhas, mas não as elimina completamente. <br>c) Competitividade: A integração é uma ferramenta importante para a competitividade, mas não a única. <br>d) Impacto nas práticas: A integração exige adaptação das práticas e cultura de gestão de serviços de TI."
+      },
+      {
+        "pergunta": "(FGV – ALEMA– 2023) De acordo com o ITIL 4, a dimensão do gerenciamento de serviço que define as atividades, controles e procedimentos necessários para alcançar os objetivos acordados é a de",
+        "alternativas": [
+        "a) fluxos e processos de valor.", 
+        "b) informação e tecnologia.", 
+        "c) organizações e pessoas.", 
+        "d) parceiros e fornecedores.",
+        "e) riscos e incidentes."],
+        "correta": "a) fluxos e processos de valor.",
+        "explicacao": "A alternativa A, fluxos e processos de valor (a banca fez “uma” tradução de Value streams and processes), é a dimensão do gerenciamento de serviço que define as atividades, controles e procedimentos necessários para alcançar os objetivos acordados, de acordo com o ITIL 4. Segundo o ITIL 4, essa dimensão define as atividades, fluxos de trabalho, controles e procedimentos necessários para atingir os objetivos acordados."
+      },
+      {
+        "pergunta": "(FGV – ALEMA– 2023) Segundo o ITIL 4, uma interrupção não planejada de um serviço ou redução na qualidade de um serviço define",
+        "alternativas": [
+        "a) um erro.", 
+        "b) uma falha.", 
+        "c) um incidente.", 
+        "d) uma obstrução.",
+        "e) uma descontinuidade."],
+        "correta": "c) um incidente.",
+        "explicacao": "Vamos acelerar com TUDO para destruir essa questão GALERA!!! Essa é a CLASSICA! A que caiu na sua prova você sorriu e foi para cima COM TUDO!!! Para quem não sabe ainda, as definições estão abaixo. Entretanto, quando se fala em “interrupção não planejada de um serviço” trata-se de UM INCIDENTE! Marcou e partiu para o abraço! <br>a) um erro: Falha ou vulnerabilidade que pode causar incidentes. <br>b) uma falha: Perda da habilidade de operar de acordo com a especificação ou de entregar a saída ou o resultado necessário. <br>c) um incidente: Interrupção não planejada ou redução na qualidade de um serviço. <br>d) uma obstrução: não definido no glossário ITIL. <br>e) uma descontinuidade: não definido no glossário ITIL."
+      },
+      {
+        "pergunta": "(FGV – DPE RS – 2023) Rafael trabalha em uma empresa de consultoria de Governança de Tecnologia da Informação. Sua empresa está executando o processo de melhoria de serviço do ITIL v.4. O sucesso de uma iniciativa de melhoria depende de uma clara e precisa compreensão do ponto de partida e do impacto da iniciativa. Essa melhoria deve ser pensada como uma jornada do ponto A ao ponto B, de forma a identificar claramente as condições do ponto A. Uma jornada não pode ser mapeada se o ponto de partida não é conhecido. <br>A mensagem chave elencada por Rafael determina que ele está na fase:",
+        "alternativas": [
+        "a) Tome uma atitude", 
+        "b) Como chegamos lá?", 
+        "c) Onde queremos estar?", 
+        "d) Qual é a visão?",
+        "e) Onde estamos agora?"],
+        "correta": "e) Onde estamos agora?",
+        "explicacao": "A alternativa E, Onde estamos agora?, é a fase da mensagem chave que Rafael está na fase de acordo com a descrição do problema: A mensagem de Rafael indica que ele está focado em entender as condições atuais do serviço antes de iniciar a jornada de melhoria. Essa fase é fundamental para identificar os problemas e oportunidades de melhoria, definir as metas e objetivos da iniciativa e desenvolver um plano de ação eficaz. As outras alternativas não correspondem à fase atual de Rafael: <br>a) Tome uma atitude: Refere-se à implementação da solução, que vem após a fase de planejamento. <br>b) Como chegamos lá? Analisa as causas dos problemas, mas não é o foco principal da fase atual. <br>c) Onde queremos estar? Define a visão futura, mas ainda não é o foco de Rafael. <br>d) Qual é a visão? Define a visão geral da iniciativa, mas não é o foco principal da fase atual."
+      },
+      {
+        "pergunta": "(FGV – PGM Niterói– 2023) A PGM de Niterói está buscando a excelência na geração de valor para todas as partes interessadas da organização. Portanto, quer implementar o SVS (Service Value System), de forma a garantir que a organização cocrie continuamente valor com todas as partes interessadas através do uso e gestão de produtos e serviços. Seu foco é permitir à Procuradoria alinhar continuamente suas operações com a direção estratégica definida. Para isso, a implementação deve ser feita pelo componente:",
+        "alternativas": [
+        "a) Governance;", 
+        "b) Continual improvement;", 
+        "c) Service Value Chain;", 
+        "d) Practices;",
+        "e) Guiding principles."],
+        "correta": "c) Service Value Chain;",
+        "explicacao": "A alternativa C, Service Value Chain (SVC), é o componente ideal para a PGM de Niterói implementar o SVS e alcançar seus objetivos. O SVC, ou Cadeia de valor de serviço é o modelo operacional para provedores de serviço que abrange todas as principais atividades necessárias ao gerenciamento eficaz de produtos e serviços. <br>Abaixo a definição das demais alternativas para revisão: <br>a) Governance: Meio pelo qual uma empresa é dirigida e controlada. <br>b) Continual improvement: Prática que alinha as práticas e os serviços de uma empresa com as necessidades de negócio em constante mudança através da identificação e da melhoria contínuas de todos os elementos envolvidos no gerenciamento efetivo de produtos e serviços. <br>d) Practices: Conjunto de recursos organizacionais destinado a executar um trabalho ou atingir um objetivo <br>e) Guiding principles: Recomendações que podem orientar uma empresa em todas as circunstâncias, independente das mudanças em suas metas, estratégias, tipo de trabalho ou estrutura de gerenciamento."
+      },
+      {
+        "pergunta": "(FGV / CGU – 2022) A alta administração da XPTO está implementando o ITIL v4. Para alcançar os resultados e trabalhar de forma mais eficaz, é necessário considerar todas as dimensões do comportamento do ITIL v4, mas, na prática, as organizações muitas vezes se concentram demais em uma área de suas iniciativas e negligenciam as outras. <br>Ao implementar o ITIL v4, a XPTO se preocupou em como as várias partes da organização trabalham de forma integrada e coordenada para habilitar a criação de valor através de produtos e serviços. <br>Com isso, segundo o ITIL v4, a XPTO se concentrou em implementar as dimensões:",
+        "alternativas": [
+        "a) pessoas e tecnologia;", 
+        "b) parceiros e informação;", 
+        "c) fluxo de valor e parceiros", 
+        "d) fluxo de valor e processos;",
+        "e) organizações e tecnologia."],
+        "correta": "d) fluxo de valor e processos;",
+        "explicacao": "Vejamos o que diz a ITIL 4: Fluxos de Valor e Processos definem como as várias partes de uma organização trabalham de uma maneira coordenada e integrada para gerar valor na forma de produtos e serviços. Focam em quais atividades são desempenhadas e como elas estão organizadas. Fluxo de Valor é uma série de passos que a organização segue para criar e entregar produtos e serviços a seus consumidores. Um Processo é uma série de atividades inter-relacionadas que transforma entradas em saídas. Definem uma sequência de ações e suas dependências. Geralmente são detalhados na forma de procedimentos ou práticas. A questão diz que a alta administração da XPTO se preocupou em como as várias partes da organização trabalham de forma integrada e coordenada para habilitar a criação de valor através de produtos e serviços. Veja que está alinhado ao que é apresentado em Fluxos de Valor e Processos, portanto temos nosso gabarito na letra D."
+      },
+      {
+        "pergunta": "(FGV / PC-AM – 2022) Analise as afirmativas abaixo sobre o ITIL 4: <br>I. Um dos princípios norteadores do ITIL 4 é o foco na entrega de valor para as partes interessadas. <br>II. O ITIL 4 reforça a diferença entre incidente e problema, e possui práticas distintas para cada um destes conceitos. <br>III. O ITIL 4 orienta que cada organização deve possuir apenas um único fluxo de valor, composto por várias cadeias de valor de serviço. <br>Está correto apenas o que se afirma em",
+        "alternativas": [
+        "a) I", 
+        "b) II", 
+        "c) III", 
+        "d) I e II",
+        "e) I e III"],
+        "correta": "d) I e II",
+        "explicacao": "O item I está correto, pois os Princípios da ITIL 4 são: Foque no valor; Comece onde você está; Progrida iterativamente com feedback; Colabore e promova a visibilidade; Pense e trabalhe de forma holística; Mantenha a simplicidade e praticidade; Otimize e automatize. O item II também está correto, vejamos as definições e cada prática citada. Gerenciamento de Incidentes: O propósito desta prática é minimizar o impacto negativo de incidentes, restaurando a operação normal do serviço o mais rápido possível. Incidente é uma interrupção não planejada redução na qualidade de um serviço. Já a prática Gerenciamento de Problemas tem o propósito de reduzir a probabilidade e impacto de incidentes identificando suas causas e gerenciando soluções de contorno e erros conhecidos. Essa prática realiza a análise da causa raiz dos incidentes. Por fim, o item III erra ao afirmar que “O ITIL 4 orienta que cada organização deve possuir apenas um único fluxo de valor, composto por várias cadeias de valor de serviço.”, porque é possível ter vários fluxos de valor."
+      },
+      {
+        "pergunta": "(FGV / SEFAZ-AM – 2022) Segundo o ITIL versão 4, o objetivo da prática de gerenciamento de ativos de TI é",
+        "alternativas": [
+        "a) minimizar o impacto dos incidentes de hardware, restaurando a operação normal o mais rápido possível.", 
+        "b) maximizar o número de mudanças bem-sucedidas nos serviços, gerenciando bem o cronograma de mudanças.", 
+        "c) planejar e gerenciar o ciclo de vida completo de todos os ativos de TI para ajudar a organização a controlar custos.", 
+        "d) garantir que os serviços atinjam o desempenho acordado e esperado de maneira econômica.",
+        "e) monitorar a infraestrutura e responder às condições que possam levar a possíveis falhas ou incidentes."],
+        "correta": "c) planejar e gerenciar o ciclo de vida completo de todos os ativos de TI para ajudar a organização a controlar custos.",
+        "explicacao": "Pessoal, vejamos o que trata cada alternativa. A alternativa A se refere à prática Gerenciamento de Incidentes: Minimizar o impacto negativo de incidentes restaurando a operação normal do serviço o mais rápido possível. A alternativa B se refere à prática Controle de Mudanças que garante que os riscos sejam devidamente avaliados, autoriza o prosseguimento das mudanças e gerencia a calendário de mudanças para maximizar o número de mudanças bem-sucedidas de serviços e produtos. A letra C é o nosso gabarito. Veja a definição – Gerenciamento de Ativos de TI: prática que trata do planejamento e gerenciamento do ciclo de vida completo de todos os ativos de TI. A alternativa D apresenta definição Gerenciamento de Capacidade e Desempenho prática que assegura que os serviços alcancem os níveis acordados e esperados de desempenho. Por fim, a letra e está mais ligada à prática Gerenciamento de Infraestrutura e Plataformas que tem como proposito supervisionar a infraestrutura e as plataformas usadas por uma organização."
+      },
+      {
+        "pergunta": "(FGV – TJDFT – 2022) A prática do ITIL versão 4 que tem por objetivo minimizar o impacto negativo de uma interrupção não planejada de um serviço, restaurando a operação normal do serviço o mais rápido possível, é o gerenciamento de:",
+        "alternativas": [
+        "a) ativos;", 
+        "b) configuração;", 
+        "c) incidentes;", 
+        "d) release;",
+        "e) risco."],
+        "correta": "c) incidentes;",
+        "explicacao": "Essa questão é MUITO batida! Quando a banca diz \"minimizar o impacto negativo\" de uma interrupção não planejada de um serviço, \"restaurando a operação normal do serviço o mais rápido possível\" é Gerenciamento de INCIDENTES sem pensar NEM MEIA VEZ! Vejamos a definição dos demais itens. a) Gestão de Ativos de Serviço: Prática que abrange todo o ciclo de vida de um ativo, desde sua aquisição até sua disposição, garantindo a gestão efetiva e eficiente dos ativos de serviço. b) Gerenciamento da Configuração e do Ativo de Serviço: Prática que tem como objetivo manter informações precisas e atualizadas sobre os ativos de serviço e seus relacionamentos, permitindo o gerenciamento efetivo e eficiente dos serviços de TI. d) Gerenciamento de Liberação: Prática que tem como objetivo planejar, programar e controlar a construção, teste e implementação de mudanças para o ambiente de produção, visando garantir que os serviços sejam entregues de forma efetiva e eficiente. e) Gerenciamento de Riscos: Prática que tem como objetivo identificar, avaliar e controlar os riscos relacionados aos serviços de TI, minimizando os impactos negativos no negócio e garantindo a continuidade dos serviços."
+      },
+      {
+        "pergunta": "(FGV – TJDFT – 2022) Segundo o ITIL versão 4, a prática que define metas claras e baseadas no negócio para o desempenho dos serviços, permitindo que a entrega de um serviço seja devidamente avaliada, monitorada e gerenciada com relação a essas metas, é o gerenciamento de:",
+        "alternativas": [
+        "a) capacidade de serviço;", 
+        "b) configuração de serviço;", 
+        "c) continuidade de serviço;", 
+        "d) desempenho de serviço;",
+        "e) nível de serviço."],
+        "correta": "e) nível de serviço.",
+        "explicacao": "Mais uma questão literal! Vejamos as alternativas. a) prática de gerenciamento de desempenho e capacidade: Prática que garante que os serviços alcancem os níveis de desempenho acordados e previstos, atendendo à demanda atual e futura de maneira eficaz em custo. b) prática de gerenciamento de configuração de serviço. Prática que garante que informações precisas e confiáveis sobre a configuração dos serviços e sobre os itens de configuração que suportam os serviços estejam disponíveis quando e onde necessário. c) prática de gerenciamento de continuidade de serviço: Prática que garante que os níveis de disponibilidade e de desempenho dos serviços sejam suficientes em caso de desastre. d) prática de gerenciamento de desempenho e capacidade, na verdade a ITIL 4 uniu Capacidade e desempenho. Por fim, nosso gabarito, e) Nível de Serviço: é a prática que define metas claras e baseadas no negócio para o desempenho dos serviços, permitindo que a entrega de um serviço seja devidamente avaliada, monitorada e gerenciada com relação a essas metas."
+      },
+      {
+        "pergunta": "(FGV – TRT 13ª Região – 2022) De acordo com o ITIL 4, a prática que visa a garantir que a organização tenha a combinação certa de programas, projetos, produtos e serviços para executar a estratégia da organização é o gerenciamento de",
+        "alternativas": [
+        "a) ativos.", 
+        "b) catálogo de serviço.", 
+        "c) configuração.", 
+        "d) portfólio.",
+        "e) release."],
+        "correta": "d) portfólio.",
+        "explicacao": "a) prática de gerenciamento de ativo de TI: Prática de planejamento e gerenciamento do ciclo de vida completo de todos os ativos de TI. <br>b) prática de gerenciamento de catálogo de serviço. Prática que, além de propiciar uma única fonte de informação consistente sobre todos os serviços e as ofertas de serviços, garante que ela esteja disponível para o público-alvo pertinente. <br>c) prática de gerenciamento de configuração de serviço. Prática que garante que informações precisas e confiáveis sobre a configuração dos serviços e sobre os itens de configuração que suportam os serviços estejam disponíveis quando e onde necessário. <br>d) prática de gerenciamento de portfólio: Prática que garante a uma organização a combinação certa de programas, projetos, produtos e serviços para executar sua estratégia dentro de suas restrições de orçamento e de recursos. <br>e) release, trata-se da prática de gerenciamento de liberação: Prática de disponibilizar serviços e características novos e modificados para uso."
+      },
+      {
+        "pergunta": "(FGV – Analista Legislativo – Informática Legislativa -Análise de Sistemas (Senado Federal) /2022) Segundo o livro Operações de Serviço da ITIL®, o Gerenciamento de Problemas é o processo responsável por gerenciar o ciclo de vida de todos os problemas, sendo problema a causa de um ou mais incidentes. <br>Considere que você é o gerente de problemas da Brasil Eventos e precisa justificar a adoção deste processo para seus superiores apresentando a eles os objetivos do processo de Gerenciamento de Problemas. <br>Selecione a opção que apresenta apenas exemplos de objetivos deste processo.",
+        "alternativas": [
+        "a) Eliminar incidentes recorrentes; minimizar o impacto de incidentes que eventualmente não possam ser prevenidos.", 
+        "b) Eliminar incidentes recorrentes; aumentar a visibilidade e comunicação dos incidentes para a equipe de suporte de TI e para o negócio.", 
+        "c) Manter o alinhamento e prioridade dos incidentes com as prioridades do negócio; minimizar o impacto de incidentes que não possam ser prevenidos.", 
+        "d) Aumentar a visibilidade e comunicação dos incidentes para a equipe de suporte de TI e para o negócio; minimizar o impacto de incidentes que não possam ser prevenidos.",
+        "e) Eliminar incidentes recorrentes; manter o alinhamento e prioridade dos incidentes com as prioridades do negócio."],
+        "correta": "a) Eliminar incidentes recorrentes; minimizar o impacto de incidentes que eventualmente não possam ser prevenidos.",
+        "explicacao": "Vamos analisar cada alternativa. a) Eliminar incidentes recorrentes; minimizar o impacto de incidentes que eventualmente não possam ser prevenidos. Está perfeitamente alinhado ao Gerenciamento de Problemas. b) Eliminar incidentes recorrentes; aumentar a visibilidade e comunicação dos incidentes para a equipe de suporte de TI e para o negócio. Pessoal, essa alternativa está incorreta, porque aumentar a visibilidade e comunicação dos incidentes para a equipe de suporte de TI e para o negócio não é um objetivo do Gerenciamento de Problemas. Seria mais adequado dizer que é um objetivo da central de serviços. c) Manter o alinhamento e prioridade dos incidentes com as prioridades do negócio; minimizar o impacto de incidentes que não possam ser prevenidos. Essa alternativa está ligada ao Gerenciamento de Nível de Serviço que tem como objetivo principal garantir que os serviços de TI atendam às necessidades do negócio, definindo e gerenciando acordos de nível de serviço (SLAs) e monitorando o desempenho dos serviços de TI em relação aos objetivos do negócio. d) Aumentar a visibilidade e comunicação dos incidentes para a equipe de suporte de TI e para o negócio; minimizar o impacto de incidentes que não possam ser prevenidos. Novamente, a questão aborda o aumento da visibilidade e comunicação dos incidentes. Pessoal, isso está ligado à Central de Serviços que é o ponto central de contato entre os usuários e a equipe de suporte de TI, e tem como objetivo principal gerenciar o ciclo de vida dos incidentes, garantindo que todos os incidentes sejam registrados, categorizados, priorizados e solucionados de forma eficiente. Além disso, a Central de Serviços é responsável por fornecer informações e suporte aos usuários, aumentando a visibilidade dos incidentes e garantindo uma comunicação eficaz entre a equipe de suporte de TI e o negócio. Por fim, a alternativa e) Eliminar incidentes recorrentes; manter o alinhamento e prioridade dos incidentes com as prioridades do negócio não está ligado ao Gerenciamento de Problemas, mas sim ao Gerenciamento de Incidentes que é o processo responsável por garantir que todos os incidentes sejam registrados, categorizados, priorizados e solucionados de forma eficiente. Durante esse processo, é importante manter a comunicação com o negócio para garantir que a priorização dos incidentes esteja alinhada com as prioridades do negócio e que as necessidades do negócio sejam atendidas. Portanto, a manutenção do alinhamento e prioridade dos incidentes com as prioridades do negócio está relacionada com a fase de Operação de Serviço e com o processo de Gerenciamento de Incidentes na ITIL."
+      },
+      {
+        "pergunta": "(FGV –DPE-RJ – 2019) Em ITIL, o objetivo do gerenciamento de incidentes é restaurar a operação normal do serviço o mais rápido possível. <br>Nesse contexto, uma situação que deveria ser tratada como um incidente é:",
+        "alternativas": [
+        "a) após cinco tentativas de acesso ao sistema, a senha de um usuário foi bloqueada;", 
+        "b) um segmento de rede falhou e o usuário não foi previamente notificado de quaisquer interrupções de serviço;", 
+        "c) um usuário não consegue acessar um serviço após o horário previamente estabelecido;", 
+        "d) o tôner de uma impressora de rede acaba e os usuários direcionam seus trabalhos para a impressora reserva;",
+        "e) o serviço de correio eletrônico é interrompido para manutenção preventiva, conforme notificado previamente aos usuários."],
+        "correta": "b) um segmento de rede falhou e o usuário não foi previamente notificado de quaisquer interrupções de serviço;",
+        "explicacao": "De acordo com o objetivo do gerenciamento de incidentes em ITIL, a situação que deveria ser tratada como um incidente é a opção \"b) um segmento de rede falhou e o usuário não foi previamente notificado de quaisquer interrupções de serviço\". Isso porque a interrupção do serviço de rede é uma falha que afeta a operação normal do serviço e requer uma ação imediata para restaurar o serviço o mais rápido possível. Além disso, o usuário não foi notificado previamente, o que torna a situação ainda mais crítica e urgente."
+      },
+      {
+        "pergunta": "(FGV –Banestes – 2018 – Adaptada) Acerca do ITIL 4, analise as afirmativas a seguir: <br>I. A operação normal de um serviço deve ser restaurada o mais rápido possível, de modo que o impacto seja mínimo, de acordo com o gerenciamento de incidentes. <br>II. Gerenciamento de capacidade é uma das Práticas de Gerenciamento de Serviços; <br>III. Os acordos de níveis de serviço são gerados na prática denominada Gerenciamento de Nível de Serviço. <br>Está correto somente o que se afirma em:",
+        "alternativas": [
+        "a) I;", 
+        "b) II;", 
+        "c) III;", 
+        "d) I e II;",
+        "e) I, II e III."],
+        "correta": "e) I, II e III.",
+        "explicacao": "Pessoal, realizamos a adaptação da questão de forma que ficasse adequada a ITIL 4. A afirmativa I está correta. Em ITIL 4, o objetivo do Gerenciamento de Incidentes é restaurar o serviço o mais rápido possível, minimizando o impacto negativo sobre o negócio. O Gerenciamento de Incidentes é uma prática de gerenciamento de serviços que se concentra em restabelecer a operação normal do serviço o mais rápido possível e reduzir os impactos negativos sobre o negócio. A afirmativa II também está correta. Em ITIL 4, o Gerenciamento de Capacidade é uma das Práticas de Gerenciamento de Serviços, que tem como objetivo garantir que os serviços de TI tenham a capacidade necessária para atender às necessidades do negócio. A prática de Gerenciamento de Capacidade abrange o monitoramento, análise e planejamento da capacidade de todos os recursos de TI, para garantir que os serviços de TI sejam entregues de forma eficiente e eficaz. Por fim, a afirmativa III também é correta. Em ITIL 4, os acordos de níveis de serviço (SLAs) são gerados como parte da Prática de Gerenciamento de Nível de Serviço, que tem como objetivo garantir que os serviços de TI atendam às necessidades e expectativas dos clientes. A prática de Gerenciamento de Nível de Serviço inclui o estabelecimento de acordos de níveis de serviço (SLAs) e a monitoração do desempenho dos serviços para garantir que eles atendam aos padrões acordados. Todos os itens estão corretos, gabarito Letra E."
+      },
+      {
+        "pergunta": "(FGV – COMPESA – 2018 – Adaptada) Incidentes registrados pelo Service Desk devem ser associados a códigos de prioridade que determinam o tempo de solução estimado para a falha reportada. O ITIL sugere a definição de critérios com base no nível de urgência e impacto para que seja definido um modelo de priorização no tratamento dos incidentes. A partir das recomendações do ITIL, assinale a opção que <u>não é</u> um fator que deve ser considerado na definição do critério de prioridade no tratamento de incidentes.",
+        "alternativas": [
+        "a) Possibilidade de solucionar o incidente de forma imediata.", 
+        "b) Geração de risco de vida para uma ou mais pessoas.", 
+        "c) Reputação da companhia sendo afetada.", 
+        "d) Violação de uma exigência regulatória da companhia.",
+        "e) Limitação de acesso à serviços de TI por executivos da companhia."],
+        "correta": "a) Possibilidade de solucionar o incidente de forma imediata.",
+        "explicacao": "A questão menciona a necessidade de selecionar uma opção que NÃO é considerada um fator na definição de critérios de prioridade para o tratamento de incidentes, conforme sugerido pelo ITIL. A alternativa a), \"Possibilidade de solucionar o incidente de forma imediata\", é a que não deve ser considerada na definição do critério de prioridade no tratamento de incidentes. <br>A possibilidade de solucionar o incidente de forma imediata NÃO DEVE SER O FATOR MAIS IMPORTANTE, OU DETERMINANTE na definição da prioridade. Em alguns casos, pode ser mais vantajoso solucionar um incidente com maior impacto, mesmo que isso leve mais tempo, do que solucionar um incidente de menor impacto de forma rápida. Portanto a celeridade, ou seja, solucionar o incidente de forma imediata DENTRE OS ITENS, é a MENOS IMPORTANTE. <br>Embora a resolução rápida de um incidente seja desejável, ela não deve ser o único fator determinante na definição da prioridade. O ITIL 4 recomenda que a priorização seja baseada em dois critérios principais: <br>Nível de urgência: Refere-se à rapidez com que o incidente precisa ser solucionado para evitar impactos negativos no negócio. Nível de impacto: Refere-se à gravidade das consequências do incidente para a organização. <br>As demais alternativas estão corretas. b) Geração de risco de vida para uma ou mais pessoas: Alta urgência e alto impacto. Prioridade máxima. c) Reputação da companhia sendo afetada: Alta urgência e alto impacto. Prioridade alta. d) Violação de uma exigência regulatória da companhia: Alta urgência e alto impacto. Prioridade alta. e) Limitação de acesso à serviços de TI por executivos da companhia: Urgência variável (depende do cargo e função do executivo) e impacto variável (depende da criticidade dos serviços). Prioridade a ser definida de acordo com a análise da urgência e do impacto."
+      },
+      {
+        "pergunta": "(FGV / MPE – BA – 2017 – Adaptada) ITIL é um framework para gerenciamento de serviços de TI utilizado por diversas organizações. De acordo com o ITIL, são Práticas de Gerenciamento Geral:",
+        "alternativas": [
+        "a) Gerenciamento de Estratégia e Gerenciamento de Portfolio;", 
+        "b) Gerenciamento do desempenho e capacidade e Gerenciamento de Fornecedor;", 
+        "c) Controle de mudanças e Gerenciamento do Conhecimento;", 
+        "d) Gerenciamento de Incidentes e Gerenciamento de Acesso;",
+        "e) Gerenciamento de catálogo de serviços e Gerenciamento da Disponibilidade."],
+        "correta": "a) Gerenciamento de Estratégia e Gerenciamento de Portfolio;",
+        "explicacao": "Pessoal, vamos revisar as práticas? Práticas de gerenciamento geral: Gerenciamento da arquitetura; Melhoria contínua; Gerenciamento da segurança da informação; Gerenciamento do conhecimento; Medição e relatórios; Gerenciamento da mudança organizacional; Gerenciamento de portfólio; Gerenciamento de projetos; Gerenciamento de relacionamento; Gerenciamento de riscos; Gerenciamento financeiro de serviços. Pronto! Agora vejamos as Práticas de gerenciamento de serviços: Gerenciamento da disponibilidade; Análise de negócios; Gerenciamento do desempenho e capacidade; Controle de mudanças; Gerenciamento de incidentes; Gerenciamento de ativos de TI; Gerenciamento de eventos e monitoramento; Gerenciamento de problemas; Gerenciamento de liberação; Gerenciamento de catálogo de serviços; Gerenciamento de configuração de serviço. E por fim, Práticas de gerenciamento técnico :Gerenciamento da implantação; Gerenciamento de plataforma e infraestrutura; Gerenciamento e desenvolvimento de software. Portanto, correta letra A: são Práticas de Gerenciamento Geral: Gerenciamento de Estratégia e Gerenciamento de Portfolio. Pessoal, lembrem-se que as práticas de gerenciamento geral fornecem práticas para organização como um todo, já as práticas de serviço são mais voltadas para TI. Tentem fazer essa associação."
+      },
+      {
+        "pergunta": "(FGV / DPE – RJ – 2014) Considere o cenário em que a empresa X tenha um ERP bastante difundido no mercado e em uso por vários clientes e, para prestar suporte a esses clientes, contratou a empresa Y. Dentre os termos do contrato há uma cláusula de que um cliente da empresa X deve ter o seu problema resolvido pela empresa Y, ou encaminhado para outra instância caso o problema não seja trivial, em até 2h. Caso esse tempo não seja atendido, considerando as boas práticas previstas pelo ITIL, é correto afirmar que a empresa Y falhou em atender",
+        "alternativas": [
+        "a) à gerência de capacidade do serviço (service capacity management)", 
+        "b) ao acordo de nível de serviço (service level agreement)", 
+        "c) ao objetivo de manutenção do serviço (service maintenance objective)", 
+        "d) ao plano de melhoria do serviço (service improvement plan)",
+        "e) à análise de falha do serviço (service failure analysis)"],
+        "correta": "b) ao acordo de nível de serviço (service level agreement)",
+        "explicacao": "Pessoal, a questão trata do Acordo de Nível de Serviço (SLA) que é um acordo documentado entre o provedor e o cliente que identifica os serviços entregues e seus respectivos níveis. Exemplos de métricas de acompanhamento para níveis de serviço: Engajamento de Clientes (tempo de uso, taxa de retorno); Satisfação de Clientes; Métricas Operacionais (disponibilidade, tempo para resolver incidentes, tempo de processamento, etc.); Métricas de Negócio (o quão efetivo está sendo o serviço) No caso da questão o ANS tratava do tempo de uso."
+      },
+      {
+        "pergunta": "(FGV / SUDENE – 2013 – Adaptada) Com relação ao modelo de referência ITIL, de Gerenciamento de Serviços de TI, analise as afirmativas a seguir e assinale V para a verdadeira e F para a falsa. <br>( ) O Gerenciamento de Catálogo de Serviço é um banco de dados ou documento estruturado com informações sobre todos os serviços de TI de produção, incluindo aqueles disponíveis para implantação. <br>( ) O Gerenciamento de Problemas previne proativamente a ocorrência de incidentes e minimiza o impacto dos incidentes que não podem ser evitados. <br>( ) O processo de Gerenciamento de Continuidade de Serviço de TI é responsável pela melhoria contínua dos serviços, por meio da identificação e da implementação de melhorias para os serviços de TI que suportam os processos de negócio. <br>As afirmativas são, respectivamente,",
+        "alternativas": [
+        "a) V, V e F.", 
+        "b) F, F e F.", 
+        "c) V, V e V.", 
+        "d) F, F e V.",
+        "e) V, F e F."],
+        "correta": "a) V, V e F.",
+        "explicacao": "De fato, o Gerenciamento de Catálogo de Serviço é a fonte de informação de todos os serviços que estão operando e todos os serviços que estão sendo oferecidos aos clientes e usuários da organização. A ideia central do Catálogo de serviços de uma organização é prover uma fonte única e consistente de informação sobre todos os serviços e garantir a disponibilidade para o público relevante. Já, o Gerenciamento de Problemas tem como propósito reduzir a probabilidade e impacto de incidentes identificando suas causas e gerenciando soluções de contorno e erros conhecidos. Essa prática realiza a análise da causa raiz dos incidentes. Por fim, Gerenciamento da Continuidade do Serviço visa assegurar que a disponibilidade e desempenho do serviço são mantidas em níveis suficientes em caso de desastre. Essa prática lida com eventos de grande impacto. Portanto, temos dois itens corretos, e o último incorreto. Gabarito Letra A."
+      },
+      {
+        "pergunta": "(FGV / SUDENE – 2013 – Adaptada) Com relação ao modelo de referência ITIL v3, de Gerenciamento de Serviços de TI, assinale V para a afirmativa verdadeira e F para a falsa. <br>( ) Controle de Mudanças é a prática responsável por maximizar o número de mudanças de sucesso em serviços, assegurando: Avaliação de riscos; Autorização de mudanças; Agendamento de mudanças. <br>( ) Gerenciamento de Problemas reduz a probabilidade e impacto de incidentes identificando suas causas e gerenciando soluções de contorno e erros conhecidos. Essa prática realiza a análise da causa raiz dos incidentes. <br>( ) A prática Gerenciamento de Nível de Serviço visa definir metas de negócio para os níveis de serviço, e garantir que elas são avaliadas, monitoradas e gerenciadas. <br>As afirmativas são, respectivamente,",
+        "alternativas": [
+        "a) V, F e V.", 
+        "b) F, V e V.", 
+        "c) V, F e F.", 
+        "d) V, V e V.",
+        "e) F, V e F."],
+        "correta": "d) V, V e V.",
+        "explicacao": "Vejamos o que diz cada prática Controle de Mudanças: O controle de mudanças visa maximizar o número de mudanças de sucesso em serviços, assegurando: Avaliação de riscos; Autorização de mudanças; Agendamento de mudanças. A prática Gerenciamento de Problemas, de fato, visa reduzir a probabilidade e impacto de incidentes identificando suas causas e gerenciando soluções de contorno e erros conhecidos. Essa prática realiza a análise da causa raiz dos incidentes, portanto item correto. E por fim, A prática Gerenciamento de Nível de Serviço visa definir metas de negócio para os níveis de serviço, e garantir que elas são avaliadas, monitoradas e gerenciadas. Portanto plenamente em conformidade com a ITIL."
+      },
+      {
+        "pergunta": "(FGV / MPE-MS – 2013 – Adaptada) Com relação a um incidente em um Serviço de TI, analise as afirmativas a seguir. <br>I. A prática de Gerenciamento de Incidente não tem como propósito minimizar o impacto negativo de incidentes, restaurando a operação normal do serviço o mais rápido possível; <br>II. De acordo com a ITIL, os próprios usuários, não podem utilizar a resolução de incidentes utilizando autoajuda; <br>III. Na prática de gestão de incidentes, devem-se resolver apenas os incidentes cuja causa raiz seja identificada",
+        "alternativas": [
+        "a) se somente as afirmativas I e II estiverem incorretas.", 
+        "b) se somente as afirmativas I e III estiverem incorretas.", 
+        "c) se somente as afirmativas II e III estiverem incorretas.", 
+        "d) se somente a afirmativa I estiver incorreta.",
+        "e) se todas as afirmativas estiverem incorretas."],
+        "correta": "e) se todas as afirmativas estiverem incorretas.",
+        "explicacao": "Pessoal, tenham sangue frio para marcar a assertiva “todas as afirmativas estiverem incorretas”. Não foi apenas nessa questão que a FGV colocou esse tipo de assertiva como gabarito. Se você estudou, fez a questão com cuidado e tem certeza da resposta, marque sem medo! Nesse caso, o nosso gabarito é a letra E. vejamos a correção dos itens: A prática de Gerenciamento de Incidente tem (SIM) como propósito minimizar o impacto negativo de incidentes, restaurando a operação normal do serviço o mais rápido possível. Item II: II. De acordo com a ITIL, os próprios usuários, podem (SIM) utilizar a resolução de incidentes utilizando autoajuda. Item III: Na prática de gestão de incidentes, devem-se resolver TODOS os incidentes, e NÃO apenas os incidentes cuja causa raiz seja identificada."
+      },
+      {
+        "pergunta": "(FGV / SENADO – 2012) O Acordo de Nível de Serviço (ANS), também conhecido por sua sigla em inglês SLA (Service Level Agreement), é um documento escrito e firmado entre um Provedor de Serviço e seu(s) Cliente(s) para formalizar um nível de comprometimento de serviço para um determinado serviço. Dentre as alternativas a seguir, assinale a única que é uma cláusula INADEQUADA para constar em um ANS.",
+        "alternativas": [
+        "a) O tempo máximo de resposta a uma determinada consulta não pode exceder 40 segundos.", 
+        "b) A aplicação de cadastramento de fornecedores da organização deverá estar disponível no mínimo em 80% do tempo durante o horário comercial.", 
+        "c) Não poderá haver interrupção de um determinado serviço por mais de 4 horas durante o horário comercial, e nem por mais de 12 horas a qualquer momento em um serviço que funcione ininterruptamente.", 
+        "d) O Provedor de Serviço se compromete a alocar pelo menos 3 técnicos qualificados para responder a qualquer indagação que os usuários de um determinado serviço possam solicitar.",
+        "e) Caso ocorra um desastre nas instalações de TI, o Provedor de Serviço se compromete a providenciar um local e equipamentos alternativos para dar continuidade a um determinado serviço em, no máximo, 24 horas a partir da interrupção do serviço."],
+        "correta": "d) O Provedor de Serviço se compromete a alocar pelo menos 3 técnicos qualificados para responder a qualquer indagação que os usuários de um determinado serviço possam solicitar.",
+        "explicacao": "Um Acordo Nível de Serviço (SLA) documentado entre o provedor e o cliente que identifica os serviços entregues e seus respectivos níveis. Exemplos de métricas de acompanhamento para níveis de serviço: Engajamento de Clientes (tempo de uso, taxa de retorno); Satisfação de Clientes; Métricas Operacionais (disponibilidade, tempo para resolver incidentes, tempo de processamento, etc.); Métricas de Negócio (o quão efetivo está sendo o serviço) Vejamos as alternativas: a letra A é uma Métrica Operacional assim como a letra B, C e E. Por outro lado, a assertiva D não é uma métrica de Acordo Nível de Serviço, sendo, portanto, nosso gabarito."
+      },
+      {
+        "pergunta": "(FCC – COPERGÁS– 2023) A prática Gerenciamento de Implantação da ITIL v4 indica que há várias abordagens distintas que podem ser usadas para a implantação, dentre as quais, encontra-se a Implantação",
+        "alternativas": [
+        "a) Big Bang: componentes novos ou alterados são implantados em todos os destinos ao mesmo tempo. Essa abordagem às vezes é necessária quando as dependências impedem o uso simultâneo de componentes antigos e novos.", 
+        "b) em fase de testes: os componentes novos ou alterados são implantados apenas em parte do ambiente de testes de cada vez. Esta operação é repetida quantas vezes forem necessárias até que a implantação da fase de testes esteja concluída.", 
+        "c) integrada: os componentes são implantados, testados e integrados constantemente, oferecendo oportunidades frequentes para ciclos de feedback dos gestores.", 
+        "d) controlada: o software novo ou alterado é disponibilizado de forma controlada, com base nos privilégios concedidos para os seus usuários.",
+        "e) com backup: é feita uma cópia do atual banco de dados da empresa e os componentes novos ou alterados são implantados apenas neste ambiente, evitando que as operações normais sejam corrompidas."],
+        "correta": "a) Big Bang: componentes novos ou alterados são implantados em todos os destinos ao mesmo tempo. Essa abordagem às vezes é necessária quando as dependências impedem o uso simultâneo de componentes antigos e novos.",
+        "explicacao": "A prática de Gerenciamento de Implantação na ITIL v4 descreve diferentes abordagens para a implementação de mudanças nos sistemas e serviços de uma organização. Entre essas abordagens está a Implantação Big Bang, que envolve a implantação de componentes novos ou alterados em todos os destinos simultaneamente. Isso pode ser necessário quando há dependências entre os componentes antigos e novos que impedem o uso simultâneo. Portanto, o gabarito correto é a letra A."
+      },
+      {
+        "pergunta": "(FCC – TRT 18– 2023) Considere que os técnicos de TI de um Tribunal trabalhem com base na ITIL 4. Em um dia de trabalho, houve estas solicitações: <br>I. Mudar o layout e algumas funcionalidades do website do Tribunal. É uma mudança que estava agendada, já tendo sido avaliada e autorizada após um processo de análise. <br>II. Implementar um patch de segurança após a descoberta de uma vulnerabilidade no firewall do Tribunal. É uma mudança que não estava incluída em um cronograma de mudança e o processo de avaliação e autorização foi acelerado para garantir que pudesse ser implementada rapidamente. <br>III. Atualizar o sistema operacional das máquinas dos funcionários do Tribunal para uma versão recente. É uma mudança que estava pré-autorizada, sendo de baixo risco, documentada e não necessitava de autorização adicional. <br>De acordo com a prática Change Control da ITIL 4, as mudanças I, II e III são, correta e respectivamente, dos tipos:",
+        "alternativas": [
+        "a) Médio risco – Alto risco – Baixo risco.", 
+        "b) Agendada – Crítica – Pré-autorizada.", 
+        "c) Normal – Emergencial – Padrão.", 
+        "d) Agendada – Não agendada – Pré-autorizada.",
+        "e) Padrão – Crítica – Melhoria."],
+        "correta": "c) Normal – Emergencial – Padrão.",
+        "explicacao": "De acordo com a prática Change Control da ITIL 4, as mudanças descritas podem ser classificadas corretamente como: <br>I. Mudar o layout e funcionalidades do website do Tribunal - Tipo Normal (Agendada) <br>II. Implementar um patch de segurança no firewall - Tipo Emergencial (Não agendada) <br>III. Atualizar o sistema operacional das máquinas dos funcionários - Tipo Padrão (Pré-autorizada) <br>Portanto, a sequência correta é: Normal - Emergencial - Padrão. Assim, a alternativa correta é a letra C."
+      },
+      {
+        "pergunta": "(FCC – COPERGÁS– 2023) Ao se comparar a ITIL 4 com a versão mais recente do COBIT (2019), tem-se que:",
+        "alternativas": [
+        "a) A SVS − Service Value Chain (Cadeia de Valor do Serviço) da ITIL possui 6 atividades. <br>O COBIT não possui um modelo comparável à SVS da ITIL.", 
+        "b) A ITIL trabalha com 5 princípios orientadores: Foco no cliente; Entregue valor com frequência; Progrida de forma iterativa com feedback; Colabore e promova a visibilidade; Pense e trabalhe de forma holística. <br>O COBIT foi desenvolvido com base em 3 conjuntos de princípios: princípios do sistema de governança, princípios da estrutura de governança e princípios de gestão.", 
+        "c) A ITIL possui 3 tipos de práticas: Práticas de Gerenciamento Genéricas, Práticas de Gerenciamento de Serviços e Práticas de Gerenciamento de Infraestrutura. <br>O COBIT não possui um modelo comparável às práticas da ITIL.", 
+        "d) A ITIL define 5 dimensões do gerenciamento de serviços: Organizações e pessoas; Informação e tecnologia; Clientes e fornecedores; Fluxos de valor e práticas; Governança e Gestão. <br>O COBIT possui 5 componentes do sistema de governança, que são compatíveis com as 5 dimensões da ITIL: Pessoas e habilidades; Informação; Serviço e Infraestrutura; Processos; Governança e Gestão.",
+        "e) A ITIL possui no total 37 práticas, distribuídas entre os 3 tipos de práticas. <br>O COBIT possui exatos 37 objetivos de governança e gestão, que são equivalentes às 37 práticas da ITIL."],
+        "correta": "a) A SVS − Service Value Chain (Cadeia de Valor do Serviço) da ITIL possui 6 atividades. <br>O COBIT não possui um modelo comparável à SVS da ITIL.",
+        "explicacao": "A comparação entre a ITIL 4 e o COBIT (2019) revela várias diferenças e semelhanças entre os dois frameworks de governança de TI. A alternativa correta é a letra A, pois destaca que a ITIL possui a Service Value Chain (Cadeia de Valor do Serviço) com 6 atividades, enquanto o COBIT não possui um modelo comparável à SVS da ITIL. Essa diferença mostra como os dois frameworks abordam aspectos diferentes do gerenciamento de serviços de TI."
+      },
+      {
+        "pergunta": "(FCC / TJ-MA – 2019 - Adaptada) A Central de Serviços (CS) recebeu as seguintes solicitações: <br>− Substituição do toner da impressora a laser. <br>− Instalação de ferramentas do pacote Microsoft Office, que já são pré-aprovadas, no notebook corporativo. <br>− Dúvidas sobre utilização do sistema de Processo Judicial Eletrônico. <br>− Solicitação do manual para uso do sistema de antivírus. <br>As solicitações acima, de acordo com a ITIL,",
+        "alternativas": [
+        "a) devem ser tratadas pelo processo de Gerenciamento de Incidentes, pois foram recebidas pela Central de Serviços.", 
+        "b) foram recebidas pelo mesmo sistema de registro de incidentes e devem ser fechadas pela CS, mas são tratadas pelo processo de Cumprimento das Requisições.", 
+        "c) como já têm causa-raiz conhecida, devem ser tratadas pelo processo Gerenciamento de Problemas.", 
+        "d) têm necessidade de passar pelo planejamento e aprovação do processo de Gerenciamento de Mudanças.",
+        "e) foram recebidas pelo mesmo sistema de registro de incidentes, mas são tratadas pelo processo de Gerenciamento de Acesso."],
+        "correta": "b) foram recebidas pelo mesmo sistema de registro de incidentes e devem ser fechadas pela CS, mas são tratadas pelo processo de Cumprimento das Requisições.",
+        "explicacao": "Pessoal, vimos nas práticas Gerenciamento de eventos, incidentes e requisições que há diferenças entre elas. No caso da questão, as solicitações são requisições: Dúvida, solicitação de manual, instalação de ferramenta e substituição de toner. Não há um incidente, mas apenas eventos normais. Portanto, foram recebidas pelo mesmo sistema de registro de incidentes e devem ser fechadas pela CS, mas são tratadas pelo processo de Cumprimento das Requisições."
+      },
+      {
+        "pergunta": "(FCC / TRF 4ª. Região – 2019 – Adaptada) Na busca por maior eficiência e eficácia em uma organização que utiliza a ITIL edição 2011, um Analista sugeriu modificar a infraestrutura de um ativo de TI. A permissão para tal modificação deve ser concedida no processo de Gerenciamento.",
+        "alternativas": [
+        "a) da Disponibilidade.", 
+        "b) da Configuração.", 
+        "c) do Nível do Serviço.", 
+        "d) de Incidentes.",
+        "e) de Mudanças."],
+        "correta": "e) de Mudanças.",
+        "explicacao": "O controle de mudanças visa maximizar o número de mudanças de sucesso em serviços, assegurando: Avaliação de riscos; Autorização de mudanças; Agendamento de mudanças."
+      },
+      {
+        "pergunta": "(IBFC – Analista (MGS)/Suporte – 2024) “É um conjunto abrangente de boas práticas e diretrizes para o gerenciamento de serviços de TI, visando aprimorar a eficiência, a qualidade e a entrega de serviços, proporcionando uma abordagem estruturada e alinhada aos objetivos de negócios das organizações. ” Assinale a alternativa correta ao que se refere a frase acima.",
+        "alternativas": [
+        "a) FRAME", 
+        "b) ITIL", 
+        "c) COBIT", 
+        "d) LITIL"],
+        "correta": "b) ITIL",
+        "explicacao": "A frase apresentada descreve claramente o ITIL 4 (Information Technology Infrastructure Library), que é um conjunto de boas práticas reconhecido mundialmente para o Gerenciamento de Serviços de TI. Sua abordagem estruturada busca alinhar os serviços de tecnologia aos objetivos estratégicos das organizações, promovendo eficiência, qualidade e valor agregado aos negócios. Diferentemente de frameworks como COBIT, que foca na governança de TI, ou FRAME, que não é um termo amplamente utilizado no contexto de TI, o ITIL se destaca como a escolha ideal para o gerenciamento de serviços de TI, como descrito na questão. Assim, a alternativa correta é, de fato, a letra B."
+      },
+      {
+        "pergunta": "(IBFC – Analista de Gestão (CET Santos)/TI – 2023) Uma empresa de desenvolvimento de software tem que ter como meta algumas ferramentas de gestão do que produz. O Gerenciamento de Configuração de Software é imprescindível na área. As funções básicas de um sistema que atua nessa gestão têm suas funções básicas, que são: <br>( ) Identificação de Configuração; <br>( ) Controle de Configuração; <br>( ) Auditoria de Configuração; <br>( ) Administração de Estados. <br>Analise as afirmativas acima e dê valores Verdadeiro (V) ou Falso (F) e assinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+        "a) V - V - F - V", 
+        "b) V - V - F - F", 
+        "c) V - V - V - V", 
+        "d) V - V - V – F"],
+        "correta": "c) V - V - V - V",
+        "explicacao": "A questão aborda o Gerenciamento de Configuração de Software (SCM - Software Configuration Management), uma prática essencial para garantir a consistência e rastreabilidade no desenvolvimento e operação de software. As quatro funções citadas no enunciado representam atividades fundamentais desse gerenciamento. Conforme detalhado, Identificação de Configuração refere-se à coleta e organização de informações sobre os componentes do sistema; Controle de Configuração estabelece e mantém uma linha de base para mudanças controladas; Auditoria de Configuração assegura a integridade dos dados e revisa alterações realizadas; e Administração de Estados lida com o gerenciamento das versões e status do software, promovendo rastreamento e controle. Como todas as afirmativas estão corretas, a sequência é V - V - V - V, tornando a alternativa correta a letra C."
+      },
+      {
+        "pergunta": "(IBFC – Analista de Gestão (CET Santos)/TI – 2023) As quatro dimensões preconizadas pelo ITIL 4.0 são:",
+        "alternativas": [
+        "a) Gerenciamento de Disponibilidade; Gerenciamento de Continuidade de Serviço; Gerenciamento de Ativo de TI; Gerenciamento de Nível de Serviço", 
+        "b) Organizações & Pessoas; Informações & Tecnologia; Parceiros & Fornecedores; Fluxos de Valor & Processos", 
+        "c) Gerenciamento da Estratégia; Gerenciamento da Segurança da Informação; Gerenciamento da Mudança Organizacional; Gerenciamento de Projetos", 
+        "d) Gerenciamento de Risco; Gerenciamento do Portfólio; Gerenciamento do Conhecimento; Gerenciamento de Relacionamento"],
+        "correta": "b) Organizações & Pessoas; Informações & Tecnologia; Parceiros & Fornecedores; Fluxos de Valor & Processos",
+        "explicacao": "Questão LINDA!!! A questão trata das quatro dimensões do ITIL 4. Essas dimensões abrangem aspectos que suportam a criação e entrega de valor. São elas: Organizações e Pessoas, que foca na cultura organizacional e competências necessárias; Informações e Tecnologia, que trata dos sistemas e ferramentas que suportam os serviços; Parceiros e Fornecedores, destacando as relações externas e sua contribuição para os serviços; e Fluxos de Valor e Processos, que aborda como as atividades são realizadas para criar valor. Assim, a alternativa correta é B, pois descreve com precisão as dimensões preconizadas pelo ITIL 4. Uma questão excelente que explora a estrutura central do framework!"
+      },
+      {
+        "pergunta": "(IBFC – Analista Técnico (SAEB BA)/Tecnologia da Informação/Suporte – 2023) Sobre o ITIL – “Information Technology Infrastructure Library, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F). <br>( ) É uma biblioteca composta das boas práticas para gerenciamento de serviços de TI. <br>( ) Um dos seus capítulos trata do ciclo de vida dos serviços. <br>( ) Em sua 5ª Edição, foi adicionado o capítulo de gestão financeira dos ativos humanos que compõem a área, incluindo os terceirizados. <br>Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
+        "alternativas": [
+        "a) V - V - F", 
+        "b) V - V - V", 
+        "c) F - V - F", 
+        "d) F - V - V"],
+        "correta": "a) V - V - F",
+        "explicacao": "A questão aborda aspectos importantes sobre o ITIL (Information Technology Infrastructure Library), que é amplamente reconhecido como um conjunto de boas práticas para o Gerenciamento de Serviços de TI. A primeira afirmativa é verdadeira, pois o ITIL é, de fato, uma biblioteca de boas práticas voltada para otimizar a entrega de serviços de TI com foco no valor para o cliente. A segunda também é verdadeira, já que o ITIL inclui a abordagem do ciclo de vida dos serviços em versões anteriores, detalhando desde a estratégia até a melhoria contínua. Contudo, a terceira afirmativa é falsa, não existe a quinta edição de ITIL. Assim, a sequência correta é V - V - F, correspondente à alternativa A."
+      },
+      {
+        "pergunta": "(IBFC – Analista (MGS)/Infraestrutura de TIC – 2023) Avalie as afirmações que seguem com base no princípio da ITIL (Information Technology Infrastructure Library). <br>I. Ela pode ser entendida como um instrumento de desenho, implementação e gestão de processos internos da unidade da tecnologia da informação, reunidas em suas práticas nas organizações. <br>II. Ela propõe realizar a integração entre os produtos ou serviços de tecnologia da informação aos requerimentos de negócio, bem como organizar as atividades de tecnologia da informação em um modelo previamente acordado para identificar os recursos de tecnologia da informação a serem gerenciados e para definir os objetivos de controle a serem considerados. <br>III. Ela é composta por um conjunto das melhores práticas para a definição dos processos necessários ao funcionamento de uma área ou unidade da tecnologia da informação e propõe o seu alinhamento aos negócios ou atividades das organizações, procurando garantir a geração e agregação de valores. <br>Estão corretas as afirmativas:",
+        "alternativas": [
+        "a) II e III apenas", 
+        "b) I e II apenas", 
+        "c) I e III apenas", 
+        "d) I, II e III"],
+        "correta": "c) I e III apenas",
+        "explicacao": "A questão aborda o ITIL (Information Technology Infrastructure Library) e requer a análise de três afirmativas sobre suas características e propósitos. A afirmativa I está correta, pois descreve com precisão o ITIL como um instrumento voltado para o desenho, implementação e gestão de processos internos de TI, otimizando os serviços prestados. A afirmativa II está incorreta, pois a integração entre TI e os requisitos de negócio com foco em Governança de TI e objetivos de controle é uma característica mais associada ao framework COBIT, e não ao ITIL. Já a afirmativa III está correta, pois reflete o papel do ITIL em definir processos baseados em melhores práticas, promovendo o alinhamento entre TI e os negócios para agregar valor. Assim, as afirmações corretas são I e III, e a alternativa certa é a letra C."
+      },
+      {
+        "pergunta": "(IBFC – Analista (MGS)/Infraestrutura de TIC – 2023 – Adaptada) Duas áreas fundamentais na implantação do ITIL numa empresa são o suporte ao serviço (service support) e a entrega do serviço (service delivery). Além destas duas áreas ainda temos no ITIL: <br>I. Gestão da segurança (security management). <br>II. Gestão da comunicação (communication management). <br>III. Gestão do relacionamento (relation management). <br>Estão corretas as afirmativas:",
+        "alternativas": [
+        "a) I, III apenas", 
+        "b) II, III apenas", 
+        "c) I, II e III", 
+        "d) I apenas"],
+        "correta": "c) I, II e III",
+        "explicacao": "A questão aborda os componentes adicionais do ITIL que complementam as duas áreas principais mencionadas, suporte ao serviço (service support) e entrega do serviço (service delivery). De acordo com o ITIL, há outras áreas relevantes que apoiam a implementação eficaz de seus processos: Gestão da Segurança (I): Refere-se à proteção dos ativos de informação, com foco em confidencialidade, integridade e disponibilidade, sendo essencial no ITIL. Gestão da Comunicação (II): Embora menos central, está relacionada à troca de informações eficazes entre partes interessadas e equipes de TI para garantir a clareza e eficiência nos serviços. Gestão do Relacionamento (III): Trata do gerenciamento de interações com clientes e fornecedores para assegurar que os serviços de TI estejam alinhados às expectativas e necessidades de negócios. Como todas as afirmativas apresentadas estão corretas, a resposta é C: I, II, III."
+      },
+      {
+        "pergunta": "(IBFC – Analista (MGS)/Infraestrutura de TIC – 2023) As dimensões do gerenciamento de serviços do ITIL v4 contemplam: <br>I. Organização e pessoas. <br>II. Fluxos de valores e processos. <br>III. Custo de aquisição e total cost ownership. <br>IV. Parceiros e fornecedores. <br>V. Informação e tecnologia. <br>Estão corretas as afirmativas:",
+        "alternativas": [
+        "a) I, II, IV e V apenas", 
+        "b) II, III e V apenas", 
+        "c) I, III e V apenas", 
+        "d) I, II, III, IV e V"],
+        "correta": "a) I, II, IV e V apenas",
+        "explicacao": "A questão aborda as dimensões do gerenciamento de serviços conforme definido no ITIL 4, que são pilares essenciais para criar valor por meio de serviços de TI. As dimensões corretamente descritas pelo ITIL 4 incluem: Organização e Pessoas (I), que abrange aspectos culturais e competências necessárias; Fluxos de Valores e Processos (II), focando na forma como atividades e processos criam valor; Parceiros e Fornecedores (IV), destacando a colaboração externa; e Informação e Tecnologia (V), cobrindo os recursos tecnológicos e dados necessários para os serviços. A afirmativa III, sobre \"Custo de aquisição e total cost ownership\", não é uma dimensão do ITIL 4, mas sim um conceito relacionado à gestão financeira em TI. Portanto, as corretas são I, II, IV e V, e a alternativa correta é a letra A."
+      },
+      {
+        "pergunta": "(IBFC – Analista (MGS)/Infraestrutura de TIC – 2023) Quanto às principais diferenças entre ITIL e COBIT, analise as afirmativas abaixo e assinale a alternativa correta: <br>(1) O COBIT se aproxima mais do gerenciamento de serviços de TI. <br>(2) O ITIL tem mais afinidade com a auditoria de processos e controles.",
+        "alternativas": [
+        "a) As afirmativas (1) e (2) são verdadeiras", 
+        "b) A afirmativa (1) é verdadeira, e a (2) é falsa", 
+        "c) A afirmativa (2) é verdadeira, e a (1) é falsa", 
+        "d) As afirmativas (1) e (2) são falsas"],
+        "correta": "d) As afirmativas (1) e (2) são falsas",
+        "explicacao": "A questão aborda as diferenças entre os frameworks ITIL e COBIT, que possuem propósitos distintos no gerenciamento de TI. O COBIT é um framework voltado para Governança de TI, com foco em controles, auditorias e alinhamento estratégico entre TI e negócios. Já o ITIL é um conjunto de boas práticas que visa ao Gerenciamento de Serviços de TI, com foco na entrega eficiente e no valor agregado aos serviços prestados. Portanto, a afirmativa (1) está errada, pois o COBIT não se aproxima mais do gerenciamento de serviços de TI; essa é a especialidade do ITIL. A afirmativa (2) também é incorreta, pois o ITIL não tem como foco principal auditoria de processos e controles, característica mais associada ao COBIT. Assim, ambas as afirmativas são falsas, e a alternativa correta é a letra D."
+      },
+      {
+        "pergunta": "(IBFC – Analista (MGS)/Infraestrutura de TIC – 2023) Dado os três conceitos básicos sobre o ITIL v4 abaixo, assinale a alternativa que corresponda respectivamente a denominação referente a cada um desses conceitos: <br>1. Acréscimo, modificação ou remoção de qualquer elemento que possa afetar direta ou indiretamente os serviços. <br>2. É uma interrupção não planejada de um serviço de TI ou uma redução da qualidade de um serviço de TI. <br>3. Trata-se de uma chamada para a ação de serviço que tenha sido acordada como parte normal da entrega de serviço.",
+        "alternativas": [
+        "a) 1.INCIDENTE - 2.MUDANÇA - 3.REQUISIÇÃO de SERVIÇO", 
+        "b) 1.MUDANÇA - 2.INCIDENTE - 3.REQUISIÇÃO de SERVIÇO", 
+        "c) 1.INCIDENTE - 2.REQUISIÇÃO de SERVIÇO - 3.MUDANÇA", 
+        "d) 1.MUDANÇA - 2.REQUISIÇÃO de SERVIÇO - 3.INCIDENTE",
+        "e) 1.REQUISIÇÃO de SERVIÇO - 2.INCIDENTE - 3.MUDANÇA"],
+        "correta": "b) 1.MUDANÇA - 2.INCIDENTE - 3.REQUISIÇÃO de SERVIÇO",
+        "explicacao": "A questão aborda conceitos centrais do ITIL v4, essenciais para a gestão eficaz dos serviços de TI. Primeiramente, o Gerenciamento de Mudanças garante que as mudanças em uma organização sejam implementadas de maneira contínua e bem-sucedida visando à obtenção de benefícios duradouros por meio do gerenciamento dos aspectos humanos dessas mudanças, removendo resistências, eliminando impactos adversos e provendo treinamento e conscientização. O Gerenciamento de Incidentes foca em minimizar o impacto negativo de incidentes restaurando a operação normal do serviço o mais rápido possível. Por fim, o Gerenciamento de Requisições de Serviço suporta a qualidade acordada de um serviço por meio do tratamento de todas as requisições de serviço predefinidas e iniciadas pelos usuários de maneira eficaz e fácil de usar.. Com isso, a sequência correta é 1. Mudança, 2. Incidente, 3. Requisição de Serviço, e a alternativa correta reflete esses conceitos conforme descritos no ITIL v4."
+      },
+      {
+        "pergunta": "(FUNDATEC – PROCERGS– 2023) Qual é a diferença entre um incidente e um problema no contexto do ITIL?",
+        "alternativas": [
+        "a) Um incidente é uma interrupção no serviço, enquanto um problema é a causa raiz do incidente.", 
+        "b) Um incidente é uma solicitação de serviço, enquanto um problema é um erro no processo de gerenciamento de serviços.", 
+        "c) Um incidente é um problema de menor impacto, enquanto um problema é um problema mais crítico.", 
+        "d) Um incidente é um evento planejado, enquanto um problema é um evento imprevisto.",
+        "e) Um incidente é um problema de hardware, enquanto um problema é um problema de software."],
+        "correta": "a) Um incidente é uma interrupção no serviço, enquanto um problema é a causa raiz do incidente.",
+        "explicacao": "Vamos à definição? Incidente é a interrupção não planejada ou redução na qualidade de um serviço. Problema é a causa real ou potencial de um ou mais incidentes. Portanto, gabarito letra A. Paolla, qual é a relação entre Incidente e Problema? Vários incidentes podem ter a mesma causa raiz (problema) e a resolução do problema pode prevenir a ocorrência de futuros incidentes. Ao identificar a causa raiz dos incidentes (problemas), as organizações podem prevenir futuros incidentes e melhorar a qualidade dos seus serviços."
+      },
+      {
+        "pergunta": "(FUNDATEC – PROCERGS– 2023) Conforme ITIL V4, uma política/processo de gestão de incidentes pode impactar substancialmente como o usuário percebe o provedor de serviço. Cada incidente deve ser __________ e administrado para garantir que o __________ atenda às expectativas do cliente e usuário. <br>Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.",
+        "alternativas": [
+        "a) armazenado – sistema", 
+        "b) registrado – tempo", 
+        "c) auditado – suporte", 
+        "d) controlado – programa",
+        "e) registrado – suporte"],
+        "correta": "b) registrado – tempo",
+        "explicacao": "A alternativa B, registrado e tempo, preenche as lacunas do trecho de forma correta e consistente com o ITIL V4. Primeiramente, Cada incidente deve ser registrado porque registrar cada incidente é relevante para: documentar o que aconteceu, identificar as causas raízes dos problemas, rastrear o tempo de resolução dos incidentes, e até mesmo atender às expectativas dos clientes e usuários. O ITIL V4 enfatiza a importância do registro de informações como parte da gestão de incidentes. Por fim, os incidentes devem ser administrados para garantir que o tempo atenda às expectativas do cliente e usuário porque o tempo de resposta e resolução de incidentes é um dos principais fatores que influenciam a percepção do usuário sobre o provedor de serviço. O ITIL V4 define métricas de tempo para a gestão de incidentes, como tempo de resposta e tempo de resolução."
+      },
+      {
+        "pergunta": "(FUNDATEC – PROCERGS– 2023) De acordo com ITIL V4, referente à gestão de mudanças da organização, uma boa prática é entender os diferentes públicos que serão afetados pela mudança. Qual das seguintes opções é INCORRETA referente ao que se esperar desse processo?",
+        "alternativas": [
+        "a) Nem todas as pessoas reagem da mesma forma à mudança.", 
+        "b) Nem todas as pessoas são motivadas pelos mesmos objetivos.", 
+        "c) É necessário considerar o aspecto geográfico das pessoas afetadas pela mudança.", 
+        "d) É necessário considerar a história da empresa.",
+        "e) É necessário terceirizar a gestão da mudança para uma empresa especializada."],
+        "correta": "e) É necessário terceirizar a gestão da mudança para uma empresa especializada.",
+        "explicacao": "Vamos analisar cada item. Item a) Correto. As pessoas possuem diferentes níveis de adaptabilidade e receptividade à mudança. É fato. Há aquelas resistentes que temem o novo e podem se opor à mudança. Há os céticos que precisam de mais informações e provas para se convencerem da mudança. Por fim, os entusiastas que abraçam a mudança e se adaptam rapidamente. O item b também está correto. As motivações para a mudança variam entre as pessoas. Há aquelas que buscam por novas oportunidades e desafios, entretanto, há outras que possuem medo de perder o emprego ou status. Além disso, há aquelas que têm expectativa de reconhecimento ou bônus pela adaptação à mudança. O item c também está correto. De fato, é necessário considerar o aspecto geográfico porque localização e cultura podem influenciar a percepção da mudança. Nosso item d também está correto. É necessário considerar a história da empresa. Mudanças anteriores e o histórico da empresa podem influenciar a percepção da mudança. Entretanto, pessoal, o item E está incorreto sendo ele nosso gabarito. A terceirização pode ser uma opção, mas não é “absolutamente necessária”. Então as opções A, B, C e D são boas práticas para entender os diferentes públicos afetados pela mudança, enquanto a opção E é incorreta. A terceirização pode ser uma opção, mas não é uma necessidade."
+      },
+      {
+        "pergunta": "(FUNDATEC – BRDE– 2023) Para apoiar uma abordagem holística ao gerenciamento de serviços, o ITIL4 define quatro dimensões do gerenciamento de serviços que, coletivamente, são essenciais para facilitar a cocriação eficaz e eficiente de valor para os clientes e outras partes interessadas na forma de produtos e serviços. <br>Assinale a alternativa que contém dois conceitos que estejam entre as quatro dimensões do ITIL4.",
+        "alternativas": [
+        "a) Organizações e pessoas – Abordagem holística.", 
+        "b) Parceiros e fornecedores – Gerenciamento de serviços.", 
+        "c) Informação e tecnologia – Fluxos de valor e processos.", 
+        "d) Organizações e pessoas – Gerenciamento de serviços.",
+        "e) Parceiros e fornecedores – Abordagem holística."],
+        "correta": "c) Informação e tecnologia – Fluxos de valor e processos.",
+        "explicacao": "Pessoal, nosso mnemônico: ORGA – INFO – PARCE – FLU. A alternativa correta é a letra C) Informação e tecnologia - Fluxos de valor e processos. <br>Esses dois conceitos fazem parte das quatro dimensões do gerenciamento de serviços no ITIL 4. <br>As dimensões são: <br>Organizações e pessoas <br>Informação e tecnologia <br>Parceiros e fornecedores <br>Fluxos de valor e processos <br>Portanto, a alternativa correta é aquela que inclui dois desses conceitos, sendo a letra C a opção correta."
+      },
+      {
+        "pergunta": "(FUNDATEC – PROCERGS– 2023) Qual das opções abaixo NÃO é uma recomendação comum do ITIL para gerenciar serviços de TI terceirizados?",
+        "alternativas": [
+        "a) Garantir que a equipe de gerenciamento de serviços tenha o conhecimento e as habilidades necessárias para gerenciar serviços terceirizados.", 
+        "b) Estabelecer um acordo de nível de serviço (SLA) detalhado com o provedor de serviços.", 
+        "c) Designar um representante para atuar como ponto de contato entre a organização e o provedor de serviços.", 
+        "d) Manter toda a equipe de gerenciamento de serviços dentro da organização para garantir a continuidade dos serviços.",
+        "e) Monitorar regularmente o desempenho do provedor de serviços para garantir que ele esteja cumprindo os requisitos do SLA."],
+        "correta": "d) Manter toda a equipe de gerenciamento de serviços dentro da organização para garantir a continuidade dos serviços.",
+        "explicacao": "A opção D (\"Manter toda a equipe de gerenciamento de serviços dentro da organização para garantir a continuidade dos serviços.\") é a que NÃO é uma recomendação comum do ITIL para gerenciar serviços de TI terceirizados. O ITIL é uma série de práticas para gerenciamento de serviços de TI que foca no alinhamento dos serviços de TI com as necessidades dos negócios. Vamos analisar por que a opção D é correta (ou seja, porque ela NÃO é uma recomendação do ITIL) e porque as demais estão erradas no contexto dessa questão: <br>a) Garantir que a equipe de gerenciamento de serviços tenha o conhecimento e as habilidades necessárias para gerenciar serviços terceirizados. Esta é de fato uma recomendação do ITIL, pois é fundamental que a equipe responsável pelo gerenciamento de serviços terceirizados possua as competências necessárias para gerenciar efetivamente esses serviços, assegurando que os objetivos de negócio sejam atendidos. <br>b) Estabelecer um acordo de nível de serviço (SLA) detalhado com o provedor de serviços. Esta também é uma prática recomendada pelo ITIL. O SLA define os níveis de serviço esperados, incluindo metas de desempenho e responsabilidades tanto do fornecedor quanto do cliente. Ele é crucial para garantir que haja um entendimento claro das expectativas e dos requisitos de serviço. <br>c) Designar um representante para atuar como ponto de contato entre a organização e o provedor de serviços. Esta recomendação está alinhada com as práticas do ITIL, pois facilita a comunicação e a coordenação entre o cliente e o fornecedor. Ter um ponto de contato claro ajuda a resolver questões e discrepâncias de forma mais eficiente. <br>d) Manter toda a equipe de gerenciamento de serviços dentro da organização para garantir a continuidade dos serviços. Esta opção é incorreta dentro das práticas recomendadas pelo ITIL para gerenciar serviços de TI terceirizados. O ITIL reconhece a importância de trabalhar efetivamente com recursos terceirizados e não preconiza necessariamente que todas as funções de gerenciamento de serviços devam ser mantidas internamente. Em vez disso, o foco está em garantir uma gestão eficaz dos serviços, independentemente de serem executados interna ou externamente. A terceirização é frequentemente utilizada para aproveitar competências especializadas, reduzir custos e melhorar a eficiência, e o ITIL fornece orientações sobre como gerenciar essas relações, não sobre manter todas as operações internamente. <br>e) Monitorar regularmente o desempenho do provedor de serviços para garantir que ele esteja cumprindo os requisitos do SLA. Monitorar o desempenho do provedor é outra prática recomendada pelo ITIL, pois permite à organização assegurar que o fornecedor está cumprindo os compromissos acordados em termos de qualidade, desempenho e entrega de serviços. Isso é fundamental para a gestão eficaz de serviços terceirizados. <br>Portanto, a opção D é a correta porque sugere uma prática que não está alinhada com as recomendações do ITIL para gerenciamento de serviços de TI terceirizados, que é a ideia de manter toda a equipe de gerenciamento de serviços exclusivamente dentro da organização."
+      },
+      {
+        "pergunta": "(FUNDATEC – PROCERGS– 2023) Qual é o papel do Catálogo de Serviços no ITIL?",
+        "alternativas": [
+        "a) Manter um registro de todas as solicitações de serviços.", 
+        "b) Permitir que os usuários solicitem serviços online.", 
+        "c) Fornecer informações sobre os serviços disponíveis.", 
+        "d) Controlar a qualidade dos serviços prestados.",
+        "e) Gerenciar os níveis de serviço acordados."],
+        "correta": "c) Fornecer informações sobre os serviços disponíveis.",
+        "explicacao": "A definição oficial sobre Catálogo de serviço é \"Informações estruturadas sobre todos os serviços e ofertas de serviços de um provedor, que sejam relevantes para um determinado público-alvo\". A opção C (\"Fornecer informações sobre os serviços disponíveis.\") é a correta quando se trata do papel do Catálogo de Serviços no ITIL.<br> O Catálogo de Serviços é uma ferramenta central dentro da estrutura do ITIL, que serve como um diretório de todos os serviços de TI que são oferecidos ao cliente ou estão em desenvolvimento ou manutenção pela organização. Ele desempenha um papel crucial ao fornecer uma compreensão clara e precisa dos serviços disponíveis, incluindo detalhes sobre o que cada serviço oferece, como acessá-los, e possivelmente, os custos associados e os SLAs (Acordos de Nível de Serviço)."
+      },
+      {
+        "pergunta": "(FUNDATEC – BRDE– 2023) Assinale a alternativa que NÃO faz parte da prática Gestão de Incidentes no ITIL v4.",
+        "alternativas": [
+        "a) Tem por objetivo minimizar o impacto negativo de incidentes através da restauração, no menor tempo possível, do serviço nos níveis acordados de operação.", 
+        "b) Orienta que incidentes devam ser registrados, priorizados e gerenciados de modo a atender expectativas de usuários/clientes. O tempo de resolução deve estar entre as expectativas pré-acordadas.", 
+        "c) Recomenda usar uma base de dados que permita, com base em problemas/incidentes registrados no passado ou problemas já conhecidos, identificar mais rapidamente soluções temporárias ou definitivas para a resolução do incidente.", 
+        "d) Envolve investigar a causa raiz de incidentes frequentes ou críticos, visando evitá-los no futuro.",
+        "e) Propõe criar modelos (ou templates) de incidentes com o objetivo que os mesmos sejam resolvidos de forma mais eficiente, através da definição dos passos a serem seguidos, responsabilidades, precauções a serem tomadas antes da resolução do incidente, entre outros."],
+        "correta": "a) letra A",
+        "explicacao": "A alternativa D (\"Envolve investigar a causa raiz de incidentes frequentes ou críticos, visando evitá-los no futuro.\") é a que NÃO faz parte da prática de Gestão de Incidentes no ITIL v4, e sim está mais alinhada com a prática de Gestão de Problemas. <br>A Gestão de Incidentes no ITIL v4 tem como foco a restauração rápida dos serviços de TI após um incidente, minimizando o impacto negativo na operação dos negócios e na experiência do usuário, sem necessariamente resolver a causa raiz do problema. Enquanto isso, a investigação da causa raiz é uma atividade central da Gestão de Problemas, cujo objetivo é evitar a recorrência de incidentes eliminando suas causas fundamentais. <br>Vamos revisar as demais opções para entender seus papéis dentro da Gestão de Incidentes: <br>a) Tem por objetivo minimizar o impacto negativo de incidentes através da restauração, no menor tempo possível, do serviço nos níveis acordados de operação. Esta afirmação descreve corretamente um dos principais objetivos da Gestão de Incidentes, focando na rápida restauração do serviço. <br>b) Orienta que incidentes devam ser registrados, priorizados e gerenciados de modo a atender expectativas de usuários/clientes. O tempo de resolução deve estar entre as expectativas pré-acordadas. Isso também faz parte da Gestão de Incidentes, enfatizando a importância de registrar, priorizar e gerenciar incidentes de forma eficaz para atender às expectativas dos usuários e clientes. <br>c) Recomenda usar uma base de dados que permita, com base em problemas/incidentes registrados no passado ou problemas já conhecidos, identificar mais rapidamente soluções temporárias ou definitivas para a resolução do incidente. Esta descrição alinha-se com o uso de uma Base de Dados de Erros Conhecidos (KEDB), que é uma prática recomendada tanto na Gestão de Incidentes quanto na Gestão de Problemas para agilizar a identificação e aplicação de soluções para incidentes. <br>e) Propõe criar modelos (ou templates) de incidentes com o objetivo que os mesmos sejam resolvidos de forma mais eficiente, através da definição dos passos a serem seguidos, responsabilidades, precauções a serem tomadas antes da resolução do incidente, entre outros. O uso de modelos ou templates é uma prática recomendada na Gestão de Incidentes, pois ajuda a padronizar e agilizar a resolução de incidentes comuns, garantindo que todas as etapas necessárias sejam seguidas."
+      },
+      {
+        "pergunta": "(FUNDATEC – BRDE– 2023) Relacione a Coluna 1 à Coluna 2, associando uma prática da Gestão de Serviços (ITIL v4) a um indicador chave de desempenho (KPI – Key Performance Indicator) adequado para avaliar o desempenho da prática na organização.<br> <br>Coluna 1 <br>1. Gestão de Capacidade e Desempenho. <br>2. Gestão de Disponibilidade. <br>3. Gerenciamento de Implantação. <br>4. Validação e teste de serviço. <br>5. Gerenciamento de Continuidade de Serviços.<br> <br>Coluna 2 <br>( ) Percentagem de Teste de Aceitação de Serviços não foram aprovadas pelo cliente. <br>( ) Número de interrupções de serviço. <br>( ) Tempo de resolução para gargalos de capacidade identificados. <br>A ordem correta de preenchimento dos parênteses, de cima para baixo, é:",
+        "alternativas": [
+        "a) 4 – 2 – 1.", 
+        "b) 4 – 5 – 1.", 
+        "c) 3 – 2 – 5.", 
+        "d) 3 – 5 – 1.",
+        "e) 4 – 2 – 5."],
+        "correta": "a) 4 – 2 – 1.",
+        "explicacao": "A correlação correta entre as práticas da Gestão de Serviços (ITIL v4) e os indicadores chave de desempenho (KPIs) adequados para avaliar o desempenho dessas práticas, conforme a questão, é: <br>1. Gestão de Capacidade e Desempenho. <br>2. Gestão de Disponibilidade. <br>3. Gerenciamento de Implantação. <br>4. Validação e teste de serviço. <br>5. Gerenciamento de Continuidade de Serviços. <br>Os KPIs listados são: <br>● Percentagem de Teste de Aceitação de Serviços não foram aprovadas pelo cliente. <br>● Número de interrupções de serviço. <br>● Tempo de resolução para gargalos de capacidade identificados. <br>A resposta correta é a letra A (4 – 2 – 1), que associa cada prática a um KPI relevante. Vamos analisar cada correspondência: <br>Gestão de Capacidade e Desempenho está relacionada ao \"Tempo de resolução para gargalos de capacidade identificados\". Esta prática foca em garantir que os serviços de TI tenham capacidade suficiente para atender às demandas atuais e futuras de forma eficiente. Um indicador chave de seu desempenho é o tempo necessário para resolver gargalos de capacidade, pois isso afeta diretamente o desempenho e a disponibilidade dos serviços. <br>Gestão de Disponibilidade é melhor avaliada pelo \"Número de interrupções de serviço\". Esta prática visa garantir que os serviços de TI estejam disponíveis quando necessários, de acordo com os níveis acordados. O número de interrupções de serviço é um KPI direto para medir o quão bem a disponibilidade está sendo gerenciada, pois interrupções impactam diretamente na disponibilidade dos serviços. <br>Validação e teste de serviço se relaciona com a \"Percentagem de Teste de Aceitação de Serviços não foram aprovadas pelo cliente\". Esta prática envolve testar os serviços para garantir que eles atendam aos requisitos especificados e às necessidades do negócio antes de serem lançados ou implementados. A porcentagem de testes de aceitação que não foram aprovados pelo cliente é um KPI crítico, pois indica a eficácia dos processos de validação e teste em garantir a qualidade e a aceitabilidade dos serviços."
+      },
+      {
+        "pergunta": "(IDECAN – COGERP SE – 2023) Selecione a alternativa que mostra o primeiro estágio do processo de gerenciamento de incidentes do ITIL 4, uma das práticas essenciais para minimizar o impacto dos incidentes nos negócios e restaurar o serviço normal o mais rápido possível.",
+        "alternativas": [
+        "a) Investigação de incidentes", 
+        "b) Priorização de incidentes", 
+        "c) Registro de incidentes", 
+        "d) Categorização de incidentes",
+        "e) Detecção de incidentes"],
+        "correta": "e) Detecção de incidentes",
+        "explicacao": "A letra E, \"Detecção de incidentes\", é a alternativa correta. No processo de gerenciamento de incidentes conforme o ITIL 4, a detecção de incidentes é considerada o primeiro estágio. Este estágio envolve identificar que um incidente ocorreu, o que pode acontecer de várias maneiras, como através de alertas automáticos de sistemas de monitoramento, relatórios de usuários ou detecção por parte da equipe de TI durante verificações de rotina. <br>Após a detecção, o processo segue para os próximos estágios, que incluem o registro do incidente, onde todas as informações relevantes sobre o incidente são documentadas; a categorização, que ajuda a organizar incidentes em grupos para tratamento eficiente; a priorização, que determina a ordem em que os incidentes devem ser resolvidos com base em seu impacto e urgência; e finalmente, a investigação e diagnóstico, onde a causa raiz é identificada e uma solução é buscada. <br>Portanto, a detecção de incidentes é fundamental, pois sem a identificação eficaz de que um incidente ocorreu, não é possível iniciar o processo de gerenciamento para restaurar o serviço normal. Este estágio assegura que os incidentes sejam reconhecidos prontamente, permitindo que as ações subsequentes no processo de gerenciamento de incidentes sejam executadas de maneira eficaz e eficiente."
+      },
+      {
+        "pergunta": "(Instituto AOCP – UFRB – 2023) O ITIL (Information Technology Infrastructure Library) significa Biblioteca de Infraestrutura de Tecnologia da Informação, que é um conjunto de práticas recomendadas para gerenciar serviços de TI e melhorar os níveis de serviço e de suporte de TI. O ITIL possui uma lista de práticas que cobrem diferentes aspectos do gerenciamento de serviços. A respeito do ITIL, analise as assertivas e assinale a alternativa que aponta as corretas. <br>I. Gerenciamento da continuidade do serviço: estabelece e mantém um bom relacionamento entre a organização e seus clientes. <br>II. Gerenciamento da demanda: entende e influencia a demanda dos clientes por serviços e as fontes dessa demanda. <br>III. Gerenciamento financeiro: planeja e gerencia o orçamento dos serviços e dos recursos necessários para fornecê-los. <br>IV. Gerenciamento do conhecimento: garante que as informações certas estejam disponíveis no momento certo para facilitar a tomada de decisões informadas.",
+        "alternativas": [
+        "a) Apenas I, II e III.", 
+        "b) Apenas II, III e IV.", 
+        "c) Apenas I, III e IV.", 
+        "d) Apenas I e IV.",
+        "e) Apenas II e III."],
+        "correta": "a) letra A",
+        "explicacao": "A alternativa correta é a letra B, que inclui as assertivas II, III e IV como corretas. Vamos analisar cada uma brevemente: <br>I. Gerenciamento da continuidade do serviço não é descrito corretamente. O objetivo principal desta prática é garantir que a TI possa fornecer serviços mínimos necessários em caso de uma interrupção, e não estabelecer e manter relacionamento com os clientes. Portanto, a assertiva I está incorreta. <br>II. Gerenciamento da demanda tem o objetivo de entender e influenciar a demanda do cliente por serviços, bem como gerenciar as fontes dessa demanda. Isso ajuda a garantir que a capacidade de serviço esteja alinhada com as necessidades dos clientes e as variações na demanda sejam gerenciadas efetivamente. A assertiva II está correta. <br>III. Gerenciamento financeiro é responsável por planejar e gerenciar o orçamento dos serviços de TI, bem como os recursos necessários para fornecer esses serviços. Isso inclui a contabilidade de custos, orçamentação, e cobrança de serviços, se aplicável. A assertiva III está correta. <br>IV. Gerenciamento do conhecimento visa garantir que as informações certas estejam disponíveis no momento certo para as pessoas certas, facilitando a tomada de decisões informadas. Isso é crucial para a eficácia operacional e a melhoria contínua. A assertiva IV está correta. <br>Portanto, as assertivas II (Gerenciamento da demanda), III (Gerenciamento financeiro) e IV (Gerenciamento do conhecimento) estão corretas, o que faz da alternativa B a resposta correta."
+      },
+      {
+        "pergunta": "(Instituto AOCP – UFRB – 2023) O ITIL possui diversos conceitos fundamentais do gerenciamento de serviços de TI, dentre eles está a Governança de TI. Qual é o principal objetivo desse conceito no contexto do gerenciamento de serviços de TI?",
+        "alternativas": [
+        "a) Automatizar os processos de TI para maior eficiência operacional.", 
+        "b) Assegurar que os níveis de serviço acordados sejam atendidos.", 
+        "c) Garantir a independência da infraestrutura de TI.", 
+        "d) Garantir que a infraestrutura de TI esteja sempre em um estado conhecido e controlado.",
+        "e) Identificar e resolver causas da raiz de incidentes recorrentes."],
+        "correta": "b) Assegurar que os níveis de serviço acordados sejam atendidos.",
+        "explicacao": "A alternativa B, \"Assegurar que os níveis de serviço acordados sejam atendidos\", é destacada como o principal objetivo da Governança de TI no contexto do ITIL. A Governança de TI, de acordo com as práticas recomendadas pelo ITIL e outros frameworks como COBIT, tem um escopo mais amplo. Seu principal objetivo é assegurar que os investimentos em TI gerem valor Paolla Ramos Aula única BACEN (Analista - Área 1 - Tecnologia da Informação) Governança de TI www.estrategiaconcursos.com.br 03706841177 - Millena Rocha Costa 96 158 para o negócio, mitigando riscos associados à TI e assegurando que os recursos de TI sejam utilizados de maneira responsável. Isso envolve estruturar políticas, processos e mecanismos de controle para alinhar a estratégia de TI com a estratégia de negócios, assegurando que os objetivos organizacionais sejam atingidos eficazmente. Assim, embora a manutenção dos níveis de serviço acordados seja importante, a governança de TI abrange uma gama mais ampla de responsabilidades, incluindo o alinhamento estratégico, o gerenciamento de risco, o gerenciamento de recursos e a entrega de valor."
+      },
+      {
+        "pergunta": "(Instituto CONSULPAM – ICTIM – 2023) A Biblioteca de Infraestrutura de Tecnologia da Informação (Information Technology Infrastructure Library, ITIL), atualmente em sua versão 4, é uma plataforma de gerenciamento de serviços de TI, composta por uma série de boas práticas que auxiliam a gestão dos serviços ofertados pela área de tecnologia. Uma importante definição na ITILv4, é sobre o termo “serviço”. Assinale a alternativa que traz a definição para “serviço” na ITILv4.",
+        "alternativas": [
+        "a) Um meio que possibilita a qualquer elemento/componente auxilia a organização a realizar os seus objetivos corporativos.", 
+        "b) Um meio de entregar valor aos clientes, facilitando os resultados que os clientes desejam alcançar sem a propriedade de custos e riscos específicos.", 
+        "c) Um meio de traduzir os objetivos corporativos de alto nível em objetivos de TI específicos e gerenciáveis, mapeando-os em práticas e processos específicos.", 
+        "d) Um meio de permitir a cocriação de valor, facilitando os resultados que os clientes desejam alcançar, sem que o cliente tenha que gerenciar custos e riscos específicos."],
+        "correta": "d) Um meio de permitir a cocriação de valor, facilitando os resultados que os clientes desejam alcançar, sem que o cliente tenha que gerenciar custos e riscos específicos.",
+        "explicacao": "A alternativa D, \"Um meio de permitir a cocriação de valor, facilitando os resultados que os clientes desejam alcançar, sem que o cliente tenha que gerenciar custos e riscos específicos\", apresenta a definição de \"serviço\" conforme estabelecido na ITILv4. Esta definição enfatiza a importância da cocriação de valor entre o provedor de serviços e o cliente. <br>Em contraste com visões mais tradicionais de serviço, que podem focar apenas na entrega ou suporte, a ITILv4 amplia o conceito para incluir a cocriação de valor. Isso significa que o serviço não é visto apenas como uma entrega unilateral de funcionalidades ou suporte, mas como uma colaboração onde tanto o provedor quanto o cliente contribuem para o alcance dos resultados desejados. <br>Além disso, destaca-se que o cliente é liberado da necessidade de gerenciar os custos e riscos específicos associados à realização desses resultados, colocando essas responsabilidades no provedor do serviço. Essa abordagem alinha-se com a ênfase da ITILv4 na criação de valor através de serviços de TI, reforçando o papel dos serviços de TI não apenas como suporte operacional, mas como facilitadores estratégicos para os negócios."
+      },
+      {
+        "pergunta": "(Instituto CONSULPAM – ICTIM – 2023) Em sua versão 4, a Information Technology Infrastructure Library (ITIL), traz 7 (sete) princípios orientadores que devem ser observados pelo profissional que utiliza essa importante biblioteca. Um desses princípios é descrito como: “Recursos de todos os tipos, especialmente recursos humanos, devem ser usados da melhor forma. Elimine tudo o que é realmente um desperdício e use a tecnologia para alcançar tudo o que é capaz. A intervenção humana só deve acontecer onde realmente agregar valor.”. <br>Assinale a alternativa que traz o nome deste princípio orientador da ITILv4.",
+        "alternativas": [
+        "a) Foco no Valor.", 
+        "b) Otimize e automatize.", 
+        "c) Mantenha-o simples e prático.", 
+        "d) Pense e trabalhe holisticamente."],
+        "correta": "b) Otimize e automatize.",
+        "explicacao": "O princípio orientador da ITILv4 descrito na alternativa é o princípio \"Otimize e automatize\". Este princípio enfatiza a importância de utilizar os recursos, especialmente os recursos humanos, da maneira mais eficiente possível, eliminando desperdícios e buscando automatizar processos sempre que viável. <br>A intervenção humana deve ser reservada apenas para atividades que agregam valor, enquanto a tecnologia deve ser aproveitada para alcançar eficiência e eficácia. Portanto, a alternativa correta é a letra B."
+      },
+      {
+        "pergunta": "(Instituto Consulplan – MPE MG – 2023) Information Technology Infrastructure Library (ITIL) é um conjunto de boas práticas a serem aplicadas na infraestrutura, operação e manutenção de serviços de Tecnologia da Informação (TI) Entre as práticas de gerenciamento ITIL, há práticas específicas para o gerenciamento de serviço. (The Stationery Office. 2019. Adaptado de AXELOS, ITIL Foundation 4 ed.) Considerando o exposto, analise as afirmativas a seguir. I. Avalia e propõe ações que podem ser tomadas para criar a melhoria desejada. As ações podem incluir não apenas mudanças no sistema de TI, mas também mudanças nos processos, alterações na estrutura organizacional e desenvolvimento de equipes. II. A prática fornece uma estrutura para a construção de resiliência organizacional com a capacidade de produzir uma resposta eficaz que projeta os interesses das principais partes interessadas e as atividades de reputação da organização; marca; e, criação de valor. III. A prática busca reduzir a probabilidade e o impacto dos incidentes por identificar causas de incidentes reais e potenciais e gerenciar soluções alternativas e erros conhecidos. A associação está correta em",
+        "alternativas": [
+        "a) I. Análise de missão II. Melhoramento contínuo III. Monitoramento e gerenciamento de eventos", 
+        "b) I. Gerenciamento de problemas II. Gerenciamento de ativos de TI III. Gerenciamento de incidentes", 
+        "c) I. Análise de negócio II. Gerenciamento de continuidade do serviço III. Gerenciamento de problema", 
+        "d) I. Gerenciamento estratégico II. Gerenciamento de mudança organizacional do serviço III. Gerenciamento de risco"],
+        "correta": "c) I. Análise de negócio II. Gerenciamento de continuidade do serviço III. Gerenciamento de problema",
+        "explicacao": "Vamos analisar cada item. <br>I. Análise de negócio: Esta prática avalia e propõe ações para criar a melhoria desejada, que podem incluir mudanças nos sistemas de TI, processos, estrutura organizacional e desenvolvimento de equipes. Portanto, essa afirmativa corresponde à prática de Análise de negócio. <br>II. Gerenciamento de continuidade do serviço: Esta prática fornece uma estrutura para construir resiliência organizacional, garantindo uma resposta eficaz que protege os interesses das partes interessadas e as atividades de reputação da organização. Também aborda a marca e a criação de valor. Assim, essa afirmativa está relacionada ao Gerenciamento de continuidade do serviço. <br>III. Gerenciamento de problema: Esta prática busca reduzir a probabilidade e o impacto dos incidentes, identificando causas de incidentes reais e potenciais, e gerenciando soluções alternativas e erros conhecidos. Portanto, essa afirmativa está associada ao Gerenciamento de problema. <br>Portanto, a associação correta é: <br>c) I. Análise de negócio II. Gerenciamento de continuidade do serviço III. Gerenciamento de problema"
+      },
+      {
+        "pergunta": "(Instituto Consulplan – MPE BA – 2023) A biblioteca ITIL v4 é composta pelas práticas existentes na versão anterior, utilizando a qualidade dos serviços TI para excelência do negócio da empresa. São consideradas práticas de gerenciamento que fazem parte desta biblioteca:",
+        "alternativas": [
+        "a) Gerais; de serviços; e, para nível técnico.", 
+        "b) Controle de mudanças; supervisão; e, orientação.", 
+        "c) Gerais; de tomada de decisão; e, para nível assistencial.", 
+        "d) Gerenciamento de fornecedor; service desk; e, de serviços.",
+        "e) Melhoria contínua; gerenciamento de relacionamento; e, gerais."],
+        "correta": "a) Gerais; de serviços; e, para nível técnico.",
+        "explicacao": "As práticas de gerenciamento que fazem parte da ITIL v4 são classificadas em três categorias principais: <br>Práticas de Gerenciamento Geral: São aquelas que se aplicam a todos os estágios do ciclo de vida do serviço e a todos os tipos de serviço. <br>Práticas de Gerenciamento de Serviços: São práticas específicas para o gerenciamento de serviços de TI em diferentes estágios do ciclo de vida do serviço. <br>Práticas de Gerenciamento Técnico: São práticas destinadas a profissionais técnicos e especialistas envolvidos na entrega e suporte dos serviços de TI. <br>Portanto, a letra A está correta ao mencionar as práticas gerais, de serviços e para o nível técnico como componentes da biblioteca ITIL v4."
+      },
+      {
+        "pergunta": "(Unifil – Pref Faz RG– 2023) Em governança de TI, existem vários métodos a serem trabalhados, sobre o método ITIL, é correto afirmar que",
+        "alternativas": [
+        "a) o ITIL tem como maior benefício redução de gastos.", 
+        "b) o ITIL serve para construir um ambiente de TI estável e escalável.", 
+        "c) o ITIL é utilizado exclusivamente para mapear a disponibilidade de profissionais do setor.", 
+        "d) o ITIL é desenvolvido apenas para transição de serviço."],
+        "correta": "b) o ITIL serve para construir um ambiente de TI estável e escalável.",
+        "explicacao": "O ITIL (Information Technology Infrastructure Library) é um conjunto de práticas e conceitos que visa melhorar a gestão dos serviços de TI em uma organização. Seu principal objetivo é fornecer diretrizes para a entrega eficaz e eficiente de serviços de TI, alinhando-os com as necessidades do negócio. Portanto, ao implementar as práticas do ITIL, as organizações podem construir um ambiente de TI mais estável, confiável e escalável, capaz de atender às demandas do negócio de forma consistente e eficaz. Portanto, a afirmativa correta é a letra B) \"o ITIL serve para construir um ambiente de TI estável e escalável.\" <br>As outras opções não estão corretas: <br>A opção A está incorreta, pois embora o ITIL possa levar a uma melhor utilização de recursos e processos, seu principal objetivo não é a redução de gastos, mas sim a melhoria da qualidade e eficiência dos serviços de TI. <br>A opção C está incorreta, pois o ITIL não é utilizado exclusivamente para mapear a disponibilidade de profissionais do setor. Ele se concentra nas práticas de gestão de serviços de TI. <br>A opção D está incorreta, pois o ITIL abrange todas as fases do ciclo de vida do serviço de TI, não apenas a transição de serviço. Ele inclui práticas para estratégia, desenho, transição, operação e melhoria contínua dos serviços de TI."
+      },
+      {
+        "pergunta": "(VUNESP – ISS SP– 2023) O ITIL v4 propõe um modelo de melhoria contínua composto por algumas fases ou passos, sendo correto afirmar, especificamente, sobre tal modelo:",
+        "alternativas": [
+        "a) não se aplica à área operacional das empresas.", 
+        "b) aplica-se exclusivamente a atividades ou práticas de curto e médio prazo.", 
+        "c) uma de suas fases ou passos consiste em responder à pergunta: Quanto já consumimos do orçamento?", 
+        "d) é composto por 8 fases ou passos.",
+        "e) uma de suas fases ou passos consiste em responder à pergunta: Onde estamos agora?"],
+        "correta": "e) uma de suas fases ou passos consiste em responder à pergunta: Onde estamos agora?",
+        "explicacao": "O modelo de melhoria contínua proposto pelo ITIL v4 é conhecido como o modelo PDCA (Plan-Do-Check-Act) ou ciclo de Deming. Este modelo é composto por quatro fases interligadas: <br>Plan (Planejar): Define os objetivos e processos necessários para fornecer resultados de acordo com os requisitos do negócio ou de uma melhoria específica. <br>Do (Executar): Implementa as atividades planejadas. <br>Check (Verificar): Monitora e avalia os processos e os resultados em relação aos objetivos planejados e às expectativas. <br>Act (Agir): Toma ações para ajustar e melhorar continuamente os processos e resultados, com base nas conclusões da fase de Verificar. <br>Portanto, a fase que corresponde à pergunta \"Onde estamos agora?\" é a fase de Verificar (Check), que envolve a avaliação do desempenho atual em relação aos objetivos planejados. Esta fase é fundamental para entender a situação atual e determinar quais ajustes ou melhorias são necessários."
+      },
+      {
+        "pergunta": "(VUNESP – TJ RS– 2023) O ITIL v4 define três categorias de práticas de gerenciamento, sendo certo que a prática denominada",
+        "alternativas": [
+        "a) gestão da arquitetura insere-se na categoria de práticas de gerenciamento técnico.", 
+        "b) análise do negócio insere-se na categoria de práticas de gerenciamento gerais.", 
+        "c) gerenciamento de incidente insere-se na categoria de práticas de gerenciamento técnico.", 
+        "d) gerência de portfólio insere-se na categoria de práticas de gerenciamento gerais.",
+        "e) gerenciamento de problemas insere-se na categoria de práticas gerais de gerenciamento."],
+        "correta": "d) gerência de portfólio insere-se na categoria de práticas de gerenciamento gerais.",
+        "explicacao": "Pessoal, esse tipo de questão é essencial para revisar! Vamos juntos analisar a categoria correta para cada prática de gerenciamento: <br>a) gestão da arquitetura insere-se na categoria de práticas de gerenciamento técnico. <br>Errada. A gestão da arquitetura é uma das práticas de gerenciamento geral e não técnico. <br>b) análise do negócio insere-se na categoria de práticas de gerenciamento gerais. <br>Errada. Essa é do grupo de práticas de gerenciamento de serviços. <br>c) gerenciamento de incidente insere-se na categoria de práticas de gerenciamento técnico. <br>Errada. Essa também é do grupo de práticas de gerenciamento de serviços. <br>e) gerenciamento de problemas insere-se na categoria de práticas gerais de gerenciamento. <br>Errada. Essa também é uma das práticas de gerenciamento de serviços. <br>Portanto, a resposta correta é a letra D, pois a gerência de portfólio está associada às práticas de gerenciamento gerais, enquanto as demais estão incorretas em relação à sua categorização."
+      },
+      {
+        "pergunta": "(VUNESP – TJ RS– 2023) O ITIL v4 estabelece quatro dimensões importantes ou relevantes para o gerenciamento de serviços, sendo duas dessas dimensões:",
+        "alternativas": [
+        "a) i. Ferramentas e Protocolos e ii. Continuidade e Disponibilidade.", 
+        "b) i. Organizações e Pessoas e ii. Informação e Tecnologia.", 
+        "c) i. Parceiros e Fornecedores e ii. Configuração e Segurança.", 
+        "d) i. Conhecimento e Arquitetura e ii. Portfólio e Estratégia.",
+        "e) i. Fluxos de Valor e Processos e ii. Confiabilidade e Mudança."],
+        "correta": "b) i. Organizações e Pessoas e ii. Informação e Tecnologia.",
+        "explicacao": "A resposta correta é a letra B, que menciona as duas dimensões estabelecidas pelo ITIL v4: Organizações e Pessoas (i) e Informação e Tecnologia (ii). Essas dimensões são fundamentais para o gerenciamento de serviços de TI, pois envolvem aspectos humanos, organizacionais, de informação e tecnológicos. As outras duas dimensões são: <br>iii. Parceiros e Fornecedores: Esta dimensão refere-se às relações externas da organização com seus parceiros, fornecedores e outras partes interessadas que podem influenciar ou serem influenciadas pela entrega de serviços de TI. <br>iv. Fluxos de Valor e Processos: Esta dimensão diz respeito aos fluxos de trabalho, processos e atividades que compõem a entrega de serviços de TI e que criam valor para os clientes e para a organização."
+      },
+      {
+        "pergunta": "(AVANÇASP – Pref Americana– 2023) O Sistema de valor de Serviços (SVS), que representa a forma que todos os componentes e atividades de uma organização trabalham juntos para facilitar a criação de valor. É o componente chave do ITIL 4. Ele incluiu vários elementos, assinale, abaixo, aquele que NÃO faz parte do SVS.",
+        "alternativas": [
+        "a) Princípios orientadores.", 
+        "b) Fluxos de valor e processos.", 
+        "c) Governança.", 
+        "d) Cadeia de Valor de Serviço.",
+        "e) Práticas."],
+        "correta": "b) Fluxos de valor e processos.",
+        "explicacao": "A resposta correta é a letra B. Os fluxos de valor e processos fazem parte do Sistema de Valor de Serviços (SVS) do ITIL 4, representando como as atividades e componentes da organização trabalham juntos para facilitar a criação de valor. Portanto, a opção que não faz parte do SVS é a letra B. Os outros elementos mencionados - princípios orientadores, governança, cadeia de valor de serviço e práticas - estão todos inclusos no SVS do ITIL 4."
+      },
+      {
+        "pergunta": "(AVANÇASP– Pref Americana– 2023) A seguir, estão alguns conceitos do ITIL 4. Correlacione cada conceito com sua respectiva descrição: <br>( I ) Serviço. <br>( II ) Produtos. <br>( III ) Valor. <br>( IV ) Utilidade. <br>( ) é a funcionalidade oferecida por um produto ou serviço para atender a uma necessidade específica <br>( ) são configurações desses recursos, criados pela organização, que, potencialmente, serão valiosos para seus clientes. <br>( ) é um meio de permitir a co-criação de valor, facilitando os resultados que os clientes desejam alcançar, sem precisar gerenciar custos e riscos específicos. <br>( ) pode ser definido como os benefícios, a utilização e a importância percebidos de algo que é produzido ou fornecido, de forma que este seja percebido pelas Partes Interessadas e trabalhado como uma criação conjunta (co criation), fruto da colaboração entre provedores, consumidores, e outras organizações relevantes nas relações de serviço. <br>A sequência correta de preenchimento, de cima para baixo, é, respectivamente:",
+        "alternativas": [
+        "a) III, IV, I, II.", 
+        "b) II, I, IV, III.", 
+        "c) III, II, IV, I.", 
+        "d) I, II, III, IV.",
+        "e) IV, II, I, III."],
+        "correta": "e) IV, II, I, III.",
+        "explicacao": "Pessoal, questão conceitual. Vamos às definições. <br>(IV) Utilidade: Refere-se à funcionalidade oferecida por um produto ou serviço para atender a uma necessidade específica. <br>(II) Produtos: São configurações de recursos criados pela organização que têm potencial para serem valiosos para seus clientes. <br>(I) Serviço: É um meio de permitir a cocriação de valor, facilitando os resultados que os clientes desejam alcançar, sem precisar gerenciar custos e riscos específicos. <br>(III) Valor: Pode ser definido como os benefícios, a utilização e a importância percebidos de algo que é produzido ou fornecido, resultando de uma colaboração entre provedores, consumidores e outras organizações relevantes nas relações de serviço. <br>Assim, nossa sequência correta é a Letra e) IV, II, I, III."
+      },
+      {
+        "pergunta": "(AVANÇASP – Pref Americana– 2023) O ITIL 4 tem como princípios orientadores recomendações que orientam uma organização em todas as circunstâncias, independentemente de mudanças em seus objetivos, estratégias, tipo de trabalho ou estrutura de gerenciamento. Qual das alternativas, a seguir, NÃO é um desses princípios?",
+        "alternativas": [
+        "a) Governança.", 
+        "b) Começar onde está.", 
+        "c) Foco no valor.", 
+        "d) Otimizar e automatizar.",
+        "e) Colaborar e promover visibilidade."],
+        "correta": "a) Governança.",
+        "explicacao": "A alternativa que NÃO é um dos princípios orientadores do ITIL 4 é a letra A) Governança. <br>Os princípios orientadores do ITIL 4 são diretrizes fundamentais que orientam uma organização em todas as circunstâncias, independentemente de mudanças em seus objetivos, estratégias, tipo de trabalho ou estrutura de gerenciamento."
+      },
+      {
+        "pergunta": "(AVANÇASP – Pref Americana– 2023) No ITIL 4 as práticas gerais de gerenciamento são práticas adotadas e adaptadas para o gerenciamento de serviços oriundas de negócios em geral. Uma delas tem como objetivo a formulação de metas de uma organização, adoção dos cursos de ação e alocação de recursos necessários para atingir essas metas. Esta prática é a de:",
+        "alternativas": [
+        "a) Medição de relatórios.", 
+        "b) Gerenciamento de estratégia.", 
+        "c) Gerenciamento de segurança da Info.", 
+        "d) Gerenciamento de fornecedores.",
+        "e) Melhoria contínua."],
+        "correta": "b) Gerenciamento de estratégia.",
+        "explicacao": "A prática geral de gerenciamento que tem como objetivo a formulação de metas da organização, a adoção de cursos de ação e a alocação de recursos necessários para atingir essas metas, é o Gerenciamento de Estratégia. Portanto, a alternativa correta é a letra B. Esta prática visa garantir que a organização tenha uma estratégia clara e eficaz para alcançar seus objetivos de negócio, alinhando as atividades de TI aos objetivos estratégicos da organização."
+      },
+      {
+        "pergunta": "(CESGRANRIO – TRANSPETRO – 2023) Pretende-se mudar a certificação de uma firma de Tecnologia de ITILv3 para ITILv4, atendo-se às alterações e às mudanças que essa nova implantação do modelo ITIL traz consigo. Uma das alterações relevantes, que deve ser considerada no momento da mudança para esse novo paradigma, é a(o)",
+        "alternativas": [
+        "a) diminuição de número de processos de serviços, em relação às versões anteriores do modelo ITIL.",
+        "b) implantação de fluxo de valor flexível, conhecido como Service Value System ou Sistema de Valor de Serviço.",
+        "c) implementação de um sistema de acesso seguro, de modo a permitir que somente usuários autorizados usem um serviço.",
+        "d) manutenção de práticas de gerenciamento da infraestrutura de TI, fornecendo novos itens de serviços de tecnologia e suporte.",
+        "e) acréscimo de um novo processo de serviço, denominado Operação de Serviço."],
+        "correta": "b) implantação de fluxo de valor flexível, conhecido como Service Value System ou Sistema de Valor de Serviço.",
+        "explicacao": "A mudança para o ITILv4 implica na implementação de várias alterações e atualizações significativas em relação às versões anteriores, e uma dessas mudanças relevantes é a implantação do fluxo de valor flexível, conhecido como Service Value System (Sistema de Valor de Serviço). Essa abordagem substitui a ênfase em processos isolados por uma visão mais holística e flexível, que reconhece a interconexão e a interdependência de todas as atividades envolvidas na entrega de valor aos clientes. Portanto, a alternativa correta é a letra B."
+      },
+      {
+        "pergunta": "(FEPESE – Pref B Camboriú– 2023) Qual a primeira atividade da cadeia de valor do serviço do ITIL v4?",
+        "alternativas": [
+        "a) Aproximar", 
+        "b) Engajar", 
+        "c) Planejar", 
+        "d) Desenhar",
+        "e) Compreender"],
+        "correta": "c) Planejar",
+        "explicacao": "A primeira atividade da cadeia de valor do serviço do ITIL v4 é \"Planejar\" (c). Essa atividade envolve o planejamento das ações necessárias para atender às necessidades dos clientes e alcançar os resultados desejados. É um passo fundamental que ocorre antes da execução de qualquer outra atividade na cadeia de valor."
+      },
+      {
+        "pergunta": "(FEPESE – Pref B Camboriú– 2023) São categorias que agrupam as práticas do ITIL v4: <br>1. Práticas gerais de gerenciamento <br>2. Práticas de gerenciamento de pessoas <br>3. Práticas de gerenciamento de serviços <br>4. Práticas de gerenciamento técnico <br>5. Práticas de gerenciamento de processos <br>Assinale a alternativa que indica todas as afirmativas corretas.",
+        "alternativas": [
+        "a) São corretas apenas as afirmativas 1, 3 e 4.", 
+        "b) São corretas apenas as afirmativas 2, 3 e 4.", 
+        "c) São corretas apenas as afirmativas 2, 4 e 5.", 
+        "d) São corretas apenas as afirmativas 1, 2, 3 e 4.",
+        "e) São corretas as afirmativas 1, 2, 3, 4 e 5."],
+        "correta": "a) São corretas apenas as afirmativas 1, 3 e 4.",
+        "explicacao": "a) São corretas apenas as afirmativas 1, 3 e 4. Isso significa que as práticas gerais de gerenciamento (1), práticas de gerenciamento de serviços (3) e práticas de gerenciamento técnico (4) são categorias que agrupam as práticas do ITIL v4. As outras afirmativas não estão corretas, pois não correspondem às categorias estabelecidas pelo ITIL v4."
+      },
+      {
+        "pergunta": "(Quadrix - CFT - 2021 - Adaptada) Na ITIL, o processo Gerenciamento Financeiro para os Serviços de TI pertence ao volume Desenho de Serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, o Gerenciamento Financeiro encontra-se no Gerenciamento Geral na ITIL 4. Gerenciamento financeiro de serviços visa apoiar as estratégias e planos de gerenciamento de serviços uma organização garantindo que seus recursos e investimentos financeiros estejam sendo usados com eficácia."
+      },
+      {
+        "pergunta": "(Quadrix - CFT - 2021 - Adaptada) Os processos Gerenciamento de Mudanças e Gerenciamento de Liberação e Implantação fazem parte do volume Transição de Serviço do ITIL 4.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Para a ITIL 4 a questão está errada, pois eles se encontram no gerenciamento (GERAL X SERVIÇO) Já para ITIL 3 a questão estaria correta."
+      },
+      {
+        "pergunta": "(Fundatec - CRF/PR - 2021 - Adaptada) Assinale a alternativa correta sobre a ITIL 4.  ",
+        "alternativas": [
+        "a) Sua abordagem de ciclo de vida permite que se tenha uma visão do gerenciamento dos processos pela sua perspectiva individual e de suas práticas.",
+        "b) Seu núcleo contém orientações para uma abordagem integrada de gerenciamento de serviços.", 
+        "c) É um padrão de processos que auxiliam na obtenção de certificações de níveis de maturidade ITIL.",
+        "d) Define serviço como um conjunto de processos que garantem conformidade em suas práticas.",
+        "e) Gerenciamento de Mudança é um dos seus 5 estágios."],
+        "correta": "b) Seu núcleo contém orientações para uma abordagem integrada de gerenciamento de serviços.",
+        "explicacao": "A resposta certa é a letra B: Seu núcleo contém orientações para uma abordagem integrada de gerenciamento de serviços. Demais alternativas erradas: <br>a) inicialmente, a ITIL visa o gerenciamento de serviços, ademais, as práticas trabalham juntas, ou seja, se interrelacionam, e não realizam uma perspectiva individual. <br>c) Errada, pois a ITIL não é um padrão de processos. <br>d) Errada, Definição serviço: conjunto de recursos organizacionais especializados para gerar valor para os clientes na forma de serviços. <br>e) Errada até mesmo para ITIL 3, pois os cinco estágios da ITIL v3 eram: Estratégia, Desenho, Transição, Operação e Melhoria contínua.!"
+      },
+      {
+        "pergunta": "(IDECAN - PEFOCE - 2021) ITIL v4 constitui uma estrutura para gerenciamento, uma tendência crescente de aplicar as melhores práticas nas empresas e nos negócios, definindo quatro dimensões as quais devem ser consideradas para garantir uma abordagem holística a um tipo de gerenciamento, que engloba quatro dimensões: • Organizações e pessoas; • Informação e tecnologia; • Parceiros e fornecedores; e • Fluxos de valor e processos. Esse gerenciamento é do seguinte tipo:",
+        "alternativas": [
+        "a) Funções.", 
+        "b) Serviços.", 
+        "c) Atividades.", 
+        "d) Tecnologias.",
+        "e) Informações."],
+        "correta": "b) Serviços.",
+        "explicacao": "Basicamente, a questão disse um monte de coisa e só queria saber o tipo de gerenciamento da ITIL. <br>A ITIL é um guia de Gerenciamento de Serviços! Olha que conhecimento básico!"
+      },
+      {
+        "pergunta": "(Quadrix / CORE-PR– 2021 – Adaptada) Na ITIL 4, Gerenciamento de Incidente, Gerenciamento de Problema e Cumprimento de Requisição são exemplos de práticas da Operação de Serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pessoal, vejam que na ITIL 4 essas práticas pertencem ao Gerenciamento de Serviços. Portanto, a questão está errada, pois diz “Na ITIL 4, são exemplos de práticas da Operação de Serviço.”. Entretanto, na ITIL 3, sim, esses processos pertenciam a operação de serviço."
+      },
+      {
+        "pergunta": "(Quadrix / CORE-PR– 2021 – Adaptada) O processo Gerenciamento de Eventos tem como objetivo principal restaurar a operação normal de um serviço dentro de um período mínimo de 24 horas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A questão trouxe uma definição e trocou a prática, fiquem atentos porque a CEBRASPE também tem costume de fazer esse tipo de “pegadinha”. Na verdade, a questão definiu gerenciamento de incidentes quando disse: “objetivo principal restaurar a operação normal de um serviço”, mas não há essa restrição “dentro de um período mínimo de 24 horas”."
+      },
+      {
+        "pergunta": "(Quadrix / CORE-PR– 2021) A função Gerenciamento das Operações de TI é responsável por gerenciar aplicativos ao longo de seu ciclo de vida.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Incialmente, já há um erro quando a questão diz “função Gerenciamento das Operações de TI”, pois na ITIL 4 não há “funções” e sim práticas. Ademais, prática que garante que os aplicativos atendam às necessidades das partes interessadas em termos de funcionalidade, confiabilidade, capacidade de manutenção, conformidade e auditabilidade é denominada Desenvolvimento e Gerenciamento de Softwares"
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) Com relação ao modelo de referência ITIL, analise as afirmativas a seguir. <br>I. Gerenciamento de Mudança, Gerenciamento de Acidente, Gerenciamento de Problema, Gerenciamento de Configuração e Gerenciamento de Liberação são Práticas de Gerenciamento de Serviços da ITIL. <br>II. Gerenciamento de Ativos de TI, Gerenciamento de Liberação, Gerenciamento de Configuração, Gerenciamento de Nível de Serviço e Gerenciamento de Problemas são práticas da ITIL. <br>III. Gerenciamento Financeiro não é uma prática do modelo ITIL. <br>Assinale:",
+        "alternativas": [
+        "a) se somente a afirmativa I estiver correta.", 
+        "b) se somente a afirmativa II estiver correta.", 
+        "c) se somente a afirmativa III estiver correta.", 
+        "d) se somente as afirmativas I e II estiverem corretas.",
+        "e) se somente as afirmativas II e III estiverem corretas."],
+        "correta": "b) se somente a afirmativa II estiver correta.",
+        "explicacao": "Pessoal, essa é uma questão criada a partir de uma questão do SENADO/2012, elaborada pela FGV. Inicialmente, o item I erra ao dizer que a prática “Gerenciamento de Acidente” é uma prática da ITIL. Não existe Gerenciamento de Acidente, ok galera? O item II apresenta práticas da ITIL do Gerenciamento de Serviços. Por fim, o item III está incorreto pois o Gerenciamento Financeiro é uma prática do modelo ITIL ligada ao Gerenciamento Geral."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) O processo preconizado pela ITIL, responsável por: prestar informações confiáveis sobre a configuração de serviços e os itens de configuração que os suportam. Inclui informação sobre o estado dos itens de configuração e os relacionamentos entre eles é denominado:",
+        "alternativas": [
+        "a) gerenciamento de liberação.", 
+        "b) gerenciamento de problema.", 
+        "c) gerenciamento de mudanças.", 
+        "d) gerenciamento de continuidade.",
+        "e) gerenciamento de configuração."],
+        "correta": "e) gerenciamento de configuração.",
+        "explicacao": "O propósito da prática Gerenciamento de configuração é prestar informações confiáveis sobre a configuração de serviços e os itens de configuração que os suportam. Inclui informação sobre o estado dos itens de configuração e os relacionamentos entre eles. Item de configuração é qualquer componente que precise ser gerenciado para entregar um serviço de TI. Já o Sistema de Configuração é um conjunto de ferramentas, dados e informação que é usado para suportar o gerenciamento de configuração."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) A prática preconizada pela ITIL, responsável por garantir a uma organização a compreensão o tratamento eficaz dos riscos. Termo que é definido no glossário da ITIL como um possível evento que pode causar perdas ou danos, ou dificultar o atingimento de objetivos é denominado:",
+        "alternativas": [
+        "a) Gerenciamento de Problemas", 
+        "b) Gerenciamento de Indecentes", 
+        "c) Gerenciamento de Riscos", 
+        "d) Gerenciamento de Incertezas",
+        "e) Gerenciamento de Projetos"],
+        "correta": "c) Gerenciamento de Riscos",
+        "explicacao": "Pessoal, a questão trata do Gerenciamento de Riscos que é uma prática que garante a uma organização a compreensão o tratamento eficaz dos riscos. Risco é definido no glossário da ITIL como um possível evento que pode causar perdas ou danos, ou dificultar o atingimento de objetivos. O termo também pode ser definido como incerteza do resultado e usado no contexto da mensuração da probabilidade de resultados positivos e negativos. As principais atividades do gerenciamento de riscos são três: Identificar, Avaliar e Tratar. A avaliação de risco consiste na atividade de identificação, análise e apreciação de riscos."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) A respeito da ITIL, analise as afirmativas a seguir. I. É independente de tecnologia e fornecedor. II. É adequada para todas as áreas de atividade. III. Apresenta o Modelo de Quatro Dimensões: Organizações e Pessoas; Informação e Tecnologia; Parceiros e Fornecedores; Fluxos de Valor e Processos. Assinale:",
+        "alternativas": [
+        "a) se somente a afirmativa I estiver correta.", 
+        "b) se somente as afirmativas I e II estiverem corretas.", 
+        "c) se somente as afirmativas I e III estiverem corretas.", 
+        "d) se somente as afirmativas II e III estiverem corretas.",
+        "e) se todas as afirmativas estiverem corretas."],
+        "correta": "e) se todas as afirmativas estiverem corretas.",
+        "explicacao": "Pessoal, todas as alternativas estão corretas! A ITIL é independente de tecnologia, além disso, é adequada para todas as áreas de atividade. Apresenta o modelo 4 Dimensões e também os grupos de práticas de gerenciamento de serviços. Portanto, todas as afirmativas estiverem corretas!"
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) De acordo com a definição da ITIL (Information Technology Infrastructure Library), o modelo de quatro dimensões da ITIL existe para suportar uma abordagem holística. A ITIL define quatro dimensões que são críticas para o gerenciamento de serviços. Este modelo apresenta quatro perspectivas críticas para a promoção eficiente e eficaz de valor, para os clientes e outras partes interessadas, na forma de produtos e serviços.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Definição perfeita do Modelo Quatro Dimensões da ITIL. De fato, o modelo de quatro dimensões da ITIL existe para suportar uma abordagem holística. A ITIL define quatro dimensões que são críticas para o gerenciamento de serviços. Este modelo apresenta quatro perspectivas críticas para a promoção eficiente e eficaz de valor, para os clientes e outras partes interessadas, na forma de produtos e serviços."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) De acordo com a definição da ITIL (Information Technology Infrastructure Library), a dimensão que inclui os relacionamentos da organização com outras que ajudam a projetar, desenvolver, implantar, entregar, suportar e melhorar os serviços e incorpora contratos e outros acordos com parceiros e fornecedores.",
+        "alternativas": [
+        "a) Fluxos de Valor e Pessoas", 
+        "b) Organizações e Pessoas", 
+        "c) Informação e Tecnologia", 
+        "d) Parceiros e Fornecedores",
+        "e) Fluxos de Valor e Processos"],
+        "correta": "d) Parceiros e Fornecedores",
+        "explicacao": "Pessoal, inicialmente, Fluxos de Valor e Pessoas não existe. A dimensão que trata relacionamentos da organização com outras é a dimensão Parceiros e Fornecedores, portanto, gabarito Letra D."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) ITIL representa um conjunto das melhores práticas para a definição de processos necessários ao funcionamento da área de TI. <br>A esse respeito, as práticas Gerenciamento de Mudança Organizacional, Controle de Mudanças e Gerenciamento de Implantação podem ser classificados, respectivamente, em Práticas de Gerenciamento:",
+        "alternativas": [
+        "a) Técnico, Geral e Serviços", 
+        "b) Serviços, Geral e Técnico", 
+        "c) Serviços, Serviços e Técnico", 
+        "d) Geral, Geral e Serviços",
+        "e) Geral, Serviços, Técnico"],
+        "correta": "e) Geral, Serviços, Técnico",
+        "explicacao": "Pessoal, a prática de Gerenciamento de Mudança Organizacional pertence ao grupo de práticas de Gerenciamento Geral, A prática Controle de Mudanças pertence ao grupo de práticas de Serviço. E por fim, prática Gerenciamento de Implantação pertence ao grupo de Práticas de Gerenciamento Técnico."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) Na ITIL, as práticas do grupo de práticas de Gerenciamento de Serviço são voltadas ao gerenciamento do serviço propriamente dito, ou seja, para serviços de TI, como gerenciamento da disponibilidade, ativos de TI, entre outros. Duas práticas do grupo Gerenciamento de Serviço são:",
+        "alternativas": [
+        "a) Gerenciamento do Nível de Serviço e de Mudança Organizacional", 
+        "b) Gerenciamento de Incidentes e Gerenciamento de Problemas", 
+        "c) Gerenciamento da Arquitetura e Gerenciamento de Relacionamento", 
+        "d) Gerenciamento de Portfolio e Gerenciamento de Estratégia",
+        "e) Gerenciamento de Riscos e Gerenciamento de Incidentes"],
+        "correta": "b) Gerenciamento de Incidentes e Gerenciamento de Problemas",
+        "explicacao": "Pessoal, a prática que pertence ao grupo Gerenciamento de Serviço é o Controle de Mudança. A prática Gerenciamento de Mudança Organizacional pertence ao grupo de Gerenciamento Geral. A letra B apresenta duas práticas que correspondem ao grupo de Gerenciamento de Serviços: Gerenciamento de Incidentes e Gerenciamento de Problemas. Portanto, nosso gabarito. A letra C apresenta duas práticas do gerenciamento geral assim como a letra D. A letra E também apresenta uma prática de gerenciamento geral: Gerenciamento de Riscos, além da prática de gerenciamento de serviços: Gerenciamento de Incidentes."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) Na ITIL, uma prática responsável por assegurar que a disponibilidade e desempenho do serviço são mantidas em níveis suficientes em caso de desastre além de lidar com eventos de grande impacto. <br>A prática descrita acima é denominada:    ",
+        "alternativas": [
+        "a) Gerenciamento de Falhas.", 
+        "b) Gerenciamento de Incidentes.", 
+        "c) Gerenciamento de Problemas.", 
+        "d) Gerenciamento da Continuidade do Serviço",
+        "e) Gerenciamento da Disponibilidade"],
+        "correta": "d) Gerenciamento da Continuidade do Serviço",
+        "explicacao": "A questão trata da prática Gerenciamento da Continuidade do Serviço. O gerenciamento de continuidade do serviço visa assegurar que a disponibilidade e desempenho do serviço são mantidas em níveis suficientes em caso de desastre. Essa prática lida com eventos de grande impacto."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) Uma Prática de Gerenciamento, no contexto da ITIL, é responsável pela disponibilização no tempo certo, no volume adequado e no custo apropriado dos recursos de infraestrutura de TI necessários ao atendimento das demandas do negócio em termos de serviços de TI, garantindo que os recursos sejam utilizados da forma mais eficiente possível. <br>Para atingir seus objetivos, é imprescindível a identificação dos serviços de TI que serão requeridos pelas áreas de negócio da organização, a definição de qual infraestrutura de TI e o nível de contingência serão necessários. <br>Essas características definem a seguinte Prática de Gerenciamento:",
+        "alternativas": [
+        "a) de Mudança.", 
+        "b) de Incidente.", 
+        "c) de Capacidade.", 
+        "d) de Configuração.",
+        "e) de Disponibilidade."],
+        "correta": "c) de Capacidade.",
+        "explicacao": "Pessoal, a questão trata da prática de Gerenciamento da Capacidade. Prática que assegura que os serviços alcancem os níveis acordados e esperados de desempenho. Para suportar o nível de serviço definido, são necessárias outras práticas de gerenciamento como o gerenciamento de capacidade e desempenho. Utilizando essa prática a organização pode definir critérios como, utilizando a infraestrutura atual, quanto a organização consegue oferecer ao usuário? Quão rápido é possível atendê-lo? A partir dessas medidas é possível realizar uma análise e planejamento da capacidade e desempenho."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) Princípios orientadores, Governança e Gestão são componentes do SVS.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pegadinha como a banca gosta de fazer, inserir algo que está no contexto de outros frameworks e tentar confundir o candidato. Gestão não é um componente do SVS. São componentes do SVS: Princípios Orientadores, Governança, Cadeia de Valor do Serviço, Práticas, Melhoria Contínua, Fluxos de Valor de serviço."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) A ITIL se preocupa em realizar uma abordagem holística, e utilização de uma abordagem ágil, embora não prevê a utilização de DevOps.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "ITIL 4 reconhece a importância de práticas ágeis e DevOps para a entrega eficiente de serviços de TI. Na verdade, o ITIL 4 inclui uma nova prática de gerenciamento de serviços chamada \"Gerenciamento de Valor do Serviço\" (Service Value Management), que enfatiza a importância da colaboração entre equipes de desenvolvimento, operações e outras partes interessadas para criar e entregar serviços de TI de alto valor para os clientes."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) A ITIL define o ciclo de vida composto por 5 dimensões.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O modelo de quatro dimensões da ITIL existe para suportar uma abordagem holística. A ITIL define quatro dimensões que são críticas para o gerenciamento de serviços. Na verdade, não há mais o ciclo de vida (Estratégia, desenho, transição, operação e melhoria contínua) Há na ITIL 4 o modelo 4 dimensões."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) A dimensão da ITIL que inclui os relacionamentos da organização com outras que ajudam a projetar, desenvolver, implantar, entregar, suportar e melhorar os serviços é:",
+        "alternativas": [
+        "a) Organizações e Pessoas;", 
+        "b) Informação e Tecnologia;", 
+        "c) Parceiros e Fornecedores;", 
+        "d) Fluxos de Valor e Processos."],
+        "correta": "c) Parceiros e Fornecedores;",
+        "explicacao": "Pessoal, vocês devem ficar ligados nas palavras-chave das dimensões. A dimensão apresentada é Parceiros e Fornecedores que além de incluir os relacionamentos da organização com outras que ajudam a projetar, desenvolver, implantar, entregar, suportar e melhorar os serviços, também incorpora contratos e outros acordos com parceiros e fornecedores."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) A dimensão da ITIL que cobre papeis, responsabilidades, estruturas organizacionais, cultura, equipes e competências necessárias para criar e entregar serviços é denominada:",
+        "alternativas": [
+        "a) Organizações e Pessoas;", 
+        "b) Informação e Tecnologia;", 
+        "c) Parceiros e Fornecedores;", 
+        "d) Fluxos de Valor e Processos."],
+        "correta": "a) Organizações e Pessoas;",
+        "explicacao": "Organizações e Pessoas é a dimensão que define a importância de assegurar que a organização tenha papeis, responsabilidades e sistemas de autoridade bem definidos. Ademais, cada pessoa na organização deve ter um claro entendimento da sua contribuição para os serviços. Esta dimensão cobre papeis, responsabilidades, estruturas organizacionais, cultura, equipes e competências necessárias para criar e entregar serviços."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) Associe corretamente as definições aos componentes do SVS. <br>1 Princípios orientadores; <br>2 Governança; <br>3 Cadeia de valor de serviço ITIL; <br>4 Práticas; <br>5 Melhoria Contínua;<br> <br>( ) Prática que alinha as práticas e os serviços de uma organização com as necessidades de negócio em constante mudança através da identificação e da melhoria contínuas de todos os elementos envolvidos no gerenciamento efetivo de produtos e serviços. <br>( ) Modelo operacional para provedores de serviço que abrange todas as principais atividades necessárias ao gerenciamento eficaz de produtos e serviços. <br>( ) Meio pelo qual uma organização é dirigida e controlada. <br>( ) Recomendações que podem orientar uma organização em todas as circunstâncias, independentemente das mudanças em suas metas, estratégias, tipo de trabalho ou estrutura de gerenciamento. Um princípio orientador é universal e duradouro. <br>( ) Conjunto de recursos organizacionais destinado a executar um trabalho ou atingir um objetivo.",
+        "alternativas": [
+        "a) 1, 2, 3,5 ,4;", 
+        "b) 5, 4, 3, 1, 2;", 
+        "c) 5, 3, 2, 1, 4;", 
+        "d) 4, 3, 2, 5, 1;"],
+        "correta": "c) 5, 3, 2, 1, 4;",
+        "explicacao": "A sequência correta é 5,3,2,1,4."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) As práticas da ITIL 4 são definidas como recomendações que podem orientar uma organização em todas as circunstâncias, independentemente das mudanças em suas metas, estratégias, tipo de trabalho ou estrutura de gerenciamento. Um princípio orientador é universal e duradouro",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, a questão define Princípios orientadores, e não práticas!"
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) O Sistema de Valor de Serviço é o elemento central da Cadeia de Valor de Serviços que mostra as atividades-chave necessárias para atender à demanda e criar valor por meio do gerenciamento de produtos e serviços",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Parece tudo certo né, pessoal? Mas há um erro sutil: Na verdade a CVS é que é o elemento central do SVS. Perceba, o SVS e o modelo 4D são os principais conceitos trazidos pela ITIL. A Cadeia de valor de serviços é o elemento central do Sistema de Valor de Serviço."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) A ITIL 4 apresenta as práticas dividas em 3 grupos, Gerenciamento Administrativo, Gerenciamento de Serviços e Gerenciamento Operacional.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, os grupos são: Gerenciamento Geral, Gerenciamento de Serviços e Gerenciamento Técnico. As Práticas de Gerenciamento Geral são associadas ao gerenciamento geral (administrativo) mais voltadas a administração geral, ou seja, são práticas que se aplicam a toda organização, ligadas ao gerenciamento geral do negócio. Vejamos cada uma das 14 práticas de gerenciamento geral e seu respectivo objetivo. As práticas de Gerenciamento de Serviços são voltadas ao gerenciamento do serviço propriamente dito, ou seja, para serviços de TI, como gerenciamento da disponibilidade, ativos de TI, entre outros. Por fim, as práticas de Gerenciamento Técnico são mais ligadas ao gerenciamento de tecnologias envolvendo desenvolvimento de software, infraestrutura e implantação. São apenas 3 práticas, de forma que se torna mais fácil a memorização."
+      },
+      {
+        "pergunta": "(Inédita – Prof. Paolla) Governança é um componente do SVS e é o meio pelo qual uma organização é dirigida e controlada.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito, pessoal! É exatamente esse o contexto da Governança."
       }
     ],
+
 
 
     "ingles": [
