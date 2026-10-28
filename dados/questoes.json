@@ -3245,17 +3245,6 @@
         "explicacao": "A funcionalidade entre as opções fornecidas que se relaciona diretamente com as responsabilidades de um Sistema Gerenciador de Banco de Dados (SGBD) é: B) Controlar que usuários podem ter acesso a que dados. Um SGBD é projetado para gerenciar o acesso aos dados armazenados, garantindo a segurança e a integridade das informações. Agora vamos comentar cada uma das demais alternativas: a) Alertar os administradores da infraestrutura de TI de uma empresa quando há vírus circulando na rede. Essa funcionalidade geralmente não é uma responsabilidade direta de um Sistema Gerenciador de Banco de Dados (SGBD). A detecção de vírus na rede é mais associada a sistemas de segurança de rede e antivírus. c) Estimular os gestores de uma empresa a compartilhar dados em benefício de todos. Essa função está mais relacionada à cultura organizacional, à governança de dados e à conscientização dos gestores, não sendo uma tarefa direta de um SGBD. Um SGBD lida mais com o armazenamento, recuperação e manipulação eficiente dos dados. d) Garantir a sequência de execução de programas, em especial quando há dependências de dados entre eles. A garantia da sequência de execução de programas, especialmente quando há dependências de dados, está mais associada aos sistemas de gerenciamento de fluxo de trabalho ou sistemas de execução de tarefas. Embora os dados possam ser uma parte disso, não é uma função principal de um SGBD. e) Identificar que dados importantes ao processo decisório de uma empresa estão ausentes e deveriam ser coletados. Embora um SGBD possa armazenar dados importantes para o processo decisório, a identificação de lacunas nos dados necessários geralmente envolve análise de dados, inteligência de negócios ou ferramentas específicas para esse fim. Um SGBD por si só não tem a capacidade de identificar diretamente a necessidade de novos dados."
       },
       {
-        "pergunta": "(CESGRANRIO - 2021 - Técnico Bancário Novo (CEF)/Tecnologia da Informação/PcD) Os Sistemas de Gerenciamento de Banco de Dados (SGBD) foram afetados pelas demandas trazidas pelo Big Data. Uma das formas de tratar essas demandas são os Sistemas de Gerenciamento de Banco de Dados Distribuídos (SGBDD), nos quais os dados podem estar armazenados em vários servidores, conectados por uma rede de computadores. <br>Um SGBDD que usa softwares middleware, de forma que os SGBDs que o compõem estejam fracamente acoplados, é conhecido como",
-        "alternativas": [
-        "a) Baseado em Grafos", 
-        "b) Hierárquico", 
-        "c) Federado", 
-        "d) Orientado a objetos",
-        "e) NOSql"],
-        "correta": "c) Federado",
-        "explicacao": "A descrição fornecida refere-se a um SGBDD (Sistema de Gerenciamento de Banco de Dados Distribuídos) que utiliza softwares middleware, resultando em uma arquitetura onde os SGBDs são fracamente acoplados. A arquitetura mencionada é conhecida como \"Federado\". Portanto, a resposta correta é: C) Federado. <br>Vamos comentar as demais alternativas em relação ao contexto apresentado: <br>a) Baseado em Grafos - Sistemas de Banco de Dados Baseados em Grafos são projetados para armazenar e recuperar dados usando estruturas de grafos. Eles são especialmente eficazes para modelar relações complexas entre diferentes entidades. No entanto, essa descrição não corresponde ao contexto de um SGBDD com dados distribuídos em vários servidores. <br>b) Hierárquico - Sistemas de Banco de Dados Hierárquicos organizam os dados em uma estrutura de árvore, com registros pai e filhos. Essa estrutura não está diretamente relacionada à ideia de distribuição de dados em vários servidores. <br>d) Orientado a objetos - Sistemas de Banco de Dados Orientados a Objetos armazenam dados na forma de objetos, que podem incluir métodos e propriedades. Embora essa seja uma abordagem diferente da tradicional, não está diretamente relacionada à distribuição de dados em um ambiente distribuído. <br>e) NoSQL - Os bancos de dados NoSQL são projetados para lidar com tipos variados de dados, frequentemente em ambientes distribuídos. No entanto, a simples menção do termo NoSQL não implica necessariamente que os dados estejam distribuídos em vários servidores. Além disso, a pergunta especificamente destaca o uso de softwares middleware e acoplamento fraco, o que não é exclusivo dos bancos de dados NoSQL. <br>Portanto, a alternativa correta, que se alinha com um SGBDD que utiliza softwares middleware e tem SGBDs fracamente acoplados, é a opção C) Federado."
-      },
-      {
         "pergunta": "(BANCA: CESGRANRIO ANO: 2012 ÓRGÃO: LIQUIGÁS PROVA: PROFISSIONAL DE TECNOLOGIA DA INFORMAÇÃO - ADMINISTRADOR DE BANCO DE DADOS) A arquitetura ANSI/SPARC de um Sistema Gerenciador de Banco de Dados (SGBD) divide-se nos níveis",
         "alternativas": [
         "a) externo, conceitual e interno", 
@@ -3616,8 +3605,47 @@
         "e) I, II e III."],
         "correta": "a) letra A",
         "explicacao": "A alternativa correta é: a) Apenas II. <br>Comentário: Apenas a assertiva II está correta em relação à descrição dos três níveis da arquitetura ANSI/SPARC: <br>● Nível físico: Neste nível, especifica-se como os dados são armazenados fisicamente no disco, detalhando aspectos como organização de arquivos, índices e estruturas de dados utilizadas para acesso eficiente aos dados. <br>● Nível lógico: Este nível descreve a estrutura completa do banco de dados, incluindo a definição do esquema, ou seja, as tabelas, relacionamentos, chaves primárias e estrangeiras, entre outros elementos que definem a estrutura dos dados e suas relações. <br>● Nível de visão: Refere-se às visões ou perspectivas dos usuários sobre os dados. Permite que diferentes usuários tenham diferentes visões ou subconjuntos dos dados do banco de dados, de acordo com suas necessidades e permissões de acesso. Isso é útil para garantir a segurança e a privacidade dos dados, bem como para simplificar o acesso aos dados, fornecendo visões personalizadas para diferentes usuários."
+      },
+      {
+        "pergunta": "(2018 / CESPE - FUB - Técnico de Tecnologia da Informação) Julgue o item seguinte, a respeito dos conceitos de modelagem de dados e níveis de abstração.<br>No modelo de entidade-relacionamento, uma entidade se caracteriza por um objeto do mundo real que possui um conjunto de propriedades; os valores de um subconjunto dessas propriedades podem identificar de maneira única a entidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Aula 01 Estratégia - Videoaula 07"
+      },
+      {
+        "pergunta": "(2018 / CESPE - FUB - Técnico de Tecnologia da Informação) Julgue o item seguinte, a respeito dos conceitos de modelagem de dados e níveis de abstração.<br>Na cardinalidade de mapeamento entre o conjunto de entidades X e Y de uma associação um-para-um, uma entidade em X é associada, no máximo, a uma entidade em Y, e uma entidade em Y é associada, no máximo, a uma entidade em X",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Aula 01 Estratégia - Videoaula 07"
+      },
+      {
+        "pergunta": "QUESTÃO MÚLTIPLA ALTERNATIVA",
+        "alternativas": [
+        "a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "XXXX"
+      },
+      {
+        "pergunta": "QUESTÃO V OU F",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "XXX"
       }
     ],
+
+
+
+VIDEOAULA 7 DA AULA 01
 
 
 
@@ -8506,7 +8534,7 @@
         "explicacao": "A propriedade importante das listas em Python mencionada na questão é a opção E, 'permitir a alteração do tamanho da lista pela inserção e pela remoção de elementos'. As listas em Python são estruturas de dados dinâmicas, o que significa que elas podem crescer ou encolher conforme necessário. Isso ocorre devido à capacidade das listas de permitir a inserção de novos elementos no final da lista (com o método append()) ou em posições específicas (com o método insert()), bem como a remoção de elementos (com os métodos pop() ou remove()), o que pode alterar o tamanho da lista."
       },
       {
-        "pergunta": "Considere a função em Python a seguir. <br>def sopares(dados):<br> for i in range(len(dados)): <br>  if dados[i] % 2 != 0: <br>  return False <br>return True <br>Qual função retorna os mesmos valores quando recebe uma lista de inteiros positivos?",
+        "pergunta": "(CESGRANRIO/IPEA/2024) Considere a função em Python a seguir. <br>def sopares(dados):<br> for i in range(len(dados)): <br>  if dados[i] % 2 != 0: <br>  return False <br>return True <br>Qual função retorna os mesmos valores quando recebe uma lista de inteiros positivos?",
         "alternativas": ["a) def sopares(dados): <br>return all(x % 2 == 0 for x in dados)", 
         "b) def sopares(dados): <br>return all(x % 2 != 0 for x in dados)", 
         "c) def sopares(dados): <br>return all(map(lambda x: x % 2 != 0, dados))", 
@@ -9502,15 +9530,202 @@
         "explicacao": "(a) Correta, ele realmente possui herança múltipla, isto é, uma classe com mais de um pai; (b) Correta, Python deve ser bastante legível. É possível inserir ponto-e-vírgula para separar instruções em uma mesma linha, mas prejudica a visibilidade – o ideal mesmo é deixar somente uma instrução por linha; (c) Errado, para comentários de mais de uma linha, utiliza-se três aspas simples ou duplas; (d) Correta, a indentação delimita blocos de código; (e) Correta, esse é um identificador válido."
       },
       {
-        "pergunta": "QUESTÃO MÚLTIPLA ALTERNATIVA (<img src='../dados/imgs/questao_desenvolvimento_XX.png' alt='imagem da questão'><br>)",
+        "pergunta": "(CEBRASPE/CTI/2024) Julgue o item subsecutivo, a respeito da linguagem Python. <br>Python é uma linguagem multiplataforma com programação estrutural.",
         "alternativas": [
-        "a) letra A", 
-        "b) letra B", 
-        "c) letra C", 
-        "d) letra D",
-        "e) letra E"],
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Embora você saiba que o Python permite o paradigma estruturado na vida real, você também sabe que as bancas consideram que ela não suporta – portanto, item incorreto. (Gabarito: Errado)"
+      },
+      {
+        "pergunta": "(FGV/TJ RJ/2024) Com relação à linguagem Python, avalie se as afirmativas a seguir são verdadeiras (V) ou falsas (F). <br>(  ) Qualquer variável pode ser atribuída a um valor de qualquer tipo. <br>(  ) As variáveis são declaradas com tipos específicos para armazenar valores. <br>(  ) Todos os objetos ou valores possuem tipos. <br>As afirmativas são, respectivamente,",
+        "alternativas": [
+        "a) F – V – F.", 
+        "b) V – F – V.", 
+        "c) V – V – F.", 
+        "d) F – V – V.",
+        "e) V – F – F."],
+        "correta": "b) V – F – V.",
+        "explicacao": "Vamos analisar cada item. <br>(   ) Qualquer variável pode ser atribuída a um valor de qualquer tipo. Verdadeiro. Como o Python possui uma tipagem dinâmica, ao definirmos uma variável podemos atribuir qualquer tipo de valor, que será interpretado e atribuído um tipo fixo à variável. <br>( ) As variáveis são declaradas com tipos específicos para armazenar valores. Falso. Como vimos acima, o Python tem tipagem dinâmica, não sendo necessário declarar o tipo de variável. <br>(   ) Todos os objetos ou valores possuem tipos. Verdadeiro. Mesmo que não tenha valor atribuído, todas as variáveis terão algum tipo. <br>Ficamos com V-F-V. (Gabarito: Letra B)"
+      },
+      {
+        "pergunta": "(CEBRASPE/CTI/2024) <br>aluno1 = “Maria” <br>2aluno = “Jose” <br>nota final = 9.50 <br>aprovado = True <br><br>Com base no trecho de código precedente, escrito em Python, julgue o próximo item.<br>A variável de nome 2aluno está sintaticamente incorreta; ela deve ser nomeada como aluno2 para que o comando fique declarado de forma correta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Exatamente. Não podemos começar as variáveis com um número – portanto, o correto seria aluno2, e não 2aluno. (Gabarito: Certo)"
+      },
+      {
+        "pergunta": "(CEBRASPE/CTI/2024) <br>aluno1 = “Maria” <br>2aluno = “Jose” <br>nota final = 9.50 <br>aprovado = True <br><br>Com base no trecho de código precedente, escrito em Python, julgue o próximo item.<br>A variável de nome nota final está declarada corretamente.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Não podemos ter espaço em uma variável – portanto, item incorreto. (Gabarito: Errado)"
+      },
+      {
+        "pergunta": "(FGV/CGE PB/2024) Observe o seguinte código escrito em Python. <br><br>import json <br>x = '{\"nome\":\"Junior\", \"idade\":5, \"brinquedo\":[\"Carro\", \"Bola\", \"Trem\", \"Barco\", \"Urso\"]}'; <br>y = json.loads(x) <br>z = len(y) <br>print(y[\"brinquedo\"][int(z)]) <br><br>O resultado da execução do código Python apresentado é:",
+        "alternativas": [
+        "a) Bola", 
+        "b) Trem", 
+        "c) Urso", 
+        "d) Carro",
+        "e) Barco"],
+        "correta": "e) Barco",
+        "explicacao": "Vamos lá, uma coisa dessa questão pode complicar para você – mas fique tranquilo que iremos desmembrar cada parte do código. Começamos com uma estrutura X que, embora pareça um dicionário, é uma estrutura em JSON (formato de arquivo de dados). Mas isso pouco nos importa, pois logo em seguida temos a sintaxe y = json.loads(x), que irá converter essa estrutura para um dicionário. O dicionário ficará da seguinte forma: <br><br>y = { <br>“nome”:”Junior”, <br>“idade”: 5, <br>“brinquedo”: [“Carro”, “Bola”, “Trem”, “Barco”, “Urso”] <br>} <br>Em seguida, temos z = len(y). Esse len() é uma função nativa do Python, sendo uma abreviação para length, ou comprimento. Ele mede o comprimento de determinado objeto – no caso de um dicionário, o comprimento é dado pela quantidade de itens (pares chave-valor) dentro dele. No nosso caso, temos 3 pares de chave e valor, mesmo que o par de “brinquedo” seja uma lista, ele conta apenas como 1 elemento. <br>Por fim, temos um print. Nele, puxamos o dicionário y, na chave “brinquedo”, e pegamos o elemento de posição 3 (referente ao comprimento do dicionário). Na lista, temos Carro (0), Bola (1), Trem (2), Barco (3). Portanto, o valor impresso no comando print será Barco. (Gabarito: Letra E)"
+      },
+      {
+        "pergunta": "(CEBRASPE/INPI/2024) Julgue o próximo item, relativo a HTML5, BootStrap e Python. <br>Considere-se o seguinte código em Python. <br><br>lista = ['I', 'N', 'P', 'I'] <br>lista = list(dict.fromkeys(lista)) <br>print(lista) <br><br>Ao se executar o código em Python precedente, o resultado será o apresentado a seguir. <br>['I', 'I', 'N', 'P']",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Questão excelente. Primeiro definimos uma lista com 4 elementos, I, N, P e I. Em seguida, temos o uso de alguns métodos encadeados: <br>dict.fromkeys(lista) > cria um dicionário a partir da lista, onde as chaves corresponderão aos elementos da lista <br>list() > cria uma lista a partir de algum elemento. No caso em análise, do dicionário. <br>Se rodássemos uma variável da seguinte forma: <br>lista2 = dict.fromkeys(lista) <br>O retorno seria um dicionário {‘I’:None, ‘N’:None, ‘P’:None}. Veja que, por ser um dicionário, não podemos repetir o elemento I, já que chaves são únicas. E, se transformássemos novamente esse dicionário para lista com, por exemplo: <br>lista3 = list(lista2) <br>Teríamos uma lista [‘I’, ‘N’, ‘P’], criada a partir das chaves do dicionário. E é exatamente isso que temos na nossa questão que, portanto, está incorreta. (Gabarito: Errado)"
+      },
+      {
+        "pergunta": "(FGV/TJ MS/2024) Observe o seguinte código Python: <br><br>import numpy as n <br>arr = np.array([1, 2, 3, 4, 5, 6, 7]) <br>print(arr[1:5]) <br><br>O resultado da execução do código apresentado é:",
+        "alternativas": [
+        "a) [1 5]", 
+        "b) [1 2 3 4 5]", 
+        "c) [2 3 4 5]", 
+        "d) [2 3 4 5 6]",
+        "e) [3 4 5 6 7]"],
+        "correta": "c) [2 3 4 5]",
+        "explicacao": "emos uma array [1, 2, 3, 4, 5, 6, 7] e um comando print, que define que iremos imprimir o arr[1:5] – esses dois pontos : indicam que estamos imprimindo um intervalo, da posição 1 a 5. Mas MUITA atenção, já lhe falei que intervalos em Python são abertos no limite superior. Então, na verdade, iremos imprimir os elementos de posição 1 a 4, já que a posição 5 não entra no intervalo. <br>Analisando a array, esses elementos são [2, 3, 4, 5], correspondentes às posições 1, 2, 3 e 4 respectivamente. Correta, portanto, a letra C. (Gabarito: Letra C)"
+      },
+      {
+        "pergunta": "(CEBRASPE/MPO/2024) A respeito das linguagens de programação Python e R, julgue o item subsecutivo. <br>Caso o ambiente e o programa não apresentem nenhum tipo de erro ou exceção, a execução do código Python abaixo produzirá como saída Concurso.\nMPO.. <br><br>s = 'Concurso.\nMPO.' <br>print(s)",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "O \n indica uma quebra de linha. A saída será: <br><br>Concurso. <br>MPO. <br><br>Portanto, item incorreto. (Gabarito: Errado)"
+      },
+      {
+        "pergunta": "(FGV/ALEP/2024) Considere o seguinte trecho de código, desenvolvido utilizando-se a linguagem de programação Python: <br><br>l = [1,'oi',2.5] <br>l *= 4 <br>print(l, 4 in l, 'oi' in l) <br><br>Assinale a opção que indica a saída impressa pela função print().     ",
+        "alternativas": [
+        "a) [1, 'oi', 2.5, 1, 'oi', 2.5, 1, 'oi', 2.5, 1, 'oi', 2.5] False True", 
+        "b) [4, 'oioioioi', 10.0] True False", 
+        "c) [1, 'oi', 2.5] False True", 
+        "d) [4, ' oioioioi', 10.0, 4, 'oioioioi', 10.0, 4, ' oioioioi', 10.0, 4, ' oioioioi', 10.0] True False",
+        "e) [4, ' oi', 10.0, 4, 'oioi', 10.0, 4, 'oioioi', 10.0, 4, 'oioioioi', 10.0] True True"],
+        "correta": "a) [1, 'oi', 2.5, 1, 'oi', 2.5, 1, 'oi', 2.5, 1, 'oi', 2.5] False True",
+        "explicacao": "Questão interessante. Temos uma lista l, e, em seguida, fazemos l *= 4 – o operador *= é um operador de atribuição, e essa sintaxe pode ser reescrita como l = l*4. Então, estamos multiplicando a lista 4 vezes (ou seja, a repetindo 4 vezes). Em seguida, temos um print, que pode ser dividido em 3 partes: <br><br>• l > irá printar o valor de l, no caso as 4 repetições da l original. <br>• 4 in l > irá verificar se existe 4 em l, o que não acontece, e retornará False <br>• ‘oi’ in l > irá verificar se existe ‘oi’ em l, o que acontece, e retornará True <br>Assim, a resposta que melhor se alinha ao retorno é a letra A. (Gabarito: Letra A)"
+      },
+      {
+        "pergunta": "(FGV/TJ AP/2024) Analise o código Python a seguir. <br><br>L=[0,1,1,2,3,5,8,13] <br>for k in range(1,len(L)): <br>    L[k],L[k-1] = L[k-1],L[k] <br>print (L[-1]) <br><br>O último valor exibido na execução desse código é:",
+        "alternativas": [
+        "a) 0;", 
+        "b) 1;", 
+        "c) 5;", 
+        "d) 8;",
+        "e) 13."],
+        "correta": "a) 0;",
+        "explicacao": "Temos uma lista com 8 elementos, e uma estrutura for. Esse for irá iterar de (1, len(L)), ou seja, de 1 até o comprimento de L – 8. Então, seria a mesma coisa que escrevermos: <br>for k in range(1, 8) (lembrando que iremos, de fato, só até o 7) <br>Dentro do loop, temos um bloco de código que faz uma estrutura de troca de posições. Ele irá trocar a posição do valor referente ao k atual e o seu antecessor. Vamos fazer as iterações e ver o que acontece. <br>ITERAÇÃO 1: k = 1; L[1], L[0] = L[0], L[1] <br>Iremos inverter os valores. Sabemos que L[0] = 0 e L[1] = 1. Assim, basta invertermos a posição – então, a lista [0,1,1,2,3,5,8,13] passa  a ser [1,0,1,2,3,5,8,13]. Iremos ainda printar um valor, mas só nos interessa o último valor, então não nos preocupemos com isso agora. <br>ITERAÇÃO 2: k= 2; L[2], L[1] = L[1], L[2] <br>Agora movemos a posição 2 para a posição 1, e a posição 1 para a posição 2. <br>[1,0,1,2,3,5,8,13] > [1,1,0,2,3,5,8,13] <br>ITERAÇÃO 3: k=3; L[3], L[2] = L[2], L[3] <br>Vamos ser mais diretos agora, você já entendeu o funcionamento. <br>[1,1,0,2,3,5,8,13] > [1,1,2,0,3,5,8,13] <br>ITERAÇÃO 4: k=4; L[4], L[3] = L[3], L[4] <br>[1,1,2,0,3,5,8,13] > [1,1,2,3,0,5,8,13] <br>ITERAÇÃO 5: k=5; L[5], L[4] = L[4], L[5] <br>[1,1,2,3,0,5,8,13] > [1,1,2,3,5,0,8,13] <br>ITERAÇÃO 6: k=6; L[6], L[5] = L[5], L[6] <br>[1,1,2,3,5,0,8,13] > [1,1,2,3,5,8,0,13] <br>ITERAÇÃO 7: k=7; L[7], L[6] = L[6], L[7] <br>[1,1,2,3,5,8,0,13] > [1,1,2,3,5,8,13,0] <br>Terminamos as iterações – e agora podemos executar o print (L[-1]). Esse print nada mais faz do que printar o último elemento da lista (o de posição -1) – que é o 0. Se você entendesse nas primeiras iterações que o que estamos fazendo é empurrar o primeiro elemento para o fim da lista, ficaria muito rápido de resolver essa questão. (Gabarito: Letra A)"
+      },
+      {
+        "pergunta": "(FGV/TJ AP/2024) Analise o código Python a seguir.<br><img src='../dados/imgs/questao_desenvolvimento_127.png' alt='imagem da questão'><br>O valor exibido na execução desse código é:",
+        "alternativas": [
+        "a) -1", 
+        "b) 1", 
+        "c) 2", 
+        "d) 89", 
+        "e) 144"],
+        "correta": "d) 89",
+        "explicacao": "Vamos lá, temos uma lista de 2 elementos e um loop while. Enquanto o comprimento da lista for menor que 10, isso é, enquanto tivermos menos que 10 elementos na lista, iremos inserir um valor nessa lista – resultante da soma de L[-1] e L[-2]. Vamos destrinchar as iterações para verificar o que ocorre: <br>ITERAÇÃO 1: len(L) = 2; L = [1, 2] <br>L[-1] + L[-2] = 2 + 1 = 3 <br>Saída: L = [1, 2, 3] <br>ITERAÇÃO 2: len(L) = 3; L = [1, 2, 3] <br>L[-1] + L[-2] = 3 + 2 = 5 <br>Saída: L = [1, 2, 3, 5] <br>ITERAÇÃO 3: len(L) = 4; L = [1, 2, 3, 5] L[-1] + L[-2] = 5 + 3 = 8 <br>Saída: L = [1, 2, 3, 5, 8] <br>ITERAÇÃO 4: len(L) = 5; L = [1, 2, 3, 5, 8] <br>L[-1] + L[-2] = 8 + 5 = 13 <br>Saída: L = [1, 2, 3, 5, 8, 13] <br>ITERAÇÃO 5: len(L) = 6; L = [1, 2, 3, 5, 8, 13] <br>L[-1] + L[-2] = 13 + 8 = 21 <br>Saída: L = [1, 2, 3, 5, 8, 13, 21] <br>ITERAÇÃO 6: len(L) = 7; L = [1, 2, 3, 5, 8, 13, 21] <br>L[-1] + L[-2] = 21 + 13 = 34 <br>Saída: L = [1, 2, 3, 5, 8, 13, 21, 34] <br>ITERAÇÃO 7: len(L) = 8; L = [1, 2, 3, 5, 8, 13, 21, 34] <br>L[-1] + L[-2] = 34  + 21 = 55 <br>Saída: L = [1, 2, 3, 5, 8, 13, 21, 34, 55] <br>ITERAÇÃO 8: len(L) = 9; L = [1, 2, 3, 5, 8, 13, 21, 34, 55] <br>L[-1] + L[-2] = 55 + 34 = 89 <br>Saída:  L = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89] <br>Na iteração 8, temos uma saída de L com 10 elementos, então interrompemos o loop, já que a condição len(L) < 10 deixou de ser satisfeita. A saída será o print(L[-1]), ou seja, o último elemento dessa lista – que é o 89. Portanto, correta a letra D. (Gabarito: Letra D)"
+      },
+      {
+        "pergunta": "(FGV/TJ MS/2024) Observe o seguinte trecho de um código Python: <br><br>a = (1, 2, 3, 4, 5) <br>print(type(a)) <br><br>O resultado da execução do código apresentado é:",
+        "alternativas": [
+        "a) <class 'numpy.ndarray'>", 
+        "b) <class 'tuple'>", 
+        "c) <class 'list'>", 
+        "d) <class 'set'>",
+        "e) <class 'range'>"],
+        "correta": "b) <class 'tuple'>",
+        "explicacao": "A função type retorna o tipo de elemento definido no parâmetro – no caso, o tipo de elemento de a. A estrutura representada por um par de parênteses, como em a, é chamada de tupla. Então, o retorno será <class ‘tuple’>. (Gabarito: Letra B)"
+      },
+      {
+        "pergunta": "(FGV/PREF. BH/2024) Analise o trecho código Python a seguir. <br><br>AREA = [3.7, 5.356, 4.9061, 4.32092, 9.038758, 32.5434846] <br>resultado = list(map(round, AREA, range(1,5))) <br>print(resultado) <br><br>O valor impresso é",
+        "alternativas": [
+        "a) [4.0, 5.36, 4.906].", 
+        "b) [3.7, 5.36, 4.906, 4.3209].", 
+        "c) [3.7, 5.36, 4.906, 4.3209, 9.03876].", 
+        "d) [4.0, 5.36, 4.906, 4.3209, 9.03876, 32.54348]."],
+        "correta": "b) [3.7, 5.36, 4.906, 4.3209].",
+        "explicacao": "A nos apresenta a criação de uma lista a partir de um map(). Vamos entender o mapeamento, para entender o que está acontecendo: <br>map(round, AREA, range(1,5) <br>A função map() é usada para aplicar a função round() aos elementos da lista AREA. Mas aqui, temos um comportamento interessante: round() pode receber dois argumentos — o número a ser arredondado e a precisão (o número de casas decimais) para o arredondamento. Essa precisão está sendo dada pelo range(1, 5) – o que quer dizer eu o arredondamento vai de 1 a 4 casas decimais (lembrem, intervalo aberto no final). Então, o map recebe como parâmetros: <br>round: A função que será aplicada aos elementos de AREA. <br>AREA: A lista que contém os números a serem arredondados. <br>range(1, 5): Um segundo iterável que contém os valores de precisão (número de casas decimais), ou seja, [1, 2, 3, 4]. <br>Então, o mapeamento será feito um por um: <br>• round(3.7, 1) → arredonda 3.7 com 1 casa. Resultado = 3.7 <br>• round(5.356, 2) → Arredonda o número 5.356 com 2 casas. Resultado = 5.36 <br>• round(4.9061, 3) → Arredonda o número 4.9061 com 3 casas. Resultado = 4.906 <br>• round(4.32092, 4) → Arredonda o número 4.32092 com 4 casas. Resultado = 4.3209 <br>Como chegamos ao fim do iterador round(1, 5), não executaremos mais nada e a lista ficará com os elementos [3.0, 5.36, 4.906, 4.3209]. (Gabarito: Letra B)"
+      },
+      {
+        "pergunta": "(FGV/Pref SJC/2024) A linguagem python tem sido empregada para automatização de processos, como por exemplo, fechar a conexão de um banco ao tratar um erro. <br>No tratamento de exceções, a seguinte cláusula (ou bloco) garante a execução independentemente de uma exceção ter ocorrido ou não no código anterior:",
+        "alternativas": [
+        "a) except", 
+        "b) termination", 
+        "c) try", 
+        "d) finally",
+        "e) raise"],
+        "correta": "d) finally",
+        "explicacao": "O bloco que sempre será executado, independentemente de ocorrer ou não, é o bloco Finally."
+      },
+      {
+        "pergunta": "(CEBRASPE/CAU BR/2024) Em relação à linguagem de programação Python, julgue o item a seguir. <br>Caso o ambiente e o programa não apresente nenhum tipo de erro ou exception, a execução do código a seguir terá como resultado os números 3, 4, 5, 6, 7, 8. <br><br>x = range(3,9) <br>for n in x: <br>    print(n)",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Estamos criando um intervalo com range, de [3, 9). Em seguida, printamos esses valores do intervalo através de um loop for – que irá imprimir, portanto, 3, 4, 5, 6, 7 e 8. Item correto, explorando os intervalos superiores abertos de Python."
+      },
+      {
+        "pergunta": "(VUNESP/SPTrans/2024) Observe o seguinte código escrito na linguagem Python. <br><br>x = [1,2,3,4,5] <br>n = x[2] + x[1] - x[-2] <br>print(n) <br><br>É correto afirmar que o valor impresso será:",
+        "alternativas": [
+        "a) -2",
+        "b) -1",
+        "c) 0",
+        "d) 1",
+        "e) 2"],
         "correta": "a) letra A",
-        "explicacao": "XXXX"
+        "explicacao": "Temos a construção de uma variável n a partir de diferentes elementos retirados da lista x. A questão exige que você saiba fazer o posicionamento da lista para responder corretamente.<br>Veja que cada elemento tem uma posição para números positivos, e pra números negativos. Com isso, podemos afirmar que:<br>• x[2] = 3 <br>• x[1] = 2 <br>• x[-2] = 4 <br><br>• n = 3 + 2 – 4 = 1"
+      },
+      {
+        "pergunta": "(FGV/TJ AP/2024) Analise o código Python a seguir. <br><br>L=[0,1,1,2,3] <br>for k in range(4, -4, -1): <br>   print (L[k] + L[k % len(L)]) <br><br>O resultado da execução desse código, na ordem, é:",
+        "alternativas": [
+        "a) 4, 2, 2, 0, 6, 4;", 
+        "b) 6, 4, 2, 2, 0, 6, 4, 2, 2;", 
+        "c) 6, 4, 2, 2, 0, 6, 4, 2;", 
+        "d) 6, 4, 2, 2, 6, 4, 2;",
+        "e) 6, 4, 2, 0, 6, 4, 2."],
+        "correta": "c) 6, 4, 2, 2, 0, 6, 4, 2;",
+        "explicacao": "Então, os prints serão: 6, 4, 2, 2, 0, 6, 4, 2. Poderíamos responder rapidamente interpretando o intervalo do for, de [4, -4), que equivale a 8 passos. Das alternativas, apenas a letra C traz 8 resultados diferentes."
+      },
+      {
+        "pergunta": "(FGV/TJ AP/2024) Analise o código Python a seguir. <br><br>L=[1,2] <br>while len(L) < 10:<br>   L.append(L[-1] + L[-2])<br>print (L[-1]) <br><br>O valor exibido na execução desse código é:",
+        "alternativas": [
+        "a) -1;", 
+        "b) 1;", 
+        "c) 2;", 
+        "d) 89;",
+        "e) 144."],
+        "correta": "d) 89;",
+        "explicacao": "Vamos lá, temos uma lista de 2 elementos e um loop while. Enquanto o comprimento da lista for menor que 10, isso é, enquanto tivermos menos que 10 elementos na lista, iremos inserir um valor nessa lista – resultante da soma de L[-1] e L[-2]. Vamos destrinchar as iterações para verificar o que ocorre: <br>ITERAÇÃO 1: len(L) = 2; L = [1, 2] <br>L[-1] + L[-2] = 2 + 1 = 3 <br>Saída: L = [1, 2, 3] <br>ITERAÇÃO 2: len(L) = 3; L = [1, 2, 3] <br>L[-1] + L[-2] = 3 + 2 = 5 <br>Saída: L = [1, 2, 3, 5] <br>ITERAÇÃO 3: len(L) = 4; L = [1, 2, 3, 5] <br>L[-1] + L[-2] = 5 + 3 = 8 <br>Saída: L = [1, 2, 3, 5, 8] <br>ITERAÇÃO 4: len(L) = 5; L = [1, 2, 3, 5, 8] <br>L[-1] + L[-2] = 8 + 5 = 13 <br>Saída: L = [1, 2, 3, 5, 8, 13] <br>ITERAÇÃO 5: len(L) = 6; L = [1, 2, 3, 5, 8, 13] <br>L[-1] + L[-2] = 13 + 8 = 21 <br>Saída: L = [1, 2, 3, 5, 8, 13, 21] <br>ITERAÇÃO 6: len(L) = 7; L = [1, 2, 3, 5, 8, 13, 21] <br>L[-1] + L[-2] = 21 + 13 = 34 <br>Saída: L = [1, 2, 3, 5, 8, 13, 21, 34] <br>ITERAÇÃO 7: len(L) = 8; L = [1, 2, 3, 5, 8, 13, 21, 34] <br>L[-1] + L[-2] = 34 + 21 = 55 <br>Saída: L = [1, 2, 3, 5, 8, 13, 21, 34, 55] <br>ITERAÇÃO 8: len(L) = 9; L = [1, 2, 3, 5, 8, 13, 21, 34, 55] <br>L[-1] + L[-2] = 55 + 34 = 89 <br>Saída: L = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89] <br>Na iteração 8, temos uma saída de L com 10 elementos, então interrompemos o loop, já que a condição len(L) < 10 deixou de ser satisfeita. A saída será o print(L[-1]), ou seja, o último elemento dessa lista – que é o 89. Portanto, correta a letra D."
+      },
+      {
+        "pergunta": "(VUNESP/CM Campinas/2024) Considere uma lista armazenada em uma variável a na linguagem Python. <br>Assinale a alternativa que apresenta uma maneira de imprimir os elementos desta lista de maneira inversa (começando pelo último elemento).",
+        "alternativas": [
+        "a) print(a[-1])", 
+        "b) print(a[::])", 
+        "c) print(a[::-1])", 
+        "d) print(a[-1::])",
+        "e) print(a[:-1:])"],
+        "correta": "c) print(a[::-1])",
+        "explicacao": "A questão quer que invertamos uma lista a com slicing. Para isso, basta fazer a[::-1]. Com isso, definimos que o fatiamento percorrerá a lista de começo a fim, mas em passos negativos, isso é, indo do fim ao começo da lista."
+      },
+      {
+        "pergunta": "(CEBRASPE/CNJ/2024) Acerca de linguagens de script, julgue o próximo item. <br>Considere o código Python a seguir. <br><br>fruits = ['abacaxi', 'banana', 'abacate', 'morango', 'jabuticaba'] <br>for i,j in enumerate(fruits): <br>print(“{i}”,j) <br><br>A execução desse código tem o seguinte resultado. <br>0 abacaxi <br>1 banana <br>2 abacate <br>3 morango <br>4 jabuticaba",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Temos um for que itera sobre o enumerate(), uma função que interage com listas. Essa função retorna dois valores: <br>• Um valor para o índice – representado por i na sintaxe <br>• Um valor para o item – representado por j na sintaxe <br>Esses valores retornados são sempre nessa ordem – primeiro o índice, depois o item. <br>Em seguida, temos um print – com a seguinte estrutura: <br>print(“{i}”, j) <br>Veja que temos uma certa sacanagem da banca. Tentamos fazer uma f-string com o valor do índice, e em seguida o valor do item. Porém não há f antes da string – a sintaxe deveria ser print(f”{i}”, j) para termos o resultado que a banca propôs. <br>Da forma como está escrito, as saídas serão: <br>{i} abacaxi <br>{i} banana <br>{i} abacate <br>{i} morango <br>{i} jabuticaba <br>Portanto, item errado."
       },
       {
         "pergunta": "QUESTÃO V OU F (<img src='../dados/imgs/questao_desenvolvimento_XX.png' alt='imagem da questão'><br>)",
@@ -9519,11 +9734,22 @@
         "Errado"],
         "correta": "X",
         "explicacao": "XXX"
+      },
+      {
+        "pergunta": "QUESTÃO MÚLTIPLA ALTERNATIVA",
+        "alternativas": [
+        "a) letra A", 
+        "b) letra B", 
+        "c) letra C", 
+        "d) letra D",
+        "e) letra E"],
+        "correta": "a) letra A",
+        "explicacao": "XXXX"
       }
     ],
 
 
-
+    
     "direitoAdministrativo": [
       {
         "pergunta": "(TCE-PE - 2017) A administração pública pode estar sujeita tanto ao regime jurídico de direito privado quanto ao regime jurídico de direito público.",
@@ -10397,6 +10623,853 @@
         "explicacao": "O princípio da especialidade é aquele que busca assegurar que as entidades administrativas exercerão às atividades previstas em sua lei de criação ou autorização. Isso porque não pode um agente público, por mero ato administrativo, mudar a finalidade de uma entidade administrativa. Por isso que a lei de criação ou autorização deve definir a finalidade da entidade."
       },
       {
+        "pergunta": "(FUB - 2013) As entidades políticas são aquelas que recebem suas atribuições da própria CF, exercendoas com plena autonomia.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "as entidades políticas possuem autonomia plena, pois possuem capacidade de autogoverno, auto-organização e autoadministração. As atribuições dessas entidades decorrem diretamente da Constituição Federal, em particular dos arts. 18 ao 32. Logo, o item está correto!"
+      },
+      {
+        "pergunta": "(SEFIN RO - 2018) Na centralização, o Estado executa suas tarefas diretamente, por intermédio dos inúmeros órgãos e agentes administrativos que compõem sua estrutura funcional.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Quando os serviços são prestados diretamente pelos órgãos da Administração direta, diz-se que o serviço foi prestado de forma centralizada. Portanto, o quesito está correto. Se, por outro lado, os serviços forem prestados por entidades administrativas ou mediante delegação, aí o serviço será prestado de forma descentralizada. Logo, o item está correto!"
+      },
+      {
+        "pergunta": "(TCE PB - 2018) No processo de descentralização por serviço, em que o órgão passa a deter a titularidade e a execução do serviço, ocorre a distribuição interna de competências no âmbito de uma mesma pessoa jurídica.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A distribuição interna de competências é manifestação da desconcentração, não da descentralização. A descentralização envolve a relação de mais de uma pessoa jurídica, criando uma nova entidade (descentralização por serviço) ou firmando um vínculo de delegação (descentralização por colaboração). Logo, o item está incorreto!"
+      },
+      {
+        "pergunta": "(SEFIN RO - 2018) Centros de competência especializada dispostos na intimidade de uma pessoa jurídica, sem personalidade jurídica e vontade próprias, com intenção de garantir a especialização nas atividades prestadas com maior eficiência, são chamados pela doutrina de Direito Administrativo de órgãos, sejam da Administração Direta, sejam as entidades de direito público da Administração Indireta, e somente podem ser criados ou extintos por meio de lei.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Os órgãos públicos são centros de competência sem personalidade jurídica, logo não possuem vontade própria, e suas manifestações são imputadas ao ente do qual fazem parte. Logo, a primeira parte está correta. <br>Normalmente, utiliza-se a expressão especialização para a descentralização, mas não é errado dizer que os órgãos são criados para se especializar em determinada área. Então, a segunda parte da assertiva também está correta. <br>Existem órgãos tanto na Administração direta como na indireta, já que eles são distribuições internas de competências. Logo, o item está correto!"
+      },
+      {
+        "pergunta": "(TCE PB - 2018) As entidades que integram a administração pública indireta incluem as autarquias, as empresas públicas e as sociedades de economia mista.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Fazem parte da Administração indireta as autarquias, as fundações públicas, as empresas públicas e as sociedades de economia mista. Note que a questão não menciona todas as entidades, mas está correta, pois a assertiva não foi taxativa."
+      },
+      {
+        "pergunta": "(EBSERH - 2018) Somente por decreto específico poderá ser criada autarquia e autorizada a instituição de empresa pública, de sociedade de economia mista e de fundação, cabendo à lei complementar definir as áreas de atuação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O item é quase reprodução do art. 37, XIX, da Constituição Federal. Contudo, a criação e extinção de entidades administrativas depende da edição de lei específica (e não de decreto). Por isso, a assertiva está incorreta."
+      },
+      {
+        "pergunta": "(TCE PB - 2018) Serviço autônomo com personalidade jurídica de direito público, patrimônio e receita próprios, criado por lei para executar atividades típicas da administração pública que requeiram, para seu melhor funcionamento, gestão administrativa e financeira descentralizada é o conceito de autarquia.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Perfeito! As autarquias são entidades de direito público; possuem seu próprio patrimônio e receita; são criadas por lei; atuam de forma descentralizada; e são chamadas de serviço público personalizado ou serviço autônomo. Logo, o item está correto!"
+      },
+      {
+        "pergunta": "(SEFIN RO - 2018) As autarquias são criadas por lei.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Fácil demais, não!? As autarquias são efetivamente criadas por lei, “nascendo” com a vigência da lei de criação. Correta, portanto, a assertiva."
+      },
+      {
+        "pergunta": "(TJDFT - 2013) Nos litígios comuns, as causas que digam respeito às autarquias federais, sejam estas autoras, rés, assistentes ou oponentes, são processadas e julgadas na justiça federal.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Conforme redação do art. 109, I, da Constituição Federal, as causas em que a União, entidade autárquica ou empresa pública federal forem interessadas na condição de autoras, rés, assistentes ou oponentes serão processadas e julgadas na Justiça Federal. Assim, o item está correto."
+      },
+      {
+        "pergunta": "(PC MA - 2018) As autarquias são pessoas jurídicas com capacidade de autodeterminação, patrimônio e receitas próprias, criadas por lei para o desempenho de atividades típicas do Estado, submetidas ao controle hierárquico pela administração pública direta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As autarquias não se submetem ao controle hierárquico, pois não há subordinação com o ente instituidor, mas apenas tutela ou controle finalístico. Logo, a assertiva está incorreta."
+      },
+      {
+        "pergunta": "(TJ CE - 2018) Embora seja reconhecida a natureza autárquica dos conselhos de classe, em razão da natureza privada dos recursos que lhes são destinados, essas entidades não se submetem ao controle externo exercido pelo TCU.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Os conselhos de fiscalização de atividade profissional possuem natureza de autarquia. Consequentemente, por integrarem a Administração Indireta federal, submetem-se ao controle externo do TCU. Portanto, a assertiva está incorreta."
+      },
+      {
+        "pergunta": "(TJ CE - 2018) Autarquias e fundações públicas podem receber, por meio de lei específica, a qualificação de agência executiva, para garantir o exercício de suas atividades com maior eficiência e operacionalidade.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A qualificação das fundações e autarquias em agências executivas ocorre mediante decreto do Poder Executivo. Logo, não ocorre por meio de lei específica. Vale lembrar, ademais, que a qualificação depende da existência de um plano estratégico de reestruturação e de desenvolvimento institucional em andamento e de um contrato de gestão celebrado com o respectivo ministério supervisor. Desta forma, a questão está incorreta."
+      },
+      {
+        "pergunta": "(Cebraspe – Câmara dos Deputados / 2026) As câmaras de vereadores, por serem desprovidas de personalidade jurídica própria, não possuem capacidade processual para propor ações judiciais, cabendo exclusivamente às pessoas jurídicas de direito público a defesa dos seus direitos institucionais.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As câmaras de vereadores são órgãos públicos e, como tal, não gozam de personalidade jurídica. Porém, os órgãos de estatura constitucional, como as câmaras, possuem personalidade judiciária, que representa a capacidade processual específica para a defesa das suas prerrogativas constitucionais. Por exemplo: uma câmara de vereadores não pode processar alguém para ressarcir o erário, pois não goza de personalidade jurídica e capacidade processual genérica; mas poderá impetrar mandado de segurança quando o prefeito municipal não lhe repassar os duodécimos (recursos) para o exercício de suas atribuições. <br>Nesse sentido, a Súmula 525 do STJ dispõe que: “A Câmara de Vereadores não possui personalidade jurídica, apenas personalidade judiciária, somente podendo demandar em juízo para defender os seus direitos institucionais”."
+      },
+      {
+        "pergunta": "(Cebraspe – Câmara dos Deputados / 2026) É permitido ao servidor público atuar como procurador de seu cônjuge para tratar de benefícios previdenciários ou assistenciais junto a repartições públicas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "De acordo com a Lei 8.112/1990, ao servidor é proibido: “atuar, como procurador ou intermediário, junto a repartições públicas, salvo quando se tratar de benefícios previdenciários ou assistenciais de parentes até o segundo grau, e de cônjuge ou companheiro” (Lei 8.112/1990, art. 117, XI). Assim, a questão descreveu corretamente a exceção em que o agente público poderá atuar como procurador ou intermediário."
+      },
+      {
+        "pergunta": "(Cebraspe – Câmara dos Deputados / 2026) O servidor que for demitido por se ter valido do cargo para lograr proveito pessoal, em detrimento da dignidade da função pública, não poderá retornar ao serviço público federal pelo período de 10 anos, ainda que aprovado em outro concurso público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Realmente a Lei 8.112/1990 proíbe ao servidor “valer-se do cargo para lograr proveito pessoal ou de outrem, em detrimento da dignidade da função pública” (Lei 8.112/1990, art. 117, IX). Esta penalidade, enseja a aplicação da pena de demissão (art. 132, XIII), simultaneamente com a incompatibilidade para nova investidura em cargo público federal, pelo prazo de 5 (cinco) anos (art. 137). <br>Dessa forma, o agente público não poderá regressar ao serviço público pelo prazo de cinco anos, ainda que se trate de provimento mediante concurso. Portanto, a questão está “quase certa”, mas consta com erro no prazo, que não é de dez anos."
+      },
+      {
+        "pergunta": "(Cebraspe – PCDF/2025) Denomina-se descentralização a transferência da execução de uma atividade estatal a determinada pessoa, física ou jurídica, independentemente de integrar a administração pública.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A descentralização administrativa envolve duas pessoas distintas: o Estado e a pessoa que executará o serviço, que pode ou não integrar a administração pública. Logo, a questão está correta. <br>Duas categorias dessa descentralização são a descentralização por serviços (técnica ou funcional) e a descentralização por delegação (ou colaboração). Na primeira categoria, a pessoa que executa o serviço integra a administração pública (Indireta). <br>Na segunda categoria, o serviço é executado por uma pessoa que não integra a administração pública (concessionária ou permissionária). <br>Na primeira categoria, são transferidas a titularidade e a execução do serviço. Na segunda, transfere-se somente a execução. <br>Repare que a questão não especificou qualquer categoria, mas em ambas há a transferência da execução do serviço a outra pessoa. Portanto, o item está certo."
+      },
+      {
+        "pergunta": "(Cebraspe – PCDF/2025) A distribuição de competências entre os órgãos internos sem personalidade jurídica que pertençam a uma mesma pessoa jurídica denomina-se desconcentração.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "De fato, a desconcentração é uma técnica administrativa para distribuir competências internamente a uma pessoa jurídica, ou seja, entre os órgãos que a integram, os quais não têm personalidade jurídica própria."
+      },
+      {
+        "pergunta": "(Cebraspe/IBAMA/2025) A criação de autarquias, fundações, empresas públicas e sociedades de economia mista se consubstancia por meio da descentralização, de forma que tais entes pertencem à administração pública indireta e têm personalidade jurídica de direito público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A primeira parte da questão está certa: sim, a criação de autarquias, fundações [públicas], empresas públicas e sociedades de economia mista se consubstancia por meio da descentralização, de forma que tais entes pertencem à administração pública indireta. No entanto, a parte final da questão está errada, pois nem todos esses entes têm personalidade jurídica de direito público. Apenas a tem as autarquias e as fundações públicas de direito público."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 10/2025) Entende-se por desconcentração a repartição de competências entre pessoas jurídicas distintas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Pelo contrário, a desconcentração ocorre exclusivamente dentro de uma mesma pessoa jurídica, constituindo uma técnica administrativa utilizada para distribuir internamente as competências. Quando a distribuição ocorre entre pessoas jurídicas distintas, ocorre a descentralização administrativa."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 10/2025) Tanto a criação quanto a extinção das autarquias, cuja atuação é voltada para o desempenho de serviço público descentralizado, dependem da edição de lei específica, em razão da aplicação do princípio da paridade de formas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A criação das autarquias deve ocorrer por meio de lei específica, nos termos previstos no art. 37, XIX, da CF. A doutrina entende que, nesse caso, a extinção deverá seguir o mesmo modelo. Assim, se há necessidade de lei para criar, haverá necessidade de lei para extinguir. Este é o princípio da simetria ou paridade de formas. Logo, o item está certo. <br>Acrescenta-se que, no caso específico da extinção de empresa pública e de sociedade de economia mista, o STF entende que não há aplicação do princípio da paridade. Segundo o Supremo, a extinção de empresa estatal pode ser autorizada em lei genérica, diferente da autorização para criação, que exige lei específica (ADI 6241, de 8 de fevereiro de 2021)."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 10/2025) Ocorre a desconcentração quando um ente federativo distribui o exercício de uma parcela de suas atribuições a outras pessoas, físicas ou jurídicas, de direito público ou de direito privado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Esse é o conceito de descentralização administrativa. A desconcentração é uma técnica administrativa de simplificação e aceleração do serviço dentro da mesma entidade, dando origem aos órgãos públicos."
+      },
+      {
+        "pergunta": "(Cebraspe – ANM/2025) As agências reguladoras fazem parte da administração direta e são consideradas autarquias em regime especial.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Em geral, costuma-se dizer que as agências reguladoras são autarquias sob regime especial, em virtude de algumas características que as distinguem das demais autarquias, que lhes confere maior autonomia em relação ao ente instituidor. Contudo, como autarquias, integram a administração indireta, e não direta, motivo pelo qual a assertiva está errada."
+      },
+      {
+        "pergunta": "(Cebraspe – TRF 6/2025) Integram a administração pública direta os hospitais públicos federais que prestam serviços de saúde, de maneira centralizada, no Sistema Único de Saúde (SUS).",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A administração direta é o conjunto de órgãos que integram as pessoas políticas ou federativas (União, estados, Distrito Federal e municípios), aos quais foi atribuída a competência para o exercício das atividades administrativas do Estado de forma centralizada. Como a assertiva frisou que o serviço de saúde é prestado de forma centralizada, podemos considerar que está se referindo aos hospitais como órgãos que compõem a administração direta."
+      },
+      {
+        "pergunta": "(Cebraspe – EMBRAPA/2025) A transferência de atividades da administração pública para as empresas públicas e sociedades de economia mista caracteriza a desconcentração administrativa.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Na verdade, nesse caso, trata-se de hipótese de descentralização administrativa. A descentralização por outorga, por serviços, técnica ou funcional ocorre quando o Estado cria uma entidade com personalidade jurídica própria e a ela transfere a titularidade e a execução de determinado serviço público. Esse tipo de descentralização dá origem à Administração indireta (autarquias, fundações públicas, sociedades de economia mista e empresas públicas), pressupondo a elaboração de lei para criação ou autorização da criação da entidade."
+      },
+      {
+        "pergunta": "(Cebraspe – CAPES/2024) A administração federal direta possui personalidade jurídica própria, sendo composta pelos ministérios e pelas empresas estatais a eles vinculadas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Podemos considerar que a administração federal direta é a União. Nesse caso, de fato, haverá personalidade jurídica (para a União). Os órgãos que compõem a administração direta, por outro lado, são apenas centros de competência, sem personalidade jurídica própria. Nessa linha, os ministérios são órgãos que compõem a administração federal direta, nascendo a partir da desconcentração. <br>Contudo, as empresas estatais (empresas públicas e sociedades de economia mista) são entidades administrativas e integram a administração indireta."
+      },
+      {
+        "pergunta": "(Cebraspe – CAPES/2024) As entidades da administração indireta com personalidade de direito privado desempenham unicamente atividade delegada pelo Estado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A criação de entidades administrativas da administração indireta depende de autorização legislativa. Logo, trata-se de descentralização por serviços, técnica ou funcional. Essa é a forma de descentralização que dá origem à administração indireta e se opõe à descentralização por delegação (ou colaboração), que dá origem aos delegatários de serviços públicos. <br>Assim, só por esse conceito, já poderíamos indicar o item como errado, pois, em tese, as entidades da administração indireta com personalidade de direito privado não recebem delegação (em sentido estrito), uma vez que a sua competência decorre de lei, mediante descentralização técnica. <br>Há casos excepcionais em que elas podem receber delegação em sentido estrito. Por exemplo: o estado de São Paulo cria uma empresa estatal para prestar serviços públicos no mesmo estado. Posteriormente, a entidade estatal resolve ampliar as suas atividades e participa de licitação, no estado do Rio de Janeiro, para explorar um serviço público. Em São Paulo, houve a descentralização por serviços; mas no Rio de Janeiro ocorrerá a descentralização por delegação, já que a empresa estatal não será integrante da administração do estado carioca."
+      },
+      {
+        "pergunta": "(Cebraspe – ANAC/2024) A autoridade máxima de determinada agência reguladora federal negou requerimento administrativo apresentado por Caio, que, diante da decisão denegatória, interpôs recurso perante o ministério supervisor ao qual a agência se vincula. Tendo como referência a situação hipotética precedente, julgue os itens que se seguem. <br>A agência reguladora possui vínculo de hierarquia com o ministério a que se acha vinculada.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Nenhuma entidade administrativa é subordinada aos ministérios. Portanto, não há hierarquia entre a os ministérios (administração direta) e as autarquias (incluindo as agências reguladoras), fundações públicas, empresas públicas e sociedades de economia mista. Nesse caso, somente existe vinculação."
+      },
+      {
+        "pergunta": "(Cebraspe – ANAC/2024) A autoridade máxima de determinada agência reguladora federal negou requerimento administrativo apresentado por Caio, que, diante da decisão denegatória, interpôs recurso perante o ministério supervisor ao qual a agência se vincula. Tendo como referência a situação hipotética precedente, julgue os itens que se seguem. <br>Agência reguladora é entidade da administração pública indireta constituída sob a forma de autarquia especial.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "As agências reguladoras são autarquias sob regime especial, integrantes da administração indireta, criadas por lei, dotadas de autonomia financeira e orçamentária, organizadas em colegiado cujos membros detém mandato fixo, com a finalidade de regular e fiscalizar as atividades de prestação de serviços públicos."
+      },
+      {
+        "pergunta": "(Cebraspe – MP TO/2024) Ocorre descentralização quando a distribuição de competências é feita dentro de uma mesma pessoa jurídica, entre órgãos sujeitos a hierarquia, gerando relações de subordinação e coordenação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A desconcentração é a distribuição de competências na mesma pessoa jurídica, possuindo relação de hierarquia/subordinação. Por outro lado, a descentralização envolve duas ou mais pessoas jurídicas, sem relação de hierarquia ou subordinação."
+      },
+      {
+        "pergunta": "(Cebraspe – MP TO/2024) Mesmo sendo parte integrante da estrutura do Estado, os órgãos públicos têm personalidade jurídica e vontade próprias.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Os órgãos públicos são centros de competência sem personalidade jurídica própria. Os órgãos funcionam como subdivisões internas de uma entidade política ou administrativa e surgem a partir da desconcentração"
+      },
+      {
+        "pergunta": "(Cebraspe – MP TO/2024) A administração centralizada é exercida por uma única pessoa jurídica e pode ser desempenhada por diversos órgãos internos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A administração direta é o conjunto de órgãos que integram as pessoas políticas ou federativas (União, estados, Distrito Federal e municípios), aos quais foi atribuída a competência para o exercício das atividades administrativas do Estado de forma centralizada. Por isso, a expressão administração centralizada é sinônimo de administração direta. Nesse caso, o serviço é prestado por uma única pessoa jurídica (uma pessoa política). <br>Apesar de ser centralizado, o serviço pode ser desconcentrado, ou seja, pode ser prestado pelos diversos órgãos que compõem a administração direta. Por exemplo: o serviço prestado por um ministério é centralizado (prestado pela União) e desconcentrado (prestado por um órgão público)."
+      },
+      {
+        "pergunta": "(Cebraspe – MP TO/2024) Havendo concentração, as atividades administrativas são desempenhadas por órgãos da pessoa jurídica, hierarquicamente distribuídos e com sua competência definida em lei.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "a desconcentração é o fenômeno que dá origem aos órgãos públicos. É um fenômeno interno, pois acontece na mesma pessoa jurídica, e com hierarquia. Logo, a questão descreveu a desconcentração. Por outro lado, a expressão “concentração” é adotada para descrever a extinção de órgãos. Por exemplo: se existem 30 ministérios e eles foram reduzidos para 20, houve concentração.a desconcentração é o fenômeno que dá origem aos órgãos públicos. É um fenômeno interno, pois acontece na mesma pessoa jurídica, e com hierarquia. Logo, a questão descreveu a desconcentração. Por outro lado, a expressão “concentração” é adotada para descrever a extinção de órgãos. Por exemplo: se existem 30 ministérios e eles foram reduzidos para 20, houve concentração."
+      },
+      {
+        "pergunta": "(Cebraspe – Prefeitura de Camaçari/2024) No tocante às formas de realização da função administrativa, assinale a opção correta.",
+        "alternativas": [
+        "a) A descentralização por outorga ocorre quando o Estado transfere, por contrato ou ato unilateral, a execução de serviço para que este seja prestado em nome e por conta e risco do outorgado.", 
+        "b) Há centralização quando as atividades administrativas são desempenhadas por órgãos integrantes da administração direta.", 
+        "c) Ocorre descentralização por delegação quando o Estado transfere determinado serviço público para uma entidade por ele criada.", 
+        "d) A desconcentração material ou temática decorre da hierarquia existente entre os órgãos.",
+        "e) Um exemplo de desconcentração é a criação de uma autarquia à qual a União transfira, por lei, a competência de atuar em determinado serviço público."],
+        "correta": "b) Há centralização quando as atividades administrativas são desempenhadas por órgãos integrantes da administração direta.",
+        "explicacao": "a) Errada. A descentralização por outorga ocorre quando o Estado cria entidades administrativas, como autarquias e empresas estatais. Esse procedimento ocorre por meio de lei, que cria ou autoriza a criação da entidade. <br>b) Certa. A administração direta também é conhecida como centralizada. Nesse caso, os serviços são prestados diretamente pela pessoa política, por intermédio dos órgãos administrativos que formam as estruturas dos poderes, ministérios ou secretarias. <br>c) Errada. Essa é a descentralização por outorga. A descentralização por delegação ocorre quando o serviço é delegado a particulares por meio de contratos ou atos administrativos. <br>d) Errada. A desconcentração material considera a atividade desempenhada. Um exemplo é a divisão dos ministérios em Ministério da Saúde, da Educação, da Economia etc. A desconcentração por hierarquia (ou grau) acontece quando os órgãos são escalonados em relação de subordinação, como os ministérios, as superintendências, as delegacias etc. <br>e) Errada. Isso é uma descentralização por outorga (ou serviços, técnica ou funcional)."
+      },
+      {
+        "pergunta": "(Cebraspe – CAU BR/2024) Autarquia é órgão público despersonalizado que integra a administração pública indireta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Autarquia é entidade administrativa com personalidade jurídica própria (de direito público), integrante da Administração indireta. Com efeito, a criação de autarquia ocorre por meio da descentralização."
+      },
+      {
+        "pergunta": "(Cebraspe – MME/2023) Agência reguladora é uma pessoa jurídica de direito público, que, constituída sob a forma de autarquia com regime especial, compõe a administração indireta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Vamos relembrar as principais características das agências reguladoras: <br>a) são pessoas jurídicas de direito público; <br>b) desempenham atividades típicas do Poder Público; <br>c) são autarquias sob regime especial (não representam uma nova forma de entidade administrativa); <br>d) integram a administração indireta (descentralizada); <br>e) possuem maior autonomia que as outras entidades da administração indireta; <br>f) são dirigidas por colegiado cujos membros são nomeados por prazo determinado pelo Presidente da República, após prévia aprovação pelo Senado Federal, vedada a exoneração ad nutum; <br>g) não se submetem à tutela ou ao controle hierárquico do ente central; <br>h) em casos específicos, admite-se o controle hierárquico impróprio ou avocação de competências pelo Presidente da República; <br>i) encontram-se vinculadas ao Ministério do Setor correspondente. <br>Logo, elas realmente são autarquias em regime especial, com natureza de direito público e compõem a administração indireta."
+      },
+      {
+        "pergunta": "(Cebraspe – DATAPREV/2023) As agências reguladoras são consideradas autarquias sob regime especial, criadas por lei e dotadas de poder regulamentar e normativo nos limites nela estabelecidos.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Alexandre Santos de Aragão define as agências reguladoras brasileiras como: <br>[...] autarquias sob regime especial, dotadas de considerável autonomia frente à Administração centralizada, incumbidas do exercício de funções regulatórias e dirigidas por colegiado cujos membros são nomeados por prazo determinado pelo Presidente da República, após prévia aprovação pelo Senado Federal, vedada a exoneração ad nutum. <br>Como autarquias, elas são criadas diretamente por lei específica. Ademais, as suas atividades são inerentes à regulação e à normatização de determinado setor econômico ou serviço público."
+      },
+      {
+        "pergunta": "(Cebraspe – ANP/2022) As agências reguladoras integram a administração pública indireta na forma de autarquias, instituídas como pessoas jurídicas de direito público em regime especial.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Para Maria Di Pietro, agência reguladora é entidade da Administração Indireta, em regra autarquia de regime especial, com a função de regular a matéria que se insere em sua esfera de competência, outorgada por lei. <br>Portanto, elas realmente são autarquias, mas com regime especial, decorrente principalmente do mandato com prazo fixo dos seus dirigentes."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE PB/2022) Agências reguladoras são exemplos de fundações públicas de direito privado",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As agências reguladoras são autarquias em regime especial."
+      },
+      {
+        "pergunta": "(Cebraspe – INSS/2022) O INSS é uma autarquia federal subordinada ao Ministério do Trabalho e Previdência.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O INSS é uma autarquia federal vinculada ao Ministério do Trabalho e Previdência. Não existe relação de hierarquia entre a administração direta e indireta. Logo, não há subordinação, mas apenas vinculação."
+      },
+      {
+        "pergunta": "(Cebraspe – DPE DF/2022) Considera-se descentralizada a atividade exercida pelos diversos órgãos integrantes da administração direta em âmbito federal, estadual ou municipal.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Os órgãos integrantes da administração direta em âmbito federal, estadual ou municipal exercem duas atividades de maneira desconcentrada. Nesse sentido, a desconcentração ocorre exclusivamente dentro de uma mesma pessoa jurídica, constituindo uma técnica administrativa utilizada para distribuir internamente as competências. <br>A descentralização, por sua vez, ocorre quando o Estado não executa o serviço por meio de sua administração direta. Envolve, portanto, duas pessoas distintas: o Estado – União, estados, Distrito Federal e municípios – e a pessoa que executará o serviço (administração indireta ou entidade delegada). <br>Então, a assertiva se refere à desconcentração, e não à descentralização."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2019) A administração pública direta reflete uma administração centralizada, enquanto a administração indireta reflete uma administração descentralizada.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A administração direta é o conjunto de órgãos que integram as pessoas políticas ou federativas (União, estados, Distrito Federal e municípios), aos quais foi atribuída a competência para o exercício das atividades administrativas do Estado de forma centralizada. Já a administração pública indireta é composta pelas entidades administrativas, que possuem personalidade jurídica própria e são responsáveis por executar atividades administrativas de forma descentralizada. São elas: as autarquias, as fundações públicas e as empresas estatais (empresas públicas e sociedades de economia mista)."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2019) Desconcentração administrativa consiste na distribuição do exercício das funções administrativas entre pessoas jurídicas autônomas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A desconcentração ocorre exclusivamente dentro de uma mesma pessoa jurídica, constituindo uma técnica administrativa utilizada para distribuir internamente as competências. Assim, quando os municípios se organizam em secretarias, nada mais estão fazendo do que desconcentrando as competências dentro de sua própria estrutura. Por meio da desconcentração é que surgem os órgãos públicos. Contudo, a entidade política pode optar por transferir a terceiro a competência para determinada atividade administrativa, caso em que teremos a descentralização, que é a hipótese do enunciado. Logo, o conceito é de descentralização e não de desconcentração."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2019) Embora dotados de personalidade jurídica, os órgãos públicos não possuem capacidade processual para a defesa de suas prerrogativas e competências institucionais.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "De fato, em regra, os órgãos não gozam de capacidade processual, uma vez que não possuem personalidade jurídica. Daí o erro da questão. Porém, é importante ressaltar que os órgãos de estatura constitucional podem figurar em juízo, para a defesa de suas prerrogativas."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE RO/2019) Por princípio, as agências reguladoras",
+        "alternativas": [
+        "a) são constituídas como pessoa jurídica de direito privado e, por isso, deveriam ser classificadas como fundação.", 
+        "b) são entes vinculados e podem celebrar contratos de gestão com respectivos ministérios.", 
+        "c) possuem independência e podem escolher instrumentos que incentivem a eficiência produtiva e alocativa.", 
+        "d) recebem certificação e podem celebrar termos de parceria com o poder público.",
+        "e) promovem gestão associada de serviços públicos e transferência de encargos e de pessoal."],
+        "correta": "c) possuem independência e podem escolher instrumentos que incentivem a eficiência produtiva e alocativa.",
+        "explicacao": "a) agência reguladora é autarquia em regime especial, logo possuem personalidade de direito público - ERRADA; <br>b) as agências reguladoras são autarquias, ou seja, são vinculadas ao Ministério e sofrem controle finalístico. As autarquias, em geral, podem celebrar contrato de gestão com o respectivo Ministério para receber a qualificação de agência executiva. Por outro lado, a expressão “agências executivas” corresponde a um título ou qualificação atribuída à autarquia ou a fundações públicas cujo objetivo seja exercer atividade estatal. Não obstante, não existe nenhum impedimento legal para que uma agência reguladora seja qualificada também como agência executivo. Isso, porém, não é usual. Por esse motivo, a questão foi colocada como incorreta. De certa forma, não seria a agência reguladora que firma o contrato de gestão, mas as agências executivas - ERRADA; <br>c) as agências reguladoras possuem independência, já que gozam de autonomia própria e os seus membros exercem mandato fixo. Além disso, como responsáveis pelo setor regulado, elas se responsabilizam pela escolha de instrumentos que incentivem a eficiência do mercado, por meio de instrumentos de produtividade (máxima produção) e alocação (destinação adequada da produção) - CORRETA; <br>d) termo de parceria é celebrado por OSCIP, e não agência reguladora - ERRADA; <br>e) não é a sua função. Vejamos o que diz a CF: a União, os Estados, o Distrito Federal e os Municípios disciplinarão por meio de lei os consórcios públicos e os convênios de cooperação entre os entes federados, autorizando a gestão associada de serviços públicos, bem como a transferência total ou parcial de encargos, serviços, pessoal e bens essenciais à continuidade dos serviços transferidos (CF, art. 241) - ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE RO/2019) Um ente, ao ter sido descentralizado, passou a deter a titularidade de uma atividade e a executá-la de forma independente do ente que lhe deu origem, podendo até se opor a interferências indevidas. <br>Nesse caso, o ente passou por uma descentralização.",
+        "alternativas": [
+        "a) territorial.", 
+        "b) geográfica.", 
+        "c) por serviços.", 
+        "d) política.",
+        "e) por colaboração."],
+        "correta": "c) por serviços.",
+        "explicacao": "O enunciado apresenta uma descentralização por serviços, funcional, técnica ou por outorga, que se verifica quando uma entidade política (União, Estados, DF e Municípios), mediante lei, cria uma pessoa jurídica de direito público ou privado e a ela atribui a titularidade e a execução de determinado serviço público. Isso ocorre na criação das entidades da administração indireta, quais sejam, autarquias, empresas públicas, sociedades de economia mista e fundações públicas. Além dessas, os consórcios públicos, criados por entes federativos para a gestão associada de serviços públicos, também prestam serviços públicos mediante descentralização por serviços. <br>Nesse caso, o controle ocorre por meio de vinculação, uma vez que não há hierarquia. Além disso, como a descentralização por serviços depende de lei, a entidade recebe a titularidade da prestação do serviço e, por isso, pode se opor (não aceitar) a interferências indevidas, como ordens e controles influenciados por questões meramente políticas. <br>Com isso, o gabarito é a letra C.<br>As letras A e B estão erradas, já que a descentralização territorial ou geográfica é aquela que dá origem aos Territórios Federais. O erro na letra D é que a descentralização política é aquela que ocorre no nível constitucional, por meio da atribuição de competências próprias aos estados, DF e municípios. Por fim, na descentralização por colaboração ocorre a delegação de serviços públicos, envolvendo apenas a sua execução."
+      },
+      {
+        "pergunta": "(Cebraspe – MPC PA/2019) Acerca dos órgãos públicos e dos institutos da centralização e da descentralização administrativa, assinale a opção correta.",
+        "alternativas": [
+        "a) Os entes criados por descentralização permanecem hierarquicamente subordinados aos órgãos dos quais foram descentralizados.", 
+        "b) A administração centralizada atua por meio de órgãos públicos, que são unidades dotadas de personalidade jurídica e que expressam a vontade do Estado.", 
+        "c) A descentralização administrativa caracteriza-se pela retirada de atribuições da esfera do interesse público e sua transferência para o domínio privado.", 
+        "d) A criação e a extinção de órgãos públicos devem observar a exigência de lei ou decreto específico.",
+        "e) A descentralização política ocorre quando o ente descentralizado exerce atribuições próprias que não decorrem do ente central."],
+        "correta": "e) A descentralização política ocorre quando o ente descentralizado exerce atribuições próprias que não decorrem do ente central.",
+        "explicacao": "a) os entes descentralizados sofrem controle da administração direta por meio da vinculação, não sendo aqueles subordinados a esta - ERRADA; <br>b) os órgãos públicos não possuem personalidade jurídica própria. Pode-se definir o órgão público como uma unidade de competências sem personalidade jurídica própria. Ademais, a criação dos órgãos ocorre por desconcentração - ERRADA; <br>c) a descentralização é a distribuição de competências de uma para outra pessoa, física ou jurídica, de direito público ou privado. Ela pode ocorrer por delegação ou por outorga. No primeiro caso, o serviço será prestado por particulares, enquanto no segundo por entidades administrativas. Logo, não posso dizer que a transferência ocorre para o “domínio privado”, já que nem sempre serão os particulares os responsáveis pela prestação do serviço - ERRADA; <br>d) compete privativamente ao Presidente da República dispor, mediante decreto, sobre a organização e funcionamento da administração federal, quando não implicar aumento de despesa nem criação ou extinção de órgãos públicos. Assim, a criação ou extinção de órgãos públicos depende de lei (reserva legal), não de decreto (CF, art. 84, VI, 'a') - ERRADA; <br>e) a descentralização política ocorre quando o ente descentralizado exerce atribuições próprias que não decorrem do ente central. É a situação dos Estados-membros da federação e dos Municípios, que recebem atribuições da Constituição Federal - CORRETA."
+      },
+      {
+        "pergunta": "(Cebraspe – MPC PA/2019) Acerca da administração direta, indireta, centralizada e descentralizada, assinale a opção correta.",
+        "alternativas": [
+        "a) A descentralização consiste na repartição de competências exclusivamente entre órgãos da administração pública.", 
+        "b) O ente central da administração direta exerce, simultaneamente, a titularidade e a execução do serviço público.", 
+        "c) Diferentemente da descentralização administrativa, a descentralização política pressupõe uma relação de subordinação entre os entes integrantes do sistema federativo.", 
+        "d) Os estados-membros são criados via descentralização administrativa e exercem atribuições que decorrem do seu ente central.",
+        "e) O conceito de administração direta restringe-se ao Poder Executivo, na medida em que este concentra a titularidade do desempenho das funções administrativas do Estado."],
+        "correta": "b) O ente central da administração direta exerce, simultaneamente, a titularidade e a execução do serviço público.",
+        "explicacao": "a) a descentralização consiste na distribuição de competências de uma pessoa para outra. Quando há transferência entre órgãos da administração pública, ocorre a chamada desconcentração administrativa – ERRADA; <br>b) isso mesmo. O Estado é o titular dos serviços públicos, por expressa determinação constitucional ou legal. Ademais, o Estado pode se encarregar da prestação, o Estado será simultaneamente o titular e o executor do serviço. Ademais, essa execução pode ser transferida a outras entidades, como ocorre na descentralização – CORRETA; <br>c) não há subordinação entre as entidades políticas que compõem a federação, ou seja, não existe hierarquia entre a União, os estados, o DF e os municípios. Além disso, na descentralização também não há subordinação, mas sim vinculação entre as entidades administrativas e a administração direta – ERRADA; <br>d) a criação dos estados-membros decorre da descentralização política. Ademais, as entidades políticas recebem suas atribuições diretamente da Constituição – ERRADA; <br>e) o conceito não é restrito ao Executivo, apesar de se relacionar mais com as atividades exercidas por esse poder. Nesse sentido, existem órgãos da administração direta em todos os Poderes e em todas as esferas da federação – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2019) Autarquia pode ser criada por ato administrativo originário de ministério.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A criação das autarquias depende de lei específica, não sendo possível sua criação por atos administrativos. Assim, não há como criar uma autarquia por “ato administrativo originário de ministério”, uma vez que as leis não são originárias de ministérios e também não são atos administrativo. Nesse sentido, o art. 37, II da CF/88 diz que “somente por lei específica poderá ser criada autarquia”."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2019) A administração pública direta inclui as autarquias as fundações públicas e as empresas públicas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Nada disso. As autarquias, as fundações públicas e as empresas públicas (assim como as sociedades de economia mista) integram a administração pública indireta. Sobre a organização da Administração Pública, vale a pena relembrar o art. 4º do Decreto-Lei 200/1697: <br>Art. 4° A Administração Federal compreende: <br>I - A Administração Direta, que se constitui dos serviços integrados na estrutura administrativa da Presidência da República e dos Ministérios. <br>II - A Administração Indireta, que compreende as seguintes categorias de entidades, dotadas de personalidade jurídica própria: <br>a) Autarquias; <br>b) Empresas Públicas; <br>c) Sociedades de Economia Mista. <br>d) fundações públicas."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2019) A descentralização por colaboração ocorre, por exemplo, quando a administração pública, por meio de ato administrativo, transfere a execução de um serviço a uma pessoa jurídica, mas mantém a titularidade do serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Esse é o exato conceito de descentralização por delegação ou colaboração. Nesse tipo de descentralização, uma entidade política ou administrativa transfere, por contrato ou por ato unilateral, apenas a execução de um serviço a uma pessoa jurídica de direito privado preexistente. Assim, o Estado mantém a titularidade do serviço, e repassa a execução à pessoa que recebe a delegação, que prestará o serviço diretamente à população, em seu próprio nome e por sua conta e risco, sob fiscalização do Estado."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2019) A descentralização consiste na repartição de funções entre mais de um órgão de uma mesma administração, sem que haja quebra de hierarquia, e pode ocorrer por critério territorial.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A repartição de funções entre órgãos de uma mesma administração decorre do fenômeno da desconcentração, e não da descentralização. A descentralização ocorre entre pessoas distintas: de um lado, o Estado e, de outro, a pessoa física ou jurídica que recebe a atribuição de prestar o serviço. <br>Ademais, tanto na descentralização como na desconcentração há uma classificação denominada “territorial”. No caso de descentralização, há a descentralização territorial, que dá origem aos territórios federais. Por outro lado, na desconcentração territorial temos os órgãos que possuem atribuição em uma região específica, como uma unidade da Receita Federal encarregada da “região sul” do País."
+      },
+      {
+        "pergunta": "(Cebraspe – PF/2018) A centralização consiste na execução de tarefas administrativas pelo próprio Estado, por meio de órgãos internos e integrantes da administração pública direta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Quando o Estado presta os serviços por meio de seus órgãos e agentes integrantes da Administração direta, ou seja, que compõem as pessoas políticas, diz-se que o serviço é prestado de forma centralizada. Assim, os serviços são prestados pelos órgãos despersonalizados integrantes da própria entidade política. Exemplo disso são os serviços prestados pelos ministérios, pelas secretarias estaduais e municipais ou por seus órgãos subordinados. <br>Vale lembrar que um serviço pode ser prestado de forma centralizada e desconcentrada simultaneamente. Exemplo: o serviço prestado por um ministério (desconcentração) no âmbito da Administração direta (centralização)."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE PB/2018) Serviço autônomo com personalidade jurídica de direito público, patrimônio e receita próprios, criado por lei para executar atividades típicas da administração pública que requeiram, para seu melhor funcionamento, gestão administrativa e financeira descentralizada é o conceito de",
+        "alternativas": [
+        "a) consórcio público.", 
+        "b) autarquia.", 
+        "c) empresa pública.", 
+        "d) fundação pública.",
+        "e) sociedade de economia mista."],
+        "correta": "b) autarquia.",
+        "explicacao": "Dentre as alternativas, a única pessoa jurídica que é de direito público e somente pode ser criada mediante lei específica é a autarquia (art. 37, XIX). Portanto, nossa alternativa é a letra ‘B’. Vamos analisar as demais alternativas: <br>a) o consórcio público é uma pessoa jurídica criada por lei com a finalidade de executar a gestão associada de serviços públicos, onde os entes consorciados, que podem ser a União, os Estados, o Distrito Federal e os Municípios, destinarão pessoal e bens essenciais à execução dos serviços transferidos. Ele constituirá associação pública (pessoa jurídica de direito público) ou pessoa jurídica de direito privado (art. 1º, § 1º, c/c art. 6º §§º 1º e 2º, todos da Lei 11.107/05) – ERRADA; <br>c) e e) ambas são autorizados por lei e são pessoas jurídicas de direito privado – ERRADAS; <br>d) é autorizada por lei e admite os dois tipos de personalidade jurídica (direito público ou privado) – ERRADA;"
+      },
+      {
+        "pergunta": "(Cebraspe – CAGE RS/2018) Na administração pública, uma entidade criada por lei específica, com personalidade de direito público e patrimônio próprio, que desempenha atribuições públicas típicas e tem capacidade de autoadministração sob controle estatal é denominada",
+        "alternativas": [
+        "a) ente de cooperação.", 
+        "b) consórcio público.", 
+        "c) autarquia.", 
+        "d) fundação pública.",
+        "e) empresa governamental."],
+        "correta": "c) autarquia.",
+        "explicacao": "a) os entes de cooperação são formados pelas pessoas jurídicas de direito privado que prestam serviços públicos não exclusivos do Estado, que, por terem essa função de auxílio e complementação das atividades do próprio Estado, recebem esse nome de \"entes de cooperação\". Tais entidades não compõem a Administração Pública, pois integram o terceiro setor – ERRADA; b) os consórcios públicos admitem os dois tipos de personalidade jurídica (privado e público) – ERRADA; c) a autarquia é criada por lei específica e será, necessariamente, de direito público, pertencendo a administração indireta; assim, terá capacidade de autoadministração específica e sofrerá o controle finalístico por parte dos integrantes da administração direta – CORRETA; d) a fundação pública poderá ser pessoa jurídica de direito público ou privado. Maria Sylvia Zanella di Pietro leciona que a fundação tem natureza pública quando “é instituída pelo poder público com patrimônio, total ou parcialmente público, dotado de personalidade jurídica, de direito público ou privado, e, destinado, por lei, ao desempenho de atividades do Estado na ordem social, com capacidade de auto administração e mediante controle da Administração Pública, nos limites da lei” – ERRADA; e) empresa estatal ou governamental é gênero, que tem duas espécies: sociedade de economia mista e empresa pública. Ambos são pessoas jurídicas de direito privado, pertencentes à administração indireta e sua criação ocorre mediante autorização por lei – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – EMAP/2018) As autarquias, pessoas jurídicas de direito público, são criadas por lei e têm capacidade de autoadministração.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Outra questão conceitual! As autarquais são criadas por lei específica, têm capacidade de autoadministração, porque possuem patrimônio e receita próprios e executam atividades típicas da Administração Pública, que requeiram, para seu melhor funcionamento, gestão administrativa e financeira descentralizada (Decreto nº 200/67, art. 5º, I)."
+      },
+      {
+        "pergunta": "(Cebraspe – PGE PE/2018) Assinale a opção correta acerca da organização administrativa.",
+        "alternativas": [
+        "a) Ocorre descentralização por serviços quando o poder público contrata empresa privada para desempenhar atividade acessória à atividade finalística da administração.", 
+        "b) A autorização, a permissão e a concessão de serviços públicos a empresas privadas caracterizam desconcentração administrativa.", 
+        "c) O ente titular do serviço público pode interferir na execução do serviço público transferido a outra pessoa jurídica no caso descentralização por serviços.", 
+        "d) A descentralização por colaboração resulta na transferência da titularidade e da execução do serviço público para empresas públicas ou sociedades de economia mista.",
+        "e) No caso de descentralização por colaboração, a alteração das condições de execução do serviço público independe de previsão legal específica."],
+        "correta": "e) No caso de descentralização por colaboração, a alteração das condições de execução do serviço público independe de previsão legal específica.",
+        "explicacao": "a) a descentralização administrativa por serviços – também chamada de descentralização por outorga, técnica ou funcional – ocorre quando o Estado cria uma entidade administrativa, transferindo a realização de serviço público por prazo indeterminado (presunção de definitividade). O que a questão descreveu foi a descentralização por delegação ou colaboração, que ocorre quando se delega um serviço, mediante contrato ou ato administrativo, a uma pessoa privada – ERRADA <br>b) a desconcentração ocorre dentro de uma mesma pessoa jurídica, constituindo uma técnica administrativa utilizada para distribuir internamente as competências – exemplo: municípios criando secretarias. No entanto, a alternativa descreveu uma situação descentralização administrativa por delegação – ERRADA; <br>c) na descentralização por serviços, o controle, mediante tutela, ocorre nos limites da lei; esse controle tem que ser limitado pela lei precisamente para assegurar certa margem de independência ao ente descentralizado, sem o que não se justificaria a sua instituição. Logo, genericamente falando, o ente titular não pode “interferir” na execução do serviço – ERRADA; <br>d) a descentralização por colaboração é a que se verifica quando, por meio de contrato ou ato administrativo unilateral, se transfere a execução de determinado serviço público à pessoa jurídica de direito privado, previamente existente, conservando o Poder Público a titularidade do serviço. Além disso, em regra, as empresas públicas e sociedades de economia mista prestam serviços mediante descentralização por serviços e não por colaboração. Daí o erro da questão. <br>Porém, existem casos específicos em que uma EP e SEM poderá prestar serviços também por delegação ou colaboração. Vamos dar um exemplo: a União criou uma EP para atuar no setor de energia elétrica. Assim, no âmbito da União, houve uma descentralização por serviços, com a criação da entidade administrativa, mediante autorização legislativa. Porém, tal entidade poderá atuar no mercado competitivo, juntamente com empresas privadas. Ela poderá, por exemplo, concorrer em uma licitação, no âmbito estadual, para poder prestar o serviço de distribuição de energia elétrica. Se vencer a licitação e firmar o contrato, a EP estará prestando, no âmbito estadual, o serviço mediante delegação. Logo, tivemos simultaneamente a descentralização por serviços, quando a União criou a EP, e por delegação, quando o estado delegou o serviço de distribuição de energia elétrica para a EP criada pela União – ERRADA; <br>e) como essa descentralização é feita por contrato ou por ato unilateral, o Poder Público conserva a sua titularidade. Isso lhe permite dispor do serviço de acordo com o interesse público, envolvendo a possibilidade de alterar unilateralmente as condições de sua execução e de retomá-las antes do prazo estabelecido – CORRETA;"
+      },
+      {
+        "pergunta": "(Cebraspe – STJ/2018) A descentralização administrativa, um dos princípios que regem a administração pública, pressupõe a criação de entidades com personalidade jurídica própria para o exercício de funções tipicamente estatais.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "No DL 200/67, que dispõe sobre a organização da Administração Federal, são listados como princípios fundamentais: Planejamento; Coordenação; Descentralização; Delegação de Competência e Controle. <br>Então, podemos dizer, com base na legislação, que a descentralização administrativa é um princípio. <br>Ademais, a descentralização administrativa ocorre quando o Estado não executa o serviço por meio de sua Administração direta. Envolve, portanto, duas pessoas distintas: o Estado – União, estados, Distrito Federal e municípios – e a pessoa que executará o serviço (entidade administrativa ou particular), uma vez que recebeu essa atribuição do Estado. <br>Vale destacar que essa afirmação não foi das melhores, pois desconsiderou que o conceito de descentralização administrativa abrange também a descentralização por delegação, que não cria a entidade que vai prestar o serviço (delega a prestação a uma entidade preexistente). A banca não foi muito feliz nessa afirmativa, mas não adianta a gente “brigar” com o gabarito."
+      },
+      {
+        "pergunta": "(Cebraspe – CGM João Pessoa/2018) A descentralização, uma característica da administração direta, visa distribuir competências dentro de uma mesma pessoa jurídica, organizada hierarquicamente, a fim de atingir um melhor desempenho.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Essa é a desconcentração. A descentralização é a distribuição de competências de uma para outra pessoa, física ou jurídica."
+      },
+      {
+        "pergunta": "(Cebraspe – MPE PI/2018) O fato de a administração pública desmembrar seus órgãos, distribuindo os serviços dentro da mesma pessoa jurídica, para melhorar a sua organização estrutural, constitui exemplo de ato de desconcentração.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Isso mesmo. A desconcentração ocorre exclusivamente dentro de uma mesma pessoa jurídica, constituindo uma técnica administrativa utilizada para distribuir internamente as competências."
+      },
+      {
+        "pergunta": "(Cebraspe – MPE PI/2018) A existência de órgãos públicos que realizem atribuições predeterminadas, originárias da própria administração pública, caracteriza um processo de desconcentração administrativa.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Por meio da desconcentração é que surgem os órgãos públicos. Assim, há desconcentração quando a União se organiza em ministérios ou quando uma autarquia ou empresa pública se organiza em departamentos para melhor prestar os seus serviços. Afinal, a desconcentração é uma técnica administrativa de simplificação e aceleração do serviço dentro da mesma entidade."
+      },
+      {
+        "pergunta": "(Cebraspe – PC SE/2018) A diferença preponderante entre os institutos da descentralização e da desconcentração é que, no primeiro, há a ruptura do vínculo hierárquico e, no segundo, esse vínculo permanece.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A descentralização pressupõe a existência de, no mínimo, duas pessoas distintas: uma que transfere a competência e a outra que recebe. Não há relação hierárquica. Já a desconcentração ocorre dentro uma única pessoa jurídica, constituindo uma técnica administrativa de distribuição interna de competências, mediante relação hierárquica."
+      },
+      {
+        "pergunta": "(Cebraspe – PC SE/2018) Na administração pública, desconcentrar significa atribuir competências a órgãos de uma mesma entidade administrativa.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "É por meio da desconcentração que se criam os órgãos públicos, na mesma pessoa jurídica, os quais irão estar subordinados aos seus respectivos entes criadores, por uma relação de hierarquia."
+      },
+      {
+        "pergunta": "(Cebraspe – PM AL/2018) Caracterizada por ser uma medida de distribuição de competências dentro de uma mesma pessoa jurídica, a descentralização desafoga o volume de trabalho compreendido em um mesmo setor, já que se dispersam internamente as atribuições acumuladas ao serem distribuídas competências dentro de uma mesma pessoa jurídica.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Já deu para notar que o Cebraspe ama este assunto, não!? Esse é o conceito para a desconcentração. Na descentralização há a existência de, no mínimo, duas pessoas jurídicas distintas. Assim, por envolver pessoas jurídicas distintas, não há relação hierárquica na descentralização. Vale dizer, uma entidade administrativa, ou ainda uma concessionária de serviço público (no caso da descentralização por colaboração), não se subordina à Administração direta. Logo, como característica da descentralização, está a ausência de relação hierárquica."
+      },
+      {
+        "pergunta": "(Cebraspe – Polícia Federal/2018) Sob a perspectiva do critério formal adotado pelo Brasil, somente é administração pública aquilo determinado como tal pelo ordenamento jurídico brasileiro, independentemente da atividade exercida. Assim, a administração pública é composta exclusivamente pelos órgãos integrantes da administração direta e pelas entidades da administração indireta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "De fato, o Brasil adota o critério formal, ou seja, é Administração aquilo que a legislação diz que é Administração. Logo, pelo critério forma, a Administração Pública é formada pela Administração direta e pelas entidades administrativas (Administração indireta). Ademais, o critério formal opõe-se ao critério material, segundo o qual a Administração é formada por quem exerce a função administrativa. Este último critério não é o adotado no Brasil, uma vez que excluiria, por exemplo, as empresas públicas exploradoras de atividade econômica e incluiria na Administração as concessionárias e permissionárias de serviços públicos."
+      },
+      {
+        "pergunta": "(Cebraspe – Polícia Federal/2018) Ao outorgar determinada atribuição a pessoa não integrante de sua administração direta, o Estado serve-se da denominada desconcentração administrativa.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Isso é descentralização, que envolve mais do que uma pessoa jurídica. A desconcentração ocorria dentro de um mesmo ente. Logo, incorreto o quesito."
+      },
+      {
+        "pergunta": "(Cebraspe – Polícia Federal/2018) A administração direta é constituída de órgãos, ao passo que a administração indireta é composta por entidades dotadas de personalidade jurídica própria, como as autarquias, que são destinadas a executar serviços públicos de natureza social e atividades administrativas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A Administração direta é composta pelos órgãos administrativos dos Poderes do Estado. Por outro lado, a Administração indireta é formada pelas autarquias, fundações públicas, empresas públicas e sociedades de economia mista, que são as entidades administrativas. <br>Além disso, as autarquias são entidades de direito público. Em geral, costumamos dizer que as autarquias exercem atividades típicas ou exclusivas de Estado. Porém, Carvalho Filho afirma expressamente que as autarquias podem exercer “serviços públicos de natureza social e de atividades administrativas”, exceto aquelas atividades de caráter econômico. Logo o item está certo!"
+      },
+      {
+        "pergunta": "(Cebraspe – EMAP/2018) Os órgãos não dotados de personalidade jurídica própria que exercem funções administrativas e integram a União por desconcentração, componentes de uma hierarquia, fazem parte da administração direta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Isso mesmo! A questão traz alguns conceitos importantes, vejamos: (i) orgão: unidade que não possui personalidade jurídica, sendo um mero centro de competências instituído na estrutura interna da entidade; (ii) desconcentração: a entidade se desmembra internamente em órgãos, organizando em hierarquia. É técnica administrativa para melhorar o desempenho, ocorrendo “dentro” de uma pessoa jurídica; (iii) administração direta: conjunto de órgãos que integram as pessoas políticas do Estado (U, E, DF, M), aos quais foi atribuída a competência para o exercício de atividades administrativas, de forma centralizada. Quando o estado executa tarefas diretamente, através de seus órgãos internos, estamos diante da administração direta no desempenho de atividade centralizada (na mesma pessoa jurídica) e desconcentrada (já que dividida em órgãos internos). Com isso, concluímos que a questão está correta! <br>Observação: a desconcentração é a divisão interna de competências, podendo ocorrer tanto na Administração direta (exemplo: criação de ministérios e secretarias); como na indireta (exemplo: subdivisão de uma autarquia em departamentos regionais)."
+      },
+      {
+        "pergunta": "(Cebraspe – EMAP/2018) As autarquias somente podem ser criadas mediante lei específica, enquanto empresas públicas, sociedades de economia mista e fundações, que integram a administração indireta, podem ter sua criação autorizada mediante decreto do presidente da República.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A criação/autorização de entidades administrativas submete-se ao princípio da reserva legal, vale dizer, sempre dependerá de lei! No caso das entidades de direito público (autarquias e FP de direito público), a lei específica criará a entidade; já no caso de entidades de direito privado (EP, SEM e FP de direito privado), a lei autorizará a criação da entidade, mas que se consolidará por um ato subsequente: o registro do ato constitutivo. Logo, o decreto do presidente não é instrumento hábil para autorizar a criação de entidade administrativa."
+      },
+      {
+        "pergunta": "(Cebraspe – EMAP/2018) As agências reguladoras são autarquias em regime especial, o que lhes confere maior autonomia administrativa e financeira, contudo, não possuem independência em relação aos Poderes Executivo, Legislativo e Judiciário.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "O problema da questão é conceitual. As agências reguladoras gostam de autonomia mais acentuada em relação às demais autarquias; no entanto não podemos dizer que gozam de “independência”. <br>Nessa linha, as agências reguladoras submetem-se a controle pelo Poder Executivo, mediante a chamada tutela (ou supervisão ministerial), ainda que de forma mais limitada. Do mesmo modo, seus atos têm natureza administrativa, razão por que podem ser objeto de controle pelo Poder Judiciário, bastando, para tanto, a devida provocação de parte interessada, se houver lesão ou ameaça a direito (CF, art. 5º, XXXV); e também se submetem a controle do Poder Legislativo, no termos do art. 49, X, da CF. <br>Mesmo assim, vamos fazer uma ressalva. Apesar de concordarmos com o gabarito, vários autores utilizam a expressão independência para se referir à autonomia mais acentuada das agências reguladoras. Logo, algumas questões podem utilizar a expressão “independência”, motivo pelo qual devemos tomar cautela com o contexto da questão. Note, no entanto, que o ponto central da questão era justamente o termo independência, quando relacionado a todos os Poderes, daí porque a banca considerou a questão certa."
+      },
+      {
+        "pergunta": "(Cebraspe – EBSERH/2018) Somente por decreto específico poderá ser criada autarquia e autorizada a instituição de empresa pública, de sociedade de economia mista e de fundação, cabendo à lei complementar definir as áreas de atuação.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As autarquias somente podem ser criadas mediante lei específica (a mesma regra vale para as FP de direito público), enquanto empresas públicas, sociedades de economia mista e fundações públicas (de direito privado) dependem de autorização em lei específica para a criação. Ademais, no caso das fundações, a CF prevê que lei complementar deverá definir sua área de atuação. Essa lei complementar, quando editada, aplicar-se-á a todas as fundações públicas, definindo genericamente a área de atuação destas entidades. Logo, o item está incorreto, pois decreto não serve para criar ou autorizar a criação de entidade administrativa."
+      },
+      {
+        "pergunta": "(Cebraspe – STM/2018) As autarquias são pessoas jurídicas criadas por lei e possuem liberdade administrativa, não sendo subordinadas a órgãos estatais.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "As autarquias são pessoas jurídicas de direito público, criadas por lei, para desempenhar um serviço público sem subordinação com os órgãos do ente instituidor. Nesse caso, seria mais adequado usar a expressão “autonomia”, mas é comum a doutrina falar em “liberdade administrativa nos termos da lei”, em virtude da ausência de subordinação e da existência de controles nos limites definidos em lei. Nesta questão, o cerne não era a expressão “liberdade”, mas sim a ausência de subordinação ao ente instituidor. Por isso, a banca deu a questão como correta. Eu sei que isso, na prova, pode gerar muita dúvida, mas temos que nos acostumar com o “estilo Cebraspe de ser”. Pense da seguinte forma: sempre que você puder considerar uma questão como certa, considere-a certa. Esta estratégia costuma funcionar com o Cebraspe. Pode não ser “100%”, mas é uma estratégia a se adotar."
+      },
+      {
+        "pergunta": "(Cebraspe – STM/2018) A descentralização administrativa consiste na distribuição interna de competências agrupadas em unidades individualizadas.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A desconcentração é que representa uma distribuição interna de competências. Na descentralização, temos pessoas jurídicas distintas, motivo pelo qual a distribuição não é “interna”."
+      },
+      {
+        "pergunta": "(Cebraspe – STM/2018) Quando criadas como autarquias de regime especial, as agências reguladoras integram a administração direta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Em qualquer caso, as autarquias integram a Administração indireta."
+      },
+      {
+        "pergunta": "(Cebraspe – CGM João Pessoa PB/2018) A criação de secretaria municipal de defesa do meio ambiente por prefeito municipal configura caso de desconcentração administrativa.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A desconcentração ocorre quando a mesma pessoa jurídica cria um órgão. É a realocação interna de competências para órgãos e unidades administrativas periféricas. Vale o macete: descOncentração cria Órgãos."
+      },
+      {
+        "pergunta": "(Cebraspe – CGM João Pessoa PB/2018) Autarquia é pessoa jurídica criada por lei específica, com personalidade jurídica de direito público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A autarquia é pessoa jurídica de direito público, integrante da administração indireta, criada por lei para desempenhar funções que, despidas de caráter econômico, sejam próprias e típicas do Estado."
+      },
+      {
+        "pergunta": "(Cebraspe – CGM João Pessoa PB/2018) Define-se desconcentração como o fenômeno administrativo que consiste na distribuição de competências de determinada pessoa jurídica da administração direta para outra pessoa jurídica, seja ela pública ou privada.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A desconcentração, segundo Maria Sylvia Zanella Di Pietro, é uma “distribuição interna de competências, ou seja, uma distribuição de competências dentro da mesma pessoa jurídica”. Já a descentralização é a “distribuição de competências de uma para outra pessoa, física ou jurídica”, e pode ser através de outorga, quando há a transferência da titularidade e da execução do serviço público, ou por meio de delegação, que há a mera transferência da execução destes serviços. Logo, a questão trocou a descentralização pela desconcentração."
+      },
+      {
+        "pergunta": "(Cebraspe – CGM João Pessoa PB/2018) É possível a constituição de fundação pública de direito público ou de direito privado para a exploração direta de atividade econômica pelo Estado, quando relevante ao interesse público.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Independentemente da natureza jurídica (pública ou privada), as fundações públicas não podem exercer atividades econômicas. Em geral, as fundações públicas exercem atividades de interesse social. Somente as EP e SEM podem exercer atividade de caráter econômico."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE TO/2017) Consideram-se entes da administração direta",
+        "alternativas": [
+        "a) as entidades vinculadas ao ministério em cuja área de competência estiver enquadrada sua principal atividade.", 
+        "b) as entidades da sociedade civil qualificadas como organização social.", 
+        "c) as autarquias.", 
+        "d) os serviços integrados na estrutura administrativa da Presidência da República e dos ministérios.",
+        "e) as fundações públicas."],
+        "correta": "d) os serviços integrados na estrutura administrativa da Presidência da República e dos ministérios.",
+        "explicacao": "A Administração Direta é o conjunto de órgãos que integram as pessoas políticas ou federativas (União, estados, Distrito Federal e municípios), aos quais foi atribuída a competência para o exercício das atividades administrativas do Estado de forma centralizada. O Decreto-Lei nº 200/1967, aplicável exclusivamente ao Poder Executivo Federal, dispõe que a “Administração Direta, que se constitui dos serviços integrados na estrutura administrativa da Presidência da República e dos Ministérios” (art. 2º, I). Correta, portanto, a alternativa D. <br>As demais alternativas referem-se à Administração Indireta, exceto quanto às organizações sociais, que são entidades paraestatais e não são consideradas como administração direta (nem indireta)."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE TO/2017) No que tange à organização administrativa e aos institutos da centralização, descentralização e desconcentração, julgue os itens a seguir. <br>I - Os institutos da descentralização e da desconcentração diferenciam-se quanto ao número de pessoas envolvidas no processo. <br>II - A descentralização ocorre no âmbito de uma única pessoa jurídica. <br>III - A desconcentração administrativa acontece quando a administração reparte as atribuições e competências dentro do mesmo órgão. <br>Assinale a opção correta.",
+        "alternativas": [
+        "a) Apenas o item I está certo.", 
+        "b) Apenas o item II está certo.", 
+        "c) Apenas os itens I e III estão certos.", 
+        "d) Apenas os itens II e III estão certos.",
+        "e) Todos os itens estão certos."],
+        "correta": "c) Apenas os itens I e III estão certos.",
+        "explicacao": "I - Os institutos da descentralização e da desconcentração diferenciam-se quanto ao número de pessoas envolvidas no processo – essa é uma forma de se explicar sobre a descentralização e desconcentração: na primeira, existem duas pessoas distintas: o Estado – União, estados, Distrito Federal e municípios – e a pessoa que executará o serviço, uma vez que recebeu essa atribuição do Estado; já a segunda ocorre exclusivamente dentro de uma mesma pessoa jurídica, constituindo uma técnica administrativa utilizada para distribuir internamente as competências – CORRETA; II - A descentralização ocorre no âmbito de uma única pessoa jurídica – acabamos de ver acima que não – ERRADA; III - A desconcentração administrativa acontece quando a administração reparte as atribuições e competências dentro do mesmo órgão – exatamente. Foi o que explicamos no item I – CORRETA. Assim, os itens I e III estão certos, e o item II está errado."
+      },
+      {
+        "pergunta": "(Cebraspe – TCE PE/2017) As autarquias e as fundações públicas incluem-se entre as entidades que integram a administração pública indireta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A Administração Indireta é formada pelas entidades administrativas, todas com personalidade jurídica própria. São elas: as autarquias, as fundações públicas, as empresas públicas e as sociedades de economia mista."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE BA/2017) Em razão da grande demanda constitucional por sua atuação, o Estado, além de realizar suas atividades administrativas de maneira direta, pode desenvolvê-las de modo indireto por meio de órgãos, agentes e pessoas jurídicas. Nesse cenário da organização administrativa, podem ocorrer os processos de desconcentração e descentralização do poder. Acerca desses processos, assinale a opção correta.",
+        "alternativas": [
+        "a) O processo de distribuição interna de competências decisórias, agrupadas em unidades do conjunto orgânico que compõe o Estado, é chamado de desconcentração.", 
+        "b) A desconcentração administrativa pressupõe pessoas jurídicas diversas daquelas que originalmente teriam titulação sobre a atividade.", 
+        "c) O Estado pode exercer diretamente as atividades administrativas ou desenvolvê-las por meio de outros agentes públicos, o que caracteriza a desconcentração.", 
+        "d) A atividade administrativa exercida pelo próprio Estado ou pelo conjunto orgânico que o compõe é chamada descentralizada.",
+        "e) Na centralização, o Estado atua indiretamente por meio dos seus órgãos, isto é, do conjunto orgânico que o compõe, e dele não se distingue."],
+        "correta": "a) O processo de distribuição interna de competências decisórias, agrupadas em unidades do conjunto orgânico que compõe o Estado, é chamado de desconcentração.",
+        "explicacao": "a) logo de cara, a assertiva correta. O fenômeno da desconcentração corresponde à distribuição interna de competências, no âmbito da mesma pessoa jurídica, dando origem aos órgãos públicos – CORRETA; <br>b) e c) essas são características da descentralização – ERRADAS; <br>d) e e) quando o Estado presta os serviços por meio de seus órgãos e agentes integrantes da Administração direta, ou seja, que compõem as pessoas políticas, diz-se que o serviço é prestado de forma centralizada – ERRADAS;"
+      },
+      {
+        "pergunta": "(Cebraspe – Prefeitura de Fortaleza - CE/2017) Ao instituir programa para a reforma de presídios federais, o governo federal determinou que fosse criada uma entidade para fiscalizar e controlar a prestação dos serviços de reforma. Nessa situação, tal entidade, devido à sua finalidade e desde que criada mediante lei específica, constituirá uma agência executiva.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "X",
+        "explicacao": "XXX"
+      },
+      {
+        "pergunta": "(Cebraspe – Prefeitura de Fortaleza - CE/2017) Ao instituir programa para a reforma de presídios federais, o governo federal determinou que fosse criada uma entidade para fiscalizar e controlar a prestação dos serviços de reforma. Nessa situação, tal entidade, devido à sua finalidade e desde que criada mediante lei específica, constituirá uma agência executiva.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Segundo a Profª. Maria Sylvia Zanella Di Pietro, a agência executiva é uma qualificação dada à autarquia ou fundação que tenha celebrado contrato de gestão com o órgão da Administração Direta a que se acha vinculada, para melhoria da eficiência e redução de custos. Não se trata de entidade instituída com a denominação de agência executiva. Trata-se de entidade preexistente (autarquia ou fundação governamental) que, uma vez preenchidos os requisitos legais, recebe a qualificação de agência executiva, podendo perdê-la, se deixar de atender aos requisitos. Portanto, como no caso do enunciado foi criada uma nova entidade, não seria uma agência executiva."
+      },
+      {
+        "pergunta": "(Cebraspe – SEDF/2017) Uma autarquia é entidade administrativa personalizada distinta do ente federado que a criou e se sujeita a regime jurídico de direito público no que diz respeito a sua criação e extinção, bem como aos seus poderes, prerrogativas e restrições.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A autarquia é o serviço autônomo, criado por lei, com personalidade jurídica, patrimônio e receita próprios, para executar atividades típicas da Administração Pública, que requeiram, para seu melhor funcionamento, gestão administrativa e financeira descentralizada (DL 200/67, art. 5º, I)."
+      },
+      {
+        "pergunta": "(Cebraspe – SEDF/2017) João, servidor público ocupante do cargo de motorista de determinada autarquia do DF, estava conduzindo o veículo oficial durante o expediente quando avistou sua esposa no carro de um homem. Imediatamente, João dolosamente acelerou em direção ao veículo do homem, provocando uma batida e, por consequência, dano aos veículos. O homem, então, ingressou com ação judicial contra a autarquia requerendo a reparação dos danos materiais sofridos. A autarquia instaurou procedimento administrativo disciplinar contra João para apurar suposta violação de dever funcional. No que se refere à situação hipotética apresentada, julgue o item a seguir. <br>João é servidor de entidade integrante da administração indireta.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "João ocupa cargo em uma autarquia do DF. Nesse caso, ele exerce suas funções em uma entidade da administração indireta distrital."
+      },
+      {
+        "pergunta": "(Cebraspe – SEDF/2017) As secretarias municipais de determinado município integram a administração indireta desse ente federado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "As secretarias municipais são exemplo clássico de desconcentração administrativa. Elas são órgãos integrantes de uma mesma pessoa jurídica, caracterizando a distribuição interna de competências na Administração Direta."
+      },
+      {
+        "pergunta": "(Cebraspe – SEDF/2017) Quando a União cria uma nova secretaria vinculada a um de seus ministérios para repassar a ela algumas de suas atribuições, o ente federal descentraliza uma atividade administrativa a um ente personalizado.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "A secretaria foi criada no âmbito de um ministério, e essa distribuição de competências na estrutura interna da União caracteriza a desconcentração administrativa."
+      },
+      {
+        "pergunta": "(Cebraspe – SEDF/2017) O prefeito de determinado município utilizou recursos do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (FUNDEB) para pagamento de professores e para a compra de medicamentos e insumos hospitalares destinados à assistência médico-odontológica das crianças em idade escolar do município. Mauro, chefe do setor de aquisições da prefeitura, propositalmente permitia que o estoque de medicamentos e insumos hospitalares chegasse a zero para justificar situação emergencial e dispensar indevidamente a licitação, adquirindo os produtos, a preços superfaturados, da empresa Y, pertencente a sua sobrinha, que desconhecia o esquema fraudulento. A respeito da situação hipotética apresentada e de aspectos legais e doutrinários a ela relacionados, julgue o item a seguir. <br>A criação de um órgão denominado setor de aquisições na citada prefeitura constitui exemplo de desconcentração.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Os órgãos são centros de competências, criados no âmbito da mesma pessoa jurídica, sem personalidade jurídica própria, que atuam, por meio dos agentes nele lotados, em nome da entidade política ou administrativa que a integram. Lembrando que é por meio da desconcentração que surgem os órgãos públicos."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT CE/2017) Para o direito administrativo brasileiro, uma característica das autarquias é a",
+        "alternativas": [
+        "a) autonomia equiparada à dos entes federativos que as criam.", 
+        "b) natureza jurídica público-privada.", 
+        "c) capacidade de autoadministração.", 
+        "d) criação por portaria ministerial."],
+        "correta": "c) capacidade de autoadministração.",
+        "explicacao": "Há certo consenso entre a doutrina ao apontarem as características das autarquias: criação por lei; personalidade jurídica pública; capacidade de autoadministração; especialização dos fins ou atividades; sujeição a controle ou tutela."
+      },
+      {
+        "pergunta": "(Cebraspe – TRE PE/2017) As autarquias",
+        "alternativas": [
+        "a) são criadas, extintas e organizadas por atos administrativos.", 
+        "b) têm sua criação e sua extinção submetidas a reserva legal, podendo ter sua organização regulada por decreto.", 
+        "c) têm sua criação submetida a reserva legal, mas podem ser extintas por decreto, podendo ter sua organização regulada por atos administrativos.", 
+        "d) são criadas e organizadas por decreto e podem ser extintas por essa mesma via administrativa.",
+        "e) são criadas e extintas por decreto, podendo ter sua organização regulada por atos administrativos."],
+        "correta": "b) têm sua criação e sua extinção submetidas a reserva legal, podendo ter sua organização regulada por decreto.",
+        "explicacao": "A criação e a extinção das autarquias dependem de lei específica, logo tanto a criação como a extinção submetem-se ao princípio da reserva legal. Daí porque as autarquias não podem ser criadas nem extintas por decretos ou outros atos administrativos. <br>Por outro lado, a organização das autarquias pode ser feita por decreto, desde que isso não implique aumento de despesa nem criação ou extinção de órgãos públicos (CF, art. 84, VI, “a”)."
+      },
+      {
+        "pergunta": "(Cebraspe – TRF 1ª REGIÃO/2017) Administração direta remete à ideia de administração centralizada, ao passo que administração indireta se relaciona à noção de administração descentralizada.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "A expressão administração direta também costuma ser substituída por administração centralizada; enquanto a administração indireta também costuma ser chamada de administração descentralizada. Logo, não há muito o que comentar sobre esse quesito."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT CE/2017) As características das agências reguladoras incluem",
+        "alternativas": [
+        "a) relações de trabalho regulamentadas pela CLT.", 
+        "b) personalidade jurídica de direito privado.", 
+        "c) discricionariedade técnica no exercício do poder normativo.", 
+        "d) livre exoneração de seus dirigentes."],
+        "correta": "c) discricionariedade técnica no exercício do poder normativo.",
+        "explicacao": "As agências reguladoras são autarquias sob regime especial. Logo, o regime de pessoal é estatutário e a entidade é de direito público. Além disso, as agências reguladoras possuem maior autonomia em relação ao ente instituir em virtude do mandato fixo dos seus membros. Vale dizer, os diretores das agências, uma vez preenchidos determinados requisitos legais, não poderão ser livremente exonerados pela autoridade nomeante. Logo, as letras A, B e D estão erradas. <br>Sobra a alternativa C. Em geral, as agências reguladoras exercem o poder normativo em relação ao serviço que estão regulando, podendo editar normas de caráter técnico que devem ser observadas pelas entidades que atuam neste setor. Por exemplo, a Anatel pode editar atos normativos técnicos relacionados ao setor de telefonia. Tais normas, assim como os demais atos normativos, são editadas com determinada discricionariedade, justamente por prescreverem assuntos que, em geral, são abstratos."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT CE/2017) Ao transferir, por contrato, a execução de atividade administrativa para uma pessoa jurídica de direito privado, a União se utiliza do instituto da",
+        "alternativas": [
+        "a) desconcentração.", 
+        "b) outorga.", 
+        "c) descentralização.", 
+        "d) concentração."],
+        "correta": "c) descentralização.",
+        "explicacao": "Trata-se da descentralização por colaboração (ou por delegação), que se aplica nos casos em que a União transfere atividades por meio de contrato (excepcionalmente pode ser por ato administrativo), como nos contratos de concessão de serviços públicos. Assim, o gabarito é a letra C. <br>A desconcentração e a concentração ocorrem na mesma pessoa jurídica, ao passo que a outorga é a descentralização realizada por lei, na qual são criadas as entidades administrativas."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT CE/2017) A União, por intermédio do Ministério do Trabalho e Emprego, pretende criar uma autarquia para a execução de determinadas atividades administrativas típicas. Nessa situação hipotética, a autarquia deverá ser criada por",
+        "alternativas": [
+        "a) lei complementar.", 
+        "b) portaria ministerial.", 
+        "c) decreto presidencial.", 
+        "d) lei ordinária específica."],
+        "correta": "d) lei ordinária específica.",
+        "explicacao": "As autarquias são criadas, nos termos do art. 37, XIX, da Constituição Federal, por lei específica, que nada mais é que uma lei ordinária."
+      },
+      {
+        "pergunta": "(Cebraspe – TRT 8ª Região/2016) A autarquia",
+        "alternativas": [
+        "a) é pessoa jurídica de direito público.", 
+        "b) inicia-se com a inscrição de seu ato constitutivo em registro público.", 
+        "c) subordina-se ao ente estatal que a instituir.", 
+        "d) é uma entidade de competência política, desprovida de caráter administrativo.",
+        "e) integra a administração pública direta."],
+        "correta": "a) é pessoa jurídica de direito público.",
+        "explicacao": "Essa é uma questão muito simples. A autarquia é pessoa jurídica de direito público – letra A. Vamos analisar as outras opções: <br>b) a autarquia inicia-se com a lei de sua criação. A inscrição do ato constitutivo em registro público é a marca da criação das entidades de direito privado – ERRADA; <br>c) não há subordinação entre a autarquia (ou qualquer outra entidade administrativa) e o ente estatal que a instituir – ERRADA; <br>d) pelo contrário: a autarquia é entidade de competência administrativa, desprovida de caráter político, isto é, não possui capacidade legislativa – ERRADA; <br>e) a autarquia integra a administração pública indireta – ERRADA."
+      },
+      {
+        "pergunta": "(Cebraspe – INSS/2016) O INSS integra a administração direta do governo federal, uma vez que esse instituto é uma autarquia federal vinculada ao MPS.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "O INSS é uma autarquia e, por conseguinte, integra a Administração indireta do governo federal. Além disso, atualmente, o INSS não está mais vinculado ao MPS, que foi extinto."
+      },
+      {
+        "pergunta": "(Cebraspe – DPU/2016) Uma autarquia federal, desejando comprar um bem imóvel — não enquadrado nas hipóteses em que a licitação é dispensada, dispensável ou inexigível — com valor de contratação estimado em R$ 50.000,00, efetuou licitação na modalidade concorrência. É prerrogativa da referida autarquia, que certamente foi criada por meio de lei específica, a impenhorabilidade dos seus bens.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Certo",
+        "explicacao": "Em primeiro lugar, deve-se anotar que a Constituição Federal determina que a criação de autarquias deve ocorrer por meio de lei específica (art. 37, XIX). Além disso, por ser uma pessoa jurídica de direito público, os bens das autarquias são considerados bens públicos (CC, art. 98). Por conseguinte, os bens da autarquia são impenhoráveis, imprescritíveis e sofrem limitações para fins de alienação. <br>Portanto, a autarquia foi criada por lei específica e os seus bens são impenhoráveis."
+      },
+      {
+        "pergunta": "(Cebraspe – DPU/2016) A criação de autarquia federal depende de edição de lei complementar.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Autarquias são pessoas jurídicas de direito público, criadas por lei, com capacidade de autoadministração, para o desempenho de serviço público descentralizado, mediante controle administrativo exercido nos limites da lei. <br>Assim, tanto a criação quanto a extinção das autarquias devem ocorrer por meio de lei específica, que se trata de uma lei ordinária, nos termos previstos no art. 37, XIX, da CF. <br>Lembra-se que a edição de lei complementar tem o fim de definir as áreas de atuação das fundações públicas (não as criar), nos termos do art. 37, XIX, da Constituição da República."
+      },
+      {
+        "pergunta": "(Cebraspe – DPU/2016) Faculta-se ao poder público, nos contratos de gestão, o estabelecimento de metas de desempenho para o aumento da eficiência do ente contratante.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Essa questão complementa a anterior. Quando o poder público firma um contrato de gestão, é obrigatória a fixação de metas de desempenho para o órgão ou entidade. Logo, não se trata de uma faculdade, mas sim de uma obrigação."
+      },
+      {
+        "pergunta": "(Cebraspe – DPU/2016) A desconcentração de serviços é caracterizada pelas situações em que o poder público cria, por meio de lei, uma pessoa jurídica e a ela atribui a execução de determinado serviço.",
+        "alternativas": [
+        "Certo",
+        "Errado"],
+        "correta": "Errado",
+        "explicacao": "Muito simples: na desconcentração, são criados órgãos; ao passo que, na descentralização, são criados entes. Assim, a definição da questão é a de descentralização."
+      },
+      {
         "pergunta": "QUESTÃO V OU F",
         "alternativas": [
         "Certo",
@@ -10764,7 +11837,7 @@
         "explicacao": "Cuidado aqui, meu povo! A questão está errada porque Fluxos de Valor e Processos são uma dimensão do ITIL 4, sim, mas elas não tratam especificamente do relacionamento com outras entidades. Essa definição está mais ligada à dimensão Parceiros e Fornecedores. A dimensão de Fluxos de Valor e Processos trata de como as partes internas da organização interagem para criar valor. Portanto, questão errada."
       },
       {
-        "pergunta": "(CEBRASPE – TRF 6ª Região – 2025) Em relação aos modelos e às referências de governança da tecnologia da informação, julgue o item a seguir. <br.A cadeia de valor de serviço do ITIL v4 é formada pelas práticas, pelos princípios orientadores, pela governança e pela melhoria contínua.",
+        "pergunta": "(CEBRASPE – TRF 6ª Região – 2025) Em relação aos modelos e às referências de governança da tecnologia da informação, julgue o item a seguir. <br>.A cadeia de valor de serviço do ITIL v4 é formada pelas práticas, pelos princípios orientadores, pela governança e pela melhoria contínua.",
         "alternativas": [
         "Certo",
         "Errado"],
@@ -11351,7 +12424,7 @@
         "explicacao": "a) prática de gerenciamento de ativo de TI: Prática de planejamento e gerenciamento do ciclo de vida completo de todos os ativos de TI. <br>b) prática de gerenciamento de catálogo de serviço. Prática que, além de propiciar uma única fonte de informação consistente sobre todos os serviços e as ofertas de serviços, garante que ela esteja disponível para o público-alvo pertinente. <br>c) prática de gerenciamento de configuração de serviço. Prática que garante que informações precisas e confiáveis sobre a configuração dos serviços e sobre os itens de configuração que suportam os serviços estejam disponíveis quando e onde necessário. <br>d) prática de gerenciamento de portfólio: Prática que garante a uma organização a combinação certa de programas, projetos, produtos e serviços para executar sua estratégia dentro de suas restrições de orçamento e de recursos. <br>e) release, trata-se da prática de gerenciamento de liberação: Prática de disponibilizar serviços e características novos e modificados para uso."
       },
       {
-        "pergunta": "(FGV – Analista Legislativo – Informática Legislativa -Análise de Sistemas (Senado Federal) /2022) Segundo o livro Operações de Serviço da ITIL®, o Gerenciamento de Problemas é o processo responsável por gerenciar o ciclo de vida de todos os problemas, sendo problema a causa de um ou mais incidentes. <br>Considere que você é o gerente de problemas da Brasil Eventos e precisa justificar a adoção deste processo para seus superiores apresentando a eles os objetivos do processo de Gerenciamento de Problemas. <br>Selecione a opção que apresenta apenas exemplos de objetivos deste processo.",
+        "pergunta": "(FGV – Analista Legislativo – Informática Legislativa -Análise de Sistemas (Senado Federal) /2022) Segundo o livro Operações de Serviço da ITIL>, o Gerenciamento de Problemas é o processo responsável por gerenciar o ciclo de vida de todos os problemas, sendo problema a causa de um ou mais incidentes. <br>Considere que você é o gerente de problemas da Brasil Eventos e precisa justificar a adoção deste processo para seus superiores apresentando a eles os objetivos do processo de Gerenciamento de Problemas. <br>Selecione a opção que apresenta apenas exemplos de objetivos deste processo.",
         "alternativas": [
         "a) Eliminar incidentes recorrentes; minimizar o impacto de incidentes que eventualmente não possam ser prevenidos.", 
         "b) Eliminar incidentes recorrentes; aumentar a visibilidade e comunicação dos incidentes para a equipe de suporte de TI e para o negócio.", 
@@ -16379,7 +17452,7 @@
           "d) <u>Seje</u> sempre bem-humorado com os passageiros.",
           "e) Gostaríamos de que você <u>vesse</u> esse filme."
         ],
-        "correta": "a) Pegue o outro elevador, por favor.",
+        "correta": "a) <u>Pegue</u> o outro elevador, por favor.",
         "explicacao": "'Pegue' é forma de imperativo afirmativo, que deriva do presente do subjuntivo: 'Que você pegue' > 'Pegue você'.<br>b) 'esteja' é a forma correta.<br>c) 'propuser' é a forma correta.<br>d) 'Seja' é a forma correta.<br>e) 'visse' é a forma correta."
       },
       {
@@ -17231,7 +18304,7 @@
           "d) Muitos de nós <u>quer</u> viver sob condições melhores.",
           "e) Cada um de nós <u>devem</u> ter consciência do seu valor."
         ],
-        "correta": "b) Deve haver muitos engraxates pelos aeroportos do Rio.",
+        "correta": "b) <u>Deve haver</u> muitos engraxates pelos aeroportos do Rio.",
         "explicacao": "Os verbos 'haver' e 'fazer' impessoais não são flexionados no plural. Na locução verbal, o auxiliar também fica na terceira pessoa do singular. As demais: a) 'faz'; c) 'desejam'; d) 'queremos' ou 'querem'; e) 'deve'."
       },
       {
@@ -17545,18 +18618,6 @@
         ],
         "correta": "b) ainda fiel à toda técnica",
         "explicacao": "É proibido o uso de crase antes de pronome indefinido 'toda'. Na letra A, a crase é possível com o pronome demonstrativo 'aquela' (fiel A + Aquela = fiel Àquela). Na letra C, a crase é facultativa antes de pronome possessivo adjetivo. Nas letras D e E, a crase é obrigatória (fiel A + A técnica = fiel À técnica)."
-      },
-      {
-        "pergunta": "(CESGRANRIO / BANCO DO BRASIL / ESCRITURÁRIO - PROVA A / 2021) De acordo com a norma-padrão da língua portuguesa, o emprego do acento grave indicativo da crase é obrigatório na palavra destacada em:",
-        "alternativas": [
-          "a) A exigência de entrar em contato com instituições financeiras obrigou o cliente a criar senhas para ter acesso aos serviços bancários.",
-          "b) A falta de leis sobre privacidade digital exige que os indivíduos se preparem para enfrentar a invasão do acesso a suas vidas privadas.",
-          "c) A revolução da tecnologia da informação modificou a realidade social, penetrando em todas as esferas da atividade humana.",
-          "d) As pesquisas tecnológicas são indispensáveis <u>devido a</u> importância de solucionar problemas causados pela invasão de dados.",
-          "e) O surgimento das redes sociais e dos sites de compartilhamento conduziu as pessoas a novas situações de risco na sociedade atual."
-        ],
-        "correta": "d) As pesquisas tecnológicas são indispensáveis devido à importância de solucionar problemas causados pela invasão de dados.",
-        "explicacao": "Ocorre crase pela fusão entre preposição e artigo: 'devido A' + 'A importância'. As demais: a) não há crase antes de verbo; b) facultativa antes de pronome possessivo adjetivo; c) 'modificou' é VTD, apenas artigo; e) não há artigo ('a novas situações')."
       },
       {
         "pergunta": "(CESGRANRIO - ATA (AgeRIO)/AgeRIO/2023) A palavra resiliência refere-se à capacidade de voltar ao estado natural, principalmente após alguma situação crítica e fora do comum. Ela é utilizada em várias áreas do conhecimento. Em 'De acordo com uma especialista em ciência e Amazônia, a hipótese de savanização precisa ser encarada com seriedade, porque a floresta amazônica tem <u>resiliência</u>' (parágrafo 6), o sentido dessa palavra no contexto é a(o)",
@@ -18189,7 +19250,7 @@
         "c) 0,25",
         "d) 0,50",
         "e) 1"],
-        "correta": "a) cinco unidades",
+        "correta": "c) 0,25",
         "explicacao": "Sendo assim, reescrever a tabela apresentada no enunciado, acrescentando uma coluna para as frequências acumuladas:<br><img src='../dados/imgs/questao_probabilidade_6.png' alt='imagem da questão'><br>Agora, podemos aplicar a fórmula anterior:<br><img src='../dados/imgs/questao_probabilidade_7.png' alt='imagem da questão'><br>Sendo assim, a mediana dessa distribuição é igual a 0,25."
       },
       {
